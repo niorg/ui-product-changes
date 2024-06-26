@@ -23407,6 +23407,26 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-UKPRO",
+        "ic": "6545A-UKPRO",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "U7-Outdoor",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "guids": [
         "94fa7682-bcb9-40aa-8552-f7c96eaa0231"
       ],
@@ -23808,7 +23828,7 @@
             "na": {
               "gain": 6,
               "maxPower": 26,
-              "maxSpeedMegabitsPerSecond": 5765
+              "maxSpeedMegabitsPerSecond": 2882
             },
             "ng": {
               "gain": 4,
@@ -51184,5 +51204,5 @@
       "videos": {}
     }
   ],
-  "version": "28a179743ee3887387e9ee2e813b318b90d9d8ec"
+  "version": "ae54750b69f6826e08714a179545d81ab6626d33"
 }
