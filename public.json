@@ -20839,129 +20839,27 @@
       "videos": {}
     },
     {
-      "guids": [],
-      "icon": {
-        "id": "299afbfa-1584-2214-5673-42e6f7560a67",
-        "resolutions": [
-          [
-            25,
-            25
+      "compliance": {
+        "fcc": "SWX-ULTEBP\nContains FCC ID: SWX-RC7611",
+        "ic": "6545A-ULTEBP\nContains IC: 6545A-RC7611",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "U-LTE-Backup Pro",
+        "ncc": "CCAH214G0321T3",
+        "productName": "U-LTE-Backup-Pro",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
           ],
-          [
-            32,
-            32
-          ],
-          [
-            51,
-            51
-          ],
-          [
-            64,
-            64
-          ],
-          [
-            101,
-            101
-          ],
-          [
-            128,
-            128
-          ],
-          [
-            129,
-            129
-          ],
-          [
-            256,
-            256
-          ],
-          [
-            257,
-            257
-          ],
-          [
-            512,
-            512
-          ],
-          [
-            1000,
-            1000
+          "US": [
+            "FCC_A",
+            "RF"
           ]
-        ]
-      },
-      "id": "5dc0d4df-cdaa-44dc-ac4f-d430260700c6",
-      "images": {
-        "default": "b526766413727dab5598cc7d0d908391",
-        "nopadding": "429452fe47c59a453f377ab882e30de7",
-        "topology": "d1f130746bcbcbc2a81a5e1202c51b2a"
-      },
-      "line": {
-        "id": "unifi-lte",
-        "name": "UniFi LTE"
-      },
-      "product": {
-        "abbrev": "LTE Pro",
-        "name": "LTE Backup Professional"
-      },
-      "shortnames": [
-        "U-LTE-Pro-EU",
-        "ULTEPEU"
-      ],
-      "sku": "U-LTE-Pro-EU",
-      "sysid": "e612",
-      "sysids": [
-        "e612"
-      ],
-      "triplets": [
-        {
-          "k1": "ULTEPEU",
-          "k2": "U-LTE-Pro-EU"
-        },
-        {
-          "k1": "ULTEPEU",
-          "k3": "ULTEPEU"
-        },
-        {
-          "k1": "ULTEPEU",
-          "k2": "UniFi LTE Pro EU"
-        }
-      ],
-      "unifi": {
-        "adoptability": "adoptable",
-        "network": {
-          "chipset": "b",
-          "deviceCapabilities": [
-            "ULTE",
-            "ACCESS_POINT",
-            "LTE_MODEM",
-            "VPORT"
-          ],
-          "ethernetMaxSpeedMegabitsPerSecond": 1000,
-          "features": {
-            "ac": true,
-            "bandsteer": true,
-            "gen": 2
-          },
-          "minimumFirmwareRequired": "4.0.6",
-          "model": "ULTEPEU",
-          "numberOfPorts": 1,
-          "radios": {
-            "na": {
-              "maxSpeedMegabitsPerSecond": 300
-            },
-            "ng": {
-              "gain": 2,
-              "maxPower": 20,
-              "maxSpeedMegabitsPerSecond": 300
-            }
-          },
-          "systemIdHexadecimal": "e612",
-          "type": "uap"
         }
       },
-      "videos": {}
-    },
-    {
       "guids": [],
       "icon": {
         "id": "efbe5cab-8980-404f-a3a9-cc3dcb21b968",
@@ -21030,7 +20928,7 @@
         "U-LTE-Pro-US",
         "ULTEPUS"
       ],
-      "sku": "U-LTE-Pro-US",
+      "sku": "U-LTE-Backup Pro",
       "sysid": "e613",
       "sysids": [
         "e613"
@@ -21075,6 +20973,150 @@
             }
           },
           "systemIdHexadecimal": "e613",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "fcc": "SWX-ULTEBP\nContains FCC ID: SWX-RC7611",
+        "ic": "6545A-ULTEBP\nContains IC: 6545A-RC7611",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "U-LTE-Backup Pro",
+        "ncc": "CCAH214G0321T3",
+        "productName": "U-LTE-Backup-Pro",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
+      "guids": [],
+      "icon": {
+        "id": "299afbfa-1584-2214-5673-42e6f7560a67",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "5dc0d4df-cdaa-44dc-ac4f-d430260700c6",
+      "images": {
+        "default": "b526766413727dab5598cc7d0d908391",
+        "nopadding": "429452fe47c59a453f377ab882e30de7",
+        "topology": "d1f130746bcbcbc2a81a5e1202c51b2a"
+      },
+      "line": {
+        "id": "unifi-lte",
+        "name": "UniFi LTE"
+      },
+      "product": {
+        "abbrev": "LTE Pro",
+        "name": "LTE Backup Professional"
+      },
+      "shortnames": [
+        "U-LTE-Pro-EU",
+        "ULTEPEU"
+      ],
+      "sku": "U-LTE-Backup Pro",
+      "sysid": "e612",
+      "sysids": [
+        "e612"
+      ],
+      "triplets": [
+        {
+          "k1": "ULTEPEU",
+          "k2": "U-LTE-Pro-EU"
+        },
+        {
+          "k1": "ULTEPEU",
+          "k3": "ULTEPEU"
+        },
+        {
+          "k1": "ULTEPEU",
+          "k2": "UniFi LTE Pro EU"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "b",
+          "deviceCapabilities": [
+            "ULTE",
+            "ACCESS_POINT",
+            "LTE_MODEM",
+            "VPORT"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "features": {
+            "ac": true,
+            "bandsteer": true,
+            "gen": 2
+          },
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "ULTEPEU",
+          "numberOfPorts": 1,
+          "radios": {
+            "na": {
+              "maxSpeedMegabitsPerSecond": 300
+            },
+            "ng": {
+              "gain": 2,
+              "maxPower": 20,
+              "maxSpeedMegabitsPerSecond": 300
+            }
+          },
+          "systemIdHexadecimal": "e612",
           "type": "uap"
         }
       },
@@ -51204,5 +51246,5 @@
       "videos": {}
     }
   ],
-  "version": "ae54750b69f6826e08714a179545d81ab6626d33"
+  "version": "f443b006f5f7ebadcdaa98e52f9395997ddb0ac1"
 }
