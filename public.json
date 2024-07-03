@@ -31810,6 +31810,7 @@
         "userConfigured": "81db6f9b-716f-4eda-98cc-db2f38963d26"
       },
       "compliance": {
+        "anatel": "06369-24-08356",
         "fcc": "SWX-UDMPM",
         "ic": "6545A-UDMPM",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
@@ -44667,6 +44668,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "06367-24-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USW-Ultra",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "guids": [
         "a77c4ff8-6ab3-428b-9ca1-e686f694a6f0"
       ],
@@ -44780,6 +44797,7 @@
     },
     {
       "compliance": {
+        "anatel": "06367-24-08356",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "USW-Ultra-210W",
         "rcm": true,
@@ -44907,6 +44925,7 @@
     },
     {
       "compliance": {
+        "anatel": "06367-24-08356",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "USW-Ultra-60W",
         "rcm": true,
@@ -44917,8 +44936,7 @@
             "IC"
           ],
           "US": [
-            "FCC_B",
-            "RF"
+            "FCC_B"
           ]
         }
       },
@@ -48697,6 +48715,21 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UVC-G5-PTZ",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "guids": [
         "9b4f82a1-527b-4b52-b5dd-e0ac27577bd2"
       ],
@@ -49920,7 +49953,8 @@
             "CONTROLLER",
             "APPLICATION_MODE",
             "HAS_CLIENTS",
-            "MESH"
+            "MESH",
+            "UX_SERIES"
           ],
           "diagram": [
             "01 02"
@@ -51246,5 +51280,5 @@
       "videos": {}
     }
   ],
-  "version": "de245a9e67c34bec21c2a1a3b66b39d90d20830f"
+  "version": "67ea148767412ebfe6873e4460c4d1b1b5ee088b"
 }
