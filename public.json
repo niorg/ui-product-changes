@@ -22962,6 +22962,27 @@
         "factoryDefault": "2fc98ba9-956a-494e-92d0-0d1b287f0127",
         "userConfigured": "6bc28f25-c3df-484c-9feb-dd0c606bf151"
       },
+      "compliance": {
+        "anatel": "06377-24-08356",
+        "fcc": "SWX-U6MESHP",
+        "ic": "6545A-U6MESHP",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "U6-Mesh-Pro",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "guids": [
         "c3616186-f1cd-4697-a03e-4087eda6f638",
         "2fc98ba9-956a-494e-92d0-0d1b287f0127",
@@ -51280,5 +51301,5 @@
       "videos": {}
     }
   ],
-  "version": "67ea148767412ebfe6873e4460c4d1b1b5ee088b"
+  "version": "1551eb8dee3254a9fd27ff9d7de310a14cf15faf"
 }
