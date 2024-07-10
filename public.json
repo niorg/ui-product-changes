@@ -6826,6 +6826,252 @@
       "videos": {}
     },
     {
+      "btle": {
+        "factoryDefault": "7538c680-8441-47b4-ab44-2eb926fe11bd",
+        "userConfigured": "158a3b2d-0bab-45c0-97f1-1625955f2031"
+      },
+      "compliance": {
+        "fcc": "SWX-EFG",
+        "ic": "6545A-EFG",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "EFG",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
+      "deviceType": "console",
+      "guids": [
+        "6809aea9-50d2-4e40-8f5b-400bb0b8a45f",
+        "7538c680-8441-47b4-ab44-2eb926fe11bd",
+        "158a3b2d-0bab-45c0-97f1-1625955f2031"
+      ],
+      "icon": {
+        "id": "16cfc8d9-17d6-4f46-a66f-514be2aa00ea",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "8c4c9229-c7d3-43ba-bd41-2b6061e8add2",
+      "images": {
+        "default": "8e1fd940843d0f8ffc52ea446a046ca4",
+        "nopadding": "d5dd90c5d418c30207e8cb5624fe7447",
+        "topology": "40dd466e50ebad33e5e2f81a6258a3e3"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "EFG",
+        "name": "Enterprise Fortress Gateway"
+      },
+      "shortnames": [
+        "EFG",
+        "UDMENT"
+      ],
+      "sku": "EFG",
+      "sysid": "ea3d",
+      "sysids": [
+        "ea3d"
+      ],
+      "triplets": [
+        {
+          "k1": "UDMENT",
+          "k3": "UDMENT"
+        }
+      ],
+      "unifi": {
+        "adoptability": "standalone",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "158a3b2d-0bab-45c0-97f1-1625955f2031",
+              "default": "7538c680-8441-47b4-ab44-2eb926fe11bd"
+            }
+          ],
+          "chipset": "j",
+          "details": {
+            "ipsThroughput": "3.5 Gbps"
+          },
+          "deviceCapabilities": [
+            "GATEWAY",
+            "NETWORK_APPLICATION",
+            "PROTECT_APPLICATION",
+            "CONTROLLER",
+            "APPLICATION_MODE",
+            "HAS_CLIENTS",
+            "SSL_INSPECTION"
+          ],
+          "diagram": [
+            "01 03 05",
+            "02 04 06"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "knownUnsupportedFeatures": [
+            "SWITCH_CAP_DOT1X",
+            "SWITCH_CAP_PORT_ISOLATION",
+            "SWITCH_CAP_STORM_CONTROL",
+            "SWITCH_CAP_STP",
+            "SWITCH_CAP_LLDP_MED",
+            "SWITCH_CAP_EGRESS_RATE_LIMIT"
+          ],
+          "linkNegotiation": {
+            "eth0": {
+              "portIdx": 1,
+              "supportedValues": [
+                "autoneg",
+                "2500 FDX",
+                "1000 FDX",
+                "100 FDX",
+                "100 HDX",
+                "10 FDX",
+                "10 HDX"
+              ]
+            },
+            "eth1": {
+              "portIdx": 2,
+              "supportedValues": [
+                "autoneg",
+                "2500 FDX",
+                "1000 FDX",
+                "100 FDX",
+                "100 HDX",
+                "10 FDX",
+                "10 HDX"
+              ]
+            },
+            "eth2": {
+              "portIdx": 3,
+              "supportedValues": [
+                "autoneg",
+                "10000 FDX",
+                "1000 FDX"
+              ]
+            },
+            "eth3": {
+              "portIdx": 4,
+              "supportedValues": [
+                "autoneg",
+                "10000 FDX",
+                "1000 FDX"
+              ]
+            },
+            "eth4": {
+              "portIdx": 5,
+              "supportedValues": [
+                "autoneg",
+                "25000 FDX",
+                "10000 FDX",
+                "1000 FDX"
+              ]
+            },
+            "eth5": {
+              "portIdx": 6,
+              "supportedValues": [
+                "autoneg",
+                "25000 FDX",
+                "10000 FDX",
+                "1000 FDX"
+              ]
+            }
+          },
+          "minimumFirmwareRequired": "0.9.0",
+          "model": "UDMENT",
+          "networkGroups": {
+            "eth0": "WAN",
+            "eth1": "LAN",
+            "eth2": "LAN",
+            "eth3": "LAN",
+            "eth4": "WAN2",
+            "eth5": "LAN"
+          },
+          "numberOfPorts": 6,
+          "ports": {
+            "eth0": "WAN",
+            "eth1": "LAN",
+            "eth2": "LAN",
+            "eth3": "LAN",
+            "eth4": "WAN2",
+            "eth5": "LAN",
+            "plus": [
+              3,
+              4
+            ],
+            "sfp28": [
+              5,
+              6
+            ],
+            "standard": 2
+          },
+          "radios": {},
+          "subtypes": [
+            "ugw",
+            "usw"
+          ],
+          "systemIdHexadecimal": "ea3d",
+          "type": "udm"
+        }
+      },
+      "videos": {
+        "mobile-intro": "f6ef844727a54ab36996cd66278e2618",
+        "mobile-setup-wizard-plugin": "3c495cd05bb66320539600e167d81d1f",
+        "mobile-setup-wizard-testing-connection": "5cfcd8f6d952c7d17d264e4fcc6eab10"
+      }
+    },
+    {
       "guids": [],
       "icon": {
         "id": "b83475be-3836-4ba0-86f7-6d630855ffdc",
@@ -24630,6 +24876,84 @@
       "videos": {}
     },
     {
+      "guids": [
+        "2fe09035-e671-4804-aa44-575d1cd6f0c6"
+      ],
+      "icon": {
+        "id": "b6068465-f13f-4712-8fd0-50f0e2ece8ab",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "6658a780-34ac-415e-8291-08c2962b1201",
+      "images": {
+        "default": "07e550ac075fe1f738be04750391ee3a",
+        "nopadding": "37c957313385cf606ce5008372da48b7",
+        "topology": "bd9d4145e4aea9193cac395f8d120eda"
+      },
+      "line": {
+        "id": "unifi-access",
+        "name": "UniFi Access"
+      },
+      "product": {
+        "abbrev": "UA Hub Gate",
+        "name": "Access Door Gate"
+      },
+      "shortnames": [
+        "UA-Hub-Gate"
+      ],
+      "sku": "UA-Hub-Gate",
+      "sysid": "ec46",
+      "sysids": [
+        "ec46"
+      ],
+      "triplets": [],
+      "videos": {}
+    },
+    {
       "compliance": {
         "fcc": "SWX-UAINT",
         "ic": "6545A-UAINT",
@@ -30188,6 +30512,209 @@
         "adoptability": "adoptable"
       },
       "videos": {}
+    },
+    {
+      "btle": {
+        "factoryDefault": "82acc782-9c97-4e87-b1f9-a3c5be3ad9e9",
+        "userConfigured": "b243c5fd-a23d-4ce2-9b3a-1529329e1590"
+      },
+      "compliance": {
+        "fcc": "SWX-UCGM",
+        "ic": "6545A-UCGM",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UCG-Max",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
+      "guids": [
+        "a0da46f5-242c-42d2-ad18-44e5abe118c3",
+        "82acc782-9c97-4e87-b1f9-a3c5be3ad9e9",
+        "b243c5fd-a23d-4ce2-9b3a-1529329e1590"
+      ],
+      "icon": {
+        "id": "7bf99e1c-f86d-4f2d-bbee-730574f22e6f",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "1801931d-1cb0-499c-9333-525d4986f596",
+      "images": {
+        "default": "59593adaffca0b519b4ec5ca1a4f3d68",
+        "nopadding": "fa3124c180a2770e7e177956dd79673b",
+        "topology": "d59282f630990663eccc525cf6d0fd2c"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "UCG Max",
+        "name": "Cloud Gateway Max"
+      },
+      "shortnames": [
+        "UCG-Max",
+        "UCGMAX"
+      ],
+      "sku": "UCG-Max",
+      "sysid": "a69a",
+      "sysids": [
+        "a69a"
+      ],
+      "triplets": [
+        {
+          "k1": "UCGMAX",
+          "k3": "UCGMAX"
+        },
+        {
+          "k1": "UCGMAX",
+          "k2": "UniFi Cloud Gateway Max"
+        }
+      ],
+      "unifi": {
+        "adoptability": "standalone",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "b243c5fd-a23d-4ce2-9b3a-1529329e1590",
+              "default": "82acc782-9c97-4e87-b1f9-a3c5be3ad9e9"
+            }
+          ],
+          "chipset": "j",
+          "deviceCapabilities": [
+            "GATEWAY",
+            "SWITCH",
+            "NETWORK_APPLICATION",
+            "PROTECT_APPLICATION",
+            "CONTROLLER",
+            "APPLICATION_MODE",
+            "HAS_CLIENTS"
+          ],
+          "diagram": [
+            "05 04 03 02 01"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 2500,
+          "knownUnsupportedFeatures": [
+            "SWITCH_CAP_DOT1X",
+            "SWITCH_CAP_PORT_ISOLATION",
+            "SWITCH_CAP_STORM_CONTROL",
+            "SWITCH_CAP_STP",
+            "SWITCH_CAP_LLDP_MED",
+            "SWITCH_CAP_EGRESS_RATE_LIMIT"
+          ],
+          "linkNegotiation": {
+            "eth3": {
+              "portIdx": 4,
+              "supportedValues": [
+                "autoneg",
+                "2500 FDX",
+                "1000 FDX",
+                "100 FDX",
+                "100 HDX",
+                "10 FDX",
+                "10 HDX"
+              ]
+            },
+            "eth4": {
+              "portIdx": 5,
+              "supportedValues": [
+                "autoneg",
+                "2500 FDX",
+                "1000 FDX",
+                "100 FDX",
+                "100 HDX",
+                "10 FDX",
+                "10 HDX"
+              ]
+            }
+          },
+          "minimumFirmwareRequired": "0.9.0",
+          "model": "UCGMAX",
+          "networkGroups": {
+            "eth0": "LAN",
+            "eth1": "LAN",
+            "eth2": "LAN",
+            "eth3": "LAN",
+            "eth4": "WAN"
+          },
+          "numberOfPorts": 5,
+          "optionalWanPortIndexes": [
+            4
+          ],
+          "ports": {
+            "eth0": "LAN",
+            "eth1": "LAN",
+            "eth2": "LAN",
+            "eth3": "LAN",
+            "eth4": "WAN"
+          },
+          "radios": {},
+          "subtypes": [
+            "ugw",
+            "usw"
+          ],
+          "systemIdHexadecimal": "a69a",
+          "type": "udm"
+        }
+      },
+      "videos": {
+        "mobile-intro": "28913169816cb280e4d66d7f468979de",
+        "mobile-setup-wizard-plugin": "acb932df8dbb0f4fabd286282178bfbd",
+        "mobile-setup-wizard-testing-connection": "7a11b3e5bc4c85e5025489d489088920"
+      }
     },
     {
       "btle": {
@@ -50052,6 +50579,239 @@
     },
     {
       "btle": {
+        "factoryDefault": "7a3ea6ec-b22b-4290-b665-8bdaa8d237da",
+        "userConfigured": "28298ace-9ebe-4265-804f-c35b0ee82bbc"
+      },
+      "compliance": {
+        "fcc": "SWX-UXGEP",
+        "ic": "6545A-UXGEP",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UXG-Enterprise",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
+      "guids": [
+        "d8fd5140-74d9-4727-8ead-8948c377b1a0",
+        "7a3ea6ec-b22b-4290-b665-8bdaa8d237da",
+        "28298ace-9ebe-4265-804f-c35b0ee82bbc"
+      ],
+      "icon": {
+        "id": "32eb3a76-cff1-41fa-99d5-a8850aa27c46",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "e567a449-cfbe-4cdf-9aed-975fac5256d9",
+      "images": {
+        "default": "1f3133ffae76aea2e738892a78879e2a",
+        "nopadding": "e335855f02eb6d2f0da491f55a998cc8",
+        "topology": "a2f25fb81ac3e6b08d369e450a1935a4"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "8.0.8"
+      },
+      "product": {
+        "abbrev": "UXG Enterprise",
+        "name": "Gateway Enterprise"
+      },
+      "shortnames": [
+        "UXG-Enterprise",
+        "UXGENT"
+      ],
+      "sku": "UXG-Enterprise",
+      "sysid": "ea3e",
+      "sysids": [
+        "ea3e",
+        "ea29"
+      ],
+      "triplets": [
+        {
+          "k1": "UXGENT",
+          "k3": "UXGENT"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "28298ace-9ebe-4265-804f-c35b0ee82bbc",
+              "default": "7a3ea6ec-b22b-4290-b665-8bdaa8d237da"
+            }
+          ],
+          "chipset": "j",
+          "deviceCapabilities": [
+            "GATEWAY",
+            "APPLICATION_GATEWAY",
+            "HAS_CLIENTS",
+            "SSL_INSPECTION"
+          ],
+          "diagram": [
+            "01 03 05",
+            "02 04 06"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "linkNegotiation": {
+            "eth0": {
+              "portIdx": 1,
+              "supportedValues": [
+                "autoneg",
+                "2500 FDX",
+                "1000 FDX",
+                "100 FDX",
+                "100 HDX",
+                "10 FDX",
+                "10 HDX"
+              ]
+            },
+            "eth1": {
+              "portIdx": 2,
+              "supportedValues": [
+                "autoneg",
+                "2500 FDX",
+                "1000 FDX",
+                "100 FDX",
+                "100 HDX",
+                "10 FDX",
+                "10 HDX"
+              ]
+            },
+            "eth2": {
+              "portIdx": 3,
+              "supportedValues": [
+                "autoneg",
+                "10000 FDX",
+                "1000 FDX"
+              ]
+            },
+            "eth3": {
+              "portIdx": 4,
+              "supportedValues": [
+                "autoneg",
+                "10000 FDX",
+                "1000 FDX"
+              ]
+            },
+            "eth4": {
+              "portIdx": 5,
+              "supportedValues": [
+                "autoneg",
+                "25000 FDX",
+                "10000 FDX",
+                "1000 FDX"
+              ]
+            },
+            "eth5": {
+              "portIdx": 6,
+              "supportedValues": [
+                "autoneg",
+                "25000 FDX",
+                "10000 FDX",
+                "1000 FDX"
+              ]
+            }
+          },
+          "minimumFirmwareRequired": "0.9.0",
+          "model": "UXGENT",
+          "networkGroups": {
+            "eth0": "WAN",
+            "eth1": "LAN",
+            "eth2": "LAN",
+            "eth3": "LAN",
+            "eth4": "WAN2",
+            "eth5": "LAN"
+          },
+          "numberOfPorts": 6,
+          "ports": {
+            "eth0": "WAN",
+            "eth1": "LAN",
+            "eth2": "LAN",
+            "eth3": "LAN",
+            "eth4": "WAN2",
+            "eth5": "LAN",
+            "plus": [
+              3,
+              4
+            ],
+            "sfp28": [
+              5,
+              6
+            ],
+            "standard": 2
+          },
+          "radios": {},
+          "subtypes": [
+            "ugw",
+            "usw"
+          ],
+          "systemIdHexadecimal": "ea3e",
+          "type": "uxg"
+        }
+      },
+      "videos": {
+        "mobile-intro": "f4b61db8461fd01ae58591ff73fe64e8",
+        "mobile-setup-wizard-plugin": "c6b26c0d8d83d8ba26406543712dc8df",
+        "mobile-setup-wizard-testing-connection": "e15f5125d0c22f538dd6c892dc985a65"
+      }
+    },
+    {
+      "btle": {
         "factoryDefault": "d778bd0f-7e04-4291-a6df-2c1fca78dd67",
         "userConfigured": "dc6b2b9a-4563-42bc-a7c1-e0b4f600bd2a"
       },
@@ -51301,5 +52061,5 @@
       "videos": {}
     }
   ],
-  "version": "1551eb8dee3254a9fd27ff9d7de310a14cf15faf"
+  "version": "95feec36d29e660a2d7c289d6a5785dd68a84606"
 }
