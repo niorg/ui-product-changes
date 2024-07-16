@@ -49161,6 +49161,88 @@
       "videos": {}
     },
     {
+      "guids": [
+        "95e21b3b-9804-c9c4-93c3-77f50834d994"
+      ],
+      "icon": {
+        "id": "fc5e6f3f-cf10-b104-125b-225f3a3c0c2e",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "55bb4883-bd13-b3f4-525b-9ea01698b214",
+      "images": {
+        "default": "04f78d3a6f925890a943e40390e4f9dd",
+        "nopadding": "7a795c51348e288fd9ff0fed4abc1add",
+        "topology": "5f09381ae2b006640acf0ea2d80e54e0"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "G5 Dome Ultra",
+        "name": "Camera G5 Dome Ultra"
+      },
+      "shortnames": [
+        "UVC-G5-Dome-Ultra-Black",
+        "UVC G5 Dome Ultra Black"
+      ],
+      "sku": "UVC-G5-Dome-Ultra-Black",
+      "sysid": "a59d",
+      "sysids": [
+        "a59d"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "UVC-G5-Flex",
@@ -52061,5 +52143,5 @@
       "videos": {}
     }
   ],
-  "version": "95feec36d29e660a2d7c289d6a5785dd68a84606"
+  "version": "3e80d7d73bc84fe648451a95a887d2ff54de31fb"
 }
