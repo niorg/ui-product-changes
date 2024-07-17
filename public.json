@@ -6537,7 +6537,7 @@
       },
       "product": {
         "abbrev": "UCK Enterprise",
-        "name": "Cloud Key Enterprise"
+        "name": "CloudKey Enterprise"
       },
       "shortnames": [
         "CK-Enterprise",
@@ -24221,9 +24221,10 @@
       "shortnames": [
         "U7-Pro-IW",
         "U7PIW",
-        "U7-Pro-W"
+        "U7-Pro-W",
+        "U7-Pro-Wall"
       ],
-      "sku": "U7-Pro-W",
+      "sku": "U7-Pro-Wall",
       "sysid": "a686",
       "sysids": [
         "a686"
@@ -29520,7 +29521,7 @@
       },
       "product": {
         "abbrev": "UC CK",
-        "name": "Cloud Key"
+        "name": "CloudKey"
       },
       "shortnames": [
         "UC-CK",
@@ -31103,7 +31104,7 @@
       },
       "product": {
         "abbrev": "UCK",
-        "name": "Cloud Key"
+        "name": "CloudKey"
       },
       "shortnames": [
         "UCK",
@@ -31247,7 +31248,7 @@
       },
       "product": {
         "abbrev": "UCK G2",
-        "name": "Cloud Key Gen2"
+        "name": "CloudKey"
       },
       "shortnames": [
         "UCK-G2",
@@ -31358,7 +31359,7 @@
       },
       "product": {
         "abbrev": "UCK G2",
-        "name": "Cloud Key Gen2"
+        "name": "CloudKey"
       },
       "shortnames": [
         "UCK-G2-BK",
@@ -31471,7 +31472,7 @@
       },
       "product": {
         "abbrev": "UCK G2 Plus",
-        "name": "Cloud Key Gen2 Plus"
+        "name": "CloudKey+"
       },
       "shortnames": [
         "UCK-G2-PLUS",
@@ -50887,9 +50888,9 @@
         }
       },
       "videos": {
-        "mobile-intro": "f4b61db8461fd01ae58591ff73fe64e8",
-        "mobile-setup-wizard-plugin": "c6b26c0d8d83d8ba26406543712dc8df",
-        "mobile-setup-wizard-testing-connection": "e15f5125d0c22f538dd6c892dc985a65"
+        "mobile-intro": "f2561d1807fe1b264a2d0d0f42a02a8c",
+        "mobile-setup-wizard-plugin": "9152006bf75f0848ace3e8c1c6fd27f0",
+        "mobile-setup-wizard-testing-connection": "5d9d3ffb338f52156e7f7c8dc9ac4c1e"
       }
     },
     {
@@ -52143,5 +52144,5 @@
       "videos": {}
     }
   ],
-  "version": "3e80d7d73bc84fe648451a95a887d2ff54de31fb"
+  "version": "c545dc932ed80f1dc755b650f646091e0b5344ca"
 }
