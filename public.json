@@ -30538,6 +30538,7 @@
           ]
         }
       },
+      "deviceType": "console",
       "guids": [
         "a0da46f5-242c-42d2-ad18-44e5abe118c3",
         "82acc782-9c97-4e87-b1f9-a3c5be3ad9e9",
@@ -50682,6 +50683,7 @@
           ]
         }
       },
+      "deviceType": "console",
       "guids": [
         "d8fd5140-74d9-4727-8ead-8948c377b1a0",
         "7a3ea6ec-b22b-4290-b665-8bdaa8d237da",
@@ -52144,5 +52146,5 @@
       "videos": {}
     }
   ],
-  "version": "c545dc932ed80f1dc755b650f646091e0b5344ca"
+  "version": "e489398142ea2c3b447c6793338dc852638c2958"
 }
