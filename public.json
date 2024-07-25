@@ -20961,6 +20961,24 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-ULTE\nContains FCC ID: SWX-WP7603",
+        "ic": "6545A-ULTE\nContains IC: 6545A-WP7603",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "U-LTE",
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "guids": [],
       "icon": {
         "id": "fe65d707-1bdb-46a3-b79b-bd600150226e",
@@ -21662,12 +21680,13 @@
           "radios": {
             "6e": {
               "gain": 6,
-              "maxPower": 26
+              "maxPower": 26,
+              "maxSpeedMegabitsPerSecond": 5765
             },
             "na": {
               "gain": 3,
               "maxPower": 26,
-              "maxSpeedMegabitsPerSecond": 2400
+              "maxSpeedMegabitsPerSecond": 5765
             },
             "ng": {
               "gain": 5,
@@ -21833,12 +21852,13 @@
           "radios": {
             "6e": {
               "gain": 6,
-              "maxPower": 26
+              "maxPower": 26,
+              "maxSpeedMegabitsPerSecond": 5765
             },
             "na": {
               "gain": 6,
               "maxPower": 26,
-              "maxSpeedMegabitsPerSecond": 2400
+              "maxSpeedMegabitsPerSecond": 5765
             },
             "ng": {
               "gain": 4,
@@ -22335,13 +22355,9 @@
       "unifi": {
         "adoptability": "adoptable",
         "network": {
-          "chipset": "c",
           "deviceCapabilities": [
-            "ACCESS_POINT",
-            "HAS_CLIENTS",
-            "VPORT"
+            "ACCESS_POINT"
           ],
-          "ethernetMaxSpeedMegabitsPerSecond": 1000,
           "features": {
             "atfDisabled": true,
             "ax": true,
@@ -22349,22 +22365,17 @@
             "gen": 2,
             "outdoorModeSupport": true
           },
-          "minimumFirmwareRequired": "5.42.0",
           "model": "UAP6",
-          "numberOfPorts": 1,
           "radios": {
             "na": {
               "gain": 4,
-              "maxPower": 25,
-              "maxSpeedMegabitsPerSecond": 2400
+              "maxPower": 25
             },
             "ng": {
               "gain": 3,
-              "maxPower": 20,
-              "maxSpeedMegabitsPerSecond": 300
+              "maxPower": 20
             }
           },
-          "systemIdHexadecimal": "a620",
           "type": "uap"
         }
       },
@@ -30406,6 +30417,86 @@
       "videos": {}
     },
     {
+      "guids": [
+        "06a4ced7-e6bf-4c94-8942-790750d29fd1"
+      ],
+      "icon": {
+        "id": "e424c020-5386-401c-861f-0cee127e4c3e",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "55f7bbe2-ba7d-4caf-acd7-5881980f5c06",
+      "images": {
+        "default": "e9245a516161e13e2e6975713186656a",
+        "nopadding": "5b9ffcad3328af049897b448a56cc221",
+        "topology": "129a3e3b4cb3502b0970dda2f795164d"
+      },
+      "line": {
+        "id": "unifi-connect",
+        "name": "UniFi Connect"
+      },
+      "product": {
+        "abbrev": "EV Station Lite",
+        "name": "EV Station Lite"
+      },
+      "shortnames": [
+        "EVS-Ultra",
+        "UC-EV-Station-Ultra",
+        "EVS-Lite"
+      ],
+      "sku": "UC-EV-Station-Lite",
+      "sysids": [],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
       "btle": {
         "factoryDefault": "ec05ce81-946d-4a87-8ed5-7fa2099b17d7",
         "userConfigured": "3ccff8d7-34ce-4e21-8ab0-848fade1d6d3"
@@ -30484,9 +30575,9 @@
       },
       "id": "500e118a-363f-46f2-8159-2c5beb5f5471",
       "images": {
-        "default": "b8f0296deb3cd42a093d3ed64f646c50",
-        "nopadding": "3b7c993d913874efa85747bbdab68586",
-        "topology": "ab6cfbce9b7102696c10fef2b1eed13a"
+        "default": "901b95aa3a343eafe23bbbbb74e5c6f5",
+        "nopadding": "c564e389ca742593d172eac4972386e7",
+        "topology": "19dc9df5ca89cd7175bcd194de7c3e34"
       },
       "line": {
         "id": "unifi-connect",
@@ -41400,9 +41491,9 @@
       },
       "id": "c1e64a8b-9524-47e7-aed8-ea235c16a46b",
       "images": {
-        "default": "79a216631989abe6a94121ba04614e5d",
-        "nopadding": "451d85122aaed932702a8abc2803fda0",
-        "topology": "940cf5d97416be17015fd2e478e11033"
+        "default": "9104eb52e328dc557a8e6b2736b3af8d",
+        "nopadding": "a2b1bcf1f3349c7217b9a72a80d67234",
+        "topology": "e4e411638af9513e0b95b979c1c521c4"
       },
       "line": {
         "id": "unifi-network",
@@ -52146,5 +52237,5 @@
       "videos": {}
     }
   ],
-  "version": "e489398142ea2c3b447c6793338dc852638c2958"
+  "version": "674a2f8c30e6a80463036c8df209e141c58e0730"
 }
