@@ -7057,6 +7057,10 @@
             "standard": 2
           },
           "radios": {},
+          "shadowMode": {
+            "interconnectPortInterface": "eth1",
+            "interconnectPortNumber": 2
+          },
           "subtypes": [
             "ugw",
             "usw"
@@ -21389,6 +21393,7 @@
     {
       "compliance": {
         "anatel": "10539-23-08356",
+        "cn": "2023AJ11728",
         "fcc": "SWX-U6P",
         "ic": "6545A-U6P",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
@@ -22882,6 +22887,7 @@
       },
       "compliance": {
         "anatel": "08784-21-08356",
+        "cn": "2021AJ1719",
         "fcc": "SWX-U6LITE",
         "ic": "6545A-U6LITE",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -23489,6 +23495,7 @@
       },
       "compliance": {
         "anatel": "00910-22-08356",
+        "cn": "2022AJ6425",
         "fcc": "SWX-U6PROR",
         "ic": "6545A-U6PROR",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -24616,6 +24623,7 @@
     },
     {
       "compliance": {
+        "cn": "24J99U16D002",
         "fcc": "SWX-UAG2P",
         "ic": "6545A-UAG2P",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -32194,6 +32202,7 @@
       },
       "compliance": {
         "anatel": "01136-20-08356",
+        "cn": "2020DJ1395",
         "fcc": "SWX-UDMPRO",
         "ic": "6545A-UDMPRO",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
@@ -32431,6 +32440,10 @@
             "standard": 9
           },
           "radios": {},
+          "shadowMode": {
+            "interconnectPortInterface": "eth6",
+            "interconnectPortNumber": 7
+          },
           "subtypes": [
             "ugw",
             "usw"
@@ -32664,6 +32677,10 @@
             "standard": 9
           },
           "radios": {},
+          "shadowMode": {
+            "interconnectPortInterface": "eth6",
+            "interconnectPortNumber": 7
+          },
           "subtypes": [
             "ugw",
             "usw"
@@ -32685,6 +32702,7 @@
       },
       "compliance": {
         "anatel": "07309-22-08356",
+        "cn": "2022DJ1130",
         "fcc": "SWX-UDMPROSE",
         "ic": "6545A-UDMPROSE",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
@@ -36279,6 +36297,83 @@
           "k2": "UMR"
         }
       ],
+      "videos": {}
+    },
+    {
+      "guids": [
+        "1b93415a-01cd-4842-b6b6-d10e3d7f1f77"
+      ],
+      "icon": {
+        "id": "150d4669-3ce1-4952-90ea-1559491f64c2",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "6b8c6ef1-61d1-41f0-acca-0ab175cbd1bf",
+      "images": {
+        "default": "a281e77fbb0c811b9bd251585a93a16c",
+        "nopadding": "27675e44df494082f40cbd01c7cd915d",
+        "topology": "47c0082dc755b7310b21fd6cc63517ec"
+      },
+      "line": {
+        "id": "unifi-mobility",
+        "name": "UniFi Mobility"
+      },
+      "product": {
+        "abbrev": "UMR Industrial",
+        "name": "Mobile Router Industrial"
+      },
+      "shortnames": [
+        "UMR-Industrial",
+        "UMR-Industrial-EU",
+        "UMR-Industrial-US"
+      ],
+      "sku": "UMR-Industrial",
+      "sysids": [],
+      "triplets": [],
       "videos": {}
     },
     {
@@ -44943,6 +45038,7 @@
     },
     {
       "compliance": {
+        "anatel": "06374-24-08356",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "USW-Pro-Max-24-PoE",
         "rcm": true,
@@ -45189,6 +45285,7 @@
     },
     {
       "compliance": {
+        "anatel": "06374-24-08356",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "USW-Pro-Max-48-PoE",
         "rcm": true,
@@ -52237,5 +52334,5 @@
       "videos": {}
     }
   ],
-  "version": "674a2f8c30e6a80463036c8df209e141c58e0730"
+  "version": "aa4d65d9561a9887ac75704f16a389135b034cb5"
 }
