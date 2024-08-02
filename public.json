@@ -41966,9 +41966,9 @@
         "USW-24"
       ],
       "sku": "USW-24",
-      "sysid": "ed23",
+      "sysid": "ed24",
       "sysids": [
-        "ed23"
+        "ed24"
       ],
       "triplets": [
         {
@@ -42000,7 +42000,7 @@
             "standard": 24
           },
           "radios": {},
-          "systemIdHexadecimal": "ed23",
+          "systemIdHexadecimal": "ed24",
           "type": "usw"
         }
       },
@@ -43669,9 +43669,9 @@
         "USL16LP"
       ],
       "sku": "USW-Lite-16-PoE",
-      "sysid": "ed24",
+      "sysid": "ed26",
       "sysids": [
-        "ed24"
+        "ed26"
       ],
       "triplets": [
         {
@@ -43702,7 +43702,7 @@
             "standard": 16
           },
           "radios": {},
-          "systemIdHexadecimal": "ed24",
+          "systemIdHexadecimal": "ed26",
           "type": "usw"
         }
       },
@@ -52334,5 +52334,5 @@
       "videos": {}
     }
   ],
-  "version": "aa4d65d9561a9887ac75704f16a389135b034cb5"
+  "version": "0738d5a848cf9d59796981356a0bffac0c8dea77"
 }
