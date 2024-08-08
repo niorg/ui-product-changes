@@ -3675,7 +3675,7 @@
         "name": "AmpliFi"
       },
       "product": {
-        "abbrev": "AmpliFi SmartPlug",
+        "abbrev": "AFi SP",
         "name": "AmpliFi SmartPlug"
       },
       "shortnames": [
@@ -4389,7 +4389,7 @@
       },
       "product": {
         "abbrev": "AGW Installer",
-        "name": "airGateway Professional Installer"
+        "name": "airGateway Pro Installer"
       },
       "shortnames": [
         "AGW-Installer"
@@ -4578,7 +4578,7 @@
       },
       "product": {
         "abbrev": "AGW Pro",
-        "name": "airGateway Professional"
+        "name": "airGateway Pro"
       },
       "shortnames": [
         "AGW-Pro"
@@ -5710,7 +5710,7 @@
         "name": "airMAX"
       },
       "product": {
-        "abbrev": "AP-5AC-90-HD",
+        "abbrev": "AP 5AC 90 HD",
         "name": "airPRISM HD Sector Antenna"
       },
       "shortnames": [
@@ -8877,7 +8877,7 @@
       },
       "product": {
         "abbrev": "ERPro 8",
-        "name": "EdgeRouter 8 Professional"
+        "name": "EdgeRouter 8 Pro"
       },
       "shortnames": [
         "ERPro-8"
@@ -12869,8 +12869,8 @@
         "name": "LTU"
       },
       "product": {
-        "abbrev": "LTU PRO",
-        "name": "LTU Professional"
+        "abbrev": "LTU Pro",
+        "name": "LTU Pro"
       },
       "shortnames": [
         "LTU-PRO",
@@ -15970,7 +15970,7 @@
       },
       "product": {
         "abbrev": "P6E",
-        "name": "mPower Professional"
+        "name": "mPower Pro"
       },
       "shortnames": [
         "P6E"
@@ -16051,7 +16051,7 @@
       },
       "product": {
         "abbrev": "P8U",
-        "name": "mPower Professional"
+        "name": "mPower Pro"
       },
       "shortnames": [
         "P8U"
@@ -19555,7 +19555,7 @@
         "name": "airMAX"
       },
       "product": {
-        "abbrev": "RD-5G30-LW",
+        "abbrev": "RD 5G30 LW",
         "name": "airMAX RocketDish 5G30 LW"
       },
       "shortnames": [
@@ -20029,7 +20029,7 @@
         "name": "airMAX"
       },
       "product": {
-        "abbrev": "ROCKETM5",
+        "abbrev": "RocketM5",
         "name": "Rocket M5"
       },
       "shortnames": [
@@ -20605,7 +20605,7 @@
         "name": "EdgeMAX"
       },
       "product": {
-        "abbrev": "TS 16 CARRIER",
+        "abbrev": "TS 16 Carrier",
         "name": "ToughSwitch 16"
       },
       "shortnames": [
@@ -20768,7 +20768,7 @@
         "name": "EdgeMAX"
       },
       "product": {
-        "abbrev": "TSW 8 POE",
+        "abbrev": "TSW 8 PoE",
         "name": "EdgeSwitch 8XP"
       },
       "shortnames": [
@@ -21190,7 +21190,7 @@
       },
       "product": {
         "abbrev": "LTE Pro",
-        "name": "LTE Backup Professional"
+        "name": "LTE Backup Pro"
       },
       "shortnames": [
         "U-LTE-Pro-US",
@@ -21330,7 +21330,7 @@
       },
       "product": {
         "abbrev": "LTE Pro",
-        "name": "LTE Backup Professional"
+        "name": "LTE Backup Pro"
       },
       "shortnames": [
         "U-LTE-Pro-EU",
@@ -23591,7 +23591,7 @@
       },
       "product": {
         "abbrev": "U6 Pro",
-        "name": "Access Point U6 Professional"
+        "name": "Access Point U6 Pro"
       },
       "shortnames": [
         "U6-Pro",
@@ -24439,7 +24439,7 @@
       },
       "product": {
         "abbrev": "UA Hub Elevator",
-        "name": "Access Elevator Hub"
+        "name": "Elevator Hub"
       },
       "shortnames": [
         "UA-Elevator"
@@ -24525,7 +24525,7 @@
       },
       "product": {
         "abbrev": "UA G2",
-        "name": "Access G2 Reader"
+        "name": "G2 Reader"
       },
       "shortnames": [
         "G2-MINI",
@@ -24611,7 +24611,7 @@
       },
       "product": {
         "abbrev": "UA G2 Black",
-        "name": "Access G2 Reader"
+        "name": "G2 Reader"
       },
       "shortnames": [
         "UA-G2-Black"
@@ -24711,7 +24711,7 @@
       },
       "product": {
         "abbrev": "UA G2 Pro",
-        "name": "Access G2 Professional"
+        "name": "G2 Reader Pro"
       },
       "shortnames": [
         "UA-G2-PRO",
@@ -24795,7 +24795,7 @@
       },
       "product": {
         "abbrev": "UA G2 Pro Black",
-        "name": "Access G2 Professional"
+        "name": "G2 Reader Pro"
       },
       "shortnames": [
         "UA-G2-Pro-Black"
@@ -24960,7 +24960,7 @@
       },
       "product": {
         "abbrev": "UA Hub Gate",
-        "name": "Access Door Gate"
+        "name": "Gate Hub"
       },
       "shortnames": [
         "UA-Hub-Gate"
@@ -25403,7 +25403,7 @@
       },
       "product": {
         "abbrev": "UA Pro",
-        "name": "Access Reader Professional"
+        "name": "Reader Pro"
       },
       "shortnames": [
         "UA-PRO",
@@ -25524,7 +25524,7 @@
       },
       "product": {
         "abbrev": "UA Reader Lite",
-        "name": "Access Reader Lite"
+        "name": "Reader Lite"
       },
       "shortnames": [
         "UA-LITE",
@@ -26365,7 +26365,7 @@
       },
       "product": {
         "abbrev": "AC IW Pro",
-        "name": "Access Point AC In-Wall Professional"
+        "name": "Access Point AC In-Wall Pro"
       },
       "shortnames": [
         "U7IWP",
@@ -26926,7 +26926,7 @@
       },
       "product": {
         "abbrev": "AC Mesh Pro",
-        "name": "Access Point AC Mesh Professional"
+        "name": "Access Point AC Mesh Pro"
       },
       "shortnames": [
         "U7MP",
@@ -27204,7 +27204,7 @@
       },
       "product": {
         "abbrev": "AC Pro",
-        "name": "Access Point AC Professional"
+        "name": "Access Point AC Pro"
       },
       "shortnames": [
         "U7PG2",
@@ -28521,8 +28521,8 @@
         "name": "UniFi"
       },
       "product": {
-        "abbrev": "UAP Outdoor5",
-        "name": "Access Point Outdoor5"
+        "abbrev": "UAP Outdoor 5",
+        "name": "Access Point Outdoor 5"
       },
       "shortnames": [
         "U5O",
@@ -28642,7 +28642,7 @@
       },
       "product": {
         "abbrev": "UAP Pro",
-        "name": "Access Point Professional"
+        "name": "Access Point Pro"
       },
       "shortnames": [
         "U7P",
@@ -30593,7 +30593,7 @@
       },
       "product": {
         "abbrev": "EV Station Pro",
-        "name": "EV Station Professional"
+        "name": "EV Station Pro"
       },
       "shortnames": [
         "UC-EV-Station-Pro"
@@ -32305,7 +32305,7 @@
       },
       "product": {
         "abbrev": "UDM Pro",
-        "name": "Dream Machine Professional"
+        "name": "Dream Machine Pro"
       },
       "shortnames": [
         "UDM-PRO",
@@ -33539,7 +33539,7 @@
       },
       "product": {
         "abbrev": "UF AE",
-        "name": "UFiber Active Ethernet"
+        "name": "Fiber Active Ethernet"
       },
       "shortnames": [
         "UF-AE"
@@ -33623,7 +33623,7 @@
       },
       "product": {
         "abbrev": "UF Instant",
-        "name": "UFiber Instant"
+        "name": "Fiber Instant"
       },
       "shortnames": [
         "UF-Instant"
@@ -33710,7 +33710,7 @@
       },
       "product": {
         "abbrev": "UF Loco",
-        "name": "UFiber Loco"
+        "name": "Fiber Loco"
       },
       "shortnames": [
         "UF-LOCO"
@@ -33800,7 +33800,7 @@
       },
       "product": {
         "abbrev": "UF Nano",
-        "name": "UFiber NanoG"
+        "name": "Fiber Nano"
       },
       "shortnames": [
         "UF-Nano"
@@ -33889,7 +33889,7 @@
       },
       "product": {
         "abbrev": "UF OLT",
-        "name": "UFiber OLT"
+        "name": "Fiber OLT"
       },
       "shortnames": [
         "UF-OLT"
@@ -33985,7 +33985,7 @@
       },
       "product": {
         "abbrev": "UF OLT 4",
-        "name": "UFiber OLT 4"
+        "name": "Fiber OLT 4"
       },
       "shortnames": [
         "UF-OLT-4",
@@ -34081,7 +34081,7 @@
       },
       "product": {
         "abbrev": "UF WiFi",
-        "name": "UFiber WiFi"
+        "name": "Fiber WiFi"
       },
       "shortnames": [
         "UF-WIFI",
@@ -34291,7 +34291,7 @@
       },
       "product": {
         "abbrev": "USG Pro",
-        "name": "USG Professional"
+        "name": "USG Pro"
       },
       "shortnames": [
         "UGW8"
@@ -34493,8 +34493,8 @@
         "name": "UFiber"
       },
       "product": {
-        "abbrev": "UISP FIBER OLT XGS",
-        "name": "UISP Fiber OLT XGS"
+        "abbrev": "UISP Fiber OLT XGS",
+        "name": "Fiber OLT XGS"
       },
       "shortnames": [
         "UISP-FIBER-OLT-XGS"
@@ -34589,8 +34589,8 @@
         "name": "UFiber"
       },
       "product": {
-        "abbrev": "UISP FIBER XG",
-        "name": "UISP Fiber XG"
+        "abbrev": "UISP Fiber XG",
+        "name": "Fiber XG"
       },
       "shortnames": [
         "UISP-FIBER-XG"
@@ -34676,8 +34676,8 @@
         "name": "UFiber"
       },
       "product": {
-        "abbrev": "UISP FIBER XGS",
-        "name": "UISP Fiber XGS"
+        "abbrev": "UISP Fiber XGS",
+        "name": "Fiber XGS"
       },
       "shortnames": [
         "UISP-FIBER-XGS"
@@ -34985,7 +34985,7 @@
       },
       "product": {
         "abbrev": "UISP P Pro",
-        "name": "UISP Power Professional"
+        "name": "UISP Power Pro"
       },
       "shortnames": [
         "UISP-P-Pro"
@@ -35310,7 +35310,7 @@
       },
       "product": {
         "abbrev": "UISP R Pro",
-        "name": "UISP Router Professional"
+        "name": "UISP Router Pro"
       },
       "shortnames": [
         "UISP-R-Pro"
@@ -35524,7 +35524,7 @@
       },
       "product": {
         "abbrev": "UISP S Pro",
-        "name": "UISP Switch Professional"
+        "name": "UISP Switch Pro"
       },
       "shortnames": [
         "UISP-S-Pro"
@@ -35650,7 +35650,7 @@
       },
       "product": {
         "abbrev": "UK Ultra",
-        "name": "Swiss Army Knife Ultra"
+        "name": "Swiss Army Knife"
       },
       "shortnames": [
         "U7UKU",
@@ -36448,7 +36448,7 @@
       },
       "product": {
         "abbrev": "UNAS Pro",
-        "name": "Network Attached Storage Professional"
+        "name": "Network Attached Storage Pro"
       },
       "shortnames": [
         "UNAS-Pro",
@@ -37185,7 +37185,7 @@
       },
       "product": {
         "abbrev": "UNVR Pro",
-        "name": "Network Video Recorder Professional"
+        "name": "Network Video Recorder Pro"
       },
       "shortnames": [
         "UNVR-PRO",
@@ -39844,7 +39844,7 @@
       },
       "product": {
         "abbrev": "USG Pro",
-        "name": "Security Gateway Professional"
+        "name": "Security Gateway Pro"
       },
       "shortnames": [
         "UGW4",
@@ -41084,7 +41084,7 @@
       },
       "product": {
         "abbrev": "USP PDU HD",
-        "name": "Power Distribution HD"
+        "name": "Power Distribution Hi-Density"
       },
       "shortnames": [
         "USP-PDU-HD",
@@ -41249,7 +41249,7 @@
       },
       "product": {
         "abbrev": "USP PDU Pro",
-        "name": "Power Distribution Professional"
+        "name": "Power Distribution Pro"
       },
       "shortnames": [
         "USP-PDU-Pro",
@@ -41599,7 +41599,7 @@
       },
       "product": {
         "abbrev": "USP RSP Pro",
-        "name": "Power Backup Professional"
+        "name": "Power Backup Pro"
       },
       "shortnames": [
         "USP-RPS-Pro",
@@ -42952,8 +42952,8 @@
         "name": "UniFi"
       },
       "product": {
-        "abbrev": "USW Enterprise XG 24",
-        "name": "Switch Enterprise XG 24"
+        "abbrev": "USW EnterpriseXG 24",
+        "name": "Switch EnterpriseXG 24"
       },
       "shortnames": [
         "US-24-XG",
@@ -44040,7 +44040,7 @@
       },
       "product": {
         "abbrev": "USW Pro 24",
-        "name": "Switch Professional 24"
+        "name": "Switch Pro 24"
       },
       "shortnames": [
         "US24PRO2",
@@ -44153,7 +44153,7 @@
       },
       "product": {
         "abbrev": "USW Pro 24 PoE",
-        "name": "Switch Professional 24 PoE"
+        "name": "Switch Pro 24 PoE"
       },
       "shortnames": [
         "US24PRO",
@@ -44290,7 +44290,7 @@
       },
       "product": {
         "abbrev": "USW Pro 48",
-        "name": "Switch Professional 48"
+        "name": "Switch Pro 48"
       },
       "shortnames": [
         "US48PRO2",
@@ -44400,7 +44400,7 @@
       },
       "product": {
         "abbrev": "USW Pro 48 PoE",
-        "name": "Switch Professional 48 PoE"
+        "name": "Switch Pro 48 PoE"
       },
       "shortnames": [
         "US48PRO",
@@ -44518,7 +44518,7 @@
       },
       "product": {
         "abbrev": "USW Pro 8 PoE",
-        "name": "Switch Professional 8 PoE"
+        "name": "Switch Pro 8 PoE"
       },
       "shortnames": [
         "USLP8P",
@@ -44648,7 +44648,7 @@
       },
       "product": {
         "abbrev": "USW Pro Aggregation",
-        "name": "Switch Professional Aggregation"
+        "name": "Switch Pro Aggregation"
       },
       "shortnames": [
         "USAGGPRO",
@@ -46924,7 +46924,7 @@
       },
       "product": {
         "abbrev": "AI Pro",
-        "name": "Camera AI Professional"
+        "name": "Camera AI Pro"
       },
       "shortnames": [
         "UVC AI PRO",
@@ -47011,7 +47011,7 @@
       },
       "product": {
         "abbrev": "AI Pro",
-        "name": "Camera AI Professional"
+        "name": "Camera AI Pro"
       },
       "shortnames": [
         "UVC-AI-Pro-White"
@@ -47968,7 +47968,7 @@
       },
       "product": {
         "abbrev": "G3 Pro",
-        "name": "Camera G3 Professional"
+        "name": "Camera G3 Pro"
       },
       "shortnames": [
         "UVC G3 Pro",
@@ -48094,7 +48094,7 @@
       },
       "product": {
         "abbrev": "G4 Doorbell Pro",
-        "name": "G4 Doorbell Professional"
+        "name": "G4 Doorbell Pro"
       },
       "shortnames": [
         "UVC G4 Doorbell Pro",
@@ -48539,7 +48539,7 @@
       },
       "product": {
         "abbrev": "G4 Doorbell Pro PoE",
-        "name": "G4 Doorbell Professional PoE"
+        "name": "G4 Doorbell Pro PoE"
       },
       "shortnames": [
         "UVC G4 Doorbell Pro PoE",
@@ -48625,7 +48625,7 @@
       },
       "product": {
         "abbrev": "G4 Doorbell Pro PoE",
-        "name": "G4 Doorbell Professional PoE"
+        "name": "G4 Doorbell Pro PoE"
       },
       "shortnames": [
         "UVC-G4-Doorbell-Pro-PoE-White"
@@ -48708,7 +48708,7 @@
       },
       "product": {
         "abbrev": "G4 Doorbell Pro",
-        "name": "G4 Doorbell Professional"
+        "name": "G4 Doorbell Pro"
       },
       "shortnames": [
         "UVC-G4-Doorbell-Pro-White"
@@ -48923,7 +48923,7 @@
       },
       "product": {
         "abbrev": "G4 Pro",
-        "name": "Camera G4 Professional"
+        "name": "Camera G4 Pro"
       },
       "shortnames": [
         "UVC G4 Pro",
@@ -49717,7 +49717,7 @@
       },
       "product": {
         "abbrev": "G5 Pro",
-        "name": "Camera G5 Professional"
+        "name": "Camera G5 Pro"
       },
       "shortnames": [
         "UVC G5 Pro",
@@ -49982,7 +49982,7 @@
       },
       "product": {
         "abbrev": "G1 Pro",
-        "name": "Camera G1 Professional"
+        "name": "Camera G1 Pro"
       },
       "shortnames": [
         "UVC Pro",
@@ -52065,7 +52065,7 @@
       },
       "product": {
         "abbrev": "Wave Pro",
-        "name": "Wave Professional"
+        "name": "Wave Pro"
       },
       "shortnames": [
         "Wave-Pro"
@@ -52334,5 +52334,5 @@
       "videos": {}
     }
   ],
-  "version": "0738d5a848cf9d59796981356a0bffac0c8dea77"
+  "version": "f58611b78f585419ca799bfb671f717d35bd086f"
 }
