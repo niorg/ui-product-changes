@@ -6544,7 +6544,10 @@
         "UCKENT"
       ],
       "sku": "CK-Enterprise",
-      "sysids": [],
+      "sysid": "e990",
+      "sysids": [
+        "e990"
+      ],
       "triplets": [
         {
           "k1": "UCKENT"
@@ -31355,7 +31358,10 @@
         "UCKG2"
       ],
       "sku": "UCK-G2",
-      "sysids": [],
+      "sysid": "e960",
+      "sysids": [
+        "e960"
+      ],
       "triplets": [
         {
           "k1": "UCKG2",
@@ -31579,7 +31585,10 @@
         "UCKP"
       ],
       "sku": "UCK-G2-PLUS",
-      "sysids": [],
+      "sysid": "e970",
+      "sysids": [
+        "e970"
+      ],
       "triplets": [
         {
           "k1": "UCK-G2-PLUS"
@@ -32946,6 +32955,10 @@
             "capacity": 190
           },
           "radios": {},
+          "shadowMode": {
+            "interconnectPortInterface": "eth6",
+            "interconnectPortNumber": 7
+          },
           "subtypes": [
             "ugw",
             "usw"
@@ -41598,7 +41611,7 @@
         "net": "7.0.23"
       },
       "product": {
-        "abbrev": "USP RSP Pro",
+        "abbrev": "USP RPS Pro",
         "name": "Power Backup Pro"
       },
       "shortnames": [
@@ -52334,5 +52347,5 @@
       "videos": {}
     }
   ],
-  "version": "409199535aa8154ef7afd31f439d6475dd7f1815"
+  "version": "4f292a12fb4f0f0cd648193a661f426530d92e76"
 }
