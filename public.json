@@ -6913,6 +6913,7 @@
         "nopadding": "d5dd90c5d418c30207e8cb5624fe7447",
         "topology": "40dd466e50ebad33e5e2f81a6258a3e3"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -24021,7 +24022,7 @@
             "na": {
               "gain": 3,
               "maxPower": 26,
-              "maxSpeedMegabitsPerSecond": 5765
+              "maxSpeedMegabitsPerSecond": 4324
             },
             "ng": {
               "gain": 5,
@@ -24158,7 +24159,7 @@
             "na": {
               "gain": 6,
               "maxPower": 26,
-              "maxSpeedMegabitsPerSecond": 2882
+              "maxSpeedMegabitsPerSecond": 8648
             },
             "ng": {
               "gain": 4,
@@ -24285,7 +24286,7 @@
             "na": {
               "gain": 3,
               "maxPower": 26,
-              "maxSpeedMegabitsPerSecond": 5765
+              "maxSpeedMegabitsPerSecond": 4324
             },
             "ng": {
               "gain": 5,
@@ -24550,6 +24551,30 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-UAG2M",
+        "ic": "6545A-UAG2M",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jnfc": "AC-23037",
+        "jrf": [
+          "020-230121"
+        ],
+        "modelName": "UA-G2-Black",
+        "ncc": "CCAH23LP3360T1",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "guids": [
         "243ce5b6-b29d-4911-a2ea-14aa129be00a"
       ],
@@ -32301,6 +32326,7 @@
         "nopadding": "52bd54e97d8b7985b262a94814f26d90",
         "topology": "ecf578665ded4f14cf739c792bcbfd8f"
       },
+      "isARSupported": true,
       "jpa": [
         "D20-0093001",
         "L20-0007"
@@ -32552,6 +32578,7 @@
         "nopadding": "70904ddb99b8b68ddfc3856c98962695",
         "topology": "5e6416b3bdb6b6891ba500ce265672b5"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -32802,6 +32829,7 @@
         "nopadding": "67b553529d0e523ca9dd4826076c5f3f",
         "topology": "8371ecdda1f00f1636a2eefadf0d7d47"
       },
+      "isARSupported": true,
       "jpa": [
         "D22-0053001",
         "L22-0007"
@@ -33296,6 +33324,7 @@
         "nopadding": "05b7c28a747dffc2390f2e27930a778a",
         "topology": "d84c6f7bbac3e117b8e2cfe7984566ee"
       },
+      "isARSupported": true,
       "jpa": [
         "D23-0075001",
         "L23-0011"
@@ -40346,6 +40375,7 @@
         "nopadding": "554beb7be9d783e9bc4a45c40c43c890",
         "topology": "11fef68ceb5541db0f5549e8c1416dc0"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -40454,6 +40484,7 @@
         "nopadding": "d511b11dbe76eb93b32c379d47c1f73f",
         "topology": "46f34d662832ca8b9299bbcb735e1d47"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -40559,6 +40590,7 @@
         "nopadding": "6bb4e055070b4f99c116a9a8c03c3587",
         "topology": "136e2ec22f0fb3dc9defe09c680239d1"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -40667,6 +40699,7 @@
         "nopadding": "321b8899bd359601b6d3cfa07e41717d",
         "topology": "49c49f8872df0f8b17434451ad7b6477"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -40774,6 +40807,7 @@
         "nopadding": "30f5d24404cca9e1c87d6fe3143ea3bb",
         "topology": "deb28fbb37e5d674831948800b248990"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -41256,6 +41290,7 @@
         "nopadding": "722fbccb9269211b66b79605fa052ef9",
         "topology": "c6bee121489f56e5c8bef851dd331283"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -41491,6 +41526,7 @@
         "nopadding": "1eee0db520634497f613281e4a4276cc",
         "topology": "f778e9180866425774bb88b88b7270af"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -41793,6 +41829,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "00593-21-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USW-16-PoE",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -41851,6 +41903,7 @@
         "nopadding": "554beb7be9d783e9bc4a45c40c43c890",
         "topology": "11fef68ceb5541db0f5549e8c1416dc0"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -41966,6 +42019,7 @@
         "nopadding": "d511b11dbe76eb93b32c379d47c1f73f",
         "topology": "46f34d662832ca8b9299bbcb735e1d47"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -42078,6 +42132,7 @@
         "nopadding": "6bb4e055070b4f99c116a9a8c03c3587",
         "topology": "136e2ec22f0fb3dc9defe09c680239d1"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -42136,6 +42191,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "17193-20-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USW-48",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -42194,6 +42265,7 @@
         "nopadding": "321b8899bd359601b6d3cfa07e41717d",
         "topology": "49c49f8872df0f8b17434451ad7b6477"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -42250,6 +42322,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "00593-21-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "USW-48-PoE",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_A"
+          ]
+        }
+      },
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -42308,6 +42396,7 @@
         "nopadding": "30f5d24404cca9e1c87d6fe3143ea3bb",
         "topology": "deb28fbb37e5d674831948800b248990"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -42442,6 +42531,7 @@
         "nopadding": "68d1dfe7b7c555b75da3c004ea3a8331",
         "topology": "948c0964a438b0108e0edf128d6e4610"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -42568,6 +42658,7 @@
         "nopadding": "c5eec7aca59472a3f0907bdde898e94b",
         "topology": "79f9c8f3eea32351a04fdef4f18c7da7"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -42700,6 +42791,7 @@
         "nopadding": "4c6d0b12f6a9999dfba821bbad1b15cb",
         "topology": "0a8ba5a4e70cd8e1906f96f4dbd8761b"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -42834,6 +42926,7 @@
         "nopadding": "d523e7d05829b2af8f543963f38938b2",
         "topology": "afe8af0c80987dfbe67c468fca6dc107"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -42960,6 +43053,7 @@
         "nopadding": "2bc976fbbd769868c176141b264e8d0b",
         "topology": "e30883fa786989070ae8cef0b17a3b2c"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -43909,6 +44003,7 @@
         "nopadding": "b576619bbcd4abdb2bff212a656416d3",
         "topology": "11cd0e32b06a07bbd801e12e9b50b271"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -44047,6 +44142,7 @@
         "nopadding": "ccc0e87363c4d20b66f1e4166e809e9f",
         "topology": "2e6945cfe70cf522598f644b1052899f"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -44160,6 +44256,7 @@
         "nopadding": "b1cd82277458c19e297cd2d9155b32c7",
         "topology": "61340cc158b3b9a1e6208f254749b5e7"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -44297,6 +44394,7 @@
         "nopadding": "30f5d24404cca9e1c87d6fe3143ea3bb",
         "topology": "b03547196221cb7d572497222e78cf44"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -44407,6 +44505,7 @@
         "nopadding": "9a579dff8dccaa7d1afccd2059c70258",
         "topology": "90e45f6f071c263b41f999d63f82310e"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -44525,6 +44624,7 @@
         "nopadding": "567137edae9f99ecf99958560aad1b0e",
         "topology": "597b0990c410ded0bcc9069d6f308312"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -44655,6 +44755,7 @@
         "nopadding": "13ef0a90a63690dd8372d65b7e3906f1",
         "topology": "5b76dafef8e8074396ec79768a02ec72"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -44769,6 +44870,7 @@
         "nopadding": "8bcff21cdaa7ad169a0373eaf9e38811",
         "topology": "320e62cc8e2d7b4b4212c1e4ad2edb4a"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -44875,6 +44977,7 @@
         "nopadding": "98104d12f23a9bfd9c89dfe23804ee36",
         "topology": "00f5698e79008e124bd8e45b1c895a7c"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -44999,6 +45102,7 @@
         "nopadding": "a0db3bf6a45e2da9ee194e6e06a5515e",
         "topology": "c4439e9e213ebc5fab758cc5f5fb7bc0"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -45122,6 +45226,7 @@
         "nopadding": "4fa0ddd426de932fae6eb6be14566ef8",
         "topology": "e6817f5dfcdb97f30d205800d0b3182f"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -45249,6 +45354,7 @@
         "nopadding": "76875cc5c4df3a5f473caeb8f69a36b9",
         "topology": "8c92f48fb38e3378c442231f3e754056"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -45371,6 +45477,7 @@
         "nopadding": "347e4886a1155876faa8a4bf4b901c56",
         "topology": "d401ef4118fbac687fa6b13ff42f89bc"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -50945,6 +51052,7 @@
         "nopadding": "e335855f02eb6d2f0da491f55a998cc8",
         "topology": "a2f25fb81ac3e6b08d369e450a1935a4"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -51542,6 +51650,7 @@
         "nopadding": "13adaf19390498b0c77c22bd29460893",
         "topology": "6b49141a30c342bdafc675e6ada4f168"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -52347,5 +52456,5 @@
       "videos": {}
     }
   ],
-  "version": "23b6059f658dfbe8e6f5f3105d522f477ed3440b"
+  "version": "db3cc6594f49e9698cacc14f4eb9f270a9d1db30"
 }
