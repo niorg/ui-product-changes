@@ -6744,6 +6744,21 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "EAH-8",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_A"
+          ]
+        }
+      },
       "guids": [
         "63ff0828-8a02-4625-85bb-b6cae8c89018"
       ],
@@ -23378,6 +23393,28 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "16073-23-08356",
+        "cn": "2023AJ11705",
+        "fcc": "SWX-U6PLR",
+        "ic": "6545A-U6PLR",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "U6-LR+",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "guids": [
         "2950e56a-84d3-47f4-b037-f5ca1533bcb2"
       ],
@@ -24175,6 +24212,112 @@
     },
     {
       "guids": [
+        "961a10a4-abf7-7a54-100b-a14185fb105c"
+      ],
+      "icon": {
+        "id": "fa8426ab-c385-f934-e373-a1ef170ef7a9",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "28b9fb3e-4351-3314-70a3-1db9b6865333",
+      "images": {
+        "default": "9b17822dcb8bb18efb6e5960827d7d02",
+        "nopadding": "374103d3d01011fa456d0475f6b2ad93",
+        "topology": "ae71ff6e4ea884c404a778d840d2b267"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "U7 Pro Outdoor",
+        "name": "Access Point U7 Pro Outdoor"
+      },
+      "shortnames": [
+        "U7-Pro-Outdoor",
+        "U7 Pro Outdoor"
+      ],
+      "sku": "U7-Pro-Outdoor",
+      "sysid": "a6a6",
+      "sysids": [
+        "a6a6"
+      ],
+      "triplets": [],
+      "unifi": {
+        "network": {
+          "chipset": "r",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 2500,
+          "minimumFirmwareRequired": "7.0.64",
+          "model": "UAPA6A6",
+          "numberOfPorts": 1,
+          "radios": {
+            "6e": {
+              "maxSpeedMegabitsPerSecond": 5765
+            },
+            "na": {
+              "maxSpeedMegabitsPerSecond": 4324
+            },
+            "ng": {
+              "maxSpeedMegabitsPerSecond": 688
+            }
+          },
+          "systemIdHexadecimal": "a6a6",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
         "b899f635-03cc-4fa1-b186-e582c6670cde"
       ],
       "icon": {
@@ -24822,7 +24965,7 @@
         "name": "UniFi Access"
       },
       "product": {
-        "abbrev": "UA G2 Pro Black",
+        "abbrev": "UA G2 Pro",
         "name": "G2 Reader Pro"
       },
       "shortnames": [
@@ -29698,6 +29841,87 @@
       "videos": {}
     },
     {
+      "guids": [
+        "2a428ae2-5822-4a4b-a265-9f0e5f3cf895"
+      ],
+      "icon": {
+        "id": "7103e12a-e3c9-4da1-bd35-5c1a084e90c0",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "2e03ed2b-ab34-489f-ac4c-74bd499ed84e",
+      "images": {
+        "default": "fc8439a7e777accac4ab684adf238732",
+        "nopadding": "3ab539893b2834819eb2d32cf48091b9",
+        "topology": "76a70f57166924e5a8b0690f05cc567b"
+      },
+      "line": {
+        "id": "unifi-connect",
+        "name": "UniFi Connect"
+      },
+      "product": {
+        "abbrev": "UC Cast Pro",
+        "name": "Display Cast Pro"
+      },
+      "shortnames": [
+        "UC-Cast-Pro"
+      ],
+      "sku": "UC-Cast-Pro",
+      "sysid": "ef92",
+      "sysids": [
+        "ef92"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "fcc": "SWX-UCD21",
         "ic": "6545A-UCD21",
@@ -33006,7 +33230,7 @@
         "userConfigured": "fe33e6b5-25c7-4bba-a6d2-41761765a961"
       },
       "compliance": {
-        "anatel": "09650-22-08356",
+        "cn": "2022AJ8089",
         "fcc": "SWX-UDR",
         "ic": "6545A-UDR",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -36490,7 +36714,7 @@
       },
       "product": {
         "abbrev": "UNAS Pro",
-        "name": "Network Attached Storage Pro"
+        "name": "UNAS Pro"
       },
       "shortnames": [
         "UNAS-Pro",
@@ -36600,7 +36824,7 @@
       },
       "product": {
         "abbrev": "UNAS Studio SSD",
-        "name": "Network Attached Storage Studio SSD"
+        "name": "UNAS Studio SSD"
       },
       "shortnames": [
         "UNAS",
@@ -36716,7 +36940,7 @@
       },
       "product": {
         "abbrev": "UNAS Studio SSD",
-        "name": "Network Attached Storage Studio SSD"
+        "name": "UNAS Studio SSD"
       },
       "shortnames": [
         "UNAS-Studio-BK",
@@ -38482,6 +38706,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "02678-15-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "US-48-500W",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_A"
+          ]
+        }
+      },
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -41961,6 +42201,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "17193-20-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": " USW-24",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -42074,6 +42330,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "00593-21-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USW-24-PoE",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -43224,6 +43496,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "14501-20-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USW-Flex-Mini",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -44812,6 +45100,21 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USW-Pro-Max-16",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "guids": [
         "8acc3856-7fcd-4b03-bd8a-f6fd1cf7304f"
       ],
@@ -44919,6 +45222,21 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USW-Pro-Max-16-PoE",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "guids": [
         "58146977-f76f-4a97-9f4d-c2fecc14de78"
       ],
@@ -47723,6 +48041,7 @@
       },
       "compliance": {
         "anatel": "13322-21-08356",
+        "cn": "2021AJ16441",
         "fcc": "SWX-UVCG3INS",
         "ic": "6545A-UVCG3INS",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -50755,6 +51074,7 @@
       },
       "compliance": {
         "anatel": "21391-23-08356",
+        "cn": "24J99U16M001",
         "fcc": "SWX-UX",
         "ic": "6545A-UX",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -52456,5 +52776,5 @@
       "videos": {}
     }
   ],
-  "version": "db3cc6594f49e9698cacc14f4eb9f270a9d1db30"
+  "version": "68ccb0468c082174674b3d1b5445691213254a6f"
 }
