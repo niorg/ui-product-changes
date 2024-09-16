@@ -6844,6 +6844,112 @@
       "videos": {}
     },
     {
+      "guids": [
+        "f7e32a13-a4e9-8c14-8003-9bceab46cf90"
+      ],
+      "icon": {
+        "id": "b71c7425-a43c-6fd4-15d3-0fd5af908c0b",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "ba23322a-c416-da74-3103-85357ca33c94",
+      "images": {
+        "default": "fdc59a39cbd1b92273206095621dce29",
+        "nopadding": "3d2487bf3bfd44932bf7c47b83441e04",
+        "topology": "28f0424e8d7028c86dc46a74e7e6dc71"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "ECS Aggregation",
+        "name": "Switch Enterprise Campus Aggregation"
+      },
+      "shortnames": [
+        "ECSAGG"
+      ],
+      "sku": "ECS-Aggregation",
+      "sysid": "f066",
+      "sysids": [
+        "f066"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "s",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "diagram": [
+            "01 03 05 07 09 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 __ 49 51 53",
+            "02 04 06 08 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 __ 50 52 54"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 100000,
+          "features": {
+            "poe": false
+          },
+          "minimumFirmwareRequired": "0.1.7",
+          "model": "USWF066",
+          "numberOfPorts": 54,
+          "ports": {
+            "qsfp28": "49-54",
+            "sfp28": "1-48"
+          },
+          "radios": {},
+          "systemIdHexadecimal": "f066",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
       "btle": {
         "factoryDefault": "7538c680-8441-47b4-ab44-2eb926fe11bd",
         "userConfigured": "158a3b2d-0bab-45c0-97f1-1625955f2031"
@@ -7093,6 +7199,102 @@
         "mobile-setup-wizard-plugin": "3c495cd05bb66320539600e167d81d1f",
         "mobile-setup-wizard-testing-connection": "5cfcd8f6d952c7d17d264e4fcc6eab10"
       }
+    },
+    {
+      "guids": [
+        "20bdb8ef-109f-4945-a335-cb92b6ae29e2"
+      ],
+      "icon": {
+        "id": "d8d7f2d2-5a6b-418b-af6d-35d63fe3e09a",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "e97640c1-e4fc-49cf-a537-682843ce96e9",
+      "images": {
+        "default": "1b4cc56dda2c98bd71586ed5cc821d5a",
+        "nopadding": "e30506e555aaac0cb03f03c0d9af3684",
+        "topology": "45c4d5f2b39a589ab122015ad510e5b7"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "ENVR",
+        "name": "Enterprise Network Video Recorder"
+      },
+      "shortnames": [
+        "ENVR"
+      ],
+      "sku": "ENVR",
+      "sysids": [],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "standalone",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "70154cb6-565a-48e4-a168-6706c71d81cf",
+              "default": "375671fb-9551-4848-817c-8269eeb651b3",
+              "features": {
+                "ucore": true
+              }
+            }
+          ],
+          "deviceCapabilities": [
+            "PROTECT_APPLICATION",
+            "STORAGE"
+          ],
+          "model": "ENVR",
+          "radios": {},
+          "type": "unvr"
+        }
+      },
+      "videos": {}
     },
     {
       "guids": [],
@@ -23857,6 +24059,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "minAdoptVersion": {
+        "net": "8.2.93"
+      },
       "product": {
         "abbrev": "U7 Outdoor",
         "name": "Access Point U7 Outdoor"
@@ -23922,10 +24127,14 @@
     },
     {
       "compliance": {
+        "anatel": "06370-24-08356",
         "fcc": "SWX-U7PRO",
         "ic": "6545A-U7PRO",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "indoorOnly": true,
+        "jrf": [
+          "020-240248"
+        ],
         "modelName": "U7-Pro",
         "ncc": "CCAH24LP1700T7",
         "rcm": true,
@@ -23943,7 +24152,8 @@
             "RF",
             "WIFI_6"
           ]
-        }
+        },
+        "wifi": "5e,6e"
       },
       "guids": [
         "cc5dfd33-f116-4256-8398-6d7bbf8bafd1",
@@ -24288,6 +24498,7 @@
       ],
       "triplets": [],
       "unifi": {
+        "adoptability": "adoptable",
         "network": {
           "chipset": "r",
           "deviceCapabilities": [
@@ -24296,17 +24507,28 @@
             "VPORT"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 2500,
+          "features": {
+            "atfDisabled": true,
+            "ax": true,
+            "bandsteer": true,
+            "be": true,
+            "gen": 2,
+            "outdoorModeSupport": true
+          },
           "minimumFirmwareRequired": "7.0.64",
           "model": "UAPA6A6",
           "numberOfPorts": 1,
           "radios": {
             "6e": {
+              "maxPower": 23,
               "maxSpeedMegabitsPerSecond": 5765
             },
             "na": {
+              "maxPower": 26,
               "maxSpeedMegabitsPerSecond": 4324
             },
             "ng": {
+              "maxPower": 22,
               "maxSpeedMegabitsPerSecond": 688
             }
           },
@@ -31076,6 +31298,7 @@
       },
       "compliance": {
         "anatel": "04653-24-08356",
+        "cn": "24J99U16A001",
         "fcc": "SWX-UCGU",
         "ic": "6545A-UCGU",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -31086,6 +31309,7 @@
         "jrf": [
           "020-240098"
         ],
+        "kc": "R-R-U8I-UCG-Ultra",
         "modelName": "UCG-Ultra",
         "ncc": "CCAH24LP1810T1",
         "rcm": true,
@@ -37205,6 +37429,7 @@
       },
       "compliance": {
         "anatel": "01924-21-08356",
+        "cn": "2023DJ20549",
         "fcc": "SWX-UNVR",
         "ic": "6545A-UNVR",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
@@ -43490,6 +43715,105 @@
           },
           "radios": {},
           "systemIdHexadecimal": "ed10",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "2e742a95-af95-89e4-bc53-60f32bd25b66"
+      ],
+      "icon": {
+        "id": "53cd97f3-7fc6-3a54-3653-3814dc84cfcd",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "d3077372-7692-bdc4-a493-a2ffa3055250",
+      "images": {
+        "default": "a3bcd70667e4a01ce8136941d3a76663",
+        "nopadding": "ce668c3c45171d948414c44176752b9b",
+        "topology": "b12269c07b83a10d82e9cf5a7906b059"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USW Flex 2.5G 5",
+        "name": "Switch Flex 2.5G 5"
+      },
+      "shortnames": [
+        "USM25G5"
+      ],
+      "sku": "USW-Flex-2.5G-5",
+      "sysid": "ed35",
+      "sysids": [
+        "ed35"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "o",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_LOW_RESOURCES",
+            "HAS_CLIENTS"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 2500,
+          "minimumFirmwareRequired": "1.1.0",
+          "model": "USWED35",
+          "numberOfPorts": 5,
+          "ports": {
+            "standard": 5
+          },
+          "radios": {},
+          "systemIdHexadecimal": "ed35",
           "type": "usw"
         }
       },
@@ -50334,7 +50658,7 @@
         "name": "UniFi Protect"
       },
       "product": {
-        "abbrev": "G1 Micro",
+        "abbrev": "G2 Micro",
         "name": "Camera Micro"
       },
       "shortnames": [
@@ -50420,8 +50744,8 @@
         "name": "UniFi Protect"
       },
       "product": {
-        "abbrev": "G1 Pro",
-        "name": "Camera G1 Pro"
+        "abbrev": "G2 Pro",
+        "name": "Camera G2 Pro"
       },
       "shortnames": [
         "UVC Pro",
@@ -51214,7 +51538,8 @@
             "APPLICATION_MODE",
             "HAS_CLIENTS",
             "MESH",
-            "UX_SERIES"
+            "UX_SERIES",
+            "QCA_WIFI_FULL_APPLY_PLATFORM"
           ],
           "diagram": [
             "01 02"
@@ -52776,5 +53101,5 @@
       "videos": {}
     }
   ],
-  "version": "68ccb0468c082174674b3d1b5445691213254a6f"
+  "version": "3f533efcf425e5b8f451baf53069c78a90042fdd"
 }
