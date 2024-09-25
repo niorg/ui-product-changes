@@ -24111,7 +24111,7 @@
             "na": {
               "gain": 13,
               "maxPower": 26,
-              "maxSpeedMegabitsPerSecond": 2882
+              "maxSpeedMegabitsPerSecond": 4324
             },
             "ng": {
               "gain": 8,
@@ -24153,7 +24153,7 @@
             "WIFI_6"
           ]
         },
-        "wifi": "5e,6e"
+        "wifi": "6e"
       },
       "guids": [
         "cc5dfd33-f116-4256-8398-6d7bbf8bafd1",
@@ -31985,6 +31985,272 @@
       "videos": {
         "mobile-intro": "4fa34b4fa979b5167183223007650cc4"
       }
+    },
+    {
+      "btle": {
+        "factoryDefault": "0ff18683-789e-41c8-943b-c24c9def7fd8",
+        "userConfigured": "4dd748ce-d16d-49e3-9e6d-f1642423b77b"
+      },
+      "compliance": {
+        "fcc": "SWX-UDB",
+        "ic": "6545A-UDB",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UDB",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
+      "guids": [
+        "0c547118-7d88-4ebf-aade-d24c6f771295",
+        "0ff18683-789e-41c8-943b-c24c9def7fd8",
+        "4dd748ce-d16d-49e3-9e6d-f1642423b77b"
+      ],
+      "icon": {
+        "id": "59226518-aa19-4fb3-9549-8f50132a4d6d",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "d1106e2b-feef-4658-885c-fbef12b3c9bf",
+      "images": {
+        "default": "422e0062ce45992cb025bdc32728b35d",
+        "nopadding": "cb0c7d6648726bdfaeaaedb28c4ec3a2",
+        "topology": "b2d91d8001f2beb549d2b5bfb704d9c4"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "8.4.59"
+      },
+      "product": {
+        "abbrev": "UDB",
+        "name": "Device Bridge"
+      },
+      "shortnames": [
+        "UACC-M-PoE-AF",
+        "UACCMPOEAF"
+      ],
+      "sku": "UDB",
+      "sysid": "dcb4",
+      "sysids": [
+        "dcb4"
+      ],
+      "triplets": [
+        {
+          "k1": "UACCMPOEAF",
+          "k2": "UACC-M-PoE"
+        },
+        {
+          "k1": "UACCMPOEAF",
+          "k3": "UACCMPOEAF"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "4dd748ce-d16d-49e3-9e6d-f1642423b77b",
+              "default": "0ff18683-789e-41c8-943b-c24c9def7fd8"
+            }
+          ],
+          "chipset": "f",
+          "deviceCapabilities": [
+            "WIRELESS_SWITCH",
+            "ACCESS_POINT_SWITCH",
+            "HAS_CLIENTS",
+            "VPORT"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "minimumFirmwareRequired": null,
+          "model": "UACCMPOEAF",
+          "numberOfPorts": 1,
+          "ports": {
+            "standard": 1
+          },
+          "radios": {
+            "na": {
+              "maxSpeedMegabitsPerSecond": 2400
+            },
+            "ng": {
+              "maxSpeedMegabitsPerSecond": 570
+            }
+          },
+          "systemIdHexadecimal": "dcb4",
+          "type": "uacc"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "2bbaf3f3-feb5-4d9a-b5ca-4b751aa13378"
+      ],
+      "icon": {
+        "id": "dc74723d-07e3-49b0-86cc-686b5a82b387",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "bd858860-6b62-4628-af7c-ced03e2b43b5",
+      "images": {
+        "default": "188fd39f1baa91a5adfbb0f6d4d95d7f",
+        "left-nopadding": "0f8dddb28e8d5b22f362227b23daa4a0",
+        "nopadding": "b984cece209ac16486b22515a087eaf0",
+        "right-nopadding": "974ed7a1c616f9e4477eee583ca292fc",
+        "topology": "fe63a31fa18e8a8a9a12edffc0f51272"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "8.4.59"
+      },
+      "product": {
+        "abbrev": "UDB Pro",
+        "name": "Device Bridge Pro"
+      },
+      "shortnames": [
+        "UDB",
+        "UDB-Pro"
+      ],
+      "sku": "UDB-Pro",
+      "sysid": "e801",
+      "sysids": [
+        "e801"
+      ],
+      "triplets": [
+        {
+          "k1": "UDB",
+          "k2": "UDB"
+        },
+        {
+          "k1": "UDB",
+          "k3": "UDB"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "e",
+          "deviceCapabilities": [
+            "BUILDING_BRIDGE",
+            "BRIDGE",
+            "BRIDGE_PTMP",
+            "HAS_TEMPERATURE_SENSOR",
+            "HAS_GLOBAL_POE_MODE_CONTROL",
+            "HAS_CLIENTS"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "minimumFirmwareRequired": "0.0.0",
+          "model": "UDB",
+          "numberOfPorts": 1,
+          "radios": {},
+          "systemIdHexadecimal": "e801",
+          "type": "udb"
+        }
+      },
+      "videos": {}
     },
     {
       "btle": {
@@ -52983,5 +53249,5 @@
       "videos": {}
     }
   ],
-  "version": "a1322c486b12d4d80241117760b94c8df35e2572"
+  "version": "04645131ee46b4132f54912cd573c166201daae7"
 }
