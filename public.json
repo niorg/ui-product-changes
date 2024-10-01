@@ -50744,6 +50744,88 @@
       "videos": {}
     },
     {
+      "guids": [
+        "343b7890-9b38-21f4-007b-b1fc76d8fbe3"
+      ],
+      "icon": {
+        "id": "ffe4d04d-0a5a-b164-b50b-61835aa418ba",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "0b84c85c-b44c-f584-d38b-6a078efe66ea",
+      "images": {
+        "default": "5843698651982aea4399769e465a0b2f",
+        "nopadding": "e90951ef0488043e9dd11af371c2b35a",
+        "topology": "74507e2dcdce07e532be5ae88b34c142"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "G5 Turret Ultra",
+        "name": "Camera G5 Turret Ultra"
+      },
+      "shortnames": [
+        "UVC-G5-Turret-Ultra-Black",
+        "UVC G5 Turret Ultra Black"
+      ],
+      "sku": "UVC-G5-Turret-Ultra-Black",
+      "sysid": "a59c",
+      "sysids": [
+        "a59c"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
       "deviceType": "camera",
       "guids": [],
       "icon": {
@@ -53249,5 +53331,5 @@
       "videos": {}
     }
   ],
-  "version": "04645131ee46b4132f54912cd573c166201daae7"
+  "version": "696a621724dfec9aa91ac1083ef31989da3ffa07"
 }
