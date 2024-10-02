@@ -6844,6 +6844,21 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ECS-Aggregation",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_A"
+          ]
+        }
+      },
       "guids": [
         "f7e32a13-a4e9-8c14-8003-9bceab46cf90"
       ],
@@ -21776,8 +21791,14 @@
           "201-230134"
         ],
         "modelName": "U6-Enterprise",
+        "ncc": "CCAH24LP0040T2",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
+          "BR": [
+            "WIFI_6E"
+          ],
           "CA": [
             "IC",
             "RF",
@@ -21787,7 +21808,6 @@
           "US": [
             "FCC_B",
             "RF",
-            "WIFI_5",
             "WIFI_6"
           ]
         },
@@ -24059,6 +24079,7 @@
     },
     {
       "compliance": {
+        "anatel": "08999-24-08356",
         "fcc": "SWX-UKPRO",
         "ic": "6545A-UKPRO",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
@@ -24365,6 +24386,30 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "08959-24-08356",
+        "fcc": "SWX-U7PROM",
+        "ic": "6545A-U7PROM",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "indoorOnly": true,
+        "modelName": "U7-Pro-Max",
+        "rcm": true,
+        "rfCmFcc": 25,
+        "rfCmIc": 25,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5",
+            "WIFI_6"
+          ],
+          "US": [
+            "FCC_B",
+            "RF",
+            "WIFI_6"
+          ]
+        }
+      },
       "guids": [
         "1cd5b2f7-02c9-49bb-85c8-388b9f68ddfc",
         "27066b1b-53a9-46a2-9b6f-7b87d18eb148",
@@ -24502,6 +24547,29 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-U7PROW",
+        "ic": "6545A-U7PROW",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "indoorOnly": true,
+        "modelName": "U7-Pro-Wall",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5",
+            "WIFI_6"
+          ],
+          "US": [
+            "FCC_B",
+            "RF",
+            "WIFI_6"
+          ]
+        }
+      },
       "guids": [
         "b899f635-03cc-4fa1-b186-e582c6670cde"
       ],
@@ -26509,6 +26577,7 @@
     {
       "compliance": {
         "anatel": "04399-18-08356",
+        "cn": "2019AJ12559",
         "fcc": "SWX-UAPACIW",
         "ic": "6545A-UAPACIW",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -32220,6 +32289,26 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-UDBP",
+        "ic": "6545A-UDBP",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UDB-Pro",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "guids": [
         "2bbaf3f3-feb5-4d9a-b5ca-4b751aa13378"
       ],
@@ -43950,6 +44039,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "09000-24-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USW-Flex-2.5G-5",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "guids": [
         "2e742a95-af95-89e4-bc53-60f32bd25b66"
       ],
@@ -45654,6 +45759,7 @@
     },
     {
       "compliance": {
+        "anatel": "08953-24-08356",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "USW-Pro-Max-16",
         "rcm": true,
@@ -49808,6 +49914,7 @@
       },
       "compliance": {
         "anatel": "10585-22-08356",
+        "cn": "2022AJ17800",
         "fcc": "SWX-UVCG4INS",
         "ic": "6545A-UVCG4INS",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -49816,6 +49923,7 @@
         ],
         "modelName": "UVC-G4-INS",
         "ncc": "CCAH22LP2810T3",
+        "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
         "text": {
@@ -51527,6 +51635,7 @@
     },
     {
       "compliance": {
+        "anatel": "08960-24-08356",
         "fcc": "SWX-UAPSTMXG\nContains FCC ID: SWX-M445GL\nContains FCC ID: SWX-M445GH\nContains FCC ID: SWX-M11DB",
         "ic": "6545A-UAPSTMXG\nContains IC: 6545A-M445GL\nContains IC: 6545A-M445GH\nContains IC: 6545A-M11DB",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -52255,6 +52364,7 @@
       },
       "compliance": {
         "anatel": "01874-24-08356",
+        "cn": "24J99U16M002",
         "fcc": "SWX-UXG",
         "ic": "6545A-UXG",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -53500,5 +53610,5 @@
       "videos": {}
     }
   ],
-  "version": "191bc76495231592f66a85197cbbad87263d456a"
+  "version": "5b22227655d84047056dae1688d923e1b39b19cc"
 }
