@@ -23977,6 +23977,87 @@
       "videos": {}
     },
     {
+      "guids": [
+        "0cfe23db-b3f3-ab74-6f8b-d11adb29927f"
+      ],
+      "icon": {
+        "id": "bafb125d-ef22-6614-ea2b-f43ff03896cf",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "60ce0ae1-fcef-66d4-bcb3-02c6255d227d",
+      "images": {
+        "default": "ea3f9d870b89a7d611314d2ea86e41d2",
+        "nopadding": "2cad67d89ae83882c0167eb54d1c37f9",
+        "topology": "8d41ac6acb693662f9a3bcf24c461ed7"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "U7 Pro",
+        "name": "Access Point U7 Pro"
+      },
+      "shortnames": [
+        "U7 Pro"
+      ],
+      "sku": "U7 Pro",
+      "sysid": "a682",
+      "sysids": [
+        "a682"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "fcc": "SWX-UKPRO",
         "ic": "6545A-UKPRO",
@@ -25585,7 +25666,7 @@
     },
     {
       "compliance": {
-        "anatel": "05302-23-0835",
+        "anatel": "05302-23-08356",
         "fcc": "SWX-UAPROE",
         "ic": "6545A-UAPROE",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -47539,6 +47620,94 @@
       "videos": {}
     },
     {
+      "deviceType": "camera",
+      "guids": [
+        "93cc9bab-12a9-98b4-488b-ba93a26eddba",
+        "a04de54c-2bbc-0ff4-5a73-fac26b7065d2"
+      ],
+      "icon": {
+        "id": "3a0c533e-dd00-76c4-8c73-d1186349e93c",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "0dd94069-1ce5-c744-7d5b-3e33d8754d65",
+      "images": {
+        "default": "56ad1d970c396129621c30a0b8754762",
+        "nopadding": "a3e3daf2967160f54d632b322e42c66a",
+        "topology": "c7413e9a50eb9cd288df4a90153c563a"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "AI 360",
+        "name": "Camera AI 360"
+      },
+      "shortnames": [
+        "UVC AI 360 White",
+        "UVC-AI-360-White"
+      ],
+      "sku": "UVC-AI-360-White",
+      "sysid": "a5a0",
+      "sysids": [
+        "a5a0"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "protect": {
+          "fov": 360,
+          "suggestedDistance": 5
+        }
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "UVC-AI-Bullet",
@@ -53331,5 +53500,5 @@
       "videos": {}
     }
   ],
-  "version": "696a621724dfec9aa91ac1083ef31989da3ffa07"
+  "version": "191bc76495231592f66a85197cbbad87263d456a"
 }
