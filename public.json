@@ -6970,6 +6970,7 @@
         "userConfigured": "158a3b2d-0bab-45c0-97f1-1625955f2031"
       },
       "compliance": {
+        "anatel": "06375-24-08356",
         "fcc": "SWX-EFG",
         "ic": "6545A-EFG",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
@@ -32217,9 +32218,9 @@
       },
       "id": "d1106e2b-feef-4658-885c-fbef12b3c9bf",
       "images": {
-        "default": "422e0062ce45992cb025bdc32728b35d",
-        "nopadding": "cb0c7d6648726bdfaeaaedb28c4ec3a2",
-        "topology": "b2d91d8001f2beb549d2b5bfb704d9c4"
+        "default": "9fe540263c935446eedaebc78bcb6c99",
+        "nopadding": "d6d4decda2e46e02cd4fed3460b6429b",
+        "topology": "96f6a4a2d73d667183d58989a4bb4f90"
       },
       "line": {
         "id": "unifi-network",
@@ -53610,5 +53611,5 @@
       "videos": {}
     }
   ],
-  "version": "5b22227655d84047056dae1688d923e1b39b19cc"
+  "version": "ce77bd75d06ba185e7c5d7090ac78ef6b5d609f4"
 }
