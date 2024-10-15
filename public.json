@@ -21738,7 +21738,12 @@
       "sysids": [
         "a642"
       ],
-      "triplets": [],
+      "triplets": [
+        {
+          "k1": "UAPL6",
+          "k2": "U6+"
+        }
+      ],
       "unifi": {
         "adoptability": "adoptable",
         "network": {
@@ -22490,13 +22495,14 @@
       },
       "compliance": {
         "anatel": "10457-21-08356",
+        "cn": "2021AJ10020",
         "fcc": "SWX-U6LRR",
         "ic": "6545A-U6LRR",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "jrf": [
           "201-220173"
         ],
-        "kc": "kR-C-U8I-U6-LR",
+        "kc": "R-C-U8I-U6-LR",
         "modelName": "U6-LR",
         "ncc": "CCAJ21LP0460T4",
         "rcm": true,
@@ -22635,13 +22641,14 @@
       },
       "compliance": {
         "anatel": "10457-21-08356",
+        "cn": "2021AJ10020",
         "fcc": "SWX-U6LRR",
         "ic": "6545A-U6LRR",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "jrf": [
           "201-220173"
         ],
-        "kc": "kR-C-U8I-U6-LR",
+        "kc": "R-C-U8I-U6-LR",
         "modelName": "U6-LR",
         "ncc": "CCAJ21LP0460T4",
         "rcm": true,
@@ -22796,13 +22803,14 @@
       },
       "compliance": {
         "anatel": "10457-21-08356",
+        "cn": "2021AJ10020",
         "fcc": "SWX-U6LRR",
         "ic": "6545A-U6LRR",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "jrf": [
           "201-220173"
         ],
-        "kc": "kR-C-U8I-U6-LR",
+        "kc": "R-C-U8I-U6-LR",
         "modelName": "U6-LR",
         "ncc": "CCAJ21LP0460T4",
         "rcm": true,
@@ -23296,6 +23304,7 @@
       },
       "compliance": {
         "anatel": "02111-22-08356",
+        "cn": "2022AJ6308",
         "fcc": "SWX-U6MESHR",
         "ic": "6545A-U6MESHR",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -23473,6 +23482,7 @@
         "ic": "6545A-U6MESHP",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "U6-Mesh-Pro",
+        "ncc": "CCAH24LP7360T0",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
@@ -31989,6 +31999,7 @@
       },
       "compliance": {
         "anatel": "07458-19-08356",
+        "cn": "2019DJ9573",
         "fcc": "SWX-UCKG2P",
         "ic": "6545A-UCKG2P",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -36470,7 +36481,15 @@
       "sysids": [
         "dca8"
       ],
-      "triplets": [],
+      "triplets": [
+        {
+          "k1": "U7UKU",
+          "k2": "UK-Ultra"
+        },
+        {
+          "k3": "U7UKU"
+        }
+      ],
       "unifi": {
         "adoptability": "adoptable",
         "network": {
@@ -37095,7 +37114,10 @@
         "openwrt"
       ],
       "sku": "UMR",
-      "sysids": [],
+      "sysid": "39f0",
+      "sysids": [
+        "39f0"
+      ],
       "triplets": [
         {
           "k1": "openwrt",
@@ -37181,8 +37203,101 @@
         "UMR-Industrial-US"
       ],
       "sku": "UMR-Industrial",
-      "sysids": [],
-      "triplets": [],
+      "sysid": "7a1f",
+      "sysids": [
+        "7a1f"
+      ],
+      "triplets": [
+        {
+          "k1": "UMR-Industrial",
+          "k2": "UMR"
+        }
+      ],
+      "videos": {}
+    },
+    {
+      "guids": [
+        "a678b768-5d02-5164-89d3-44943105ca3b"
+      ],
+      "icon": {
+        "id": "b6a4c604-ac1b-8804-2b13-081e6414b0df",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "dca80153-adab-ede4-ac03-ccb0aedca137",
+      "images": {
+        "default": "b9f085251c8dc3a6a64ec508ec8b0e0e",
+        "nopadding": "9e7a95b130f63bd8e7335ad287f6f856",
+        "topology": "0a2e83aaf2be2f6ccd693f2df6e1726c"
+      },
+      "line": {
+        "id": "unifi-mobility",
+        "name": "UniFi Mobility"
+      },
+      "product": {
+        "abbrev": "UMR Ultra",
+        "name": "Mobile Router Ultra"
+      },
+      "shortnames": [
+        "UMR-Ultra",
+        "UMR-Ultra-US",
+        "UMR-Ultra-ROW"
+      ],
+      "sku": "UMR-Ultra",
+      "sysid": "43c6",
+      "sysids": [
+        "43c6"
+      ],
+      "triplets": [
+        {
+          "k1": "UMR-Ultra",
+          "k2": "UMR"
+        }
+      ],
       "videos": {}
     },
     {
@@ -45883,6 +45998,7 @@
     },
     {
       "compliance": {
+        "anatel": "08953-24-08356",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "USW-Pro-Max-16-PoE",
         "rcm": true,
@@ -46382,7 +46498,7 @@
     },
     {
       "compliance": {
-        "anatel": "06374-24-08356",
+        "anatel": "06373-24-08356",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "USW-Pro-Max-48-PoE",
         "rcm": true,
@@ -53611,5 +53727,5 @@
       "videos": {}
     }
   ],
-  "version": "e941d9ee2c60b04dac79afe77869e59ea227df4a"
+  "version": "e0d9de3693eb057cdc4b0bd0af3050cf292f596e"
 }
