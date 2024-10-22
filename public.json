@@ -7094,7 +7094,8 @@
             "CONTROLLER",
             "APPLICATION_MODE",
             "HAS_CLIENTS",
-            "SSL_INSPECTION"
+            "SSL_INSPECTION",
+            "SD_WAN_HUB"
           ],
           "diagram": [
             "01 03 05",
@@ -48146,6 +48147,89 @@
       "videos": {}
     },
     {
+      "deviceType": "camera",
+      "guids": [
+        "1ea5a09b-8634-7df4-b313-7f9a29cd8c4d"
+      ],
+      "icon": {
+        "id": "4aae7b93-13be-afd4-62d3-9dd7b2898225",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "7f80dcbe-8680-2854-98fb-7b0136b0c19a",
+      "images": {
+        "default": "021ab6e3997c2921b02429ac933407e6",
+        "nopadding": "344193c12917b32818184ef367eaedc5",
+        "topology": "d13d64fa03d49aa24c9a9745dd1da09e"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "AI Dome",
+        "name": "Camera AI Dome"
+      },
+      "shortnames": [
+        "UVC-AI-Dome",
+        "UVC-AI-Pro-Dome"
+      ],
+      "sku": "UVC-AI-Dome",
+      "sysid": "a5a5",
+      "sysids": [
+        "a5a5"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "UVC-AI-Pro",
@@ -48427,6 +48511,89 @@
           "k1": "UVC AI THETA"
         }
       ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "camera",
+      "guids": [
+        "10ee0377-c62a-4744-543b-fe77294277e5"
+      ],
+      "icon": {
+        "id": "3af4e91c-c20b-02a4-3413-cd88bc0d4b60",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "a2c5915b-33fc-a164-10d3-43e9f27a0c7b",
+      "images": {
+        "default": "10b506c313309ee149a883217505944b",
+        "nopadding": "ed03c0ea3ea2031a9d397f1e2b6fdfb6",
+        "topology": "f8ebaaa03398d5ca51c0d8b7408fc41e"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "AI Turret",
+        "name": "Camera AI Turret"
+      },
+      "shortnames": [
+        "UVC-AI-Turret",
+        "UVC-AI-Pro-Turret"
+      ],
+      "sku": "UVC-AI-Turret",
+      "sysid": "a5a6",
+      "sysids": [
+        "a5a6"
+      ],
+      "triplets": [],
       "unifi": {
         "adoptability": "adoptable"
       },
@@ -52364,7 +52531,9 @@
             "GATEWAY",
             "APPLICATION_GATEWAY",
             "HAS_CLIENTS",
-            "SSL_INSPECTION"
+            "SSL_INSPECTION",
+            "MANAGED_SHADOW_GATEWAY",
+            "SD_WAN_HUB"
           ],
           "diagram": [
             "01 03 05",
@@ -53727,5 +53896,5 @@
       "videos": {}
     }
   ],
-  "version": "e0d9de3693eb057cdc4b0bd0af3050cf292f596e"
+  "version": "5d6c65844f8b6a2f189985d2f7d0e5df952dd526"
 }
