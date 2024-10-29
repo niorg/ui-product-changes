@@ -22310,6 +22310,7 @@
       },
       "compliance": {
         "anatel": "11546-22-08356",
+        "cn": "2022AJ6675",
         "fcc": "SWX-U6IWR",
         "ic": "6545A-U6IWR",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
@@ -31137,13 +31138,19 @@
         "userConfigured": "b243c5fd-a23d-4ce2-9b3a-1529329e1590"
       },
       "compliance": {
+        "cn": "2023AJ11705",
         "fcc": "SWX-UCGM",
         "ic": "6545A-UCGM",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jpa": [
+          "D24-0119001",
+          "L24-0027"
+        ],
+        "jrf": [
+          "020-240313"
+        ],
         "modelName": "UCG-Max",
         "rcm": true,
-        "rfCmFcc": 20,
-        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -53896,5 +53903,5 @@
       "videos": {}
     }
   ],
-  "version": "5d6c65844f8b6a2f189985d2f7d0e5df952dd526"
+  "version": "433f13131765a0ee84a64ea191fa639f7ada9ac0"
 }
