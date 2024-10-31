@@ -21095,7 +21095,7 @@
         "name": "EdgeMAX"
       },
       "product": {
-        "abbrev": "EdgeSwitch 8XP",
+        "abbrev": "TSW PoE Pro",
         "name": "EdgeSwitch 8XP"
       },
       "shortnames": [
@@ -23930,6 +23930,109 @@
             }
           },
           "systemIdHexadecimal": "a650",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "0064a448-b5e1-80d4-f14b-438b55281464"
+      ],
+      "icon": {
+        "id": "eb89d7fa-d286-7d24-8943-f7a5f238572b",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "f0bca680-3ac3-b444-742b-fa6d8d1b3e3e",
+      "images": {
+        "default": "4fac659e9e888a9298a9f24ce02373b2",
+        "nopadding": "1f7055cef4ac72105793b78116c49be4",
+        "topology": "38a7861f0e5a0dd684f182bdd2384ed2"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "U6 Pro Outdoor",
+        "name": "Access Point U6 Pro Outdoor"
+      },
+      "shortnames": [
+        "U6-Pro-Outdoor",
+        "UAPO6MP"
+      ],
+      "sku": "U6-Pro-Outdoor",
+      "sysid": "a675",
+      "sysids": [
+        "a675"
+      ],
+      "triplets": [],
+      "unifi": {
+        "network": {
+          "chipset": "f",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "minimumFirmwareRequired": "5.44.1",
+          "model": "UAPO6MP",
+          "numberOfPorts": 1,
+          "radios": {
+            "na": {
+              "maxSpeedMegabitsPerSecond": 2400
+            },
+            "ng": {
+              "maxSpeedMegabitsPerSecond": 570
+            }
+          },
+          "systemIdHexadecimal": "a675",
           "type": "uap"
         }
       },
@@ -28653,6 +28756,112 @@
       "videos": {}
     },
     {
+      "guids": [
+        "cee907a7-f039-4344-88db-bb162320247a"
+      ],
+      "icon": {
+        "id": "d6b3fe72-d8e0-aba4-7d73-f45b627b5216",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "1a536081-3307-99a4-4eb3-eaa3d83d805a",
+      "images": {
+        "default": "ee9b96355c0f64d7c4461ed627efd919",
+        "nopadding": "8669cb59619c782a386edf59f7638386",
+        "topology": "779b91afd0240a31d1f94800e9351f6c"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "UAP Mini",
+        "name": "Access Point Mini"
+      },
+      "shortnames": [
+        "UAP-Mini",
+        "U2M"
+      ],
+      "sku": "UAP-Mini",
+      "sysid": "e522",
+      "sysids": [
+        "e522"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "b",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "U2M",
+          "numberOfPorts": 1,
+          "radios": {
+            "na": {
+              "maxSpeedMegabitsPerSecond": 150
+            },
+            "ng": {
+              "gain": 0,
+              "maxPower": 18,
+              "maxSpeedMegabitsPerSecond": 150
+            }
+          },
+          "systemIdHexadecimal": "e522",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
       "fcc": "SWX-M2",
       "guids": [],
       "ic": "6545A-M2",
@@ -29259,6 +29468,119 @@
             }
           },
           "systemIdHexadecimal": "e560",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "347add63-55ea-5cd4-ef2b-6e052ba15f70"
+      ],
+      "icon": {
+        "id": "ac556ce5-5fbe-ea04-2acb-f29726ed8633",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "122c7796-8733-5d94-366b-308abc50fdbb",
+      "images": {
+        "default": "4fac659e9e888a9298a9f24ce02373b2",
+        "nopadding": "1f7055cef4ac72105793b78116c49be4",
+        "topology": "38a7861f0e5a0dd684f182bdd2384ed2"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "UAP XG Mesh",
+        "name": "Access Point XG Mesh"
+      },
+      "shortnames": [
+        "UAP-XG-Mesh",
+        "UCMSH"
+      ],
+      "sku": "UAP-XG-Mesh",
+      "sysid": "e570",
+      "sysids": [
+        "e570"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "d",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "features": {
+            "ac": true,
+            "bandsteer": true,
+            "gen": 2
+          },
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "UCMSH",
+          "numberOfPorts": 1,
+          "radios": {
+            "na": {
+              "gain": 10,
+              "maxPower": 25,
+              "maxSpeedMegabitsPerSecond": 1733
+            },
+            "ng": {
+              "gain": 15,
+              "maxPower": 25,
+              "maxSpeedMegabitsPerSecond": 800
+            }
+          },
+          "systemIdHexadecimal": "e570",
           "type": "uap"
         }
       },
@@ -47537,9 +47859,10 @@
       "shortnames": [
         "UTP-Touch-W",
         "UVP-TOUCH-W",
-        "UVP-Touch-W"
+        "UVP-Touch-W",
+        "UTP-Touch-White"
       ],
-      "sku": "UTP-Touch-W",
+      "sku": "UTP-Touch-White",
       "sysid": "ef13",
       "sysids": [
         "ef13"
@@ -47729,9 +48052,10 @@
       },
       "shortnames": [
         "UTP-TouchMax-W",
-        "UVP-TouchMax-W"
+        "UVP-TouchMax-W",
+        "UTP-TouchMax-White"
       ],
-      "sku": "UTP-TouchMax-W",
+      "sku": "UTP-TouchMax-White",
       "sysid": "ef14",
       "sysids": [
         "ef14"
@@ -50898,9 +51222,10 @@
       },
       "shortnames": [
         "UVC-G5-Dome-Ultra-Black",
-        "UVC G5 Dome Ultra Black"
+        "UVC G5 Dome Ultra Black",
+        "UVC-G5-Dome-Ultra-B"
       ],
-      "sku": "UVC-G5-Dome-Ultra-Black",
+      "sku": "UVC-G5-Dome-Ultra-B",
       "sysid": "a59d",
       "sysids": [
         "a59d"
@@ -51380,9 +51705,10 @@
       },
       "shortnames": [
         "UVC-G5-Turret-Ultra-Black",
-        "UVC G5 Turret Ultra Black"
+        "UVC G5 Turret Ultra Black",
+        "UVC-G5-Turret-Ultra-B"
       ],
-      "sku": "UVC-G5-Turret-Ultra-Black",
+      "sku": "UVC-G5-Turret-Ultra-B",
       "sysid": "a59c",
       "sysids": [
         "a59c"
@@ -53903,5 +54229,5 @@
       "videos": {}
     }
   ],
-  "version": "433f13131765a0ee84a64ea191fa639f7ada9ac0"
+  "version": "8f07b7813419fb01d0b16d6a17a2d232f66c1dff"
 }
