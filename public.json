@@ -6745,6 +6745,151 @@
     },
     {
       "compliance": {
+        "fcc": "SWX-E7",
+        "ic": "6545A-E7",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": " E7",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5",
+            "WIFI_6"
+          ],
+          "US": [
+            "FCC_B",
+            "RF",
+            "WIFI_6"
+          ]
+        }
+      },
+      "guids": [
+        "0f16983f-89a5-5174-13d3-4d5971a35703"
+      ],
+      "icon": {
+        "id": "c5750af2-2c25-49a4-1d63-153af3e1af97",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "5368bc8c-bee8-19b4-31a3-73ccacab12c7",
+      "images": {
+        "default": "36e07ce90586b7a151140ab70b99d8f9",
+        "nopadding": "55a46e0144ccc9e8a65a0916333d0b0b",
+        "topology": "97da98887fe3fbd8ef4e66bd786fb616"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "8.4.59"
+      },
+      "product": {
+        "abbrev": "E7",
+        "name": "Access Point E7"
+      },
+      "shortnames": [
+        "E7"
+      ],
+      "sku": "E7",
+      "sysid": "a697",
+      "sysids": [
+        "a697"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "r",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT",
+            "E7_SERIES"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "features": {
+            "atfDisabled": true,
+            "ax": true,
+            "bandsteer": true,
+            "be": true,
+            "gen": 2
+          },
+          "minimumFirmwareRequired": "7.0.41",
+          "model": "UAPA697",
+          "numberOfPorts": 1,
+          "radios": {
+            "6e": {
+              "gain": 6,
+              "maxPower": 29,
+              "maxSpeedMegabitsPerSecond": 11528
+            },
+            "na": {
+              "gain": 6,
+              "maxPower": 29,
+              "maxSpeedMegabitsPerSecond": 8648
+            },
+            "ng": {
+              "gain": 4,
+              "maxPower": 22,
+              "maxSpeedMegabitsPerSecond": 688
+            }
+          },
+          "systemIdHexadecimal": "a697",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "EAH-8",
         "rcm": true,
@@ -7095,7 +7240,8 @@
             "APPLICATION_MODE",
             "HAS_CLIENTS",
             "SSL_INSPECTION",
-            "SD_WAN_HUB"
+            "SD_WAN_HUB",
+            "ENTERPRISE_GATEWAY"
           ],
           "diagram": [
             "01 03 05",
@@ -15649,9 +15795,9 @@
         "NVR"
       ],
       "sku": "NVR",
-      "sysid": "b719",
+      "sysid": "ea1a",
       "sysids": [
-        "b719"
+        "ea1a"
       ],
       "triplets": [
         {
@@ -22525,152 +22671,6 @@
       },
       "fcc": "SWX-U6LR",
       "guids": [
-        "883ff5a6-f60a-4b56-a0a3-9e22bf1b91f2",
-        "3e6e0806-6562-4a01-b6cd-e3409c5f9627"
-      ],
-      "ic": "6545A-U6LR",
-      "icon": {
-        "id": "06a25b40-ef1f-463a-82d9-13236866ea3d",
-        "resolutions": [
-          [
-            25,
-            25
-          ],
-          [
-            32,
-            32
-          ],
-          [
-            51,
-            51
-          ],
-          [
-            64,
-            64
-          ],
-          [
-            101,
-            101
-          ],
-          [
-            128,
-            128
-          ],
-          [
-            129,
-            129
-          ],
-          [
-            256,
-            256
-          ],
-          [
-            257,
-            257
-          ],
-          [
-            512,
-            512
-          ],
-          [
-            1000,
-            1000
-          ]
-        ]
-      },
-      "id": "32910df3-02f6-0394-d6bb-3922f25a8070",
-      "images": {
-        "default": "4fac659e9e888a9298a9f24ce02373b2",
-        "nopadding": "1f7055cef4ac72105793b78116c49be4",
-        "topology": "38a7861f0e5a0dd684f182bdd2384ed2"
-      },
-      "jrf": [
-        "201-220173"
-      ],
-      "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
-      },
-      "minAdoptVersion": {
-        "net": "7.3.76"
-      },
-      "product": {
-        "abbrev": "U6 LR",
-        "name": "Access Point U6 Long-Range"
-      },
-      "shortnames": [
-        "UAP6"
-      ],
-      "sku": "U6-LR",
-      "sysid": "a620",
-      "sysids": [
-        "a620"
-      ],
-      "triplets": [],
-      "unifi": {
-        "adoptability": "adoptable",
-        "network": {
-          "deviceCapabilities": [
-            "ACCESS_POINT"
-          ],
-          "features": {
-            "atfDisabled": true,
-            "ax": true,
-            "bandsteer": true,
-            "gen": 2,
-            "outdoorModeSupport": true
-          },
-          "model": "UAP6",
-          "radios": {
-            "na": {
-              "gain": 4,
-              "maxPower": 25
-            },
-            "ng": {
-              "gain": 3,
-              "maxPower": 20
-            }
-          },
-          "type": "uap"
-        }
-      },
-      "videos": {}
-    },
-    {
-      "btle": {
-        "factoryDefault": "883ff5a6-f60a-4b56-a0a3-9e22bf1b91f2",
-        "userConfigured": "3e6e0806-6562-4a01-b6cd-e3409c5f9627"
-      },
-      "compliance": {
-        "anatel": "10457-21-08356",
-        "cn": "2021AJ10020",
-        "fcc": "SWX-U6LRR",
-        "ic": "6545A-U6LRR",
-        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
-        "jrf": [
-          "201-220173"
-        ],
-        "kc": "R-C-U8I-U6-LR",
-        "modelName": "U6-LR",
-        "ncc": "CCAJ21LP0460T4",
-        "rcm": true,
-        "rfCmFcc": 20,
-        "rfCmIc": 20,
-        "text": {
-          "CA": [
-            "IC",
-            "RF",
-            "WIFI_5"
-          ],
-          "US": [
-            "FCC_B",
-            "RF"
-          ]
-        },
-        "wifi": "5e"
-      },
-      "fcc": "SWX-U6LR",
-      "guids": [
         "3e6e0806-6562-4a01-b6cd-e3409c5f9627",
         "883ff5a6-f60a-4b56-a0a3-9e22bf1b91f2"
       ],
@@ -24113,6 +24113,29 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-U7PROP",
+        "ic": "6545A-U7PROP",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "indoorOnly": true,
+        "modelName": "U7 Pro",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "BR": [
+            "WIFI_6E"
+          ],
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "guids": [
         "0cfe23db-b3f3-ab74-6f8b-d11adb29927f"
       ],
@@ -52866,7 +52889,8 @@
             "HAS_CLIENTS",
             "SSL_INSPECTION",
             "MANAGED_SHADOW_GATEWAY",
-            "SD_WAN_HUB"
+            "SD_WAN_HUB",
+            "ENTERPRISE_GATEWAY"
           ],
           "diagram": [
             "01 03 05",
@@ -54229,5 +54253,5 @@
       "videos": {}
     }
   ],
-  "version": "8f07b7813419fb01d0b16d6a17a2d232f66c1dff"
+  "version": "6bb27cca6be7989cec356d01fcfc040bacdc2246"
 }
