@@ -7434,7 +7434,10 @@
         "ENVR"
       ],
       "sku": "ENVR",
-      "sysids": [],
+      "sysid": "ea3f",
+      "sysids": [
+        "ea3f"
+      ],
       "triplets": [],
       "unifi": {
         "adoptability": "standalone",
@@ -24382,6 +24385,9 @@
         "rfCmFcc": 20,
         "rfCmIc": 20,
         "text": {
+          "BR": [
+            "WIFI_6E"
+          ],
           "CA": [
             "IC",
             "RF",
@@ -45121,6 +45127,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "04479-21-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USW-Lite-16-PoE",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -54253,5 +54275,5 @@
       "videos": {}
     }
   ],
-  "version": "6bb27cca6be7989cec356d01fcfc040bacdc2246"
+  "version": "d83b414949721fa09a5fea9ab54f05af8668e6d9"
 }
