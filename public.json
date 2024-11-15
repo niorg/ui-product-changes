@@ -22518,12 +22518,168 @@
         },
         "wifi": "5e"
       },
-      "fcc": "SWX-U6EXTR",
+      "guids": [
+        "c1903f50-9391-44a3-9b27-7b5a370da94f",
+        "70f9ce41-e4ea-40e7-9ffe-1f42635d3e52"
+      ],
+      "icon": {
+        "id": "91055d81-50a7-49c8-b03f-2d956b3ccc41",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "320b3bea-628c-439e-8850-f7a10679e432",
+      "images": {
+        "default": "a789fdc10e4f071eaf2ee4f47d29ec2e",
+        "nopadding": "b197ea9ec2c99138c9a8324db30b8a37",
+        "topology": "c6f9dc9ae89728587daae83a9784498f"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "U6 Extender",
+        "name": "Access Point U6 Extender"
+      },
+      "shortnames": [
+        "UAE6"
+      ],
+      "sku": "U6-Extender",
+      "sysid": "a613",
+      "sysids": [
+        "a613"
+      ],
+      "triplets": [
+        {
+          "k1": "UAE6",
+          "k2": "U6-Extender"
+        },
+        {
+          "k1": "UAE6",
+          "k2": "U6-Extender-EA"
+        },
+        {
+          "k1": "UAE6",
+          "k3": "UAE6"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "70f9ce41-e4ea-40e7-9ffe-1f42635d3e52",
+              "default": "c1903f50-9391-44a3-9b27-7b5a370da94f"
+            }
+          ],
+          "chipset": "c",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "features": {
+            "atfDisabled": true,
+            "ax": true,
+            "bandsteer": true,
+            "gen": 2
+          },
+          "minimumFirmwareRequired": "5.29.0",
+          "model": "UAE6",
+          "numberOfPorts": 1,
+          "radios": {
+            "na": {
+              "gain": 4,
+              "maxPower": 25,
+              "maxSpeedMegabitsPerSecond": 2400
+            },
+            "ng": {
+              "gain": 3,
+              "maxPower": 20,
+              "maxSpeedMegabitsPerSecond": 300
+            }
+          },
+          "systemIdHexadecimal": "a613",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "fcc": "SWX-U6EXTR",
+        "ic": "6545A-U6EXTR",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "jrf": [
+          "201-220129"
+        ],
+        "modelName": "U6-Extender",
+        "ncc": "CCAJ21LP3C90T1",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        },
+        "wifi": "5e"
+      },
       "guids": [
         "70f9ce41-e4ea-40e7-9ffe-1f42635d3e52",
         "c1903f50-9391-44a3-9b27-7b5a370da94f"
       ],
-      "ic": "6545A-U6EXTR",
       "icon": {
         "id": "af2f4815-842f-4b91-9d8e-01ea7ff96a9d",
         "resolutions": [
@@ -22579,9 +22735,6 @@
         "nopadding": "b197ea9ec2c99138c9a8324db30b8a37",
         "topology": "c6f9dc9ae89728587daae83a9784498f"
       },
-      "jrf": [
-        "201-220129"
-      ],
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -22591,25 +22744,14 @@
         "name": "Access Point U6 Extender"
       },
       "shortnames": [
-        "U6-Extender",
-        "U6EXT",
-        "UAE6"
+        "U6EXT"
       ],
       "sku": "U6-Extender",
-      "sysid": "a613",
+      "sysid": "a653",
       "sysids": [
-        "a613",
         "a653"
       ],
       "triplets": [
-        {
-          "k1": "UAE6",
-          "k2": "U6-Extender"
-        },
-        {
-          "k1": "UAE6",
-          "k2": "U6-Extender-EA"
-        },
         {
           "k1": "U6EXT",
           "k2": "U6-Extender"
@@ -22617,22 +22759,12 @@
         {
           "k1": "U6EXT",
           "k3": "U6EXT"
-        },
-        {
-          "k1": "UAE6",
-          "k3": "UAE6"
         }
       ],
       "unifi": {
         "adoptability": "adoptable",
         "network": {
-          "bleServices": [
-            {
-              "configured": "70f9ce41-e4ea-40e7-9ffe-1f42635d3e52",
-              "default": "c1903f50-9391-44a3-9b27-7b5a370da94f"
-            }
-          ],
-          "chipset": "c",
+          "chipset": "f",
           "deviceCapabilities": [
             "ACCESS_POINT",
             "HAS_CLIENTS",
@@ -22645,22 +22777,22 @@
             "bandsteer": true,
             "gen": 2
           },
-          "minimumFirmwareRequired": "5.29.0",
-          "model": "UAE6",
+          "minimumFirmwareRequired": "5.67.0",
+          "model": "U6EXT",
           "numberOfPorts": 1,
           "radios": {
             "na": {
-              "gain": 4,
+              "gain": 6,
               "maxPower": 25,
               "maxSpeedMegabitsPerSecond": 2400
             },
             "ng": {
-              "gain": 3,
+              "gain": 5,
               "maxPower": 20,
-              "maxSpeedMegabitsPerSecond": 300
+              "maxSpeedMegabitsPerSecond": 570
             }
           },
-          "systemIdHexadecimal": "a613",
+          "systemIdHexadecimal": "a653",
           "type": "uap"
         }
       },
@@ -23517,6 +23649,163 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "02111-22-08356",
+        "cn": "2022AJ6308",
+        "fcc": "SWX-U6MESHR",
+        "ic": "6545A-U6MESHR",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jrf": [
+          "201-220022"
+        ],
+        "modelName": "U6-Mesh",
+        "ncc": "CCAJ22LP0EF0T3",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        },
+        "wifi": "5e"
+      },
+      "fcc": "SWX-U6MESHR",
+      "guids": [],
+      "ic": "6545A-U6MESHR",
+      "icon": {
+        "id": "01994a96-a0fd-4ff1-8a25-030cc473354c",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "3deebb13-d28c-4178-b99a-22f382716ed7",
+      "images": {
+        "default": "c00216ea5e740e206a04d79db29d8f7e",
+        "nopadding": "82a26a9eae9f01bc310e210a8abaed17",
+        "topology": "3b2d20fe64a23c7e8ffc4b5ed2dfe1a9"
+      },
+      "jrf": [
+        "201-220022"
+      ],
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "U6 Mesh",
+        "name": "Access Point U6 Mesh"
+      },
+      "shortnames": [
+        "U6-Mesh",
+        "UAM6"
+      ],
+      "sku": "U6-Mesh",
+      "sysid": "a611",
+      "sysids": [
+        "a611"
+      ],
+      "triplets": [
+        {
+          "k1": "UAM6",
+          "k2": "U6-Mesh"
+        },
+        {
+          "k1": "UAM6",
+          "k2": "U6-Mesh-EA"
+        },
+        {
+          "k1": "UAM6",
+          "k3": "UAM6"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "c",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "features": {
+            "atfDisabled": true,
+            "ax": true,
+            "bandsteer": true,
+            "gen": 2
+          },
+          "minimumFirmwareRequired": "5.29.0",
+          "model": "UAM6",
+          "numberOfPorts": 1,
+          "radios": {
+            "na": {
+              "gain": 4,
+              "maxPower": 25,
+              "maxSpeedMegabitsPerSecond": 2400
+            },
+            "ng": {
+              "gain": 3,
+              "maxPower": 20,
+              "maxSpeedMegabitsPerSecond": 300
+            }
+          },
+          "systemIdHexadecimal": "a611",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
       "btle": {
         "factoryDefault": "519dbaaa-123c-4ac7-a906-0d38a500bc54",
         "userConfigured": "3be3c588-5b16-463d-9d3d-7a1616de451e"
@@ -23621,14 +23910,11 @@
         "name": "Access Point U6 Mesh"
       },
       "shortnames": [
-        "U6-Mesh",
-        "U6M",
-        "UAM6"
+        "U6M"
       ],
       "sku": "U6-Mesh",
-      "sysid": "a611",
+      "sysid": "a651",
       "sysids": [
-        "a611",
         "a651"
       ],
       "triplets": [
@@ -23639,24 +23925,18 @@
         {
           "k1": "U6M",
           "k2": "U6-Mesh"
-        },
-        {
-          "k1": "UAM6",
-          "k2": "U6-Mesh"
-        },
-        {
-          "k1": "UAM6",
-          "k2": "U6-Mesh-EA"
-        },
-        {
-          "k1": "UAM6",
-          "k3": "UAM6"
         }
       ],
       "unifi": {
         "adoptability": "adoptable",
         "network": {
-          "chipset": "c",
+          "bleServices": [
+            {
+              "configured": "3be3c588-5b16-463d-9d3d-7a1616de451e",
+              "default": "519dbaaa-123c-4ac7-a906-0d38a500bc54"
+            }
+          ],
+          "chipset": "f",
           "deviceCapabilities": [
             "ACCESS_POINT",
             "HAS_CLIENTS",
@@ -23667,10 +23947,11 @@
             "atfDisabled": true,
             "ax": true,
             "bandsteer": true,
-            "gen": 2
+            "gen": 2,
+            "outdoorModeSupport": true
           },
-          "minimumFirmwareRequired": "5.29.0",
-          "model": "UAM6",
+          "minimumFirmwareRequired": "5.55.10",
+          "model": "U6M",
           "numberOfPorts": 1,
           "radios": {
             "na": {
@@ -23681,10 +23962,10 @@
             "ng": {
               "gain": 3,
               "maxPower": 20,
-              "maxSpeedMegabitsPerSecond": 300
+              "maxSpeedMegabitsPerSecond": 570
             }
           },
-          "systemIdHexadecimal": "a611",
+          "systemIdHexadecimal": "a651",
           "type": "uap"
         }
       },
@@ -24770,6 +25051,158 @@
         }
       },
       "guids": [
+        "7f81fb78-30c2-4f70-9c08-d14b28cf94ed"
+      ],
+      "icon": {
+        "id": "85d9787f-8149-4cfb-b9ff-fa88cb7a4bc8",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "0aa86774-37e9-411a-83a8-f260dc52453b",
+      "images": {
+        "default": "05a56b37e1b11680bf8430e813bb3007",
+        "nopadding": "2cad67d89ae83882c0167eb54d1c37f9",
+        "topology": "8d41ac6acb693662f9a3bcf24c461ed7"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "U7 Pro Max",
+        "name": "Access Point U7 Pro Max"
+      },
+      "shortnames": [
+        "U7ENT"
+      ],
+      "sku": "U7-Pro-Max",
+      "sysid": "a681",
+      "sysids": [
+        "a681"
+      ],
+      "triplets": [
+        {
+          "k1": "U7ENT",
+          "k2": "U7-Enterprise"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "r",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 2500,
+          "features": {
+            "atfDisabled": true,
+            "ax": true,
+            "bandsteer": true,
+            "be": true,
+            "gen": 2
+          },
+          "minimumFirmwareRequired": "7.0.0",
+          "model": "U7ENT",
+          "numberOfPorts": 1,
+          "radios": {
+            "6e": {
+              "gain": 6,
+              "maxPower": 26,
+              "maxSpeedMegabitsPerSecond": 5765
+            },
+            "na": {
+              "gain": 3,
+              "maxPower": 26,
+              "maxSpeedMegabitsPerSecond": 4324
+            },
+            "ng": {
+              "gain": 5,
+              "maxPower": 22,
+              "maxSpeedMegabitsPerSecond": 688
+            },
+            "swift": {
+              "gain": 3,
+              "maxPower": 0
+            }
+          },
+          "systemIdHexadecimal": "a681",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "anatel": "08959-24-08356",
+        "fcc": "SWX-U7PROM",
+        "ic": "6545A-U7PROM",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "indoorOnly": true,
+        "modelName": "U7-Pro-Max",
+        "rcm": true,
+        "rfCmFcc": 25,
+        "rfCmIc": 25,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5",
+            "WIFI_6"
+          ],
+          "US": [
+            "FCC_B",
+            "RF",
+            "WIFI_6"
+          ]
+        }
+      },
+      "guids": [
         "1cd5b2f7-02c9-49bb-85c8-388b9f68ddfc",
         "27066b1b-53a9-46a2-9b6f-7b87d18eb148",
         "22a8b035-2f3e-4db5-82a5-d25adfa67395"
@@ -24839,14 +25272,12 @@
       },
       "shortnames": [
         "U7-Pro-Max",
-        "U7ENT",
         "U7PROMAX"
       ],
       "sku": "U7-Pro-Max",
       "sysid": "a696",
       "sysids": [
-        "a696",
-        "a681"
+        "a696"
       ],
       "triplets": [
         {
@@ -24856,10 +25287,6 @@
         {
           "k1": "U7PROMAX",
           "k2": "U7-Pro-Max"
-        },
-        {
-          "k1": "U7ENT",
-          "k2": "U7-Enterprise"
         }
       ],
       "unifi": {
@@ -29622,8 +30049,7 @@
       "sku": "UAP-Pro",
       "sysid": "e507",
       "sysids": [
-        "e507",
-        "1f90"
+        "e507"
       ],
       "triplets": [
         {
@@ -34462,8 +34888,7 @@
       "sku": "UDM-SE",
       "sysid": "ea2c",
       "sysids": [
-        "ea2c",
-        "ea13"
+        "ea2c"
       ],
       "triplets": [
         {
@@ -40735,6 +41160,116 @@
       "guids": [],
       "ic": "Compliant",
       "icon": {
+        "id": "51b31e17-c518-4c9b-bcbc-d3122f4f87d3",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "4b36fcb3-dc1f-4343-b011-9a54b0675960",
+      "images": {
+        "default": "d46c7bb6d7019e993a7da1a836076bab",
+        "nopadding": "c640023aeab1a94403cfc1c654ccda3c",
+        "topology": "6b7aff13420add3d2ecc05cd8c108083"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "US 8",
+        "name": "Switch 8"
+      },
+      "shortnames": [
+        "US-8",
+        "US8"
+      ],
+      "sku": "US-8",
+      "sysid": "eb19",
+      "sysids": [
+        "eb19"
+      ],
+      "triplets": [
+        {
+          "k1": "US8",
+          "k3": "US8"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "g",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "features": {
+            "poe": true
+          },
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "US8",
+          "numberOfPorts": 8,
+          "ports": {
+            "standard": 8
+          },
+          "power": {
+            "capacity": 10
+          },
+          "radios": {},
+          "systemIdHexadecimal": "eb19",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "fcc": "Compliant",
+      "guids": [],
+      "ic": "Compliant",
+      "icon": {
         "id": "76c7dbea-e685-47a4-aaa1-6a774e668cb9",
         "resolutions": [
           [
@@ -40798,21 +41333,14 @@
         "name": "Switch 8"
       },
       "shortnames": [
-        "US-8",
-        "US8",
         "USC8"
       ],
       "sku": "US-8",
       "sysid": "ed01",
       "sysids": [
-        "ed01",
-        "eb19"
+        "ed01"
       ],
       "triplets": [
-        {
-          "k1": "US8",
-          "k3": "US8"
-        },
         {
           "k1": "USC8",
           "k3": "USC8"
@@ -49345,7 +49873,8 @@
       },
       "shortnames": [
         "UVC-AI-Dome",
-        "UVC-AI-Pro-Dome"
+        "UVC-AI-Pro-Dome",
+        "UVC AI Dome"
       ],
       "sku": "UVC-AI-Dome",
       "sysid": "a5a5",
@@ -49529,7 +50058,8 @@
         "name": "Camera AI Pro"
       },
       "shortnames": [
-        "UVC-AI-Pro-White"
+        "UVC-AI-Pro-White",
+        "UVC AI Pro White"
       ],
       "sku": "UVC-AI-Pro-White",
       "sysids": [],
@@ -49715,7 +50245,8 @@
       },
       "shortnames": [
         "UVC-AI-Turret",
-        "UVC-AI-Pro-Turret"
+        "UVC-AI-Pro-Turret",
+        "UVC AI Turret"
       ],
       "sku": "UVC-AI-Turret",
       "sysid": "a5a6",
@@ -49881,7 +50412,8 @@
       },
       "shortnames": [
         "UVC-G3-AF",
-        "UniFi Video Camera G3 AF"
+        "UniFi Video Camera G3 AF",
+        "UVC G3 AF"
       ],
       "sku": "UVC-G3-AF",
       "sysids": [],
@@ -49966,7 +50498,8 @@
         "UVC-G3-Bullet",
         "UVC G3",
         "UniFi Protect G3",
-        "UniFi Protect G3 Bullet"
+        "UniFi Protect G3 Bullet",
+        "UVC G3 Bullet"
       ],
       "sku": "UVC-G3-Bullet",
       "sysids": [],
@@ -51227,7 +51760,8 @@
         "name": "G4 Doorbell Pro PoE"
       },
       "shortnames": [
-        "UVC-G4-Doorbell-Pro-PoE-White"
+        "UVC-G4-Doorbell-Pro-PoE-White",
+        "UVC G4 Doorbell Pro PoE White"
       ],
       "sku": "UVC-G4-Doorbell-Pro-PoE-White",
       "sysids": [],
@@ -51310,7 +51844,8 @@
         "name": "G4 Doorbell Pro"
       },
       "shortnames": [
-        "UVC-G4-Doorbell-Pro-White"
+        "UVC-G4-Doorbell-Pro-White",
+        "UVC G4 Doorbell Pro White"
       ],
       "sku": "UVC-G4-Doorbell-Pro-White",
       "sysids": [],
@@ -55028,5 +55563,5 @@
       "videos": {}
     }
   ],
-  "version": "9344502fd5fe02a43ff589e31dd79fd535f80ed4"
+  "version": "945ddb31800b8b4412711dae0eebcf88bda80870"
 }
