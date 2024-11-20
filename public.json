@@ -7406,6 +7406,9 @@
       "id": "8c4c9229-c7d3-43ba-bd41-2b6061e8add2",
       "images": {
         "default": "8e1fd940843d0f8ffc52ea446a046ca4",
+        "mobile-connection": "a628521a531747f3f02b1f292a2fad14",
+        "mobile-internet-connected": "8e9951b6d0d2e75b63ab0e40e026e69f",
+        "mobile-no-internet": "88d177f9f6356a62b3105ed704fc952e",
         "nopadding": "d5dd90c5d418c30207e8cb5624fe7447",
         "topology": "40dd466e50ebad33e5e2f81a6258a3e3"
       },
@@ -22800,8 +22803,8 @@
     },
     {
       "btle": {
-        "factoryDefault": "883133c2-2781-4478-aa68-3338e6f3aa3c",
-        "userConfigured": "6ffe1fae-7a9e-4f70-bc82-8fcf530f9ddc"
+        "factoryDefault": "f06176a5-109f-45f0-9734-8d3be87f6db8",
+        "userConfigured": "53860c6c-2ca8-450b-9138-6d8fbb300fb5"
       },
       "compliance": {
         "anatel": "11546-22-08356",
@@ -22830,16 +22833,13 @@
         },
         "wifi": "5e"
       },
-      "fcc": "SWX-U6IWR",
       "guids": [
-        "883133c2-2781-4478-aa68-3338e6f3aa3c",
-        "6ffe1fae-7a9e-4f70-bc82-8fcf530f9ddc",
-        "53860c6c-2ca8-450b-9138-6d8fbb300fb5",
-        "f06176a5-109f-45f0-9734-8d3be87f6db8"
+        "f4fc9450-fdf4-4898-bf39-821b95f9f3c4",
+        "f06176a5-109f-45f0-9734-8d3be87f6db8",
+        "53860c6c-2ca8-450b-9138-6d8fbb300fb5"
       ],
-      "ic": "6545A-U6IWR",
       "icon": {
-        "id": "70fa881e-6e4a-40ca-8edb-bd3420a1b082",
+        "id": "f89e2b81-740d-4663-9866-9697b3a2f397",
         "resolutions": [
           [
             25,
@@ -22887,15 +22887,12 @@
           ]
         ]
       },
-      "id": "a02124c0-8fc0-47e1-a1eb-be945d0d73f4",
+      "id": "43d58997-a220-4056-9d6a-44e561e001f0",
       "images": {
         "default": "e79bca297c90c4818a53cbabdf7e88b8",
         "nopadding": "2efc2f34b54640663462546858bc9e6e",
         "topology": "e9dcb9887f99eeb1e3c27e50ab56d81a"
       },
-      "jrf": [
-        "201-220294"
-      ],
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -22905,25 +22902,14 @@
         "name": "Access Point U6 In-Wall"
       },
       "shortnames": [
-        "U6-IW",
-        "U6IW",
         "UAIW6"
       ],
       "sku": "U6-IW",
       "sysid": "a610",
       "sysids": [
-        "a610",
-        "a652"
+        "a610"
       ],
       "triplets": [
-        {
-          "k1": "U6IW",
-          "k3": "U6IW"
-        },
-        {
-          "k1": "U6IW",
-          "k2": "U6-IW"
-        },
         {
           "k1": "UAIW6",
           "k2": "U6-IW-EA"
@@ -22980,6 +22966,172 @@
             }
           },
           "systemIdHexadecimal": "a610",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "btle": {
+        "factoryDefault": "883133c2-2781-4478-aa68-3338e6f3aa3c",
+        "userConfigured": "6ffe1fae-7a9e-4f70-bc82-8fcf530f9ddc"
+      },
+      "compliance": {
+        "anatel": "11546-22-08356",
+        "cn": "2022AJ6675",
+        "fcc": "SWX-U6IWR",
+        "ic": "6545A-U6IWR",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "jrf": [
+          "201-220294"
+        ],
+        "modelName": "U6-IW",
+        "ncc": "CCAJ21LP3CA0T0",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        },
+        "wifi": "5e"
+      },
+      "guids": [
+        "883133c2-2781-4478-aa68-3338e6f3aa3c",
+        "6ffe1fae-7a9e-4f70-bc82-8fcf530f9ddc",
+        "53860c6c-2ca8-450b-9138-6d8fbb300fb5",
+        "f06176a5-109f-45f0-9734-8d3be87f6db8"
+      ],
+      "icon": {
+        "id": "70fa881e-6e4a-40ca-8edb-bd3420a1b082",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "a02124c0-8fc0-47e1-a1eb-be945d0d73f4",
+      "images": {
+        "default": "e79bca297c90c4818a53cbabdf7e88b8",
+        "nopadding": "2efc2f34b54640663462546858bc9e6e",
+        "topology": "e9dcb9887f99eeb1e3c27e50ab56d81a"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "U6 IW",
+        "name": "Access Point U6 In-Wall"
+      },
+      "shortnames": [
+        "U6IW"
+      ],
+      "sku": "U6-IW",
+      "sysid": "a652",
+      "sysids": [
+        "a652"
+      ],
+      "triplets": [
+        {
+          "k1": "U6IW",
+          "k3": "U6IW"
+        },
+        {
+          "k1": "U6IW",
+          "k2": "U6-IW"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "6ffe1fae-7a9e-4f70-bc82-8fcf530f9ddc",
+              "default": "883133c2-2781-4478-aa68-3338e6f3aa3c"
+            }
+          ],
+          "chipset": "f",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "ACCESS_POINT_SWITCH",
+            "HAS_CLIENTS",
+            "VPORT"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "features": {
+            "ax": true,
+            "bandsteer": true,
+            "gen": 2
+          },
+          "hybrid": "uap+usw",
+          "minimumFirmwareRequired": "5.66.0",
+          "model": "U6IW",
+          "numberOfPorts": 5,
+          "ports": {
+            "standard": 4
+          },
+          "radios": {
+            "na": {
+              "gain": 4,
+              "maxPower": 25,
+              "maxSpeedMegabitsPerSecond": 2400
+            },
+            "ng": {
+              "gain": 3,
+              "maxPower": 20,
+              "maxSpeedMegabitsPerSecond": 570
+            }
+          },
+          "systemIdHexadecimal": "a652",
           "type": "uap"
         }
       },
@@ -24428,109 +24580,6 @@
             }
           },
           "systemIdHexadecimal": "a650",
-          "type": "uap"
-        }
-      },
-      "videos": {}
-    },
-    {
-      "guids": [
-        "0064a448-b5e1-80d4-f14b-438b55281464"
-      ],
-      "icon": {
-        "id": "eb89d7fa-d286-7d24-8943-f7a5f238572b",
-        "resolutions": [
-          [
-            25,
-            25
-          ],
-          [
-            32,
-            32
-          ],
-          [
-            51,
-            51
-          ],
-          [
-            64,
-            64
-          ],
-          [
-            101,
-            101
-          ],
-          [
-            128,
-            128
-          ],
-          [
-            129,
-            129
-          ],
-          [
-            256,
-            256
-          ],
-          [
-            257,
-            257
-          ],
-          [
-            512,
-            512
-          ],
-          [
-            1000,
-            1000
-          ]
-        ]
-      },
-      "id": "f0bca680-3ac3-b444-742b-fa6d8d1b3e3e",
-      "images": {
-        "default": "4fac659e9e888a9298a9f24ce02373b2",
-        "nopadding": "1f7055cef4ac72105793b78116c49be4",
-        "topology": "38a7861f0e5a0dd684f182bdd2384ed2"
-      },
-      "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
-      },
-      "product": {
-        "abbrev": "U6 Pro Outdoor",
-        "name": "Access Point U6 Pro Outdoor"
-      },
-      "shortnames": [
-        "U6-Pro-Outdoor",
-        "UAPO6MP"
-      ],
-      "sku": "U6-Pro-Outdoor",
-      "sysid": "a675",
-      "sysids": [
-        "a675"
-      ],
-      "triplets": [],
-      "unifi": {
-        "network": {
-          "chipset": "f",
-          "deviceCapabilities": [
-            "ACCESS_POINT",
-            "HAS_CLIENTS",
-            "VPORT"
-          ],
-          "ethernetMaxSpeedMegabitsPerSecond": 1000,
-          "minimumFirmwareRequired": "5.44.1",
-          "model": "UAPO6MP",
-          "numberOfPorts": 1,
-          "radios": {
-            "na": {
-              "maxSpeedMegabitsPerSecond": 2400
-            },
-            "ng": {
-              "maxSpeedMegabitsPerSecond": 570
-            }
-          },
-          "systemIdHexadecimal": "a675",
           "type": "uap"
         }
       },
@@ -29507,112 +29556,6 @@
       "videos": {}
     },
     {
-      "guids": [
-        "cee907a7-f039-4344-88db-bb162320247a"
-      ],
-      "icon": {
-        "id": "d6b3fe72-d8e0-aba4-7d73-f45b627b5216",
-        "resolutions": [
-          [
-            25,
-            25
-          ],
-          [
-            32,
-            32
-          ],
-          [
-            51,
-            51
-          ],
-          [
-            64,
-            64
-          ],
-          [
-            101,
-            101
-          ],
-          [
-            128,
-            128
-          ],
-          [
-            129,
-            129
-          ],
-          [
-            256,
-            256
-          ],
-          [
-            257,
-            257
-          ],
-          [
-            512,
-            512
-          ],
-          [
-            1000,
-            1000
-          ]
-        ]
-      },
-      "id": "1a536081-3307-99a4-4eb3-eaa3d83d805a",
-      "images": {
-        "default": "ee9b96355c0f64d7c4461ed627efd919",
-        "nopadding": "8669cb59619c782a386edf59f7638386",
-        "topology": "779b91afd0240a31d1f94800e9351f6c"
-      },
-      "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
-      },
-      "product": {
-        "abbrev": "UAP Mini",
-        "name": "Access Point Mini"
-      },
-      "shortnames": [
-        "UAP-Mini",
-        "U2M"
-      ],
-      "sku": "UAP-Mini",
-      "sysid": "e522",
-      "sysids": [
-        "e522"
-      ],
-      "triplets": [],
-      "unifi": {
-        "adoptability": "adoptable",
-        "network": {
-          "chipset": "b",
-          "deviceCapabilities": [
-            "ACCESS_POINT",
-            "HAS_CLIENTS",
-            "VPORT"
-          ],
-          "ethernetMaxSpeedMegabitsPerSecond": 1000,
-          "minimumFirmwareRequired": "4.0.6",
-          "model": "U2M",
-          "numberOfPorts": 1,
-          "radios": {
-            "na": {
-              "maxSpeedMegabitsPerSecond": 150
-            },
-            "ng": {
-              "gain": 0,
-              "maxPower": 18,
-              "maxSpeedMegabitsPerSecond": 150
-            }
-          },
-          "systemIdHexadecimal": "e522",
-          "type": "uap"
-        }
-      },
-      "videos": {}
-    },
-    {
       "fcc": "SWX-M2",
       "guids": [],
       "ic": "6545A-M2",
@@ -30218,119 +30161,6 @@
             }
           },
           "systemIdHexadecimal": "e560",
-          "type": "uap"
-        }
-      },
-      "videos": {}
-    },
-    {
-      "guids": [
-        "347add63-55ea-5cd4-ef2b-6e052ba15f70"
-      ],
-      "icon": {
-        "id": "ac556ce5-5fbe-ea04-2acb-f29726ed8633",
-        "resolutions": [
-          [
-            25,
-            25
-          ],
-          [
-            32,
-            32
-          ],
-          [
-            51,
-            51
-          ],
-          [
-            64,
-            64
-          ],
-          [
-            101,
-            101
-          ],
-          [
-            128,
-            128
-          ],
-          [
-            129,
-            129
-          ],
-          [
-            256,
-            256
-          ],
-          [
-            257,
-            257
-          ],
-          [
-            512,
-            512
-          ],
-          [
-            1000,
-            1000
-          ]
-        ]
-      },
-      "id": "122c7796-8733-5d94-366b-308abc50fdbb",
-      "images": {
-        "default": "4fac659e9e888a9298a9f24ce02373b2",
-        "nopadding": "1f7055cef4ac72105793b78116c49be4",
-        "topology": "38a7861f0e5a0dd684f182bdd2384ed2"
-      },
-      "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
-      },
-      "product": {
-        "abbrev": "UAP XG Mesh",
-        "name": "Access Point XG Mesh"
-      },
-      "shortnames": [
-        "UAP-XG-Mesh",
-        "UCMSH"
-      ],
-      "sku": "UAP-XG-Mesh",
-      "sysid": "e570",
-      "sysids": [
-        "e570"
-      ],
-      "triplets": [],
-      "unifi": {
-        "adoptability": "adoptable",
-        "network": {
-          "chipset": "d",
-          "deviceCapabilities": [
-            "ACCESS_POINT",
-            "HAS_CLIENTS",
-            "VPORT"
-          ],
-          "ethernetMaxSpeedMegabitsPerSecond": 1000,
-          "features": {
-            "ac": true,
-            "bandsteer": true,
-            "gen": 2
-          },
-          "minimumFirmwareRequired": "4.0.6",
-          "model": "UCMSH",
-          "numberOfPorts": 1,
-          "radios": {
-            "na": {
-              "gain": 10,
-              "maxPower": 25,
-              "maxSpeedMegabitsPerSecond": 1733
-            },
-            "ng": {
-              "gain": 15,
-              "maxPower": 25,
-              "maxSpeedMegabitsPerSecond": 800
-            }
-          },
-          "systemIdHexadecimal": "e570",
           "type": "uap"
         }
       },
@@ -32468,6 +32298,9 @@
       "id": "1801931d-1cb0-499c-9333-525d4986f596",
       "images": {
         "default": "59593adaffca0b519b4ec5ca1a4f3d68",
+        "mobile-connection": "d2f8e8e9fa3cb6d6e52499838ad28134",
+        "mobile-internet-connected": "c9d0bf0e50cc1ccaa65448dd77800d32",
+        "mobile-no-internet": "a18dd3adae31863b40625f9e86ff784d",
         "nopadding": "fa3124c180a2770e7e177956dd79673b",
         "topology": "d59282f630990663eccc525cf6d0fd2c"
       },
@@ -32683,6 +32516,9 @@
       "id": "d15a9f5a-ed82-4124-a603-a4be273c5556",
       "images": {
         "default": "deba1d58ee3b3b3d69cbe23f0afc75c2",
+        "mobile-connection": "ff6fb8d354ac31f135a6bb5142ec8b37",
+        "mobile-internet-connected": "3b007904ec2ddfd71e05bcaf40dce046",
+        "mobile-no-internet": "b344d4550f0aa10e53aad419f0fb8cca",
         "nopadding": "bb72967cf14882bac738bf33636f44be",
         "topology": "798c84608c785198bf6de1d4d0644167"
       },
@@ -34132,6 +33968,9 @@
       "id": "142cd194-8164-46a1-ba48-bef078757393",
       "images": {
         "default": "015d558b57f631225c3ba6a73660d4df",
+        "mobile-connection": "e35a45247f382d2f952ffb1d7f3450f2",
+        "mobile-internet-connected": "8c5965a0983cadd2eec4679def0aa016",
+        "mobile-no-internet": "4f71689cbabedbcc27b49edce2b9b637",
         "nopadding": "717d100bc54c02f91dfdb70555e14f02",
         "topology": "74fa25dd073f2f833e72acd2436d2ec0"
       },
@@ -34357,6 +34196,9 @@
       "id": "1812513c-f8a1-41c1-a698-86ac70b8bd87",
       "images": {
         "default": "57ad929bdc48df6a5a6855fbb7cd8d18",
+        "mobile-connection": "7ff76992a2501b506330a722ab470fcb",
+        "mobile-internet-connected": "3e158fb281b6f2cbf3f830e53d97b589",
+        "mobile-no-internet": "26109bc1c764cda75815ba385c1a3ab1",
         "nopadding": "52bd54e97d8b7985b262a94814f26d90",
         "topology": "ecf578665ded4f14cf739c792bcbfd8f"
       },
@@ -34609,6 +34451,9 @@
       "id": "40ae7055-11f8-4c8e-9a58-a4c6eead2055",
       "images": {
         "default": "4a4722f355074f13d9a4ea8e3dbca7be",
+        "mobile-connection": "99a37f041e777464355ddea7f227c44f",
+        "mobile-internet-connected": "c55008ce93b5f52c44d4df9c364685d0",
+        "mobile-no-internet": "6cb0066cc395343614d2f5fa3611b4f1",
         "nopadding": "70904ddb99b8b68ddfc3856c98962695",
         "topology": "5e6416b3bdb6b6891ba500ce265672b5"
       },
@@ -34860,6 +34705,9 @@
       "id": "e85485da-54c3-4906-8f19-3cef4116ff02",
       "images": {
         "default": "3008400039c483c496f4ad820242c447",
+        "mobile-connection": "7ff76992a2501b506330a722ab470fcb",
+        "mobile-internet-connected": "3e158fb281b6f2cbf3f830e53d97b589",
+        "mobile-no-internet": "26109bc1c764cda75815ba385c1a3ab1",
         "nopadding": "67b553529d0e523ca9dd4826076c5f3f",
         "topology": "8371ecdda1f00f1636a2eefadf0d7d47"
       },
@@ -35126,6 +34974,9 @@
       "id": "93503494-17ff-4738-a820-312ad9911f36",
       "images": {
         "default": "d712837a4ce5d715a565912862c17bd2",
+        "mobile-connection": "4f003e117ef2d78df734c3fff0792015",
+        "mobile-internet-connected": "5474aed406689785ca23a33b1c4a8abf",
+        "mobile-no-internet": "2b1428e9062934a388132007a5132f94",
         "nopadding": "d6fa30e8a0bce387cbcf835db9c222e5",
         "topology": "20006e476a3471febc08a7a2f281b7ac"
       },
@@ -35354,6 +35205,9 @@
       "id": "3904d899-2536-40db-b437-055eb0bd61df",
       "images": {
         "default": "f9624e7a5e648c6d84f9ebf48e8ae0c3",
+        "mobile-connection": "f84256a59d5ec75bb25358d88caf358b",
+        "mobile-internet-connected": "aa3b5ef4c378bd411ac45260b1e98506",
+        "mobile-no-internet": "d0baa2387dd3a61cd577761516e8dfe6",
         "nopadding": "05b7c28a747dffc2390f2e27930a778a",
         "topology": "d84c6f7bbac3e117b8e2cfe7984566ee"
       },
@@ -38664,227 +38518,6 @@
         }
       },
       "videos": {}
-    },
-    {
-      "btle": {
-        "factoryDefault": "813531d3-954d-4c7c-90c1-018ea4faffdb",
-        "userConfigured": "38bb2b74-0245-4815-a1e0-d05c39f37c65"
-      },
-      "deviceType": "console",
-      "guids": [
-        "6b8fdd7c-7e4c-4156-bb39-be05ca855491",
-        "813531d3-954d-4c7c-90c1-018ea4faffdb",
-        "38bb2b74-0245-4815-a1e0-d05c39f37c65"
-      ],
-      "icon": {
-        "id": "7373b7d2-44e7-495d-91c2-d664f742dce6",
-        "resolutions": [
-          [
-            25,
-            25
-          ],
-          [
-            32,
-            32
-          ],
-          [
-            51,
-            51
-          ],
-          [
-            64,
-            64
-          ],
-          [
-            101,
-            101
-          ],
-          [
-            128,
-            128
-          ],
-          [
-            129,
-            129
-          ],
-          [
-            256,
-            256
-          ],
-          [
-            257,
-            257
-          ],
-          [
-            512,
-            512
-          ],
-          [
-            1000,
-            1000
-          ]
-        ]
-      },
-      "id": "b9750f31-0200-4a36-872a-d849abaf93c7",
-      "images": {
-        "default": "43cbf3e1bbf824fb3afba4756c0009d4",
-        "nopadding": "40b73d5ed20ce1d1d3be6dad76b03776",
-        "topology": "10d94142b6891090fce8e896e9a61601"
-      },
-      "line": {
-        "id": "unifi-drive",
-        "name": "UniFi Drive"
-      },
-      "product": {
-        "abbrev": "UNAS Studio SSD",
-        "name": "UNAS Studio SSD"
-      },
-      "shortnames": [
-        "UNAS",
-        "UNAS-Studio",
-        "UNASSTU"
-      ],
-      "sku": "UNAS-Studio",
-      "sysid": "ea50",
-      "sysids": [
-        "ea50"
-      ],
-      "triplets": [
-        {
-          "k1": "UNAS"
-        },
-        {
-          "k1": "UNASSTU"
-        }
-      ],
-      "unifi": {
-        "adoptability": "standalone",
-        "network": {
-          "bleServices": [
-            {
-              "configured": "38bb2b74-0245-4815-a1e0-d05c39f37c65",
-              "default": "813531d3-954d-4c7c-90c1-018ea4faffdb",
-              "features": {
-                "ucore": true
-              }
-            }
-          ],
-          "deviceCapabilities": [
-            "STORAGE"
-          ],
-          "model": "UNASSTU",
-          "radios": {},
-          "type": "unas"
-        }
-      },
-      "videos": {
-        "mobile-intro": "ace36e5166866ccf9c6bce1615297468"
-      }
-    },
-    {
-      "btle": {
-        "factoryDefault": "1cbf8947-db12-470c-b1d0-e02aacd2ad3a",
-        "userConfigured": "8f500a6a-00a2-4630-8cc4-654c73b6bfe8"
-      },
-      "deviceType": "console",
-      "guids": [
-        "e0748208-b568-4e8a-96a1-3ede95c2ef8b",
-        "1cbf8947-db12-470c-b1d0-e02aacd2ad3a",
-        "8f500a6a-00a2-4630-8cc4-654c73b6bfe8"
-      ],
-      "icon": {
-        "id": "0c1eb12c-2c67-48cf-9f40-b0335685ac5d",
-        "resolutions": [
-          [
-            25,
-            25
-          ],
-          [
-            32,
-            32
-          ],
-          [
-            51,
-            51
-          ],
-          [
-            64,
-            64
-          ],
-          [
-            101,
-            101
-          ],
-          [
-            128,
-            128
-          ],
-          [
-            129,
-            129
-          ],
-          [
-            256,
-            256
-          ],
-          [
-            257,
-            257
-          ],
-          [
-            512,
-            512
-          ],
-          [
-            1000,
-            1000
-          ]
-        ]
-      },
-      "id": "6da3da68-f19b-4376-a4a9-e17f03e72d33",
-      "images": {
-        "default": "24c85116cd360d02831efab86f1cb406",
-        "nopadding": "59dd6f913e0c3a92d9a463f47f93ed2a",
-        "topology": "2bee6fb7172b6ed6c8ae7fcee702e82b"
-      },
-      "line": {
-        "id": "unifi-drive",
-        "name": "UniFi Drive"
-      },
-      "product": {
-        "abbrev": "UNAS Studio SSD",
-        "name": "UNAS Studio SSD"
-      },
-      "shortnames": [
-        "UNAS-Studio-BK",
-        "UNASSTU-BK"
-      ],
-      "sku": "UNAS-Studio-SSD-Black",
-      "sysids": [],
-      "triplets": [],
-      "unifi": {
-        "adoptability": "standalone",
-        "network": {
-          "bleServices": [
-            {
-              "configured": "8f500a6a-00a2-4630-8cc4-654c73b6bfe8",
-              "default": "1cbf8947-db12-470c-b1d0-e02aacd2ad3a",
-              "features": {
-                "ucore": true
-              }
-            }
-          ],
-          "deviceCapabilities": [
-            "STORAGE"
-          ],
-          "model": "UNASSTU-BK",
-          "radios": {},
-          "type": "unas"
-        }
-      },
-      "videos": {
-        "mobile-intro": "44dbd356e8e205265eb15bd7ce7aa945"
-      }
     },
     {
       "guids": [],
@@ -50346,6 +49979,90 @@
     },
     {
       "deviceType": "camera",
+      "guids": [
+        "2d6823f4-f2a9-4ee1-80df-57d14cd6644c"
+      ],
+      "icon": {
+        "id": "f50ecab9-0c11-41ae-a7c7-b746f18575ca",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "9d40ad12-aee0-4517-8af4-75bc003656b6",
+      "images": {
+        "default": "fb81eeab3f495548df64ff333eda32fe",
+        "nopadding": "dc5fcf46a00af17e3353688a93d6eb87",
+        "topology": "93737102a743ce8528f366058e0a1e95"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "G2 Bullet",
+        "name": "Camera G2 Bullet"
+      },
+      "shortnames": [
+        "UVC-G2-Bullet",
+        "UVC G2 Bullet",
+        "a5s-55"
+      ],
+      "sku": "UVC-G2-Bullet",
+      "sysid": "a524",
+      "sysids": [
+        "a524"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "camera",
       "guids": [],
       "icon": {
         "id": "eb3db5d7-b6d4-4da6-85f7-ee579dedea0c",
@@ -53945,6 +53662,9 @@
       "id": "30140cf8-0af4-4e3d-be26-87e41b8090e1",
       "images": {
         "default": "dc486900b771c8399b258ad16736689a",
+        "mobile-connection": "3b06f348eeea65f3f91dd707dad09e33",
+        "mobile-internet-connected": "adabbe78a22c7660d3f9d44052aab4e9",
+        "mobile-no-internet": "b297dc93d0092c8891fcc9dcbddff424",
         "nopadding": "951d78505cf207fd3c8f68543777b00a",
         "topology": "7a83d67835b486e3ac1820fc457c8e8a"
       },
@@ -54152,6 +53872,9 @@
       "id": "e567a449-cfbe-4cdf-9aed-975fac5256d9",
       "images": {
         "default": "1f3133ffae76aea2e738892a78879e2a",
+        "mobile-connection": "61ef40a96cd3a62445760dd00030f61c",
+        "mobile-internet-connected": "4760b4aa8540d9c44d45b2a9ade32080",
+        "mobile-no-internet": "e33e842272eee1bb800e68b56c0a0fae",
         "nopadding": "e335855f02eb6d2f0da491f55a998cc8",
         "topology": "a2f25fb81ac3e6b08d369e450a1935a4"
       },
@@ -54400,6 +54123,9 @@
       "id": "06112bf7-eae4-4bf4-a55c-de007c76dc45",
       "images": {
         "default": "8ef136631ea566a6087704ae07725ec6",
+        "mobile-connection": "3b06f348eeea65f3f91dd707dad09e33",
+        "mobile-internet-connected": "adabbe78a22c7660d3f9d44052aab4e9",
+        "mobile-no-internet": "b297dc93d0092c8891fcc9dcbddff424",
         "nopadding": "6fe92eb9d1e1bf82c66b556d8c0dee29",
         "topology": "1f398845321cf197c920c1bfbaf86a10"
       },
@@ -54571,6 +54297,9 @@
       "id": "dac2c752-2b31-406f-96ed-36859261f293",
       "images": {
         "default": "88b840fbb548b263bac30e4d335d5f5a",
+        "mobile-connection": "691842e0a3d15a472436e29c32bd22a1",
+        "mobile-internet-connected": "c16fe37daf64e77d759ec36d021f3b57",
+        "mobile-no-internet": "ccef377e0faf1d69c5090bb79d0a5950",
         "nopadding": "5a3ce86efe3466e8166fdce51245c3bf",
         "topology": "7023b1f7e2d5b7835ba752b2d73786c7"
       },
@@ -55563,5 +55292,5 @@
       "videos": {}
     }
   ],
-  "version": "945ddb31800b8b4412711dae0eebcf88bda80870"
+  "version": "f756db5818c171d75bfce019e8cf19ced7abcaf0"
 }
