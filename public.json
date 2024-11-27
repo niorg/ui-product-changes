@@ -26651,9 +26651,13 @@
     {
       "compliance": {
         "anatel": "05302-23-08356",
+        "cn": "2020DJ0421",
         "fcc": "SWX-UAPROE",
         "ic": "6545A-UAPROE",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jnfc": [
+          "AC-21075"
+        ],
         "jrf": [
           "020-210123"
         ],
@@ -26665,7 +26669,8 @@
         "text": {
           "CA": [
             "IC",
-            "RF"
+            "RF",
+            "WIFI_5"
           ],
           "US": [
             "FCC_B",
@@ -26889,6 +26894,27 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "cn": "2023AJ11705",
+        "fcc": "SWX-UAU",
+        "ic": "6545A-UAU",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UA-Ultra",
+        "ncc": "CCAH24LP6100T8",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "guids": [
         "2140b073-c029-40be-a87d-e9b563e44717"
       ],
@@ -34261,7 +34287,8 @@
             "PROTECT_APPLICATION",
             "CONTROLLER",
             "APPLICATION_MODE",
-            "HAS_CLIENTS"
+            "HAS_CLIENTS",
+            "SD_WAN_HUB"
           ],
           "diagram": [
             "01 03 05 07 __ __ 10",
@@ -34376,9 +34403,17 @@
       },
       "compliance": {
         "anatel": "06369-24-08356",
+        "cn": "24J99U16H001",
         "fcc": "SWX-UDMPM",
         "ic": "6545A-UDMPM",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "jpa": [
+          "D24-0141001",
+          "L24-0029"
+        ],
+        "jrf": [
+          "020-240368"
+        ],
         "modelName": "UDM-Pro-Max",
         "ncc": "CCAH24LP3680T1",
         "rcm": true,
@@ -34501,7 +34536,8 @@
             "PROTECT_APPLICATION",
             "CONTROLLER",
             "APPLICATION_MODE",
-            "HAS_CLIENTS"
+            "HAS_CLIENTS",
+            "SD_WAN_HUB"
           ],
           "diagram": [
             "01 03 05 07 __ __ 10",
@@ -35264,7 +35300,8 @@
             "NETWORK_APPLICATION",
             "CONTROLLER",
             "APPLICATION_MODE",
-            "HAS_CLIENTS"
+            "HAS_CLIENTS",
+            "SD_WAN_HUB"
           ],
           "diagram": [
             "01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17",
@@ -39037,6 +39074,84 @@
           "radios": {},
           "type": "unvr"
         }
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "5c2659d4-48f3-16c4-ed83-2fefbad37066"
+      ],
+      "icon": {
+        "id": "1d361dd8-ecad-7bc4-03fb-4b2a548344d8",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "132de1c1-3920-af04-8f53-9d0feb8b3934",
+      "images": {
+        "default": "f4a3a5a46de0c64c24af27fce372f695",
+        "nopadding": "4304571e5725c9a4bb08fa88566ab5e0",
+        "topology": "be897636b8b5f0fdfee6b36679cb43fc"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "AI Port",
+        "name": "AI Port"
+      },
+      "shortnames": [
+        "UP-AI-Port"
+      ],
+      "sku": "UP-AI-Port",
+      "sysids": [],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
       },
       "videos": {}
     },
@@ -54212,7 +54327,9 @@
         }
       },
       "videos": {
-        "mobile-intro": "f8f728acc1c5cefba31fc21f3fa9ba92"
+        "mobile-intro": "f8f728acc1c5cefba31fc21f3fa9ba92",
+        "mobile-setup-wizard-plugin": "03284d9439146408b56663f52b3e65ef",
+        "mobile-setup-wizard-testing-connection": "e40136cf0c68f1e0f1ad6fc8bae6ddfe"
       }
     },
     {
@@ -54530,7 +54647,8 @@
             "GATEWAY",
             "APPLICATION_GATEWAY",
             "SMART_POWER",
-            "HAS_CLIENTS"
+            "HAS_CLIENTS",
+            "SD_WAN_HUB"
           ],
           "diagram": [
             "01 03",
@@ -55292,5 +55410,5 @@
       "videos": {}
     }
   ],
-  "version": "f756db5818c171d75bfce019e8cf19ced7abcaf0"
+  "version": "548d275093d8f2cb820eafc36de67445b314ce1b"
 }
