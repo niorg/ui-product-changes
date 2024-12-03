@@ -54298,6 +54298,10 @@
             "standard": 2
           },
           "radios": {},
+          "shadowMode": {
+            "interconnectPortInterface": "eth1",
+            "interconnectPortNumber": 2
+          },
           "subtypes": [
             "ugw",
             "usw"
@@ -55574,5 +55578,5 @@
       "videos": {}
     }
   ],
-  "version": "a9a02336f128a47ada5cf54befb1e7c971c507dd"
+  "version": "a0e50af25a935f4e2141385771ad773d6c19e08b"
 }
