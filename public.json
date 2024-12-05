@@ -26065,6 +26065,564 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-UAG3",
+        "ic": "6545A-UAG3",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UA-G3-W",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
+      "guids": [
+        "4ac3ba3d-5c09-1e64-1813-375cd2242f65"
+      ],
+      "icon": {
+        "id": "f0c8ff32-c0d5-4534-ce63-0d507ea8944e",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "9c016e33-4c18-2674-60db-51005817f2e4",
+      "images": {
+        "default": "dc06ba479b5267dceb11b2fd7ab6cf94",
+        "nopadding": "90d5ee480cba663cff534f6a10268710",
+        "topology": "902811bb713ab57ca7f8060cccdfe73c"
+      },
+      "line": {
+        "id": "unifi-access",
+        "name": "UniFi Access"
+      },
+      "product": {
+        "abbrev": "UA G3 W",
+        "name": "G3 Reader"
+      },
+      "shortnames": [
+        "UA-G3"
+      ],
+      "sku": "UA-G3",
+      "sysid": "ec8a",
+      "sysids": [
+        "ec8a"
+      ],
+      "triplets": [],
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "fcc": "SWX-UAG3",
+        "ic": "6545A-UAG3",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UA-G3-B",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
+      "guids": [
+        "87fc1dd1-c172-a234-633b-f47f380c2253"
+      ],
+      "icon": {
+        "id": "2778cb31-6a69-bab4-de83-0e4c637d879a",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "ac46159c-df13-7f94-327b-691eeb3869eb",
+      "images": {
+        "default": "e82a5afdcda418ee7749abdc94b7efdc",
+        "nopadding": "0261074ef00677dfd321bd39be99e3f4",
+        "topology": "2667d1e0772d4e7c7084476ace31cfd9"
+      },
+      "line": {
+        "id": "unifi-access",
+        "name": "UniFi Access"
+      },
+      "product": {
+        "abbrev": "UA G3 B",
+        "name": "G3 Reader"
+      },
+      "shortnames": [
+        "UA-G3-B"
+      ],
+      "sku": "UA-G3-B",
+      "sysid": "ec8a",
+      "sysids": [
+        "ec8a"
+      ],
+      "triplets": [],
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "fcc": "SWX-UAG3F",
+        "ic": "6545A-UAG3F",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UA-G3-Flex-W",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
+      "guids": [
+        "151813f5-4cd2-e834-411b-fb5a48df1fb1"
+      ],
+      "icon": {
+        "id": "9edeb7fb-db50-d534-9673-cd27b2b6eb48",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "ce188433-a77e-6354-cb63-a9a9c127e029",
+      "images": {
+        "default": "5b69b9a0fa442bf54ce75e8789a72323",
+        "nopadding": "f060f41b47119804d8fda93d8d4c447a",
+        "topology": "7b5cb42d1d89b35230f31888cab9e751"
+      },
+      "line": {
+        "id": "unifi-access",
+        "name": "UniFi Access"
+      },
+      "product": {
+        "abbrev": "UA G3 Flex W",
+        "name": "G3 Reader Flex"
+      },
+      "shortnames": [
+        "UA-G3-Flex"
+      ],
+      "sku": "UA-G3-Flex",
+      "sysids": [],
+      "triplets": [],
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "fcc": "SWX-UAG3F",
+        "ic": "6545A-UAG3F",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UA-G3-Flex-B",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
+      "guids": [
+        "da12ebc2-1ec0-4a04-f35b-7f72da156d86"
+      ],
+      "icon": {
+        "id": "c38bbecf-9383-5a54-1703-ce33f3f7b705",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "a2eefaa1-196e-c3f4-01bb-7db500a4d29a",
+      "images": {
+        "default": "59f7a053a9403a9f4e364c5be5b144fe",
+        "nopadding": "200c4b26fb31cd4904956d6ca96fddd5",
+        "topology": "7dd6dfd81982cc7440c06640c8e66ecd"
+      },
+      "line": {
+        "id": "unifi-access",
+        "name": "UniFi Access"
+      },
+      "product": {
+        "abbrev": "UA G3 Flex B",
+        "name": "G3 Reader Flex"
+      },
+      "shortnames": [
+        "UA-G3-Flex-B"
+      ],
+      "sku": "UA-G3-Flex-B",
+      "sysids": [],
+      "triplets": [],
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "fcc": "SWX-UAG3P",
+        "ic": "6545A-UAG3P",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UA-G3-Pro-W",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
+      "guids": [
+        "3ea175ec-b901-25d4-c0c3-e21573850acd"
+      ],
+      "icon": {
+        "id": "ac16b78a-d211-d0b4-cbcb-971eb39fb960",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "6e1f6943-5616-0194-ce43-367d33212042",
+      "images": {
+        "default": "6d29945526ad7239eb935e4a6b9a0563",
+        "nopadding": "85cc6421fbd5e471e8e045cbea8ad8e8",
+        "topology": "027b512138f9d75f7c4c7514655000d1"
+      },
+      "line": {
+        "id": "unifi-access",
+        "name": "UniFi Access"
+      },
+      "product": {
+        "abbrev": "UA G3 Pro W",
+        "name": "G3 Reader Pro"
+      },
+      "shortnames": [
+        "UA-G3-Pro"
+      ],
+      "sku": "UA-G3-Pro",
+      "sysids": [],
+      "triplets": [],
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "fcc": "SWX-UAG3P",
+        "ic": "6545A-UAG3P",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UA-G3-Pro-B",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
+      "guids": [
+        "70da7cc6-e3f6-2e14-ceeb-b68e2e74bf77"
+      ],
+      "icon": {
+        "id": "06dab714-6249-10d4-303b-d4dd7a925d69",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "9a6fb05e-e3da-8404-ed03-8c84879d0347",
+      "images": {
+        "default": "53f97d5f0b56ceff5f7b9e595ddeac4e",
+        "nopadding": "ad72c5046ac24ab04321554a16f2cf3c",
+        "topology": "7a9d28862f6f77f2e2b5ba1a7671d959"
+      },
+      "line": {
+        "id": "unifi-access",
+        "name": "UniFi Access"
+      },
+      "product": {
+        "abbrev": "UA G3 Pro B",
+        "name": "G3 Reader Pro"
+      },
+      "shortnames": [
+        "UA-G3-Pro-B"
+      ],
+      "sku": "UA-G3-Pro-B",
+      "sysids": [],
+      "triplets": [],
+      "videos": {}
+    },
+    {
       "guids": [
         "4a5e238f-4bae-48d5-84d7-dd2b0e919ab5"
       ],
@@ -26983,6 +27541,81 @@
         "UA-Ultra"
       ],
       "sku": "UA-Ultra",
+      "sysids": [],
+      "triplets": [],
+      "videos": {}
+    },
+    {
+      "guids": [
+        "274a158c-76a8-d044-05eb-0ed23f8d4625"
+      ],
+      "icon": {
+        "id": "be808323-e114-4c33-b119-46e9fa895980",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "746f33f5-7462-46ee-a824-b0fc08515eff",
+      "images": {
+        "default": "f03ae490784a9b90f390c2eb34dcd7c6",
+        "nopadding": "c53a10c83581823ce2439c5f0a959f4f",
+        "topology": "7d80cf8e81b2bb92d2708985e1dca0f0"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "AI Pro Enhancer",
+        "name": "AI Pro Enhancer"
+      },
+      "shortnames": [
+        "UACC-AI-Pro-Enhancer"
+      ],
+      "sku": "UACC-AI-Pro-Enhancer",
       "sysids": [],
       "triplets": [],
       "videos": {}
@@ -33259,6 +33892,92 @@
           "radios": {},
           "type": "uck"
         }
+      },
+      "videos": {
+        "mobile-intro": "4fa34b4fa979b5167183223007650cc4"
+      }
+    },
+    {
+      "deviceType": "network-server-host",
+      "fcc": "nul",
+      "guids": [
+        "e0c73677-0aaf-4822-943c-a095d48a0abf"
+      ],
+      "icon": {
+        "id": "a04dc697-eb80-40db-aaf1-9d5618ee8da6",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "9c054512-818f-4b27-8695-dae33836098d",
+      "images": {
+        "default": "977c1f8c477549aeb7238727fd4ecc62",
+        "nopadding": "67874771eebf93ebe382b418c4cd33c9",
+        "topology": "d0b5440d23604ed09951f0ced79d1252"
+      },
+      "jrf": [],
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "UCK G2 Plus",
+        "name": "CloudKey+"
+      },
+      "shortnames": [
+        "UCK-G2-SSD"
+      ],
+      "sku": "UCK-G2-SSD",
+      "sysid": "e970",
+      "sysids": [
+        "e970"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "standalone"
       },
       "videos": {
         "mobile-intro": "4fa34b4fa979b5167183223007650cc4"
@@ -46069,6 +46788,129 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "USW-Industrial",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_A"
+          ]
+        }
+      },
+      "guids": [
+        "78a41297-a440-a1e4-adfb-3c795ed5b0ec"
+      ],
+      "icon": {
+        "id": "1e42103d-d436-a084-7473-8efaef101687",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "5e1f6779-2d48-0c14-e82b-1835c0519010",
+      "images": {
+        "default": "17f63517a131473ff1f14cf88e91202d",
+        "nopadding": "c666cd85b825fca046027a1acdd186d2",
+        "topology": "5a2288a6ac57eb176da9951198bdbcbc"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USW Industrial",
+        "name": "Switch Industrial"
+      },
+      "shortnames": [
+        "USI8P"
+      ],
+      "sku": "USW-Industrial",
+      "sysid": "ed05",
+      "sysids": [
+        "ed05"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "l",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "diagram": [
+            "__ __ __ __ __ __ __ __ __ 09",
+            "01 02 03 04 05 06 07 08 __ 10"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "features": {
+            "poe": true
+          },
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USWED05",
+          "numberOfPorts": 10,
+          "ports": {
+            "standard": 10
+          },
+          "power": {
+            "capacity": 450
+          },
+          "radios": {},
+          "systemIdHexadecimal": "ed05",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
       "btle": {
         "factoryDefault": "f04efea7-faf0-4637-afd5-bee983444005",
         "userConfigured": "f5f0fc99-0867-427c-a231-6a028a104efd"
@@ -55578,5 +56420,5 @@
       "videos": {}
     }
   ],
-  "version": "a0e50af25a935f4e2141385771ad773d6c19e08b"
+  "version": "da5f42e4163d3f652b153ab9a4909caa2fa45894"
 }
