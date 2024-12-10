@@ -27605,8 +27605,8 @@
         "topology": "7d80cf8e81b2bb92d2708985e1dca0f0"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
       },
       "product": {
         "abbrev": "AI Pro Enhancer",
@@ -33898,6 +33898,30 @@
       }
     },
     {
+      "compliance": {
+        "anatel": "07458-19-08356",
+        "fcc": "SWX-UCKG2P",
+        "ic": "6545A-UCKG2P",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jrf": [
+          "020-240389"
+        ],
+        "modelName": "UCK-G2-SSD",
+        "ncc": "CCAH24LPB090T1",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "network-server-host",
       "fcc": "nul",
       "guids": [
@@ -46412,6 +46436,108 @@
       "videos": {}
     },
     {
+      "guids": [
+        "7145e55b-0453-8644-0e8b-a01cf9a01e69"
+      ],
+      "icon": {
+        "id": "af7bb738-da7e-8784-2e53-f8e632ee90dc",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "20320111-927f-4854-eacb-4c7cc6320f75",
+      "images": {
+        "default": "ea7bcecc6a8fba386af9b72ec7aab668",
+        "nopadding": "59c07308900c0e4c66ce6a91e47b0cfc",
+        "topology": "6d13c2b0866f5e032ae8a33d8ac78737"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USW Flex 2.5G 8",
+        "name": "Switch Flex 2.5G 8"
+      },
+      "shortnames": [
+        "USM25G8"
+      ],
+      "sku": "USW-Flex-2.5G-8",
+      "sysid": "ed36",
+      "sysids": [
+        "ed36"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "o",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_LOW_RESOURCES",
+            "HAS_CLIENTS"
+          ],
+          "diagram": [
+            "01 02 03 04 05 06 07 08 __ 09 10"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "minimumFirmwareRequired": "1.1.0",
+          "model": "USWED36",
+          "numberOfPorts": 10,
+          "ports": {
+            "standard": 10
+          },
+          "radios": {},
+          "systemIdHexadecimal": "ed36",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "anatel": "14501-20-08356",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -56420,5 +56546,5 @@
       "videos": {}
     }
   ],
-  "version": "da5f42e4163d3f652b153ab9a4909caa2fa45894"
+  "version": "69cb9d00fee9d75ffaa9bbeddd977bc4bfa9c6c9"
 }
