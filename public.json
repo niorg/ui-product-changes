@@ -25382,6 +25382,240 @@
       "videos": {}
     },
     {
+      "guids": [
+        "961a10a4-abf7-7a54-100b-a14185fb105c"
+      ],
+      "icon": {
+        "id": "fa8426ab-c385-f934-e373-a1ef170ef7a9",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "28b9fb3e-4351-3314-70a3-1db9b6865333",
+      "images": {
+        "default": "a86ab6e3bed7f48c151918a14da7c259",
+        "nopadding": "0571f8aa820ac4ac11a6058044660a55",
+        "topology": "aa1acd059103a10d20faf5b684a3604e"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "U7 Pro Outdoor",
+        "name": "Access Point U7 Pro Outdoor"
+      },
+      "shortnames": [
+        "U7-Pro-Outdoor",
+        "U7 Pro Outdoor",
+        "U7PO"
+      ],
+      "sku": "U7-Pro-Outdoor",
+      "sysid": "a6a6",
+      "sysids": [
+        "a6a6"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "r",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 2500,
+          "features": {
+            "atfDisabled": true,
+            "ax": true,
+            "bandsteer": true,
+            "be": true,
+            "gen": 2,
+            "outdoorModeSupport": true
+          },
+          "minimumFirmwareRequired": "7.0.64",
+          "model": "UAPA6A6",
+          "numberOfPorts": 1,
+          "radios": {
+            "6e": {
+              "maxPower": 23,
+              "maxSpeedMegabitsPerSecond": 5765
+            },
+            "na": {
+              "maxPower": 26,
+              "maxSpeedMegabitsPerSecond": 4324
+            },
+            "ng": {
+              "maxPower": 22,
+              "maxSpeedMegabitsPerSecond": 688
+            }
+          },
+          "systemIdHexadecimal": "a6a6",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "d44c5cba-c718-6d44-0c1b-ebd5ac857223"
+      ],
+      "icon": {
+        "id": "a45fe88b-5f45-ff74-f80b-8578d8a1ad8c",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "6a08c01f-6ac1-2264-d20b-813a3223d34b",
+      "images": {
+        "default": "12721c918db87edcd1ad054a35ea543f",
+        "nopadding": "c562ac53171e0b2ead7218fadf104f60",
+        "topology": "0814d422d68d8844453736b9e6177ce9"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "U7 Pro Outdoor",
+        "name": "Access Point U7 Pro Outdoor"
+      },
+      "shortnames": [
+        "U7-Pro-Outdoor-EU",
+        "U7 Pro Outdoor EU",
+        "U7POEU"
+      ],
+      "sku": "U7-Pro-Outdoor-EU",
+      "sysid": "a6b0",
+      "sysids": [
+        "a6b0"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "r",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 2500,
+          "features": {
+            "atfDisabled": true,
+            "ax": true,
+            "bandsteer": true,
+            "be": true,
+            "gen": 2,
+            "outdoorModeSupport": true
+          },
+          "minimumFirmwareRequired": "7.0.64",
+          "model": "UAPA6B0",
+          "numberOfPorts": 1,
+          "radios": {
+            "na": {
+              "maxPower": 29,
+              "maxSpeedMegabitsPerSecond": 8648
+            },
+            "ng": {
+              "maxPower": 22,
+              "maxSpeedMegabitsPerSecond": 688
+            }
+          },
+          "systemIdHexadecimal": "a6b0",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "fcc": "SWX-U7PROW",
         "ic": "6545A-U7PROW",
@@ -56546,5 +56780,5 @@
       "videos": {}
     }
   ],
-  "version": "69cb9d00fee9d75ffaa9bbeddd977bc4bfa9c6c9"
+  "version": "6182142df6f07f31371232c47a67288cc27c0479"
 }
