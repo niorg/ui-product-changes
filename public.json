@@ -51002,6 +51002,91 @@
       "videos": {}
     },
     {
+      "deviceType": "camera",
+      "guids": [
+        "4aa118a1-f512-a634-728b-effe7c6580d1"
+      ],
+      "icon": {
+        "id": "643253b2-c44e-5f14-389b-5c8347ce81b2",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "b39d2b64-9d73-67c4-574b-47cb7ce11488",
+      "images": {
+        "default": "e0368b06c1b62d66a199cba6c1b31896",
+        "nopadding": "4aa6a764a6c4071bb217c658c33b058c",
+        "topology": "b0da7921971a4018c2cc69b9ca7bd87b"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "AI LPR",
+        "name": "Camera AI LPR"
+      },
+      "shortnames": [
+        "UVC-AI-Pro-LPR",
+        "UVC AI Pro LPR",
+        "UVC-AI-LPR",
+        "UVC AI LPR"
+      ],
+      "sku": "UVC-AI-LPR",
+      "sysid": "a5a7",
+      "sysids": [
+        "a5a7"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "UVC-AI-Pro",
@@ -56780,5 +56865,5 @@
       "videos": {}
     }
   ],
-  "version": "6182142df6f07f31371232c47a67288cc27c0479"
+  "version": "7293ade28bde78c115c9f7d2c37c65cafac4e3b2"
 }
