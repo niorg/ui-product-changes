@@ -6889,6 +6889,326 @@
       "videos": {}
     },
     {
+      "guids": [
+        "15203a48-a885-fae4-a37b-ffac261869e4"
+      ],
+      "icon": {
+        "id": "4331755a-6600-96e4-0cc3-d5e8045ea199",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "cb059c48-7ecd-cb44-8abb-fb9788aaf9d7",
+      "images": {
+        "default": "02c3946ba988321184b2e9e00e2aef79",
+        "nopadding": "5858198714a7e4c33acaa71f6f9a4e30",
+        "topology": "2cec45a2db50f4f3831e8adae3032143"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "E7 Audience",
+        "name": "Access Point E7 Audience"
+      },
+      "shortnames": [
+        "E7-Audience"
+      ],
+      "sku": "E7-Audience",
+      "sysid": "a699",
+      "sysids": [
+        "a699"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "r",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT",
+            "E7_SERIES"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "features": {
+            "atfDisabled": true,
+            "ax": true,
+            "bandsteer": true,
+            "be": true,
+            "gen": 2,
+            "outdoorModeSupport": true
+          },
+          "minimumFirmwareRequired": "7.0.45",
+          "model": "UAPA699",
+          "numberOfPorts": 1,
+          "radios": {
+            "6e": {
+              "maxPower": 29,
+              "maxSpeedMegabitsPerSecond": 11528
+            },
+            "na": {
+              "maxPower": 29,
+              "maxSpeedMegabitsPerSecond": 8648
+            }
+          },
+          "systemIdHexadecimal": "a699",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "04a13660-be69-4a84-5f7b-5a9659261d3b",
+        "afaaa4b1-3468-1504-af53-3c4269d497d2"
+      ],
+      "icon": {
+        "id": "50a070da-55cc-0764-6d4b-bbe4cebe2164",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "0226f4eb-9c8a-7594-779b-c59bb9b22b7a",
+      "images": {
+        "default": "436e605c6733e8837f0c0559881ea391",
+        "nopadding": "f780268ec7f4b893b2a04f57ebcaafbd",
+        "topology": "ecb41d43200350e90f70a0e28c261edf"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "E7 Audience",
+        "name": "Access Point E7 Audience"
+      },
+      "shortnames": [
+        "E7-Audience-EU"
+      ],
+      "sku": "E7-Audience-EU",
+      "sysid": "a6ab",
+      "sysids": [
+        "a6ab"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "80716260-b1a9-2354-eb8b-b2edafe32489"
+      ],
+      "icon": {
+        "id": "5461d2c7-7bed-b174-10db-f10047fcf6a5",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "0bffc510-1b93-c2b4-e7cb-1d2f9ea63a82",
+      "images": {
+        "default": "81cf35fdf3b8ee742fb78e439741112e",
+        "nopadding": "5d1ae1de9a8adc85e0500e50f07bbb53",
+        "topology": "42ddfa601e6e9eeba23ad3a68d09e069"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "8.4.59"
+      },
+      "product": {
+        "abbrev": "E7 Campus",
+        "name": "Access Point E7 Campus"
+      },
+      "shortnames": [
+        "E7-Campus"
+      ],
+      "sku": "E7-Campus",
+      "sysid": "a698",
+      "sysids": [
+        "a698"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "r",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT",
+            "E7_SERIES"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "features": {
+            "atfDisabled": true,
+            "ax": true,
+            "bandsteer": true,
+            "be": true,
+            "gen": 2,
+            "outdoorModeSupport": true
+          },
+          "minimumFirmwareRequired": "7.0.45",
+          "model": "UAPA698",
+          "numberOfPorts": 1,
+          "radios": {
+            "6e": {
+              "gain": 6,
+              "maxPower": 29,
+              "maxSpeedMegabitsPerSecond": 11528
+            },
+            "na": {
+              "gain": 6,
+              "maxPower": 29,
+              "maxSpeedMegabitsPerSecond": 8648
+            },
+            "ng": {
+              "gain": 4,
+              "maxPower": 22,
+              "maxSpeedMegabitsPerSecond": 688
+            }
+          },
+          "systemIdHexadecimal": "a698",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "EAH-8",
@@ -24760,6 +25080,239 @@
       "triplets": [],
       "unifi": {
         "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "260f8ed3-aa45-7274-9f4b-7d4c9272e047"
+      ],
+      "icon": {
+        "id": "1dfe8283-d75e-df34-9183-37adf648cfeb",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "40b122e5-dd20-4604-f663-d3b45f6930e8",
+      "images": {
+        "default": "ce1aa85e0939c8696aeb1fa01584a5fa",
+        "nopadding": "3008b2981f9df442c2377b6b86bd16c8",
+        "topology": "a0963eb377a5634b9d2c2f02244f22b4"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "U7 In Wall",
+        "name": "Access Point U7 In Wall"
+      },
+      "shortnames": [
+        "G7IW",
+        "U7-In-Wall"
+      ],
+      "sku": "U7-In-Wall",
+      "sysid": "a6a5",
+      "sysids": [
+        "a6a5"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "r",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "ACCESS_POINT_SWITCH",
+            "HAS_CLIENTS",
+            "VPORT"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 2500,
+          "features": {
+            "ax": true,
+            "bandsteer": true,
+            "gen": 2
+          },
+          "hybrid": "uap+usw",
+          "minimumFirmwareRequired": "7.0.0",
+          "model": "UAPA6A5",
+          "numberOfPorts": 3,
+          "ports": {
+            "standard": 3
+          },
+          "radios": {
+            "na": {
+              "gain": 8,
+              "maxPower": 24,
+              "maxSpeedMegabitsPerSecond": 4324
+            },
+            "ng": {
+              "gain": 3,
+              "maxPower": 23,
+              "maxSpeedMegabitsPerSecond": 688
+            }
+          },
+          "systemIdHexadecimal": "a6a5",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "bc5233e7-36df-2334-3ae3-9d6d09b83f06"
+      ],
+      "icon": {
+        "id": "b10b54fc-bda0-b444-2573-369ccbce448d",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "1278cff4-08ec-97b4-b83b-f1bdedc1a145",
+      "images": {
+        "default": "ac4eeafda933e5a7e78012ae0a91b182",
+        "nopadding": "ba39883183a198a9f5d44db66029fe14",
+        "topology": "f6483b3be03b76bfbb9d2e8f7381fdd8"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "U7 Lite",
+        "name": "Access Point U7 Lite"
+      },
+      "shortnames": [
+        "G7LT",
+        "U7-Lite"
+      ],
+      "sku": "U7-Lite",
+      "sysid": "a693",
+      "sysids": [
+        "a693"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "r",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 2500,
+          "features": {
+            "atfDisabled": true,
+            "ax": true,
+            "bandsteer": true,
+            "be": true,
+            "gen": 2
+          },
+          "minimumFirmwareRequired": "7.0.0",
+          "model": "UAPA693",
+          "numberOfPorts": 1,
+          "radios": {
+            "na": {
+              "gain": 5,
+              "maxPower": 24,
+              "maxSpeedMegabitsPerSecond": 4324
+            },
+            "ng": {
+              "gain": 4,
+              "maxPower": 23,
+              "maxSpeedMegabitsPerSecond": 688
+            }
+          },
+          "systemIdHexadecimal": "a693",
+          "type": "uap"
+        }
       },
       "videos": {}
     },
@@ -57529,5 +58082,5 @@
       "videos": {}
     }
   ],
-  "version": "220eed889ce31948f8f808ba8909334d355129e4"
+  "version": "1c538c253d21dfab31383279c6a2d114b6c9fabc"
 }
