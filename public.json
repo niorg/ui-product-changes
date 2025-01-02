@@ -52614,6 +52614,7 @@
         "name": "Camera G2 Bullet"
       },
       "shortnames": [
+        "UVC",
         "UVC-G2-Bullet",
         "UVC G2 Bullet",
         "a5s-55"
@@ -52779,7 +52780,6 @@
         "name": "Camera G3 Bullet"
       },
       "shortnames": [
-        "UVC",
         "UVC-G3-Bullet",
         "UVC G3",
         "UniFi Protect G3",
@@ -58082,5 +58082,5 @@
       "videos": {}
     }
   ],
-  "version": "1c538c253d21dfab31383279c6a2d114b6c9fabc"
+  "version": "8f61e836dc9965f94d872a821e8877195a1a8329"
 }
