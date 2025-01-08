@@ -6948,8 +6948,8 @@
         "topology": "2cec45a2db50f4f3831e8adae3032143"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "E7 Audience",
@@ -6988,11 +6988,11 @@
           "numberOfPorts": 1,
           "radios": {
             "6e": {
-              "maxPower": 29,
+              "maxPower": 30,
               "maxSpeedMegabitsPerSecond": 11528
             },
             "na": {
-              "maxPower": 29,
+              "maxPower": 30,
               "maxSpeedMegabitsPerSecond": 8648
             }
           },
@@ -7063,8 +7063,8 @@
         "topology": "ecb41d43200350e90f70a0e28c261edf"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "E7 Audience",
@@ -7080,7 +7080,40 @@
       ],
       "triplets": [],
       "unifi": {
-        "adoptability": "adoptable"
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "r",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT",
+            "E7_SERIES"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "features": {
+            "atfDisabled": true,
+            "ax": true,
+            "bandsteer": true,
+            "be": true,
+            "gen": 2,
+            "outdoorModeSupport": true
+          },
+          "minimumFirmwareRequired": "7.0.45",
+          "model": "UAPA6AB",
+          "numberOfPorts": 1,
+          "radios": {
+            "6e": {
+              "maxPower": 30,
+              "maxSpeedMegabitsPerSecond": 11528
+            },
+            "na": {
+              "maxPower": 30,
+              "maxSpeedMegabitsPerSecond": 8648
+            }
+          },
+          "systemIdHexadecimal": "a6ab",
+          "type": "uap"
+        }
       },
       "videos": {}
     },
@@ -14596,8 +14629,8 @@
         "topology": "5df01a97730789aac749f47871addedc"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uisp",
+        "name": "UISP"
       },
       "product": {
         "abbrev": "N SW",
@@ -16324,8 +16357,8 @@
         "topology": "b6577140159ea7940ff7fcb8d4f52743"
       },
       "line": {
-        "id": "unifi-protect",
-        "name": "UniFi Protect"
+        "id": "unvr",
+        "name": "UniFi NVR"
       },
       "product": {
         "abbrev": "UNVR",
@@ -22406,8 +22439,8 @@
         "201-230529"
       ],
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "minAdoptVersion": {
         "net": "7.3.76"
@@ -22571,8 +22604,8 @@
         "201-230134"
       ],
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "U6 Enterprise",
@@ -22732,8 +22765,8 @@
         "topology": "2f106aa16676558fd69903a23c507f67"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "U6 Enterprise IW",
@@ -22901,8 +22934,8 @@
         "topology": "c6f9dc9ae89728587daae83a9784498f"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "U6 Extender",
@@ -23059,8 +23092,8 @@
         "topology": "c6f9dc9ae89728587daae83a9784498f"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "U6 Extender",
@@ -23214,8 +23247,8 @@
         "topology": "e9dcb9887f99eeb1e3c27e50ab56d81a"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "U6 IW",
@@ -23385,8 +23418,8 @@
         "topology": "e9dcb9887f99eeb1e3c27e50ab56d81a"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "U6 IW",
@@ -23555,8 +23588,8 @@
         "201-220173"
       ],
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "minAdoptVersion": {
         "net": "7.3.76"
@@ -23717,8 +23750,8 @@
         "201-220173"
       ],
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "minAdoptVersion": {
         "net": "7.3.76"
@@ -24051,8 +24084,8 @@
         "201-210289"
       ],
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "U6 Lite",
@@ -24210,8 +24243,8 @@
         "201-220022"
       ],
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "U6 Mesh",
@@ -24374,8 +24407,8 @@
         "201-220022"
       ],
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "U6 Mesh",
@@ -24531,8 +24564,8 @@
         "topology": "1b074a25a17ae409b10f988a71ee4a3e"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "U6 Mesh Pro",
@@ -24679,8 +24712,8 @@
         "topology": "38a7861f0e5a0dd684f182bdd2384ed2"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "U6 LR+",
@@ -24832,8 +24865,8 @@
         "201-220061"
       ],
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "U6 Pro",
@@ -24963,8 +24996,8 @@
         "topology": "4695d71f061671ba86a9d57340c23948"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "usw",
+        "name": "UniFi Switch"
       },
       "product": {
         "abbrev": "U6 SW 24",
@@ -25062,8 +25095,8 @@
         "topology": "8d41ac6acb693662f9a3bcf24c461ed7"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "U7 Pro",
@@ -25143,8 +25176,8 @@
         "topology": "a0963eb377a5634b9d2c2f02244f22b4"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "U7 In Wall",
@@ -25261,8 +25294,8 @@
         "topology": "f6483b3be03b76bfbb9d2e8f7381fdd8"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "U7 Lite",
@@ -25397,8 +25430,8 @@
         "topology": "477dcdcf1f58d3a1da59e8ad16549655"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "minAdoptVersion": {
         "net": "8.2.93"
@@ -25559,8 +25592,8 @@
         "topology": "8d41ac6acb693662f9a3bcf24c461ed7"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "minAdoptVersion": {
         "net": "8.0.7"
@@ -25711,8 +25744,8 @@
         "topology": "8d41ac6acb693662f9a3bcf24c461ed7"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "U7 Pro Max",
@@ -25865,8 +25898,8 @@
         "topology": "8d41ac6acb693662f9a3bcf24c461ed7"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "U7 Pro Max",
@@ -25994,8 +26027,8 @@
         "topology": "aa1acd059103a10d20faf5b684a3604e"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "U7 Pro Outdoor",
@@ -26113,8 +26146,8 @@
         "topology": "0814d422d68d8844453736b9e6177ce9"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "U7 Pro Outdoor",
@@ -26251,8 +26284,8 @@
         "topology": "5e1b115a238bc1c36544e971fa76570e"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "U7 Pro Wall",
@@ -28467,8 +28500,8 @@
         "topology": "38a7861f0e5a0dd684f182bdd2384ed2"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "UAP",
@@ -28587,8 +28620,8 @@
         "topology": "38a7861f0e5a0dd684f182bdd2384ed2"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "UAP AC",
@@ -28726,8 +28759,8 @@
         "topology": "af19ce9773a9197a3af544a582a8854c"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "AC EDU",
@@ -28870,8 +28903,8 @@
         "topology": "38a7861f0e5a0dd684f182bdd2384ed2"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "AC HD",
@@ -29017,8 +29050,8 @@
         "topology": "e0e1aa48906d1decf2d923ee131d61a0"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "AC IW",
@@ -29145,8 +29178,8 @@
         "topology": "7de8fbe7dc112b9650f21b8a2e0edfc6"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "AC IW Pro",
@@ -29295,8 +29328,8 @@
         "topology": "38a7861f0e5a0dd684f182bdd2384ed2"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "AC Lite",
@@ -29417,8 +29450,8 @@
         "topology": "38a7861f0e5a0dd684f182bdd2384ed2"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "AC LR",
@@ -29561,8 +29594,8 @@
         "topology": "6ea9eedae6d14a9f46e72b6791ed31a8"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "AC Mesh",
@@ -29706,8 +29739,8 @@
         "topology": "2908d1772a53f161578107b32d22c3fb"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "AC Mesh Pro",
@@ -29830,8 +29863,8 @@
         "topology": "08ad82ba0bc81fb3e43e0b4d77a3f7fe"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "UAP AC Outdoor",
@@ -29984,8 +30017,8 @@
         "202-SME042"
       ],
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "AC Pro",
@@ -30128,8 +30161,8 @@
         "topology": "38a7861f0e5a0dd684f182bdd2384ed2"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "AC SHD",
@@ -30256,8 +30289,8 @@
         "topology": "c1df351e8a123073caccd38327103743"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "Beacon HD",
@@ -30412,8 +30445,8 @@
         "201-200968"
       ],
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "FlexHD",
@@ -30540,8 +30573,8 @@
         "topology": "7e3295ac1a4ece57dff404b1789576fc"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "UAP IW",
@@ -30692,8 +30725,8 @@
         "201-190121"
       ],
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "IW HD",
@@ -30820,8 +30853,8 @@
         "topology": "779b91afd0240a31d1f94800e9351f6c"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "UAP LR",
@@ -30940,8 +30973,8 @@
         "topology": "38a7861f0e5a0dd684f182bdd2384ed2"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "UAP LR",
@@ -31059,8 +31092,8 @@
         "topology": "2b01b2414129c9c36bd5867d9e789c35"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "UAP Outdoor",
@@ -31180,8 +31213,8 @@
         "topology": "296451cedc024c1160325a5577a1978a"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "UAP Outdoor+",
@@ -31302,8 +31335,8 @@
         "topology": "6a6fc2142b84011193493fb8aec30338"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "UAP Outdoor 5",
@@ -31422,8 +31455,8 @@
         "topology": "38a7861f0e5a0dd684f182bdd2384ed2"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "UAP Pro",
@@ -31547,8 +31580,8 @@
         "topology": "38a7861f0e5a0dd684f182bdd2384ed2"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "UAP XG",
@@ -31699,8 +31732,8 @@
         "201-180859"
       ],
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "Nano HD",
@@ -31822,8 +31855,8 @@
         "topology": "38a7861f0e5a0dd684f182bdd2384ed2"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uap",
+        "name": "UniFi Access Point"
       },
       "product": {
         "abbrev": "UAP",
@@ -32454,6 +32487,26 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-UCCASTP",
+        "ic": "6545A-UCCASTP",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UC-Cast-Pro",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "guids": [
         "2a428ae2-5822-4a4b-a265-9f0e5f3cf895"
       ],
@@ -33362,7 +33415,10 @@
         "EVS-Lite"
       ],
       "sku": "UC-EV-Station-Lite",
-      "sysids": [],
+      "sysid": "a6a0",
+      "sysids": [
+        "a6a0"
+      ],
       "triplets": [],
       "unifi": {
         "adoptability": "adoptable"
@@ -33447,7 +33503,10 @@
         "EVS-Lite-EU"
       ],
       "sku": "UC-EV-Station-Lite-EU",
-      "sysids": [],
+      "sysid": "a6a7",
+      "sysids": [
+        "a6a7"
+      ],
       "triplets": [],
       "unifi": {
         "adoptability": "adoptable"
@@ -34143,8 +34202,8 @@
         "topology": "3abaf2ac3c836ce3917117c85a37a87d"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uci",
+        "name": "UniFi Cable Internet"
       },
       "minAdoptVersion": {
         "net": "7.5.187"
@@ -34254,8 +34313,8 @@
         "topology": "c9fbe3937dfbc815d312510dd0e35018"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uck",
+        "name": "UniFi Cloud Key"
       },
       "product": {
         "abbrev": "UCK",
@@ -34398,8 +34457,8 @@
         "201-180679"
       ],
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uck",
+        "name": "UniFi Cloud Key"
       },
       "product": {
         "abbrev": "UCK G2",
@@ -34512,8 +34571,8 @@
         "topology": "75b52e30b67efb705bb44c692b9c051d"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uck",
+        "name": "UniFi Cloud Key"
       },
       "product": {
         "abbrev": "UCK G2",
@@ -34626,8 +34685,8 @@
         "201-190047"
       ],
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uck",
+        "name": "UniFi Cloud Key"
       },
       "product": {
         "abbrev": "UCK G2 Plus",
@@ -34880,8 +34939,8 @@
         "topology": "96f6a4a2d73d667183d58989a4bb4f90"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "udb",
+        "name": "UniFi Device Bridge"
       },
       "minAdoptVersion": {
         "net": "8.4.59"
@@ -35028,8 +35087,8 @@
         "topology": "fe63a31fa18e8a8a9a12edffc0f51272"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "udb",
+        "name": "UniFi Device Bridge"
       },
       "minAdoptVersion": {
         "net": "8.4.59"
@@ -36331,7 +36390,8 @@
             "PROTECT_APPLICATION",
             "CONTROLLER",
             "APPLICATION_MODE",
-            "HAS_CLIENTS"
+            "HAS_CLIENTS",
+            "SD_WAN_HUB"
           ],
           "diagram": [
             "01 03 05 07 __ __ 10",
@@ -40510,8 +40570,8 @@
         "topology": "72b5ff8da062ccd34650bbe14b4f113d"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uisp",
+        "name": "UISP"
       },
       "product": {
         "abbrev": "UNMS Switch Lite",
@@ -40624,8 +40684,8 @@
         "201-210328"
       ],
       "line": {
-        "id": "unifi-protect",
-        "name": "UniFi Protect"
+        "id": "unvr",
+        "name": "UniFi NVR"
       },
       "product": {
         "abbrev": "UNVR",
@@ -40770,8 +40830,8 @@
         "201-210355"
       ],
       "line": {
-        "id": "unifi-protect",
-        "name": "UniFi Protect"
+        "id": "unvr",
+        "name": "UniFi NVR"
       },
       "product": {
         "abbrev": "UNVR Pro",
@@ -41814,8 +41874,8 @@
         "topology": "4bd7f20e963ddb1d2c7e5fb39c02c620"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "usw",
+        "name": "UniFi Switch"
       },
       "product": {
         "abbrev": "US 16",
@@ -41890,8 +41950,8 @@
         "topology": "da0a74539341cf54c07b55441aa0aed1"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "usw",
+        "name": "UniFi Switch"
       },
       "product": {
         "abbrev": "US 16 PoE 150W",
@@ -42012,8 +42072,8 @@
         "topology": "8d2ff2fcc3c39753a565d1b402714c3b"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "usw",
+        "name": "UniFi Switch"
       },
       "product": {
         "abbrev": "US XG 16",
@@ -45196,8 +45256,8 @@
         "topology": "8077f63166872799e850e95fe258781f"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "usp",
+        "name": "UniFi Smart Power"
       },
       "minAdoptVersion": {
         "net": "7.3.83"
@@ -45250,6 +45310,122 @@
             "lan": [
               29
             ],
+            "meta": {
+              "01": {
+                "center": true,
+                "rotation": "-90deg"
+              },
+              "02": {
+                "center": true,
+                "rotation": "-90deg"
+              },
+              "03": {
+                "center": true,
+                "rotation": "-90deg"
+              },
+              "04": {
+                "center": true,
+                "rotation": "-90deg"
+              },
+              "05": {
+                "center": true,
+                "rotation": "-90deg"
+              },
+              "06": {
+                "center": true,
+                "rotation": "-90deg"
+              },
+              "07": {
+                "center": true,
+                "rotation": "-90deg"
+              },
+              "08": {
+                "center": true,
+                "rotation": "-90deg"
+              },
+              "09": {
+                "center": true,
+                "rotation": "-90deg"
+              },
+              "10": {
+                "center": true,
+                "rotation": "-90deg"
+              },
+              "11": {
+                "center": true,
+                "rotation": "-90deg"
+              },
+              "12": {
+                "center": true,
+                "rotation": "-90deg"
+              },
+              "13": {
+                "rotation": "-90deg"
+              },
+              "14": {
+                "rotation": "-90deg"
+              },
+              "15": {
+                "rotation": "-90deg"
+              },
+              "16": {
+                "rotation": "-90deg"
+              },
+              "17": {
+                "center": true,
+                "rotation": "-90deg"
+              },
+              "18": {
+                "center": true,
+                "rotation": "-90deg"
+              },
+              "19": {
+                "center": true,
+                "rotation": "-90deg"
+              },
+              "20": {
+                "center": true,
+                "rotation": "-90deg"
+              },
+              "21": {
+                "center": true,
+                "rotation": "-90deg"
+              },
+              "22": {
+                "center": true,
+                "rotation": "-90deg"
+              },
+              "23": {
+                "center": true,
+                "rotation": "-90deg"
+              },
+              "24": {
+                "center": true,
+                "rotation": "-90deg"
+              },
+              "25": {
+                "center": true,
+                "rotation": "-90deg"
+              },
+              "26": {
+                "center": true,
+                "rotation": "-90deg"
+              },
+              "27": {
+                "center": true,
+                "rotation": "-90deg"
+              },
+              "28": {
+                "center": true,
+                "rotation": "-90deg"
+              },
+              "29": {
+                "portIdx": 29
+              },
+              "30": {
+                "center": true
+              }
+            },
             "standard": [
               1,
               2,
@@ -45365,8 +45541,8 @@
       },
       "isARSupported": true,
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "usp",
+        "name": "UniFi Smart Power"
       },
       "product": {
         "abbrev": "USP PDU Pro",
@@ -45417,6 +45593,44 @@
           "model": "USPPDUP",
           "numberOfPorts": 1,
           "outlets": {
+            "meta": {
+              "05": {
+                "rotation": "-90deg"
+              },
+              "06": {
+                "rotation": "-90deg"
+              },
+              "07": {
+                "rotation": "-90deg"
+              },
+              "08": {
+                "rotation": "-90deg"
+              },
+              "09": {
+                "rotation": "-90deg"
+              },
+              "10": {
+                "rotation": "-90deg"
+              },
+              "11": {
+                "rotation": "-90deg"
+              },
+              "12": {
+                "rotation": "-90deg"
+              },
+              "13": {
+                "rotation": "-90deg"
+              },
+              "14": {
+                "rotation": "-90deg"
+              },
+              "15": {
+                "rotation": "-90deg"
+              },
+              "16": {
+                "rotation": "-90deg"
+              }
+            },
             "standard": "5-20",
             "usb": "1-4"
           },
@@ -45494,8 +45708,8 @@
         "topology": "b4beda2edb6d1465131cf664c6482ee0"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "usp",
+        "name": "UniFi Smart Power"
       },
       "product": {
         "abbrev": "USP Plug",
@@ -45601,8 +45815,8 @@
       },
       "isARSupported": true,
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "usp",
+        "name": "UniFi Smart Power"
       },
       "product": {
         "abbrev": "USP RPS",
@@ -45713,8 +45927,8 @@
         "topology": "e4e411638af9513e0b95b979c1c521c4"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "usp",
+        "name": "UniFi Smart Power"
       },
       "minAdoptVersion": {
         "net": "7.0.23"
@@ -45846,8 +46060,8 @@
         "topology": "93f49769d323df009ec4b3859b31dd22"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "usp",
+        "name": "UniFi Smart Power"
       },
       "product": {
         "abbrev": "USP Strip",
@@ -47211,6 +47425,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "14502-20-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USW-Flex",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -47444,6 +47674,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "09000-24-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USW-Flex-2.5G-8",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "guids": [
         "7145e55b-0453-8644-0e8b-a01cf9a01e69"
       ],
@@ -47546,6 +47792,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "09000-24-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USW-Flex-2.5G-8-PoE",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "guids": [
         "75537f4d-1f16-0364-a16b-ebae52d4c4f3"
       ],
@@ -56663,8 +56925,8 @@
       },
       "isARSupported": true,
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "usg",
+        "name": "UniFi Security Gateway"
       },
       "minAdoptVersion": {
         "net": "8.0.8"
@@ -56923,8 +57185,8 @@
         "020-230409"
       ],
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "usg",
+        "name": "UniFi Security Gateway"
       },
       "minAdoptVersion": {
         "net": "8.0.7"
@@ -57093,8 +57355,8 @@
         "topology": "7023b1f7e2d5b7835ba752b2d73786c7"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "usg",
+        "name": "UniFi Security Gateway"
       },
       "product": {
         "abbrev": "UXG Max",
@@ -57277,8 +57539,8 @@
       },
       "isARSupported": true,
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "usg",
+        "name": "UniFi Security Gateway"
       },
       "product": {
         "abbrev": "UXG Pro",
@@ -58082,5 +58344,5 @@
       "videos": {}
     }
   ],
-  "version": "8f61e836dc9965f94d872a821e8877195a1a8329"
+  "version": "cd7990bd6ebfd5cdac1c4edaa5be1a9f88a4a9df"
 }
