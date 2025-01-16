@@ -6943,9 +6943,9 @@
       },
       "id": "cb059c48-7ecd-cb44-8abb-fb9788aaf9d7",
       "images": {
-        "default": "02c3946ba988321184b2e9e00e2aef79",
-        "nopadding": "5858198714a7e4c33acaa71f6f9a4e30",
-        "topology": "2cec45a2db50f4f3831e8adae3032143"
+        "default": "1edb67de70330a47bc383f02159f0ccd",
+        "nopadding": "e03f8d00fc58daf95d06010849f36c03",
+        "topology": "97ba51fc0f08a0b9a6fd7591d3f08268"
       },
       "line": {
         "id": "unifi-network",
@@ -7058,9 +7058,9 @@
       },
       "id": "0226f4eb-9c8a-7594-779b-c59bb9b22b7a",
       "images": {
-        "default": "436e605c6733e8837f0c0559881ea391",
-        "nopadding": "f780268ec7f4b893b2a04f57ebcaafbd",
-        "topology": "ecb41d43200350e90f70a0e28c261edf"
+        "default": "7f8f58f4b2818f0a98ea7fbb8f060a62",
+        "nopadding": "5085e1458747cc013512d9d0d24ca161",
+        "topology": "ed79ff57d9ed62e46613ff87dfdc8e5d"
       },
       "line": {
         "id": "unifi-network",
@@ -7096,7 +7096,7 @@
             "bandsteer": true,
             "be": true,
             "gen": 2,
-            "outdoorModeSupport": true
+            "outdoorModeSupport": false
           },
           "minimumFirmwareRequired": "7.0.45",
           "model": "UAPA6AB",
@@ -18844,7 +18844,7 @@
             "zh": true
           },
           "minimumFirmwareRequired": "4.0.6",
-          "model": "P2N",
+          "model": "p2N",
           "numberOfPorts": 1,
           "radios": {
             "na": {
@@ -23632,7 +23632,7 @@
             "outdoorModeSupport": true
           },
           "minimumFirmwareRequired": "5.42.0",
-          "model": "UALR6V3",
+          "model": "UALR6v3",
           "numberOfPorts": 1,
           "radios": {
             "na": {
@@ -23803,7 +23803,7 @@
             "outdoorModeSupport": true
           },
           "minimumFirmwareRequired": "5.42.0",
-          "model": "UALR6V2",
+          "model": "UALR6v2",
           "numberOfPorts": 1,
           "radios": {
             "na": {
@@ -28366,6 +28366,23 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-UAPE",
+        "ic": "6545A-UAPE",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UACC-AI-Pro-Enhancer",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "guids": [
         "274a158c-76a8-d044-05eb-0ed23f8d4625"
       ],
@@ -28679,7 +28696,7 @@
             "brcm": true
           },
           "minimumFirmwareRequired": "4.0.6",
-          "model": "U7EV2",
+          "model": "U7Ev2",
           "numberOfPorts": 2,
           "radios": {
             "na": {
@@ -31014,7 +31031,7 @@
             "zh": true
           },
           "minimumFirmwareRequired": "4.0.6",
-          "model": "U2LV2",
+          "model": "U2Lv2",
           "numberOfPorts": 1,
           "radios": {
             "na": {
@@ -31896,7 +31913,7 @@
             "zh": true
           },
           "minimumFirmwareRequired": "4.0.6",
-          "model": "U2SV2",
+          "model": "U2Sv2",
           "numberOfPorts": 1,
           "radios": {
             "na": {
@@ -33731,6 +33748,7 @@
           "020-240313"
         ],
         "modelName": "UCG-Max",
+        "ncc": "CCAH24LPD130T7",
         "rcm": true,
         "text": {
           "CA": [
@@ -34352,7 +34370,7 @@
             "CLOUD_KEY",
             "NETWORK_APPLICATION"
           ],
-          "model": "UCK-V3",
+          "model": "UCK-v3",
           "radios": {},
           "type": "uck"
         }
@@ -40887,6 +40905,97 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "AI-Key",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_A"
+          ]
+        }
+      },
+      "guids": [
+        "ce6ffdc4-1c92-45f6-adcf-6beae9e1bb95"
+      ],
+      "icon": {
+        "id": "300fb00f-0a4a-4cf4-bd11-6e5be8c0862f",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "31c6af21-a16b-4deb-8d1f-c8c98403bc90",
+      "images": {
+        "default": "5eb9576032605f6f29925fc4304d949b",
+        "nopadding": "5c4c5b94fe4c40896443ccaf719793f3",
+        "topology": "db2ba3ab93d52c5583c3560a8ac41f6d"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "AI Key",
+        "name": "AI Key"
+      },
+      "shortnames": [
+        "UP-AI-SG",
+        "UP-AI-Key"
+      ],
+      "sku": "UP-AI-Key",
+      "sysids": [],
+      "triplets": [],
+      "videos": {}
+    },
+    {
       "guids": [
         "5c2659d4-48f3-16c4-ed83-2fefbad37066"
       ],
@@ -43236,6 +43345,23 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "04915-19-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "kc": "R-REI-buf-US-8-60W",
+        "modelName": "US-8-60W",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -48660,6 +48786,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "04479-21-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USW-Lite-8-PoE",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -55853,7 +55995,7 @@
           "deviceCapabilities": [
             "PHONE"
           ],
-          "model": "UP5C",
+          "model": "UP5c",
           "radios": {},
           "type": "uph"
         }
@@ -55945,7 +56087,7 @@
           "deviceCapabilities": [
             "PHONE"
           ],
-          "model": "UP7C",
+          "model": "UP7c",
           "radios": {},
           "type": "uph"
         }
@@ -56038,7 +56180,7 @@
           "deviceCapabilities": [
             "PHONE"
           ],
-          "model": "UP5TC",
+          "model": "UP5tc",
           "radios": {},
           "type": "uph"
         }
@@ -57272,6 +57414,8 @@
         "userConfigured": "8d75e543-0e64-40b1-b243-87d15dacb4ca"
       },
       "compliance": {
+        "anatel": "06376-24-08356",
+        "cn": "24J99U16F001",
         "fcc": "SWX-UXGM",
         "ic": "6545A-UXGM",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -58344,5 +58488,5 @@
       "videos": {}
     }
   ],
-  "version": "94ec7f8a437642ed5295910faa66a6e4bca0c6c5"
+  "version": "db6a9467a7ec12b7f21674e7c36f9a450a5f970e"
 }
