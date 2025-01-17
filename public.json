@@ -40905,6 +40905,85 @@
       "videos": {}
     },
     {
+      "deviceType": "network-server-host",
+      "guids": [
+        "b4d704d3-9ced-45a4-9c18-14576eec12d4"
+      ],
+      "icon": {
+        "id": "9a3f6402-debb-4843-9134-8db21c07c5f2",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "c4999318-a197-4651-8d03-0975cf5240d3",
+      "images": {
+        "default": "80ff7b60652a1261f8c32e4a868274ce",
+        "nopadding": "d4dda2af9aed1904a7785d2dbffe8776",
+        "topology": "bd88f2d1f257e7b3dd17b14a8c60c361"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "UOS Server",
+        "name": "UOS Server"
+      },
+      "shortnames": [
+        "UOSSERVER"
+      ],
+      "sku": "UOSSERVER",
+      "sysid": "ae01",
+      "sysids": [
+        "ae01"
+      ],
+      "triplets": [],
+      "videos": {}
+    },
+    {
       "compliance": {
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "AI-Key",
@@ -58488,5 +58567,5 @@
       "videos": {}
     }
   ],
-  "version": "db6a9467a7ec12b7f21674e7c36f9a450a5f970e"
+  "version": "993000725e1cd83a80b61a51b2dadaf7cad64a93"
 }
