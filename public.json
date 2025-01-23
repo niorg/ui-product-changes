@@ -25180,14 +25180,15 @@
         "name": "UniFi"
       },
       "product": {
-        "abbrev": "U7 In Wall",
+        "abbrev": "U7 In-Wall",
         "name": "Access Point U7 In Wall"
       },
       "shortnames": [
         "G7IW",
-        "U7-In-Wall"
+        "U7-In-Wall",
+        "U7-IW"
       ],
-      "sku": "U7-In-Wall",
+      "sku": "U7-IW",
       "sysid": "a6a5",
       "sysids": [
         "a6a5"
@@ -25214,7 +25215,7 @@
           "model": "UAPA6A5",
           "numberOfPorts": 3,
           "ports": {
-            "standard": 3
+            "standard": 2
           },
           "radios": {
             "na": {
@@ -26346,6 +26347,126 @@
             }
           },
           "systemIdHexadecimal": "a686",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "b10f644a-5169-bda4-e903-89b3ce330d7d"
+      ],
+      "icon": {
+        "id": "5d47005b-b3f1-b914-d79b-2e118ae1cef0",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "88237e91-7020-be74-ca43-7c6aa48feab9",
+      "images": {
+        "default": "d960dc1f65cb445ae2ad964292d0d943",
+        "nopadding": "c75902675f6184ac151c72e27f6e1227",
+        "topology": "e8efcc5019d5f3afa123a1cce85396b3"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "U7 Pro XG",
+        "name": "Access Point U7 Pro XG"
+      },
+      "shortnames": [
+        "U7PROXG",
+        "U7-Pro-XG"
+      ],
+      "sku": "U7-Pro-XG",
+      "sysid": "a6a9",
+      "sysids": [
+        "a6a9"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "r",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "features": {
+            "atfDisabled": true,
+            "ax": true,
+            "bandsteer": true,
+            "be": true,
+            "gen": 2
+          },
+          "minimumFirmwareRequired": "7.0.0",
+          "model": "UAPA6A9",
+          "numberOfPorts": 1,
+          "radios": {
+            "6e": {
+              "gain": 6,
+              "maxPower": 23,
+              "maxSpeedMegabitsPerSecond": 5765
+            },
+            "na": {
+              "gain": 6,
+              "maxPower": 26,
+              "maxSpeedMegabitsPerSecond": 4324
+            },
+            "ng": {
+              "gain": 4,
+              "maxPower": 22,
+              "maxSpeedMegabitsPerSecond": 688
+            }
+          },
+          "systemIdHexadecimal": "a6a9",
           "type": "uap"
         }
       },
@@ -37915,6 +38036,8 @@
         "modelName": "UP-Viewport",
         "ncc": "CCAJ21LP1F60T4",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -40965,8 +41088,8 @@
         "topology": "bd88f2d1f257e7b3dd17b14a8c60c361"
       },
       "line": {
-        "id": "unifi-protect",
-        "name": "UniFi Protect"
+        "id": "unifi-network",
+        "name": "UniFi"
       },
       "product": {
         "abbrev": "UOS Server",
@@ -51443,6 +51566,91 @@
     },
     {
       "guids": [
+        "7bbc37e7-a1e3-4158-badf-66192cc1ffed"
+      ],
+      "icon": {
+        "id": "3237a031-0a6f-4af9-9c98-9ff925712766",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "1cf7f568-1b14-43dc-8cae-d56d78b92c67",
+      "images": {
+        "default": "85c78d1fec9f3f6bf7f1a219ac95299c",
+        "nopadding": "aa9ca7a3b39339e30ef5789b474c71a0",
+        "topology": "e448fa9c0dd9180c19daf084d7251579"
+      },
+      "line": {
+        "id": "unifi-talk",
+        "name": "UniFi Talk"
+      },
+      "product": {
+        "abbrev": "UTP G3 Touch Enterprise",
+        "name": "Phone G3 Touch Enterprise"
+      },
+      "shortnames": [
+        "UTP-G3-PRO-MAX",
+        "UTP-G3-Touch-Pro-Max",
+        "UTP-G3-Touch-Enterprise"
+      ],
+      "sku": "UTP-G3-Touch-Enterprise",
+      "sysids": [],
+      "triplets": [
+        {
+          "k1": "UTP-G3-PRO-MAX",
+          "k3": "UTP-G3-PRO-MAX"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
         "433c98c1-a8f1-48cc-a193-d6cc21bcc45f"
       ],
       "icon": {
@@ -58567,5 +58775,5 @@
       "videos": {}
     }
   ],
-  "version": "993000725e1cd83a80b61a51b2dadaf7cad64a93"
+  "version": "954eceecd381ac32a660c7a1c37a94e986ce5a9a"
 }
