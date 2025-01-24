@@ -27736,6 +27736,82 @@
     },
     {
       "guids": [
+        "e4b4f8e9-354b-495c-93b6-2f7694133b61"
+      ],
+      "icon": {
+        "id": "bfd730d7-2168-4848-b59c-20a011947d5b",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "4ae14b68-eec8-40f4-8e74-81711b03413b",
+      "images": {
+        "default": "d49d72af4f0e86ca3ae43894f342b315",
+        "nopadding": "9ebd57cf0d277493b6a4266658f257ac",
+        "topology": "a1213fc41c1494c6b09adde6e5f834ee"
+      },
+      "line": {
+        "id": "unifi-access",
+        "name": "UniFi Access"
+      },
+      "product": {
+        "abbrev": "UA Hub Door Mini",
+        "name": "Door Hub Mini"
+      },
+      "shortnames": [
+        "UA-HUB-Door-Mini",
+        "UA-Hub-Door-Mini"
+      ],
+      "sku": "UA-Hub-Door-Mini",
+      "sysids": [],
+      "triplets": [],
+      "videos": {}
+    },
+    {
+      "guids": [
         "2fe09035-e671-4804-aa44-575d1cd6f0c6"
       ],
       "icon": {
@@ -32619,6 +32695,104 @@
           "k1": "UC-Cast"
         }
       ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "fcc": "SWX-UCCASTL",
+        "ic": "6545A-UCCASTL",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UC-Cast-Lite",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
+      "guids": [
+        "902b3fca-294d-4aa3-988a-ca395ae79118"
+      ],
+      "icon": {
+        "id": "d1cba921-ee84-4048-9d3c-860615b5b65f",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "e9cda15e-0564-45a0-b8c9-3dd0c893b1f2",
+      "images": {
+        "default": "ed494b0786574ad0a2ceb9a940872ab7",
+        "nopadding": "7593a8ee8838bdad909aac894825d3cc",
+        "topology": "2ef18d2fef9e4260809506e1adf9b3d0"
+      },
+      "line": {
+        "id": "unifi-connect",
+        "name": "UniFi Connect"
+      },
+      "product": {
+        "abbrev": "UC Cast Lite",
+        "name": "Display Cast Lite"
+      },
+      "shortnames": [
+        "UC-Cast-Lite"
+      ],
+      "sku": "UC-Cast-Lite",
+      "sysids": [],
+      "triplets": [],
       "unifi": {
         "adoptability": "adoptable"
       },
@@ -58775,5 +58949,5 @@
       "videos": {}
     }
   ],
-  "version": "954eceecd381ac32a660c7a1c37a94e986ce5a9a"
+  "version": "feb2bcee6d114abbee8eda6b5e9b9a318207188c"
 }
