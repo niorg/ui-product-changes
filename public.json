@@ -34027,6 +34027,230 @@
     },
     {
       "btle": {
+        "factoryDefault": "4864277a-ad9e-4aed-97ab-8be24aa8798c",
+        "userConfigured": "d809a963-062e-4cd8-907c-b690a6d6ace4"
+      },
+      "deviceType": "console",
+      "guids": [
+        "03be8e6b-e8e0-2304-ff03-1f4baf6023d9",
+        "4864277a-ad9e-4aed-97ab-8be24aa8798c",
+        "d809a963-062e-4cd8-907c-b690a6d6ace4"
+      ],
+      "icon": {
+        "id": "1ec20a87-b6e0-74f4-6a7b-b85bd507200e",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "12f7ca2c-dd71-f9f4-929b-293d5fb35cb7",
+      "images": {
+        "default": "35562d81f230b62b8bc2d9b223509331",
+        "nopadding": "d9715fb8bbcb32ae72b1305e8f8c2915",
+        "topology": "c3130aa4853ecaec70f1f5d6073432d7"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "UCG Fiber",
+        "name": "Cloud Gateway Fiber"
+      },
+      "shortnames": [
+        "UCG-Fiber",
+        "UCGF"
+      ],
+      "sku": "UCG-Fiber",
+      "sysid": "a6a8",
+      "sysids": [
+        "a6a8"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "d809a963-062e-4cd8-907c-b690a6d6ace4",
+              "default": "4864277a-ad9e-4aed-97ab-8be24aa8798c"
+            }
+          ],
+          "chipset": "j",
+          "deviceCapabilities": [
+            "GATEWAY",
+            "SWITCH",
+            "CONTROLLER",
+            "APPLICATION_MODE",
+            "HAS_CLIENTS"
+          ],
+          "diagram": [
+            "01 02 03 04 05 06 07"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "linkNegotiation": {
+            "eth0": {
+              "portIdx": 1,
+              "supportedValues": [
+                "autoneg",
+                "2500 FDX",
+                "1000 FDX",
+                "100 FDX",
+                "100 HDX",
+                "10 FDX",
+                "10 HDX"
+              ]
+            },
+            "eth1": {
+              "portIdx": 2,
+              "supportedValues": [
+                "autoneg",
+                "2500 FDX",
+                "1000 FDX",
+                "100 FDX",
+                "100 HDX",
+                "10 FDX",
+                "10 HDX"
+              ]
+            },
+            "eth2": {
+              "portIdx": 3,
+              "supportedValues": [
+                "autoneg",
+                "2500 FDX",
+                "1000 FDX",
+                "100 FDX",
+                "100 HDX",
+                "10 FDX",
+                "10 HDX"
+              ]
+            },
+            "eth3": {
+              "portIdx": 4,
+              "supportedValues": [
+                "autoneg",
+                "2500 FDX",
+                "1000 FDX",
+                "100 FDX",
+                "100 HDX",
+                "10 FDX",
+                "10 HDX"
+              ]
+            },
+            "eth4": {
+              "portIdx": 5,
+              "supportedValues": [
+                "autoneg",
+                "10000 FDX",
+                "5000 FDX",
+                "2500 FDX",
+                "1000 FDX",
+                "100 FDX",
+                "100 HDX",
+                "10 FDX",
+                "10 HDX"
+              ]
+            },
+            "eth5": {
+              "portIdx": 6,
+              "supportedValues": [
+                "autoneg",
+                "10000 FDX",
+                "1000 FDX"
+              ]
+            },
+            "eth6": {
+              "portIdx": 7,
+              "supportedValues": [
+                "autoneg",
+                "10000 FDX",
+                "1000 FDX"
+              ]
+            }
+          },
+          "minimumFirmwareRequired": "0.9.0",
+          "model": "UDMA6A8",
+          "networkGroups": {
+            "eth0": "LAN",
+            "eth1": "LAN",
+            "eth2": "LAN",
+            "eth3": "LAN",
+            "eth4": "WAN",
+            "eth5": "LAN",
+            "eth6": "WAN2"
+          },
+          "numberOfPorts": 7,
+          "ports": {
+            "eth0": "LAN",
+            "eth1": "LAN",
+            "eth2": "LAN",
+            "eth3": "LAN",
+            "eth4": "WAN",
+            "eth5": "LAN",
+            "eth6": "WAN2",
+            "plus": [
+              6,
+              7
+            ]
+          },
+          "radios": {},
+          "subtypes": [
+            "ugw"
+          ],
+          "systemIdHexadecimal": "a6a8",
+          "type": "udm"
+        }
+      },
+      "videos": {
+        "mobile-intro": "65f3826e85aa952b756d900cd9d7aee7",
+        "mobile-setup-wizard-plugin": "8a2d4a0b6bcd298efd12a10de1451acc",
+        "mobile-setup-wizard-testing-connection": "bb0f115ab17b213e1ee3b577d5807327"
+      }
+    },
+    {
+      "btle": {
         "factoryDefault": "82acc782-9c97-4e87-b1f9-a3c5be3ad9e9",
         "userConfigured": "b243c5fd-a23d-4ce2-9b3a-1529329e1590"
       },
@@ -51811,7 +52035,10 @@
         "UTP-G3-Touch-Enterprise"
       ],
       "sku": "UTP-G3-Touch-Enterprise",
-      "sysids": [],
+      "sysid": "efbc",
+      "sysids": [
+        "efbc"
+      ],
       "triplets": [
         {
           "k1": "UTP-G3-PRO-MAX",
@@ -51895,7 +52122,10 @@
         "UTP-G3-Touch-Pro"
       ],
       "sku": "UTP-G3-Touch-Pro",
-      "sysids": [],
+      "sysid": "efbb",
+      "sysids": [
+        "efbb"
+      ],
       "triplets": [
         {
           "k1": "UTP-G3-PRO",
@@ -51979,7 +52209,10 @@
         "UTP-G3-Wall"
       ],
       "sku": "UTP-G3-Wall",
-      "sysids": [],
+      "sysid": "efba",
+      "sysids": [
+        "efba"
+      ],
       "triplets": [
         {
           "k1": "UTP-G3-WALL",
@@ -57308,9 +57541,9 @@
       "id": "642916c5-9089-4c8d-b108-28216594d7c8",
       "images": {
         "default": "fc16ab538caecb60ed7a96267b64f9e2",
-        "mobile-connection": "f86ec6ac22cb8ef415e7c41321d0fbd1",
-        "mobile-internet-connected": "f03c6fd0b68e587c62ad79bf2af156d9",
-        "mobile-no-internet": "9b191204edb287311167ba13473bea8f",
+        "mobile-connection": "64b7bec8c8b187d55129070794aec073",
+        "mobile-internet-connected": "bb27d78477c9581359428ed34fe29893",
+        "mobile-no-internet": "a74c2a952482e4bf2a79c690e6a50fa0",
         "nopadding": "8458e245da56a4cbdd8ff7610d4f9e52",
         "topology": "7ebb4ea55eb79b8ad1e0b89c845de748"
       },
@@ -57683,6 +57916,232 @@
         "mobile-intro": "f2561d1807fe1b264a2d0d0f42a02a8c",
         "mobile-setup-wizard-plugin": "9152006bf75f0848ace3e8c1c6fd27f0",
         "mobile-setup-wizard-testing-connection": "5d9d3ffb338f52156e7f7c8dc9ac4c1e"
+      }
+    },
+    {
+      "btle": {
+        "factoryDefault": "3cc83114-538f-4289-ae89-87beb5b077cc",
+        "userConfigured": "0b1eba00-cc65-4eb8-94c6-aab05e0b423c"
+      },
+      "guids": [
+        "4f160644-ca4c-f484-8bbb-aaaa98adc98e",
+        "3cc83114-538f-4289-ae89-87beb5b077cc",
+        "0b1eba00-cc65-4eb8-94c6-aab05e0b423c"
+      ],
+      "icon": {
+        "id": "ba15536d-4959-3764-023b-7fedba465a9e",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "8767809f-9c08-82e4-15f3-d189307d8ebb",
+      "images": {
+        "default": "6dca8831fbe1e935332754ad657fc796",
+        "mobile-connection": "85316e5c1b4d1ac37f6794582b2f49dd",
+        "mobile-internet-connected": "07e24f20978ed99af53f038b00aedc35",
+        "mobile-no-internet": "919f8e7644f01e209c246a5969aeffb7",
+        "nopadding": "332fedad66ad519a6de4d452e6563efd",
+        "topology": "2131ca0004b99221b7bc55d5d2ca24a3"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "UXG Fiber",
+        "name": "Gateway Fiber"
+      },
+      "shortnames": [
+        "UXG-Fiber",
+        "UXG-FIBER",
+        "UXGA6AA"
+      ],
+      "sku": "UXG-Fiber",
+      "sysid": "a6aa",
+      "sysids": [
+        "a6aa"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "0b1eba00-cc65-4eb8-94c6-aab05e0b423c",
+              "default": "3cc83114-538f-4289-ae89-87beb5b077cc"
+            }
+          ],
+          "chipset": "j",
+          "deviceCapabilities": [
+            "GATEWAY",
+            "SWITCH",
+            "APPLICATION_GATEWAY",
+            "HAS_CLIENTS"
+          ],
+          "diagram": [
+            "01 02 03 04 05 06 07"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "linkNegotiation": {
+            "eth0": {
+              "portIdx": 1,
+              "supportedValues": [
+                "autoneg",
+                "2500 FDX",
+                "1000 FDX",
+                "100 FDX",
+                "100 HDX",
+                "10 FDX",
+                "10 HDX"
+              ]
+            },
+            "eth1": {
+              "portIdx": 2,
+              "supportedValues": [
+                "autoneg",
+                "2500 FDX",
+                "1000 FDX",
+                "100 FDX",
+                "100 HDX",
+                "10 FDX",
+                "10 HDX"
+              ]
+            },
+            "eth2": {
+              "portIdx": 3,
+              "supportedValues": [
+                "autoneg",
+                "2500 FDX",
+                "1000 FDX",
+                "100 FDX",
+                "100 HDX",
+                "10 FDX",
+                "10 HDX"
+              ]
+            },
+            "eth3": {
+              "portIdx": 4,
+              "supportedValues": [
+                "autoneg",
+                "2500 FDX",
+                "1000 FDX",
+                "100 FDX",
+                "100 HDX",
+                "10 FDX",
+                "10 HDX"
+              ]
+            },
+            "eth4": {
+              "portIdx": 5,
+              "supportedValues": [
+                "autoneg",
+                "10000 FDX",
+                "5000 FDX",
+                "2500 FDX",
+                "1000 FDX",
+                "100 FDX",
+                "100 HDX",
+                "10 FDX",
+                "10 HDX"
+              ]
+            },
+            "eth5": {
+              "portIdx": 6,
+              "supportedValues": [
+                "autoneg",
+                "10000 FDX",
+                "1000 FDX"
+              ]
+            },
+            "eth6": {
+              "portIdx": 7,
+              "supportedValues": [
+                "autoneg",
+                "10000 FDX",
+                "1000 FDX"
+              ]
+            }
+          },
+          "minimumFirmwareRequired": "0.0.1",
+          "model": "UXGA6AA",
+          "networkGroups": {
+            "eth0": "LAN",
+            "eth1": "LAN",
+            "eth2": "LAN",
+            "eth3": "LAN",
+            "eth4": "WAN",
+            "eth5": "LAN",
+            "eth6": "WAN2"
+          },
+          "numberOfPorts": 7,
+          "ports": {
+            "eth0": "LAN",
+            "eth1": "LAN",
+            "eth2": "LAN",
+            "eth3": "LAN",
+            "eth4": "WAN",
+            "eth5": "LAN",
+            "eth6": "WAN2",
+            "plus": [
+              6,
+              7
+            ]
+          },
+          "radios": {},
+          "subtypes": [
+            "ugw"
+          ],
+          "systemIdHexadecimal": "a6aa",
+          "type": "uxg"
+        }
+      },
+      "videos": {
+        "mobile-intro": "48221eec60e798894330adfdd40bc9a6",
+        "mobile-setup-wizard-plugin": "8a2d4a0b6bcd298efd12a10de1451acc",
+        "mobile-setup-wizard-testing-connection": "bb0f115ab17b213e1ee3b577d5807327"
       }
     },
     {
@@ -58949,5 +59408,5 @@
       "videos": {}
     }
   ],
-  "version": "feb2bcee6d114abbee8eda6b5e9b9a318207188c"
+  "version": "e170522e74ef94658de00e905da1ba67ad0320b3"
 }
