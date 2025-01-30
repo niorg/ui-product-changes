@@ -53560,6 +53560,91 @@
     },
     {
       "deviceType": "camera",
+      "guids": [
+        "9b684ac5-60f6-ee64-281b-269f66311c8d",
+        "120680bc-5464-1714-936b-f3a3da227c42"
+      ],
+      "icon": {
+        "id": "46a2a7a7-7e4c-6124-d3eb-6494cffb3ace",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "13e54a7f-5015-4bb4-7df3-daff89f7baea",
+      "images": {
+        "default": "16eed631b3ec96aa1c09e570a0907836",
+        "nopadding": "476a64b9ca7a4a2e53fade66350b5949",
+        "topology": "5197e803fea7e9b95adaed758825195d"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "AI Turret",
+        "name": "Camera AI Turret"
+      },
+      "shortnames": [
+        "UVC-AI-Turret-Black",
+        "UVC-AI-Pro-Turret-Black",
+        "UVC AI Turret Black"
+      ],
+      "sku": "UVC-AI-Turret-Black",
+      "sysid": "a5a6",
+      "sysids": [
+        "a5a6"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "camera",
       "guids": [],
       "icon": {
         "id": "aed32e7e-5504-4c1f-9a44-0eef26b32d90",
@@ -59408,5 +59493,5 @@
       "videos": {}
     }
   ],
-  "version": "e170522e74ef94658de00e905da1ba67ad0320b3"
+  "version": "2795b68a7591aa6f5b9929a875387ba6b0c291b5"
 }
