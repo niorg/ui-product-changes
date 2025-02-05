@@ -26474,6 +26474,126 @@
     },
     {
       "guids": [
+        "407d8098-4358-51c4-9963-db99bbe2d7d8"
+      ],
+      "icon": {
+        "id": "246d5f10-800f-4204-9703-9337b0e30c19",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "e5868c5e-578a-dd54-d00b-cacde75cb54a",
+      "images": {
+        "default": "78b6e44cb03b7eabc9d39c1f4bb629e4",
+        "nopadding": "5617f60c67253d0055a6f649d19ad8d8",
+        "topology": "42938073bef1fde9afa9d4377f35d89a"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "U7 Pro XGS",
+        "name": "Access Point U7 Pro XGS"
+      },
+      "shortnames": [
+        "U7PROXGS",
+        "U7-Pro-XGS"
+      ],
+      "sku": "U7-Pro-XGS",
+      "sysid": "a6a4",
+      "sysids": [
+        "a6a4"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "r",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "features": {
+            "atfDisabled": true,
+            "ax": true,
+            "bandsteer": true,
+            "be": true,
+            "gen": 2
+          },
+          "minimumFirmwareRequired": "7.0.0",
+          "model": "UAPA6A4",
+          "numberOfPorts": 1,
+          "radios": {
+            "6e": {
+              "gain": 6,
+              "maxPower": 23,
+              "maxSpeedMegabitsPerSecond": 5765
+            },
+            "na": {
+              "gain": 6,
+              "maxPower": 29,
+              "maxSpeedMegabitsPerSecond": 8648
+            },
+            "ng": {
+              "gain": 4,
+              "maxPower": 23,
+              "maxSpeedMegabitsPerSecond": 688
+            }
+          },
+          "systemIdHexadecimal": "a6a4",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
         "8bc942cf-a66c-4967-bac4-e390e3d5ad88"
       ],
       "icon": {
@@ -34461,9 +34581,9 @@
         }
       },
       "videos": {
-        "mobile-intro": "28913169816cb280e4d66d7f468979de",
-        "mobile-setup-wizard-plugin": "acb932df8dbb0f4fabd286282178bfbd",
-        "mobile-setup-wizard-testing-connection": "7a11b3e5bc4c85e5025489d489088920"
+        "mobile-intro": "11995527a1ac78083e79e51657e94f11",
+        "mobile-setup-wizard-plugin": "48454be0c54006aa1ff8ef381982ae1a",
+        "mobile-setup-wizard-testing-connection": "adc74f25d5c7a3033ccdff080d1ce96f"
       }
     },
     {
@@ -35674,6 +35794,107 @@
           "numberOfPorts": 1,
           "radios": {},
           "systemIdHexadecimal": "e801",
+          "type": "udb"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "33dbd71a-7077-1084-c23b-0e5e26ce3ee2"
+      ],
+      "icon": {
+        "id": "60bb4ea3-0bba-f884-7e7b-ecf9f2c44f25",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "7e5ece13-1d0f-9104-57eb-0e2fce086c46",
+      "images": {
+        "default": "199989b44afec2b47e21fc8f30ae90a2",
+        "nopadding": "c7bd13ed4e9b076ac9e831ef2fea9fbb",
+        "topology": "b50be6cb08e9d51921e2933beca67204"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "UDB Pro Sector",
+        "name": "Device Bridge Pro Sector"
+      },
+      "shortnames": [
+        "UDB-Sector",
+        "UDBSECTOR",
+        "UDB-Pro-Sector",
+        "UDBPROSECTOR"
+      ],
+      "sku": "UDB-Pro-Sector",
+      "sysid": "e802",
+      "sysids": [
+        "e802"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "e",
+          "deviceCapabilities": [
+            "BUILDING_BRIDGE",
+            "BRIDGE",
+            "BRIDGE_PTMP",
+            "HAS_TEMPERATURE_SENSOR",
+            "HAS_CLIENTS"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "minimumFirmwareRequired": "0.0.0",
+          "model": "UDBE802",
+          "numberOfPorts": 1,
+          "radios": {},
+          "systemIdHexadecimal": "e802",
           "type": "udb"
         }
       },
@@ -37269,9 +37490,9 @@
         }
       },
       "videos": {
-        "mobile-intro": "703b6c547c7804003d8a9c1d9bb4f189",
-        "mobile-setup-wizard-plugin": "a6848c44d3bd7bc694d257dbae938565",
-        "mobile-setup-wizard-testing-connection": "390ff67e2aab0bade7a4db732bb0942d"
+        "mobile-intro": "0127da489d873fcb8be7a44a74d8162d",
+        "mobile-setup-wizard-plugin": "84fd960dc329a162d6ca37d91d25b833",
+        "mobile-setup-wizard-testing-connection": "ac4a57d188291ef1621683d881023d13"
       }
     },
     {
@@ -37786,8 +38007,8 @@
         }
       },
       "videos": {
-        "mobile-intro": "981eabe7fd223a80c2cac2dd5ff8b90d",
-        "mobile-setup-wizard-plugin": "68878be81edf31600c389cddc048dee3",
+        "mobile-intro": "a4a0e8ca06d35271618cf196f23eda88",
+        "mobile-setup-wizard-plugin": "2bda96531ba27b28cdc728e5a78363ee",
         "mobile-setup-wizard-testing-connection": "2619f6daa14adadb9a9d3db3cb2c329d"
       }
     },
@@ -59496,5 +59717,5 @@
       "videos": {}
     }
   ],
-  "version": "744156edf3abc7465e6dfe092671170864ebe238"
+  "version": "d3f091efd87f8f35123ab1fa4c21b95203611456"
 }
