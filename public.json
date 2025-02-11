@@ -7934,6 +7934,26 @@
       }
     },
     {
+      "compliance": {
+        "fcc": "SWX-ENVR",
+        "ic": "6545A-ENVR",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ENVR",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
+      "deviceType": "console",
       "guids": [
         "20bdb8ef-109f-4945-a335-cb92b6ae29e2"
       ],
@@ -41812,10 +41832,14 @@
       },
       "shortnames": [
         "UP-AI-SG",
-        "UP-AI-Key"
+        "UP-AI-Key",
+        "UP-AI-KEY"
       ],
       "sku": "UP-AI-Key",
-      "sysids": [],
+      "sysid": "a5f0",
+      "sysids": [
+        "a5f0"
+      ],
       "triplets": [],
       "videos": {}
     },
@@ -41994,7 +42018,7 @@
         "name": "UniFi Protect"
       },
       "product": {
-        "abbrev": "UP Chime",
+        "abbrev": "Chime",
         "name": "Protect WiFi Chime"
       },
       "shortnames": [
@@ -42081,7 +42105,7 @@
         "name": "UniFi Protect"
       },
       "product": {
-        "abbrev": "UP Chime PoE",
+        "abbrev": "Chime PoE",
         "name": "Chime PoE"
       },
       "shortnames": [
@@ -42177,7 +42201,7 @@
         "name": "UniFi Protect"
       },
       "product": {
-        "abbrev": "UP Door Lock",
+        "abbrev": "Door Lock",
         "name": "Protect Door Lock"
       },
       "shortnames": [
@@ -42284,7 +42308,7 @@
         "name": "UniFi Protect"
       },
       "product": {
-        "abbrev": "UP Floodlight",
+        "abbrev": "Floodlight",
         "name": "Protect Floodlight"
       },
       "shortnames": [
@@ -42402,7 +42426,7 @@
         "name": "UniFi Protect"
       },
       "product": {
-        "abbrev": "UP Sense",
+        "abbrev": "Sense",
         "name": "Protect Sensor"
       },
       "shortnames": [
@@ -42422,6 +42446,25 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-UPSL",
+        "ic": "6545A-UPSL",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UP-SuperLink",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "guids": [
         "2f98eb2d-7292-b5e4-abf3-427379d01cc5"
       ],
@@ -42485,8 +42528,8 @@
         "name": "UniFi Protect"
       },
       "product": {
-        "abbrev": "UP SuperLink",
-        "name": "Protect SuperLink"
+        "abbrev": "SuperLink Gateway",
+        "name": "SuperLink Gateway"
       },
       "shortnames": [
         "UP-SuperLink-EU",
@@ -42498,13 +42541,36 @@
       "sysids": [
         "ae91"
       ],
-      "triplets": [],
+      "triplets": [
+        {
+          "k1": "UP SuperLink EU"
+        }
+      ],
       "unifi": {
         "adoptability": "adoptable"
       },
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-UPSL",
+        "ic": "6545A-UPSL",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UP-SuperLink",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "guids": [
         "67817410-83d7-9fb4-40a3-b17ba899dda9"
       ],
@@ -42568,8 +42634,8 @@
         "name": "UniFi Protect"
       },
       "product": {
-        "abbrev": "UP SuperLink",
-        "name": "Protect SuperLink"
+        "abbrev": "SuperLink Gateway",
+        "name": "SuperLink Gateway"
       },
       "shortnames": [
         "UP-SuperLink-US",
@@ -42581,7 +42647,11 @@
       "sysids": [
         "ae90"
       ],
-      "triplets": [],
+      "triplets": [
+        {
+          "k1": "UP SuperLink US"
+        }
+      ],
       "unifi": {
         "adoptability": "adoptable"
       },
@@ -42657,7 +42727,7 @@
         "name": "Apollo"
       },
       "product": {
-        "abbrev": "UPL Amp B",
+        "abbrev": "UPL Amp",
         "name": "PowerAmp"
       },
       "shortnames": [
@@ -42738,7 +42808,7 @@
         "name": "Apollo"
       },
       "product": {
-        "abbrev": "UPL Amp W",
+        "abbrev": "UPL Amp",
         "name": "PowerAmp"
       },
       "shortnames": [
@@ -46914,7 +46984,7 @@
             "REDUNDANT_POWER",
             "SMART_POWER",
             "SWITCH",
-            "EXTERNAL_BATTERY"
+            "BATTERY_MANAGEMENT"
           ],
           "diagram": [
             "1"
@@ -49851,7 +49921,7 @@
             "ULTE",
             "BATTERY_POWER",
             "HAS_CLIENTS",
-            "EXTERNAL_BATTERY"
+            "BATTERY_MANAGEMENT"
           ],
           "diagram": [
             "01 02 03 04 05 06 07 08 _ 09"
@@ -52430,7 +52500,9 @@
       },
       "shortnames": [
         "UTP-G3-WALL",
-        "UTP-G3-Wall"
+        "UTP-G3-Wall",
+        "UTP-G3-TOUCH-WALL",
+        "UTP-G3-Touch-Wall"
       ],
       "sku": "UTP-G3-Wall",
       "sysid": "efba",
@@ -52441,6 +52513,10 @@
         {
           "k1": "UTP-G3-WALL",
           "k3": "UTP-G3-WALL"
+        },
+        {
+          "k1": "UTP-G3-TOUCH-WALL",
+          "k3": "UTP-G3-TOUCH-WALL"
         }
       ],
       "unifi": {
@@ -59717,5 +59793,5 @@
       "videos": {}
     }
   ],
-  "version": "d3f091efd87f8f35123ab1fa4c21b95203611456"
+  "version": "1224cb449ae5644dbc7149d52bc7c85fc25a50a2"
 }
