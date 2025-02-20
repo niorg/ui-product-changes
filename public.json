@@ -34382,6 +34382,13 @@
           "subtypes": [
             "ugw"
           ],
+          "switchPorts": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
           "systemIdHexadecimal": "a6a8",
           "type": "udm"
         }
@@ -34398,7 +34405,7 @@
         "userConfigured": "b243c5fd-a23d-4ce2-9b3a-1529329e1590"
       },
       "compliance": {
-        "cn": "2023AJ11705",
+        "anatel": "09004-24-08356",
         "fcc": "SWX-UCGM",
         "ic": "6545A-UCGM",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -34595,6 +34602,12 @@
           "subtypes": [
             "ugw",
             "usw"
+          ],
+          "switchPorts": [
+            1,
+            2,
+            3,
+            4
           ],
           "systemIdHexadecimal": "a69a",
           "type": "udm"
@@ -34805,6 +34818,12 @@
           "subtypes": [
             "ugw",
             "usw"
+          ],
+          "switchPorts": [
+            1,
+            2,
+            3,
+            4
           ],
           "systemIdHexadecimal": "a678",
           "type": "udm"
@@ -36754,6 +36773,16 @@
             "ugw",
             "usw"
           ],
+          "switchPorts": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
           "systemIdHexadecimal": "ea15",
           "type": "udm"
         }
@@ -37003,6 +37032,16 @@
           "subtypes": [
             "ugw",
             "usw"
+          ],
+          "switchPorts": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
           ],
           "systemIdHexadecimal": "ea32",
           "type": "udm"
@@ -37276,6 +37315,16 @@
           "subtypes": [
             "ugw",
             "usw"
+          ],
+          "switchPorts": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
           ],
           "systemIdHexadecimal": "ea2c",
           "type": "udm"
@@ -37726,6 +37775,12 @@
             "ugw",
             "usw"
           ],
+          "switchPorts": [
+            1,
+            2,
+            3,
+            4
+          ],
           "systemIdHexadecimal": "a67a",
           "type": "udm"
         }
@@ -38021,6 +38076,26 @@
             "ugw",
             "usw",
             "uap"
+          ],
+          "switchPorts": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            20
           ],
           "systemIdHexadecimal": "ea2a",
           "type": "udm"
@@ -41841,6 +41916,9 @@
         "a5f0"
       ],
       "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
       "videos": {}
     },
     {
@@ -51690,6 +51768,222 @@
       "videos": {}
     },
     {
+      "guids": [
+        "e4425f3d-afff-4f14-e8c3-1fef68423924"
+      ],
+      "icon": {
+        "id": "eb80353a-c490-4ab2-9392-d82fb9a0e97e",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "7fbef028-eaf4-4fad-8fee-71ed08b8e961",
+      "images": {
+        "default": "09ff02ec999057694e58c6df46beb81e",
+        "nopadding": "8e89968980d8f46cec3bfe8c82ef0d11",
+        "topology": "217043736eae5e9c57ec11bd658275b8"
+      },
+      "isARSupported": true,
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USW Pro XG 24 PoE",
+        "name": "Switch Pro XG 24 PoE"
+      },
+      "shortnames": [
+        "USWPXG24P"
+      ],
+      "sku": "USW-Pro-XG-24-PoE",
+      "sysid": "ed44",
+      "sysids": [
+        "ed44"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "p",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "diagram": [
+            "01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 __ 25 26"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 25000,
+          "features": {
+            "poe": true
+          },
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USWED44",
+          "numberOfPorts": 26,
+          "ports": {
+            "sfp28": [
+              25,
+              26
+            ],
+            "standard": 24
+          },
+          "radios": {},
+          "systemIdHexadecimal": "ed44",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "7f0c9e2d-5446-0514-20c3-22d199f98445"
+      ],
+      "icon": {
+        "id": "f4e4fdf7-7758-4eb1-a5d0-4fa4d5ec49cb",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "3b55a55e-8193-460a-ace3-4e4eedc816a1",
+      "images": {
+        "default": "f11dacb92ebdc80c8f76e70445992fd8",
+        "nopadding": "3588441446a6e6356ef498e12f3ff680",
+        "topology": "348d7e69108d5a3adbabc70ba64ac89e"
+      },
+      "isARSupported": true,
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USW Pro XG 48 PoE",
+        "name": "Switch Pro XG 48 PoE"
+      },
+      "shortnames": [
+        "USWPXG48P"
+      ],
+      "sku": "USW-Pro-XG-48-PoE",
+      "sysid": "ed42",
+      "sysids": [
+        "ed42"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "p",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "diagram": [
+            "01 03 05 07 09 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 __ 49 51",
+            "02 04 06 08 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 __ 50 52"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 25000,
+          "features": {
+            "poe": true
+          },
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USWED42",
+          "numberOfPorts": 52,
+          "ports": {
+            "sfp28": "49-52",
+            "standard": 48
+          },
+          "radios": {},
+          "systemIdHexadecimal": "ed42",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "anatel": "06367-24-08356",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -55374,6 +55668,105 @@
           ]
         }
       },
+      "guids": [
+        "b61c595f-60fa-43ec-8abe-7a4e281dc0e3"
+      ],
+      "icon": {
+        "id": "7a0c2a5f-0b68-464b-aa2f-4f54e58bc563",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "56f0bda0-de83-4b93-a36c-2d62de443ebf",
+      "images": {
+        "default": "5bfd75c351398353ddc12160f27daf54",
+        "nopadding": "1f9847ce927145353344c5a47e04fc55",
+        "topology": "89bc462266d4ba7b5478ee1cdc31c03c"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "G4 Doorbell Pro PoE",
+        "name": "G4 Doorbell Pro PoE"
+      },
+      "shortnames": [
+        "UVC-G4-Doorbell-Pro-PoE-White",
+        "UVC G4 Doorbell Pro PoE White"
+      ],
+      "sku": "UVC-G4-Doorbell-Pro-PoE",
+      "sysids": [],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "fcc": "SWX-UVCG4DPP",
+        "ic": "6545A-UVCG4DPP",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UVC-G4 Doorbell Pro PoE",
+        "ncc": "CCAH23LPC630T1",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "camera",
       "guids": [
         "3608354e-bf8b-4624-ba94-76197c144ae4"
@@ -55455,85 +55848,6 @@
           "k1": "UVC G4 Doorbell Pro PoE"
         }
       ],
-      "unifi": {
-        "adoptability": "adoptable"
-      },
-      "videos": {}
-    },
-    {
-      "guids": [
-        "b61c595f-60fa-43ec-8abe-7a4e281dc0e3"
-      ],
-      "icon": {
-        "id": "7a0c2a5f-0b68-464b-aa2f-4f54e58bc563",
-        "resolutions": [
-          [
-            25,
-            25
-          ],
-          [
-            32,
-            32
-          ],
-          [
-            51,
-            51
-          ],
-          [
-            64,
-            64
-          ],
-          [
-            101,
-            101
-          ],
-          [
-            128,
-            128
-          ],
-          [
-            129,
-            129
-          ],
-          [
-            256,
-            256
-          ],
-          [
-            257,
-            257
-          ],
-          [
-            512,
-            512
-          ],
-          [
-            1000,
-            1000
-          ]
-        ]
-      },
-      "id": "56f0bda0-de83-4b93-a36c-2d62de443ebf",
-      "images": {
-        "default": "5bfd75c351398353ddc12160f27daf54",
-        "nopadding": "1f9847ce927145353344c5a47e04fc55",
-        "topology": "89bc462266d4ba7b5478ee1cdc31c03c"
-      },
-      "line": {
-        "id": "unifi-protect",
-        "name": "UniFi Protect"
-      },
-      "product": {
-        "abbrev": "G4 Doorbell Pro PoE",
-        "name": "G4 Doorbell Pro PoE"
-      },
-      "shortnames": [
-        "UVC-G4-Doorbell-Pro-PoE-White",
-        "UVC G4 Doorbell Pro PoE White"
-      ],
-      "sku": "UVC-G4-Doorbell-Pro-PoE-White",
-      "sysids": [],
-      "triplets": [],
       "unifi": {
         "adoptability": "adoptable"
       },
@@ -58519,6 +58833,13 @@
           "subtypes": [
             "ugw"
           ],
+          "switchPorts": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
           "systemIdHexadecimal": "a6aa",
           "type": "uxg"
         }
@@ -58893,6 +59214,12 @@
           "radios": {},
           "subtypes": [
             "ugw"
+          ],
+          "switchPorts": [
+            1,
+            2,
+            3,
+            4
           ],
           "systemIdHexadecimal": "a690",
           "type": "uxg"
@@ -59793,5 +60120,5 @@
       "videos": {}
     }
   ],
-  "version": "1224cb449ae5644dbc7149d52bc7c85fc25a50a2"
+  "version": "763757b729c625517ce167c54ba8a1d5a3474ba5"
 }
