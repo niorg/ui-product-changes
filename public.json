@@ -27520,6 +27520,81 @@
       "videos": {}
     },
     {
+      "guids": [
+        "3a0bc509-870e-4508-889f-34e5f62e9b2b"
+      ],
+      "icon": {
+        "id": "74cfa993-9a11-4b9c-b587-eb90ce4fcc55",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "c175b3b4-6f20-4667-ad77-84505d833415",
+      "images": {
+        "default": "4f41f6bd08b141cb45fad4c2e459f78a",
+        "nopadding": "ef9e0cf4c75839b697ec17ae571562c3",
+        "topology": "f0b695bb9560f47f5e579b0ab4c54d3f"
+      },
+      "line": {
+        "id": "unifi-access",
+        "name": "UniFi Access"
+      },
+      "product": {
+        "abbrev": "UA G3 Intercom",
+        "name": "G3 Intercom"
+      },
+      "shortnames": [
+        "UA-G3-Intercom"
+      ],
+      "sku": "UA-G3-Intercom",
+      "sysids": [],
+      "triplets": [],
+      "videos": {}
+    },
+    {
       "compliance": {
         "fcc": "SWX-UAG3P",
         "ic": "6545A-UAG3P",
@@ -34244,7 +34319,8 @@
       },
       "shortnames": [
         "UCG-Fiber",
-        "UCGF"
+        "UCGF",
+        "UCGFIBER"
       ],
       "sku": "UCG-Fiber",
       "sysid": "a6a8",
@@ -37787,8 +37863,8 @@
       },
       "videos": {
         "mobile-intro": "4e38106eaef6b7f83a21ae15a6360b93",
-        "mobile-setup-wizard-plugin": "81b14b5b02e09a31bc7f23af388e2857",
-        "mobile-setup-wizard-testing-connection": "a1f84740c54eeb1742c2b3986c0fa549"
+        "mobile-setup-wizard-plugin": "ba8c9872ee31472f5cd5b5d717dbbc14",
+        "mobile-setup-wizard-testing-connection": "3fcd99f9b6e665834a52a9d7c3c03860"
       }
     },
     {
@@ -41742,85 +41818,6 @@
           "type": "unvr"
         }
       },
-      "videos": {}
-    },
-    {
-      "deviceType": "network-server-host",
-      "guids": [
-        "b4d704d3-9ced-45a4-9c18-14576eec12d4"
-      ],
-      "icon": {
-        "id": "9a3f6402-debb-4843-9134-8db21c07c5f2",
-        "resolutions": [
-          [
-            25,
-            25
-          ],
-          [
-            32,
-            32
-          ],
-          [
-            51,
-            51
-          ],
-          [
-            64,
-            64
-          ],
-          [
-            101,
-            101
-          ],
-          [
-            128,
-            128
-          ],
-          [
-            129,
-            129
-          ],
-          [
-            256,
-            256
-          ],
-          [
-            257,
-            257
-          ],
-          [
-            512,
-            512
-          ],
-          [
-            1000,
-            1000
-          ]
-        ]
-      },
-      "id": "c4999318-a197-4651-8d03-0975cf5240d3",
-      "images": {
-        "default": "80ff7b60652a1261f8c32e4a868274ce",
-        "nopadding": "d4dda2af9aed1904a7785d2dbffe8776",
-        "topology": "bd88f2d1f257e7b3dd17b14a8c60c361"
-      },
-      "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
-      },
-      "product": {
-        "abbrev": "UOS Server",
-        "name": "UOS Server"
-      },
-      "shortnames": [
-        "UOSSERVER"
-      ],
-      "sku": "UOSSERVER",
-      "sysid": "ae01",
-      "sysids": [
-        "ae01"
-      ],
-      "triplets": [],
       "videos": {}
     },
     {
@@ -55312,6 +55309,296 @@
     },
     {
       "compliance": {
+        "fcc": "SWX-UVCG4DPP",
+        "ic": "6545A-UVCG4DPP",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UVC-G4 Doorbell Pro PoE",
+        "ncc": "CCAH23LPC630T1",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
+      "guids": [
+        "b61c595f-60fa-43ec-8abe-7a4e281dc0e3"
+      ],
+      "icon": {
+        "id": "7a0c2a5f-0b68-464b-aa2f-4f54e58bc563",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "56f0bda0-de83-4b93-a36c-2d62de443ebf",
+      "images": {
+        "default": "5bfd75c351398353ddc12160f27daf54",
+        "nopadding": "1f9847ce927145353344c5a47e04fc55",
+        "topology": "89bc462266d4ba7b5478ee1cdc31c03c"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "G4 Doorbell Pro PoE",
+        "name": "G4 Doorbell Pro PoE"
+      },
+      "shortnames": [
+        "UVC-G4-Doorbell-Pro-PoE-White",
+        "UVC G4 Doorbell Pro PoE White"
+      ],
+      "sku": "UVC-G4 Doorbell Pro PoE",
+      "sysids": [],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "fcc": "SWX-UVCG4DPP",
+        "ic": "6545A-UVCG4DPP",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UVC-G4 Doorbell Pro PoE",
+        "ncc": "CCAH23LPC630T1",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
+      "deviceType": "camera",
+      "guids": [
+        "3608354e-bf8b-4624-ba94-76197c144ae4"
+      ],
+      "icon": {
+        "id": "4080886f-4d9e-4071-8552-a893097999e2",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "ea1ad15d-c3eb-45c2-8a0d-ee63d17ba6b1",
+      "images": {
+        "default": "298d093c5dfc47b9831a21cbb7e95678",
+        "nopadding": "0039a7bb182a437b58e35ad209b3e0c5",
+        "topology": "cc1bff192a06a7484249ff12956a5377"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "G4 Doorbell Pro PoE",
+        "name": "G4 Doorbell Pro PoE"
+      },
+      "shortnames": [
+        "UVC G4 Doorbell Pro PoE",
+        "UVC-G4-Doorbell-Pro-PoE"
+      ],
+      "sku": "UVC-G4 Doorbell Pro PoE",
+      "sysid": "a575",
+      "sysids": [
+        "a575"
+      ],
+      "triplets": [
+        {
+          "k1": "UVC G4 Doorbell Pro PoE"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "btle": {
+        "factoryDefault": "cbb4914d-c748-47e6-bae2-dc2e847443fd",
+        "userConfigured": "79fdd0a1-30a4-48f3-9ad2-3fc155e2ba15"
+      },
+      "guids": [
+        "cbb4914d-c748-47e6-bae2-dc2e847443fd",
+        "79fdd0a1-30a4-48f3-9ad2-3fc155e2ba15"
+      ],
+      "icon": {
+        "id": "240ad016-e0c9-4377-8a0e-d09c563ab89a",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "735b0130-c17e-4cbf-9261-c2293516a961",
+      "images": {
+        "default": "a48ccc8a51988a6f12a32d49202ed1b7",
+        "nopadding": "08930b423b99af4bd89538089a0c4cf9",
+        "topology": "7adeaa103347e15187c0b6945b6e443a"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "G4 Doorbell Pro",
+        "name": "G4 Doorbell Pro"
+      },
+      "shortnames": [
+        "UVC-G4-Doorbell-Pro-White",
+        "UVC G4 Doorbell Pro White"
+      ],
+      "sku": "UVC-G4 Doorbell Pro White",
+      "sysids": [],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "UVC-G4-Bullet",
         "rcm": true,
@@ -55644,296 +55931,6 @@
           "fov": 160,
           "suggestedDistance": 6.5
         }
-      },
-      "videos": {}
-    },
-    {
-      "compliance": {
-        "fcc": "SWX-UVCG4DPP",
-        "ic": "6545A-UVCG4DPP",
-        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
-        "modelName": "UVC-G4 Doorbell Pro PoE",
-        "ncc": "CCAH23LPC630T1",
-        "rcm": true,
-        "rfCmFcc": 20,
-        "rfCmIc": 20,
-        "text": {
-          "CA": [
-            "IC",
-            "RF"
-          ],
-          "US": [
-            "FCC_B",
-            "RF"
-          ]
-        }
-      },
-      "guids": [
-        "b61c595f-60fa-43ec-8abe-7a4e281dc0e3"
-      ],
-      "icon": {
-        "id": "7a0c2a5f-0b68-464b-aa2f-4f54e58bc563",
-        "resolutions": [
-          [
-            25,
-            25
-          ],
-          [
-            32,
-            32
-          ],
-          [
-            51,
-            51
-          ],
-          [
-            64,
-            64
-          ],
-          [
-            101,
-            101
-          ],
-          [
-            128,
-            128
-          ],
-          [
-            129,
-            129
-          ],
-          [
-            256,
-            256
-          ],
-          [
-            257,
-            257
-          ],
-          [
-            512,
-            512
-          ],
-          [
-            1000,
-            1000
-          ]
-        ]
-      },
-      "id": "56f0bda0-de83-4b93-a36c-2d62de443ebf",
-      "images": {
-        "default": "5bfd75c351398353ddc12160f27daf54",
-        "nopadding": "1f9847ce927145353344c5a47e04fc55",
-        "topology": "89bc462266d4ba7b5478ee1cdc31c03c"
-      },
-      "line": {
-        "id": "unifi-protect",
-        "name": "UniFi Protect"
-      },
-      "product": {
-        "abbrev": "G4 Doorbell Pro PoE",
-        "name": "G4 Doorbell Pro PoE"
-      },
-      "shortnames": [
-        "UVC-G4-Doorbell-Pro-PoE-White",
-        "UVC G4 Doorbell Pro PoE White"
-      ],
-      "sku": "UVC-G4-Doorbell-Pro-PoE",
-      "sysids": [],
-      "triplets": [],
-      "unifi": {
-        "adoptability": "adoptable"
-      },
-      "videos": {}
-    },
-    {
-      "compliance": {
-        "fcc": "SWX-UVCG4DPP",
-        "ic": "6545A-UVCG4DPP",
-        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
-        "modelName": "UVC-G4 Doorbell Pro PoE",
-        "ncc": "CCAH23LPC630T1",
-        "rcm": true,
-        "rfCmFcc": 20,
-        "rfCmIc": 20,
-        "text": {
-          "CA": [
-            "IC",
-            "RF"
-          ],
-          "US": [
-            "FCC_B",
-            "RF"
-          ]
-        }
-      },
-      "deviceType": "camera",
-      "guids": [
-        "3608354e-bf8b-4624-ba94-76197c144ae4"
-      ],
-      "icon": {
-        "id": "4080886f-4d9e-4071-8552-a893097999e2",
-        "resolutions": [
-          [
-            25,
-            25
-          ],
-          [
-            32,
-            32
-          ],
-          [
-            51,
-            51
-          ],
-          [
-            64,
-            64
-          ],
-          [
-            101,
-            101
-          ],
-          [
-            128,
-            128
-          ],
-          [
-            129,
-            129
-          ],
-          [
-            256,
-            256
-          ],
-          [
-            257,
-            257
-          ],
-          [
-            512,
-            512
-          ],
-          [
-            1000,
-            1000
-          ]
-        ]
-      },
-      "id": "ea1ad15d-c3eb-45c2-8a0d-ee63d17ba6b1",
-      "images": {
-        "default": "298d093c5dfc47b9831a21cbb7e95678",
-        "nopadding": "0039a7bb182a437b58e35ad209b3e0c5",
-        "topology": "cc1bff192a06a7484249ff12956a5377"
-      },
-      "line": {
-        "id": "unifi-protect",
-        "name": "UniFi Protect"
-      },
-      "product": {
-        "abbrev": "G4 Doorbell Pro PoE",
-        "name": "G4 Doorbell Pro PoE"
-      },
-      "shortnames": [
-        "UVC G4 Doorbell Pro PoE",
-        "UVC-G4-Doorbell-Pro-PoE"
-      ],
-      "sku": "UVC-G4-Doorbell-Pro-PoE",
-      "sysid": "a575",
-      "sysids": [
-        "a575"
-      ],
-      "triplets": [
-        {
-          "k1": "UVC G4 Doorbell Pro PoE"
-        }
-      ],
-      "unifi": {
-        "adoptability": "adoptable"
-      },
-      "videos": {}
-    },
-    {
-      "btle": {
-        "factoryDefault": "cbb4914d-c748-47e6-bae2-dc2e847443fd",
-        "userConfigured": "79fdd0a1-30a4-48f3-9ad2-3fc155e2ba15"
-      },
-      "guids": [
-        "cbb4914d-c748-47e6-bae2-dc2e847443fd",
-        "79fdd0a1-30a4-48f3-9ad2-3fc155e2ba15"
-      ],
-      "icon": {
-        "id": "240ad016-e0c9-4377-8a0e-d09c563ab89a",
-        "resolutions": [
-          [
-            25,
-            25
-          ],
-          [
-            32,
-            32
-          ],
-          [
-            51,
-            51
-          ],
-          [
-            64,
-            64
-          ],
-          [
-            101,
-            101
-          ],
-          [
-            128,
-            128
-          ],
-          [
-            129,
-            129
-          ],
-          [
-            256,
-            256
-          ],
-          [
-            257,
-            257
-          ],
-          [
-            512,
-            512
-          ],
-          [
-            1000,
-            1000
-          ]
-        ]
-      },
-      "id": "735b0130-c17e-4cbf-9261-c2293516a961",
-      "images": {
-        "default": "a48ccc8a51988a6f12a32d49202ed1b7",
-        "nopadding": "08930b423b99af4bd89538089a0c4cf9",
-        "topology": "7adeaa103347e15187c0b6945b6e443a"
-      },
-      "line": {
-        "id": "unifi-protect",
-        "name": "UniFi Protect"
-      },
-      "product": {
-        "abbrev": "G4 Doorbell Pro",
-        "name": "G4 Doorbell Pro"
-      },
-      "shortnames": [
-        "UVC-G4-Doorbell-Pro-White",
-        "UVC G4 Doorbell Pro White"
-      ],
-      "sku": "UVC-G4-Doorbell-Pro-White",
-      "sysids": [],
-      "triplets": [],
-      "unifi": {
-        "adoptability": "adoptable"
       },
       "videos": {}
     },
@@ -60120,5 +60117,5 @@
       "videos": {}
     }
   ],
-  "version": "763757b729c625517ce167c54ba8a1d5a3474ba5"
+  "version": "2973265918f04ac41a4d833cfa0dbf4275aad29a"
 }
