@@ -1,0 +1,35 @@
+name: Update Ubiquiti product json
+
+on:
+  schedule:
+    - cron: '5 */4 * * *' 
+  workflow_dispatch:
+
+jobs:
+  update-file:
+    runs-on: ubuntu-24.04
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+    - name: Download and process json file
+      run: |
+        curl -fsSL -R https://static.ui.com/fingerprint/ui/public.json | jq . > public.json
+
+    - name: Check if file has changed
+      id: file_changed
+      run: |
+        if [[ $(git status --porcelain) ]]; then
+          echo "file_changed=true" >> $GITHUB_ENV
+        else
+          echo "file_changed=false" >> $GITHUB_ENV
+        fi
+
+    - name: Commit and push changes
+      if: env.file_changed == 'true'
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git commit -am "Updated downloaded file"
+        git push
