@@ -36,3 +36,17 @@ jobs:
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git commit -am "Updated downloaded file"
         git push
+
+    - name: checkout gh-pages branch
+      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2    .2
+      with:
+        ref: gh-pages
+        path: gh-pages
+
+    - name: Generate html and download images
+      if: env.file_changed == 'true'
+      working-directory: gh-pages
+      run: |
+        python ../generate_html.py
+        git commit -am "updated product html and images"
+        git push 
