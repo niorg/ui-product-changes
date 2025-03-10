@@ -17,7 +17,7 @@ concurrency:
 jobs:
   update-product-json:
     runs-on: ubuntu-24.04
-
+    outputs: ${{ steps.file_changed.outputs.file_changed }}
     steps:
     - name: Checkout repository
       uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
@@ -43,9 +43,16 @@ jobs:
         git commit -am "Updated downloaded file"
         git push
 
+  generate-static-content:
+    runs-on: ubuntu-24.04
+    needs: update-product-json
+    if: ${{ needs.update-product-json.outputs.file_changed == 'true' }}
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
     - name: Generate html and download images
       if: env.file_changed == 'true'
-      working-directory: gh-pages
       run: |
         python generate_html.py
  
