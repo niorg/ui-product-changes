@@ -31,13 +31,13 @@ jobs:
       id: file_changed
       run: |
         if [[ $(git status --porcelain) ]]; then
-          echo "file_changed=true" >> $GITHUB_ENV
+          echo "file_changed=true" >> $GITHUB_OUTPUT
         else
-          echo "file_changed=false" >> $GITHUB_ENV
+          echo "file_changed=false" >> $GITHUB_OUTPUT
         fi
 
     - name: Commit and push changes
-      if: env.file_changed == 'true'
+      if: steps.file_changed.outputs.file_changed == 'true'
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
