@@ -5,8 +5,11 @@ on:
     - cron: '5 */4 * * *' 
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  update-file:
+  update-product-json:
     runs-on: ubuntu-24.04
 
     steps:
