@@ -28690,7 +28690,7 @@
         "fcc": "SWX-UAU",
         "ic": "6545A-UAU",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
-        "jnfc": "第AC-24141号",
+        "jnfc": "AC-24141",
         "jrf": [
           "020-240359"
         ],
@@ -60547,5 +60547,5 @@
       "videos": {}
     }
   ],
-  "version": "4b24ee7c03a36f58373a35f9aae56a91a0a33b54"
+  "version": "c46996351ca231585c1f64e6be44b3cf23bea99b"
 }
