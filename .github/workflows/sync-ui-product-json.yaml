@@ -36,6 +36,11 @@ jobs:
           echo "file_changed=false" >> $GITHUB_OUTPUT
         fi
 
+    - name: Generate RSS feed
+      if: steps.file_changed.outputs.file_changed == 'true'
+      run: |
+        python generate_feed.py
+
     - name: Commit and push changes
       if: steps.file_changed.outputs.file_changed == 'true'
       run: |
