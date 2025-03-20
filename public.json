@@ -34254,6 +34254,25 @@
         "factoryDefault": "4864277a-ad9e-4aed-97ab-8be24aa8798c",
         "userConfigured": "d809a963-062e-4cd8-907c-b690a6d6ace4"
       },
+      "compliance": {
+        "fcc": "SWX-UCGF",
+        "ic": "6545A-UCGF",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UCG-Fiber",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "console",
       "guids": [
         "03be8e6b-e8e0-2304-ff03-1f4baf6023d9",
@@ -34352,7 +34371,8 @@
             "SWITCH",
             "CONTROLLER",
             "APPLICATION_MODE",
-            "HAS_CLIENTS"
+            "HAS_CLIENTS",
+            "TRAFFIC_FLOWS_ALLOWED_TRAFFIC"
           ],
           "diagram": [
             "01 02 03 04 05 06 07"
@@ -34461,6 +34481,13 @@
             "plus": [
               6,
               7
+            ],
+            "standard": [
+              1,
+              2,
+              3,
+              4,
+              5
             ]
           },
           "radios": {},
@@ -34623,7 +34650,8 @@
             "PROTECT_APPLICATION",
             "CONTROLLER",
             "APPLICATION_MODE",
-            "HAS_CLIENTS"
+            "HAS_CLIENTS",
+            "TRAFFIC_FLOWS_ALLOWED_TRAFFIC"
           ],
           "diagram": [
             "05 04 03 02 01"
@@ -36760,6 +36788,7 @@
             "CONTROLLER",
             "APPLICATION_MODE",
             "HAS_CLIENTS",
+            "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
             "SD_WAN_HUB"
           ],
           "diagram": [
@@ -57761,9 +57790,9 @@
       },
       "id": "ac425d6d-a744-daa4-6413-a3d9050463bd",
       "images": {
-        "default": "a321ec405862834175d775443f720f96",
-        "nopadding": "52ed86b1975fb0a60b941e4c2cc19d7a",
-        "topology": "bbe748a1470fa410fedbbd5adb35cd2b"
+        "default": "f4ee868282e91bd43bcfd8157123439a",
+        "nopadding": "860be8af90d557a657f6244940c13f55",
+        "topology": "5830f206f9e965aaa99db27531c0594b"
       },
       "jrf": [],
       "line": {
@@ -59485,6 +59514,13 @@
             "plus": [
               6,
               7
+            ],
+            "standard": [
+              1,
+              2,
+              3,
+              4,
+              5
             ]
           },
           "radios": {},
@@ -60779,5 +60815,5 @@
       "videos": {}
     }
   ],
-  "version": "1db62a5141dadecf03cce08eb169f162ff4e6631"
+  "version": "19f232d477174c787765b42ca6ef862cc4f377bb"
 }
