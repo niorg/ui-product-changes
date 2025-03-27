@@ -3,32 +3,32 @@ import os
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
-# Path to the local JSON file
+# Paths to the local JSON file
 local_json_path = 'public.json'
 
 # Paths for saved product IDs and the RSS feed
 saved_products_path = 'rss/saved_products/saved_products.json'
 rss_feed_path = 'rss/product_feed.xml'
 
+# Load previously saved product IDs with their first discovery date
+saved_products = {}
+if os.path.exists(saved_products_path):
+    with open(saved_products_path, 'r') as file:
+        saved_products = json.load(file)
+
 # Load the current JSON data from the local file
 with open(local_json_path, 'r') as file:
     data = json.load(file)
 
-# Extract product IDs and details from the current data and add a discovery date if they are new
+# Current timestamp
 current_time = datetime.now().strftime('%a, %d %b %Y %H:%M:%S GMT')
-current_products = {
-    product['id']: {
-        **product,
-        'first_discovered': current_time if product['id'] not in saved_products else saved_products[product['id']]['first_discovered']
-    } for product in data['devices']
-}
 
-# Load previously saved product IDs with their first discovery date
-if os.path.exists(saved_products_path):
-    with open(saved_products_path, 'r') as file:
-        saved_products = json.load(file)
-else:
-    saved_products = {}
+# Extract product IDs and details from the current data
+current_products = {}
+for product in data['devices']:
+    product_id = product['id']
+    first_discovered = saved_products.get(product_id, {}).get('first_discovered', current_time)
+    current_products[product_id] = {**product, 'first_discovered': first_discovered}
 
 # Merge new details back into saved products
 updated_saved_products = {**saved_products, **current_products}
