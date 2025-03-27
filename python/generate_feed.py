@@ -55,9 +55,9 @@ for product_id, product in recent_products.items():
     
     # Build a description with product details excluding 'icon' and 'images'
     relevant_details = {k: v for k, v in product.items() if k not in ['icon', 'images']}
-    description_text = f"{product['product']['name']} ({product['sku']})\n"
+    description_text = f"{product['product']['name']} ({product['sku']})<br />"
     for key, value in relevant_details.items():
-        description_text += f"{key}: {value}\n"
+        description_text += f"{key}: {value}<br />"
     
     ET.SubElement(item, 'description').text = description_text.strip()
     
