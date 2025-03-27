@@ -82,7 +82,7 @@ jobs:
 
     - name: Generate html and download images
       run: |
-        python generate_html.py
+        python python/generate_html.py
  
     - name: Download feed
       uses: actions/download-artifact@95815c38cf2ff2164869cbab79da8d1f422bc89e # v4.2.1
