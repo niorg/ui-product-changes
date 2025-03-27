@@ -88,6 +88,7 @@ jobs:
       uses: actions/download-artifact@95815c38cf2ff2164869cbab79da8d1f422bc89e # v4.2.1
       with:
         name: updated_feed_rss
+        path: rss
 
     - name: Setup Pages
       uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0
