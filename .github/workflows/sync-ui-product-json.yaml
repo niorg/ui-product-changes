@@ -74,7 +74,7 @@ jobs:
 
   generate-static-content:
     runs-on: ubuntu-24.04
-    needs: [update-product-json, generate_rss_feed]
+    needs: [update-product-json, generate-rss-feed]
     if: ${{ needs.update-product-json.outputs.file_changed == 'true' }}
     steps:
     - name: Checkout repository
