@@ -7,8 +7,8 @@ from datetime import datetime
 local_json_path = 'public.json'
 
 # Paths for saved product IDs and the RSS feed
-saved_products_path = 'saved_products.json'
-rss_feed_path = 'product_feed.xml'
+saved_products_path = 'rss/saved_products/saved_products.json'
+rss_feed_path = 'rss/product_feed.xml'
 
 # Load the current JSON data from the local file
 with open(local_json_path, 'r') as file:

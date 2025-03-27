@@ -36,13 +36,36 @@ jobs:
           echo "file_changed=false" >> $GITHUB_OUTPUT
         fi
 
+    - name: Upload public.json
+      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+      with:
+        name: updated_public_json
+        path: public.json
+
+  generate-rss-feed:
+    runs-on: ubuntu-24.04
+    needs: update-product-json
+    if: ${{ needs.update-product-json.outputs.file_changed == 'true' }}
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+    - name: Download public.json from update job
+      uses: actions/download-artifact@95815c38cf2ff2164869cbab79da8d1f422bc89e # v4.2.1
+      with:
+        name: updated_public_json
+
     - name: Generate RSS feed
-      if: steps.file_changed.outputs.file_changed == 'true'
       run: |
-        python generate_feed.py
+        python python/generate_feed.py
+
+    - name: Upload feed
+      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+      with:
+        name: updated_feed_rss
+        path: rss/product_feed.xml
 
     - name: Commit and push changes
-      if: steps.file_changed.outputs.file_changed == 'true'
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -61,6 +84,11 @@ jobs:
       run: |
         python generate_html.py
  
+    - name: Download feed
+      uses: actions/download-artifact@95815c38cf2ff2164869cbab79da8d1f422bc89e # v4.2.1
+      with:
+        name: updated_feed_rss
+
     - name: Setup Pages
       uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0
 
