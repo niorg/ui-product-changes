@@ -3,6 +3,9 @@ import os
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
+# Register the 'media' namespace
+ET.register_namespace('media', 'http://search.yahoo.com/mrss/')
+
 # Paths to the local JSON file
 local_json_path = 'public.json'
 
@@ -49,13 +52,21 @@ for product_id, product in recent_products.items():
     item = ET.SubElement(channel, 'item')
     ET.SubElement(item, 'title').text = product['product']['name']
     ET.SubElement(item, 'link').text = f"https://static.ui.com/fingerprint/ui/images/{product_id}/default/{product['images']['default']}.png"
-    ET.SubElement(item, 'description').text = f"{product['product']['name']} ({product['sku']})"
+    
+    # Build a description with product details excluding 'icon' and 'images'
+    relevant_details = {k: v for k, v in product.items() if k not in ['icon', 'images']}
+    description_text = f"{product['product']['name']} ({product['sku']})\n"
+    for key, value in relevant_details.items():
+        description_text += f"{key}: {value}\n"
+    
+    ET.SubElement(item, 'description').text = description_text.strip()
+    
     guid = ET.SubElement(item, 'guid', isPermaLink="false")
     guid.text = product_id
     ET.SubElement(item, 'pubDate').text = product['first_discovered']
 
-    # Add image as enclosure
-    ET.SubElement(item, 'enclosure', url=f"https://static.ui.com/fingerprint/ui/images/{product_id}/default/{product['images']['default']}.png", type="image/png")
+    # Add image as media:content
+    ET.SubElement(item, '{http://search.yahoo.com/mrss/}content', url=f"https://static.ui.com/fingerprint/ui/images/{product_id}/default/{product['images']['default']}.png", medium="image", type="image/png", width="150", height="150")
 
 # Write RSS feed to file
 tree = ET.ElementTree(rss)
