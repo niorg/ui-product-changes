@@ -34,7 +34,7 @@ if new_products:
     ET.SubElement(channel, 'title').text = 'New Ubiquiti Products'
     ET.SubElement(channel, 'link').text = 'https://static.ui.com/fingerprint/ui/'
     ET.SubElement(channel, 'description').text = 'Latest additions to the Ubiquiti product line.'
-    ET.SubElement(channel, 'lastBuildDate').text = datetime.now().strftime('%a, %d %b %Y %H:%M:%S %z')
+    ET.SubElement(channel, 'lastBuildDate').text = datetime.now().strftime('%a, %d %b %Y %H:%M:%S %Z')
     
     for product_id, product in new_products.items():
         item = ET.SubElement(channel, 'item')
@@ -42,7 +42,7 @@ if new_products:
         ET.SubElement(item, 'link').text = f"https://static.ui.com/fingerprint/ui/images/{product_id}/default/{product['images']['default']}.png"
         ET.SubElement(item, 'description').text = f"{product['product']['name']} ({product['sku']})"
         ET.SubElement(item, 'guid').text = product_id
-        ET.SubElement(item, 'pubDate').text = datetime.now().strftime('%a, %d %b %Y %H:%M:%S %z')
+        ET.SubElement(item, 'pubDate').text = datetime.now().strftime('%a, %d %b %Y %H:%M:%S %Z')
 
     # Write RSS feed to file
     tree = ET.ElementTree(rss)
