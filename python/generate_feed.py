@@ -27,32 +27,38 @@ else:
 # Determine new products that are not in the saved list
 new_products = {product_id: details for product_id, details in current_products.items() if product_id not in saved_products}
 
-if new_products:
-    # Generate the RSS feed
-    rss = ET.Element('rss', version='2.0')
-    channel = ET.SubElement(rss, 'channel')
-    ET.SubElement(channel, 'title').text = 'New Ubiquiti Products'
-    ET.SubElement(channel, 'link').text = 'https://static.ui.com/fingerprint/ui/'
-    ET.SubElement(channel, 'description').text = 'Latest additions to the Ubiquiti product line.'
-    ET.SubElement(channel, 'lastBuildDate').text = datetime.now().strftime('%a, %d %b %Y %H:%M:%S %Z')
-    
-    for product_id, product in new_products.items():
-        item = ET.SubElement(channel, 'item')
-        ET.SubElement(item, 'title').text = product['product']['name']
-        ET.SubElement(item, 'link').text = f"https://static.ui.com/fingerprint/ui/images/{product_id}/default/{product['images']['default']}.png"
-        ET.SubElement(item, 'description').text = f"{product['product']['name']} ({product['sku']})"
-        ET.SubElement(item, 'guid').text = product_id
-        ET.SubElement(item, 'pubDate').text = datetime.now().strftime('%a, %d %b %Y %H:%M:%S %Z')
+# Update the saved products list with new products keeping only the 30 most recent
+all_products = {**saved_products, **new_products}
+recent_products = dict(list(all_products.items())[-30:])  # Keep only the last 30 products
 
-    # Write RSS feed to file
-    tree = ET.ElementTree(rss)
-    with open(rss_feed_path, 'wb') as file:
-        tree.write(file, encoding='utf-8', xml_declaration=True)
-    
-    print("RSS feed created with new products.")
+# Generate the RSS feed
+rss = ET.Element('rss', version='2.0')
+channel = ET.SubElement(rss, 'channel')
+ET.SubElement(channel, 'title').text = 'New Ubiquiti Products'
+ET.SubElement(channel, 'link').text = 'https://static.ui.com/fingerprint/ui/'
+ET.SubElement(channel, 'description').text = 'Latest additions to the Ubiquiti product line.'
+ET.SubElement(channel, 'lastBuildDate').text = datetime.now().strftime('%a, %d %b %Y %H:%M:%S GMT')
+
+for product_id, product in recent_products.items():
+    item = ET.SubElement(channel, 'item')
+    ET.SubElement(item, 'title').text = product['product']['name']
+    ET.SubElement(item, 'link').text = f"https://static.ui.com/fingerprint/ui/images/{product_id}/default/{product['images']['default']}.png"
+    ET.SubElement(item, 'description').text = f"{product['product']['name']} ({product['sku']})"
+    ET.SubElement(item, 'guid').text = product_id
+    ET.SubElement(item, 'pubDate').text = datetime.now().strftime('%a, %d %b %Y %H:%M:%S GMT')
+
+    # Add image as enclosure
+    ET.SubElement(item, 'enclosure', url=f"https://static.ui.com/fingerprint/ui/images/{product_id}/default/{product['images']['default']}.png", type="image/png")
+
+# Write RSS feed to file
+tree = ET.ElementTree(rss)
+with open(rss_feed_path, 'wb') as file:
+    tree.write(file, encoding='utf-8', xml_declaration=True)
+
+print("RSS feed created with new products.")
 
 # Save the current product IDs for future comparison
 with open(saved_products_path, 'w') as file:
-    json.dump(current_products, file)
+    json.dump(recent_products, file)
 
-print(f"Saved {len(current_products)} products for future comparison.")
+print(f"Saved {len(recent_products)} products for future comparison.")
