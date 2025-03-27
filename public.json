@@ -31822,9 +31822,6 @@
               "gain": 6,
               "maxPower": 27,
               "maxSpeedMegabitsPerSecond": 300
-            },
-            "ng": {
-              "maxSpeedMegabitsPerSecond": 300
             }
           },
           "systemIdHexadecimal": "e515",
@@ -35806,9 +35803,6 @@
           "radios": {
             "na": {
               "maxSpeedMegabitsPerSecond": 2400
-            },
-            "ng": {
-              "maxSpeedMegabitsPerSecond": 570
             }
           },
           "systemIdHexadecimal": "dcb4",
@@ -35944,7 +35938,11 @@
           "minimumFirmwareRequired": "0.0.0",
           "model": "UDB",
           "numberOfPorts": 1,
-          "radios": {},
+          "radios": {
+            "na": {
+              "maxSpeedMegabitsPerSecond": 867
+            }
+          },
           "systemIdHexadecimal": "e801",
           "type": "udb"
         }
@@ -36045,7 +36043,11 @@
           "minimumFirmwareRequired": "0.0.0",
           "model": "UDBE802",
           "numberOfPorts": 1,
-          "radios": {},
+          "radios": {
+            "na": {
+              "maxSpeedMegabitsPerSecond": 400
+            }
+          },
           "systemIdHexadecimal": "e802",
           "type": "udb"
         }
@@ -42440,6 +42442,88 @@
           "k2": "UniFi-Protect-Smart-FloodLight"
         }
       ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "a24b9580-9634-4f82-b512-68aebdb38ea2"
+      ],
+      "icon": {
+        "id": "ec6856d7-3f68-4fa9-8bfd-bf92d49e904b",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "cdb9f66a-c42d-4d25-bc3f-2c26e96a369f",
+      "images": {
+        "default": "304169f0566cb3d52e81e45f85343318",
+        "nopadding": "8fdf78cd0daada147fec7c7f205f7e8c",
+        "topology": "c925a69ad8995ec1700ee62a660127f6"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "Horn Speaker",
+        "name": "Protect Horn Speaker"
+      },
+      "shortnames": [
+        "UP-Horn-Speaker",
+        "UP Horn Speaker"
+      ],
+      "sku": "UP-Horn-Speaker",
+      "sysid": "da22",
+      "sysids": [
+        "da22"
+      ],
+      "triplets": [],
       "unifi": {
         "adoptability": "adoptable"
       },
@@ -54129,6 +54213,176 @@
       "videos": {}
     },
     {
+      "deviceType": "camera",
+      "guids": [
+        "ca6a3315-f26b-a4b4-f1fb-63c41cffaede"
+      ],
+      "icon": {
+        "id": "4718e96d-1c57-7964-0cc3-b300ecc8ab31",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "c372be87-0144-c514-c873-f0ab56208083",
+      "images": {
+        "default": "bf4249f880834b8f4eb7f2bed6541c94",
+        "nopadding": "4d14d3b6134ea7bafb8d05175c43bc17",
+        "topology": "4b6084f2ab6380da6af43689e80559dd"
+      },
+      "jrf": [],
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "G6 AI PTZ",
+        "name": "Camera AI PTZ"
+      },
+      "shortnames": [
+        "G6-PTZ-Industrial",
+        "UVC-G6-PTZ-Industrial",
+        "UVC-AI-PTZ",
+        "UVC AI PTZ"
+      ],
+      "sku": "UVC-AI-PTZ",
+      "sysid": "a065",
+      "sysids": [
+        "a065"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "camera",
+      "guids": [
+        "8ed6688b-85f4-4498-8337-76ea73ea0ef8"
+      ],
+      "icon": {
+        "id": "16aab107-e62b-45d0-8960-ec16ce474b75",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "11c83b11-2e63-4d63-a53b-b99c09bc292b",
+      "images": {
+        "default": "ab250bc01ede7631491bf3e2cd0d0f0a",
+        "nopadding": "351d6a6eca8ce20fb98b181e235994b8",
+        "topology": "c43d9e445312cbb4c2d808af17cb9368"
+      },
+      "jrf": [],
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "G6 AI PTZ",
+        "name": "Camera AI PTZ"
+      },
+      "shortnames": [
+        "UVC-AI-PTZ-Black",
+        "UVC AI PTZ Black"
+      ],
+      "sku": "UVC-AI-PTZ-Black",
+      "sysid": "a604",
+      "sysids": [
+        "a604"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "UVC-AI-Pro",
@@ -57638,7 +57892,7 @@
         "G6-Bullet",
         "UVC G6 Bullet"
       ],
-      "sku": "UVC-G6-Bullet",
+      "sku": "UVC-G6-Bullet-W",
       "sysid": "a600",
       "sysids": [
         "a600"
@@ -57723,7 +57977,7 @@
         "G6-Instant",
         "UVC G6 Instant"
       ],
-      "sku": "UVC-G6-Instant",
+      "sku": "UVC-G6-INS-W",
       "sysid": "a603",
       "sysids": [
         "a603"
@@ -57808,7 +58062,7 @@
         "G6-Turret",
         "UVC G6 Turret"
       ],
-      "sku": "UVC-G6-Turret",
+      "sku": "UVC-G6-Turret-W",
       "sysid": "a601",
       "sysids": [
         "a601"
@@ -58489,9 +58743,6 @@
               "gain": 10,
               "maxPower": 25,
               "maxSpeedMegabitsPerSecond": 1733
-            },
-            "ng": {
-              "maxSpeedMegabitsPerSecond": 0
             }
           },
           "systemIdHexadecimal": "e580",
@@ -58605,9 +58856,6 @@
               "gain": 10,
               "maxPower": 25,
               "maxSpeedMegabitsPerSecond": 1733
-            },
-            "ng": {
-              "maxSpeedMegabitsPerSecond": 0
             }
           },
           "systemIdHexadecimal": "e585",
@@ -60815,5 +61063,5 @@
       "videos": {}
     }
   ],
-  "version": "19f232d477174c787765b42ca6ef862cc4f377bb"
+  "version": "045e4636829b459a65938066bdb6035440e5cff3"
 }
