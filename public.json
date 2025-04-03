@@ -50118,7 +50118,6 @@
           "deviceCapabilities": [
             "SWITCH",
             "SMART_POWER",
-            "ULTE",
             "BATTERY_POWER",
             "HAS_CLIENTS",
             "BATTERY_MANAGEMENT"
@@ -52681,6 +52680,7 @@
         "network": {
           "chipset": "l",
           "deviceCapabilities": [
+            "USW_WAN",
             "SWITCH",
             "HAS_CLIENTS"
           ],
@@ -52689,7 +52689,8 @@
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 10000,
           "features": {
-            "poe": false
+            "poe": false,
+            "uplinkPort": 3
           },
           "minimumFirmwareRequired": "4.0.6",
           "model": "USWED74",
@@ -57509,9 +57510,9 @@
       },
       "id": "86126ae2-00c0-4e14-1243-f653df1c2181",
       "images": {
-        "default": "219f5b9ab3cf4b3a973e7fd4a3a2a407",
-        "nopadding": "b5aa29bd77f2df213c1305e92f52ef45",
-        "topology": "5d4011429fb55b2e8d83d294b38c6a30"
+        "default": "9a677c9125b3dbfa9141617733b6b933",
+        "nopadding": "09e823669d0e2b2767d899109e296338",
+        "topology": "4d4d8d3d71dbe3a1842c04ceb558a4b9"
       },
       "line": {
         "id": "unifi-protect",
@@ -61063,5 +61064,5 @@
       "videos": {}
     }
   ],
-  "version": "045e4636829b459a65938066bdb6035440e5cff3"
+  "version": "b5765eed58ace427a07804edd514937a7817d833"
 }
