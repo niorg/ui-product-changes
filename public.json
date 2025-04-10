@@ -41237,6 +41237,29 @@
         "factoryDefault": "ec4c399c-49c9-4192-a4fd-b32f1622443e",
         "userConfigured": "edb1f0b7-bdcc-4b06-a326-17ff99997c5b"
       },
+      "compliance": {
+        "fcc": "SWX-UNASP",
+        "ic": "6545A-UNASP",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jrf": [
+          "020-240388"
+        ],
+        "modelName": "UNAS-Pro",
+        "ncc": "CCAH24LP4370T1",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "console",
       "guids": [
         "8dfefbcd-5791-411b-9724-b53f37f0ac0f",
@@ -61064,5 +61087,5 @@
       "videos": {}
     }
   ],
-  "version": "b5765eed58ace427a07804edd514937a7817d833"
+  "version": "f9915e0be85cbfcecefadfcc4205f5ba4debb670"
 }
