@@ -32569,7 +32569,9 @@
             "BUILDING_BRIDGE",
             "BRIDGE",
             "HAS_TEMPERATURE_SENSOR",
-            "HAS_CLIENTS"
+            "HAS_CLIENTS",
+            "HAS_SWITCH_ALIGNMENT_TOOL",
+            "SUPPORT_PAIRED_DEVICE"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
           "minimumFirmwareRequired": "1.0.5",
@@ -32713,7 +32715,9 @@
             "BUILDING_BRIDGE",
             "BRIDGE",
             "HAS_TEMPERATURE_SENSOR",
-            "HAS_CLIENTS"
+            "HAS_CLIENTS",
+            "HAS_SWITCH_ALIGNMENT_TOOL",
+            "SUPPORT_PAIRED_DEVICE"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
           "minimumFirmwareRequired": "0.9.12",
@@ -46663,6 +46667,7 @@
                 "rotation": "-90deg"
               },
               "29": {
+                "nonClickable": true,
                 "portIdx": 29
               },
               "30": {
@@ -46872,6 +46877,18 @@
               },
               "16": {
                 "rotation": "-90deg"
+              },
+              "17": {
+                "marginLeft": "16px"
+              },
+              "18": {
+                "marginLeft": "54px"
+              },
+              "19": {
+                "marginLeft": "54px"
+              },
+              "20": {
+                "marginLeft": "54px"
               }
             },
             "standard": "5-20",
@@ -46975,7 +46992,8 @@
           "deviceCapabilities": [
             "SMART_POWER",
             "ACCESS_POINT",
-            "HAS_LOW_RESOURCES"
+            "HAS_LOW_RESOURCES",
+            "AUTOLINK_ELEMENT"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
           "minimumFirmwareRequired": "1.1.0",
@@ -47327,7 +47345,8 @@
           "deviceCapabilities": [
             "SMART_POWER",
             "ACCESS_POINT",
-            "HAS_LOW_RESOURCES"
+            "HAS_LOW_RESOURCES",
+            "AUTOLINK_ELEMENT"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
           "minimumFirmwareRequired": "2.0.0",
@@ -61087,5 +61106,5 @@
       "videos": {}
     }
   ],
-  "version": "c38aab6a19e5a76ff3bd99758d9fb0d39148b1a2"
+  "version": "a747a27483f3ca063877c8dfcb5c76d9b5d596b4"
 }
