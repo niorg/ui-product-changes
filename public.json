@@ -22702,9 +22702,10 @@
         "anatel": "04643-24-08356",
         "fcc": "SWX-U6EPIW",
         "ic": "6545A-U6EPIW",
-        "icEmi": "ic_emi_code",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "indoorOnly": true,
         "modelName": "U6-Enterprise-IW",
+        "ncc": "CCAH24LPD950T6",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
@@ -25258,6 +25259,125 @@
     },
     {
       "guids": [
+        "de372702-2e89-4c49-86a1-c039134a3f31"
+      ],
+      "icon": {
+        "id": "559ca541-fa21-438a-bc8a-423367425402",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "bcf24383-3c7c-45ae-9e63-1897dfd01044",
+      "images": {
+        "default": "d98a8b26fd497def3fb70f8ee5c8f9fd",
+        "nopadding": "2cad67d89ae83882c0167eb54d1c37f9",
+        "topology": "8d41ac6acb693662f9a3bcf24c461ed7"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "U7 Long-Range",
+        "name": "Access Point U7 Long-Range"
+      },
+      "shortnames": [
+        "G7LRv2"
+      ],
+      "sku": "U7-LR",
+      "sysid": "a6b3",
+      "sysids": [
+        "a6b3"
+      ],
+      "triplets": [
+        {
+          "k1": "G7LR",
+          "k3": "G7LRv2"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "c",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 2500,
+          "features": {
+            "atfDisabled": true,
+            "ax": true,
+            "bandsteer": true,
+            "gen": 2,
+            "outdoorModeSupport": false
+          },
+          "minimumFirmwareRequired": "7.0.0",
+          "model": "UAPA6B3",
+          "numberOfPorts": 1,
+          "radios": {
+            "na": {
+              "gain": 4,
+              "maxPower": 23,
+              "maxSpeedMegabitsPerSecond": 4324
+            },
+            "ng": {
+              "gain": 6,
+              "maxPower": 29,
+              "maxSpeedMegabitsPerSecond": 688
+            }
+          },
+          "systemIdHexadecimal": "a6b3",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
         "bc5233e7-36df-2334-3ae3-9d6d09b83f06"
       ],
       "icon": {
@@ -27072,6 +27192,29 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-UAG2P",
+        "ic": "6545A-UAG2P",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jnfc": "AC-23040",
+        "jrf": [
+          "020-230133"
+        ],
+        "modelName": "UA-G2-Pro-Black",
+        "ncc": "CCAH23LP3311T1",
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "guids": [
         "2f41f611-ae06-4e33-b0b3-76d5bb269984"
       ],
@@ -27953,6 +28096,21 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UA-Hub-Door-Mini",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "guids": [
         "e4b4f8e9-354b-495c-93b6-2f7694133b61"
       ],
@@ -61106,5 +61264,5 @@
       "videos": {}
     }
   ],
-  "version": "a747a27483f3ca063877c8dfcb5c76d9b5d596b4"
+  "version": "19c4d79dbccb91dbf1d2ccd031a97f1cfb6bce11"
 }
