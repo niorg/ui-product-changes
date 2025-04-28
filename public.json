@@ -38042,12 +38042,18 @@
           },
           "radios": {
             "6e": {
+              "gain": 6,
+              "maxPower": 24,
               "maxSpeedMegabitsPerSecond": 5765
             },
             "na": {
+              "gain": 7,
+              "maxPower": 26,
               "maxSpeedMegabitsPerSecond": 4324
             },
             "ng": {
+              "gain": 5,
+              "maxPower": 23,
               "maxSpeedMegabitsPerSecond": 688
             }
           },
@@ -61264,5 +61270,5 @@
       "videos": {}
     }
   ],
-  "version": "19c4d79dbccb91dbf1d2ccd031a97f1cfb6bce11"
+  "version": "679b0507f455826c8e6a7f52c8c2f9e30f95d380"
 }
