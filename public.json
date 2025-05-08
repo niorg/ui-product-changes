@@ -6956,7 +6956,8 @@
         "name": "Access Point E7 Audience"
       },
       "shortnames": [
-        "E7-Audience"
+        "E7-Audience",
+        "E7A"
       ],
       "sku": "E7-Audience",
       "sysid": "a699",
@@ -7071,7 +7072,8 @@
         "name": "Access Point E7 Audience"
       },
       "shortnames": [
-        "E7-Audience-EU"
+        "E7-Audience-EU",
+        "E7AEU"
       ],
       "sku": "E7-Audience-EU",
       "sysid": "a6ab",
@@ -7188,7 +7190,8 @@
         "name": "Access Point E7 Campus"
       },
       "shortnames": [
-        "E7-Campus"
+        "E7-Campus",
+        "E7C"
       ],
       "sku": "E7-Campus",
       "sysid": "a698",
@@ -7329,7 +7332,10 @@
         "UA-Hub-Enterprise"
       ],
       "sku": "EAH-8",
-      "sysids": [],
+      "sysid": "ec55",
+      "sysids": [
+        "ec55"
+      ],
       "triplets": [
         {
           "k1": "UA-Enterprise",
@@ -27078,7 +27084,10 @@
         "UA-G2-Black"
       ],
       "sku": "UA-G2-Black",
-      "sysids": [],
+      "sysid": "ec4d",
+      "sysids": [
+        "ec4d"
+      ],
       "triplets": [],
       "videos": {}
     },
@@ -27285,7 +27294,10 @@
         "UA-G2-Pro-Black"
       ],
       "sku": "UA-G2-Pro-Black",
-      "sysids": [],
+      "sysid": "ec5e",
+      "sysids": [
+        "ec5e"
+      ],
       "triplets": [],
       "videos": {}
     },
@@ -27568,7 +27580,10 @@
         "UA-G3-Flex"
       ],
       "sku": "UA-G3-Flex",
-      "sysids": [],
+      "sysid": "ec8b",
+      "sysids": [
+        "ec8b"
+      ],
       "triplets": [],
       "videos": {}
     },
@@ -27661,7 +27676,10 @@
         "UA-G3-Flex-B"
       ],
       "sku": "UA-G3-Flex-B",
-      "sysids": [],
+      "sysid": "ec8b",
+      "sysids": [
+        "ec8b"
+      ],
       "triplets": [],
       "videos": {}
     },
@@ -27736,7 +27754,10 @@
         "UA-G3-Intercom"
       ],
       "sku": "UA-G3-Intercom",
-      "sysids": [],
+      "sysid": "ec68",
+      "sysids": [
+        "ec68"
+      ],
       "triplets": [],
       "videos": {}
     },
@@ -27828,7 +27849,10 @@
         "UA-G3-Pro"
       ],
       "sku": "UA-G3-Pro",
-      "sysids": [],
+      "sysid": "ec66",
+      "sysids": [
+        "ec66"
+      ],
       "triplets": [],
       "videos": {}
     },
@@ -27920,7 +27944,10 @@
         "UA-G3-Pro-B"
       ],
       "sku": "UA-G3-Pro-B",
-      "sysids": [],
+      "sysid": "ec67",
+      "sysids": [
+        "ec67"
+      ],
       "triplets": [],
       "videos": {}
     },
@@ -28000,8 +28027,7 @@
       "sku": "UA-Hub",
       "sysid": "ec36",
       "sysids": [
-        "ec36",
-        "ec42"
+        "ec36"
       ],
       "triplets": [
         {
@@ -28086,7 +28112,10 @@
         "UA-Hub-Door"
       ],
       "sku": "UA-Hub-Door",
-      "sysids": [],
+      "sysid": "ec42",
+      "sysids": [
+        "ec42"
+      ],
       "triplets": [
         {
           "k1": "UA-HUB-Door",
@@ -28182,7 +28211,10 @@
         "UA-Hub-Door-Mini"
       ],
       "sku": "UA-Hub-Door-Mini",
-      "sysids": [],
+      "sysid": "ec89",
+      "sysids": [
+        "ec89"
+      ],
       "triplets": [],
       "videos": {}
     },
@@ -28355,7 +28387,10 @@
         "UA-Intercom"
       ],
       "sku": "UA-Intercom",
-      "sysids": [],
+      "sysid": "ec64",
+      "sysids": [
+        "ec64"
+      ],
       "triplets": [],
       "videos": {}
     },
@@ -28445,7 +28480,10 @@
         "UA-Intercom-Viewer"
       ],
       "sku": "UA-Intercom-Viewer",
-      "sysids": [],
+      "sysid": "ec65",
+      "sysids": [
+        "ec65"
+      ],
       "triplets": [],
       "videos": {}
     },
@@ -28708,8 +28746,7 @@
       "sku": "UA-Pro",
       "sysid": "ec5f",
       "sysids": [
-        "ec5f",
-        "ec37"
+        "ec5f"
       ],
       "triplets": [
         {
@@ -28940,7 +28977,10 @@
         "UA-ULTRA"
       ],
       "sku": "UA-Ultra",
-      "sysids": [],
+      "sysid": "ec84",
+      "sysids": [
+        "ec84"
+      ],
       "triplets": [],
       "videos": {}
     },
@@ -42055,6 +42095,90 @@
       "videos": {}
     },
     {
+      "guids": [
+        "a24b9580-9634-4f82-b512-68aebdb38ea2"
+      ],
+      "icon": {
+        "id": "ec6856d7-3f68-4fa9-8bfd-bf92d49e904b",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "cdb9f66a-c42d-4d25-bc3f-2c26e96a369f",
+      "images": {
+        "default": "304169f0566cb3d52e81e45f85343318",
+        "nopadding": "8fdf78cd0daada147fec7c7f205f7e8c",
+        "topology": "c925a69ad8995ec1700ee62a660127f6"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "AI Horn Speaker",
+        "name": "Protect AI Horn Speaker"
+      },
+      "shortnames": [
+        "UP-Horn-Speaker",
+        "UP Horn Speaker",
+        "UP-AI-Horn-Speaker",
+        "UP AI Horn Speaker"
+      ],
+      "sku": "UP-AI-Horn-Speaker",
+      "sysid": "da22",
+      "sysids": [
+        "da22"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "AI-Key",
@@ -42633,88 +42757,6 @@
           "k2": "UniFi-Protect-Smart-FloodLight"
         }
       ],
-      "unifi": {
-        "adoptability": "adoptable"
-      },
-      "videos": {}
-    },
-    {
-      "guids": [
-        "a24b9580-9634-4f82-b512-68aebdb38ea2"
-      ],
-      "icon": {
-        "id": "ec6856d7-3f68-4fa9-8bfd-bf92d49e904b",
-        "resolutions": [
-          [
-            25,
-            25
-          ],
-          [
-            32,
-            32
-          ],
-          [
-            51,
-            51
-          ],
-          [
-            64,
-            64
-          ],
-          [
-            101,
-            101
-          ],
-          [
-            128,
-            128
-          ],
-          [
-            129,
-            129
-          ],
-          [
-            256,
-            256
-          ],
-          [
-            257,
-            257
-          ],
-          [
-            512,
-            512
-          ],
-          [
-            1000,
-            1000
-          ]
-        ]
-      },
-      "id": "cdb9f66a-c42d-4d25-bc3f-2c26e96a369f",
-      "images": {
-        "default": "304169f0566cb3d52e81e45f85343318",
-        "nopadding": "8fdf78cd0daada147fec7c7f205f7e8c",
-        "topology": "c925a69ad8995ec1700ee62a660127f6"
-      },
-      "line": {
-        "id": "unifi-protect",
-        "name": "UniFi Protect"
-      },
-      "product": {
-        "abbrev": "Horn Speaker",
-        "name": "Protect Horn Speaker"
-      },
-      "shortnames": [
-        "UP-Horn-Speaker",
-        "UP Horn Speaker"
-      ],
-      "sku": "UP-Horn-Speaker",
-      "sysid": "da22",
-      "sysids": [
-        "da22"
-      ],
-      "triplets": [],
       "unifi": {
         "adoptability": "adoptable"
       },
@@ -52420,6 +52462,115 @@
       "videos": {}
     },
     {
+      "guids": [
+        "e88409fd-931e-4424-8a0b-9e8ec79bb4ed"
+      ],
+      "icon": {
+        "id": "522713d6-b627-4336-9fd7-34aea16c4eee",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "0f2b2b54-08bf-4392-b452-d5d7863a6d66",
+      "images": {
+        "default": "5cbd0a02ca804e9a6d5011685cc602e0",
+        "nopadding": "03ec98fa5b7f70e90f68916b9c1750d9",
+        "topology": "3e3bbc70d9fbffff3a81a84be48fffa3"
+      },
+      "isARSupported": true,
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USW Pro XG 8 PoE",
+        "name": "Switch Pro XG 8 PoE"
+      },
+      "shortnames": [
+        "USPXG8P"
+      ],
+      "sku": "USW-Pro-XG-8-PoE",
+      "sysid": "ed76",
+      "sysids": [
+        "ed76"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "l",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "diagram": [
+            "01 02 03 04 05 06 07 08 __ 09 10"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "features": {
+            "poe": true
+          },
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USWED76",
+          "numberOfPorts": 10,
+          "ports": {
+            "plus": [
+              9,
+              10
+            ],
+            "standard": 8
+          },
+          "radios": {},
+          "systemIdHexadecimal": "ed76",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "anatel": "06367-24-08356",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -54485,8 +54636,8 @@
         "name": "UniFi Protect"
       },
       "product": {
-        "abbrev": "G6 AI PTZ",
-        "name": "Camera AI PTZ"
+        "abbrev": "AI PTZ",
+        "name": "Camera AI PTZ Industrial"
       },
       "shortnames": [
         "G6-PTZ-Industrial",
@@ -54571,8 +54722,8 @@
         "name": "UniFi Protect"
       },
       "product": {
-        "abbrev": "G6 AI PTZ",
-        "name": "Camera AI PTZ"
+        "abbrev": "AI PTZ",
+        "name": "Camera AI PTZ Industrial"
       },
       "shortnames": [
         "UVC-AI-PTZ-Black",
@@ -59763,6 +59914,25 @@
         "factoryDefault": "3cc83114-538f-4289-ae89-87beb5b077cc",
         "userConfigured": "0b1eba00-cc65-4eb8-94c6-aab05e0b423c"
       },
+      "compliance": {
+        "fcc": "SWX-UXGF",
+        "ic": "6545A-UXGF",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UXG-Fiber",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "guids": [
         "4f160644-ca4c-f484-8bbb-aaaa98adc98e",
         "3cc83114-538f-4289-ae89-87beb5b077cc",
@@ -61270,5 +61440,5 @@
       "videos": {}
     }
   ],
-  "version": "679b0507f455826c8e6a7f52c8c2f9e30f95d380"
+  "version": "a6eb5d54f2ac1c7182b44d24bc9be7c58c2505ad"
 }
