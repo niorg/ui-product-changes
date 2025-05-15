@@ -7348,6 +7348,21 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ECS-24-PoE",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_A"
+          ]
+        }
+      },
       "guids": [
         "0021820d-e651-51d4-da33-41789cce9fd4"
       ],
@@ -7456,6 +7471,21 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ECS-48-PoE",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_A"
+          ]
+        }
+      },
       "guids": [
         "3fc96dd6-b858-a324-147b-9c886069eb83"
       ],
@@ -25145,6 +25175,26 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-U7IW",
+        "ic": "6545A-U7IW",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "U7-IW",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "guids": [
         "260f8ed3-aa45-7274-9f4b-7d4c9272e047"
       ],
@@ -26116,6 +26166,28 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-U7PROO",
+        "ic": "6545A-U7PROO",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "U7-Pro-Outdoor",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5",
+            "WIFI_6"
+          ],
+          "US": [
+            "FCC_B",
+            "RF",
+            "WIFI_6"
+          ]
+        }
+      },
       "guids": [
         "961a10a4-abf7-7a54-100b-a14185fb105c"
       ],
@@ -26500,6 +26572,26 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-U7PROX",
+        "ic": "6545A-U7PROX",
+        "icEmi": "CAN ices-003(B)/NMB-003(B)",
+        "modelName": "U7-Pro-XG",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "WIFI_5",
+            "www",
+            "WIFI_6",
+            "RF"
+          ],
+          "UA": [
+            "FCC_B",
+            "RF",
+            "WIFI_6"
+          ]
+        }
+      },
       "guids": [
         "b10f644a-5169-bda4-e903-89b3ce330d7d"
       ],
@@ -26620,6 +26712,27 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-U7PROXS",
+        "ic": "6545A-U7PROXS",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "U7-Pro-XGS",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "WIFI_5",
+            "WIFI_6",
+            "www",
+            "RF",
+            "WIFI_5_DET_ANT"
+          ],
+          "US": [
+            "FCC_B",
+            "RF",
+            "WIFI_6"
+          ]
+        }
+      },
       "guids": [
         "407d8098-4358-51c4-9963-db99bbe2d7d8"
       ],
@@ -52137,6 +52250,19 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "Can ICES-003(A)/NMB-003(A)",
+        "modelName": "USW-Pro-XG-10-PoE",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_A"
+          ]
+        }
+      },
       "guids": [
         "0230e896-f4cd-40ac-9847-b75d2cae6436"
       ],
@@ -53067,6 +53193,125 @@
           },
           "radios": {},
           "systemIdHexadecimal": "ed74",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "9e74b50f-111a-4bb5-9fad-75fdb915892d"
+      ],
+      "icon": {
+        "id": "fea9fe83-2118-4522-9987-137dcd052856",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "4d5292a5-8427-4ae2-8011-62a063bb595f",
+      "images": {
+        "default": "9aaa57201255d2c440c6e6696e53e66c",
+        "nopadding": "2697f6a5ca5a7639c6182ff07b146dc5",
+        "topology": "bae393ef86d6ca2381b57ec8ea9f32eb"
+      },
+      "isARSupported": true,
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USW WAN RJ45",
+        "name": "Switch WAN Relay RJ45"
+      },
+      "shortnames": [
+        "WRS3",
+        "USW-WAN-RJ45"
+      ],
+      "sku": "USW-WAN-RJ45",
+      "sysid": "ed75",
+      "sysids": [
+        "ed75"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "l",
+          "deviceCapabilities": [
+            "USW_WAN",
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "diagram": [
+            "01 02 __ 03 __ 04"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "features": {
+            "poe": false,
+            "uplinkPort": 3
+          },
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USWED75",
+          "numberOfPorts": 4,
+          "ports": {
+            "plus": [],
+            "standard": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "wan": [
+              1,
+              2,
+              3
+            ]
+          },
+          "radios": {},
+          "systemIdHexadecimal": "ed75",
           "type": "usw"
         }
       },
@@ -58349,6 +58594,176 @@
     {
       "deviceType": "camera",
       "guids": [
+        "004430f2-785d-459d-b85f-06075991d34f"
+      ],
+      "icon": {
+        "id": "c2cb7b6c-faf6-49fa-b2a8-4de0dee49902",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "ddc15491-195e-4d65-9a40-694f0df30dc3",
+      "images": {
+        "default": "ed813eebd1898bc94f30ebca51b1bbd4",
+        "nopadding": "95768e895719e028fa83b5995b7434de",
+        "topology": "525a6cace55ff05eb8bd057323775372"
+      },
+      "jrf": [],
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "G6 PTZ",
+        "name": "Camera G6 PTZ"
+      },
+      "shortnames": [
+        "UVC-G6-PTZ",
+        "G6-PTZ",
+        "UVC G6 PTZ"
+      ],
+      "sku": "UVC-G6-PTZ",
+      "sysid": "a605",
+      "sysids": [
+        "a605"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "camera",
+      "guids": [
+        "32b0634b-eedd-47a2-9d82-963cd04ff763"
+      ],
+      "icon": {
+        "id": "a16bbf9a-6e6f-4488-868d-7b7d38e8acb9",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "09d606c8-a329-4a05-b11e-9a289732d2ed",
+      "images": {
+        "default": "0532a00771e8620a89255162578b2aa0",
+        "nopadding": "f658276501d7507c5d766d464340934e",
+        "topology": "4b0538a502c2e883ee03bb32ed9808c3"
+      },
+      "jrf": [],
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "G6 PTZ",
+        "name": "Camera G6 PTZ"
+      },
+      "shortnames": [
+        "UVC-G6-PTZ-B",
+        "G6-PTZ-B",
+        "UVC G6 PTZ-B"
+      ],
+      "sku": "UVC-G6-PTZ-B",
+      "sysid": "a606",
+      "sysids": [
+        "a606"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "camera",
+      "guids": [
         "be9d8e45-62a8-ae84-8b23-71723c7decaf"
       ],
       "icon": {
@@ -60997,6 +61412,108 @@
     },
     {
       "btle": {
+        "factoryDefault": "f623d494-4c84-4ab3-ada1-bf3d08cdbb70",
+        "userConfigured": "b8aa7cde-79ac-4997-984e-c0df65664f71"
+      },
+      "guids": [
+        "57248a25-7132-4291-ad76-d791318792c2",
+        "f623d494-4c84-4ab3-ada1-bf3d08cdbb70",
+        "b8aa7cde-79ac-4997-984e-c0df65664f71"
+      ],
+      "icon": {
+        "id": "7aae2009-02e6-46c4-9f0a-5d6539cd0ea8",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "1774b68f-2266-43e9-8952-cfa97b08037c",
+      "images": {
+        "default": "09d27756471dc0d57292cd8583c0ad1c",
+        "nopadding": "a4f46f542d353377087c6f3ead07ffb9",
+        "topology": "db490666f861e512e4479e879062952a"
+      },
+      "line": {
+        "id": "wave",
+        "name": "Wave"
+      },
+      "product": {
+        "abbrev": "Wave AP",
+        "name": "Wave Access Point"
+      },
+      "shortnames": [
+        "Wave-AP-Gen2"
+      ],
+      "sku": "Wave-AP-Gen2",
+      "sysid": "ac20",
+      "sysids": [
+        "ac20"
+      ],
+      "triplets": [],
+      "uisp": {
+        "bleServices": {
+          "b8aa7cde-79ac-4997-984e-c0df65664f71": {
+            "mode": "default"
+          },
+          "f623d494-4c84-4ab3-ada1-bf3d08cdbb70": {
+            "mode": "factory"
+          }
+        },
+        "firmware": {
+          "board": [
+            "mgmp"
+          ],
+          "platform": "airfiber"
+        },
+        "line": "wave_60",
+        "nameLegacy": []
+      },
+      "videos": {}
+    },
+    {
+      "btle": {
         "factoryDefault": "dd71d062-2c19-4a26-a43b-d99c7cc12483",
         "userConfigured": "73b08668-52df-4626-a3e3-7638815b781a"
       },
@@ -61440,5 +61957,5 @@
       "videos": {}
     }
   ],
-  "version": "a6eb5d54f2ac1c7182b44d24bc9be7c58c2505ad"
+  "version": "531ea7fd272ba7a62554051aaab0e5cc5075367c"
 }
