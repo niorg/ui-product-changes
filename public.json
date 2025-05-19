@@ -26712,6 +26712,126 @@
       "videos": {}
     },
     {
+      "guids": [
+        "aa4a9334-323b-4b5c-9f04-5a173d02e1a6"
+      ],
+      "icon": {
+        "id": "76909dd6-497c-4cd8-9344-558ee0e6cba0",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "6f5cefaf-6810-4525-aafd-ea704c1f50b9",
+      "images": {
+        "default": "1e156185cb2802bf3d35eda488630fb8",
+        "nopadding": "1402084ff6c077077c60516c5e0974c9",
+        "topology": "b357e4a8f742139b3f9d250cad263d4a"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "U7 Pro XG",
+        "name": "Access Point U7 Pro XG"
+      },
+      "shortnames": [
+        "U7PROXGB",
+        "U7-Pro-XG-B"
+      ],
+      "sku": "U7-Pro-XG-B",
+      "sysid": "a6ae",
+      "sysids": [
+        "a6ae"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "r",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "features": {
+            "atfDisabled": true,
+            "ax": true,
+            "bandsteer": true,
+            "be": true,
+            "gen": 2
+          },
+          "minimumFirmwareRequired": "7.0.0",
+          "model": "UAPA6AE",
+          "numberOfPorts": 1,
+          "radios": {
+            "6e": {
+              "gain": 6,
+              "maxPower": 23,
+              "maxSpeedMegabitsPerSecond": 5765
+            },
+            "na": {
+              "gain": 6,
+              "maxPower": 26,
+              "maxSpeedMegabitsPerSecond": 4324
+            },
+            "ng": {
+              "gain": 4,
+              "maxPower": 22,
+              "maxSpeedMegabitsPerSecond": 688
+            }
+          },
+          "systemIdHexadecimal": "a6ae",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "fcc": "SWX-U7PROXS",
         "ic": "6545A-U7PROXS",
@@ -26847,6 +26967,126 @@
             }
           },
           "systemIdHexadecimal": "a6a4",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "478e8e2a-c482-456a-925d-b38cce70fc9e"
+      ],
+      "icon": {
+        "id": "6652a4a9-70c0-4130-8f90-04b456c5868b",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "e31bdf35-5d67-4ccf-b1cb-337c658bce95",
+      "images": {
+        "default": "10b25c474a73818715f4acc29d8cde49",
+        "nopadding": "e61ee9eaa27129b97ee3601ca07896a5",
+        "topology": "0aac5a82093738344c6fdd4fa14e4ecf"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "U7 Pro XGS",
+        "name": "Access Point U7 Pro XGS"
+      },
+      "shortnames": [
+        "U7PROXGSB",
+        "U7-Pro-XGS-B"
+      ],
+      "sku": "U7-Pro-XGS-B",
+      "sysid": "a6ac",
+      "sysids": [
+        "a6ac"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "r",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "features": {
+            "atfDisabled": true,
+            "ax": true,
+            "bandsteer": true,
+            "be": true,
+            "gen": 2
+          },
+          "minimumFirmwareRequired": "7.0.0",
+          "model": "UAPA6AC",
+          "numberOfPorts": 1,
+          "radios": {
+            "6e": {
+              "gain": 6,
+              "maxPower": 23,
+              "maxSpeedMegabitsPerSecond": 5765
+            },
+            "na": {
+              "gain": 6,
+              "maxPower": 29,
+              "maxSpeedMegabitsPerSecond": 8648
+            },
+            "ng": {
+              "gain": 4,
+              "maxPower": 23,
+              "maxSpeedMegabitsPerSecond": 688
+            }
+          },
+          "systemIdHexadecimal": "a6ac",
           "type": "uap"
         }
       },
@@ -52373,6 +52613,112 @@
     },
     {
       "guids": [
+        "1b2a281f-1fde-5124-33d3-84f9d4c0b792"
+      ],
+      "icon": {
+        "id": "de53bcf5-1ebd-46dd-8b5c-3837ad1d0aa4",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "9ef1cd6a-33b4-4b4f-bf68-ff79e938079a",
+      "images": {
+        "default": "65f193878152834839713319a3f1da14",
+        "nopadding": "1b9696f02287584917c960f7c3546585",
+        "topology": "52f9f8c6688eb7d34d1eff410c1c02c5"
+      },
+      "isARSupported": true,
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USW Pro XG 24",
+        "name": "Switch Pro XG 24"
+      },
+      "shortnames": [
+        "USWPXG24"
+      ],
+      "sku": "USW-Pro-XG-24",
+      "sysid": "ed45",
+      "sysids": [
+        "ed45"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "p",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "diagram": [
+            "01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 __ 25 26"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 25000,
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USWED45",
+          "numberOfPorts": 26,
+          "ports": {
+            "sfp28": [
+              25,
+              26
+            ],
+            "standard": 24
+          },
+          "radios": {},
+          "systemIdHexadecimal": "ed45",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
         "e4425f3d-afff-4f14-e8c3-1fef68423924"
       ],
       "icon": {
@@ -52475,6 +52821,110 @@
           },
           "radios": {},
           "systemIdHexadecimal": "ed44",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "2f686580-0df5-0004-411b-8e7b2345fcf2"
+      ],
+      "icon": {
+        "id": "fdd87aa5-7b1a-4723-a1c2-33c50a92811c",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "51449532-3290-49ad-a1e6-928020669c1a",
+      "images": {
+        "default": "c20f95b8d26726ec935ef650f41844d7",
+        "nopadding": "1a66b303fe13e26962517a989c9dfa99",
+        "topology": "55c46caeed66ebd51d7852a7a61457cd"
+      },
+      "isARSupported": true,
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USW Pro XG 48",
+        "name": "Switch Pro XG 48"
+      },
+      "shortnames": [
+        "USWPXG48"
+      ],
+      "sku": "USW-Pro-XG-48",
+      "sysid": "ed43",
+      "sysids": [
+        "ed43"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "p",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "diagram": [
+            "01 03 05 07 09 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 __ 49 51",
+            "02 04 06 08 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 __ 50 52"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 25000,
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USWED43",
+          "numberOfPorts": 52,
+          "ports": {
+            "sfp28": "49-52",
+            "standard": 48
+          },
+          "radios": {},
+          "systemIdHexadecimal": "ed43",
           "type": "usw"
         }
       },
@@ -61957,5 +62407,5 @@
       "videos": {}
     }
   ],
-  "version": "531ea7fd272ba7a62554051aaab0e5cc5075367c"
+  "version": "09e4829f3a4021cda55085cc3abba94f3bebe739"
 }
