@@ -25433,6 +25433,31 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-U7LITE",
+        "ic": "6545A-U7LITE",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jrf": [
+          "020-250060"
+        ],
+        "modelName": "U7-Lite",
+        "ncc": "CCAH25LP3810T6",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        },
+        "wifi": "5e"
+      },
       "guids": [
         "bc5233e7-36df-2334-3ae3-9d6d09b83f06"
       ],
@@ -33551,9 +33576,9 @@
       },
       "id": "e9cda15e-0564-45a0-b8c9-3dd0c893b1f2",
       "images": {
-        "default": "ed494b0786574ad0a2ceb9a940872ab7",
-        "nopadding": "7593a8ee8838bdad909aac894825d3cc",
-        "topology": "2ef18d2fef9e4260809506e1adf9b3d0"
+        "default": "23cbfd0a56aa393c5b76f8b1063999d0",
+        "nopadding": "eb0292c1fa9d916a1f9a2e0a0ddf7226",
+        "topology": "341151301ca11aee171d55f45e244f1c"
       },
       "line": {
         "id": "unifi-connect",
@@ -54020,7 +54045,8 @@
       "shortnames": [
         "UTP-G3-PRO-MAX",
         "UTP-G3-Touch-Pro-Max",
-        "UTP-G3-Touch-Enterprise"
+        "UTP-G3-Touch-Enterprise",
+        "UTP-G3-TOUCH-ENTERPRISE"
       ],
       "sku": "UTP-G3-Touch-Enterprise",
       "sysid": "efbc",
@@ -54039,6 +54065,24 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-UG3TP",
+        "ic": "6545A-UG3TP",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UTP-G3-Touch-Pro",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC",
+            "WIFI_5",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "guids": [
         "433c98c1-a8f1-48cc-a193-d6cc21bcc45f"
       ],
@@ -54107,7 +54151,8 @@
       },
       "shortnames": [
         "UTP-G3-PRO",
-        "UTP-G3-Touch-Pro"
+        "UTP-G3-Touch-Pro",
+        "UTP-G3-TOUCH-PRO"
       ],
       "sku": "UTP-G3-Touch-Pro",
       "sysid": "efbb",
@@ -62407,5 +62452,5 @@
       "videos": {}
     }
   ],
-  "version": "09e4829f3a4021cda55085cc3abba94f3bebe739"
+  "version": "d46e55a5c994ad98cb30f953b5205cbbfadfc233"
 }
