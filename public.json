@@ -36252,9 +36252,8 @@
         "ic": "6545A-UDB",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "UDB",
+        "ncc": "CCAH25LP1280T6",
         "rcm": true,
-        "rfCmFcc": 20,
-        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -36262,10 +36261,12 @@
             "WIFI_5"
           ],
           "US": [
-            "FCC_B",
-            "RF"
+            "FCC_A",
+            "RF",
+            "WIFI_6"
           ]
-        }
+        },
+        "wifi": "6e"
       },
       "guids": [
         "0c547118-7d88-4ebf-aade-d24c6f771295",
@@ -62452,5 +62453,5 @@
       "videos": {}
     }
   ],
-  "version": "d46e55a5c994ad98cb30f953b5205cbbfadfc233"
+  "version": "bb3396bb604b921fb23a7fa61a6409817cead38f"
 }
