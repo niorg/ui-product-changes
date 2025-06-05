@@ -7120,6 +7120,31 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "02724-25-08356",
+        "fcc": "SWX-E7CP",
+        "ic": "6545A-E7CP",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "E7-Campus",
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "BR": [
+            "WIFI_6E"
+          ],
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5",
+            "WIFI_6"
+          ],
+          "US": [
+            "FCC_B",
+            "RF",
+            "WIFI_6"
+          ]
+        }
+      },
       "guids": [
         "80716260-b1a9-2354-eb8b-b2edafe32489"
       ],
@@ -25314,6 +25339,24 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-U7LR",
+        "ic": "6545A-U7LR",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "U7-LR",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "guids": [
         "de372702-2e89-4c49-86a1-c039134a3f31"
       ],
@@ -27973,6 +28016,8 @@
         "modelName": "UA-G3-Flex-B",
         "ncc": "CCAH25LP1801T8",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -29260,7 +29305,7 @@
     {
       "compliance": {
         "anatel": "06371-24-08356",
-        "cn": "2023AJ11705",
+        "cn": "24J99U16D003",
         "fcc": "SWX-UAU",
         "ic": "6545A-UAU",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -35615,7 +35660,7 @@
         "network": {
           "chipset": "x",
           "deviceCapabilities": [
-            "CABLE_INTERNET"
+            "INTERNET_PROVIDER"
           ],
           "diagram": [
             "01"
@@ -38273,20 +38318,31 @@
         "ic": "6545A-UDR7",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "indoorOnly": true,
+        "jpa": [
+          "P25-0052001",
+          "L25-0011"
+        ],
+        "jrf": [
+          "020-250102"
+        ],
         "modelName": "UDR7",
+        "ncc": "CCAH25LP2880T9",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
-            "RF"
+            "RF",
+            "WIFI_6"
           ],
           "US": [
             "FCC_B",
-            "RF"
+            "RF",
+            "WIFI_6"
           ]
-        }
+        },
+        "wifi": "6e"
       },
       "deviceType": "console",
       "guids": [
@@ -53977,6 +54033,24 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-UG3TE",
+        "ic": "6545A-UG3TE",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UTP-G3-Touch-Enterprise",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC",
+            "WIFI_5",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "guids": [
         "7bbc37e7-a1e3-4158-badf-66192cc1ffed"
       ],
@@ -60369,20 +60443,31 @@
         "ic": "6545A-UX7",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "indoorOnly": true,
+        "jpa": [
+          "P25-0051001",
+          "L25-0010"
+        ],
+        "jrf": [
+          "020-250089"
+        ],
         "modelName": "UX7",
+        "ncc": "CCAH25LP4290T1",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
-            "RF"
+            "RF",
+            "WIFI_6"
           ],
           "US": [
             "FCC_B",
-            "RF"
+            "RF",
+            "WIFI_6"
           ]
-        }
+        },
+        "wifi": "6e"
       },
       "deviceType": "console",
       "guids": [
@@ -62453,5 +62538,5 @@
       "videos": {}
     }
   ],
-  "version": "bb3396bb604b921fb23a7fa61a6409817cead38f"
+  "version": "e65789c99248b37a6a02b963aed2e4d10a835714"
 }
