@@ -38334,6 +38334,7 @@
           "CA": [
             "IC",
             "RF",
+            "WIFI_5",
             "WIFI_6"
           ],
           "US": [
@@ -54246,6 +54247,24 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-UG3W",
+        "ic": "6545A-UG3W",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UTP-G3-Touch-Wall",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC",
+            "WIFI_5",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "guids": [
         "88536084-2f6c-4100-890e-1a2b1ad233de"
       ],
@@ -60459,6 +60478,7 @@
           "CA": [
             "IC",
             "RF",
+            "WIFI_5",
             "WIFI_6"
           ],
           "US": [
@@ -62538,5 +62558,5 @@
       "videos": {}
     }
   ],
-  "version": "e65789c99248b37a6a02b963aed2e4d10a835714"
+  "version": "6f2ff2a40f3ebed559f1273db865557fdfece6eb"
 }
