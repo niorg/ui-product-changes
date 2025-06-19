@@ -7270,6 +7270,123 @@
       "videos": {}
     },
     {
+      "guids": [
+        "293625b1-2e48-459e-b899-7e1e9521aeea"
+      ],
+      "icon": {
+        "id": "fdcb1e4e-18fa-4c54-823c-7481da788703",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "7d71a15d-596b-4df0-a169-c24ad96dc2fc",
+      "images": {
+        "default": "4fff890a834b7d0b2d8acd3562829a09",
+        "nopadding": "e4dde6cb5b08bb41b49e132be2dbc6b8",
+        "topology": "36a675c941f24ffa8105844d19edb4f0"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "E7 Campus",
+        "name": "Access Point E7 Campus"
+      },
+      "shortnames": [
+        "E7-Campus-EU",
+        "E7CEU"
+      ],
+      "sku": "E7-Campus-EU",
+      "sysid": "a6b1",
+      "sysids": [
+        "a6b1"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "r",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT",
+            "E7_SERIES"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "features": {
+            "atfDisabled": true,
+            "ax": true,
+            "bandsteer": true,
+            "be": true,
+            "gen": 2,
+            "outdoorModeSupport": true
+          },
+          "minimumFirmwareRequired": "7.0.45",
+          "model": "UAPA6B1",
+          "numberOfPorts": 1,
+          "radios": {
+            "na": {
+              "gain": 12,
+              "maxPower": 30,
+              "maxSpeedMegabitsPerSecond": 8648
+            },
+            "ng": {
+              "gain": 9,
+              "maxPower": 23,
+              "maxSpeedMegabitsPerSecond": 688
+            }
+          },
+          "systemIdHexadecimal": "a6b1",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "EAH-8",
@@ -38328,8 +38445,8 @@
         "modelName": "UDR7",
         "ncc": "CCAH25LP2880T9",
         "rcm": true,
-        "rfCmFcc": 20,
-        "rfCmIc": 20,
+        "rfCmFcc": 25,
+        "rfCmIc": 25,
         "text": {
           "CA": [
             "IC",
@@ -62558,5 +62675,5 @@
       "videos": {}
     }
   ],
-  "version": "6f2ff2a40f3ebed559f1273db865557fdfece6eb"
+  "version": "9720370278832242c4c2ab6c3babc2b78dbd8b78"
 }
