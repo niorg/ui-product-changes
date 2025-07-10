@@ -38425,7 +38425,7 @@
         }
       },
       "videos": {
-        "mobile-intro": "0127da489d873fcb8be7a44a74d8162d",
+        "mobile-intro": "e41f60faa31b32f316d40c8178849e6d",
         "mobile-setup-wizard-plugin": "84fd960dc329a162d6ca37d91d25b833",
         "mobile-setup-wizard-testing-connection": "ac4a57d188291ef1621683d881023d13"
       }
@@ -63188,5 +63188,5 @@
       "videos": {}
     }
   ],
-  "version": "a37219c5b2bef146ed133dded5fb6f29940e8560"
+  "version": "80253b9735fdf716b2b1fae4d66163e3a546f209"
 }
