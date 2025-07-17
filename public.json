@@ -62120,7 +62120,8 @@
             "GATEWAY",
             "SWITCH",
             "APPLICATION_GATEWAY",
-            "HAS_CLIENTS"
+            "HAS_CLIENTS",
+            "TRAFFIC_FLOWS_ALLOWED_TRAFFIC"
           ],
           "diagram": [
             "01 02 03 04 05"
@@ -63188,5 +63189,5 @@
       "videos": {}
     }
   ],
-  "version": "80253b9735fdf716b2b1fae4d66163e3a546f209"
+  "version": "99f453890adafce5192127a787192b3811ebc003"
 }
