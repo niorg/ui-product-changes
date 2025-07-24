@@ -22547,6 +22547,111 @@
       "videos": {}
     },
     {
+      "btle": {
+        "factoryDefault": "ea100aa3-d9d6-40d9-825b-79c481af6e56",
+        "userConfigured": "ca201216-99e5-45c6-bbc3-c9b719741acc"
+      },
+      "guids": [
+        "ea100aa3-d9d6-40d9-825b-79c481af6e56",
+        "ca201216-99e5-45c6-bbc3-c9b719741acc"
+      ],
+      "icon": {
+        "id": "827c35a5-6393-4b1e-9774-939ecddfcc86",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "77ce1d39-d79f-4e02-9e63-258f639462f2",
+      "images": {
+        "default": "3e62eb298cf8ac1a29bb9f3691755323",
+        "nopadding": "1ec4e421209da2dfb65d9dc2537e073d",
+        "topology": "5e8cb623f9ca5dd9f9b1d764d41519fe"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "U5G Max",
+        "name": "U5G Max"
+      },
+      "shortnames": [
+        "5G-Link",
+        "U5G-Link",
+        "U5G-Max",
+        "U5GLINK"
+      ],
+      "sku": "U5G-Max",
+      "sysid": "e630",
+      "sysids": [
+        "e630"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "r",
+          "deviceCapabilities": [
+            "ULTE",
+            "MBB_DUAL_SIM_SLOT",
+            "MBB_ESIM",
+            "INTERNET_PROVIDER"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 2500,
+          "minimumFirmwareRequired": "7.3.17",
+          "model": "UMBBE630",
+          "numberOfPorts": 1,
+          "radios": {},
+          "systemIdHexadecimal": "e630",
+          "type": "umbb"
+        }
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "anatel": "10539-23-08356",
         "cn": "2023AJ11728",
@@ -38429,6 +38534,204 @@
         "mobile-setup-wizard-plugin": "84fd960dc329a162d6ca37d91d25b833",
         "mobile-setup-wizard-testing-connection": "ac4a57d188291ef1621683d881023d13"
       }
+    },
+    {
+      "btle": {
+        "factoryDefault": "6a66d334-4306-4de4-9d8f-564a33b2c57b",
+        "userConfigured": "59fc2d05-bad4-45b1-a67e-065f8abc08d9"
+      },
+      "deviceType": "console",
+      "guids": [
+        "08919539-a91d-4598-ac20-5d90bbfda75a",
+        "6a66d334-4306-4de4-9d8f-564a33b2c57b",
+        "59fc2d05-bad4-45b1-a67e-065f8abc08d9"
+      ],
+      "icon": {
+        "id": "c97d44f9-ccca-40db-afe4-3bbc033879d3",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "af587f48-a53c-4a39-8eec-1ef3cc840e8d",
+      "images": {
+        "default": "7f1603adace8754d4bcbda79f159d269",
+        "nopadding": "b3a02ca6e172b4e09bfb6b31d376f0b4",
+        "topology": "f86cd2dcd126b9cc37b64d82173fc472"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "UDR-5G-Max",
+        "name": "Dream Router 5G Max"
+      },
+      "shortnames": [
+        "UDR-5G-Max"
+      ],
+      "sku": "UDR-5G-Max",
+      "sysid": "a6b9",
+      "sysids": [
+        "a6b9"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "standalone",
+        "network": {
+          "chipset": "j",
+          "deviceCapabilities": [
+            "GATEWAY",
+            "SWITCH",
+            "ACCESS_POINT",
+            "NETWORK_APPLICATION",
+            "PROTECT_APPLICATION",
+            "CONTROLLER",
+            "APPLICATION_MODE",
+            "MBB_DUAL_SIM_SLOT",
+            "MBB_ESIM",
+            "HAS_CLIENTS",
+            "QCA_WIFI_FULL_APPLY_PLATFORM",
+            "MOBILE_BROADBAND_GATEWAY"
+          ],
+          "diagram": [
+            "01 02 03 04 05"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "features": {
+            "poe": true
+          },
+          "knownUnsupportedFeatures": [
+            "SWITCH_CAP_DOT1X",
+            "SWITCH_CAP_PORT_ISOLATION",
+            "SWITCH_CAP_STORM_CONTROL",
+            "SWITCH_CAP_STP",
+            "SWITCH_CAP_LLDP_MED",
+            "SWITCH_CAP_EGRESS_RATE_LIMIT"
+          ],
+          "linkNegotiation": {
+            "eth2": {
+              "portIdx": 3,
+              "supportedValues": [
+                "autoneg",
+                "2500 FDX",
+                "1000 FDX",
+                "100 FDX",
+                "100 HDX",
+                "10 FDX",
+                "10 HDX"
+              ]
+            },
+            "eth3": {
+              "portIdx": 4,
+              "supportedValues": [
+                "autoneg",
+                "2500 FDX",
+                "1000 FDX",
+                "100 FDX",
+                "100 HDX",
+                "10 FDX",
+                "10 HDX"
+              ]
+            },
+            "eth4": {
+              "portIdx": 5,
+              "supportedValues": [
+                "autoneg",
+                "10000 FDX",
+                "1000 FDX"
+              ]
+            }
+          },
+          "minimumFirmwareRequired": "0.9.0",
+          "model": "UDMA6B9",
+          "networkGroups": {
+            "eth0": "LAN",
+            "eth1": "LAN",
+            "eth2": "LAN",
+            "eth3": "WAN",
+            "eth4": "WAN2"
+          },
+          "numberOfPorts": 5,
+          "ports": {
+            "eth0": "LAN",
+            "eth1": "LAN",
+            "eth2": "LAN",
+            "eth3": "WAN",
+            "eth4": "WAN2"
+          },
+          "power": {
+            "capacity": 40
+          },
+          "radios": {
+            "6e": {
+              "maxSpeedMegabitsPerSecond": 5765
+            },
+            "na": {
+              "maxSpeedMegabitsPerSecond": 4324
+            },
+            "ng": {
+              "maxSpeedMegabitsPerSecond": 688
+            }
+          },
+          "subtypes": [
+            "ugw",
+            "usw",
+            "uap"
+          ],
+          "switchPorts": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "systemIdHexadecimal": "a6b9",
+          "type": "udm"
+        }
+      },
+      "videos": {}
     },
     {
       "btle": {
@@ -63189,5 +63492,5 @@
       "videos": {}
     }
   ],
-  "version": "1335df59313d682b5156b3f8b3998ceb0191c8b1"
+  "version": "656ba9af6f61df6ec9b5c9ec45642a3106c40b25"
 }
