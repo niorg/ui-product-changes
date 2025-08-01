@@ -38773,6 +38773,7 @@
       "deviceType": "console",
       "guids": [
         "54167124-c67e-1b94-7b83-d6cf5607422e",
+        "35343136-3731-3234-2d63-3637652d3162",
         "b1d99fca-9a07-45bb-8aba-c09685b10e8b",
         "ed363c4b-f06e-4579-a977-90f31f590bfb"
       ],
@@ -38850,7 +38851,11 @@
       "sysids": [
         "a67a"
       ],
-      "triplets": [],
+      "triplets": [
+        {
+          "k1": "UDR7"
+        }
+      ],
       "unifi": {
         "adoptability": "standalone",
         "network": {
@@ -43010,9 +43015,9 @@
       },
       "id": "cdb9f66a-c42d-4d25-bc3f-2c26e96a369f",
       "images": {
-        "default": "304169f0566cb3d52e81e45f85343318",
-        "nopadding": "8fdf78cd0daada147fec7c7f205f7e8c",
-        "topology": "c925a69ad8995ec1700ee62a660127f6"
+        "default": "c7ca0a038b4166cb53cb948a53563f36",
+        "nopadding": "07d94c6d38ac319b116b377da590c8fd",
+        "topology": "32eb60beaad07dacb95b7c6b7c2203bb"
       },
       "line": {
         "id": "unifi-protect",
@@ -43032,6 +43037,90 @@
       "sysid": "da22",
       "sysids": [
         "da22"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "a097aff1-ea0b-4478-99dc-ff28ad8a5ab4"
+      ],
+      "icon": {
+        "id": "2fb0f5e6-e7c6-4216-841a-99fd2382e2fb",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "1e7bb998-d24d-4d87-bcf2-60fec0d25a4c",
+      "images": {
+        "default": "cb8b02dc85d1a48b388e476c2cc20c87",
+        "nopadding": "fd8bf3fddcd2cafffce0d55afa68dfe1",
+        "topology": "b1fcd61a55ff55dac73ee813d82c35ab"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "AI Horn Speaker",
+        "name": "Protect AI Horn Speaker"
+      },
+      "shortnames": [
+        "UP-Horn-Speaker-B",
+        "UP Horn Speaker B",
+        "UP-AI-Horn-Speaker-B",
+        "UP AI Horn Speaker B"
+      ],
+      "sku": "UP-AI-Horn-Speaker-B",
+      "sysid": "da30",
+      "sysids": [
+        "da30"
       ],
       "triplets": [],
       "unifi": {
@@ -63492,5 +63581,5 @@
       "videos": {}
     }
   ],
-  "version": "656ba9af6f61df6ec9b5c9ec45642a3106c40b25"
+  "version": "c0f24fdc4f5d9f98c3160876d3f9d80ff55c3c67"
 }
