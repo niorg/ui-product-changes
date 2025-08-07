@@ -22629,7 +22629,13 @@
       "sysids": [
         "e630"
       ],
-      "triplets": [],
+      "triplets": [
+        {
+          "k1": "U5GLINK",
+          "k2": "U5G-Link",
+          "k3": "U5GLINK"
+        }
+      ],
       "unifi": {
         "adoptability": "adoptable",
         "network": {
@@ -53744,6 +53750,113 @@
       "videos": {}
     },
     {
+      "fcc": "Compliant",
+      "guids": [
+        "e2f902bd-dd4e-44f2-b273-5582665057eb"
+      ],
+      "icon": {
+        "id": "af70c73e-c7b1-466a-abc7-9669c85c9a3c",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "0beae2c1-3281-48b5-be7a-1fdd9e74d356",
+      "images": {
+        "default": "b5b03c5cea7caedf417dd24220bb6339",
+        "nopadding": "4f6b242d3d72fa68f7e5c0e7f7f96198",
+        "topology": "c93851d38781aa10a8c05b49467a56ed"
+      },
+      "isARSupported": true,
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USW Pro XG Aggregation",
+        "name": "Switch Pro XG Aggregation"
+      },
+      "shortnames": [
+        "USW-Pro-XG-Aggregation"
+      ],
+      "sku": "USW-Pro-XG-Aggregation",
+      "sysid": "f003",
+      "sysids": [
+        "f003"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "p",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "diagram": [
+            "01 03 05 07 09 11 13 15 17 19 21 23 25 27 29 31",
+            "02 04 06 08 10 12 14 16 18 20 22 24 26 28 30 32"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 25000,
+          "features": {
+            "poe": false
+          },
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USWF003",
+          "numberOfPorts": 32,
+          "ports": {
+            "sfp28": "1-32"
+          },
+          "radios": {},
+          "systemIdHexadecimal": "f003",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "anatel": "06367-24-08356",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -63581,5 +63694,5 @@
       "videos": {}
     }
   ],
-  "version": "eaaf9f375cf2919d6fc2115970adff4365d4f9ab"
+  "version": "7952ec1f25507b31f1a88fb30a5fec96ef386d9d"
 }
