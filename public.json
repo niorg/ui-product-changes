@@ -7613,6 +7613,87 @@
       "videos": {}
     },
     {
+      "guids": [
+        "5a0dc35e-bdf8-48ad-886a-e6c4c0b9b166"
+      ],
+      "icon": {
+        "id": "6e95d9d7-4db8-4c91-a514-9d4c212f948d",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "07b17b1d-746f-4597-a957-6a56dbf40e1c",
+      "images": {
+        "default": "7c44792cb23391c1725e2c6e0550854d",
+        "nopadding": "43d3307a30b4449b4fb200845e53907d",
+        "topology": "a07bf97fd78329d0762c8d1ed290604b"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "ECS 24S PoE",
+        "name": "Switch Enterprise Campus 24S PoE"
+      },
+      "shortnames": [
+        "EAS24SP"
+      ],
+      "sku": "ECS-24S-PoE",
+      "sysid": "f004",
+      "sysids": [
+        "f004"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "ECS-48-PoE",
@@ -7728,6 +7809,112 @@
           },
           "radios": {},
           "systemIdHexadecimal": "f069",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "8e1f0aad-e8a8-4edc-831c-1149f9b58c12"
+      ],
+      "icon": {
+        "id": "e5be4888-7f37-4472-8667-a98f423e1553",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "0d17e9ba-5aee-4cc6-ad9e-f16250e1e615",
+      "images": {
+        "default": "fba3fb47a9497d0279fdaf5e8964bd20",
+        "nopadding": "b542d4327e3154adc1145d5b85baba25",
+        "topology": "be0552d3326e6f73131fde0223438759"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "ECS 48S PoE",
+        "name": "Switch Enterprise Campus 48S PoE"
+      },
+      "shortnames": [
+        "EAS48SP"
+      ],
+      "sku": "ECS-48S-PoE",
+      "sysid": "f006",
+      "sysids": [
+        "f006"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "p",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "diagram": [
+            "01 03 05 07 09 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 __ 49 51",
+            "02 04 06 08 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 __ 50 52"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 100000,
+          "features": {
+            "poe": true
+          },
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USWF006",
+          "numberOfPorts": 54,
+          "ports": {
+            "sfp28": "49-52",
+            "standard": 48
+          },
+          "radios": {},
+          "systemIdHexadecimal": "f006",
           "type": "usw"
         }
       },
@@ -40034,7 +40221,7 @@
         "name": "UniFi Protect"
       },
       "product": {
-        "abbrev": "UP Viewport",
+        "abbrev": "Viewport",
         "name": "Protect Viewport"
       },
       "shortnames": [
@@ -43495,7 +43682,7 @@
       },
       "product": {
         "abbrev": "Chime PoE",
-        "name": "Chime PoE"
+        "name": "Protect Chime PoE"
       },
       "shortnames": [
         "UP Chime PoE",
@@ -63694,5 +63881,5 @@
       "videos": {}
     }
   ],
-  "version": "7952ec1f25507b31f1a88fb30a5fec96ef386d9d"
+  "version": "affecc9a8fbde6bf1a6362277318acf49ac74978"
 }
