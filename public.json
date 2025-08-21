@@ -7899,8 +7899,8 @@
             "HAS_CLIENTS"
           ],
           "diagram": [
-            "01 03 05 07 09 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 __ 49 51",
-            "02 04 06 08 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 __ 50 52"
+            "01 03 05 07 09 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 __ 49 51 __ 53",
+            "02 04 06 08 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 __ 50 52 __ 54"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 100000,
           "features": {
@@ -7910,6 +7910,7 @@
           "model": "USWF006",
           "numberOfPorts": 54,
           "ports": {
+            "qsfp28": "53-54",
             "sfp28": "49-52",
             "standard": 48
           },
@@ -8051,6 +8052,14 @@
         "fcc": "SWX-EFG",
         "ic": "6545A-EFG",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "indoorOnly": true,
+        "jpa": [
+          "P25-0088001",
+          "L25-0018"
+        ],
+        "jrf": [
+          "020-250215"
+        ],
         "modelName": "EFG",
         "rcm": true,
         "rfCmFcc": 20,
@@ -25620,6 +25629,10 @@
         "fcc": "SWX-U7IW",
         "ic": "6545A-U7IW",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "indoorOnly": true,
+        "jrf": [
+          "201-250577"
+        ],
         "modelName": "U7-IW",
         "ncc": "CCAH25LP5320T2",
         "rcm": true,
@@ -27318,18 +27331,23 @@
     },
     {
       "compliance": {
-        "fcc": "SWX-U7PROXS",
+        "fcc": "SWX-U7PROX",
         "ic": "6545A-U7PROXS",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "indoorOnly": true,
+        "jrf": [
+          "201-250578"
+        ],
         "modelName": "U7-Pro-XGS",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
-            "WIFI_5",
-            "WIFI_6",
-            "www",
+            "IC",
             "RF",
-            "WIFI_5_DET_ANT"
+            "WIFI_5",
+            "WIFI_6"
           ],
           "US": [
             "FCC_B",
@@ -44311,7 +44329,12 @@
       ],
       "sku": "UPL-Amp-B",
       "sysids": [],
-      "triplets": [],
+      "triplets": [
+        {
+          "k1": "UPL-AMP",
+          "k2": "UniFi Play AMP"
+        }
+      ],
       "videos": {}
     },
     {
@@ -44392,7 +44415,12 @@
       ],
       "sku": "UPL-Amp-W",
       "sysids": [],
-      "triplets": [],
+      "triplets": [
+        {
+          "k1": "UPL-AMP",
+          "k2": "UniFi Play AMP"
+        }
+      ],
       "videos": {}
     },
     {
@@ -63881,5 +63909,5 @@
       "videos": {}
     }
   ],
-  "version": "affecc9a8fbde6bf1a6362277318acf49ac74978"
+  "version": "57691b901c73d03740575eb61e4d9c8db3d3c871"
 }
