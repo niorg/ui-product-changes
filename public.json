@@ -7689,7 +7689,33 @@
       ],
       "triplets": [],
       "unifi": {
-        "adoptability": "adoptable"
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "p",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "diagram": [
+            "__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ 25 27 __ 29",
+            "01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 __ 26 28 __ 30"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 100000,
+          "features": {
+            "poe": true
+          },
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USWF004",
+          "numberOfPorts": 30,
+          "ports": {
+            "plus": "1-24",
+            "qsfp28": "29-30",
+            "sfp28": "25-28"
+          },
+          "radios": {},
+          "systemIdHexadecimal": "f004",
+          "type": "usw"
+        }
       },
       "videos": {}
     },
@@ -26665,6 +26691,7 @@
     },
     {
       "compliance": {
+        "anatel": "04999-25-08356",
         "fcc": "SWX-U7PROO",
         "ic": "6545A-U7PROO",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -26673,6 +26700,9 @@
         "rfCmFcc": 20,
         "rfCmIc": 20,
         "text": {
+          "BR": [
+            "WIFI_6E"
+          ],
           "CA": [
             "IC",
             "RF",
@@ -27073,22 +27103,29 @@
       "compliance": {
         "fcc": "SWX-U7PROX",
         "ic": "6545A-U7PROX",
-        "icEmi": "CAN ices-003(B)/NMB-003(B)",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "indoorOnly": true,
+        "jrf": [
+          "201-250578"
+        ],
         "modelName": "U7-Pro-XG",
         "rcm": true,
+        "rfCmFcc": 25,
+        "rfCmIc": 25,
         "text": {
           "CA": [
             "WIFI_5",
-            "www",
+            "IC",
             "WIFI_6",
             "RF"
           ],
-          "UA": [
+          "US": [
             "FCC_B",
             "RF",
             "WIFI_6"
           ]
-        }
+        },
+        "wifi": "6e"
       },
       "guids": [
         "b10f644a-5169-bda4-e903-89b3ce330d7d"
@@ -35312,9 +35349,18 @@
         "userConfigured": "d809a963-062e-4cd8-907c-b690a6d6ace4"
       },
       "compliance": {
+        "anatel": "04395-25-08356",
         "fcc": "SWX-UCGF",
         "ic": "6545A-UCGF",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "indoorOnly": true,
+        "jpa": [
+          "P25-0087001",
+          "L25-0017"
+        ],
+        "jrf": [
+          "020-250213"
+        ],
         "modelName": "UCG-Fiber",
         "rcm": true,
         "rfCmFcc": 20,
@@ -35322,7 +35368,8 @@
         "text": {
           "CA": [
             "IC",
-            "RF"
+            "RF",
+            "WIFI_5"
           ],
           "US": [
             "FCC_B",
@@ -44040,6 +44087,91 @@
       "videos": {}
     },
     {
+      "guids": [
+        "7b54a6cd-9031-407c-8dbf-f94e1472ed00"
+      ],
+      "icon": {
+        "id": "e51f861c-e7a2-44dd-a8c5-c7e9db1b754f",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "728df861-0456-4c67-881a-af64e331f2bd",
+      "images": {
+        "default": "d95df78110aa201c9c6d6f02acee35ba",
+        "nopadding": "02908c93360b4d2d8298296a8b39f085",
+        "topology": "bc30c176610a0741692db056148eecf6"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "Siren PoE",
+        "name": "Protect Siren PoE"
+      },
+      "shortnames": [
+        "USLSP",
+        "USL-Siren-PoE",
+        "ESP32",
+        "UP-Siren",
+        "UP-Siren-PoE"
+      ],
+      "sku": "UP-Siren-PoE",
+      "sysid": "ae9c",
+      "sysids": [
+        "ae9c"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "fcc": "SWX-UPSL",
         "ic": "6545A-UPSL",
@@ -46968,6 +47100,178 @@
           ],
           "type": "ugw"
         }
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "803280f6-097b-40a2-ab68-030231a766c9"
+      ],
+      "icon": {
+        "id": "b8c35e5f-89a4-44c4-90a3-7ff055026279",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "f11f9842-e2ce-4e96-af4c-9c3adad8a676",
+      "images": {
+        "default": "00672bb62577399beaa642f4bacf5905",
+        "nopadding": "cc86b5f7abef23818cb46642252b4caf",
+        "topology": "ede87db5a145f90a29aa38f984d06c5f"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "USL Environmental",
+        "name": "SuperLink Environmental Sensor"
+      },
+      "shortnames": [
+        "USL-Environmental-EU"
+      ],
+      "sku": "USL-Environmental-EU",
+      "sysid": "ae93",
+      "sysids": [
+        "ae93"
+      ],
+      "triplets": [
+        {
+          "k1": "ST50H",
+          "k3": "USL-Environmental-EU"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "c6f6361c-caf7-4f28-888d-d8febdd10c8f"
+      ],
+      "icon": {
+        "id": "060d45cf-5ca4-4976-82d9-d31fb17f6847",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "4521bf62-fd23-44b1-88e1-6307f4df674c",
+      "images": {
+        "default": "00672bb62577399beaa642f4bacf5905",
+        "nopadding": "cc86b5f7abef23818cb46642252b4caf",
+        "topology": "ede87db5a145f90a29aa38f984d06c5f"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "USL Environmental",
+        "name": "SuperLink Environmental Sensor"
+      },
+      "shortnames": [
+        "USL-Environmental-US"
+      ],
+      "sku": "USL-Environmental-US",
+      "sysid": "ae92",
+      "sysids": [
+        "ae92"
+      ],
+      "triplets": [
+        {
+          "k1": "ST50H",
+          "k3": "USL-Environmental-US"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
       },
       "videos": {}
     },
@@ -56417,6 +56721,172 @@
       "videos": {}
     },
     {
+      "deviceType": "camera",
+      "guids": [
+        "7cccc99b-78c1-4c5c-ab4d-ceea61e39a30"
+      ],
+      "icon": {
+        "id": "1464e831-9770-40e4-83c8-01d4a0a33783",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "0f6888fc-ead9-4bf6-a9d1-e4847452e5c9",
+      "images": {
+        "default": "5840f5fbe98bc10a13e7d9cc4fab406c",
+        "nopadding": "2b81746036356c1ca94dd9daa4d25198",
+        "topology": "d3a90743213ac0c003a8a0251acf5979"
+      },
+      "jrf": [],
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "AI PTZ Precision",
+        "name": "Camera AI PTZ Precision"
+      },
+      "shortnames": [
+        "UVC-AI-PTZ-Precision-B"
+      ],
+      "sku": "UVC-AI-PTZ-Precision-B",
+      "sysid": "a067",
+      "sysids": [
+        "a067"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "camera",
+      "guids": [
+        "afc0bb2b-5832-4ecc-8da8-6de9421f0a3b"
+      ],
+      "icon": {
+        "id": "71bdf4a4-2e18-4756-a2bb-14a2aa02a2ca",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "6e3df585-fe6f-4e25-a66c-cf0ef6a0fa43",
+      "images": {
+        "default": "3eef8ff751313d8c92f91dcba611ca25",
+        "nopadding": "f3f4a6ff1e70b71f16a5e2ba5032d241",
+        "topology": "ce6f809f9413d4d64d049c09a866e962"
+      },
+      "jrf": [],
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "AI PTZ Precision",
+        "name": "Camera AI PTZ Precision"
+      },
+      "shortnames": [
+        "UVC-AI-PTZ-Precision-W"
+      ],
+      "sku": "UVC-AI-PTZ-Precision-W",
+      "sysid": "a066",
+      "sysids": [
+        "a066"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "UVC-AI-Pro",
@@ -60703,6 +61173,90 @@
     {
       "deviceType": "camera",
       "guids": [
+        "0079d5da-4540-4ee4-b88c-cc0833522ad9"
+      ],
+      "icon": {
+        "id": "e06fc0f4-ead4-4b7d-8a33-2c1f6fe2654f",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "d7f73f73-ab4f-42f6-bc2b-fd538feaffd2",
+      "images": {
+        "default": "3d09bbe074cefe125244337a4fe1165c",
+        "nopadding": "4fe1ae0d010a5e6ec5964cee9661b240",
+        "topology": "25f9dbc273b42c4933e40a0b3a411c8d"
+      },
+      "jrf": [],
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "G6 Pro Bullet",
+        "name": "Camera G6 Pro Bullet"
+      },
+      "shortnames": [
+        "UVC-G6-Pro-Bullet",
+        "UVC G6 Pro Bullet"
+      ],
+      "sku": "UVC-G6-Pro-Bullet",
+      "sysid": "a607",
+      "sysids": [
+        "a607"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "camera",
+      "guids": [
         "be9d8e45-62a8-ae84-8b23-71723c7decaf"
       ],
       "icon": {
@@ -62281,6 +62835,7 @@
         "userConfigured": "0b1eba00-cc65-4eb8-94c6-aab05e0b423c"
       },
       "compliance": {
+        "anatel": "04395-25-08356",
         "fcc": "SWX-UXGF",
         "ic": "6545A-UXGF",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -62291,7 +62846,8 @@
         "text": {
           "CA": [
             "IC",
-            "RF"
+            "RF",
+            "WIFI_5"
           ],
           "US": [
             "FCC_B",
@@ -62725,7 +63281,7 @@
         "userConfigured": "8d75e543-0e64-40b1-b243-87d15dacb4ca"
       },
       "compliance": {
-        "anatel": "06376-24-08356",
+        "anatel": "04873-25-08356",
         "cn": "24J99U16F001",
         "fcc": "SWX-UXGM",
         "ic": "6545A-UXGM",
@@ -62738,7 +63294,8 @@
         "text": {
           "CA": [
             "IC",
-            "RF"
+            "RF",
+            "WIFI_5"
           ],
           "US": [
             "FCC_B",
@@ -63909,5 +64466,5 @@
       "videos": {}
     }
   ],
-  "version": "57691b901c73d03740575eb61e4d9c8db3d3c871"
+  "version": "0983b917281c4aabac3e4d7bcfa54bd0c2e66946"
 }
