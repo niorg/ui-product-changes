@@ -8218,7 +8218,7 @@
             "01 03 05",
             "02 04 06"
           ],
-          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "ethernetMaxSpeedMegabitsPerSecond": 25000,
           "knownUnsupportedFeatures": [
             "SWITCH_CAP_DOT1X",
             "SWITCH_CAP_PORT_ISOLATION",
@@ -38168,7 +38168,7 @@
             "01 03 05 07 __ __ 10",
             "02 04 06 08 __ 09 11"
           ],
-          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "ethernetMaxSpeedMegabitsPerSecond": 10000,
           "knownUnsupportedFeatures": [
             "SWITCH_CAP_DOT1X",
             "SWITCH_CAP_PORT_ISOLATION",
@@ -43071,6 +43071,113 @@
     },
     {
       "btle": {
+        "factoryDefault": "d068e53a-bd4d-4339-b474-b2b863bd6a7d",
+        "userConfigured": "1a1ac5e5-1188-4a64-b162-9be2da2af869"
+      },
+      "deviceType": "console",
+      "guids": [
+        "b997b567-8627-4665-abc4-f134f711011c",
+        "d068e53a-bd4d-4339-b474-b2b863bd6a7d",
+        "1a1ac5e5-1188-4a64-b162-9be2da2af869"
+      ],
+      "icon": {
+        "id": "dda2ed46-2433-4973-a850-b2ca2b47e57a",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "832c8ef2-1936-4ac9-a776-3e3ca1dfd846",
+      "images": {
+        "default": "4aaffeed1569207d356513f2e6b5c19d",
+        "nopadding": "120e7d6ca43621c74cf9e6fe53bd4908",
+        "topology": "14f00bd416d91669c0810e799d6fe1e6"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "UNVR Instant",
+        "name": "Network Video Recorder Instant"
+      },
+      "shortnames": [
+        "UNVR-Instant",
+        "UNVRINS"
+      ],
+      "sku": "UNVR-Instant",
+      "sysid": "ea61",
+      "sysids": [
+        "ea61"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "standalone",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "1a1ac5e5-1188-4a64-b162-9be2da2af869",
+              "default": "d068e53a-bd4d-4339-b474-b2b863bd6a7d",
+              "features": {
+                "ucore": true
+              }
+            }
+          ],
+          "deviceCapabilities": [
+            "PROTECT_APPLICATION",
+            "STORAGE"
+          ],
+          "model": "UNVRINS",
+          "radios": {},
+          "type": "unvr"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "btle": {
         "factoryDefault": "575ef462-1589-42ec-941a-3002313393f2",
         "userConfigured": "10b3fc63-28eb-4f7e-b8de-7579cd609cf5"
       },
@@ -43216,6 +43323,85 @@
           "type": "unvr"
         }
       },
+      "videos": {}
+    },
+    {
+      "deviceType": "network-server-host",
+      "guids": [
+        "b4d704d3-9ced-45a4-9c18-14576eec12d4"
+      ],
+      "icon": {
+        "id": "9a3f6402-debb-4843-9134-8db21c07c5f2",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "c4999318-a197-4651-8d03-0975cf5240d3",
+      "images": {
+        "default": "237519c46177fe1808bb364987e532e5",
+        "nopadding": "595037e02b0293d516e6f3c81b867166",
+        "topology": "237519c46177fe1808bb364987e532e5"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "UOS Server",
+        "name": "UOS Server"
+      },
+      "shortnames": [
+        "UOSSERVER"
+      ],
+      "sku": "UOSSERVER",
+      "sysid": "ae01",
+      "sysids": [
+        "ae01"
+      ],
+      "triplets": [],
       "videos": {}
     },
     {
@@ -47105,6 +47291,178 @@
     },
     {
       "guids": [
+        "7b47d1de-082c-46ad-bed3-7f86223c7278"
+      ],
+      "icon": {
+        "id": "ac2c5835-575e-4222-8fba-9a7d0ace3cfc",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "ff2578ff-04c9-446b-a26b-be64cd4d6ef5",
+      "images": {
+        "default": "90f243a54124a4575e2c3f774272c5ba",
+        "nopadding": "2df55b8123884eecf5816e6ff2106d26",
+        "topology": "1e4848d5f3509d71d6bad47025df2b82"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "USL Entry",
+        "name": "SuperLink Entry Sensor"
+      },
+      "shortnames": [
+        "USL-Entry-EU"
+      ],
+      "sku": "USL-Entry-EU",
+      "sysid": "ae95",
+      "sysids": [
+        "ae95"
+      ],
+      "triplets": [
+        {
+          "k1": "ST50H",
+          "k3": "USL-Entry-EU"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "5bbbe941-d05f-4624-b359-69073405f119"
+      ],
+      "icon": {
+        "id": "01c3db84-fdd2-4516-a2e1-ae64da7bd107",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "8ca50236-d143-4443-8066-8f7608fda6c5",
+      "images": {
+        "default": "90f243a54124a4575e2c3f774272c5ba",
+        "nopadding": "2df55b8123884eecf5816e6ff2106d26",
+        "topology": "1e4848d5f3509d71d6bad47025df2b82"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "USL Entry",
+        "name": "SuperLink Entry Sensor"
+      },
+      "shortnames": [
+        "USL-Entry-US"
+      ],
+      "sku": "USL-Entry-US",
+      "sysid": "ae94",
+      "sysids": [
+        "ae94"
+      ],
+      "triplets": [
+        {
+          "k1": "ST50H",
+          "k3": "USL-Entry-US"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
         "803280f6-097b-40a2-ab68-030231a766c9"
       ],
       "icon": {
@@ -50846,6 +51204,14 @@
           "model": "USWED37",
           "numberOfPorts": 10,
           "ports": {
+            "meta": {
+              "09": {
+                "combo": [
+                  "09",
+                  "10"
+                ]
+              }
+            },
             "standard": 10
           },
           "radios": {},
@@ -60748,6 +61114,89 @@
     {
       "deviceType": "camera",
       "guids": [
+        "1a0d5bff-b431-4083-bdec-e982b1e03df1"
+      ],
+      "icon": {
+        "id": "49b30509-7f3a-4d18-b582-13736b46ba2d",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "6a2cdf63-3da0-41e1-919a-89539209a089",
+      "images": {
+        "default": "de9a3f502e3c54a1306c3b684e7075d7",
+        "nopadding": "7d1aaa5202f0e455cf9a40a96627a031",
+        "topology": "84d855c92ff0d8f461c6da70394565e6"
+      },
+      "jrf": [],
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "G6 Entry",
+        "name": "Camera G6 Entry"
+      },
+      "shortnames": [
+        "UVC-G6-Entry"
+      ],
+      "sku": "UVC-G6-Entry",
+      "sysid": "a063",
+      "sysids": [
+        "a063"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "camera",
+      "guids": [
         "b64f2ca8-00a1-d814-36cb-52e878d1fd27"
       ],
       "icon": {
@@ -64466,5 +64915,5 @@
       "videos": {}
     }
   ],
-  "version": "0983b917281c4aabac3e4d7bcfa54bd0c2e66946"
+  "version": "42cf1ec247868f0ac844d4d1a44534f7f8851d3c"
 }
