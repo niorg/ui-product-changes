@@ -43152,7 +43152,11 @@
       "sysids": [
         "ea61"
       ],
-      "triplets": [],
+      "triplets": [
+        {
+          "k3": "UNVRINS"
+        }
+      ],
       "unifi": {
         "adoptability": "standalone",
         "network": {
@@ -64915,5 +64919,5 @@
       "videos": {}
     }
   ],
-  "version": "42cf1ec247868f0ac844d4d1a44534f7f8851d3c"
+  "version": "4b27013a8f7e031e730f26af347797e945a6ae34"
 }
