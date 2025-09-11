@@ -27368,7 +27368,8 @@
     },
     {
       "compliance": {
-        "fcc": "SWX-U7PROX",
+        "anatel": "05123-25-08356",
+        "fcc": "SWX-U7PROXS",
         "ic": "6545A-U7PROXS",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "indoorOnly": true,
@@ -27380,6 +27381,9 @@
         "rfCmFcc": 20,
         "rfCmIc": 20,
         "text": {
+          "BR": [
+            "WIFI_6E"
+          ],
           "CA": [
             "IC",
             "RF",
@@ -27391,7 +27395,8 @@
             "RF",
             "WIFI_6"
           ]
-        }
+        },
+        "wifi": "6e"
       },
       "guids": [
         "407d8098-4358-51c4-9963-db99bbe2d7d8"
@@ -28990,9 +28995,9 @@
       },
       "id": "d10c347c-e037-423b-a8d8-5420f636ed4e",
       "images": {
-        "default": "7ad15a4310b0b9cd330792fa428d9252",
-        "nopadding": "1bd1017a9716d307f36ee181af0b8343",
-        "topology": "7ad15a4310b0b9cd330792fa428d9252"
+        "default": "3b8e29b11541c36f3c7800379b09024c",
+        "nopadding": "d0e7efa8a02dd6f67564983440a8b3f6",
+        "topology": "25058961b8ffdc24ebc96054ef25b08a"
       },
       "line": {
         "id": "unifi-access",
@@ -29168,9 +29173,9 @@
       },
       "id": "6658a780-34ac-415e-8291-08c2962b1201",
       "images": {
-        "default": "07e550ac075fe1f738be04750391ee3a",
-        "nopadding": "37c957313385cf606ce5008372da48b7",
-        "topology": "bd9d4145e4aea9193cac395f8d120eda"
+        "default": "2fa12b17840da5584cb7b1ba1f99d5c5",
+        "nopadding": "38a1dc414dcb1a37b644e600e68a5f6f",
+        "topology": "fab9a193980318f36abeaec3c3f11edc"
       },
       "line": {
         "id": "unifi-access",
@@ -35350,10 +35355,10 @@
       },
       "compliance": {
         "anatel": "04395-25-08356",
+        "cn": "25J99U16F001",
         "fcc": "SWX-UCGF",
         "ic": "6545A-UCGF",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
-        "indoorOnly": true,
         "jpa": [
           "P25-0087001",
           "L25-0017"
@@ -35368,8 +35373,7 @@
         "text": {
           "CA": [
             "IC",
-            "RF",
-            "WIFI_5"
+            "RF"
           ],
           "US": [
             "FCC_B",
@@ -35476,6 +35480,7 @@
             "CONTROLLER",
             "APPLICATION_MODE",
             "HAS_CLIENTS",
+            "SSL_INSPECTION",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC"
           ],
           "diagram": [
@@ -35755,6 +35760,7 @@
             "CONTROLLER",
             "APPLICATION_MODE",
             "HAS_CLIENTS",
+            "SSL_INSPECTION",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC"
           ],
           "diagram": [
@@ -37901,6 +37907,7 @@
             "CONTROLLER",
             "APPLICATION_MODE",
             "HAS_CLIENTS",
+            "SSL_INSPECTION",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
             "SD_WAN_HUB"
           ],
@@ -38161,6 +38168,7 @@
             "CONTROLLER",
             "APPLICATION_MODE",
             "HAS_CLIENTS",
+            "SSL_INSPECTION",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
             "SD_WAN_HUB"
           ],
@@ -38439,6 +38447,7 @@
             "CONTROLLER",
             "APPLICATION_MODE",
             "HAS_CLIENTS",
+            "SSL_INSPECTION",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
             "SD_WAN_HUB"
           ],
@@ -39396,6 +39405,7 @@
             "CONTROLLER",
             "APPLICATION_MODE",
             "HAS_CLIENTS",
+            "SSL_INSPECTION",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
             "SD_WAN_HUB"
           ],
@@ -47552,6 +47562,27 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-USLE",
+        "ic": "6545A-USLE",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USL-Environmental-US",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        },
+        "wifi": "5e"
+      },
       "guids": [
         "c6f6361c-caf7-4f28-888d-d8febdd10c8f"
       ],
@@ -57801,6 +57832,176 @@
     {
       "deviceType": "camera",
       "guids": [
+        "faeb2edd-6165-453c-bceb-0470469f3919"
+      ],
+      "icon": {
+        "id": "1d41f67e-79e4-4d12-a6eb-0ee431018f57",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "f6f2ffc6-e43b-4a8a-8d4a-97dccdd8f36f",
+      "images": {
+        "default": "d742e636c7376c26d0cb80ceb8dc1c81",
+        "nopadding": "0437edfdf8674559768b3509ca15b71d",
+        "topology": "bd9c05a47fe4fbf04a8e3e6e517b4161"
+      },
+      "jrf": [],
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "Doorbell Lite",
+        "name": "Camera Doorbell Lite"
+      },
+      "shortnames": [
+        "UVC-G6-Entry-Lite",
+        "G6-Entry-Lite",
+        "UVC-Doorbell-Lite"
+      ],
+      "sku": "UVC-Doorbell-Lite",
+      "sysid": "a061",
+      "sysids": [
+        "a061"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "camera",
+      "guids": [
+        "c58a9e22-4740-4e33-958e-dbecd460bf6e"
+      ],
+      "icon": {
+        "id": "cdc8d60a-2523-4ea3-adfd-764d27494d19",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "7934f9c8-6fe5-4a50-9a7b-18cc6db3f373",
+      "images": {
+        "default": "8b8f1c3221f815dd96160b71d3004ede",
+        "nopadding": "ea2787305a9bf7886f8d0cbf8a1fbe92",
+        "topology": "29875b3f711b6bc74e7d234defbc11ef"
+      },
+      "jrf": [],
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "Doorbell Lite",
+        "name": "Camera Doorbell Lite"
+      },
+      "shortnames": [
+        "UVC-G6-Entry-Lite-W",
+        "G6-Entry-Lite-W",
+        "UVC-Doorbell-Lite-W"
+      ],
+      "sku": "UVC-Doorbell-Lite-W",
+      "sysid": "a062",
+      "sysids": [
+        "a062"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "camera",
+      "guids": [
         "2d6823f4-f2a9-4ee1-80df-57d14cd6644c"
       ],
       "icon": {
@@ -61710,6 +61911,173 @@
     {
       "deviceType": "camera",
       "guids": [
+        "84e5c833-110c-44fa-9d5b-83af4a049d63"
+      ],
+      "icon": {
+        "id": "be028cb0-2b36-4dc7-9f14-f27d0aec23bf",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "b7f6ee15-bdc0-440a-b080-569db2a8e684",
+      "images": {
+        "default": "a840862684906972b2b3d526c2fa0a14",
+        "nopadding": "821f4668d1b8e602e0fe577aa433ee3a",
+        "topology": "bb319a42496b5e018e85df8888936b4a"
+      },
+      "jrf": [],
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "G6 Pro Entry",
+        "name": "Camera G6 Pro Entry"
+      },
+      "shortnames": [
+        "UVC-G6-Entry-Pro",
+        "UVC-G6-Pro-Entry"
+      ],
+      "sku": "UVC-G6-Pro-Entry",
+      "sysid": "a06d",
+      "sysids": [
+        "a06d"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "camera",
+      "guids": [
+        "2858402b-ecf3-4c00-8319-e442edc8515d"
+      ],
+      "icon": {
+        "id": "fc3b19ed-e78f-41fc-9d5c-00c09c905b40",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "8b3d4a25-1e6b-4ff1-8a76-e467d144e59d",
+      "images": {
+        "default": "c325d93770e5e1e6c13d65b05e0e4113",
+        "nopadding": "16066b354155c604974b313a2e019266",
+        "topology": "42cf76cb445cc2aad28c213aadf972fa"
+      },
+      "jrf": [],
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "G6 Turret",
+        "name": "Camera G6 Turret"
+      },
+      "shortnames": [
+        "UVC-G6-Turret-B"
+      ],
+      "sku": "UVC-G6-Turret-B",
+      "sysid": "a06b",
+      "sysids": [
+        "a06b"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "camera",
+      "guids": [
         "be9d8e45-62a8-ae84-8b23-71723c7decaf"
       ],
       "icon": {
@@ -64919,5 +65287,5 @@
       "videos": {}
     }
   ],
-  "version": "0be4ee1ab716f7f8e027753a8e642d13e71fb7ef"
+  "version": "87b11b75f3449de34d54f6584b62ee2b8ccbd240"
 }
