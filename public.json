@@ -42576,6 +42576,113 @@
     },
     {
       "btle": {
+        "factoryDefault": "9fec9f61-a61e-4ddf-b85e-2a2ca331eebf",
+        "userConfigured": "9e7c2339-d737-4f0f-91ad-fab32a2648eb"
+      },
+      "deviceType": "unifi-drive",
+      "guids": [
+        "1568d3aa-d2f7-4c5e-8ed5-ee57b87076c7",
+        "9fec9f61-a61e-4ddf-b85e-2a2ca331eebf",
+        "9e7c2339-d737-4f0f-91ad-fab32a2648eb"
+      ],
+      "icon": {
+        "id": "5b8b717b-be6e-4359-9484-bf4895e54f87",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "44ec01d7-d93b-4b06-b139-367db7d8cc5c",
+      "images": {
+        "default": "7d76802cba3026c92a9f2560b6d18649",
+        "nopadding": "0d75f67b979a6903cde7887bee1f53f0",
+        "topology": "735dd7d5d444ac8ba86c378bfb553ea5"
+      },
+      "line": {
+        "id": "unifi-drive",
+        "name": "UniFi Drive"
+      },
+      "product": {
+        "abbrev": "UNAS 2",
+        "name": "UNAS 2"
+      },
+      "shortnames": [
+        "UNAS-2-W",
+        "UNAS2-W",
+        "UNAS2W"
+      ],
+      "sku": "UNAS-2-W",
+      "sysid": "ea62",
+      "sysids": [
+        "ea62"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "standalone",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "9e7c2339-d737-4f0f-91ad-fab32a2648eb",
+              "default": "9fec9f61-a61e-4ddf-b85e-2a2ca331eebf",
+              "features": {
+                "ucore": true
+              }
+            }
+          ],
+          "deviceCapabilities": [
+            "STORAGE"
+          ],
+          "model": "UNAS2W",
+          "radios": {},
+          "type": "unas"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "btle": {
         "factoryDefault": "ec4c399c-49c9-4192-a4fd-b32f1622443e",
         "userConfigured": "edb1f0b7-bdcc-4b06-a326-17ff99997c5b"
       },
@@ -65287,5 +65394,5 @@
       "videos": {}
     }
   ],
-  "version": "87b11b75f3449de34d54f6584b62ee2b8ccbd240"
+  "version": "e7019ace09a6aeb3c0f1c5177da64d9c101012dc"
 }
