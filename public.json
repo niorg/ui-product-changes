@@ -43191,6 +43191,25 @@
         "factoryDefault": "d068e53a-bd4d-4339-b474-b2b863bd6a7d",
         "userConfigured": "1a1ac5e5-1188-4a64-b162-9be2da2af869"
       },
+      "compliance": {
+        "fcc": "SWX-UNVRI",
+        "ic": "6545A-UNVRI",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UNVR-Instant",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "console",
       "guids": [
         "b997b567-8627-4665-abc4-f134f711011c",
@@ -47497,6 +47516,27 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-USLET",
+        "ic": "6545A-USLET",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USL-Entry-US",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        },
+        "wifi": "5e"
+      },
       "guids": [
         "5bbbe941-d05f-4624-b359-69073405f119"
       ],
@@ -65394,5 +65434,5 @@
       "videos": {}
     }
   ],
-  "version": "e7019ace09a6aeb3c0f1c5177da64d9c101012dc"
+  "version": "a6e8eae4c542b98af76d70a73e398e25edaad885"
 }
