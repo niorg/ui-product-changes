@@ -7121,6 +7121,144 @@
     },
     {
       "compliance": {
+        "fcc": "SWX-E7ADI",
+        "ic": "6545A-E7ADI",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "E7-Audience-Indoor-US",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5",
+            "WIFI_6"
+          ],
+          "US": [
+            "FCC_B",
+            "RF",
+            "WIFI_6"
+          ]
+        }
+      },
+      "guids": [
+        "f3d2e5ad-a57a-43d0-ab37-b2a2f5f62e62",
+        "3ba54320-23f0-4e4f-a1ee-b02dbd7f9341"
+      ],
+      "icon": {
+        "id": "3d711293-cb29-45a8-8016-cf43d9e30b74",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "58d2e5e3-873c-47e6-9a7b-cf20f22ddc9c",
+      "images": {
+        "default": "2dc4620d70f6c8cf5f77810ddffb3ff2",
+        "nopadding": "25918576cfaab2f7ba2a44208afc68c9",
+        "topology": "0117fc6ae9a90c6eb43cfb9d1c48af29"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "E7 Audience Indoor",
+        "name": "Access Point E7 Audience Indoor"
+      },
+      "shortnames": [
+        "E7-Audience-Indoor",
+        "E7AI"
+      ],
+      "sku": "E7-Audience-Indoor",
+      "sysid": "a6af",
+      "sysids": [
+        "a6af"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "r",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT",
+            "E7_SERIES"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "features": {
+            "atfDisabled": true,
+            "ax": true,
+            "bandsteer": true,
+            "be": true,
+            "gen": 2,
+            "outdoorModeSupport": false
+          },
+          "minimumFirmwareRequired": "7.0.45",
+          "model": "UAPA6AF",
+          "numberOfPorts": 1,
+          "radios": {
+            "6e": {
+              "maxPower": 30,
+              "maxSpeedMegabitsPerSecond": 11528
+            },
+            "na": {
+              "maxPower": 30,
+              "maxSpeedMegabitsPerSecond": 8648
+            }
+          },
+          "systemIdHexadecimal": "a6af",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
         "anatel": "02724-25-08356",
         "fcc": "SWX-E7CP",
         "ic": "6545A-E7CP",
@@ -7381,6 +7519,129 @@
             }
           },
           "systemIdHexadecimal": "a6b1",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "2dfb6f86-7ea1-4fd6-916e-faac1b599641",
+        "d1e08e29-dd6b-4182-8d76-73ad2f912d12"
+      ],
+      "icon": {
+        "id": "78396b3a-d982-401c-9797-d25db99e2ef7",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "986873ae-a013-4d24-84eb-676942049db1",
+      "images": {
+        "default": "b5c3563eb3b1d979593c50fbdaeaf6cf",
+        "nopadding": "ef8b8b1bef9ab13fbfce2f053fd93d67",
+        "topology": "bdcd08a3d1141ff67700db7ca16bd961"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "E7 Campus Indoor",
+        "name": "Access Point E7 Campus Indoor"
+      },
+      "shortnames": [
+        "E7-Campus-Indoor",
+        "E7CI"
+      ],
+      "sku": "E7-Campus-Indoor",
+      "sysid": "a6bc",
+      "sysids": [
+        "a6bc"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "r",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT",
+            "E7_SERIES"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "features": {
+            "atfDisabled": true,
+            "ax": true,
+            "bandsteer": true,
+            "be": true,
+            "gen": 2,
+            "outdoorModeSupport": false
+          },
+          "minimumFirmwareRequired": "7.0.45",
+          "model": "UAPA6BC",
+          "numberOfPorts": 1,
+          "radios": {
+            "6e": {
+              "gain": 12,
+              "maxPower": 30,
+              "maxSpeedMegabitsPerSecond": 11528
+            },
+            "na": {
+              "gain": 9,
+              "maxPower": 23,
+              "maxSpeedMegabitsPerSecond": 8648
+            },
+            "ng": {
+              "gain": 12,
+              "maxPower": 30,
+              "maxSpeedMegabitsPerSecond": 688
+            }
+          },
+          "systemIdHexadecimal": "a6bc",
           "type": "uap"
         }
       },
@@ -42037,9 +42298,9 @@
       },
       "id": "31aa5696-921d-4146-ba79-f2620d8dcadc",
       "images": {
-        "default": "6d7d4a0a102228c07179b0ca6df93e6b",
-        "nopadding": "9ad9bc9be172b6a6da3fd2fdb31239de",
-        "topology": "c83eb7d7c403890067e772b9cc6b90da"
+        "default": "b8854852f2da978bd611e7f13582c717",
+        "nopadding": "fb602eecf6d2fa97cf9ccc1dc79360be",
+        "topology": "5a788497f4fbb1b72321219fa2a7171d"
       },
       "line": {
         "id": "unifi-connect",
@@ -42122,9 +42383,9 @@
       },
       "id": "0ee2450a-bc1d-4df9-8dee-ae3d9a94fa4b",
       "images": {
-        "default": "6d7d4a0a102228c07179b0ca6df93e6b",
-        "nopadding": "9ad9bc9be172b6a6da3fd2fdb31239de",
-        "topology": "c83eb7d7c403890067e772b9cc6b90da"
+        "default": "b8854852f2da978bd611e7f13582c717",
+        "nopadding": "fb602eecf6d2fa97cf9ccc1dc79360be",
+        "topology": "5a788497f4fbb1b72321219fa2a7171d"
       },
       "line": {
         "id": "unifi-led",
@@ -42576,6 +42837,113 @@
     },
     {
       "btle": {
+        "factoryDefault": "79863701-0592-4354-abf9-775e2fc2ca39",
+        "userConfigured": "3b57c478-fde5-4ba5-9205-39c62035e5f"
+      },
+      "deviceType": "unifi-drive",
+      "guids": [
+        "f6eb58fb-bd37-4c2f-80ad-6ce5e20295b9",
+        "79863701-0592-4354-abf9-775e2fc2ca39",
+        "3b57c478-fde5-4ba5-9205-39c62035e5f"
+      ],
+      "icon": {
+        "id": "2a322638-af22-487b-ac34-02eecd643048",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "6784d49d-f106-44ff-ba70-5fd2a020d65d",
+      "images": {
+        "default": "5e69528a667b0a4d145fed9f8551c836",
+        "nopadding": "94d4c346db3b352c1906546dc6cbb1c4",
+        "topology": "3afbf0d8d27b5a6c7b21db0f602b5719"
+      },
+      "line": {
+        "id": "unifi-drive",
+        "name": "UniFi Drive"
+      },
+      "product": {
+        "abbrev": "UNAS 2",
+        "name": "UNAS 2"
+      },
+      "shortnames": [
+        "UNAS-2-B",
+        "UNAS2-B",
+        "UNAS2B"
+      ],
+      "sku": "UNAS-2-B",
+      "sysid": "ea72",
+      "sysids": [
+        "ea72"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "standalone",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "3b57c478-fde5-4ba5-9205-39c62035e5f",
+              "default": "79863701-0592-4354-abf9-775e2fc2ca39",
+              "features": {
+                "ucore": true
+              }
+            }
+          ],
+          "deviceCapabilities": [
+            "STORAGE"
+          ],
+          "model": "UNAS2B",
+          "radios": {},
+          "type": "unas"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "btle": {
         "factoryDefault": "9fec9f61-a61e-4ddf-b85e-2a2ca331eebf",
         "userConfigured": "9e7c2339-d737-4f0f-91ad-fab32a2648eb"
       },
@@ -42675,6 +43043,220 @@
             "STORAGE"
           ],
           "model": "UNAS2W",
+          "radios": {},
+          "type": "unas"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "btle": {
+        "factoryDefault": "ce8ed43b-ff85-4154-ac0a-5fc2f5118819",
+        "userConfigured": "c181f5c2-1745-4683-b94a-efd68cc90a53"
+      },
+      "deviceType": "unifi-drive",
+      "guids": [
+        "ad981791-bd9f-4518-8a0d-265bfd2bd91a",
+        "ce8ed43b-ff85-4154-ac0a-5fc2f5118819",
+        "c181f5c2-1745-4683-b94a-efd68cc90a53"
+      ],
+      "icon": {
+        "id": "c66c62ed-6005-4646-b01f-0e8f63fab95a",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "3526d6c3-0781-44d9-a405-88aac8d81fa6",
+      "images": {
+        "default": "dd632e0792498fade90928c6602ce3a1",
+        "nopadding": "40dc01ad434a0c388e5204f3cbce35cf",
+        "topology": "d6f0ca054e1dd5c1a72eecda2d008cde"
+      },
+      "line": {
+        "id": "unifi-drive",
+        "name": "UniFi Drive"
+      },
+      "product": {
+        "abbrev": "UNAS 4",
+        "name": "UNAS 4"
+      },
+      "shortnames": [
+        "UNAS-4-B",
+        "UNAS4-B",
+        "UNAS4B"
+      ],
+      "sku": "UNAS-4-B",
+      "sysid": "ea66",
+      "sysids": [
+        "ea66"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "standalone",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "c181f5c2-1745-4683-b94a-efd68cc90a53",
+              "default": "ce8ed43b-ff85-4154-ac0a-5fc2f5118819",
+              "features": {
+                "ucore": true
+              }
+            }
+          ],
+          "deviceCapabilities": [
+            "STORAGE"
+          ],
+          "model": "UNASEA66",
+          "radios": {},
+          "type": "unas"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "btle": {
+        "factoryDefault": "4fb89d57-df75-4393-9fcc-407f55cb9927",
+        "userConfigured": "fb4828bc-f304-4a43-a5ef-3706e88a5c42"
+      },
+      "deviceType": "unifi-drive",
+      "guids": [
+        "5ba2db46-770a-4293-8f9e-acdde3835355",
+        "4fb89d57-df75-4393-9fcc-407f55cb9927",
+        "fb4828bc-f304-4a43-a5ef-3706e88a5c42"
+      ],
+      "icon": {
+        "id": "796ad917-ee8c-4594-aa27-2b495bec7e8f",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "7af9965e-9d87-4c2f-8eee-c71c7c520aeb",
+      "images": {
+        "default": "c161f38603e27450a3c1a6d1fcf36474",
+        "nopadding": "1146ce26765732b0a99a52eb83adb84a",
+        "topology": "5306d8d7ba3aa80e9b4e652b0a03d122"
+      },
+      "line": {
+        "id": "unifi-drive",
+        "name": "UniFi Drive"
+      },
+      "product": {
+        "abbrev": "UNAS 4",
+        "name": "UNAS 4"
+      },
+      "shortnames": [
+        "UNAS-4-W",
+        "UNAS4-W",
+        "UNAS4W"
+      ],
+      "sku": "UNAS-4-W",
+      "sysid": "ea65",
+      "sysids": [
+        "ea65"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "standalone",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "fb4828bc-f304-4a43-a5ef-3706e88a5c42",
+              "default": "4fb89d57-df75-4393-9fcc-407f55cb9927",
+              "features": {
+                "ucore": true
+              }
+            }
+          ],
+          "deviceCapabilities": [
+            "STORAGE"
+          ],
+          "model": "UNASEA65",
           "radios": {},
           "type": "unas"
         }
@@ -42808,6 +43390,223 @@
             "STORAGE"
           ],
           "model": "UNASPRO",
+          "radios": {},
+          "type": "unas"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "btle": {
+        "factoryDefault": "1dc5c392-eadd-4e8d-99e2-ce714f46aa1c",
+        "userConfigured": "8294f0d8-1256-46f6-bdb8-ea4cdc29327b"
+      },
+      "deviceType": "console",
+      "guids": [
+        "50c3d73f-9767-4c60-96e8-add12f8f24ba",
+        "1dc5c392-eadd-4e8d-99e2-ce714f46aa1c",
+        "8294f0d8-1256-46f6-bdb8-ea4cdc29327b"
+      ],
+      "icon": {
+        "id": "560f24dc-28b7-473e-910a-851627c6d443",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "9e887346-b086-4e48-955d-154cdfbb50c8",
+      "images": {
+        "default": "bb601a25dc15f8c552bb6ded529f7f60",
+        "nopadding": "2792824bcbf8a75cdbbdcd3ea37cb379",
+        "topology": "a20b8a9787c56560d7d8dadee7909900"
+      },
+      "line": {
+        "id": "unifi-drive",
+        "name": "UniFi Drive"
+      },
+      "product": {
+        "abbrev": "UNAS Pro 4",
+        "name": "UNAS Pro 4"
+      },
+      "shortnames": [
+        "UNAS-Pro-4",
+        "UNASPRO4"
+      ],
+      "sku": "UNAS-Pro-4",
+      "sysid": "ea67",
+      "sysids": [
+        "ea67"
+      ],
+      "triplets": [
+        {
+          "k1": "UNASPRO4",
+          "k3": "UNASPRO4"
+        }
+      ],
+      "unifi": {
+        "adoptability": "standalone",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "8294f0d8-1256-46f6-bdb8-ea4cdc29327b",
+              "default": "1dc5c392-eadd-4e8d-99e2-ce714f46aa1c",
+              "features": {
+                "ucore": true
+              }
+            }
+          ],
+          "deviceCapabilities": [
+            "STORAGE"
+          ],
+          "model": "UNASEA67",
+          "radios": {},
+          "type": "unas"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "btle": {
+        "factoryDefault": "db731650-6449-49c4-974f-fcf1787716e5",
+        "userConfigured": "70dda8fb-d838-4e94-8c79-054de88ee76a"
+      },
+      "deviceType": "console",
+      "guids": [
+        "5f2fce54-1e58-44e1-b368-8e9ca7b2ec84",
+        "db731650-6449-49c4-974f-fcf1787716e5",
+        "70dda8fb-d838-4e94-8c79-054de88ee76a"
+      ],
+      "icon": {
+        "id": "d8a2c824-5392-44fb-9c1b-37d55e09369c",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "e556b288-fdfa-4909-9278-a3af2a02be7f",
+      "images": {
+        "default": "274ec03ce0a54a4404eac951942a0005",
+        "nopadding": "4dc9ec6169956eae1bd303618c493c5c",
+        "topology": "3f5e33b73aee95daa1d9957f20eb70a8"
+      },
+      "line": {
+        "id": "unifi-drive",
+        "name": "UniFi Drive"
+      },
+      "product": {
+        "abbrev": "UNAS Pro 8",
+        "name": "UNAS Pro 8"
+      },
+      "shortnames": [
+        "UNAS-Pro-8",
+        "UNASPRO8"
+      ],
+      "sku": "UNAS-Pro-8",
+      "sysid": "ea63",
+      "sysids": [
+        "ea63"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "standalone",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "70dda8fb-d838-4e94-8c79-054de88ee76a",
+              "default": "db731650-6449-49c4-974f-fcf1787716e5",
+              "features": {
+                "ucore": true
+              }
+            }
+          ],
+          "deviceCapabilities": [
+            "STORAGE"
+          ],
+          "model": "UNASEA63",
           "radios": {},
           "type": "unas"
         }
@@ -65434,5 +66233,5 @@
       "videos": {}
     }
   ],
-  "version": "a6e8eae4c542b98af76d70a73e398e25edaad885"
+  "version": "1de506e1b0f2f3a915748ce61cc8ae1ad976c62c"
 }
