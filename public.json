@@ -26057,11 +26057,14 @@
     },
     {
       "compliance": {
+        "anatel": "04071-25-08356",
         "fcc": "SWX-U7LR",
         "ic": "6545A-U7LR",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "U7-LR",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -28462,11 +28465,19 @@
     },
     {
       "compliance": {
+        "anatel": "05599-25-08356",
+        "cn": "25J99U16G003",
         "fcc": "SWX-UAG3",
         "ic": "6545A-UAG3",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jnfc": "AC-25099",
+        "jrf": [
+          "020-250216"
+        ],
         "modelName": "UA-G3-W",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -28557,11 +28568,20 @@
     },
     {
       "compliance": {
+        "anatel": "05599-25-08356",
         "fcc": "SWX-UAG3",
         "ic": "6545A-UAG3",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jpa": [
+          "AC-25100"
+        ],
+        "jrf": [
+          "020-250216"
+        ],
         "modelName": "UA-G3-B",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -28924,11 +28944,20 @@
     },
     {
       "compliance": {
+        "cn": "25J99U16G002",
         "fcc": "SWX-UAG3P",
         "ic": "6545A-UAG3P",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jpa": [
+          "AC-25103"
+        ],
+        "jrf": [
+          "020-250214"
+        ],
         "modelName": "UA-G3-Pro-W",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -30035,6 +30064,88 @@
           "k3": "UDA-LITE"
         }
       ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "38681f61-35bc-4113-8288-96d54f434800"
+      ],
+      "icon": {
+        "id": "1d54257a-6203-40b7-b32e-e47a656a68aa",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "756721a7-29ca-4bf8-bd5f-324da8e30405",
+      "images": {
+        "default": "dff439937ca7c173771c38ee0537cf81",
+        "nopadding": "bc71bf5282f454adb452621c05aefcdc",
+        "topology": "3c75f3149017a7608d819a15a5600684"
+      },
+      "line": {
+        "id": "unifi-access",
+        "name": "UniFi Access"
+      },
+      "product": {
+        "abbrev": "UA Retrofit Hub 2",
+        "name": "Retrofit Hub 2"
+      },
+      "shortnames": [
+        "UA-Hub-Retrofit-4",
+        "UA-Retrofit-Hub-2"
+      ],
+      "sku": "UA-Retrofit-Hub-2",
+      "sysid": "ec8c",
+      "sysids": [
+        "ec8c"
+      ],
+      "triplets": [],
       "unifi": {
         "adoptability": "adoptable"
       },
@@ -34387,6 +34498,10 @@
         "fcc": "SWX-UCCASTP",
         "ic": "6545A-UCCASTP",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "indoorOnly": true,
+        "jrf": [
+          "020-250266"
+        ],
         "modelName": "UC-Cast-Pro",
         "rcm": true,
         "rfCmFcc": 20,
@@ -34401,7 +34516,8 @@
             "FCC_B",
             "RF"
           ]
-        }
+        },
+        "wifi": "5e"
       },
       "guids": [
         "2a428ae2-5822-4a4b-a265-9f0e5f3cf895"
@@ -42298,9 +42414,9 @@
       },
       "id": "31aa5696-921d-4146-ba79-f2620d8dcadc",
       "images": {
-        "default": "b8854852f2da978bd611e7f13582c717",
-        "nopadding": "fb602eecf6d2fa97cf9ccc1dc79360be",
-        "topology": "5a788497f4fbb1b72321219fa2a7171d"
+        "default": "2eaa8d346e65d24e2f713b337b73ec3f",
+        "nopadding": "d885a2f2929a37176468d8ed269fb4ea",
+        "topology": "661157604d8c1d3dfbb91de68e694107"
       },
       "line": {
         "id": "unifi-connect",
@@ -42333,7 +42449,7 @@
     {
       "guids": [],
       "icon": {
-        "id": "0bd85f15-112b-4963-b03e-d5954eb58109",
+        "id": "277b154c-1a2f-48fe-a6e5-187ef3b66043",
         "resolutions": [
           [
             25,
@@ -42383,9 +42499,9 @@
       },
       "id": "0ee2450a-bc1d-4df9-8dee-ae3d9a94fa4b",
       "images": {
-        "default": "b8854852f2da978bd611e7f13582c717",
-        "nopadding": "fb602eecf6d2fa97cf9ccc1dc79360be",
-        "topology": "5a788497f4fbb1b72321219fa2a7171d"
+        "default": "f1b4a245ce999b659ba85af32a227995",
+        "nopadding": "cfcafdedd8534651d7d1a28493b2d435",
+        "topology": "00a252c55d0fe86be21db05e892d912a"
       },
       "line": {
         "id": "unifi-led",
@@ -42840,6 +42956,25 @@
         "factoryDefault": "79863701-0592-4354-abf9-775e2fc2ca39",
         "userConfigured": "3b57c478-fde5-4ba5-9205-39c62035e5f"
       },
+      "compliance": {
+        "fcc": "SWX-UNAS2",
+        "ic": "6545A-UNAS2",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UNAS-2",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "unifi-drive",
       "guids": [
         "f6eb58fb-bd37-4c2f-80ad-6ce5e20295b9",
@@ -42946,6 +43081,25 @@
       "btle": {
         "factoryDefault": "9fec9f61-a61e-4ddf-b85e-2a2ca331eebf",
         "userConfigured": "9e7c2339-d737-4f0f-91ad-fab32a2648eb"
+      },
+      "compliance": {
+        "fcc": "SWX-UNAS2",
+        "ic": "6545A-UNAS2",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UNAS-2",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
       },
       "deviceType": "unifi-drive",
       "guids": [
@@ -43511,6 +43665,25 @@
       "btle": {
         "factoryDefault": "db731650-6449-49c4-974f-fcf1787716e5",
         "userConfigured": "70dda8fb-d838-4e94-8c79-054de88ee76a"
+      },
+      "compliance": {
+        "fcc": "SWX-UNASP8",
+        "ic": "6545A-UNASP8",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UNAS-Pro-8",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
       },
       "deviceType": "console",
       "guids": [
@@ -66233,5 +66406,5 @@
       "videos": {}
     }
   ],
-  "version": "1de506e1b0f2f3a915748ce61cc8ae1ad976c62c"
+  "version": "ca8d274f01bf119c784e402f69d338d5716a8900"
 }
