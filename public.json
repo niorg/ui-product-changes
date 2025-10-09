@@ -7850,7 +7850,7 @@
             "HAS_CLIENTS"
           ],
           "diagram": [
-            "01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 __ 25 26"
+            "01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 __ 25 26 __ 27"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 25000,
           "features": {
@@ -7958,8 +7958,8 @@
             "HAS_CLIENTS"
           ],
           "diagram": [
-            "__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ 25 27 __ 29",
-            "01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 __ 26 28 __ 30"
+            "__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ 25 27 __ 29 __ 31",
+            "01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 __ 26 28 __ 30 __ __"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 100000,
           "features": {
@@ -8080,8 +8080,8 @@
             "HAS_CLIENTS"
           ],
           "diagram": [
-            "01 03 05 07 09 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 __ 49 51",
-            "02 04 06 08 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 __ 50 52"
+            "01 03 05 07 09 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 __ 49 51 __ 53",
+            "02 04 06 08 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 __ 50 52 __ __"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 25000,
           "features": {
@@ -8186,8 +8186,8 @@
             "HAS_CLIENTS"
           ],
           "diagram": [
-            "01 03 05 07 09 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 __ 49 51 __ 53",
-            "02 04 06 08 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 __ 50 52 __ 54"
+            "01 03 05 07 09 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 __ 49 51 __ 53 __ 55",
+            "02 04 06 08 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 __ 50 52 __ 54 __ __"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 100000,
           "features": {
@@ -39383,6 +39383,7 @@
         "userConfigured": "ed363c4b-f06e-4579-a977-90f31f590bfb"
       },
       "compliance": {
+        "anatel": "05650-25-08356",
         "fcc": "SWX-UDR7",
         "ic": "6545A-UDR7",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -39397,8 +39398,8 @@
         "modelName": "UDR7",
         "ncc": "CCAH25LP2880T9",
         "rcm": true,
-        "rfCmFcc": 25,
-        "rfCmIc": 25,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -44253,7 +44254,8 @@
       },
       "shortnames": [
         "UNVR-Instant",
-        "UNVRINS"
+        "UNVRINS",
+        "UNVRINSTANT"
       ],
       "sku": "UNVR-Instant",
       "sysid": "ea61",
@@ -45758,7 +45760,10 @@
         "UPL-Amp-B"
       ],
       "sku": "UPL-Amp-B",
-      "sysids": [],
+      "sysid": "aa03",
+      "sysids": [
+        "aa03"
+      ],
       "triplets": [
         {
           "k1": "UPL-AMP",
@@ -45844,13 +45849,487 @@
         "UPL-Amp-W"
       ],
       "sku": "UPL-Amp-W",
-      "sysids": [],
+      "sysid": "aa03",
+      "sysids": [
+        "aa03"
+      ],
       "triplets": [
         {
           "k1": "UPL-AMP",
           "k2": "UniFi Play AMP"
         }
       ],
+      "videos": {}
+    },
+    {
+      "guids": [
+        "33f5377f-66e8-44fa-b5f1-7f8c3e3208e2"
+      ],
+      "icon": {
+        "id": "9a7a0582-a46e-48fc-b285-bcf4203fa69e",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "e201f56d-4e04-40fe-b7c1-5d6657190907",
+      "images": {
+        "default": "28239536286381693a719f59fb618065",
+        "nopadding": "ce6a27089186c5e4eff696c9080cc5c2",
+        "topology": "38716bd19dee9f736b6c1727d0da1d47"
+      },
+      "line": {
+        "id": "apollo",
+        "name": "Apollo"
+      },
+      "product": {
+        "abbrev": "UPL Port",
+        "name": "Play Audio Port"
+      },
+      "shortnames": [
+        "UPL-Port-B"
+      ],
+      "sku": "UPL-Port-B",
+      "sysid": "aa04",
+      "sysids": [
+        "aa04"
+      ],
+      "triplets": [],
+      "videos": {}
+    },
+    {
+      "guids": [
+        "0ab7e91b-3458-4653-aae2-56c4fa143f0e"
+      ],
+      "icon": {
+        "id": "d8b749c1-c323-4add-895b-c11f2785c9f1",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "d594a638-f869-40b2-88b4-773e6885931c",
+      "images": {
+        "default": "1baa024fa95f8204b4540c42eda68270",
+        "nopadding": "ca72a9a57b4ad99bba52a9fdf9d71ff3",
+        "topology": "af25f9ace9a9f7add97ef06a24db61f8"
+      },
+      "line": {
+        "id": "apollo",
+        "name": "Apollo"
+      },
+      "product": {
+        "abbrev": "UPL Port",
+        "name": "Play Audio Port"
+      },
+      "shortnames": [
+        "UPL-Port-W"
+      ],
+      "sku": "UPL-Port-W",
+      "sysid": "aa05",
+      "sysids": [
+        "aa05"
+      ],
+      "triplets": [],
+      "videos": {}
+    },
+    {
+      "guids": [
+        "317875ca-ad3e-47e9-9430-47e3e2e1ab3d"
+      ],
+      "icon": {
+        "id": "aaa68a1d-1bfb-48b3-826f-74e40e6d9c83",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "b5c0849b-0157-43db-9fc9-625c4485f81d",
+      "images": {
+        "default": "bb1dffe175173745f3b07fa8f3d730f3",
+        "nopadding": "4c551c43f0f6f887ac4e4224ef44a447",
+        "topology": "574ca25b340736b3d5e428cf3a688249"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "UPS 2U",
+        "name": "UPS 2U"
+      },
+      "shortnames": [
+        "UPS-2U-EU",
+        "UPS26"
+      ],
+      "sku": "UPS-2U-EU",
+      "sysid": "da26",
+      "sysids": [
+        "da26"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "o",
+          "deviceCapabilities": [
+            "SMART_POWER",
+            "SWITCH",
+            "BATTERY_MANAGEMENT"
+          ],
+          "diagram": [],
+          "ethernetMaxSpeedMegabitsPerSecond": 100,
+          "knownUnsupportedFeatures": [
+            "SWITCH_CAP_DOT1X",
+            "SWITCH_CAP_STP",
+            "SWITCH_CAP_LLDP_MED"
+          ],
+          "minimumFirmwareRequired": "1.3.4",
+          "model": "USWDA26",
+          "numberOfPorts": 1,
+          "outlets": {
+            "lan": [
+              11
+            ],
+            "meta": {
+              "01": {
+                "marginLeft": "0px",
+                "rotation": "-90deg",
+                "tooltipPlacement": "top"
+              },
+              "05": {
+                "marginLeft": "0px",
+                "rotation": "-90deg",
+                "tooltipPlacement": "bottom"
+              },
+              "11": {
+                "portIdx": 1,
+                "tooltipPlacement": "top"
+              },
+              "12": {
+                "surgeType": "out",
+                "tooltipPlacement": "top"
+              },
+              "13": {
+                "surgeType": "in",
+                "tooltipPlacement": "bottom"
+              }
+            },
+            "rj45": [
+              12,
+              13
+            ],
+            "standard": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "surge": [
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          "outletsDiagram": [
+            "11 __ 01-02-03-04 __ 12",
+            "__ __ 05-06-07-08 __ 13"
+          ],
+          "ports": {
+            "standard": 1
+          },
+          "primaryOutletGroupCount": 32,
+          "primaryPortGroupCount": 32,
+          "radios": {},
+          "systemIdHexadecimal": "da26",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "8cd35d91-757b-4e2e-afc7-37288ddfa176"
+      ],
+      "icon": {
+        "id": "025c1d0f-aa03-433e-9cad-b4ad636424dd",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "8c892836-041f-42b6-ad12-65ad2ebfc187",
+      "images": {
+        "default": "a7277782214aafecc3bcc70f3a59fd0e",
+        "nopadding": "ea65a76fc8fe14acd912835d3cf8e6ce",
+        "topology": "64ff72640423e389006d4b1d8b856be7"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "UPS 2U",
+        "name": "UPS 2U"
+      },
+      "shortnames": [
+        "UPS-2U-US",
+        "UPS25"
+      ],
+      "sku": "UPS-2U-US",
+      "sysid": "da25",
+      "sysids": [
+        "da25"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "o",
+          "deviceCapabilities": [
+            "SMART_POWER",
+            "SWITCH",
+            "BATTERY_MANAGEMENT"
+          ],
+          "diagram": [],
+          "ethernetMaxSpeedMegabitsPerSecond": 100,
+          "knownUnsupportedFeatures": [
+            "SWITCH_CAP_DOT1X",
+            "SWITCH_CAP_STP",
+            "SWITCH_CAP_LLDP_MED"
+          ],
+          "minimumFirmwareRequired": "1.3.4",
+          "model": "USWDA25",
+          "numberOfPorts": 1,
+          "outlets": {
+            "lan": [
+              11
+            ],
+            "meta": {
+              "01": {
+                "marginLeft": "0px",
+                "rotation": "180deg",
+                "tooltipPlacement": "top"
+              },
+              "05": {
+                "marginLeft": "0px",
+                "tooltipPlacement": "bottom"
+              },
+              "11": {
+                "portIdx": 1,
+                "tooltipPlacement": "top"
+              },
+              "12": {
+                "surgeType": "out",
+                "tooltipPlacement": "top"
+              },
+              "13": {
+                "surgeType": "in",
+                "tooltipPlacement": "bottom"
+              }
+            },
+            "rj45": [
+              12,
+              13
+            ],
+            "standard": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "surge": [
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          "outletsDiagram": [
+            "11 __ 01-02-03-__-04 __ 12",
+            "__ __ 05-06-07-__-08 __ 13"
+          ],
+          "ports": {
+            "standard": [
+              1
+            ]
+          },
+          "primaryOutletGroupCount": 32,
+          "primaryPortGroupCount": 32,
+          "radios": {},
+          "systemIdHexadecimal": "da25",
+          "type": "usw"
+        }
+      },
       "videos": {}
     },
     {
@@ -45956,12 +46435,10 @@
             "meta": {
               "01": {
                 "marginLeft": "0px",
-                "rotation": "180deg",
                 "tooltipPlacement": "left",
                 "vertical": true
               },
               "06": {
-                "rotation": "180deg",
                 "tooltipPlacement": "right",
                 "vertical": true
               },
@@ -49104,6 +49581,522 @@
         {
           "k1": "ST50H",
           "k3": "USL-Environmental-US"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "45249f89-f43b-434d-8c54-c29d0b38a5bc"
+      ],
+      "icon": {
+        "id": "f81e7595-d41a-45f0-a9ef-950a251b8a35",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "5e96c47c-f810-4693-803d-7442dc90ddbf",
+      "images": {
+        "default": "6684ffd6a5ab70cfaf04b0168c9dc5df",
+        "nopadding": "b0691d7faeb503ceb0550f4a0dd178ff",
+        "topology": "ad7030d4547d9dd132acf677ccb1adad"
+      },
+      "line": {
+        "id": "apollo",
+        "name": "Apollo"
+      },
+      "product": {
+        "abbrev": "USL GlassBreak",
+        "name": "SuperLink GlassBreak Sensor"
+      },
+      "shortnames": [
+        "USL-GlassBreak-EU"
+      ],
+      "sku": "USL-GlassBreak-EU",
+      "sysid": "aea9",
+      "sysids": [
+        "aea9"
+      ],
+      "triplets": [
+        {
+          "k1": "ST50H",
+          "k3": "USL-Glass-Break-EU"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "e00932dc-4fa6-4db2-b6bf-e81c72877c2d"
+      ],
+      "icon": {
+        "id": "f81e7595-d41a-45f0-a9ef-950a251b8a35",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "51dc1e7c-3887-41ff-8504-f95fa81b7036",
+      "images": {
+        "default": "6684ffd6a5ab70cfaf04b0168c9dc5df",
+        "nopadding": "b0691d7faeb503ceb0550f4a0dd178ff",
+        "topology": "ad7030d4547d9dd132acf677ccb1adad"
+      },
+      "line": {
+        "id": "apollo",
+        "name": "Apollo"
+      },
+      "product": {
+        "abbrev": "USL GlassBreak",
+        "name": "SuperLink GlassBreak Sensor"
+      },
+      "shortnames": [
+        "USL-GlassBreak-US"
+      ],
+      "sku": "USL-GlassBreak-US",
+      "sysid": "aea8",
+      "sysids": [
+        "aea8"
+      ],
+      "triplets": [
+        {
+          "k1": "ST50H",
+          "k3": "USL-Glass-Break-US"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "a9a2c1e4-e86b-4cb2-ab64-adf159e0c900"
+      ],
+      "icon": {
+        "id": "3ac66ab4-566e-49ac-9da4-f752dc65cd13",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "831cf51e-f02c-45a1-8857-fdf8565a1e6b",
+      "images": {
+        "default": "a3b6080ce7e5ef4baa61c57ee52b2f19",
+        "nopadding": "ce3e3aea48b25791c922ebcc5c9bae3a",
+        "topology": "d6a353e1f5baace9361effe534c300e8"
+      },
+      "line": {
+        "id": "apollo",
+        "name": "Apollo"
+      },
+      "product": {
+        "abbrev": "USL Motion",
+        "name": "SuperLink Motion Sensor"
+      },
+      "shortnames": [
+        "USL-Motion-EU"
+      ],
+      "sku": "USL-Motion-EU",
+      "sysid": "aea4",
+      "sysids": [
+        "aea4"
+      ],
+      "triplets": [
+        {
+          "k1": "ST50H",
+          "k3": "USL-Motion-EU"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "fa4bb7d3-99a1-4696-8464-2f8edc96a55d"
+      ],
+      "icon": {
+        "id": "3ac66ab4-566e-49ac-9da4-f752dc65cd13",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "b4303556-8e2f-4990-95c2-9b6f2d34b4f8",
+      "images": {
+        "default": "a3b6080ce7e5ef4baa61c57ee52b2f19",
+        "nopadding": "ce3e3aea48b25791c922ebcc5c9bae3a",
+        "topology": "d6a353e1f5baace9361effe534c300e8"
+      },
+      "line": {
+        "id": "apollo",
+        "name": "Apollo"
+      },
+      "product": {
+        "abbrev": "USL Motion",
+        "name": "SuperLink Motion Sensor"
+      },
+      "shortnames": [
+        "USL-Motion-US"
+      ],
+      "sku": "USL-Motion-US",
+      "sysid": "aea3",
+      "sysids": [
+        "aea3"
+      ],
+      "triplets": [
+        {
+          "k1": "ST50H",
+          "k3": "USL-Motion-US"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "a1b1b4de-16b9-410e-bf85-c818c05770f4"
+      ],
+      "icon": {
+        "id": "9cbf1737-971b-4721-a452-7f05f9fdc0fa",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "2dd5e013-6a6f-4e81-b9e2-b2ac7ff107d0",
+      "images": {
+        "default": "3ac9f6b45dea2eedce0ff497e3113d55",
+        "nopadding": "3bde97c474e8fe0ce2f0e292f9ae1f0e",
+        "topology": "e3ca87c37e3fc71ee9408e6d7c84d236"
+      },
+      "line": {
+        "id": "apollo",
+        "name": "Apollo"
+      },
+      "product": {
+        "abbrev": "USL Siren",
+        "name": "SuperLink Siren"
+      },
+      "shortnames": [
+        "USL-Siren-EU"
+      ],
+      "sku": "USL-Siren-EU",
+      "sysid": "ae9b",
+      "sysids": [
+        "ae9b"
+      ],
+      "triplets": [
+        {
+          "k1": "ST50H",
+          "k3": "USL-Siren-EU"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "guids": [
+        "2540e1b5-c4d0-437c-bae3-ae561680cb33"
+      ],
+      "icon": {
+        "id": "9cbf1737-971b-4721-a452-7f05f9fdc0fa",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "13b744d3-9c8f-4c29-8921-3b5a4126a426",
+      "images": {
+        "default": "3ac9f6b45dea2eedce0ff497e3113d55",
+        "nopadding": "3bde97c474e8fe0ce2f0e292f9ae1f0e",
+        "topology": "e3ca87c37e3fc71ee9408e6d7c84d236"
+      },
+      "line": {
+        "id": "apollo",
+        "name": "Apollo"
+      },
+      "product": {
+        "abbrev": "USL Siren",
+        "name": "SuperLink Siren"
+      },
+      "shortnames": [
+        "USL-Siren-US"
+      ],
+      "sku": "USL-Siren-US",
+      "sysid": "ae9a",
+      "sysids": [
+        "ae9a"
+      ],
+      "triplets": [
+        {
+          "k1": "ST50H",
+          "k3": "USL-Siren-US"
         }
       ],
       "unifi": {
@@ -63352,6 +64345,25 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-UVCG6PE",
+        "ic": "6545A-UVCG6PE",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UVC-G6-Pro-Entry",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "camera",
       "guids": [
         "84e5c833-110c-44fa-9d5b-83af4a049d63"
@@ -66730,5 +67742,5 @@
       "videos": {}
     }
   ],
-  "version": "2ecdd8b7f354a943e001848f6333409cb4f4e24d"
+  "version": "c8f03a654811ab3fcf51227e75c4c8e2e17ed091"
 }
