@@ -29048,11 +29048,18 @@
     },
     {
       "compliance": {
+        "anatel": "06432-25-08356",
         "fcc": "SWX-UAG3P",
         "ic": "6545A-UAG3P",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jnfc": "AC-25104",
+        "jrf": [
+          "020-250214"
+        ],
         "modelName": "UA-G3-Pro-B",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -34023,7 +34030,8 @@
       "sku": "UBB",
       "sysid": "dc98",
       "sysids": [
-        "dc98"
+        "dc98",
+        "dcb6"
       ],
       "triplets": [
         {
@@ -45767,7 +45775,8 @@
       "triplets": [
         {
           "k1": "UPL-AMP",
-          "k2": "UniFi Play AMP"
+          "k2": "UniFi Play AMP",
+          "k3": "UPL-Amp-B"
         }
       ],
       "videos": {}
@@ -45856,7 +45865,8 @@
       "triplets": [
         {
           "k1": "UPL-AMP",
-          "k2": "UniFi Play AMP"
+          "k2": "UniFi Play AMP",
+          "k3": "UPL-Amp-W"
         }
       ],
       "videos": {}
@@ -46479,6 +46489,10 @@
             "01-02-03-04-05 06-07-08-09-10",
             "12 13"
           ],
+          "outletsDiagramMobile": [
+            "11 __ 06-07-08-09-10 __ 12",
+            "__ __ 01-02-03-04-05 __ 13"
+          ],
           "ports": {
             "standard": 1
           },
@@ -46639,6 +46653,10 @@
             "11",
             "01-02-03-04-05 06-07-08-09-10",
             "12 13"
+          ],
+          "outletsDiagramMobile": [
+            "11 __ 06-07-08-09-__-10 __ 12",
+            "__ __ 01-02-03-04-__-05 __ 13"
           ],
           "ports": {
             "standard": [
@@ -67742,5 +67760,5 @@
       "videos": {}
     }
   ],
-  "version": "c8f03a654811ab3fcf51227e75c4c8e2e17ed091"
+  "version": "b0802549b9bf13991963ae6ad056a290cdbd67ea"
 }
