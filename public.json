@@ -7850,7 +7850,7 @@
             "HAS_CLIENTS"
           ],
           "diagram": [
-            "01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 __ 25 26 __ 27"
+            "01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 __ 25 26"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 25000,
           "features": {
@@ -8080,8 +8080,8 @@
             "HAS_CLIENTS"
           ],
           "diagram": [
-            "01 03 05 07 09 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 __ 49 51 __ 53",
-            "02 04 06 08 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 __ 50 52 __ __"
+            "01 03 05 07 09 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 __ 49 51",
+            "02 04 06 08 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 __ 50 52"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 25000,
           "features": {
@@ -26061,6 +26061,10 @@
         "fcc": "SWX-U7LR",
         "ic": "6545A-U7LR",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "indoorOnly": true,
+        "jrf": [
+          "020-250317"
+        ],
         "modelName": "U7-LR",
         "rcm": true,
         "rfCmFcc": 20,
@@ -26075,7 +26079,8 @@
             "FCC_B",
             "RF"
           ]
-        }
+        },
+        "wifi": "5e"
       },
       "guids": [
         "de372702-2e89-4c49-86a1-c039134a3f31"
@@ -26341,7 +26346,12 @@
         "fcc": "SWX-UKPRO",
         "ic": "6545A-UKPRO",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "indoorOnly": true,
+        "jrf": [
+          "020-250303"
+        ],
         "modelName": "U7-Outdoor",
+        "ncc": "CCAH24LP8120T1",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
@@ -26355,7 +26365,8 @@
             "FCC_A",
             "RF"
           ]
-        }
+        },
+        "wifi": "5e"
       },
       "guids": [
         "94fa7682-bcb9-40aa-8552-f7c96eaa0231"
@@ -27373,6 +27384,7 @@
           "201-250578"
         ],
         "modelName": "U7-Pro-XG",
+        "ncc": "CCAH25LP9630T8",
         "rcm": true,
         "rfCmFcc": 25,
         "rfCmIc": 25,
@@ -27638,9 +27650,10 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "indoorOnly": true,
         "jrf": [
-          "201-250578"
+          "201-250579"
         ],
         "modelName": "U7-Pro-XGS",
+        "ncc": "CCAH25LP9640T1",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
@@ -66776,6 +66789,10 @@
       "compliance": {
         "anatel": "19089-22-08356",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "jpa": [
+          "P25-0130001",
+          "L25-0042"
+        ],
         "modelName": "UXG-Pro",
         "rcm": true,
         "rfCmFcc": 20,
@@ -67760,5 +67777,5 @@
       "videos": {}
     }
   ],
-  "version": "b0802549b9bf13991963ae6ad056a290cdbd67ea"
+  "version": "b0aaf1f2df60e3c3ab9a3307cc6427884dd2872d"
 }
