@@ -30369,6 +30369,106 @@
       "videos": {}
     },
     {
+      "btle": {
+        "factoryDefault": "8e60f02e-f699-4865-b83f-f40501752184",
+        "userConfigured": "0b9676ee-8352-440a-bf80-61541d578fcf"
+      },
+      "guids": [
+        "1bdacd6e-dcd7-480c-9899-33a42ba9accc",
+        "8e60f02e-f699-4865-b83f-f40501752184",
+        "0b9676ee-8352-440a-bf80-61541d578fcf"
+      ],
+      "icon": {
+        "id": "8d8a1a21-7303-467a-81bf-64d8b06808db",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "893ab2e1-3ee6-43f2-a609-8509e2e30574",
+      "images": {
+        "default": "32a934e2daf57689ec310896e90143c8",
+        "nopadding": "2e3f8a99ca1c6d0b6bbe61cb6c719a02",
+        "topology": "b7c584c4229957085f8b21d134c08274"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "SFP Wizard",
+        "name": "SFP Wizard"
+      },
+      "shortnames": [
+        "UACC-SFP-Wizard",
+        "USFPW"
+      ],
+      "sku": "UACC-SFP-Wizard",
+      "sysid": "da27",
+      "sysids": [
+        "da27"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "standalone",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "0b9676ee-8352-440a-bf80-61541d578fcf",
+              "default": "8e60f02e-f699-4865-b83f-f40501752184"
+            }
+          ],
+          "deviceCapabilities": [],
+          "model": "USFPW",
+          "radios": {},
+          "type": "usfp"
+        }
+      },
+      "videos": {}
+    },
+    {
       "fcc": "SWX-UAP",
       "guids": [],
       "ic": "6545A-UAP",
@@ -64376,6 +64476,174 @@
       "videos": {}
     },
     {
+      "deviceType": "camera",
+      "guids": [
+        "a4664f69-f9b8-4744-9f18-04f81cd484e0"
+      ],
+      "icon": {
+        "id": "e0d40c0b-d1f8-4e13-88a9-9f6d7eb7b7a6",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "82b19a48-7a0e-41db-a962-2223d5fc7efa",
+      "images": {
+        "default": "2fdc4394d7beeea2d06f4102f9a64a3e",
+        "nopadding": "324eda1d6ab5c7ef8a8285af6a35a174",
+        "topology": "514f5f448e677060e49a1f404ae6a191"
+      },
+      "jrf": [],
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "G6 Pro Dome",
+        "name": "Camera G6 Pro Dome"
+      },
+      "shortnames": [
+        "UVC-G6-Pro-Dome",
+        "G6-Pro Dome",
+        "UVC G6 Pro Dome"
+      ],
+      "sku": "UVC-G6-Pro-Dome",
+      "sysid": "a60b",
+      "sysids": [
+        "a60b"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "camera",
+      "guids": [
+        "4524f806-deea-418b-97fb-bdc1c4dc807c"
+      ],
+      "icon": {
+        "id": "ba45744d-d470-4cfb-a77d-07ec595012ae",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "8f293f1d-d6ec-4f0c-93b8-a8b559647cc6",
+      "images": {
+        "default": "1ba76748b0abd96b8065d3be48bd0b7d",
+        "nopadding": "2a3a2a20450dc92ab2d87c7a6c9355d2",
+        "topology": "eed21efd5aad9b80bab0f14ae16e6f5c"
+      },
+      "jrf": [],
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "G6 Pro Dome",
+        "name": "Camera G6 Pro Dome"
+      },
+      "shortnames": [
+        "UVC-G6-Pro-Dome-B"
+      ],
+      "sku": "UVC-G6-Pro-Dome-B",
+      "sysid": "a60c",
+      "sysids": [
+        "a60c"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "fcc": "SWX-UVCG6PE",
         "ic": "6545A-UVCG6PE",
@@ -64471,6 +64739,173 @@
       "sysid": "a06d",
       "sysids": [
         "a06d"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "camera",
+      "guids": [
+        "294881c4-fc93-4b15-8415-590cca87fcf9"
+      ],
+      "icon": {
+        "id": "9d9bebaf-2b2d-4097-81e1-0ea40922bac1",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "b1836d1f-9d87-4f71-93d0-605d1880cd03",
+      "images": {
+        "default": "0bb9fe35b21ea4650ffb44887370a24d",
+        "nopadding": "c2878a01f6dfd846bb129ca685eb5fb8",
+        "topology": "312938adf36cf8ce6e22f059a0001103"
+      },
+      "jrf": [],
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "G6 Pro Turret",
+        "name": "Camera G6 Pro Turret"
+      },
+      "shortnames": [
+        "UVC-G6-Pro-Turret",
+        "UVC G6 Pro Turret"
+      ],
+      "sku": "UVC-G6-Pro-Turret",
+      "sysid": "a609",
+      "sysids": [
+        "a609"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "camera",
+      "guids": [
+        "9cc5dd63-3b0c-4c8f-8594-13695939a126"
+      ],
+      "icon": {
+        "id": "6c1638b0-0bc3-4b9f-89a9-5b8a8b53073a",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "b0c268c5-8137-415f-9c24-574002f5284f",
+      "images": {
+        "default": "240827aa274d115ac939b5c4beced3ee",
+        "nopadding": "3cc2e343a717863080fabd7c67ccdee4",
+        "topology": "1441ec8a636d08a80e0a39f254158ba6"
+      },
+      "jrf": [],
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "G6 Pro Turret",
+        "name": "Camera G6 Pro Turret"
+      },
+      "shortnames": [
+        "UVC-G6-Pro-Turret-B"
+      ],
+      "sku": "UVC-G6-Pro-Turret-B",
+      "sysid": "a60a",
+      "sysids": [
+        "a60a"
       ],
       "triplets": [],
       "unifi": {
@@ -67777,5 +68212,5 @@
       "videos": {}
     }
   ],
-  "version": "b0aaf1f2df60e3c3ab9a3307cc6427884dd2872d"
+  "version": "ce72707254e6453609a221b2f5b08eaf0e5bf506"
 }
