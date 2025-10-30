@@ -27795,6 +27795,29 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-U7PROXS",
+        "ic": "6545A-U7PROXS",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "U7-Pro-XGS-B",
+        "ncc": "CCAH25LP9641T0",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5",
+            "WIFI_6"
+          ],
+          "US": [
+            "FCC_B",
+            "RF",
+            "WIFI_6"
+          ]
+        }
+      },
       "guids": [
         "478e8e2a-c482-456a-925d-b38cce70fc9e"
       ],
@@ -43330,6 +43353,25 @@
         "factoryDefault": "ce8ed43b-ff85-4154-ac0a-5fc2f5118819",
         "userConfigured": "c181f5c2-1745-4683-b94a-efd68cc90a53"
       },
+      "compliance": {
+        "fcc": "SWX-UNAS4",
+        "ic": "6545A-UNAS4",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UNAS-4-B",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "unifi-drive",
       "guids": [
         "ad981791-bd9f-4518-8a0d-265bfd2bd91a",
@@ -43436,6 +43478,25 @@
       "btle": {
         "factoryDefault": "4fb89d57-df75-4393-9fcc-407f55cb9927",
         "userConfigured": "fb4828bc-f304-4a43-a5ef-3706e88a5c42"
+      },
+      "compliance": {
+        "fcc": "SWX-UNAS4",
+        "ic": "6545A-UNAS4",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UNAS-4-W",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
       },
       "deviceType": "unifi-drive",
       "guids": [
@@ -43676,6 +43737,25 @@
       "btle": {
         "factoryDefault": "1dc5c392-eadd-4e8d-99e2-ce714f46aa1c",
         "userConfigured": "8294f0d8-1256-46f6-bdb8-ea4cdc29327b"
+      },
+      "compliance": {
+        "fcc": "SWX-UNASP4",
+        "ic": "6545A-UNASP4",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UNAS-Pro-4",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
       },
       "deviceType": "console",
       "guids": [
@@ -59521,6 +59601,180 @@
     {
       "deviceType": "camera",
       "guids": [
+        "732b9123-3664-48e8-a015-dc40830a717a"
+      ],
+      "icon": {
+        "id": "2a233881-ed0c-42fc-997f-9f67617e83f1",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "f6fd0136-fffa-462c-bd96-7ccd72c65939",
+      "images": {
+        "default": "c64056b9d273f924bacec508120baa8d",
+        "nopadding": "f6ef2d4876aeaa71f9b56c024e7ffe69",
+        "topology": "23433403f620902930c37fe6b252699a"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "AI MS 4",
+        "name": "Camera AI MS 4"
+      },
+      "shortnames": [
+        "UVC-AI-MS-4-B"
+      ],
+      "sku": "UVC-AI-MS-4-B",
+      "sysid": "b001",
+      "sysids": [
+        "b001"
+      ],
+      "triplets": [
+        {
+          "k1": "UVC-AI-MS-4-B",
+          "k3": "UVC-AI-MS-4-B"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "camera",
+      "guids": [
+        "4d5aacf1-50b2-4a9e-ae5c-22817408ea63"
+      ],
+      "icon": {
+        "id": "d9cd1665-49e0-4fd6-8d32-4d13e08577d9",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "c8b57f7d-52cb-49e2-9cb4-1a97cbe25bae",
+      "images": {
+        "default": "aafd58cef677035949cf9c89e266b4a1",
+        "nopadding": "2bafcbf85e113c81b9bec4a94ae68185",
+        "topology": "dfc99bf59a7db452ed69dc0ae21fed62"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "AI MS 4",
+        "name": "Camera AI MS 4"
+      },
+      "shortnames": [
+        "UVC-AI-MS-4-W"
+      ],
+      "sku": "UVC-AI-MS-4-W",
+      "sysid": "b000",
+      "sysids": [
+        "b000"
+      ],
+      "triplets": [
+        {
+          "k1": "UVC-AI-MS-4-W",
+          "k3": "UVC-AI-MS-4-W"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "camera",
+      "guids": [
         "ca6a3315-f26b-a4b4-f1fb-63c41cffaede"
       ],
       "icon": {
@@ -68212,5 +68466,5 @@
       "videos": {}
     }
   ],
-  "version": "ce72707254e6453609a221b2f5b08eaf0e5bf506"
+  "version": "84a4f4fbf257d0386e33b4464aa771aca8864a15"
 }
