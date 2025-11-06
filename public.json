@@ -50301,8 +50301,8 @@
         "topology": "ad7030d4547d9dd132acf677ccb1adad"
       },
       "line": {
-        "id": "apollo",
-        "name": "Apollo"
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
       },
       "product": {
         "abbrev": "USL GlassBreak",
@@ -50388,8 +50388,8 @@
         "topology": "ad7030d4547d9dd132acf677ccb1adad"
       },
       "line": {
-        "id": "apollo",
-        "name": "Apollo"
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
       },
       "product": {
         "abbrev": "USL GlassBreak",
@@ -50475,8 +50475,8 @@
         "topology": "d6a353e1f5baace9361effe534c300e8"
       },
       "line": {
-        "id": "apollo",
-        "name": "Apollo"
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
       },
       "product": {
         "abbrev": "USL Motion",
@@ -50562,8 +50562,8 @@
         "topology": "d6a353e1f5baace9361effe534c300e8"
       },
       "line": {
-        "id": "apollo",
-        "name": "Apollo"
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
       },
       "product": {
         "abbrev": "USL Motion",
@@ -50649,8 +50649,8 @@
         "topology": "e3ca87c37e3fc71ee9408e6d7c84d236"
       },
       "line": {
-        "id": "apollo",
-        "name": "Apollo"
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
       },
       "product": {
         "abbrev": "USL Siren",
@@ -50736,8 +50736,8 @@
         "topology": "e3ca87c37e3fc71ee9408e6d7c84d236"
       },
       "line": {
-        "id": "apollo",
-        "name": "Apollo"
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
       },
       "product": {
         "abbrev": "USL Siren",
@@ -69013,5 +69013,5 @@
       "videos": {}
     }
   ],
-  "version": "8edc8e3dc2d9baef751c6b2c05e0fedbf0497c76"
+  "version": "5eb337743669e108b0c0354b67e89aa1eb9218af"
 }
