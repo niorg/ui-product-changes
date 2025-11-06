@@ -1,6 +1,7 @@
 {
   "devices": [
     {
+      "deviceType": "access-point",
       "guids": [],
       "icon": {
         "id": "0d482159-5482-4cf7-b8ab-cfd1c798bab9",
@@ -98,6 +99,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "guids": [],
       "icon": {
         "id": "0b6d0790-dea7-47a0-a1a6-929b85b0f247",
@@ -192,6 +194,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "a07933f2-26f8-4170-83e3-0445a9901bb2",
@@ -277,6 +280,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "7145b7f3-2cf0-4a83-aeb0-9fe1d346d21a",
@@ -351,6 +355,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "266cbe73-ce3c-4577-a440-a8671c0f6d8a",
@@ -436,6 +441,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "43fd32b4-5399-42a4-bcbf-b016abb32be2",
@@ -519,6 +525,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "416085e0-8e0b-4b0c-a8e6-b1375b0bb5fc",
@@ -593,6 +600,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "8cd0e804-9c59-44a0-b52f-10788859cbd9",
@@ -676,6 +684,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "cbf68562-367a-441f-be87-80c6b51ecf54",
@@ -750,6 +759,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "81e8c7a0-378b-4ef9-b7fa-35a4a801d12f",
@@ -833,6 +843,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "f8eeff66-dd31-44b9-b242-ae9e7259a18f",
@@ -916,6 +927,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "c8a03889-e5a0-470e-b6e9-0e635a5cfcf9",
@@ -990,6 +1002,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "75647c84-fb87-42e8-b95b-3cd6dae801f1",
@@ -1064,6 +1077,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "6f8a665e-62e0-47e4-8b8b-1260d8636bfd",
@@ -1138,6 +1152,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "18c98ed2-2c5c-41a4-bb61-358640051e21",
@@ -1226,6 +1241,7 @@
         "factoryDefault": "5f4587c3-4819-4979-974a-e19a1557b70e",
         "userConfigured": "ac3e0973-cfee-4d5b-935a-ffca96959296"
       },
+      "deviceType": "radio",
       "guids": [
         "4898bbc2-1cfc-4b5a-aedc-5d9f228dbd2b",
         "5f4587c3-4819-4979-974a-e19a1557b70e",
@@ -1340,6 +1356,7 @@
         "factoryDefault": "51325c92-eed6-449d-aa77-62b7d202a2ae",
         "userConfigured": "2d8db27f-0047-4db6-af20-f39f3a947364"
       },
+      "deviceType": "radio",
       "guids": [
         "2d8db27f-0047-4db6-af20-f39f3a947364",
         "51325c92-eed6-449d-aa77-62b7d202a2ae"
@@ -1443,6 +1460,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "ed7f7932-138d-4e41-8dc9-740f6986a270",
@@ -1517,6 +1535,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "91dfb212-549a-42be-96bb-e4b1f44bba1a",
@@ -1591,6 +1610,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "72f36f95-1ae5-45a4-9286-5ea1dfd5d275",
@@ -1677,6 +1697,7 @@
         "factoryDefault": "0a81c6c1-f6cf-4295-8163-cdf62d8bee99",
         "userConfigured": "b663fde6-36e5-47f9-a4fe-1ea3a3d5098f"
       },
+      "deviceType": "radio",
       "guids": [
         "0a81c6c1-f6cf-4295-8163-cdf62d8bee99",
         "b663fde6-36e5-47f9-a4fe-1ea3a3d5098f"
@@ -1785,6 +1806,7 @@
         "factoryDefault": "0ef741b7-5b45-4b43-86c4-fee51b70da9f",
         "userConfigured": "c9432429-0645-43ff-ae12-12a8d9c9c6d0"
       },
+      "deviceType": "radio",
       "guids": [
         "0ef741b7-5b45-4b43-86c4-fee51b70da9f",
         "c9432429-0645-43ff-ae12-12a8d9c9c6d0"
@@ -1896,6 +1918,7 @@
         "factoryDefault": "1de27764-5338-4fe5-b856-c2b2cc33d821",
         "userConfigured": "716dc54e-cce4-4e1d-9b40-39e2d4e50ad4"
       },
+      "deviceType": "radio",
       "guids": [
         "1de27764-5338-4fe5-b856-c2b2cc33d821",
         "716dc54e-cce4-4e1d-9b40-39e2d4e50ad4"
@@ -2003,6 +2026,7 @@
         "factoryDefault": "9984640a-4f18-4d70-81a0-214c548ff299",
         "userConfigured": "f3d8c841-7ffc-4b08-b283-ee32c493afd2"
       },
+      "deviceType": "radio",
       "guids": [
         "9984640a-4f18-4d70-81a0-214c548ff299",
         "f3d8c841-7ffc-4b08-b283-ee32c493afd2"
@@ -2119,6 +2143,7 @@
         "factoryDefault": "25b7f024-ee1e-42c5-a7d3-7571ed4b0942",
         "userConfigured": "73c6970a-4de4-4d7b-a69e-b9e5ab846bcc"
       },
+      "deviceType": "radio",
       "guids": [
         "25b7f024-ee1e-42c5-a7d3-7571ed4b0942",
         "73c6970a-4de4-4d7b-a69e-b9e5ab846bcc"
@@ -2227,6 +2252,7 @@
         "factoryDefault": "97bf044a-ae79-4662-9556-86be477b4048",
         "userConfigured": "db26a9c5-38f6-469f-b25a-3a0835e8d858"
       },
+      "deviceType": "mesh-point",
       "guids": [
         "97bf044a-ae79-4662-9556-86be477b4048",
         "db26a9c5-38f6-469f-b25a-3a0835e8d858"
@@ -2318,6 +2344,7 @@
         "factoryDefault": "f650001a-c7bc-48b8-b4d6-2094df0f9e96",
         "userConfigured": "1de8dfb6-798a-4c85-ae3a-d1383f6489d0"
       },
+      "deviceType": "router",
       "guids": [
         "f650001a-c7bc-48b8-b4d6-2094df0f9e96",
         "1de8dfb6-798a-4c85-ae3a-d1383f6489d0"
@@ -2408,6 +2435,7 @@
       "videos": {}
     },
     {
+      "deviceType": "mesh-point",
       "guids": [],
       "icon": {
         "id": "59091973-2a6a-4e32-833d-b211e7c6811c",
@@ -2493,6 +2521,7 @@
         "factoryDefault": "8e2ac264-c025-404b-8542-4279bb20c9db",
         "userConfigured": "29715f63-3ee8-4eb5-8083-57f2c3cc2290"
       },
+      "deviceType": "router",
       "guids": [
         "8e2ac264-c025-404b-8542-4279bb20c9db",
         "29715f63-3ee8-4eb5-8083-57f2c3cc2290"
@@ -2583,6 +2612,7 @@
       "videos": {}
     },
     {
+      "deviceType": "mesh-point",
       "guids": [],
       "icon": {
         "id": "71c8ceb7-855a-467c-813f-881188960bd5",
@@ -2657,6 +2687,7 @@
       "videos": {}
     },
     {
+      "deviceType": "mesh-point",
       "guids": [],
       "icon": {
         "id": "a6a90de8-7415-44cb-aa3e-183aa9106bcc",
@@ -2735,6 +2766,7 @@
         "factoryDefault": "580f838e-0347-4292-a11e-0046bf44a28c",
         "userConfigured": "e6c76e7f-7c85-4beb-800e-068fd3243ae2"
       },
+      "deviceType": "mesh-point",
       "guids": [
         "580f838e-0347-4292-a11e-0046bf44a28c",
         "e6c76e7f-7c85-4beb-800e-068fd3243ae2"
@@ -2819,6 +2851,7 @@
       "videos": {}
     },
     {
+      "deviceType": "mesh-point",
       "guids": [],
       "icon": {
         "id": "f1acf7e7-4fad-41ef-a126-3bb871df91bf",
@@ -2904,6 +2937,7 @@
         "factoryDefault": "a1186430-e306-4a21-a7fc-2a8c036f177b",
         "userConfigured": "524d7208-e7c3-4e49-bca0-5520a7ea1252"
       },
+      "deviceType": "mesh-point",
       "guids": [
         "a1186430-e306-4a21-a7fc-2a8c036f177b",
         "524d7208-e7c3-4e49-bca0-5520a7ea1252"
@@ -2995,6 +3029,7 @@
         "factoryDefault": "876b2d8e-608b-4b64-a72e-64cd15bd14ec",
         "userConfigured": "fb99c030-e82a-4d08-bc09-89afdc97a7fc"
       },
+      "deviceType": "mesh-point",
       "guids": [
         "876b2d8e-608b-4b64-a72e-64cd15bd14ec",
         "fb99c030-e82a-4d08-bc09-89afdc97a7fc"
@@ -3083,6 +3118,7 @@
         "factoryDefault": "2d0e6153-8edf-4a02-b6c9-6d5f38bc60f2",
         "userConfigured": "69276eea-33df-417b-8fd4-cd038daebd3b"
       },
+      "deviceType": "power-supply",
       "guids": [
         "2d0e6153-8edf-4a02-b6c9-6d5f38bc60f2",
         "69276eea-33df-417b-8fd4-cd038daebd3b"
@@ -3172,6 +3208,7 @@
         "factoryDefault": "44ac45ab-9bb7-4f18-81fd-315753713b0d",
         "userConfigured": "c1962abe-9ec0-4c94-bb82-d0df81d0f37d"
       },
+      "deviceType": "router",
       "guids": [
         "44ac45ab-9bb7-4f18-81fd-315753713b0d",
         "c1962abe-9ec0-4c94-bb82-d0df81d0f37d"
@@ -3266,6 +3303,7 @@
         "factoryDefault": "0b70ceea-0094-4264-9ed6-84b8e5ad70af",
         "userConfigured": "e714595f-393c-4e41-8eb5-3f6c18716a7c"
       },
+      "deviceType": "router",
       "guids": [
         "0b70ceea-0094-4264-9ed6-84b8e5ad70af",
         "e714595f-393c-4e41-8eb5-3f6c18716a7c"
@@ -3354,6 +3392,7 @@
         "factoryDefault": "5296cda4-b87d-4aea-b1bb-daa00b11bb47",
         "userConfigured": "685bfcb6-69ec-4412-9726-ea680836054e"
       },
+      "deviceType": "router",
       "guids": [
         "5296cda4-b87d-4aea-b1bb-daa00b11bb47",
         "685bfcb6-69ec-4412-9726-ea680836054e"
@@ -3442,6 +3481,7 @@
         "factoryDefault": "680167c4-d19a-41e7-be67-690c12e24aa8",
         "userConfigured": "96cbce02-4fff-429a-b153-38ca2166f4fb"
       },
+      "deviceType": "router",
       "guids": [
         "680167c4-d19a-41e7-be67-690c12e24aa8",
         "96cbce02-4fff-429a-b153-38ca2166f4fb"
@@ -3530,6 +3570,7 @@
         "factoryDefault": "5abc5346-a76a-43e0-8d67-f6a6ec4ada05",
         "userConfigured": "67835b2e-c250-44bb-9c2f-9f6b0f33beee"
       },
+      "deviceType": "router",
       "guids": [
         "5abc5346-a76a-43e0-8d67-f6a6ec4ada05",
         "67835b2e-c250-44bb-9c2f-9f6b0f33beee"
@@ -3614,6 +3655,7 @@
       "videos": {}
     },
     {
+      "deviceType": "power-supply",
       "guids": [],
       "icon": {
         "id": "af03cf84-042c-4640-9da3-78555b24783a",
@@ -3699,6 +3741,7 @@
         "factoryDefault": "765d3900-cb20-4b0a-9da6-2debfd0893bd",
         "userConfigured": "71bcef36-8c0f-4c16-98f8-6331512817df"
       },
+      "deviceType": "radio",
       "guids": [
         "765d3900-cb20-4b0a-9da6-2debfd0893bd",
         "71bcef36-8c0f-4c16-98f8-6331512817df"
@@ -3783,6 +3826,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "e90212c1-68b2-4cd7-9fdf-e3e5ff02d21d",
@@ -3875,6 +3919,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "22bbcadc-fe1b-4edf-a274-64b6f588d226",
@@ -3965,6 +4010,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "2149255f-aa39-4dd5-95de-c3a707e43259",
@@ -4055,6 +4101,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "eee8402b-5935-4fd0-8435-5c49c82595bd",
@@ -4145,6 +4192,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "10e3ab49-07dc-4287-93e4-cb334de97e59",
@@ -4233,6 +4281,7 @@
       "videos": {}
     },
     {
+      "deviceType": "gateway",
       "guids": [],
       "icon": {
         "id": "4831047f-2945-45bc-a428-cac414b2fc1e",
@@ -4327,6 +4376,7 @@
       "videos": {}
     },
     {
+      "deviceType": "gateway",
       "guids": [],
       "icon": {
         "id": "c700d141-0cca-4366-9fe5-adeaf489d4e4",
@@ -4418,6 +4468,7 @@
       "videos": {}
     },
     {
+      "deviceType": "gateway",
       "guids": [],
       "icon": {
         "id": "38e6ed7d-b7cf-4f9a-b63a-2e2e0fd09d93",
@@ -4516,6 +4567,7 @@
       "videos": {}
     },
     {
+      "deviceType": "gateway",
       "guids": [],
       "icon": {
         "id": "a5f2a8c7-cddb-43aa-857f-3e6eed2a30ce",
@@ -4613,6 +4665,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "63408ba9-692b-4675-a9de-a1d5c240a752",
@@ -4687,6 +4740,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "fd76be91-75e2-47a9-8ce7-0f6290074ffb",
@@ -4761,6 +4815,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "632996d4-2451-4eaf-b867-abc3e0fb20bb",
@@ -4835,6 +4890,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "2b387b19-9acb-43c9-a15e-a02a36ac37cf",
@@ -4909,6 +4965,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "66e513cd-f2ac-42cf-9639-fb9b4e7e48ad",
@@ -4983,6 +5040,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "14aa2b23-8ec4-454c-8083-4dd1b69a253d",
@@ -5057,6 +5115,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "54dc0660-03dd-4662-9141-885ff7871c74",
@@ -5131,6 +5190,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "d784ed40-4bee-45c3-b1da-11a2f95eb457",
@@ -5205,6 +5265,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "e2fc90db-0fc5-4514-bc1a-55c82bfa5643",
@@ -5279,6 +5340,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "3fdb84b6-661d-438e-9796-83bf2c02678a",
@@ -5353,6 +5415,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "7a7d0e4a-d51b-4c52-8b1e-1a6a820575fe",
@@ -5427,6 +5490,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "01bec49d-a5c5-4dab-af04-dd9cbaadb22c",
@@ -5501,6 +5565,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "8397955c-cce7-40c2-989b-2a471da289dd",
@@ -5575,6 +5640,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "38cf8e86-ffd1-4b08-9bb4-edd349a3a8ad",
@@ -5649,6 +5715,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "c120f339-2ff9-4169-bc09-84d8ee094811",
@@ -5723,6 +5790,7 @@
       "videos": {}
     },
     {
+      "deviceType": "camera",
       "guids": [],
       "icon": {
         "id": "72f52fd6-9b06-47bb-9482-2387a6d30843",
@@ -5797,6 +5865,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "8cf569b1-2f27-448b-8300-89bc2d72b9dc",
@@ -5892,6 +5961,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "34c5ceec-05bd-43cf-9fc9-5d16cc12358c",
@@ -5979,6 +6049,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "c6730374-bd06-4be1-a6e8-db13b7efa2c7",
@@ -6073,6 +6144,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "a8fc33a7-bbaa-4df5-8f32-d72c88a6dbbb",
@@ -6160,6 +6232,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "45eb6eeb-a1ca-4721-918e-25449fbf39be",
@@ -6247,6 +6320,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "c435fe47-e902-4a97-a33d-0ac8b241fe26",
@@ -6341,6 +6415,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "5c2c11b0-639a-4ea7-8414-352090e29dd1",
@@ -6657,6 +6732,7 @@
       "videos": {}
     },
     {
+      "deviceType": "tool",
       "guids": [],
       "icon": {
         "id": "d7b20b4f-ce6b-483d-98af-d171f31e7677",
@@ -6766,6 +6842,7 @@
           ]
         }
       },
+      "deviceType": "access-point",
       "guids": [
         "0f16983f-89a5-5174-13d3-4d5971a35703"
       ],
@@ -6889,6 +6966,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "guids": [
         "15203a48-a885-fae4-a37b-ffac261869e4"
       ],
@@ -7004,6 +7082,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "guids": [
         "04a13660-be69-4a84-5f7b-5a9659261d3b",
         "afaaa4b1-3468-1504-af53-3c4269d497d2"
@@ -7142,6 +7221,7 @@
           ]
         }
       },
+      "deviceType": "access-point",
       "guids": [
         "f3d2e5ad-a57a-43d0-ab37-b2a2f5f62e62",
         "3ba54320-23f0-4e4f-a1ee-b02dbd7f9341"
@@ -7283,6 +7363,7 @@
           ]
         }
       },
+      "deviceType": "access-point",
       "guids": [
         "80716260-b1a9-2354-eb8b-b2edafe32489"
       ],
@@ -7408,6 +7489,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "guids": [
         "293625b1-2e48-459e-b899-7e1e9521aeea"
       ],
@@ -7525,6 +7607,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "guids": [
         "2dfb6f86-7ea1-4fd6-916e-faac1b599641",
         "d1e08e29-dd6b-4182-8d76-73ad2f912d12"
@@ -7663,6 +7746,7 @@
           ]
         }
       },
+      "deviceType": "access-hub",
       "guids": [
         "63ff0828-8a02-4625-85bb-b6cae8c89018"
       ],
@@ -7766,6 +7850,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "guids": [
         "0021820d-e651-51d4-da33-41789cce9fd4"
       ],
@@ -7874,6 +7959,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [
         "5a0dc35e-bdf8-48ad-886a-e6c4c0b9b166"
       ],
@@ -7967,7 +8053,7 @@
           },
           "minimumFirmwareRequired": "4.0.6",
           "model": "USWF004",
-          "numberOfPorts": 30,
+          "numberOfPorts": 31,
           "ports": {
             "plus": "1-24",
             "qsfp28": "29-30",
@@ -7996,6 +8082,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "guids": [
         "3fc96dd6-b858-a324-147b-9c886069eb83"
       ],
@@ -8102,6 +8189,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [
         "8e1f0aad-e8a8-4edc-831c-1149f9b58c12"
       ],
@@ -8195,7 +8283,7 @@
           },
           "minimumFirmwareRequired": "4.0.6",
           "model": "USWF006",
-          "numberOfPorts": 54,
+          "numberOfPorts": 55,
           "ports": {
             "qsfp28": "53-54",
             "sfp28": "49-52",
@@ -8224,6 +8312,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "guids": [
         "f7e32a13-a4e9-8c14-8003-9bceab46cf90"
       ],
@@ -8473,7 +8562,8 @@
             "SSL_INSPECTION",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
             "SD_WAN_HUB",
-            "ENTERPRISE_GATEWAY"
+            "ENTERPRISE_GATEWAY",
+            "UPS_PAIRING"
           ],
           "diagram": [
             "01 03 05",
@@ -8715,6 +8805,7 @@
       "videos": {}
     },
     {
+      "deviceType": "power-supply",
       "guids": [],
       "icon": {
         "id": "b83475be-3836-4ba0-86f7-6d630855ffdc",
@@ -8809,6 +8900,7 @@
       "videos": {}
     },
     {
+      "deviceType": "power-supply",
       "guids": [],
       "icon": {
         "id": "48a28a3f-8954-4237-b960-9f4e1164c883",
@@ -8905,6 +8997,7 @@
       "videos": {}
     },
     {
+      "deviceType": "power-supply",
       "guids": [],
       "icon": {
         "id": "8a787d4c-4cf8-4599-b9b8-b583b6d7d6d2",
@@ -8997,6 +9090,7 @@
       "videos": {}
     },
     {
+      "deviceType": "control",
       "guids": [],
       "icon": {
         "id": "a4c97faf-21b0-475e-abaf-6ae6b162d6d3",
@@ -9070,6 +9164,7 @@
       "videos": {}
     },
     {
+      "deviceType": "router",
       "guids": [],
       "icon": {
         "id": "762f014c-eeb1-462b-8b52-f9270c8b49a2",
@@ -9163,6 +9258,7 @@
       "videos": {}
     },
     {
+      "deviceType": "router",
       "guids": [],
       "icon": {
         "id": "7be4c1b7-98f0-43b9-aa3a-cea9f8408329",
@@ -9256,6 +9352,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "f43fbade-7472-4418-8492-025d708c2b1d",
@@ -9349,6 +9446,7 @@
       "videos": {}
     },
     {
+      "deviceType": "router",
       "guids": [],
       "icon": {
         "id": "45036a5a-5a2d-4a89-bd9f-6dab86158db2",
@@ -9426,6 +9524,7 @@
         "factoryDefault": "0b3db31c-db2b-4811-bc2d-8c960f0319fd",
         "userConfigured": "e6c39d85-3145-41e3-8c35-265bdc213981"
       },
+      "deviceType": "router",
       "guids": [
         "0b3db31c-db2b-4811-bc2d-8c960f0319fd",
         "e6c39d85-3145-41e3-8c35-265bdc213981"
@@ -9528,6 +9627,7 @@
       "videos": {}
     },
     {
+      "deviceType": "router",
       "guids": [],
       "icon": {
         "id": "94417c01-26f1-4972-940e-72f87d33bd70",
@@ -9619,6 +9719,7 @@
       "videos": {}
     },
     {
+      "deviceType": "router",
       "guids": [],
       "icon": {
         "id": "dd77e9cf-12ef-4ced-8505-263c5ec2123b",
@@ -9710,6 +9811,7 @@
       "videos": {}
     },
     {
+      "deviceType": "router",
       "guids": [],
       "icon": {
         "id": "7fb11401-5f46-48b1-b53d-656bb501a212",
@@ -9801,6 +9903,7 @@
       "videos": {}
     },
     {
+      "deviceType": "router",
       "guids": [],
       "icon": {
         "id": "5678c887-3162-4aef-a0c7-3c45f8f47a5f",
@@ -9892,6 +9995,7 @@
       "videos": {}
     },
     {
+      "deviceType": "router",
       "guids": [],
       "icon": {
         "id": "89d5d131-bc72-410c-8c1a-9e16b4a31a4d",
@@ -9986,6 +10090,7 @@
       "videos": {}
     },
     {
+      "deviceType": "router",
       "guids": [],
       "icon": {
         "id": "4c0b06c3-3ff1-435b-acfe-7e72347a5ece",
@@ -10077,6 +10182,7 @@
       "videos": {}
     },
     {
+      "deviceType": "router",
       "guids": [],
       "icon": {
         "id": "5f1fe772-6277-4266-9d57-886872f36705",
@@ -10172,6 +10278,7 @@
       "videos": {}
     },
     {
+      "deviceType": "router",
       "guids": [],
       "icon": {
         "id": "51be70ba-ea07-4689-a3be-226881d3f7cb",
@@ -10267,6 +10374,7 @@
       "videos": {}
     },
     {
+      "deviceType": "router",
       "guids": [],
       "icon": {
         "id": "bb660a42-f0ff-485b-8516-a7490da6ce92",
@@ -10360,6 +10468,7 @@
       "videos": {}
     },
     {
+      "deviceType": "router",
       "guids": [],
       "icon": {
         "id": "32fba9a9-32fc-4c3c-a857-2dda19258f0d",
@@ -10454,6 +10563,7 @@
       "videos": {}
     },
     {
+      "deviceType": "router",
       "guids": [],
       "icon": {
         "id": "08c9e2a0-0d93-4252-a148-66eebd438bf1",
@@ -10548,6 +10658,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "04a17349-e53b-4d04-b680-3ec48b2b64dc",
@@ -10641,6 +10752,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "82f47fb8-4980-4f86-a92b-2de84961f4ed",
@@ -10733,6 +10845,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "251ed170-e28d-4490-9456-0ccc01e98437",
@@ -10832,6 +10945,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "9a0b7324-cd78-487f-93b5-45cdb87f2639",
@@ -10933,6 +11047,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "136a5b7a-a762-4927-bc17-c94b7ffdb6d7",
@@ -11031,6 +11146,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "6ee65037-7b2e-4893-8e40-fcd18b626031",
@@ -11115,6 +11231,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "70e75839-2e1b-4094-9d6b-9fbccaf1bc32",
@@ -11211,6 +11328,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "1d395bc5-48d5-4ea7-a416-2dea75c4f8e8",
@@ -11312,6 +11430,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "aaeafbd8-51b9-408e-aafc-f4c223943ec5",
@@ -11413,6 +11532,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "e257630c-c30b-4b34-91d7-7dd5b91d193c",
@@ -11515,6 +11635,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "cfb8e1c1-483d-41b5-b7d2-e247ae6e10c0",
@@ -11616,6 +11737,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "ef529122-5400-4fd0-9226-724ac7288faf",
@@ -11714,6 +11836,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "f89556a7-79dc-4b24-a9c8-3add5b52fcdd",
@@ -11816,6 +11939,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "63af681b-6f0d-4c19-b710-761245579e5d",
@@ -11915,6 +12039,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "2bb8b622-fa0a-4689-a5b4-5e87a7f2d921",
@@ -12016,6 +12141,7 @@
       "videos": {}
     },
     {
+      "deviceType": "tool",
       "guids": [],
       "icon": {
         "id": "57212013-7160-46f4-8152-b397aa971350",
@@ -12109,6 +12235,7 @@
         "factoryDefault": "95287a83-ee8d-4266-9e91-708ddde272b4",
         "userConfigured": "6796f4de-8a0d-4955-aa21-f8a7534f027a"
       },
+      "deviceType": "radio",
       "guids": [
         "6796f4de-8a0d-4955-aa21-f8a7534f027a",
         "95287a83-ee8d-4266-9e91-708ddde272b4"
@@ -12226,6 +12353,7 @@
         "factoryDefault": "fc3d726b-f843-4be1-a8b6-8594ca887c5a",
         "userConfigured": "bff5764b-51ac-47f8-b4d0-0b43766420dd"
       },
+      "deviceType": "radio",
       "guids": [
         "bff5764b-51ac-47f8-b4d0-0b43766420dd",
         "fc3d726b-f843-4be1-a8b6-8594ca887c5a"
@@ -12334,6 +12462,7 @@
         "factoryDefault": "cda15717-383b-42ef-8f1e-7513ff5e4129",
         "userConfigured": "7669789e-738f-44da-8c46-3513553720a5"
       },
+      "deviceType": "radio",
       "guids": [
         "7669789e-738f-44da-8c46-3513553720a5",
         "cda15717-383b-42ef-8f1e-7513ff5e4129"
@@ -12434,6 +12563,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "d364969c-319a-43ec-858c-97159f51ecb3",
@@ -12508,6 +12638,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "5b9fcb98-0649-435d-b702-dfd580a8c1f9",
@@ -12582,6 +12713,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "5e9c5b95-72ee-407c-8357-5c17b9c9ad98",
@@ -12656,6 +12788,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "74cd5746-5566-49f5-a799-090722082f65",
@@ -12730,6 +12863,7 @@
       "videos": {}
     },
     {
+      "deviceType": "bridge",
       "guids": [],
       "icon": {
         "id": "7e0aa130-5b6f-4e0c-b4bb-941f629344e8",
@@ -12825,6 +12959,7 @@
       "videos": {}
     },
     {
+      "deviceType": "bridge",
       "guids": [],
       "icon": {
         "id": "df26820d-2eae-4372-b6eb-d7fdece754ff",
@@ -12917,6 +13052,7 @@
       "videos": {}
     },
     {
+      "deviceType": "accessory",
       "guids": [],
       "icon": {
         "id": "ee442a01-525c-4cb6-9ab3-1ca219a1d1ad",
@@ -12991,6 +13127,7 @@
       "videos": {}
     },
     {
+      "deviceType": "accessory",
       "guids": [],
       "icon": {
         "id": "12e760ad-f40e-4d97-a945-91e8f40ec120",
@@ -13079,6 +13216,7 @@
       "videos": {}
     },
     {
+      "deviceType": "power-supply",
       "guids": [],
       "icon": {
         "id": "471cb4ff-3fd4-485b-ba5f-3e7dd2ed2e4d",
@@ -13152,6 +13290,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "guids": [],
       "icon": {
         "id": "4af0883f-5287-43e0-a70b-fb01f4e69e36",
@@ -13239,6 +13378,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "guids": [],
       "icon": {
         "id": "d30f9787-1bd9-423c-a4ab-cad0fc229bca",
@@ -13337,6 +13477,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "guids": [],
       "icon": {
         "id": "c86cea62-acd1-4099-9ff9-84e937472f07",
@@ -13426,6 +13567,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "guids": [],
       "icon": {
         "id": "3c8ad25e-80ea-49b8-a6d8-93c4fd79bf51",
@@ -13513,6 +13655,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "4ba7b346-72c3-40c1-9e66-1de6980ce54c",
@@ -13615,6 +13758,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "d7786ca3-40f1-4e3f-a7bc-88cb76a596b1",
@@ -13710,6 +13854,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "1df30367-3e0c-41f1-918d-71f907419f87",
@@ -13806,6 +13951,7 @@
         "factoryDefault": "15d91100-482c-4c29-b5ba-1458a1026188",
         "userConfigured": "598b0277-2a7c-47e9-a3af-04068b5c7a35"
       },
+      "deviceType": "radio",
       "guids": [
         "15d91100-482c-4c29-b5ba-1458a1026188",
         "598b0277-2a7c-47e9-a3af-04068b5c7a35"
@@ -13918,6 +14064,7 @@
         "factoryDefault": "955da4b9-dce8-4372-b7c8-7e663f153296",
         "userConfigured": "582ccb91-54df-4e82-a411-ac988cad5332"
       },
+      "deviceType": "radio",
       "guids": [
         "582ccb91-54df-4e82-a411-ac988cad5332",
         "955da4b9-dce8-4372-b7c8-7e663f153296"
@@ -14022,6 +14169,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "bb51301d-190b-4ec4-a738-4dea51deb207",
@@ -14119,6 +14267,7 @@
         "factoryDefault": "cdd4aa77-ef2d-4e37-9198-93f3ecd7f734",
         "userConfigured": "25e5d218-8a6d-4463-9d73-b6955bffae01"
       },
+      "deviceType": "radio",
       "guids": [
         "25e5d218-8a6d-4463-9d73-b6955bffae01",
         "cdd4aa77-ef2d-4e37-9198-93f3ecd7f734"
@@ -14227,6 +14376,7 @@
         "factoryDefault": "05ffeb2d-191a-4207-b9f0-75b3ae31f1d9",
         "userConfigured": "8df8e1d4-b4f1-43c2-9556-4deb6675aa36"
       },
+      "deviceType": "radio",
       "guids": [
         "05ffeb2d-191a-4207-b9f0-75b3ae31f1d9",
         "8df8e1d4-b4f1-43c2-9556-4deb6675aa36"
@@ -14333,6 +14483,7 @@
         "factoryDefault": "4ad53301-6364-40e8-be30-b50cddeda108",
         "userConfigured": "c8fdaea6-e13d-4a21-a14d-59a816097cae"
       },
+      "deviceType": "radio",
       "guids": [
         "4ad53301-6364-40e8-be30-b50cddeda108",
         "c8fdaea6-e13d-4a21-a14d-59a816097cae"
@@ -14444,6 +14595,7 @@
         "factoryDefault": "64bf0ee9-0cec-4571-a12c-87fc690309be",
         "userConfigured": "be4804fd-abdb-438f-9b39-f4a6e5452ee0"
       },
+      "deviceType": "radio",
       "guids": [
         "64bf0ee9-0cec-4571-a12c-87fc690309be",
         "be4804fd-abdb-438f-9b39-f4a6e5452ee0"
@@ -14576,6 +14728,7 @@
           ]
         }
       },
+      "deviceType": "radio",
       "fcc": "SWX-LTURR",
       "guids": [
         "7108b460-fe5b-4f7a-abd4-9153b8046e18",
@@ -14687,6 +14840,7 @@
         "factoryDefault": "a637ed63-a0c5-4b06-9c71-32d2fd71628c",
         "userConfigured": "5ba5d1e5-68a9-4adf-ba50-52391376fc9c"
       },
+      "deviceType": "radio",
       "guids": [
         "5ba5d1e5-68a9-4adf-ba50-52391376fc9c",
         "a637ed63-a0c5-4b06-9c71-32d2fd71628c"
@@ -14789,6 +14943,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "f28f0b16-0bdd-4fc7-913a-53fa13d44983",
@@ -14885,6 +15040,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "bc8cbd02-cd2c-448a-a10a-59ed3f4a4c1d",
@@ -14989,6 +15145,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "07289d4a-167b-464d-827d-a215aae6ba0d",
@@ -15094,6 +15251,7 @@
       "videos": {}
     },
     {
+      "deviceType": "control",
       "guids": [],
       "icon": {
         "id": "ddbdc1fa-1230-41dd-8163-135a0cd80bfc",
@@ -15178,6 +15336,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "b70a5007-d1a5-447f-9e6e-c2d56dc82576",
@@ -15254,6 +15413,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "b26177b2-6b3e-4521-aaa5-c94d5c5c1ac0",
@@ -15328,6 +15488,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "1aa752f7-ec34-4c09-95f8-549620d6cdd2",
@@ -15415,6 +15576,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "174b4dad-3300-4d15-accd-99852d5deb36",
@@ -15512,6 +15674,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "d3968aef-0024-40f2-b4bb-77fa320127c9",
@@ -15601,6 +15764,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "3c388034-2595-42dc-95ac-160042e91069",
@@ -15695,6 +15859,7 @@
       "videos": {}
     },
     {
+      "deviceType": "bridge",
       "guids": [],
       "icon": {
         "id": "c3fd6d52-d027-4548-83a7-debac068b4c6",
@@ -15782,6 +15947,7 @@
       "videos": {}
     },
     {
+      "deviceType": "bridge",
       "guids": [],
       "icon": {
         "id": "aeb91a5b-ba35-4379-bbe0-b18843ac670f",
@@ -15869,6 +16035,7 @@
       "videos": {}
     },
     {
+      "deviceType": "bridge",
       "guids": [],
       "icon": {
         "id": "1cc4dfa8-f595-406a-81c5-d1f0a9bb125a",
@@ -15956,6 +16123,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "19cce56e-c074-4e6a-b609-fd55bcdaee80",
@@ -16051,6 +16219,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "219edbac-c600-4a10-8e14-202ea914cd9c",
@@ -16155,6 +16324,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "5de19a89-b376-488b-ac8e-e722c3db2642",
@@ -16245,6 +16415,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "7d510f59-88af-4f58-bfbe-9f4c85378b68",
@@ -16335,6 +16506,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "7a0b2be2-815b-4db7-b1e1-506b61771754",
@@ -16431,6 +16603,7 @@
       "videos": {}
     },
     {
+      "deviceType": "bridge",
       "guids": [],
       "icon": {
         "id": "7f59806b-aeca-4130-aaab-761a0ef94244",
@@ -16520,6 +16693,7 @@
       "videos": {}
     },
     {
+      "deviceType": "bridge",
       "guids": [],
       "icon": {
         "id": "2848669b-21a8-4ef9-8b1d-da08be911410",
@@ -16608,6 +16782,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "788d950f-b018-42c1-9ed7-37b4f1961aae",
@@ -16702,6 +16877,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "68a1a96b-5132-4377-af06-d264f7c888bc",
@@ -16789,6 +16965,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "2348885e-3677-4ec4-8876-6a8da579e92a",
@@ -16889,6 +17066,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "dcb71ec3-48e4-4a07-86f6-2d7c64041d1d",
@@ -16982,6 +17160,7 @@
       "videos": {}
     },
     {
+      "deviceType": "console",
       "guids": [],
       "icon": {
         "id": "18b34619-b3c4-406d-9569-ffdfa9fb07c6",
@@ -17069,6 +17248,7 @@
       "videos": {}
     },
     {
+      "deviceType": "power-supply",
       "guids": [],
       "icon": {
         "id": "515f4bf4-78c9-4a8c-888e-f2937b6049a8",
@@ -17145,6 +17325,7 @@
       "videos": {}
     },
     {
+      "deviceType": "power-supply",
       "guids": [],
       "icon": {
         "id": "dee28427-2228-46a6-8326-8d0f678796b0",
@@ -17221,6 +17402,7 @@
       "videos": {}
     },
     {
+      "deviceType": "bridge",
       "guids": [],
       "icon": {
         "id": "80e2b659-d874-45f8-a4d6-6e0a92a440dc",
@@ -17308,6 +17490,7 @@
       "videos": {}
     },
     {
+      "deviceType": "power-supply",
       "guids": [],
       "icon": {
         "id": "d50de2d2-0424-42e0-8a0a-97e7d03d19bc",
@@ -17384,6 +17567,7 @@
       "videos": {}
     },
     {
+      "deviceType": "power-supply",
       "guids": [],
       "icon": {
         "id": "49b7dc9a-c322-4b9b-b0ca-1b680f54bf9b",
@@ -17460,6 +17644,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "f0788e0f-c1ab-4513-a9f2-737582814e22",
@@ -17547,6 +17732,7 @@
       "videos": {}
     },
     {
+      "deviceType": "power-supply",
       "guids": [],
       "icon": {
         "id": "f7384e14-d8f8-464b-a7cd-415fcc446e05",
@@ -17628,6 +17814,7 @@
       "videos": {}
     },
     {
+      "deviceType": "power-supply",
       "guids": [],
       "icon": {
         "id": "7a93ccb6-0a6e-44cb-a75b-2ddb442248b6",
@@ -17712,6 +17899,7 @@
       "videos": {}
     },
     {
+      "deviceType": "bridge",
       "guids": [],
       "icon": {
         "id": "d2f6e7d5-c9c7-43ad-9222-c60035c08b58",
@@ -17799,6 +17987,7 @@
       "videos": {}
     },
     {
+      "deviceType": "bridge",
       "guids": [],
       "icon": {
         "id": "7a7c6293-d5f7-47e5-8d7a-eb6a8b1e726b",
@@ -17886,6 +18075,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "f695c994-792c-4c65-a442-7854359c38ce",
@@ -17981,6 +18171,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "b3567182-7fa9-467c-a409-0d8fc3b9dc5b",
@@ -18083,6 +18274,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "6b2de4eb-f5dd-41ca-921c-a45199c919de",
@@ -18179,6 +18371,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "91c4e08d-f859-45b6-a7eb-4813693a4ae2",
@@ -18266,6 +18459,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "56ae022c-43b2-41e5-8e60-bebb6cd7619a",
@@ -18354,6 +18548,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "5f698222-f47a-46db-9b8a-536b124fd9d8",
@@ -18441,6 +18636,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "ef5b4ad2-3fce-4003-9ae3-d69d6abd95dd",
@@ -18533,6 +18729,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "4dd60274-c886-4125-8904-896287b6ba37",
@@ -18624,6 +18821,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "9787bc52-d917-4289-8491-c87f0e229bb6",
@@ -18698,6 +18896,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "4ce7d0f8-6562-4055-a6ad-80373e5f9967",
@@ -18793,6 +18992,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "062809c1-94f1-4cc5-91a3-d80dac5761fb",
@@ -18892,6 +19092,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "64bfd869-a1f7-4a50-ae6f-b24df25fc8d6",
@@ -18988,6 +19189,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "3ffe53db-d90e-4b12-b478-5782c5a95102",
@@ -19085,6 +19287,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "1e712fb7-5601-4b90-ba6d-31fea2fc161e",
@@ -19173,6 +19376,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "1cffbbd9-4c33-4f30-8c27-e57a2388d498",
@@ -19266,6 +19470,7 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
       "guids": [],
       "icon": {
         "id": "a0127066-0fd5-439f-9252-c98c4b041c1f",
@@ -19340,6 +19545,7 @@
       "videos": {}
     },
     {
+      "deviceType": "bridge",
       "guids": [],
       "icon": {
         "id": "2752ae39-f810-4f1a-bc79-78465d3dcbb5",
@@ -19427,6 +19633,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "fcc": "SWX-B2",
       "guids": [],
       "ic": "6545A-B2",
@@ -19547,6 +19754,7 @@
       "videos": {}
     },
     {
+      "deviceType": "power-supply",
       "guids": [],
       "icon": {
         "id": "ced9ebcf-10dc-48be-ba4c-cc7a529d4399",
@@ -19630,6 +19838,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "df548d33-1321-450d-9726-f43f9b059d0e",
@@ -19725,6 +19934,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "e444d67c-823d-471f-ba1d-f3b10597e976",
@@ -19826,6 +20036,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "eaa64d5b-8f8b-4ce5-9c1b-1f2942cb7a98",
@@ -19914,6 +20125,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "c2df43cb-343f-42dd-8088-6d8abd0ef113",
@@ -20001,6 +20213,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "86f4bd7d-13d5-456b-9165-29f916d5563a",
@@ -20090,6 +20303,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "daa0c8af-8df3-455c-acec-aab27bf14c8e",
@@ -20186,6 +20400,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "a7e62b5f-e57a-4c2a-80ac-276211b84da4",
@@ -20275,6 +20490,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "3aa67234-64d9-455f-8e0e-d61ec9dc0bbe",
@@ -20368,6 +20584,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "118d5587-c450-4682-91d4-73c82ee38ca1",
@@ -20456,6 +20673,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "c3f621a0-c72d-4afb-867b-42e045015964",
@@ -20546,6 +20764,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "990695dd-5443-46ac-8495-06edd14134da",
@@ -20637,6 +20856,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "e0382f07-989e-4cff-93af-9541059c9ff4",
@@ -20724,6 +20944,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "697f4954-a6c1-46f9-acbc-74273f78b4eb",
@@ -20819,6 +21040,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "da9bc442-9422-4b51-91fb-321d3f92ed9b",
@@ -20908,6 +21130,7 @@
       "videos": {}
     },
     {
+      "deviceType": "accessory",
       "guids": [],
       "icon": {
         "id": "ebcdac04-563b-4850-a5b1-6a21213b1307",
@@ -20983,6 +21206,7 @@
       "videos": {}
     },
     {
+      "deviceType": "accessory",
       "guids": [],
       "icon": {
         "id": "4f30fcb3-f7f1-4585-9372-a8b4e6382cb6",
@@ -21058,6 +21282,7 @@
       "videos": {}
     },
     {
+      "deviceType": "accessory",
       "guids": [],
       "icon": {
         "id": "791e8a7c-8032-41e9-8d92-94ce59e06062",
@@ -21133,6 +21358,7 @@
       "videos": {}
     },
     {
+      "deviceType": "accessory",
       "guids": [],
       "icon": {
         "id": "dc5692d9-b410-4d1d-9248-e77d4e5a7d49",
@@ -21207,6 +21433,7 @@
       "videos": {}
     },
     {
+      "deviceType": "accessory",
       "guids": [],
       "icon": {
         "id": "7dfa47c2-ad88-4cd8-bca0-2a2969296a77",
@@ -21282,6 +21509,7 @@
       "videos": {}
     },
     {
+      "deviceType": "accessory",
       "guids": [],
       "icon": {
         "id": "3d414b1e-35c1-4aec-95fa-f93376cf13d5",
@@ -21357,6 +21585,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "6d29c405-2cec-4121-8f90-568320ff7f5e",
@@ -21431,6 +21660,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "150e4f47-3d0f-4f88-861b-1e4196ab610e",
@@ -21518,6 +21748,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "f70db56b-e291-4ead-86b5-f3339ee30302",
@@ -21607,6 +21838,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "1e18ea8b-9752-4cf1-8bbd-6ccfaf8109ac",
@@ -21704,6 +21936,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "52a61baf-07b1-4d5d-aa45-3748fe5ca1b4",
@@ -21813,6 +22046,7 @@
       "videos": {}
     },
     {
+      "deviceType": "radio",
       "guids": [],
       "icon": {
         "id": "344a4ca3-ece7-44b8-b569-38513b62f307",
@@ -21992,6 +22226,7 @@
       "videos": {}
     },
     {
+      "deviceType": "control",
       "guids": [],
       "icon": {
         "id": "7d971c71-74d9-4ef4-8292-0705dbff5222",
@@ -22085,6 +22320,7 @@
       "videos": {}
     },
     {
+      "deviceType": "control",
       "guids": [],
       "icon": {
         "id": "48b8b3b1-ebc0-4483-83d1-86c58189b006",
@@ -22183,6 +22419,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "f0091e72-e840-4e09-874a-adf49347318f",
@@ -22257,6 +22494,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "0ce387b3-bedf-419a-aeee-efb33da6ca26",
@@ -22346,6 +22584,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "89b714f2-5e8a-465c-9278-0e6b6fe10c60",
@@ -22435,6 +22674,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "fcbae031-4183-4f4a-a075-b041cd23d636",
@@ -22530,6 +22770,7 @@
       "videos": {}
     },
     {
+      "deviceType": "tool",
       "guids": [],
       "icon": {
         "id": "a2571213-2e41-4587-93b5-8584c95d995f",
@@ -22622,6 +22863,7 @@
           ]
         }
       },
+      "deviceType": "tool",
       "guids": [],
       "icon": {
         "id": "fe65d707-1bdb-46a3-b79b-bd600150226e",
@@ -22767,6 +23009,7 @@
           ]
         }
       },
+      "deviceType": "tool",
       "guids": [],
       "icon": {
         "id": "efbe5cab-8980-404f-a3a9-cc3dcb21b968",
@@ -22907,6 +23150,7 @@
           ]
         }
       },
+      "deviceType": "tool",
       "guids": [],
       "icon": {
         "id": "299afbfa-1584-2214-5673-42e6f7560a67",
@@ -23034,6 +23278,7 @@
         "factoryDefault": "ea100aa3-d9d6-40d9-825b-79c481af6e56",
         "userConfigured": "ca201216-99e5-45c6-bbc3-c9b719741acc"
       },
+      "deviceType": "router",
       "guids": [
         "ea100aa3-d9d6-40d9-825b-79c481af6e56",
         "ca201216-99e5-45c6-bbc3-c9b719741acc"
@@ -23168,6 +23413,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "access-point",
       "fcc": "SWX-U6P",
       "guids": [
         "29f55a65-3745-4110-9ca5-57ff968cad9e"
@@ -23332,6 +23578,7 @@
         },
         "wifi": "6e"
       },
+      "deviceType": "access-point",
       "fcc": "SWX-U6EP",
       "guids": [
         "3f3f9d29-a929-4bf0-8ef2-6391936a9ecd",
@@ -23498,6 +23745,7 @@
           ]
         }
       },
+      "deviceType": "access-point",
       "guids": [
         "cd2ea470-ee6e-447b-881d-4932f9e837aa",
         "417f50af-9ec0-4536-b525-06385c9d9fc9",
@@ -23668,6 +23916,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "access-point",
       "guids": [
         "c1903f50-9391-44a3-9b27-7b5a370da94f",
         "70f9ce41-e4ea-40e7-9ffe-1f42635d3e52"
@@ -23826,6 +24075,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "access-point",
       "guids": [
         "70f9ce41-e4ea-40e7-9ffe-1f42635d3e52",
         "c1903f50-9391-44a3-9b27-7b5a370da94f"
@@ -23980,6 +24230,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "access-point",
       "guids": [
         "f4fc9450-fdf4-4898-bf39-821b95f9f3c4",
         "f06176a5-109f-45f0-9734-8d3be87f6db8",
@@ -24150,6 +24401,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "access-point",
       "guids": [
         "883133c2-2781-4478-aa68-3338e6f3aa3c",
         "6ffe1fae-7a9e-4f70-bc82-8fcf530f9ddc",
@@ -24317,6 +24569,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "access-point",
       "fcc": "SWX-U6LR",
       "guids": [
         "3e6e0806-6562-4a01-b6cd-e3409c5f9627",
@@ -24479,6 +24732,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "access-point",
       "fcc": "SWX-U6LR",
       "guids": [
         "883ff5a6-f60a-4b56-a0a3-9e22bf1b91f2",
@@ -24649,6 +24903,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "access-point",
       "fcc": "SWX-U6LR",
       "guids": [
         "883ff5a6-f60a-4b56-a0a3-9e22bf1b91f2",
@@ -24813,6 +25068,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "access-point",
       "fcc": "SWX-U6LITE",
       "guids": [
         "1e6e3f47-38e5-429c-a94f-01475e44e9d0",
@@ -24975,6 +25231,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "access-point",
       "fcc": "SWX-U6MESHR",
       "guids": [],
       "ic": "6545A-U6MESHR",
@@ -25136,6 +25393,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "access-point",
       "fcc": "SWX-U6MESHR",
       "guids": [
         "3be3c588-5b16-463d-9d3d-7a1616de451e",
@@ -25297,6 +25555,7 @@
           ]
         }
       },
+      "deviceType": "access-point",
       "guids": [
         "c3616186-f1cd-4697-a03e-4087eda6f638",
         "2fc98ba9-956a-494e-92d0-0d1b287f0127",
@@ -25447,6 +25706,7 @@
           ]
         }
       },
+      "deviceType": "access-point",
       "guids": [
         "2950e56a-84d3-47f4-b037-f5ca1533bcb2"
       ],
@@ -25594,6 +25854,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "access-point",
       "fcc": "SWX-U6PROR",
       "guids": [
         "03cb814b-0000-40df-9d6f-7c8271da8a89",
@@ -25733,6 +25994,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "64fd4793-003f-41d0-a667-5b99539ce43e",
@@ -25831,6 +26093,7 @@
           ]
         }
       },
+      "deviceType": "access-point",
       "guids": [
         "0cfe23db-b3f3-ab74-6f8b-d11adb29927f"
       ],
@@ -25937,6 +26200,7 @@
           ]
         }
       },
+      "deviceType": "access-point",
       "guids": [
         "260f8ed3-aa45-7274-9f4b-7d4c9272e047"
       ],
@@ -26082,6 +26346,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "access-point",
       "guids": [
         "de372702-2e89-4c49-86a1-c039134a3f31"
       ],
@@ -26226,6 +26491,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "access-point",
       "guids": [
         "bc5233e7-36df-2334-3ae3-9d6d09b83f06"
       ],
@@ -26368,6 +26634,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "access-point",
       "guids": [
         "94fa7682-bcb9-40aa-8552-f7c96eaa0231"
       ],
@@ -26529,6 +26796,7 @@
         },
         "wifi": "6e"
       },
+      "deviceType": "access-point",
       "guids": [
         "cc5dfd33-f116-4256-8398-6d7bbf8bafd1",
         "60057af3-5969-443d-b665-8a6d86c2f319"
@@ -26682,6 +26950,7 @@
           ]
         }
       },
+      "deviceType": "access-point",
       "guids": [
         "7f81fb78-30c2-4f70-9c08-d14b28cf94ed"
       ],
@@ -26834,6 +27103,7 @@
           ]
         }
       },
+      "deviceType": "access-point",
       "guids": [
         "1cd5b2f7-02c9-49bb-85c8-388b9f68ddfc",
         "27066b1b-53a9-46a2-9b6f-7b87d18eb148",
@@ -26991,6 +27261,7 @@
           ]
         }
       },
+      "deviceType": "access-point",
       "guids": [
         "961a10a4-abf7-7a54-100b-a14185fb105c"
       ],
@@ -27110,6 +27381,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "guids": [
         "d44c5cba-c718-6d44-0c1b-ebd5ac857223"
       ],
@@ -27248,6 +27520,7 @@
           ]
         }
       },
+      "deviceType": "access-point",
       "guids": [
         "b899f635-03cc-4fa1-b186-e582c6670cde"
       ],
@@ -27403,6 +27676,7 @@
         },
         "wifi": "6e"
       },
+      "deviceType": "access-point",
       "guids": [
         "b10f644a-5169-bda4-e903-89b3ce330d7d"
       ],
@@ -27523,6 +27797,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "guids": [
         "aa4a9334-323b-4b5c-9f04-5a173d02e1a6"
       ],
@@ -27675,6 +27950,7 @@
         },
         "wifi": "6e"
       },
+      "deviceType": "access-point",
       "guids": [
         "407d8098-4358-51c4-9963-db99bbe2d7d8"
       ],
@@ -27818,6 +28094,7 @@
           ]
         }
       },
+      "deviceType": "access-point",
       "guids": [
         "478e8e2a-c482-456a-925d-b38cce70fc9e"
       ],
@@ -27938,6 +28215,7 @@
       "videos": {}
     },
     {
+      "deviceType": "tool",
       "guids": [
         "8bc942cf-a66c-4967-bac4-e390e3d5ad88"
       ],
@@ -28016,6 +28294,7 @@
       "videos": {}
     },
     {
+      "deviceType": "control",
       "guids": [
         "72326291-ee48-4b23-a890-cd1a123bb70b"
       ],
@@ -28102,6 +28381,7 @@
       "videos": {}
     },
     {
+      "deviceType": "card-reader",
       "guids": [
         "e495f881-bf4e-42c7-98b1-c95793c5ba92"
       ],
@@ -28212,6 +28492,7 @@
           ]
         }
       },
+      "deviceType": "card-reader",
       "guids": [
         "243ce5b6-b29d-4911-a2ea-14aa129be00a"
       ],
@@ -28315,6 +28596,7 @@
           ]
         }
       },
+      "deviceType": "card-reader",
       "guids": [
         "06d4277c-3dd3-4691-8aac-3e140abb8699"
       ],
@@ -28422,6 +28704,7 @@
           ]
         }
       },
+      "deviceType": "card-reader",
       "guids": [
         "2f41f611-ae06-4e33-b0b3-76d5bb269984"
       ],
@@ -28525,6 +28808,7 @@
           ]
         }
       },
+      "deviceType": "card-reader",
       "guids": [
         "4ac3ba3d-5c09-1e64-1813-375cd2242f65"
       ],
@@ -28629,6 +28913,7 @@
           ]
         }
       },
+      "deviceType": "card-reader",
       "guids": [
         "87fc1dd1-c172-a234-633b-f47f380c2253"
       ],
@@ -28725,6 +29010,7 @@
           ]
         }
       },
+      "deviceType": "card-reader",
       "guids": [
         "151813f5-4cd2-e834-411b-fb5a48df1fb1"
       ],
@@ -28823,6 +29109,7 @@
           ]
         }
       },
+      "deviceType": "card-reader",
       "guids": [
         "da12ebc2-1ec0-4a04-f35b-7f72da156d86"
       ],
@@ -28901,6 +29188,7 @@
       "videos": {}
     },
     {
+      "deviceType": "card-reader",
       "guids": [
         "3a0bc509-870e-4508-889f-34e5f62e9b2b"
       ],
@@ -29005,6 +29293,7 @@
           ]
         }
       },
+      "deviceType": "card-reader",
       "guids": [
         "3ea175ec-b901-25d4-c0c3-e21573850acd"
       ],
@@ -29072,7 +29361,7 @@
         "name": "G3 Reader Pro"
       },
       "shortnames": [
-        "UA-G3-Pro"
+        "UA-G3-Proy"
       ],
       "sku": "UA-G3-Pro",
       "sysid": "ec66",
@@ -29107,6 +29396,7 @@
           ]
         }
       },
+      "deviceType": "card-reader",
       "guids": [
         "70da7cc6-e3f6-2e14-ceeb-b68e2e74bf77"
       ],
@@ -29185,6 +29475,7 @@
       "videos": {}
     },
     {
+      "deviceType": "control",
       "guids": [
         "4a5e238f-4bae-48d5-84d7-dd2b0e919ab5"
       ],
@@ -29274,6 +29565,7 @@
       "videos": {}
     },
     {
+      "deviceType": "control",
       "guids": [
         "9af69ede-feaa-40c1-abe5-e85bed8afcd1"
       ],
@@ -29373,6 +29665,7 @@
           ]
         }
       },
+      "deviceType": "control",
       "guids": [
         "e4b4f8e9-354b-495c-93b6-2f7694133b61"
       ],
@@ -29452,6 +29745,7 @@
       "videos": {}
     },
     {
+      "deviceType": "control",
       "guids": [
         "2fe09035-e671-4804-aa44-575d1cd6f0c6"
       ],
@@ -29550,6 +29844,7 @@
           ]
         }
       },
+      "deviceType": "intercom",
       "guids": [
         "2cd341d7-1c8d-4592-8e44-9a44f106aae7"
       ],
@@ -29643,6 +29938,7 @@
           ]
         }
       },
+      "deviceType": "intercom",
       "guids": [
         "0a292e1a-173b-456a-8da5-6dc02787ca64"
       ],
@@ -29721,6 +30017,7 @@
       "videos": {}
     },
     {
+      "deviceType": "intercom",
       "guids": [
         "d94db3cd-eb2d-4053-b0ae-bf19cc5a4675"
       ],
@@ -29796,6 +30093,7 @@
       "videos": {}
     },
     {
+      "deviceType": "tool",
       "guids": [
         "b27bcfd2-d56e-46c5-a367-c854925c9655"
       ],
@@ -29898,6 +30196,7 @@
           ]
         }
       },
+      "deviceType": "card-reader",
       "fcc": "SWX-UAPROE",
       "guids": [
         "a5262f05-9658-4a36-8a69-fb821872cca0"
@@ -30018,6 +30317,7 @@
           ]
         }
       },
+      "deviceType": "card-reader",
       "fcc": "SWX-UALITE",
       "guids": [
         "94a8c213-e611-421c-b44b-b8b65fbdb278"
@@ -30113,6 +30413,7 @@
       "videos": {}
     },
     {
+      "deviceType": "control",
       "guids": [
         "38681f61-35bc-4113-8288-96d54f434800"
       ],
@@ -30221,6 +30522,7 @@
           ]
         }
       },
+      "deviceType": "card-reader",
       "guids": [
         "2140b073-c029-40be-a87d-e9b563e44717"
       ],
@@ -30317,6 +30619,7 @@
           ]
         }
       },
+      "deviceType": "accessory",
       "guids": [
         "274a158c-76a8-d044-05eb-0ed23f8d4625"
       ],
@@ -30396,6 +30699,7 @@
         "factoryDefault": "8e60f02e-f699-4865-b83f-f40501752184",
         "userConfigured": "0b9676ee-8352-440a-bf80-61541d578fcf"
       },
+      "deviceType": "tool",
       "guids": [
         "1bdacd6e-dcd7-480c-9899-33a42ba9accc",
         "8e60f02e-f699-4865-b83f-f40501752184",
@@ -30466,7 +30770,8 @@
       },
       "shortnames": [
         "UACC-SFP-Wizard",
-        "USFPW"
+        "USFPW",
+        "SFP-Wizard"
       ],
       "sku": "UACC-SFP-Wizard",
       "sysid": "da27",
@@ -30492,6 +30797,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "fcc": "SWX-UAP",
       "guids": [],
       "ic": "6545A-UAP",
@@ -30612,6 +30918,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "fcc": "SWX-UAPAC",
       "guids": [],
       "ic": "6545A-UAPAC",
@@ -30751,6 +31058,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "fcc": "SWX-UAPACPRO",
       "guids": [],
       "ic": "6545A-UAPACPRO",
@@ -30895,6 +31203,7 @@
           ]
         }
       },
+      "deviceType": "access-point",
       "fcc": "SWX-UAPACHD",
       "guids": [],
       "ic": "6545A-UAPACHD",
@@ -31042,6 +31351,7 @@
           ]
         }
       },
+      "deviceType": "access-point",
       "fcc": "SWX-UAPACIW",
       "guids": [],
       "ic": "6545A-UAPACIW",
@@ -31170,6 +31480,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "fcc": "SWX-UAPACIWP",
       "guids": [],
       "ic": "6545A-UAPACIWP",
@@ -31320,6 +31631,7 @@
           ]
         }
       },
+      "deviceType": "access-point",
       "fcc": "SWX-UAPACL",
       "guids": [],
       "ic": "6545A-UAPACL",
@@ -31442,6 +31754,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "fcc": "SWX-UAPACLR",
       "guids": [],
       "ic": "6545A-UAPACLR",
@@ -31586,6 +31899,7 @@
           ]
         }
       },
+      "deviceType": "access-point",
       "fcc": "SWX-UAPACM",
       "guids": [],
       "ic": "6545A-UAPACM",
@@ -31731,6 +32045,7 @@
           ]
         }
       },
+      "deviceType": "access-point",
       "fcc": "SWX-UAPACMPRO",
       "guids": [],
       "ic": "6545A-UAPACMPRO",
@@ -31855,6 +32170,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "fcc": "SWX-UAPAC",
       "guids": [],
       "ic": "6545A-UAPAC",
@@ -32003,6 +32319,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "access-point",
       "fcc": "SWX-UAPACPRO",
       "guids": [],
       "ic": "6545A-UAPACPRO",
@@ -32153,6 +32470,7 @@
           ]
         }
       },
+      "deviceType": "access-point",
       "fcc": "SWX-UAPACSHD",
       "guids": [],
       "ic": "6545A-UAPACSHD",
@@ -32283,6 +32601,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "guids": [],
       "icon": {
         "id": "29cfc9cc-712f-4094-af5e-ac1e40d3324b",
@@ -32434,6 +32753,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "access-point",
       "fcc": "SWX-UAPFLEXHD",
       "guids": [],
       "ic": "6545A-UAPFLEXHD",
@@ -32565,6 +32885,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "fcc": "SWX-UAPIW",
       "guids": [],
       "ic": "6545A-UAPIW",
@@ -32714,6 +33035,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "access-point",
       "fcc": "SWX-UAPIWHD",
       "guids": [],
       "ic": "6545A-UAPIWHD",
@@ -32845,6 +33167,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "fcc": "SWX-UAP",
       "guids": [],
       "ic": "6545A-UAP",
@@ -32965,6 +33288,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "fcc": "SWX-UAP",
       "guids": [],
       "ic": "6545A-UAP",
@@ -33084,6 +33408,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "fcc": "SWX-M2",
       "guids": [],
       "ic": "6545A-M2",
@@ -33205,6 +33530,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "fcc": "SWX-UAPOUTDOOR",
       "guids": [],
       "ic": "6545A-UAPOUTDOOR",
@@ -33327,6 +33653,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "fcc": "SWX-M5",
       "guids": [],
       "ic": "6545A-M5",
@@ -33444,6 +33771,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "fcc": "SWX-UAPRO",
       "guids": [],
       "ic": "6545A-UAPRO",
@@ -33569,6 +33897,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "fcc": "SWX-UAPXG",
       "guids": [],
       "ic": "6545A-UAPXG",
@@ -33718,6 +34047,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "access-point",
       "fcc": "SWX-UAPHDNANO",
       "guids": [],
       "ic": "6545A-UAPHDNANO",
@@ -33844,6 +34174,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "fcc": "SWX-UAP",
       "guids": [],
       "ic": "6545A-UAP",
@@ -33967,6 +34298,7 @@
         "factoryDefault": "6868ac9f-fb18-4f2c-9b01-50ab0743907d",
         "userConfigured": "8eeb0dea-f4cd-4c8a-8e6e-5e385ca18dae"
       },
+      "deviceType": "console",
       "guids": [
         "8d546d7a-2734-4fb2-acfa-f52291cfd884",
         "500bf375-4036-4be6-83b8-688822f2c279",
@@ -34089,6 +34421,7 @@
           ]
         }
       },
+      "deviceType": "bridge",
       "fcc": "SWX-UBB",
       "guids": [
         "36bc4d72-856b-e397-2c04-6344972be6dc",
@@ -34228,6 +34561,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "bridge",
       "fcc": "SWX-UBBXG",
       "guids": [
         "438d0dbc-4f73-4c30-a77e-9d274a29c789",
@@ -34345,6 +34679,7 @@
       "videos": {}
     },
     {
+      "deviceType": "network-server-host",
       "guids": [],
       "icon": {
         "id": "9d86c072-b064-43e0-ae90-e3c50f155f64",
@@ -34450,6 +34785,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "audio",
       "fcc": "SWX-UCCAST",
       "guids": [
         "616c0abc-0131-46a6-b143-1ee9ba585184"
@@ -34560,6 +34896,7 @@
           ]
         }
       },
+      "deviceType": "audio",
       "guids": [
         "902b3fca-294d-4aa3-988a-ca395ae79118"
       ],
@@ -34663,6 +35000,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "audio",
       "guids": [
         "2a428ae2-5822-4a4b-a265-9f0e5f3cf895"
       ],
@@ -34763,6 +35101,7 @@
           ]
         }
       },
+      "deviceType": "viewer",
       "guids": [
         "93237ba3-3721-4d84-a802-14b1f2a2a10b"
       ],
@@ -34842,6 +35181,7 @@
       "videos": {}
     },
     {
+      "deviceType": "viewer",
       "guids": [
         "0d6cb781-b039-4704-ac20-144af38ec9ca"
       ],
@@ -34920,6 +35260,7 @@
       "videos": {}
     },
     {
+      "deviceType": "viewer",
       "guids": [
         "679b01d2-d286-4f7d-a189-c06a4bba5931"
       ],
@@ -34998,6 +35339,7 @@
       "videos": {}
     },
     {
+      "deviceType": "viewer",
       "guids": [
         "ac9eee12-a914-4fde-a778-4f841f8f04e8"
       ],
@@ -35076,6 +35418,7 @@
       "videos": {}
     },
     {
+      "deviceType": "viewer",
       "guids": [
         "59a0e5b6-a790-41ea-bb1a-808c05e8aa72"
       ],
@@ -35159,6 +35502,7 @@
       "videos": {}
     },
     {
+      "deviceType": "viewer",
       "guids": [
         "81d9b843-08b2-4f07-820d-eb2fb54757ee"
       ],
@@ -35242,6 +35586,7 @@
       "videos": {}
     },
     {
+      "deviceType": "viewer",
       "guids": [
         "c323bffb-f4c2-45d6-a033-d6e713916492"
       ],
@@ -35325,6 +35670,7 @@
       "videos": {}
     },
     {
+      "deviceType": "viewer",
       "guids": [
         "8617cf93-f268-4977-b3e9-b2b99db0f24b"
       ],
@@ -35412,6 +35758,7 @@
         "factoryDefault": "6c812d03-c075-4f53-a446-83401f371d29",
         "userConfigured": "c53fae91-55f4-4eb1-a088-5bffbad2c35e"
       },
+      "deviceType": "power-supply",
       "guids": [
         "584b9528-428b-44cb-8802-ff639752daae",
         "6c812d03-c075-4f53-a446-83401f371d29",
@@ -35499,6 +35846,7 @@
       "videos": {}
     },
     {
+      "deviceType": "power-supply",
       "guids": [
         "06a4ced7-e6bf-4c94-8942-790750d29fd1"
       ],
@@ -35586,6 +35934,7 @@
         "factoryDefault": "fcdaf0a2-ba09-44bc-8e29-d197d06768af",
         "userConfigured": "3c937810-16ae-43cf-ae11-3fafb287c977"
       },
+      "deviceType": "power-supply",
       "guids": [
         "13e40557-3ad6-91f4-a4c3-b9d4e743d5c8",
         "fcdaf0a2-ba09-44bc-8e29-d197d06768af",
@@ -35692,6 +36041,7 @@
           ]
         }
       },
+      "deviceType": "power-supply",
       "guids": [
         "f229a55f-f315-496b-a5f3-360c7c39c46e",
         "ec05ce81-946d-4a87-8ed5-7fa2099b17d7",
@@ -35783,6 +36133,7 @@
         "factoryDefault": "dbcd6453-d8f2-48ca-afd5-faabedb0b8aa",
         "userConfigured": "a03a2326-800a-4e8d-915b-df53bd3122b1"
       },
+      "deviceType": "power-supply",
       "guids": [
         "e6227775-07f5-6ab4-8a9b-d0a0959e7fb4",
         "dbcd6453-d8f2-48ca-afd5-faabedb0b8aa",
@@ -36002,7 +36353,8 @@
             "APPLICATION_MODE",
             "HAS_CLIENTS",
             "SSL_INSPECTION",
-            "TRAFFIC_FLOWS_ALLOWED_TRAFFIC"
+            "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
+            "UPS_PAIRING"
           ],
           "diagram": [
             "01 02 03 04 05 06 07"
@@ -36282,7 +36634,8 @@
             "APPLICATION_MODE",
             "HAS_CLIENTS",
             "SSL_INSPECTION",
-            "TRAFFIC_FLOWS_ALLOWED_TRAFFIC"
+            "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
+            "UPS_PAIRING"
           ],
           "diagram": [
             "05 04 03 02 01"
@@ -36499,7 +36852,8 @@
             "PROTECT_APPLICATION",
             "CONTROLLER",
             "APPLICATION_MODE",
-            "HAS_CLIENTS"
+            "HAS_CLIENTS",
+            "UPS_PAIRING"
           ],
           "diagram": [
             "01 02 03 04 __ 05"
@@ -36584,6 +36938,7 @@
         "factoryDefault": "f9ccf87c-696a-4754-a204-ed868907be8b",
         "userConfigured": "581ee129-ab38-4cbb-902d-b4cea7ce6696"
       },
+      "deviceType": "modem",
       "guids": [
         "e78e192e-5609-4f84-943f-e181db748f80",
         "f9ccf87c-696a-4754-a204-ed868907be8b",
@@ -37322,6 +37677,7 @@
         },
         "wifi": "6e"
       },
+      "deviceType": "bridge",
       "guids": [
         "0c547118-7d88-4ebf-aade-d24c6f771295",
         "0ff18683-789e-41c8-943b-c24c9def7fd8",
@@ -37470,6 +37826,7 @@
           ]
         }
       },
+      "deviceType": "bridge",
       "guids": [
         "2bbaf3f3-feb5-4d9a-b5ca-4b751aa13378"
       ],
@@ -37588,6 +37945,7 @@
       "videos": {}
     },
     {
+      "deviceType": "bridge",
       "guids": [
         "33dbd71a-7077-1084-c23b-0e5e26ce3ee2"
       ],
@@ -37697,6 +38055,7 @@
         "factoryDefault": "e87455ae-b373-4c9b-aa3f-2a19ec0489a1",
         "userConfigured": "52eb5387-28af-4aa5-acff-ddaa8f015c49"
       },
+      "deviceType": "control",
       "guids": [
         "e87455ae-b373-4c9b-aa3f-2a19ec0489a1",
         "52eb5387-28af-4aa5-acff-ddaa8f015c49"
@@ -37785,6 +38144,7 @@
       "videos": {}
     },
     {
+      "deviceType": "control",
       "guids": [],
       "icon": {
         "id": "ffcef522-b25a-4f3b-b3c4-89b0066bbeaf",
@@ -37872,6 +38232,7 @@
       "videos": {}
     },
     {
+      "deviceType": "control",
       "guids": [],
       "icon": {
         "id": "d45f3230-d7af-4a5a-8bec-20fe6930c36b",
@@ -37957,6 +38318,7 @@
       "videos": {}
     },
     {
+      "deviceType": "control",
       "guids": [],
       "icon": {
         "id": "d45f3230-d7af-4a5a-8bec-20fe6930c36b",
@@ -38192,7 +38554,8 @@
             "NETWORK_APPLICATION",
             "CONTROLLER",
             "APPLICATION_MODE",
-            "HAS_CLIENTS"
+            "HAS_CLIENTS",
+            "UPS_PAIRING"
           ],
           "diagram": [
             "01 02 03 04 __ 05"
@@ -38430,7 +38793,8 @@
             "HAS_CLIENTS",
             "SSL_INSPECTION",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
-            "SD_WAN_HUB"
+            "SD_WAN_HUB",
+            "UPS_PAIRING"
           ],
           "diagram": [
             "01 03 05 07 __ __ 10",
@@ -38691,7 +39055,8 @@
             "HAS_CLIENTS",
             "SSL_INSPECTION",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
-            "SD_WAN_HUB"
+            "SD_WAN_HUB",
+            "UPS_PAIRING"
           ],
           "diagram": [
             "01 03 05 07 __ __ 10",
@@ -38970,7 +39335,8 @@
             "HAS_CLIENTS",
             "SSL_INSPECTION",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
-            "SD_WAN_HUB"
+            "SD_WAN_HUB",
+            "UPS_PAIRING"
           ],
           "diagram": [
             "01 03 05 07 __ __ 10",
@@ -39242,7 +39608,8 @@
             "PROTECT_APPLICATION",
             "CONTROLLER",
             "APPLICATION_MODE",
-            "HAS_CLIENTS"
+            "HAS_CLIENTS",
+            "UPS_PAIRING"
           ],
           "diagram": [
             "01 02 03 04 __ 05"
@@ -39422,7 +39789,8 @@
             "MBB_ESIM",
             "HAS_CLIENTS",
             "QCA_WIFI_FULL_APPLY_PLATFORM",
-            "MOBILE_BROADBAND_GATEWAY"
+            "MOBILE_BROADBAND_GATEWAY",
+            "UPS_PAIRING"
           ],
           "diagram": [
             "01 02 03 04 05"
@@ -39664,7 +40032,8 @@
             "CONTROLLER",
             "APPLICATION_MODE",
             "HAS_CLIENTS",
-            "QCA_WIFI_FULL_APPLY_PLATFORM"
+            "QCA_WIFI_FULL_APPLY_PLATFORM",
+            "UPS_PAIRING"
           ],
           "diagram": [
             "01 02 03 04 05"
@@ -39929,7 +40298,8 @@
             "HAS_CLIENTS",
             "SSL_INSPECTION",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
-            "SD_WAN_HUB"
+            "SD_WAN_HUB",
+            "UPS_PAIRING"
           ],
           "diagram": [
             "01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17",
@@ -40091,6 +40461,7 @@
       }
     },
     {
+      "deviceType": "tool",
       "guids": [],
       "icon": {
         "id": "fa8024cd-7daa-49b1-bf86-7eec6c8215e0",
@@ -40175,6 +40546,7 @@
       "videos": {}
     },
     {
+      "deviceType": "tool",
       "guids": [],
       "icon": {
         "id": "d32d26fc-110f-4cdc-845a-5ec655cf7a47",
@@ -40262,6 +40634,7 @@
       "videos": {}
     },
     {
+      "deviceType": "modem",
       "guids": [],
       "icon": {
         "id": "67341c21-71a5-45de-a393-f54a528acfce",
@@ -40352,6 +40725,7 @@
       "videos": {}
     },
     {
+      "deviceType": "modem",
       "guids": [],
       "icon": {
         "id": "4a67f679-51f5-4327-9fa6-5f108976001c",
@@ -40441,6 +40815,7 @@
       "videos": {}
     },
     {
+      "deviceType": "tool",
       "guids": [],
       "icon": {
         "id": "437bdd05-99b8-47f0-be4d-148fdaafe984",
@@ -40537,6 +40912,7 @@
       "videos": {}
     },
     {
+      "deviceType": "tool",
       "guids": [],
       "icon": {
         "id": "4117f9a4-2933-4574-aca3-b393322acc37",
@@ -40633,6 +41009,7 @@
       "videos": {}
     },
     {
+      "deviceType": "modem",
       "guids": [],
       "icon": {
         "id": "121d124b-0b6a-410c-ac41-c8eefdfc78a9",
@@ -40845,6 +41222,7 @@
       "videos": {}
     },
     {
+      "deviceType": "gateway",
       "guids": [],
       "icon": {
         "id": "fa9cf57b-6569-4f5a-bbb4-14af3533e305",
@@ -40941,6 +41319,7 @@
         "factoryDefault": "8f30f895-c8e7-463e-9c5c-91b29b3f139e",
         "userConfigured": "405a3564-cb33-448a-badb-b96fe05a8de0"
       },
+      "deviceType": "console",
       "guids": [
         "405a3564-cb33-448a-badb-b96fe05a8de0",
         "8f30f895-c8e7-463e-9c5c-91b29b3f139e"
@@ -41044,6 +41423,7 @@
         "factoryDefault": "54be8418-9930-4af7-aad4-44957c869716",
         "userConfigured": "699f2281-5b70-42b6-b798-481e5fee2f54"
       },
+      "deviceType": "olt",
       "guids": [
         "39585c7e-8020-4fc7-b5f8-f2878b49f348",
         "54be8418-9930-4af7-aad4-44957c869716",
@@ -41142,6 +41522,7 @@
       "videos": {}
     },
     {
+      "deviceType": "olt",
       "guids": [
         "ce3808da-6901-4a6e-a41e-d6a780d6030c"
       ],
@@ -41229,6 +41610,7 @@
       "videos": {}
     },
     {
+      "deviceType": "olt",
       "guids": [
         "7fddc855-bd08-43ad-aa3b-81aba5e92e1f"
       ],
@@ -41320,6 +41702,7 @@
         "factoryDefault": "24cfc582-2598-451b-87a8-75faa06ce004",
         "userConfigured": "755fc123-590b-4f73-95a3-5246795717ac"
       },
+      "deviceType": "modem",
       "guids": [
         "24cfc582-2598-451b-87a8-75faa06ce004",
         "755fc123-590b-4f73-95a3-5246795717ac"
@@ -41430,6 +41813,7 @@
         "factoryDefault": "e481242f-6f2c-4019-aadf-b1fae07e549f",
         "userConfigured": "bea546b6-b7a4-4f0e-b4b3-a9a5f01b3255"
       },
+      "deviceType": "power-supply",
       "guids": [
         "bea546b6-b7a4-4f0e-b4b3-a9a5f01b3255",
         "e481242f-6f2c-4019-aadf-b1fae07e549f"
@@ -41536,6 +41920,7 @@
         "factoryDefault": "5942299f-235e-49a1-b961-834a75a73671",
         "userConfigured": "8e615d89-ad4b-426f-92db-a36ec576ce0b"
       },
+      "deviceType": "power-supply",
       "guids": [
         "5942299f-235e-49a1-b961-834a75a73671",
         "8e615d89-ad4b-426f-92db-a36ec576ce0b"
@@ -41637,6 +42022,7 @@
         "factoryDefault": "2a35b1b9-2856-43ab-a0f6-945a8c6bea59",
         "userConfigured": "64850447-626d-4385-8b09-0c77a3e26f7f"
       },
+      "deviceType": "router",
       "guids": [
         "2a35b1b9-2856-43ab-a0f6-945a8c6bea59",
         "64850447-626d-4385-8b09-0c77a3e26f7f"
@@ -41750,6 +42136,7 @@
         "factoryDefault": "fbfc5eda-440a-4efd-a022-ef7646f8aef5",
         "userConfigured": "dba08c38-0447-4e15-a897-d406e20a3e32"
       },
+      "deviceType": "router",
       "guids": [
         "dba08c38-0447-4e15-a897-d406e20a3e32",
         "fbfc5eda-440a-4efd-a022-ef7646f8aef5"
@@ -41860,6 +42247,7 @@
         "factoryDefault": "3bd4507d-9014-441a-90f4-42879aecc2e9",
         "userConfigured": "73df9595-308f-4261-9887-13bb25b95e2b"
       },
+      "deviceType": "router",
       "guids": [
         "5d7ab98d-3819-4407-b6f3-99936dc844e3",
         "3bd4507d-9014-441a-90f4-42879aecc2e9",
@@ -41966,6 +42354,7 @@
         "factoryDefault": "9220676d-2c22-40cb-aed8-7aad9b1da9ec",
         "userConfigured": "2139c5cd-4ad4-4ff9-9225-d1721d2e3db9"
       },
+      "deviceType": "switch",
       "guids": [
         "2139c5cd-4ad4-4ff9-9225-d1721d2e3db9",
         "9220676d-2c22-40cb-aed8-7aad9b1da9ec"
@@ -42075,6 +42464,7 @@
         "factoryDefault": "7aaef447-0467-478d-9be8-fdf73282bab7",
         "userConfigured": "40236e8d-b84f-43bb-830f-b900d175ca9f"
       },
+      "deviceType": "switch",
       "guids": [
         "40236e8d-b84f-43bb-830f-b900d175ca9f",
         "7aaef447-0467-478d-9be8-fdf73282bab7"
@@ -42199,6 +42589,7 @@
           ]
         }
       },
+      "deviceType": "gateway",
       "guids": [
         "d969b222-1e8e-4cc1-9f89-66162cdd2b3a"
       ],
@@ -42328,6 +42719,7 @@
         "factoryDefault": "dda645e3-69e7-470f-a515-170ea3a81508",
         "userConfigured": "362c81d4-7038-4702-805c-0f1308ca0e08"
       },
+      "deviceType": "light",
       "guids": [
         "dda645e3-69e7-470f-a515-170ea3a81508",
         "362c81d4-7038-4702-805c-0f1308ca0e08"
@@ -42416,6 +42808,7 @@
       "videos": {}
     },
     {
+      "deviceType": "light",
       "guids": [],
       "icon": {
         "id": "8461e2ad-b50b-4638-9008-0c30d1256468",
@@ -42507,6 +42900,7 @@
       "videos": {}
     },
     {
+      "deviceType": "light",
       "guids": [],
       "icon": {
         "id": "0bd85f15-112b-4963-b03e-d5954eb58109",
@@ -42592,6 +42986,7 @@
       "videos": {}
     },
     {
+      "deviceType": "light",
       "guids": [],
       "icon": {
         "id": "277b154c-1a2f-48fe-a6e5-187ef3b66043",
@@ -42682,6 +43077,7 @@
       "videos": {}
     },
     {
+      "deviceType": "sensor",
       "guids": [],
       "icon": {
         "id": "b80097dc-1647-4353-99ee-966db0130e80",
@@ -42764,6 +43160,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "guids": [],
       "icon": {
         "id": "832614c8-6e36-4867-a2de-246d7115c687",
@@ -42839,6 +43236,7 @@
       "videos": {}
     },
     {
+      "deviceType": "router",
       "guids": [
         "3f92f5a0-b886-45ae-9dce-e2dc616c3e64"
       ],
@@ -42927,6 +43325,7 @@
       "videos": {}
     },
     {
+      "deviceType": "router",
       "guids": [
         "1b93415a-01cd-4842-b6b6-d10e3d7f1f77"
       ],
@@ -43012,6 +43411,7 @@
       "videos": {}
     },
     {
+      "deviceType": "router",
       "guids": [
         "a678b768-5d02-5164-89d3-44943105ca3b"
       ],
@@ -43120,7 +43520,7 @@
           ]
         }
       },
-      "deviceType": "unifi-drive",
+      "deviceType": "nas",
       "guids": [
         "f6eb58fb-bd37-4c2f-80ad-6ce5e20295b9",
         "79863701-0592-4354-abf9-775e2fc2ca39",
@@ -43246,7 +43646,7 @@
           ]
         }
       },
-      "deviceType": "unifi-drive",
+      "deviceType": "nas",
       "guids": [
         "1568d3aa-d2f7-4c5e-8ed5-ee57b87076c7",
         "9fec9f61-a61e-4ddf-b85e-2a2ca331eebf",
@@ -43372,7 +43772,7 @@
           ]
         }
       },
-      "deviceType": "unifi-drive",
+      "deviceType": "nas",
       "guids": [
         "ad981791-bd9f-4518-8a0d-265bfd2bd91a",
         "ce8ed43b-ff85-4154-ac0a-5fc2f5118819",
@@ -43498,7 +43898,7 @@
           ]
         }
       },
-      "deviceType": "unifi-drive",
+      "deviceType": "nas",
       "guids": [
         "5ba2db46-770a-4293-8f9e-acdde3835355",
         "4fb89d57-df75-4393-9fcc-407f55cb9927",
@@ -43628,7 +44028,7 @@
           ]
         }
       },
-      "deviceType": "console",
+      "deviceType": "nas",
       "guids": [
         "8dfefbcd-5791-411b-9724-b53f37f0ac0f",
         "ec4c399c-49c9-4192-a4fd-b32f1622443e",
@@ -43757,7 +44157,7 @@
           ]
         }
       },
-      "deviceType": "console",
+      "deviceType": "nas",
       "guids": [
         "50c3d73f-9767-4c60-96e8-add12f8f24ba",
         "1dc5c392-eadd-4e8d-99e2-ce714f46aa1c",
@@ -43887,7 +44287,7 @@
           ]
         }
       },
-      "deviceType": "console",
+      "deviceType": "nas",
       "guids": [
         "5f2fce54-1e58-44e1-b368-8e9ca7b2ec84",
         "db731650-6449-49c4-974f-fcf1787716e5",
@@ -43989,6 +44389,7 @@
       "videos": {}
     },
     {
+      "deviceType": "test",
       "guids": [],
       "icon": {
         "id": "d865ae0a-a29f-4873-a1e5-1aa88c6ad11b",
@@ -44136,6 +44537,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "f28c47ea-e6bf-47d6-b14a-c3c56c20463e",
@@ -44720,6 +45122,7 @@
       "videos": {}
     },
     {
+      "deviceType": "audio",
       "guids": [
         "a24b9580-9634-4f82-b512-68aebdb38ea2"
       ],
@@ -44804,6 +45207,7 @@
       "videos": {}
     },
     {
+      "deviceType": "audio",
       "guids": [
         "a097aff1-ea0b-4478-99dc-ff28ad8a5ab4"
       ],
@@ -44903,6 +45307,7 @@
           ]
         }
       },
+      "deviceType": "control",
       "guids": [
         "ce6ffdc4-1c92-45f6-adcf-6beae9e1bb95"
       ],
@@ -44986,6 +45391,7 @@
       "videos": {}
     },
     {
+      "deviceType": "tool",
       "guids": [
         "5c2659d4-48f3-16c4-ed83-2fefbad37066"
       ],
@@ -45588,6 +45994,7 @@
       "videos": {}
     },
     {
+      "deviceType": "alarm",
       "guids": [
         "7b54a6cd-9031-407c-8dbf-f94e1472ed00"
       ],
@@ -45692,6 +46099,7 @@
           ]
         }
       },
+      "deviceType": "gateway",
       "guids": [
         "2f98eb2d-7292-b5e4-abf3-427379d01cc5"
       ],
@@ -45798,6 +46206,7 @@
           ]
         }
       },
+      "deviceType": "gateway",
       "guids": [
         "67817410-83d7-9fb4-40a3-b17ba899dda9"
       ],
@@ -45889,6 +46298,7 @@
         "factoryDefault": "6538df89-c757-4f9f-b09a-0585b8c03b91",
         "userConfigured": "76a8d2d0-585b-46ad-969b-abd0e0ef70b5"
       },
+      "deviceType": "audio",
       "guids": [
         "7df7c165-bfef-41ae-90cd-37f88f35689d",
         "6538df89-c757-4f9f-b09a-0585b8c03b91",
@@ -45979,6 +46389,7 @@
         "factoryDefault": "9bb757f2-662f-43e9-bec4-b1b5f2ce7504",
         "userConfigured": "0db74e6d-6c67-4229-af43-2f798bd0ebd6"
       },
+      "deviceType": "audio",
       "guids": [
         "f9768001-cb94-47b3-a94b-e7614d12d321",
         "9bb757f2-662f-43e9-bec4-b1b5f2ce7504",
@@ -46065,6 +46476,7 @@
       "videos": {}
     },
     {
+      "deviceType": "audio",
       "guids": [
         "33f5377f-66e8-44fa-b5f1-7f8c3e3208e2"
       ],
@@ -46143,6 +46555,7 @@
       "videos": {}
     },
     {
+      "deviceType": "audio",
       "guids": [
         "0ab7e91b-3458-4653-aae2-56c4fa143f0e"
       ],
@@ -46221,6 +46634,7 @@
       "videos": {}
     },
     {
+      "deviceType": "power-supply",
       "guids": [
         "317875ca-ad3e-47e9-9430-47e3e2e1ab3d"
       ],
@@ -46378,6 +46792,7 @@
       "videos": {}
     },
     {
+      "deviceType": "power-supply",
       "guids": [
         "8cd35d91-757b-4e2e-afc7-37288ddfa176"
       ],
@@ -46536,6 +46951,7 @@
       "videos": {}
     },
     {
+      "deviceType": "power-supply",
       "guids": [
         "9499206e-3f79-b254-fe8b-59c51686cb55"
       ],
@@ -46699,6 +47115,7 @@
       "videos": {}
     },
     {
+      "deviceType": "power-supply",
       "guids": [
         "1f0efa5c-a21f-5b54-c0cb-997dccc05e67"
       ],
@@ -46866,6 +47283,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "c7ab0f7f-3408-4dc0-b528-d2585eaf3ba4",
@@ -46940,6 +47358,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -47062,6 +47481,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -47192,6 +47612,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -47318,6 +47739,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -47436,6 +47858,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -47561,6 +47984,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -47688,6 +48112,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -47815,6 +48240,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -47928,6 +48354,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -48038,6 +48465,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -48163,6 +48591,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -48302,6 +48731,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -48414,6 +48844,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -48531,6 +48962,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -48652,6 +49084,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -48768,6 +49201,7 @@
       "videos": {}
     },
     {
+      "deviceType": "gateway",
       "guids": [],
       "icon": {
         "id": "2c01c37d-e1ce-416e-bf8f-36f43dba11ce",
@@ -48865,6 +49299,7 @@
       "videos": {}
     },
     {
+      "deviceType": "gateway",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -49021,6 +49456,7 @@
       "videos": {}
     },
     {
+      "deviceType": "gateway",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -49206,6 +49642,7 @@
         "factoryDefault": "60dbfe9e-6b5d-11e8-adc0-fa7ae01bbebc",
         "userConfigured": "8e760c3c-6b5d-11e8-adc0-fa7ae01bbebc"
       },
+      "deviceType": "gateway",
       "fcc": "Compliant",
       "guids": [
         "60dbfe9e-6b5d-11e8-adc0-fa7ae01bbebc",
@@ -49414,6 +49851,7 @@
       "videos": {}
     },
     {
+      "deviceType": "sensor",
       "guids": [
         "7b47d1de-082c-46ad-bed3-7f86223c7278"
       ],
@@ -49521,6 +49959,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "sensor",
       "guids": [
         "5bbbe941-d05f-4624-b359-69073405f119"
       ],
@@ -49607,6 +50046,7 @@
       "videos": {}
     },
     {
+      "deviceType": "sensor",
       "guids": [
         "803280f6-097b-40a2-ab68-030231a766c9"
       ],
@@ -49714,6 +50154,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "sensor",
       "guids": [
         "c6f6361c-caf7-4f28-888d-d8febdd10c8f"
       ],
@@ -49800,6 +50241,7 @@
       "videos": {}
     },
     {
+      "deviceType": "sensor",
       "guids": [
         "45249f89-f43b-434d-8c54-c29d0b38a5bc"
       ],
@@ -49886,6 +50328,7 @@
       "videos": {}
     },
     {
+      "deviceType": "sensor",
       "guids": [
         "e00932dc-4fa6-4db2-b6bf-e81c72877c2d"
       ],
@@ -49972,6 +50415,7 @@
       "videos": {}
     },
     {
+      "deviceType": "sensor",
       "guids": [
         "a9a2c1e4-e86b-4cb2-ab64-adf159e0c900"
       ],
@@ -50058,6 +50502,7 @@
       "videos": {}
     },
     {
+      "deviceType": "sensor",
       "guids": [
         "fa4bb7d3-99a1-4696-8464-2f8edc96a55d"
       ],
@@ -50144,6 +50589,7 @@
       "videos": {}
     },
     {
+      "deviceType": "alarm",
       "guids": [
         "a1b1b4de-16b9-410e-bf85-c818c05770f4"
       ],
@@ -50230,6 +50676,7 @@
       "videos": {}
     },
     {
+      "deviceType": "alarm",
       "guids": [
         "2540e1b5-c4d0-437c-bae3-ae561680cb33"
       ],
@@ -50316,6 +50763,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "ea06a05c-0434-4dc1-b423-cff51ff5a017",
@@ -50420,6 +50868,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "c70814d7-8070-4237-8a9a-353f2f32484e",
@@ -50529,6 +50978,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "de10c0fe-f20e-43b7-9cb2-6c7e988aa0e2",
@@ -50635,6 +51085,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "45ab1100-1a8a-4b7d-990d-444bbe7deac5",
@@ -50744,6 +51195,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "cbad0f50-58c8-45a6-b58c-72fdb4d18ac4",
@@ -50852,6 +51304,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "896e056e-41cd-4484-88d5-9b34621d4c32",
@@ -50963,6 +51416,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "89ee387a-8871-4d62-9bcd-1f557ee1c97f",
@@ -51067,6 +51521,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "7a060fbb-8a8b-471c-9f57-da477ff3e04e",
@@ -51165,6 +51620,7 @@
       "videos": {}
     },
     {
+      "deviceType": "power-supply",
       "guids": [
         "d8ce6cfc-1b77-4400-92ab-bdb01c7937d7"
       ],
@@ -51452,6 +51908,7 @@
       "videos": {}
     },
     {
+      "deviceType": "power-supply",
       "guids": [],
       "icon": {
         "id": "17b0dc97-ef92-4ffa-a2e0-cbc927470783",
@@ -51632,6 +52089,7 @@
       "videos": {}
     },
     {
+      "deviceType": "power-supply",
       "guids": [],
       "icon": {
         "id": "4d043035-2ad5-442a-a4e3-474db720dd6d",
@@ -51739,6 +52197,7 @@
       "videos": {}
     },
     {
+      "deviceType": "power-supply",
       "guids": [],
       "icon": {
         "id": "590a85a9-932a-43eb-b0ae-7be874005a7c",
@@ -51850,6 +52309,7 @@
       "videos": {}
     },
     {
+      "deviceType": "power-supply",
       "guids": [
         "8dcba984-8aa9-423c-8063-13fda5eb654e"
       ],
@@ -51985,6 +52445,7 @@
       "videos": {}
     },
     {
+      "deviceType": "power-supply",
       "guids": [],
       "icon": {
         "id": "d420b791-9ed3-4f97-b5d2-d8d9530be6fe",
@@ -52115,6 +52576,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -52247,6 +52709,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -52376,6 +52839,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -52509,6 +52973,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -52640,6 +53105,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -52775,6 +53241,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -52904,6 +53371,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "e9237854-a073-4ce7-a386-c8bb83dab97b",
@@ -53037,6 +53505,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "b3208e53-4726-48da-aa45-cc437d961616",
@@ -53170,6 +53639,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -53297,6 +53767,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -53424,6 +53895,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -53558,6 +54030,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "guids": [
         "2e742a95-af95-89e4-bc53-60f32bd25b66"
       ],
@@ -53673,6 +54146,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "guids": [
         "7145e55b-0453-8644-0e8b-a01cf9a01e69"
       ],
@@ -53791,6 +54265,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "guids": [
         "75537f4d-1f16-0364-a16b-ebae52d4c4f3"
       ],
@@ -53920,6 +54395,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -54042,6 +54518,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "494c797e-85b2-4be5-9d6c-15f05c5e034d",
@@ -54162,6 +54639,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -54295,6 +54773,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "guids": [
         "78a41297-a440-a1e4-adfb-3c795ed5b0ec"
       ],
@@ -54407,6 +54886,7 @@
         "factoryDefault": "f04efea7-faf0-4637-afd5-bee983444005",
         "userConfigured": "f5f0fc99-0867-427c-a231-6a028a104efd"
       },
+      "deviceType": "switch",
       "guids": [
         "f04efea7-faf0-4637-afd5-bee983444005",
         "f5f0fc99-0867-427c-a231-6a028a104efd"
@@ -54541,6 +55021,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -54667,6 +55148,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -54798,6 +55280,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "79e60ea3-2e16-4e2a-8da7-28e1d8e4689e",
@@ -54934,6 +55417,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -55048,6 +55532,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -55186,6 +55671,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -55297,6 +55783,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -55416,6 +55903,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [
         "31d47f9d-142d-45cf-9778-c1d480c46746"
       ],
@@ -55547,6 +56035,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -55677,6 +56166,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "guids": [
         "78710702-99e8-28a4-47fb-e5641c8ca1f6"
       ],
@@ -55800,6 +56290,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "guids": [
         "b1b19d17-462d-e284-de73-2671591e4015"
       ],
@@ -55930,6 +56421,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "guids": [
         "8acc3856-7fcd-4b03-bd8a-f6fd1cf7304f"
       ],
@@ -56053,6 +56545,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "guids": [
         "58146977-f76f-4a97-9f4d-c2fecc14de78"
       ],
@@ -56178,6 +56671,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "guids": [
         "e2373114-b11a-4728-997d-8e63ce27da6d"
       ],
@@ -56302,6 +56796,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "guids": [
         "4a5ee13a-94f7-415d-ba16-22cb87bca755"
       ],
@@ -56430,6 +56925,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "guids": [
         "d3784858-4dad-45a4-9747-ca00e543f9ff"
       ],
@@ -56553,6 +57049,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "guids": [
         "cefee052-9856-4820-b483-5fc1bee97716"
       ],
@@ -56673,6 +57170,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "guids": [
         "0230e896-f4cd-40ac-9847-b75d2cae6436"
       ],
@@ -56782,6 +57280,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [
         "1b2a281f-1fde-5124-33d3-84f9d4c0b792"
       ],
@@ -56888,6 +57387,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [
         "e4425f3d-afff-4f14-e8c3-1fef68423924"
       ],
@@ -56997,6 +57497,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [
         "2f686580-0df5-0004-411b-8e7b2345fcf2"
       ],
@@ -57101,6 +57602,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [
         "7f0c9e2d-5446-0514-20c3-22d199f98445"
       ],
@@ -57208,6 +57710,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [
         "e88409fd-931e-4424-8a0b-9e8ec79bb4ed"
       ],
@@ -57317,6 +57820,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "fcc": "Compliant",
       "guids": [
         "e2f902bd-dd4e-44f2-b273-5582665057eb"
@@ -57440,6 +57944,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "guids": [
         "a77c4ff8-6ab3-428b-9ca1-e686f694a6f0"
       ],
@@ -57568,6 +58073,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "guids": [
         "912cfe5d-5ad3-4941-907f-d1a532eab2e4"
       ],
@@ -57696,6 +58202,7 @@
           ]
         }
       },
+      "deviceType": "switch",
       "guids": [
         "4a4b235c-e892-4109-887f-97f715723517"
       ],
@@ -57808,6 +58315,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [
         "b684c749-d51c-4c7c-8ca5-fd906105ee76"
       ],
@@ -57926,6 +58434,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [
         "9e74b50f-111a-4bb5-9fad-75fdb915892d"
       ],
@@ -58065,6 +58574,7 @@
           ]
         }
       },
+      "deviceType": "tool",
       "guids": [],
       "icon": {
         "id": "79f05736-4313-45fa-8bde-575c3fdf5850",
@@ -58146,6 +58656,7 @@
       "videos": {}
     },
     {
+      "deviceType": "phone",
       "guids": [],
       "icon": {
         "id": "349a39cf-90f5-46df-9f79-b10451811ce9",
@@ -58246,6 +58757,7 @@
           ]
         }
       },
+      "deviceType": "phone",
       "guids": [
         "7bbc37e7-a1e3-4158-badf-66192cc1ffed"
       ],
@@ -58353,6 +58865,7 @@
           ]
         }
       },
+      "deviceType": "phone",
       "guids": [
         "433c98c1-a8f1-48cc-a193-d6cc21bcc45f"
       ],
@@ -58459,6 +58972,7 @@
           ]
         }
       },
+      "deviceType": "phone",
       "guids": [
         "88536084-2f6c-4100-890e-1a2b1ad233de"
       ],
@@ -58573,6 +59087,7 @@
           ]
         }
       },
+      "deviceType": "phone",
       "guids": [],
       "icon": {
         "id": "401dccb4-175b-4933-9e4d-c53668885a96",
@@ -58659,6 +59174,7 @@
       "videos": {}
     },
     {
+      "deviceType": "phone",
       "guids": [],
       "icon": {
         "id": "c582d6a6-6918-44da-a897-a5a8c9f5a201",
@@ -58766,6 +59282,7 @@
           ]
         }
       },
+      "deviceType": "phone",
       "guids": [],
       "icon": {
         "id": "a45dd2dd-7781-4d82-bee9-9e71ebcb9c08",
@@ -58853,6 +59370,7 @@
       "videos": {}
     },
     {
+      "deviceType": "phone",
       "guids": [],
       "icon": {
         "id": "47a8f078-4c85-4ffd-b78b-6c39bbb349b2",
@@ -60212,6 +60730,7 @@
       "videos": {}
     },
     {
+      "deviceType": "camera",
       "guids": [
         "3cc11bba-9606-431d-ac10-970dd61acada"
       ],
@@ -61829,6 +62348,7 @@
           ]
         }
       },
+      "deviceType": "camera",
       "guids": [
         "b61c595f-60fa-43ec-8abe-7a4e281dc0e3"
       ],
@@ -62019,6 +62539,7 @@
         "factoryDefault": "cbb4914d-c748-47e6-bae2-dc2e847443fd",
         "userConfigured": "79fdd0a1-30a4-48f3-9ad2-3fc155e2ba15"
       },
+      "deviceType": "camera",
       "guids": [
         "cbb4914d-c748-47e6-bae2-dc2e847443fd",
         "79fdd0a1-30a4-48f3-9ad2-3fc155e2ba15"
@@ -62988,6 +63509,7 @@
           ]
         }
       },
+      "deviceType": "camera",
       "guids": [
         "976f1978-61d5-4f05-b6df-d763417023cc"
       ],
@@ -63067,6 +63589,7 @@
       "videos": {}
     },
     {
+      "deviceType": "camera",
       "guids": [
         "95e21b3b-9804-c9c4-93c3-77f50834d994"
       ],
@@ -63267,6 +63790,7 @@
           ]
         }
       },
+      "deviceType": "camera",
       "guids": [
         "9b4f82a1-527b-4b52-b5dd-e0ac27577bd2"
       ],
@@ -63351,6 +63875,7 @@
       "videos": {}
     },
     {
+      "deviceType": "camera",
       "guids": [
         "94778c52-7acd-edb4-2f93-7f8989f48ca2"
       ],
@@ -63553,6 +64078,7 @@
           ]
         }
       },
+      "deviceType": "camera",
       "guids": [
         "d3784320-1c25-43d1-b7a0-5b640bf2adff"
       ],
@@ -63632,6 +64158,7 @@
       "videos": {}
     },
     {
+      "deviceType": "camera",
       "guids": [
         "343b7890-9b38-21f4-007b-b1fc76d8fbe3"
       ],
@@ -65507,6 +66034,7 @@
       "videos": {}
     },
     {
+      "deviceType": "phone",
       "guids": [],
       "icon": {
         "id": "f2311f6b-b1ac-4023-834c-41b46d546392",
@@ -65597,6 +66125,7 @@
       "videos": {}
     },
     {
+      "deviceType": "phone",
       "fcc": "SWX-UVPEXT",
       "guids": [],
       "ic": "6545A-UVPEXT",
@@ -65689,6 +66218,7 @@
       "videos": {}
     },
     {
+      "deviceType": "phone",
       "fcc": "SWX-UVPPRO",
       "guids": [],
       "ic": "6545A-UVPPRO",
@@ -65782,6 +66312,7 @@
       "videos": {}
     },
     {
+      "deviceType": "phone",
       "guids": [],
       "icon": {
         "id": "4543354f-a4bb-6814-8443-a318e551ffa6",
@@ -65893,6 +66424,7 @@
         },
         "wifi": "5e"
       },
+      "deviceType": "access-point",
       "fcc": "SWX-UAPSTMXG",
       "guids": [],
       "ic": "6545A-UAPSTMXG",
@@ -66014,6 +66546,7 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
       "fcc": "SWX-UAPSTMXG",
       "guids": [],
       "ic": "6545A-UAPSTMXG",
@@ -66277,7 +66810,8 @@
             "HAS_CLIENTS",
             "MESH",
             "UX_SERIES",
-            "QCA_WIFI_FULL_APPLY_PLATFORM"
+            "QCA_WIFI_FULL_APPLY_PLATFORM",
+            "UPS_PAIRING"
           ],
           "diagram": [
             "01 02"
@@ -66497,7 +67031,8 @@
             "HAS_CLIENTS",
             "MESH",
             "UX_SERIES",
-            "QCA_WIFI_FULL_APPLY_PLATFORM"
+            "QCA_WIFI_FULL_APPLY_PLATFORM",
+            "UPS_PAIRING"
           ],
           "diagram": [
             "01 02"
@@ -66851,6 +67386,7 @@
           ]
         }
       },
+      "deviceType": "console",
       "guids": [
         "4f160644-ca4c-f484-8bbb-aaaa98adc98e",
         "3cc83114-538f-4289-ae89-87beb5b077cc",
@@ -67120,6 +67656,7 @@
           ]
         }
       },
+      "deviceType": "console",
       "guids": [
         "28a67baa-6dd5-4d4e-b6e7-9f28da21fa45",
         "d778bd0f-7e04-4291-a6df-2c1fca78dd67",
@@ -67299,6 +67836,7 @@
           ]
         }
       },
+      "deviceType": "console",
       "guids": [
         "7dcc2890-2039-4dfa-8528-7f0a2253a54f",
         "bb7808f0-24ee-40ac-9e9f-ba227a47e8ad",
@@ -67495,6 +68033,7 @@
           ]
         }
       },
+      "deviceType": "console",
       "fcc": "SWX-UXGPRO",
       "guids": [
         "3d8bac06-22b2-4cf0-a974-bb256b4810f5",
@@ -67707,6 +68246,7 @@
           ]
         }
       },
+      "deviceType": "tool",
       "guids": [
         "933e9255-f5be-43c6-84e3-3c64e7c68df1",
         "e0373cc2-d3bc-4eac-9c6e-423d0fe5d738"
@@ -67802,6 +68342,7 @@
         "factoryDefault": "4b06ab8b-64ce-469e-862c-b64370180587",
         "userConfigured": "c86b8dd1-8c91-4ecc-8a85-6f32c54d50c3"
       },
+      "deviceType": "access-point",
       "guids": [
         "4b06ab8b-64ce-469e-862c-b64370180587",
         "c86b8dd1-8c91-4ecc-8a85-6f32c54d50c3"
@@ -67924,6 +68465,7 @@
         "factoryDefault": "f623d494-4c84-4ab3-ada1-bf3d08cdbb70",
         "userConfigured": "b8aa7cde-79ac-4997-984e-c0df65664f71"
       },
+      "deviceType": "access-point",
       "guids": [
         "57248a25-7132-4291-ad76-d791318792c2",
         "f623d494-4c84-4ab3-ada1-bf3d08cdbb70",
@@ -68026,6 +68568,7 @@
         "factoryDefault": "dd71d062-2c19-4a26-a43b-d99c7cc12483",
         "userConfigured": "73b08668-52df-4626-a3e3-7638815b781a"
       },
+      "deviceType": "access-point",
       "guids": [
         "dffb5c1c-21ca-4744-9b34-0707b267f92d",
         "73b08668-52df-4626-a3e3-7638815b781a",
@@ -68131,6 +68674,7 @@
         "factoryDefault": "afedc9c7-1744-4d0d-9900-4fbe3b460617",
         "userConfigured": "b4bd9342-c02f-411a-9be5-8b6537d44a1f"
       },
+      "deviceType": "access-point",
       "guids": [
         "282b5daa-9342-41a7-9f4d-79618bc139b1",
         "afedc9c7-1744-4d0d-9900-4fbe3b460617",
@@ -68235,6 +68779,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "aca9cae2-a724-45c3-9a5c-49eeb00a7795",
@@ -68318,6 +68863,7 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
       "guids": [],
       "icon": {
         "id": "66ea8aa5-decc-4ff5-bb02-10cfca7ec924",
@@ -68392,6 +68938,7 @@
       "videos": {}
     },
     {
+      "deviceType": "power-supply",
       "guids": [],
       "icon": {
         "id": "248b9b7e-775f-40aa-9023-9ea2bf99141e",
@@ -68466,5 +69013,5 @@
       "videos": {}
     }
   ],
-  "version": "84a4f4fbf257d0386e33b4464aa771aca8864a15"
+  "version": "8edc8e3dc2d9baef751c6b2c05e0fedbf0497c76"
 }
