@@ -29391,7 +29391,7 @@
         "name": "G3 Reader Pro"
       },
       "shortnames": [
-        "UA-G3-Proy"
+        "UA-G3-Pro"
       ],
       "sku": "UA-G3-Pro",
       "sysid": "ec66",
@@ -69065,5 +69065,5 @@
       "videos": {}
     }
   ],
-  "version": "dce00f557cebb3c01effeb709d098b58d913aaae"
+  "version": "c919b1f8b956d78da90122e8f90a7073446be028"
 }
