@@ -8437,6 +8437,7 @@
           "020-250215"
         ],
         "modelName": "EFG",
+        "ncc": "CCAH25LPA450T5",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
@@ -23278,6 +23279,23 @@
         "factoryDefault": "ea100aa3-d9d6-40d9-825b-79c481af6e56",
         "userConfigured": "ca201216-99e5-45c6-bbc3-c9b719741acc"
       },
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "U5G-Max",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "router",
       "guids": [
         "ea100aa3-d9d6-40d9-825b-79c481af6e56",
@@ -23334,9 +23352,9 @@
       },
       "id": "77ce1d39-d79f-4e02-9e63-258f639462f2",
       "images": {
-        "default": "3e62eb298cf8ac1a29bb9f3691755323",
-        "nopadding": "1ec4e421209da2dfb65d9dc2537e073d",
-        "topology": "5e8cb623f9ca5dd9f9b1d764d41519fe"
+        "default": "2a95f74bf97d66a1dc8ec2f5fbae8dcf",
+        "nopadding": "7248f43916cd62c350d2837fb6d2ad57",
+        "topology": "c6e4884c5451d8e6540db3e5d96d9a8c"
       },
       "line": {
         "id": "unifi-network",
@@ -26176,6 +26194,7 @@
     },
     {
       "compliance": {
+        "cn": "25JJ99U16F003",
         "fcc": "SWX-U7IW",
         "ic": "6545A-U7IW",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -26198,7 +26217,8 @@
             "FCC_B",
             "RF"
           ]
-        }
+        },
+        "wifi": "5e"
       },
       "deviceType": "access-point",
       "guids": [
@@ -26467,6 +26487,7 @@
     },
     {
       "compliance": {
+        "cn": "25J99U16E001",
         "fcc": "SWX-U7LITE",
         "ic": "6545A-U7LITE",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -27498,15 +27519,23 @@
     },
     {
       "compliance": {
+        "anatel": "10022-24-08356",
         "fcc": "SWX-U7PROW",
         "ic": "6545A-U7PROW",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "indoorOnly": true,
+        "jrf": [
+          "020-250344"
+        ],
         "modelName": "U7-Pro-Wall",
+        "ncc": "CCAH24LPC810T1",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
         "text": {
+          "BR": [
+            "WIFI_6E"
+          ],
           "CA": [
             "IC",
             "RF",
@@ -27518,7 +27547,8 @@
             "RF",
             "WIFI_6"
           ]
-        }
+        },
+        "wifi": "6e"
       },
       "deviceType": "access-point",
       "guids": [
@@ -39695,6 +39725,28 @@
         "factoryDefault": "6a66d334-4306-4de4-9d8f-564a33b2c57b",
         "userConfigured": "59fc2d05-bad4-45b1-a67e-065f8abc08d9"
       },
+      "compliance": {
+        "fcc": "SWX-UDR5GM",
+        "ic": "6545A-UDR5GM",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UDR-5G-Max",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5",
+            "WIFI_6"
+          ],
+          "US": [
+            "FCC_B",
+            "RF",
+            "WIFI_6"
+          ]
+        }
+      },
       "deviceType": "console",
       "guids": [
         "08919539-a91d-4598-ac20-5d90bbfda75a",
@@ -46933,8 +46985,8 @@
             ]
           },
           "outletsDiagram": [
-            "11 __ 01-02-03-__-04 __ 12",
-            "__ __ 05-06-07-__-08 __ 13"
+            "01-02-03-04 __ 12 13",
+            "05-06-07-08 __ __ 11"
           ],
           "ports": {
             "standard": [
@@ -69013,5 +69065,5 @@
       "videos": {}
     }
   ],
-  "version": "5eb337743669e108b0c0354b67e89aa1eb9218af"
+  "version": "dce00f557cebb3c01effeb709d098b58d913aaae"
 }
