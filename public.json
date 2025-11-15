@@ -30443,6 +30443,19 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UA-Retrofit-Hub-2",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_A"
+          ]
+        }
+      },
       "deviceType": "control",
       "guids": [
         "38681f61-35bc-4113-8288-96d54f434800"
@@ -69065,5 +69078,5 @@
       "videos": {}
     }
   ],
-  "version": "c919b1f8b956d78da90122e8f90a7073446be028"
+  "version": "14831a3978ad7a36b5caa2413ad09dc421f849f7"
 }
