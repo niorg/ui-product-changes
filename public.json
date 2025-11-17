@@ -38094,6 +38094,155 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "07207-25-08356",
+        "fcc": "SWX-UDBS",
+        "ic": "6545A-UDBS",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UDB-Switch",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "Br": [
+            "WIFI_6E"
+          ],
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5",
+            "WIFI_6"
+          ],
+          "US": [
+            "FCC_B",
+            "RF",
+            "WIFI_6"
+          ]
+        }
+      },
+      "deviceType": "switch",
+      "guids": [
+        "91919436-5b59-45c0-8f2b-29ef145f8df9"
+      ],
+      "icon": {
+        "id": "9d6bba00-32dd-4842-b013-7ddc4c46e2c1",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "fd73cc37-62bc-4c12-80af-0c006382c264",
+      "images": {
+        "default": "4d7786e4122db559f5293d30a4889298",
+        "nopadding": "6898f27e83402175ddb6e000cbb01e2a",
+        "topology": "0a5a7770b99e9156f8afb53a511eb31b"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "UDB Switch",
+        "name": "Device Bridge Switch"
+      },
+      "shortnames": [
+        "UDB-Switch",
+        "UDBSW"
+      ],
+      "sku": "UDB-Switch",
+      "sysid": "a69f",
+      "sysids": [
+        "a69f"
+      ],
+      "triplets": [
+        {
+          "k1": "UDBSW",
+          "k2": "UniFi Device Bridge Switch"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "r",
+          "deviceCapabilities": [
+            "BUILDING_BRIDGE",
+            "ACCESS_POINT_SWITCH",
+            "BRIDGE",
+            "BRIDGE_PTMP",
+            "HAS_TEMPERATURE_SENSOR",
+            "HAS_CLIENTS",
+            "VPORT"
+          ],
+          "diagram": [
+            "01 02 03 04 05 06 07 08"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "features": {
+            "poe": true
+          },
+          "minimumFirmwareRequired": "0.0.0",
+          "model": "UDBA69F",
+          "numberOfPorts": 8,
+          "ports": {
+            "standard": 8
+          },
+          "radios": {
+            "6e": {
+              "maxSpeedMegabitsPerSecond": 5765
+            },
+            "na": {
+              "maxSpeedMegabitsPerSecond": 4324
+            }
+          },
+          "systemIdHexadecimal": "a69f",
+          "type": "udb"
+        }
+      },
+      "videos": {}
+    },
+    {
       "btle": {
         "factoryDefault": "e87455ae-b373-4c9b-aa3f-2a19ec0489a1",
         "userConfigured": "52eb5387-28af-4aa5-acff-ddaa8f015c49"
@@ -69078,5 +69227,5 @@
       "videos": {}
     }
   ],
-  "version": "14831a3978ad7a36b5caa2413ad09dc421f849f7"
+  "version": "9d6b2e4dff812044eccb7ffc570202c3b6ac6d8d"
 }
