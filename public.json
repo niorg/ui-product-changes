@@ -17161,6 +17161,94 @@
       "videos": {}
     },
     {
+      "deviceType": "console",
+      "guids": [],
+      "icon": {
+        "id": "18b34619-b3c4-406d-9569-ffdfa9fb07c6",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "7983cd58-b97a-489c-91b8-7a2265d7ff21",
+      "images": {
+        "default": "eebdbea1436dda66bb95658783ae5133",
+        "nopadding": "45be56a2032b4181a37cc878e3b462f5",
+        "topology": "b6577140159ea7940ff7fcb8d4f52743"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "UNVR",
+        "name": "Network Video Recorder"
+      },
+      "shortnames": [
+        "NVR"
+      ],
+      "sku": "NVR",
+      "sysid": "ea1a",
+      "sysids": [
+        "ea1a"
+      ],
+      "triplets": [
+        {
+          "k1": "NVR",
+          "k2": "UniFi NVR"
+        },
+        {
+          "k1": "NVR"
+        }
+      ],
+      "unifi": {
+        "adoptability": "standalone"
+      },
+      "videos": {}
+    },
+    {
       "deviceType": "power-supply",
       "guids": [],
       "icon": {
@@ -44847,14 +44935,12 @@
         "UNVR-4",
         "UNVR4",
         "UniFi Video NVR",
-        "UniFi Video NVR 2TB",
-        "NVR"
+        "UniFi Video NVR 2TB"
       ],
       "sku": "UNVR",
       "sysid": "ea16",
       "sysids": [
-        "ea16",
-        "ea1a"
+        "ea16"
       ],
       "triplets": [
         {
@@ -44874,13 +44960,6 @@
         {
           "k1": "UNVR",
           "k2": "UniFi Network Video Recorder"
-        },
-        {
-          "k1": "NVR",
-          "k2": "UniFi NVR"
-        },
-        {
-          "k1": "NVR"
         }
       ],
       "unifi": {
@@ -69148,5 +69227,5 @@
       "videos": {}
     }
   ],
-  "version": "25c147e85940c89640641798b6d7d8cc31f1e0f9"
+  "version": "6c8d8ea3ea2f0f633b4b2c5c3d37263643c628f6"
 }
