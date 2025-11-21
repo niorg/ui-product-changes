@@ -37849,6 +37849,118 @@
       "videos": {}
     },
     {
+      "deviceType": "bridge",
+      "guids": [
+        "209e112e-2446-41ed-9a2b-b7abbf098506"
+      ],
+      "icon": {
+        "id": "130f6a88-fc70-413c-b6a8-b084b4cb3b71",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "9ec8f657-e89a-4a8a-8dc0-c34ec7b7b544",
+      "images": {
+        "default": "460e7801ef560f604d02e4b9c044ff3a",
+        "nopadding": "616fdf356c9056f7c6556845e469dd94",
+        "topology": "32b11c0ece904d8a9ab1e1926eb8dff3"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "UDB IoT",
+        "name": "Device Bridge IoT"
+      },
+      "shortnames": [
+        "UDBIOT",
+        "UDB-IoT"
+      ],
+      "sku": "UDB-IoT",
+      "sysid": "ea03",
+      "sysids": [
+        "ea03"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "b",
+          "deviceCapabilities": [
+            "WIRELESS_SWITCH",
+            "HAS_CLIENTS",
+            "BRIDGE",
+            "ACCESS_POINT_SWITCH",
+            "ELEMENT_WITH_UPLINK_PRIORITY",
+            "AUTOLINK_ELEMENT",
+            "HAS_TEMPERATURE_SENSOR"
+          ],
+          "diagram": [
+            "01"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 100,
+          "minimumFirmwareRequired": "6.7.13",
+          "model": "UACCEA03",
+          "numberOfPorts": 1,
+          "ports": {
+            "standard": 1
+          },
+          "radios": {
+            "ng": {
+              "maxSpeedMegabitsPerSecond": 300
+            }
+          },
+          "systemIdHexadecimal": "ea03",
+          "type": "uacc"
+        }
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "fcc": "SWX-UDBP",
         "ic": "6545A-UDBP",
@@ -69227,5 +69339,5 @@
       "videos": {}
     }
   ],
-  "version": "6c8d8ea3ea2f0f633b4b2c5c3d37263643c628f6"
+  "version": "7097bd05fa8e0cc30d0aaea22192314544a906e1"
 }
