@@ -7907,6 +7907,7 @@
       "images": {
         "default": "e130670d95521a3b582f3ec5ddb0ae55",
         "nopadding": "fac461830c2dfd0c5b177e7bedda8a88",
+        "rack": "496c275d214ee8ee8c369fceecbe541a",
         "topology": "4f7a6d5efa5ab88b3a61a9fdabf600a8"
       },
       "line": {
@@ -8369,6 +8370,7 @@
       "images": {
         "default": "fdc59a39cbd1b92273206095621dce29",
         "nopadding": "3d2487bf3bfd44932bf7c47b83441e04",
+        "rack": "8d6ccfbaa97daa3fa94e95b398dd520f",
         "topology": "28f0424e8d7028c86dc46a74e7e6dc71"
       },
       "line": {
@@ -8763,6 +8765,7 @@
       "images": {
         "default": "1b4cc56dda2c98bd71586ed5cc821d5a",
         "nopadding": "e30506e555aaac0cb03f03c0d9af3684",
+        "rack": "0433b36a5106cf264ef91b15ddc0b798",
         "topology": "45c4d5f2b39a589ab122015ad510e5b7"
       },
       "line": {
@@ -9502,6 +9505,7 @@
       "images": {
         "default": "640bf7845a9b514b65f210514f2b221b",
         "nopadding": "7eb57f3b963d264123ece8255c5c4dff",
+        "rack": "70676da14c22e295e71fd69543d51a0f",
         "topology": "94d1c2ce311f96fb45d3c09a40c1626f"
       },
       "line": {
@@ -9683,6 +9687,7 @@
       "images": {
         "default": "7750ff956e2e41cbefb260e194d86c99",
         "nopadding": "7bc825794f89e0e85e8072cffa3c66da",
+        "rack": "6f94a99a5b1c18b46e406b160fec2738",
         "topology": "a141c112152cce44ec16a7b0f3d70b8e"
       },
       "line": {
@@ -9775,6 +9780,7 @@
       "images": {
         "default": "4885bf2dd0978256cb90773a18566a3e",
         "nopadding": "7c9f6c41ded4e1ae4771c7c78b79229b",
+        "rack": "7777c4655882789b84cabc9a9f309b6e",
         "topology": "642fbf09d5a661cc15985df342f71134"
       },
       "line": {
@@ -10051,6 +10057,7 @@
       "images": {
         "default": "64cea83e4e50e97d52dc5e535ccd0d66",
         "nopadding": "640d0a33ab2f0c63b8b3e53cc293407a",
+        "rack": "18a8f1b9062fefaf779fc70bd8761ead",
         "topology": "0be64dede859e7a0d9bdf9460ea0ca3c"
       },
       "line": {
@@ -10146,6 +10153,7 @@
       "images": {
         "default": "7a0a1638062fb5a4d50ca4f4f01aefdb",
         "nopadding": "a16d1be6e4ca40fd76645404fb573aca",
+        "rack": "1048a71854c49dbc0c10fbebb3cba4f5",
         "topology": "e34c79745c66f417e01d8e6e9705f83a"
       },
       "line": {
@@ -10619,6 +10627,7 @@
       "images": {
         "default": "4c85cb9f1b5fffd5cd20890535bd7aa1",
         "nopadding": "a6c3aab79701bf745de393f9cfd5b398",
+        "rack": "41e50068919b550a913349dd80de65b7",
         "topology": "23c7c96d19c4387ac854c000ab5ac25a"
       },
       "line": {
@@ -11103,6 +11112,7 @@
       "images": {
         "default": "4590ad524eb94a8d57af0338afda5f40",
         "nopadding": "47c1651aee1f543f1b862e3d26214478",
+        "rack": "2575635f64f2b700196295a793d16863",
         "topology": "e58e8e5d529e6592ef6b2685b11df10b"
       },
       "line": {
@@ -34401,6 +34411,7 @@
       "images": {
         "default": "a8df82c0fee9392cd15e626a689e153b",
         "nopadding": "0bd2b740abe48f7c5b61c748f8a9d040",
+        "rack": "b3b1c0026564163419f705f9d4647e3f",
         "topology": "bd24dd11fb2b631375e9e468bf556f8e"
       },
       "line": {
@@ -37932,12 +37943,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "HAS_CLIENTS",
-            "BRIDGE",
-            "ACCESS_POINT_SWITCH",
             "ELEMENT_WITH_UPLINK_PRIORITY",
-            "AUTOLINK_ELEMENT",
-            "HAS_TEMPERATURE_SENSOR"
+            "ACCESS_POINT_SWITCH",
+            "BRIDGE",
+            "HAS_CLIENTS",
+            "HAS_TEMPERATURE_SENSOR",
+            "AUTOLINK_ELEMENT"
           ],
           "diagram": [
             "01"
@@ -39033,6 +39044,7 @@
         "mobile-internet-connected": "3e158fb281b6f2cbf3f830e53d97b589",
         "mobile-no-internet": "26109bc1c764cda75815ba385c1a3ab1",
         "nopadding": "52bd54e97d8b7985b262a94814f26d90",
+        "rack": "ddc77a9794b1036642d376c419f70853",
         "topology": "ecf578665ded4f14cf739c792bcbfd8f"
       },
       "isARSupported": true,
@@ -39310,6 +39322,7 @@
         "mobile-internet-connected": "c55008ce93b5f52c44d4df9c364685d0",
         "mobile-no-internet": "6cb0066cc395343614d2f5fa3611b4f1",
         "nopadding": "70904ddb99b8b68ddfc3856c98962695",
+        "rack": "c1dde79fe5ddc3f6510492713022f0bf",
         "topology": "5e6416b3bdb6b6891ba500ce265672b5"
       },
       "isARSupported": true,
@@ -41808,6 +41821,7 @@
       "images": {
         "default": "d2df11f4f3ff2887aab5656f9cdecd19",
         "nopadding": "43b78162da468a30e6a0a9cdaa2bee36",
+        "rack": "b8b44b6cf359d601e6f953689891fe81",
         "topology": "521f9d80b4a808f2c02c448c78149396"
       },
       "line": {
@@ -42304,6 +42318,7 @@
       "images": {
         "default": "4a35330d25ce0786555c80c9698c4b4f",
         "nopadding": "b91ed6c500c3d9a55e08c1646f9ab241",
+        "rack": "4d3610a47418accfafae1c2db67edef7",
         "topology": "b862b7457e9b19d05ad588fc19375a0d"
       },
       "line": {
@@ -42848,6 +42863,7 @@
       "images": {
         "default": "006ef2acac5f6b7ce464a2329cae4534",
         "nopadding": "e60f8a901ecf5e1b98ac067e8728fa50",
+        "rack": "349f924b4edf1134a4f0aa0041736c91",
         "topology": "16562a368f4cb428d297321385a62e35"
       },
       "line": {
@@ -44413,6 +44429,7 @@
       "images": {
         "default": "6d4ff766754b5ec82e1910e35d5982fd",
         "nopadding": "f6eff2bfd9c172731a5b39a9375c519d",
+        "rack": "be6a34c69401e476a16a2db3600e0083",
         "topology": "51979d60294973f3b4da63f7d32f46da"
       },
       "line": {
@@ -44542,6 +44559,7 @@
       "images": {
         "default": "bb601a25dc15f8c552bb6ded529f7f60",
         "nopadding": "2792824bcbf8a75cdbbdcd3ea37cb379",
+        "rack": "a6bb0b6bdf9bcb730a1bf2e729168dca",
         "topology": "a20b8a9787c56560d7d8dadee7909900"
       },
       "line": {
@@ -44672,6 +44690,7 @@
       "images": {
         "default": "274ec03ce0a54a4404eac951942a0005",
         "nopadding": "4dc9ec6169956eae1bd303618c493c5c",
+        "rack": "10b920c9eca9b9facc47a3c42e3110f8",
         "topology": "3f5e33b73aee95daa1d9957f20eb70a8"
       },
       "line": {
@@ -45029,6 +45048,7 @@
       "images": {
         "default": "eebdbea1436dda66bb95658783ae5133",
         "nopadding": "e6c444a789e3108caa51da9dc4897ba6",
+        "rack": "525b4c724de38b3bcb6ecf1bd30b651d",
         "topology": "32a3970b8f70210d3678dcfaecf56dff"
       },
       "jrf": [
@@ -45306,6 +45326,7 @@
       "images": {
         "default": "7478abf0ea9850c0100338b0cd59fc80",
         "nopadding": "1b2f455e430a6cdcabd35600978b9644",
+        "rack": "10dcac2413d8eafb7df05feff67b8898",
         "topology": "f34deae78967532c788e68ba4f7782b7"
       },
       "jrf": [
@@ -47017,6 +47038,7 @@
       "images": {
         "default": "bb1dffe175173745f3b07fa8f3d730f3",
         "nopadding": "4c551c43f0f6f887ac4e4224ef44a447",
+        "rack": "dd90fdaa9b6e84518c26ed61d26ad562",
         "topology": "574ca25b340736b3d5e428cf3a688249"
       },
       "line": {
@@ -47175,6 +47197,7 @@
       "images": {
         "default": "a7277782214aafecc3bcc70f3a59fd0e",
         "nopadding": "ea65a76fc8fe14acd912835d3cf8e6ce",
+        "rack": "3562fa7604d24b28ddb9094804433390",
         "topology": "64ff72640423e389006d4b1d8b856be7"
       },
       "line": {
@@ -47864,6 +47887,7 @@
       "images": {
         "default": "3b664333dbddcdba35973bfea700dc01",
         "nopadding": "319f39b8515abea97c34fcc127a7261d",
+        "rack": "97d5be5045dcc2a1b4346eca9bb53ee6",
         "topology": "8d2ff2fcc3c39753a565d1b402714c3b"
       },
       "line": {
@@ -49839,6 +49863,7 @@
       "images": {
         "default": "c322228b2ad5ac32fb8328605ea9eb52",
         "nopadding": "636d5ad2cf109d924e4091139eb1e2cc",
+        "rack": "2d2a55f53950c6a9433dafc03c2ebb0c",
         "topology": "1e82c70d31b5c7ee1dd1c01e30f99e77"
       },
       "line": {
@@ -50028,6 +50053,7 @@
       "images": {
         "default": "4f164ccfa41cf579f1d402673ba1a8f8",
         "nopadding": "b7a2fd361a792211559f5c865aae2b56",
+        "rack": "b14c6698797de8fec17ad95100bff027",
         "topology": "12b371505d3bc8eeedcb84078d4ea6c1"
       },
       "line": {
@@ -52289,6 +52315,7 @@
       "images": {
         "default": "a7dbcf9a52361a56f5768e793925a431",
         "nopadding": "722fbccb9269211b66b79605fa052ef9",
+        "rack": "5c65982ca17483e044d46f91527021bf",
         "topology": "c6bee121489f56e5c8bef851dd331283"
       },
       "isARSupported": true,
@@ -52578,6 +52605,7 @@
       "images": {
         "default": "b78760cee2f5e7750a95f6fb0b439cc1",
         "nopadding": "1eee0db520634497f613281e4a4276cc",
+        "rack": "dd04c04f112c6ff728a6128d6eff3146",
         "topology": "f778e9180866425774bb88b88b7270af"
       },
       "isARSupported": true,
@@ -52692,6 +52720,7 @@
       "images": {
         "default": "9104eb52e328dc557a8e6b2736b3af8d",
         "nopadding": "a2b1bcf1f3349c7217b9a72a80d67234",
+        "rack": "08604c86e4fe07267c308a54e92401c4",
         "topology": "e4e411638af9513e0b95b979c1c521c4"
       },
       "line": {
@@ -53624,6 +53653,7 @@
       "images": {
         "default": "4c8e726df3e015d42024804eb4e39d68",
         "nopadding": "68d1dfe7b7c555b75da3c004ea3a8331",
+        "rack": "89ce7b9ec9ba75bbcd389929bc02e748",
         "topology": "948c0964a438b0108e0edf128d6e4610"
       },
       "isARSupported": true,
@@ -53752,6 +53782,7 @@
       "images": {
         "default": "f1b183685277e69130775f79ff2888df",
         "nopadding": "c5eec7aca59472a3f0907bdde898e94b",
+        "rack": "c3d9ce625bc6448a6af97957e96be511",
         "topology": "79f9c8f3eea32351a04fdef4f18c7da7"
       },
       "isARSupported": true,
@@ -53886,6 +53917,7 @@
       "images": {
         "default": "cf297e66ccfd9ac005dbcf8f7f1e6942",
         "nopadding": "4c6d0b12f6a9999dfba821bbad1b15cb",
+        "rack": "784328165d1081aeef3fa44014fe00c0",
         "topology": "0a8ba5a4e70cd8e1906f96f4dbd8761b"
       },
       "isARSupported": true,
@@ -54150,6 +54182,7 @@
       "images": {
         "default": "92d5a8b30d93f6ec4b9e71e660ec2d05",
         "nopadding": "2bc976fbbd769868c176141b264e8d0b",
+        "rack": "1e92b8eb0a29195962393e2199a69923",
         "topology": "e30883fa786989070ae8cef0b17a3b2c"
       },
       "isARSupported": true,
@@ -55270,6 +55303,7 @@
       "images": {
         "default": "bda9e079725465ec19d847921351d365",
         "nopadding": "da5d6887fde1a3816a6a6c28c5dd279d",
+        "rack": "fd0468621c95976a0e0ab24c3e94cc32",
         "topology": "faa15837c619de67da70ceb7522833b0"
       },
       "line": {
@@ -55800,6 +55834,7 @@
       "images": {
         "default": "93365c3bc6688ce1fbc69407c732c3d3",
         "nopadding": "ccc0e87363c4d20b66f1e4166e809e9f",
+        "rack": "1e2fd7c4d1d1da2711e6a2760758fb7a",
         "topology": "2e6945cfe70cf522598f644b1052899f"
       },
       "isARSupported": true,
@@ -55915,6 +55950,7 @@
       "images": {
         "default": "d63e8b9562026c12b4b50223cfc93170",
         "nopadding": "b1cd82277458c19e297cd2d9155b32c7",
+        "rack": "833f10c60fa77782af8f28fa627cdb41",
         "topology": "61340cc158b3b9a1e6208f254749b5e7"
       },
       "isARSupported": true,
@@ -56054,6 +56090,7 @@
       "images": {
         "default": "deb28fbb37e5d674831948800b248990",
         "nopadding": "30f5d24404cca9e1c87d6fe3143ea3bb",
+        "rack": "d14d8121d1805ab41f1e5faa41fa0ca6",
         "topology": "b03547196221cb7d572497222e78cf44"
       },
       "isARSupported": true,
@@ -56166,6 +56203,7 @@
       "images": {
         "default": "6a7df16521d9aff8cf2225358a98aac2",
         "nopadding": "9a579dff8dccaa7d1afccd2059c70258",
+        "rack": "d521d8669a77a56c6a97ba45e7d4c18c",
         "topology": "90e45f6f071c263b41f999d63f82310e"
       },
       "isARSupported": true,
@@ -56418,6 +56456,7 @@
       "images": {
         "default": "3919fde83495f0a74276059a3252065b",
         "nopadding": "13ef0a90a63690dd8372d65b7e3906f1",
+        "rack": "a3c1c8b1e7e948c3c67d3dfe260d0d76",
         "topology": "5b76dafef8e8074396ec79768a02ec72"
       },
       "isARSupported": true,
@@ -56549,6 +56588,7 @@
       "images": {
         "default": "e04617c79bd1fa4cdbcd3ad062f38844",
         "nopadding": "bfef87baa6e3c5b0b804c028fbf73a8b",
+        "rack": "e39e39e6d24a014a2f73300559ba5b8b",
         "topology": "bef1733fb9f6bd41aaa84bdd1b0ac3b6"
       },
       "line": {
@@ -56673,6 +56713,7 @@
       "images": {
         "default": "cec26a79685308285a75f9ae627f6a94",
         "nopadding": "9face0cec0c8f0459bc4bba5c5be11bc",
+        "rack": "f26ebafec3195ea8b2acccd2f3420690",
         "topology": "ce880e29b049efcaba1c4688ff6ab847"
       },
       "line": {
@@ -56804,6 +56845,7 @@
       "images": {
         "default": "fe65337fc75429c6945a424212e3cd11",
         "nopadding": "8bcff21cdaa7ad169a0373eaf9e38811",
+        "rack": "7a80dcc2f989a4ad600526d4ca652f87",
         "topology": "320e62cc8e2d7b4b4212c1e4ad2edb4a"
       },
       "isARSupported": true,
@@ -56928,6 +56970,7 @@
       "images": {
         "default": "b031779e6192839d3e5a36e7b00d88b6",
         "nopadding": "98104d12f23a9bfd9c89dfe23804ee36",
+        "rack": "e1b9aad611c77e759a9dd1ee2752998f",
         "topology": "00f5698e79008e124bd8e45b1c895a7c"
       },
       "isARSupported": true,
@@ -57054,6 +57097,7 @@
       "images": {
         "default": "94b80f4cfae5bfbfa11428c97d15390b",
         "nopadding": "a0db3bf6a45e2da9ee194e6e06a5515e",
+        "rack": "887016851e57b891ead242551760893b",
         "topology": "c4439e9e213ebc5fab758cc5f5fb7bc0"
       },
       "isARSupported": true,
@@ -57179,6 +57223,7 @@
       "images": {
         "default": "1403a964069b976ef84c6018c552d159",
         "nopadding": "4fa0ddd426de932fae6eb6be14566ef8",
+        "rack": "7fdb53652a58964d265280c62f87941e",
         "topology": "e6817f5dfcdb97f30d205800d0b3182f"
       },
       "isARSupported": true,
@@ -57308,6 +57353,7 @@
       "images": {
         "default": "958cfcf2f6474e3a1315c746ee04fd47",
         "nopadding": "76875cc5c4df3a5f473caeb8f69a36b9",
+        "rack": "29a5453304ea8e1f4d19072117403bf9",
         "topology": "8c92f48fb38e3378c442231f3e754056"
       },
       "isARSupported": true,
@@ -57432,6 +57478,7 @@
       "images": {
         "default": "017d0c6c94b71c5f9b6913702bbd16ef",
         "nopadding": "347e4886a1155876faa8a4bf4b901c56",
+        "rack": "592c9111cd11a97f8f9cc0d250185d61",
         "topology": "d401ef4118fbac687fa6b13ff42f89bc"
       },
       "isARSupported": true,
@@ -57553,6 +57600,7 @@
       "images": {
         "default": "e703436d62d44a3d7a8c23d0f424d745",
         "nopadding": "854ce723cb9700209eef2791cc986253",
+        "rack": "b15547e5b491d969a840b6fb07e9b694",
         "topology": "53f20a1a66d13552eaca1e18f16736c3"
       },
       "isARSupported": true,
@@ -57663,6 +57711,7 @@
       "images": {
         "default": "65f193878152834839713319a3f1da14",
         "nopadding": "1b9696f02287584917c960f7c3546585",
+        "rack": "d880ff377479ebd5a17ddb847d255c4a",
         "topology": "52f9f8c6688eb7d34d1eff410c1c02c5"
       },
       "isARSupported": true,
@@ -57770,6 +57819,7 @@
       "images": {
         "default": "09ff02ec999057694e58c6df46beb81e",
         "nopadding": "8e89968980d8f46cec3bfe8c82ef0d11",
+        "rack": "a2c2bf68b30637161cef2a49b8ce6cd5",
         "topology": "217043736eae5e9c57ec11bd658275b8"
       },
       "isARSupported": true,
@@ -57880,6 +57930,7 @@
       "images": {
         "default": "c20f95b8d26726ec935ef650f41844d7",
         "nopadding": "1a66b303fe13e26962517a989c9dfa99",
+        "rack": "5905028d97b493616efbd96353575f0c",
         "topology": "55c46caeed66ebd51d7852a7a61457cd"
       },
       "isARSupported": true,
@@ -57985,6 +58036,7 @@
       "images": {
         "default": "f11dacb92ebdc80c8f76e70445992fd8",
         "nopadding": "3588441446a6e6356ef498e12f3ff680",
+        "rack": "506884d501223496e04957971a879b7b",
         "topology": "348d7e69108d5a3adbabc70ba64ac89e"
       },
       "isARSupported": true,
@@ -58204,6 +58256,7 @@
       "images": {
         "default": "b5b03c5cea7caedf417dd24220bb6339",
         "nopadding": "4f6b242d3d72fa68f7e5c0e7f7f96198",
+        "rack": "bbac83484c3e0100a6f3dc1e443e6a0f",
         "topology": "c93851d38781aa10a8c05b49467a56ed"
       },
       "isARSupported": true,
@@ -65060,7 +65113,8 @@
         "name": "Camera G6 Entry"
       },
       "shortnames": [
-        "UVC-G6-Entry"
+        "UVC-G6-Entry",
+        "UVC G6 Entry"
       ],
       "sku": "UVC-G6-Entry",
       "sysid": "a063",
@@ -65840,7 +65894,8 @@
       },
       "shortnames": [
         "UVC-G6-Entry-Pro",
-        "UVC-G6-Pro-Entry"
+        "UVC-G6-Pro-Entry",
+        "UVC G6 Pro Entry"
       ],
       "sku": "UVC-G6-Pro-Entry",
       "sysid": "a06d",
@@ -67524,6 +67579,7 @@
         "mobile-internet-connected": "4760b4aa8540d9c44d45b2a9ade32080",
         "mobile-no-internet": "e33e842272eee1bb800e68b56c0a0fae",
         "nopadding": "e335855f02eb6d2f0da491f55a998cc8",
+        "rack": "0c7344b01f31d963bccbc3ec83c64897",
         "topology": "a2f25fb81ac3e6b08d369e450a1935a4"
       },
       "isARSupported": true,
@@ -68419,6 +68475,7 @@
       "images": {
         "default": "2a5e9ed77af5c2c3baaf2f2ba4e16162",
         "nopadding": "13adaf19390498b0c77c22bd29460893",
+        "rack": "877b49a783f0e868597b60c3c41a2c67",
         "topology": "6b49141a30c342bdafc675e6ada4f168"
       },
       "isARSupported": true,
@@ -69339,5 +69396,5 @@
       "videos": {}
     }
   ],
-  "version": "7097bd05fa8e0cc30d0aaea22192314544a906e1"
+  "version": "879eac7c4d122f5b05c5bc91eab8f3705221926a"
 }
