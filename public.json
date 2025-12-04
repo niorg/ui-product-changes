@@ -23435,6 +23435,133 @@
       "videos": {}
     },
     {
+      "btle": {
+        "factoryDefault": "14c16b63-fccd-495c-b723-ed20d8e73dc1",
+        "userConfigured": "187e7fb5-76f2-4a81-b38f-47830dbc9d40"
+      },
+      "compliance": {
+        "fcc": "SWX-U5GMO",
+        "ic": "6545A-U5GMO",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "U5G-Max-Outdoor",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
+      "deviceType": "router",
+      "guids": [
+        "14c16b63-fccd-495c-b723-ed20d8e73dc1",
+        "187e7fb5-76f2-4a81-b38f-47830dbc9d40"
+      ],
+      "icon": {
+        "id": "5bcf05b3-8329-47d1-9d98-ecb076a768db",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "2c51d3ae-060a-470c-a295-e74689ece89a",
+      "images": {
+        "default": "fd4ae55a0544e232fdfd59dde1c9ff1b",
+        "nopadding": "ad633817e7cc4dc4e5d45af3658955bb",
+        "topology": "949703e15dbe18e0769f28c222fe5c4b"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "U5G Max Outdoor",
+        "name": "U5G Max Outdoor"
+      },
+      "shortnames": [
+        "5G-Link-Outdoor",
+        "U5G-Link-Outdoor",
+        "U5G-Max-Outdoor"
+      ],
+      "sku": "U5G-Max-Outdoor",
+      "sysid": "e631",
+      "sysids": [
+        "e631"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "r",
+          "deviceCapabilities": [
+            "ULTE",
+            "MBB_DUAL_SIM_SLOT",
+            "MBB_ESIM",
+            "INTERNET_PROVIDER"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 2500,
+          "features": {
+            "outdoorModeSupport": true
+          },
+          "minimumFirmwareRequired": "7.3.17",
+          "model": "UMBBE631",
+          "numberOfPorts": 1,
+          "radios": {},
+          "systemIdHexadecimal": "e631",
+          "type": "umbb"
+        }
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "anatel": "10539-23-08356",
         "cn": "2023AJ11728",
@@ -69703,5 +69830,5 @@
       "videos": {}
     }
   ],
-  "version": "4b75dcc7c06a02e61f917a195d02612c0ae4f510"
+  "version": "e5a54f120d69ba6d29b3d7ca7d4d3ae6143a8a44"
 }
