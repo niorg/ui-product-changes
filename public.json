@@ -8573,6 +8573,22 @@
             "02 04 06"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 25000,
+          "ipsLimits": {
+            "etOptionsLimits": {
+              "full": {
+                "hard": 25,
+                "soft": 20
+              },
+              "open": {
+                "hard": 25,
+                "soft": 20
+              },
+              "performance": {
+                "hard": 25,
+                "soft": 20
+              }
+            }
+          },
           "knownUnsupportedFeatures": [
             "SWITCH_CAP_DOT1X",
             "SWITCH_CAP_PORT_ISOLATION",
@@ -8640,6 +8656,10 @@
                 "1000 FDX"
               ]
             }
+          },
+          "mdnsLimits": {
+            "hard": 60,
+            "soft": 25
           },
           "minimumFirmwareRequired": "0.9.0",
           "model": "UDMENT",
@@ -23290,6 +23310,7 @@
         "userConfigured": "ca201216-99e5-45c6-bbc3-c9b719741acc"
       },
       "compliance": {
+        "anatel": "07608-25-08356",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "U5G-Max",
         "rcm": true,
@@ -23362,9 +23383,9 @@
       },
       "id": "77ce1d39-d79f-4e02-9e63-258f639462f2",
       "images": {
-        "default": "2a95f74bf97d66a1dc8ec2f5fbae8dcf",
-        "nopadding": "7248f43916cd62c350d2837fb6d2ad57",
-        "topology": "c6e4884c5451d8e6540db3e5d96d9a8c"
+        "default": "6737fd1c65ea42af97ecf6103bf7f998",
+        "nopadding": "56bbe76c30490e9bd89ba23ae26d8b65",
+        "topology": "4da3751931cba056be0321ea699df3af"
       },
       "line": {
         "id": "unifi-network",
@@ -29033,12 +29054,19 @@
     },
     {
       "compliance": {
+        "anatel": "CCAH25LP1800T6",
         "fcc": "SWX-UAG3F",
         "ic": "6545A-UAG3F",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jnfc": "AC-25101",
+        "jrf": [
+          "020-250211"
+        ],
         "modelName": "UA-G3-Flex-W",
         "ncc": "CCAH25LP1800T6",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -29130,6 +29158,7 @@
     },
     {
       "compliance": {
+        "anatel": "CCAH25LP1801T8",
         "fcc": "SWX-UAG3F",
         "ic": "6545A-UAG3F",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -36414,6 +36443,19 @@
             "01 02 03 04 05 06 07"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "ipsLimits": {
+            "etOptionsLimits": {
+              "open": {
+                "hard": 20,
+                "soft": 10
+              },
+              "performance": {
+                "hard": 20,
+                "soft": 10
+              }
+            },
+            "memoryWarningPercentage": 77
+          },
           "linkNegotiation": {
             "eth0": {
               "portIdx": 1,
@@ -36493,6 +36535,10 @@
                 "1000 FDX"
               ]
             }
+          },
+          "mdnsLimits": {
+            "hard": 50,
+            "soft": 20
           },
           "minimumFirmwareRequired": "0.9.0",
           "model": "UDMA6A8",
@@ -36695,6 +36741,19 @@
             "05 04 03 02 01"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 2500,
+          "ipsLimits": {
+            "etOptionsLimits": {
+              "open": {
+                "hard": 20,
+                "soft": 10
+              },
+              "performance": {
+                "hard": 20,
+                "soft": 10
+              }
+            },
+            "memoryWarningPercentage": 78
+          },
           "knownUnsupportedFeatures": [
             "SWITCH_CAP_DOT1X",
             "SWITCH_CAP_PORT_ISOLATION",
@@ -36728,6 +36787,10 @@
                 "10 HDX"
               ]
             }
+          },
+          "mdnsLimits": {
+            "hard": 30,
+            "soft": 10
           },
           "minimumFirmwareRequired": "0.9.0",
           "model": "UCGMAX",
@@ -36913,6 +36976,19 @@
             "01 02 03 04 __ 05"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "ipsLimits": {
+            "etOptionsLimits": {
+              "open": {
+                "hard": 20,
+                "soft": 10
+              },
+              "performance": {
+                "hard": 20,
+                "soft": 10
+              }
+            },
+            "memoryWarningPercentage": 80
+          },
           "knownUnsupportedFeatures": [
             "SWITCH_CAP_DOT1X",
             "SWITCH_CAP_PORT_ISOLATION",
@@ -36945,6 +37021,10 @@
                 "10 HDX"
               ]
             }
+          },
+          "mdnsLimits": {
+            "hard": 30,
+            "soft": 10
           },
           "minimumFirmwareRequired": "0.9.0",
           "model": "UDRULT",
@@ -37915,9 +37995,9 @@
       },
       "id": "9ec8f657-e89a-4a8a-8dc0-c34ec7b7b544",
       "images": {
-        "default": "460e7801ef560f604d02e4b9c044ff3a",
-        "nopadding": "616fdf356c9056f7c6556845e469dd94",
-        "topology": "32b11c0ece904d8a9ab1e1926eb8dff3"
+        "default": "8e486986b664eea4496734d91c61d35c",
+        "nopadding": "81494f07e4d1e53138e926bc2e1d0b26",
+        "topology": "a84975e6e9ed9d65df029037c040d3df"
       },
       "line": {
         "id": "unifi-network",
@@ -37943,12 +38023,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "ELEMENT_WITH_UPLINK_PRIORITY",
-            "ACCESS_POINT_SWITCH",
-            "BRIDGE",
-            "HAS_CLIENTS",
             "HAS_TEMPERATURE_SENSOR",
-            "AUTOLINK_ELEMENT"
+            "HAS_CLIENTS",
+            "BRIDGE",
+            "ELEMENT_WITH_UPLINK_PRIORITY",
+            "AUTOLINK_ELEMENT",
+            "ACCESS_POINT_SWITCH"
           ],
           "diagram": [
             "01"
@@ -38881,6 +38961,18 @@
             "bandsteer": true,
             "gen": 2
           },
+          "ipsLimits": {
+            "etOptionsLimits": {
+              "open": {
+                "hard": 10,
+                "soft": 3
+              },
+              "performance": {
+                "hard": 5,
+                "soft": 3
+              }
+            }
+          },
           "knownUnsupportedFeatures": [
             "SWITCH_CAP_DOT1X",
             "SWITCH_CAP_PORT_ISOLATION",
@@ -38901,6 +38993,10 @@
                 "10 HDX"
               ]
             }
+          },
+          "mdnsLimits": {
+            "hard": 30,
+            "soft": 10
           },
           "minimumFirmwareRequired": "0.9.0",
           "model": "UDM",
@@ -39117,6 +39213,19 @@
             "02 04 06 08 __ 09 11"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "ipsLimits": {
+            "etOptionsLimits": {
+              "open": {
+                "hard": 20,
+                "soft": 10
+              },
+              "performance": {
+                "hard": 20,
+                "soft": 10
+              }
+            },
+            "memoryWarningPercentage": 84
+          },
           "knownUnsupportedFeatures": [
             "SWITCH_CAP_DOT1X",
             "SWITCH_CAP_PORT_ISOLATION",
@@ -39164,6 +39273,10 @@
                 "1000 FDX"
               ]
             }
+          },
+          "mdnsLimits": {
+            "hard": 50,
+            "soft": 20
           },
           "minimumFirmwareRequired": "0.9.0",
           "model": "UDMPRO",
@@ -39380,6 +39493,19 @@
             "02 04 06 08 __ 09 11"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "ipsLimits": {
+            "etOptionsLimits": {
+              "open": {
+                "hard": 20,
+                "soft": 10
+              },
+              "performance": {
+                "hard": 20,
+                "soft": 10
+              }
+            },
+            "memoryWarningPercentage": 92
+          },
           "knownUnsupportedFeatures": [
             "SWITCH_CAP_DOT1X",
             "SWITCH_CAP_PORT_ISOLATION",
@@ -39428,6 +39554,10 @@
                 "1000 FDX"
               ]
             }
+          },
+          "mdnsLimits": {
+            "hard": 50,
+            "soft": 20
           },
           "minimumFirmwareRequired": "0.9.0",
           "model": "UDMPROMAX",
@@ -39663,6 +39793,19 @@
           "features": {
             "poe": true
           },
+          "ipsLimits": {
+            "etOptionsLimits": {
+              "open": {
+                "hard": 20,
+                "soft": 10
+              },
+              "performance": {
+                "hard": 20,
+                "soft": 10
+              }
+            },
+            "memoryWarningPercentage": 85
+          },
           "knownUnsupportedFeatures": [
             "SWITCH_CAP_DOT1X",
             "SWITCH_CAP_PORT_ISOLATION",
@@ -39711,6 +39854,10 @@
                 "1000 FDX"
               ]
             }
+          },
+          "mdnsLimits": {
+            "hard": 50,
+            "soft": 20
           },
           "minimumFirmwareRequired": "0.9.0",
           "model": "UDMPROSE",
@@ -39939,6 +40086,18 @@
             "gen": 2,
             "poe": true
           },
+          "ipsLimits": {
+            "etOptionsLimits": {
+              "open": {
+                "hard": 10,
+                "soft": 3
+              },
+              "performance": {
+                "hard": 5,
+                "soft": 3
+              }
+            }
+          },
           "knownUnsupportedFeatures": [
             "SWITCH_CAP_DOT1X",
             "SWITCH_CAP_PORT_ISOLATION",
@@ -39959,6 +40118,10 @@
                 "10 HDX"
               ]
             }
+          },
+          "mdnsLimits": {
+            "hard": 30,
+            "soft": 10
           },
           "minimumFirmwareRequired": "0.9.0",
           "model": "UDR",
@@ -40138,6 +40301,18 @@
           "features": {
             "poe": true
           },
+          "ipsLimits": {
+            "etOptionsLimits": {
+              "open": {
+                "hard": 10,
+                "soft": 3
+              },
+              "performance": {
+                "hard": 5,
+                "soft": 3
+              }
+            }
+          },
           "knownUnsupportedFeatures": [
             "SWITCH_CAP_DOT1X",
             "SWITCH_CAP_PORT_ISOLATION",
@@ -40179,6 +40354,10 @@
                 "1000 FDX"
               ]
             }
+          },
+          "mdnsLimits": {
+            "hard": 30,
+            "soft": 10
           },
           "minimumFirmwareRequired": "0.9.0",
           "model": "UDMA6B9",
@@ -40381,6 +40560,18 @@
           "features": {
             "poe": true
           },
+          "ipsLimits": {
+            "etOptionsLimits": {
+              "open": {
+                "hard": 10,
+                "soft": 3
+              },
+              "performance": {
+                "hard": 5,
+                "soft": 3
+              }
+            }
+          },
           "knownUnsupportedFeatures": [
             "SWITCH_CAP_DOT1X",
             "SWITCH_CAP_PORT_ISOLATION",
@@ -40422,6 +40613,10 @@
                 "1000 FDX"
               ]
             }
+          },
+          "mdnsLimits": {
+            "hard": 30,
+            "soft": 10
           },
           "minimumFirmwareRequired": "0.9.0",
           "model": "UDMA67A",
@@ -40648,6 +40843,19 @@
           "features": {
             "poe": true
           },
+          "ipsLimits": {
+            "etOptionsLimits": {
+              "open": {
+                "hard": 20,
+                "soft": 10
+              },
+              "performance": {
+                "hard": 20,
+                "soft": 10
+              }
+            },
+            "memoryWarningPercentage": 85
+          },
           "knownUnsupportedFeatures": [
             "SWITCH_CAP_DOT1X",
             "SWITCH_CAP_PORT_ISOLATION",
@@ -40696,6 +40904,10 @@
                 "1000 FDX"
               ]
             }
+          },
+          "mdnsLimits": {
+            "hard": 50,
+            "soft": 20
           },
           "minimumFirmwareRequired": "0.9.0",
           "model": "UDW",
@@ -67226,6 +67438,10 @@
               ]
             }
           },
+          "mdnsLimits": {
+            "hard": 2,
+            "soft": 1
+          },
           "minimumFirmwareRequired": "0.9.0",
           "model": "UX",
           "networkGroups": {
@@ -67425,6 +67641,18 @@
             "bandsteer": true,
             "gen": 2
           },
+          "ipsLimits": {
+            "etOptionsLimits": {
+              "open": {
+                "hard": 10,
+                "soft": 3
+              },
+              "performance": {
+                "hard": 5,
+                "soft": 3
+              }
+            }
+          },
           "knownUnsupportedFeatures": [
             "SWITCH_CAP_DOT1X",
             "SWITCH_CAP_PORT_ISOLATION",
@@ -67448,6 +67676,10 @@
                 "10 HDX"
               ]
             }
+          },
+          "mdnsLimits": {
+            "hard": 30,
+            "soft": 10
           },
           "minimumFirmwareRequired": null,
           "model": "UDMA69B",
@@ -67635,6 +67867,22 @@
             "02 04 06"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "ipsLimits": {
+            "etOptionsLimits": {
+              "full": {
+                "hard": 25,
+                "soft": 20
+              },
+              "open": {
+                "hard": 25,
+                "soft": 20
+              },
+              "performance": {
+                "hard": 25,
+                "soft": 20
+              }
+            }
+          },
           "linkNegotiation": {
             "eth0": {
               "portIdx": 1,
@@ -67694,6 +67942,10 @@
                 "1000 FDX"
               ]
             }
+          },
+          "mdnsLimits": {
+            "hard": 60,
+            "soft": 25
           },
           "minimumFirmwareRequired": "0.9.0",
           "model": "UXGENT",
@@ -67872,6 +68124,19 @@
             "01 02 03 04 05 06 07"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "ipsLimits": {
+            "etOptionsLimits": {
+              "open": {
+                "hard": 20,
+                "soft": 10
+              },
+              "performance": {
+                "hard": 20,
+                "soft": 10
+              }
+            },
+            "memoryWarningPercentage": 69
+          },
           "linkNegotiation": {
             "eth0": {
               "portIdx": 1,
@@ -67951,6 +68216,10 @@
                 "1000 FDX"
               ]
             }
+          },
+          "mdnsLimits": {
+            "hard": 50,
+            "soft": 20
           },
           "minimumFirmwareRequired": "0.0.1",
           "model": "UXGA6AA",
@@ -68161,6 +68430,10 @@
               ]
             }
           },
+          "mdnsLimits": {
+            "hard": 30,
+            "soft": 10
+          },
           "minimumFirmwareRequired": "0.9.0",
           "model": "UXG",
           "networkGroups": {
@@ -68320,6 +68593,19 @@
             "01 02 03 04 05"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "ipsLimits": {
+            "etOptionsLimits": {
+              "open": {
+                "hard": 20,
+                "soft": 10
+              },
+              "performance": {
+                "hard": 20,
+                "soft": 10
+              }
+            },
+            "memoryWarningPercentage": 65
+          },
           "linkNegotiation": {
             "eth3": {
               "portIdx": 4,
@@ -68345,6 +68631,10 @@
                 "10 HDX"
               ]
             }
+          },
+          "mdnsLimits": {
+            "hard": 30,
+            "soft": 10
           },
           "minimumFirmwareRequired": "0.9.0",
           "model": "UXGB",
@@ -68531,6 +68821,19 @@
             "02 04"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "ipsLimits": {
+            "etOptionsLimits": {
+              "open": {
+                "hard": 20,
+                "soft": 10
+              },
+              "performance": {
+                "hard": 20,
+                "soft": 10
+              }
+            },
+            "memoryWarningPercentage": 70
+          },
           "linkNegotiation": {
             "eth0": {
               "portIdx": 1,
@@ -68570,6 +68873,10 @@
                 "1000 FDX"
               ]
             }
+          },
+          "mdnsLimits": {
+            "hard": 50,
+            "soft": 20
           },
           "minimumFirmwareRequired": "0.0.1",
           "model": "UXGPRO",
@@ -69396,5 +69703,5 @@
       "videos": {}
     }
   ],
-  "version": "879eac7c4d122f5b05c5bc91eab8f3705221926a"
+  "version": "4b75dcc7c06a02e61f917a195d02612c0ae4f510"
 }
