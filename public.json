@@ -6821,14 +6821,22 @@
     },
     {
       "compliance": {
+        "anatel": "06372-24-08356",
         "fcc": "SWX-E7",
         "ic": "6545A-E7",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
-        "modelName": " E7",
+        "jrf": [
+          "020-250316"
+        ],
+        "modelName": "E7",
+        "ncc": "CCAH25LPA810T9",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
         "text": {
+          "BR": [
+            "WIFI_6E"
+          ],
           "CA": [
             "IC",
             "RF",
@@ -28107,6 +28115,140 @@
     },
     {
       "compliance": {
+        "fcc": "SWX-U7PROXW",
+        "ic": "6545A-U7PROXW",
+        "modelName": "U7-Pro-XG-Wall",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "WIFI_5",
+            "WIFI_6"
+          ],
+          "US": [
+            "WIFI_6"
+          ]
+        }
+      },
+      "deviceType": "access-point",
+      "guids": [
+        "d854eab3-4120-4438-bcc3-3b4e43d708b7"
+      ],
+      "icon": {
+        "id": "9ba52bac-00ff-4c2d-be45-4703c289a2ae",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "5d00a4db-3477-48e2-b005-7473957c0d62",
+      "images": {
+        "default": "bd55cfccef1c089da1dd06817922abe8",
+        "nopadding": "1b52c3803f7f01f783f49dcdb4d37f4f",
+        "topology": "20932ea30a43244eb8ad86049a810499"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "U7 Pro XG Wall",
+        "name": "Access Point U7 Pro XG Wall"
+      },
+      "shortnames": [
+        "U7-Pro-XG-Wall",
+        "U7PROXGW"
+      ],
+      "sku": "U7-Pro-XG-Wall",
+      "sysid": "a6ba",
+      "sysids": [
+        "a6ba"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "r",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "features": {
+            "ax": true,
+            "bandsteer": true,
+            "gen": 2
+          },
+          "minimumFirmwareRequired": "7.0.0",
+          "model": "UAPA6BA",
+          "numberOfPorts": 1,
+          "radios": {
+            "6e": {
+              "gain": 6,
+              "maxPower": 24,
+              "maxSpeedMegabitsPerSecond": 5765
+            },
+            "na": {
+              "gain": 6,
+              "maxPower": 26,
+              "maxSpeedMegabitsPerSecond": 4324
+            },
+            "ng": {
+              "gain": 4,
+              "maxPower": 23,
+              "maxSpeedMegabitsPerSecond": 688
+            }
+          },
+          "systemIdHexadecimal": "a6ba",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
         "anatel": "05123-25-08356",
         "fcc": "SWX-U7PROXS",
         "ic": "6545A-U7PROXS",
@@ -38150,12 +38292,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "HAS_TEMPERATURE_SENSOR",
-            "HAS_CLIENTS",
             "BRIDGE",
             "ELEMENT_WITH_UPLINK_PRIORITY",
             "AUTOLINK_ELEMENT",
-            "ACCESS_POINT_SWITCH"
+            "ACCESS_POINT_SWITCH",
+            "HAS_TEMPERATURE_SENSOR",
+            "HAS_CLIENTS"
           ],
           "diagram": [
             "01"
@@ -69830,5 +69972,5 @@
       "videos": {}
     }
   ],
-  "version": "e5a54f120d69ba6d29b3d7ca7d4d3ae6143a8a44"
+  "version": "6fdaeb4b04dece0ee5acb428a1a280c70a05d83e"
 }
