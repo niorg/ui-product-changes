@@ -23391,9 +23391,9 @@
       },
       "id": "77ce1d39-d79f-4e02-9e63-258f639462f2",
       "images": {
-        "default": "6737fd1c65ea42af97ecf6103bf7f998",
-        "nopadding": "56bbe76c30490e9bd89ba23ae26d8b65",
-        "topology": "4da3751931cba056be0321ea699df3af"
+        "default": "1b19d02a0d29ce47d7757b12373fce7d",
+        "nopadding": "5d15aece052e09b8640ecedd321245bb",
+        "topology": "942da58382b5a9cc8cd55a9d7b4bc38e"
       },
       "line": {
         "id": "unifi-network",
@@ -23522,9 +23522,9 @@
       },
       "id": "2c51d3ae-060a-470c-a295-e74689ece89a",
       "images": {
-        "default": "fd4ae55a0544e232fdfd59dde1c9ff1b",
-        "nopadding": "ad633817e7cc4dc4e5d45af3658955bb",
-        "topology": "949703e15dbe18e0769f28c222fe5c4b"
+        "default": "111fa4f36e6c2d971d190fa957165aac",
+        "nopadding": "e04add33ed97b1394cae78e438367861",
+        "topology": "8f5ac77211f674e6616ac16b8410a9c8"
       },
       "line": {
         "id": "unifi-network",
@@ -45094,6 +45094,8 @@
         "userConfigured": "70dda8fb-d838-4e94-8c79-054de88ee76a"
       },
       "compliance": {
+        "anatel": "08120-25-08356",
+        "cn": "25J99U16K001",
         "fcc": "SWX-UNASP8",
         "ic": "6545A-UNASP8",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -60312,6 +60314,108 @@
       "videos": {}
     },
     {
+      "btle": {
+        "factoryDefault": "69b6a9f0-b7fa-4f67-b188-1d001bd30123",
+        "userConfigured": "f1d3710a-cc01-43ee-b433-340d79b8effb"
+      },
+      "deviceType": "router",
+      "guids": [
+        "6c341753-b7d4-4121-b07a-c0ff79eeea4c",
+        "69b6a9f0-b7fa-4f67-b188-1d001bd30123",
+        "f1d3710a-cc01-43ee-b433-340d79b8effb"
+      ],
+      "icon": {
+        "id": "7052530f-7f34-45ae-a856-8276e89239a6",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "56a6f000-a8f0-4526-b4d5-0bde388c3490",
+      "images": {
+        "default": "63ec14fa22b3d58c68f2e37d96a579f4",
+        "nopadding": "b61374f9cc675b0262c35b07e6de78f8",
+        "topology": "90748c0950a42ee985e3d88bacc2014a"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "UTR",
+        "name": "Travel Router"
+      },
+      "shortnames": [
+        "UTR"
+      ],
+      "sku": "UTR",
+      "sysid": "ea06",
+      "sysids": [
+        "ea06"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "standalone",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "f1d3710a-cc01-43ee-b433-340d79b8effb",
+              "default": "69b6a9f0-b7fa-4f67-b188-1d001bd30123"
+            }
+          ],
+          "deviceCapabilities": [
+            "ACCESS_POINT"
+          ],
+          "model": "UTREA06",
+          "radios": {},
+          "type": "utr"
+        }
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "UVC-AI-360",
@@ -69972,5 +70076,5 @@
       "videos": {}
     }
   ],
-  "version": "6fdaeb4b04dece0ee5acb428a1a280c70a05d83e"
+  "version": "6b32d596d0239f9f07f0cc0796f65e792b67c9b6"
 }
