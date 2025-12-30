@@ -8519,6 +8519,8 @@
       },
       "id": "8c4c9229-c7d3-43ba-bd41-2b6061e8add2",
       "images": {
+        "blueprint": "968ee76c60d7af309c52d304d3541921",
+        "blueprint-dark": "d218c63886369893900046f2a4483037",
         "default": "8e1fd940843d0f8ffc52ea446a046ca4",
         "mobile-connection": "a628521a531747f3f02b1f292a2fad14",
         "mobile-internet-connected": "8e9951b6d0d2e75b63ab0e40e026e69f",
@@ -36662,6 +36664,8 @@
       },
       "id": "12f7ca2c-dd71-f9f4-929b-293d5fb35cb7",
       "images": {
+        "blueprint": "b3f63348e0b75d29d84b66eb80c145db",
+        "blueprint-dark": "fb48a68b9dddbf1689fb456b4d3d0fa2",
         "default": "35562d81f230b62b8bc2d9b223509331",
         "mobile-connection": "85316e5c1b4d1ac37f6794582b2f49dd",
         "mobile-internet-connected": "07e24f20978ed99af53f038b00aedc35",
@@ -36950,6 +36954,8 @@
       },
       "id": "1801931d-1cb0-499c-9333-525d4986f596",
       "images": {
+        "blueprint": "3ffb7ea217bf3f402aeddd3779fb77ed",
+        "blueprint-dark": "9075a8590423ad366bf83b8fe2e920d2",
         "default": "59593adaffca0b519b4ec5ca1a4f3d68",
         "mobile-connection": "d2f8e8e9fa3cb6d6e52499838ad28134",
         "mobile-internet-connected": "c9d0bf0e50cc1ccaa65448dd77800d32",
@@ -37194,6 +37200,8 @@
       },
       "id": "d15a9f5a-ed82-4124-a603-a4be273c5556",
       "images": {
+        "blueprint": "e888639ff28d1f1109ed65b6268a4ad3",
+        "blueprint-dark": "9cd5fe8b49418e8dbd2cb54abd0f6b2e",
         "default": "deba1d58ee3b3b3d69cbe23f0afc75c2",
         "mobile-connection": "ff6fb8d354ac31f135a6bb5142ec8b37",
         "mobile-internet-connected": "3b007904ec2ddfd71e05bcaf40dce046",
@@ -39404,6 +39412,8 @@
       },
       "id": "1812513c-f8a1-41c1-a698-86ac70b8bd87",
       "images": {
+        "blueprint": "2a60aeed4d5cf0b5812d375a37407577",
+        "blueprint-dark": "20d7b3b5b9abbdd6985d014981f842e5",
         "default": "57ad929bdc48df6a5a6855fbb7cd8d18",
         "mobile-connection": "7ff76992a2501b506330a722ab470fcb",
         "mobile-internet-connected": "3e158fb281b6f2cbf3f830e53d97b589",
@@ -39699,6 +39709,8 @@
       },
       "id": "40ae7055-11f8-4c8e-9a58-a4c6eead2055",
       "images": {
+        "blueprint": "6d4d55a56b270314f36eaf12d18b6659",
+        "blueprint-dark": "f21fa132b9175ce2044e5d4a9ddde17f",
         "default": "4a4722f355074f13d9a4ea8e3dbca7be",
         "mobile-connection": "99a37f041e777464355ddea7f227c44f",
         "mobile-internet-connected": "c55008ce93b5f52c44d4df9c364685d0",
@@ -39985,6 +39997,8 @@
       },
       "id": "e85485da-54c3-4906-8f19-3cef4116ff02",
       "images": {
+        "blueprint": "32d97f2388ce76e36cb85015e95ed502",
+        "blueprint-dark": "23c880c56185a9f015dfca275dbd1f51",
         "default": "3008400039c483c496f4ad820242c447",
         "mobile-connection": "7ff76992a2501b506330a722ab470fcb",
         "mobile-internet-connected": "3e158fb281b6f2cbf3f830e53d97b589",
@@ -45099,6 +45113,9 @@
         "fcc": "SWX-UNASP8",
         "ic": "6545A-UNASP8",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jrf": [
+          "020-250432"
+        ],
         "modelName": "UNAS-Pro-8",
         "rcm": true,
         "rfCmFcc": 20,
@@ -50973,14 +50990,14 @@
         "ic": "6545A-USLE",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "USL-Environmental-US",
+        "ncc": "CCAH25LPD040T1",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
-            "RF",
-            "WIFI_5"
+            "RF"
           ],
           "US": [
             "FCC_B",
@@ -60375,9 +60392,9 @@
       },
       "id": "56a6f000-a8f0-4526-b4d5-0bde388c3490",
       "images": {
-        "default": "63ec14fa22b3d58c68f2e37d96a579f4",
-        "nopadding": "b61374f9cc675b0262c35b07e6de78f8",
-        "topology": "90748c0950a42ee985e3d88bacc2014a"
+        "default": "4d206cf486dcf49a404c26f23118a512",
+        "nopadding": "6139944d0b611b13caee66f72fe3bb9c",
+        "topology": "a9af155db122d113b6ab8506faec03c7"
       },
       "line": {
         "id": "unifi-network",
@@ -68179,6 +68196,8 @@
       },
       "id": "e567a449-cfbe-4cdf-9aed-975fac5256d9",
       "images": {
+        "blueprint": "a80166e843e9377e91856fc3bd3d6f5f",
+        "blueprint-dark": "3498e9e1dc926dc14b575ca50322f613",
         "default": "1f3133ffae76aea2e738892a78879e2a",
         "mobile-connection": "61ef40a96cd3a62445760dd00030f61c",
         "mobile-internet-connected": "4760b4aa8540d9c44d45b2a9ade32080",
@@ -68450,6 +68469,8 @@
       },
       "id": "8767809f-9c08-82e4-15f3-d189307d8ebb",
       "images": {
+        "blueprint": "b3f63348e0b75d29d84b66eb80c145db",
+        "blueprint-dark": "fb48a68b9dddbf1689fb456b4d3d0fa2",
         "default": "6dca8831fbe1e935332754ad657fc796",
         "mobile-connection": "85316e5c1b4d1ac37f6794582b2f49dd",
         "mobile-internet-connected": "07e24f20978ed99af53f038b00aedc35",
@@ -68921,6 +68942,8 @@
       },
       "id": "dac2c752-2b31-406f-96ed-36859261f293",
       "images": {
+        "blueprint": "e888639ff28d1f1109ed65b6268a4ad3",
+        "blueprint-dark": "fe58a59db2b688ecca1163d6d052d335",
         "default": "88b840fbb548b263bac30e4d335d5f5a",
         "mobile-connection": "691842e0a3d15a472436e29c32bd22a1",
         "mobile-internet-connected": "c16fe37daf64e77d759ec36d021f3b57",
@@ -69136,6 +69159,8 @@
       },
       "id": "c18d6e40-b775-4229-8f59-6ec875aa3825",
       "images": {
+        "blueprint": "698d61d4522132358e3d898b2df27a85",
+        "blueprint-dark": "6bb24fa01c5a656c4dbfba9fba94335a",
         "default": "2a5e9ed77af5c2c3baaf2f2ba4e16162",
         "nopadding": "13adaf19390498b0c77c22bd29460893",
         "rack": "877b49a783f0e868597b60c3c41a2c67",
@@ -70076,5 +70101,5 @@
       "videos": {}
     }
   ],
-  "version": "6b32d596d0239f9f07f0cc0796f65e792b67c9b6"
+  "version": "5382557fd7c99bba28b593080c486679a52effc2"
 }
