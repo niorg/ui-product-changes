@@ -8519,8 +8519,8 @@
       },
       "id": "8c4c9229-c7d3-43ba-bd41-2b6061e8add2",
       "images": {
-        "blueprint": "968ee76c60d7af309c52d304d3541921",
-        "blueprint-dark": "d218c63886369893900046f2a4483037",
+        "blueprint": "d3943597d52fa2ec8ea1368e6f1def3e",
+        "blueprint-dark": "f3d4958bc396f9c5b57e19cfbd50e8ee",
         "default": "8e1fd940843d0f8ffc52ea446a046ca4",
         "mobile-connection": "a628521a531747f3f02b1f292a2fad14",
         "mobile-internet-connected": "8e9951b6d0d2e75b63ab0e40e026e69f",
@@ -29126,6 +29126,7 @@
           "020-250216"
         ],
         "modelName": "UA-G3-W",
+        "ncc": "CCAH25LPD520T2",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
@@ -29722,6 +29723,7 @@
           "020-250214"
         ],
         "modelName": "UA-G3-Pro-B",
+        "ncc": "CCAH25LPD801T0",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
@@ -36664,8 +36666,8 @@
       },
       "id": "12f7ca2c-dd71-f9f4-929b-293d5fb35cb7",
       "images": {
-        "blueprint": "b3f63348e0b75d29d84b66eb80c145db",
-        "blueprint-dark": "fb48a68b9dddbf1689fb456b4d3d0fa2",
+        "blueprint": "6b16fe448a1c86960eec13b8e1d99822",
+        "blueprint-dark": "efd8343042a333515e6b35b0b83aafa8",
         "default": "35562d81f230b62b8bc2d9b223509331",
         "mobile-connection": "85316e5c1b4d1ac37f6794582b2f49dd",
         "mobile-internet-connected": "07e24f20978ed99af53f038b00aedc35",
@@ -36954,8 +36956,8 @@
       },
       "id": "1801931d-1cb0-499c-9333-525d4986f596",
       "images": {
-        "blueprint": "3ffb7ea217bf3f402aeddd3779fb77ed",
-        "blueprint-dark": "9075a8590423ad366bf83b8fe2e920d2",
+        "blueprint": "6e34af5b8b051f0aa94f7a9ebd805a12",
+        "blueprint-dark": "a266ebf7d1432a403a96c1414b570ace",
         "default": "59593adaffca0b519b4ec5ca1a4f3d68",
         "mobile-connection": "d2f8e8e9fa3cb6d6e52499838ad28134",
         "mobile-internet-connected": "c9d0bf0e50cc1ccaa65448dd77800d32",
@@ -37200,8 +37202,8 @@
       },
       "id": "d15a9f5a-ed82-4124-a603-a4be273c5556",
       "images": {
-        "blueprint": "e888639ff28d1f1109ed65b6268a4ad3",
-        "blueprint-dark": "9cd5fe8b49418e8dbd2cb54abd0f6b2e",
+        "blueprint": "942cc5d950cc27e8da270b15a49e16a3",
+        "blueprint-dark": "a510d77dab4ccc104b5ff3d245894608",
         "default": "deba1d58ee3b3b3d69cbe23f0afc75c2",
         "mobile-connection": "ff6fb8d354ac31f135a6bb5142ec8b37",
         "mobile-internet-connected": "3b007904ec2ddfd71e05bcaf40dce046",
@@ -38301,11 +38303,11 @@
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
             "BRIDGE",
+            "ACCESS_POINT_SWITCH",
             "ELEMENT_WITH_UPLINK_PRIORITY",
             "AUTOLINK_ELEMENT",
-            "ACCESS_POINT_SWITCH",
-            "HAS_TEMPERATURE_SENSOR",
-            "HAS_CLIENTS"
+            "HAS_CLIENTS",
+            "HAS_TEMPERATURE_SENSOR"
           ],
           "diagram": [
             "01"
@@ -39412,8 +39414,8 @@
       },
       "id": "1812513c-f8a1-41c1-a698-86ac70b8bd87",
       "images": {
-        "blueprint": "2a60aeed4d5cf0b5812d375a37407577",
-        "blueprint-dark": "20d7b3b5b9abbdd6985d014981f842e5",
+        "blueprint": "a1280736ce1077449d315df4bcf6a7ba",
+        "blueprint-dark": "7f0c20a4f4147136485623de90d18e86",
         "default": "57ad929bdc48df6a5a6855fbb7cd8d18",
         "mobile-connection": "7ff76992a2501b506330a722ab470fcb",
         "mobile-internet-connected": "3e158fb281b6f2cbf3f830e53d97b589",
@@ -39709,8 +39711,8 @@
       },
       "id": "40ae7055-11f8-4c8e-9a58-a4c6eead2055",
       "images": {
-        "blueprint": "6d4d55a56b270314f36eaf12d18b6659",
-        "blueprint-dark": "f21fa132b9175ce2044e5d4a9ddde17f",
+        "blueprint": "c4b919055a627c619c9679d0546e0695",
+        "blueprint-dark": "0101ae76343ace8184e20fc46a393687",
         "default": "4a4722f355074f13d9a4ea8e3dbca7be",
         "mobile-connection": "99a37f041e777464355ddea7f227c44f",
         "mobile-internet-connected": "c55008ce93b5f52c44d4df9c364685d0",
@@ -39997,8 +39999,8 @@
       },
       "id": "e85485da-54c3-4906-8f19-3cef4116ff02",
       "images": {
-        "blueprint": "32d97f2388ce76e36cb85015e95ed502",
-        "blueprint-dark": "23c880c56185a9f015dfca275dbd1f51",
+        "blueprint": "6bae83609f18229687d7c983274ba073",
+        "blueprint-dark": "a51bda7f527a1319fbec789d0c3b72df",
         "default": "3008400039c483c496f4ad820242c447",
         "mobile-connection": "7ff76992a2501b506330a722ab470fcb",
         "mobile-internet-connected": "3e158fb281b6f2cbf3f830e53d97b589",
@@ -47566,6 +47568,7 @@
           "deviceCapabilities": [
             "SMART_POWER",
             "SWITCH",
+            "SMART_OUTLET",
             "BATTERY_MANAGEMENT"
           ],
           "diagram": [],
@@ -47725,6 +47728,7 @@
           "deviceCapabilities": [
             "SMART_POWER",
             "SWITCH",
+            "SMART_OUTLET",
             "BATTERY_MANAGEMENT"
           ],
           "diagram": [],
@@ -47884,6 +47888,7 @@
           "deviceCapabilities": [
             "SMART_POWER",
             "SWITCH",
+            "SMART_OUTLET",
             "BATTERY_MANAGEMENT"
           ],
           "diagram": [],
@@ -48048,6 +48053,7 @@
           "deviceCapabilities": [
             "SMART_POWER",
             "SWITCH",
+            "SMART_OUTLET",
             "BATTERY_MANAGEMENT"
           ],
           "diagram": [],
@@ -52567,7 +52573,8 @@
           "chipset": "c",
           "deviceCapabilities": [
             "SMART_POWER",
-            "SWITCH"
+            "SWITCH",
+            "SMART_OUTLET"
           ],
           "diagram": [
             "__",
@@ -52856,7 +52863,8 @@
           "chipset": "c",
           "deviceCapabilities": [
             "SMART_POWER",
-            "SWITCH"
+            "SWITCH",
+            "SMART_OUTLET"
           ],
           "diagram": [
             "__",
@@ -53024,6 +53032,7 @@
           "deviceCapabilities": [
             "SMART_POWER",
             "ACCESS_POINT",
+            "SMART_OUTLET",
             "HAS_LOW_RESOURCES",
             "AUTOLINK_ELEMENT"
           ],
@@ -53382,6 +53391,7 @@
           "deviceCapabilities": [
             "SMART_POWER",
             "ACCESS_POINT",
+            "SMART_OUTLET",
             "HAS_LOW_RESOURCES",
             "AUTOLINK_ELEMENT"
           ],
@@ -56233,6 +56243,7 @@
             "SWITCH",
             "SMART_POWER",
             "BATTERY_POWER",
+            "SMART_OUTLET",
             "HAS_CLIENTS",
             "BATTERY_MANAGEMENT"
           ],
@@ -65646,6 +65657,30 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-UVCG6PE",
+        "ic": "6545A-UVCG6E",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jnfc": "AC-25166",
+        "jrf": [
+          "020-250423"
+        ],
+        "modelName": "UVC-G6-Entry",
+        "ncc": "CCAH25LPD470T0",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "camera",
       "guids": [
         "1a0d5bff-b431-4083-bdec-e982b1e03df1"
@@ -68196,8 +68231,8 @@
       },
       "id": "e567a449-cfbe-4cdf-9aed-975fac5256d9",
       "images": {
-        "blueprint": "a80166e843e9377e91856fc3bd3d6f5f",
-        "blueprint-dark": "3498e9e1dc926dc14b575ca50322f613",
+        "blueprint": "f8a116534554550ef7d32e012b1c14cc",
+        "blueprint-dark": "bab77d0ca46be00ed475826c8e44416b",
         "default": "1f3133ffae76aea2e738892a78879e2a",
         "mobile-connection": "61ef40a96cd3a62445760dd00030f61c",
         "mobile-internet-connected": "4760b4aa8540d9c44d45b2a9ade32080",
@@ -68469,8 +68504,8 @@
       },
       "id": "8767809f-9c08-82e4-15f3-d189307d8ebb",
       "images": {
-        "blueprint": "b3f63348e0b75d29d84b66eb80c145db",
-        "blueprint-dark": "fb48a68b9dddbf1689fb456b4d3d0fa2",
+        "blueprint": "6b16fe448a1c86960eec13b8e1d99822",
+        "blueprint-dark": "efd8343042a333515e6b35b0b83aafa8",
         "default": "6dca8831fbe1e935332754ad657fc796",
         "mobile-connection": "85316e5c1b4d1ac37f6794582b2f49dd",
         "mobile-internet-connected": "07e24f20978ed99af53f038b00aedc35",
@@ -68942,8 +68977,8 @@
       },
       "id": "dac2c752-2b31-406f-96ed-36859261f293",
       "images": {
-        "blueprint": "e888639ff28d1f1109ed65b6268a4ad3",
-        "blueprint-dark": "fe58a59db2b688ecca1163d6d052d335",
+        "blueprint": "942cc5d950cc27e8da270b15a49e16a3",
+        "blueprint-dark": "6a13482bc945f282bddd9f854022027b",
         "default": "88b840fbb548b263bac30e4d335d5f5a",
         "mobile-connection": "691842e0a3d15a472436e29c32bd22a1",
         "mobile-internet-connected": "c16fe37daf64e77d759ec36d021f3b57",
@@ -69159,8 +69194,8 @@
       },
       "id": "c18d6e40-b775-4229-8f59-6ec875aa3825",
       "images": {
-        "blueprint": "698d61d4522132358e3d898b2df27a85",
-        "blueprint-dark": "6bb24fa01c5a656c4dbfba9fba94335a",
+        "blueprint": "59c43c7f4bc07307418666746b71236b",
+        "blueprint-dark": "c3f5e807937d06c3cc21993c37bfb955",
         "default": "2a5e9ed77af5c2c3baaf2f2ba4e16162",
         "nopadding": "13adaf19390498b0c77c22bd29460893",
         "rack": "877b49a783f0e868597b60c3c41a2c67",
@@ -69209,7 +69244,7 @@
           "deviceCapabilities": [
             "GATEWAY",
             "APPLICATION_GATEWAY",
-            "SMART_POWER",
+            "SMART_OUTLET",
             "HAS_CLIENTS",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
             "SD_WAN_HUB"
@@ -70101,5 +70136,5 @@
       "videos": {}
     }
   ],
-  "version": "5382557fd7c99bba28b593080c486679a52effc2"
+  "version": "8fd04723ea364c4ba16d9936ef016d9b84b8423d"
 }
