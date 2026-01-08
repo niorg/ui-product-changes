@@ -38302,12 +38302,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "BRIDGE",
-            "ACCESS_POINT_SWITCH",
             "ELEMENT_WITH_UPLINK_PRIORITY",
-            "AUTOLINK_ELEMENT",
+            "ACCESS_POINT_SWITCH",
+            "BRIDGE",
+            "HAS_TEMPERATURE_SENSOR",
             "HAS_CLIENTS",
-            "HAS_TEMPERATURE_SENSOR"
+            "AUTOLINK_ELEMENT"
           ],
           "diagram": [
             "01"
@@ -44341,10 +44341,14 @@
         "userConfigured": "3b57c478-fde5-4ba5-9205-39c62035e5f"
       },
       "compliance": {
+        "anatel": "06840-25-08356",
         "fcc": "SWX-UNAS2",
         "ic": "6545A-UNAS2",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
-        "modelName": "UNAS-2",
+        "jrf": [
+          "020-250369"
+        ],
+        "modelName": "UNAS-2-B",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
@@ -44354,7 +44358,7 @@
             "RF"
           ],
           "US": [
-            "FCC_A",
+            "FCC_B",
             "RF"
           ]
         }
@@ -44467,10 +44471,14 @@
         "userConfigured": "9e7c2339-d737-4f0f-91ad-fab32a2648eb"
       },
       "compliance": {
+        "anatel": "06840-25-08356",
         "fcc": "SWX-UNAS2",
         "ic": "6545A-UNAS2",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
-        "modelName": "UNAS-2",
+        "jrf": [
+          "020-250369"
+        ],
+        "modelName": "UNAS-2-W",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
@@ -44480,7 +44488,7 @@
             "RF"
           ],
           "US": [
-            "FCC_A",
+            "FCC_B",
             "RF"
           ]
         }
@@ -45119,6 +45127,7 @@
           "020-250432"
         ],
         "modelName": "UNAS-Pro-8",
+        "ncc": "CCAH25LPE010T0",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
@@ -53823,6 +53832,105 @@
     },
     {
       "compliance": {
+        "anatel": "00593-21-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USW-24-PoE",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
+      "deviceType": "switch",
+      "guids": [
+        "9134487e-5690-4f19-b173-2167a57af64e"
+      ],
+      "icon": {
+        "id": "45ab1100-1a8a-4b7d-990d-444bbe7deac5",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "bb72409f-4cd5-4e86-9296-e8e578faf8b4",
+      "images": {
+        "default": "7c6641b1e09bd6060bbc563e98a6714c",
+        "nopadding": "6bb4e055070b4f99c116a9a8c03c3587",
+        "topology": "136e2ec22f0fb3dc9defe09c680239d1"
+      },
+      "isARSupported": true,
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USW 24 PoE",
+        "name": "Switch 24 PoE"
+      },
+      "shortnames": [
+        "USW-24-PoE-gen2"
+      ],
+      "sku": "USW-24-PoE",
+      "sysid": "ed08",
+      "sysids": [
+        "ed08"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
         "anatel": "17193-20-08356",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "USW-48",
@@ -55998,6 +56106,104 @@
           "systemIdHexadecimal": "ed26",
           "type": "usw"
         }
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "anatel": "04479-21-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USW-Lite-16-PoE",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
+      "deviceType": "switch",
+      "guids": [
+        "28c92005-cb82-44b1-9e5c-1a7293db5dbe"
+      ],
+      "icon": {
+        "id": "ea06a05c-0434-4dc1-b423-cff51ff5a017",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "e8ce157d-75e2-4a21-93eb-eda7fc48eb2d",
+      "images": {
+        "default": "7ab4da709aff50bae187555a6d084f90",
+        "nopadding": "c1e76f81b46a31d8da6ba7de56cb33cf",
+        "topology": "51983b94e9b75075f12c836f7be994ef"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USW Lite 16 PoE",
+        "name": "Switch Lite 16 PoE"
+      },
+      "shortnames": [
+        "USW-Lite-16-PoE-gen2"
+      ],
+      "sku": "USW-Lite-16-PoE",
+      "sysid": "ed06",
+      "sysids": [
+        "ed06"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
       },
       "videos": {}
     },
@@ -60425,7 +60631,7 @@
       ],
       "triplets": [],
       "unifi": {
-        "adoptability": "standalone",
+        "adoptability": "adoptable",
         "network": {
           "bleServices": [
             {
@@ -70136,5 +70342,5 @@
       "videos": {}
     }
   ],
-  "version": "e4d61e0f8af16ca6cb4378860c2117f1ad4305b6"
+  "version": "b8b91ca3c69a5620a652c7f55d7d7883fb3b0cce"
 }
