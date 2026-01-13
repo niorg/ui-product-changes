@@ -60633,7 +60633,7 @@
       ],
       "triplets": [],
       "unifi": {
-        "adoptability": "adoptable",
+        "adoptability": "standalone",
         "network": {
           "bleServices": [
             {
@@ -70344,5 +70344,5 @@
       "videos": {}
     }
   ],
-  "version": "3e0986c3567c2d3878b158cc2ed2bc23eba52271"
+  "version": "96af94ccae3b163666cbfe3c70185622208f667b"
 }
