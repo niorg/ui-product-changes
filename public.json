@@ -27507,7 +27507,7 @@
       "id": "28b9fb3e-4351-3314-70a3-1db9b6865333",
       "images": {
         "default": "9b17822dcb8bb18efb6e5960827d7d02",
-        "nopadding": "636cd2169875d284098f91f6dd7cf54f",
+        "nopadding": "374103d3d01011fa456d0475f6b2ad93",
         "topology": "ae71ff6e4ea884c404a778d840d2b267"
       },
       "line": {
@@ -27626,9 +27626,9 @@
       },
       "id": "6a08c01f-6ac1-2264-d20b-813a3223d34b",
       "images": {
-        "default": "fa65aac9830d31658a15c49e134450f6",
-        "nopadding": "6c3b57fac3d650a65a8a02be0772f128",
-        "topology": "72eacc090c164e95d10d4b0cb7a4c6ef"
+        "default": "9b17822dcb8bb18efb6e5960827d7d02",
+        "nopadding": "374103d3d01011fa456d0475f6b2ad93",
+        "topology": "ae71ff6e4ea884c404a778d840d2b267"
       },
       "line": {
         "id": "unifi-network",
@@ -28267,7 +28267,7 @@
         "rfCmIc": 20,
         "text": {
           "BR": [
-            "WIFI_6E"
+            "WIFI_6"
           ],
           "CA": [
             "IC",
@@ -36707,6 +36707,8 @@
           "chipset": "j",
           "deviceCapabilities": [
             "GATEWAY",
+            "NETWORK_APPLICATION",
+            "PROTECT_APPLICATION",
             "SWITCH",
             "CONTROLLER",
             "APPLICATION_MODE",
@@ -38303,12 +38305,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "ELEMENT_WITH_UPLINK_PRIORITY",
-            "ACCESS_POINT_SWITCH",
-            "BRIDGE",
             "HAS_TEMPERATURE_SENSOR",
-            "HAS_CLIENTS",
-            "AUTOLINK_ELEMENT"
+            "ACCESS_POINT_SWITCH",
+            "ELEMENT_WITH_UPLINK_PRIORITY",
+            "AUTOLINK_ELEMENT",
+            "BRIDGE",
+            "HAS_CLIENTS"
           ],
           "diagram": [
             "01"
@@ -46940,220 +46942,6 @@
       "videos": {}
     },
     {
-      "compliance": {
-        "fcc": "SWX-UPSL",
-        "ic": "6545A-UPSL",
-        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
-        "modelName": "UP-SuperLink",
-        "rcm": true,
-        "rfCmFcc": 20,
-        "rfCmIc": 20,
-        "text": {
-          "CA": [
-            "IC",
-            "RF"
-          ],
-          "US": [
-            "FCC_B",
-            "RF"
-          ]
-        }
-      },
-      "deviceType": "gateway",
-      "guids": [
-        "2f98eb2d-7292-b5e4-abf3-427379d01cc5"
-      ],
-      "icon": {
-        "id": "d0bedfa6-2b88-1e44-380b-7b9c1280db0e",
-        "resolutions": [
-          [
-            25,
-            25
-          ],
-          [
-            32,
-            32
-          ],
-          [
-            51,
-            51
-          ],
-          [
-            64,
-            64
-          ],
-          [
-            101,
-            101
-          ],
-          [
-            128,
-            128
-          ],
-          [
-            129,
-            129
-          ],
-          [
-            256,
-            256
-          ],
-          [
-            257,
-            257
-          ],
-          [
-            512,
-            512
-          ],
-          [
-            1000,
-            1000
-          ]
-        ]
-      },
-      "id": "56bb6ccf-3507-5c94-f3a3-4d79b483e314",
-      "images": {
-        "default": "e72a3c5a54b547fc5c8c4ab29043e94e",
-        "nopadding": "8e6030bfa89c1dfa9f6831ca09d1128b",
-        "topology": "bea536d186cfaf72895ec86de6268499"
-      },
-      "line": {
-        "id": "unifi-protect",
-        "name": "UniFi Protect"
-      },
-      "product": {
-        "abbrev": "SuperLink Gateway",
-        "name": "SuperLink Gateway"
-      },
-      "shortnames": [
-        "UP-SuperLink-EU",
-        "UP SuperLink EU",
-        "UPSLEU"
-      ],
-      "sku": "UP-SuperLink-EU",
-      "sysid": "ae91",
-      "sysids": [
-        "ae91"
-      ],
-      "triplets": [
-        {
-          "k1": "UP SuperLink EU"
-        }
-      ],
-      "unifi": {
-        "adoptability": "adoptable"
-      },
-      "videos": {}
-    },
-    {
-      "compliance": {
-        "fcc": "SWX-UPSL",
-        "ic": "6545A-UPSL",
-        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
-        "modelName": "UP-SuperLink",
-        "rcm": true,
-        "rfCmFcc": 20,
-        "rfCmIc": 20,
-        "text": {
-          "CA": [
-            "IC",
-            "RF"
-          ],
-          "US": [
-            "FCC_B",
-            "RF"
-          ]
-        }
-      },
-      "deviceType": "gateway",
-      "guids": [
-        "67817410-83d7-9fb4-40a3-b17ba899dda9"
-      ],
-      "icon": {
-        "id": "7216ecd9-f528-4b44-9ac3-d1234140254a",
-        "resolutions": [
-          [
-            25,
-            25
-          ],
-          [
-            32,
-            32
-          ],
-          [
-            51,
-            51
-          ],
-          [
-            64,
-            64
-          ],
-          [
-            101,
-            101
-          ],
-          [
-            128,
-            128
-          ],
-          [
-            129,
-            129
-          ],
-          [
-            256,
-            256
-          ],
-          [
-            257,
-            257
-          ],
-          [
-            512,
-            512
-          ],
-          [
-            1000,
-            1000
-          ]
-        ]
-      },
-      "id": "3a954d4c-c447-c184-30eb-ed5c0450c022",
-      "images": {
-        "default": "e72a3c5a54b547fc5c8c4ab29043e94e",
-        "nopadding": "2ebc1024e87e04351eff47b7ffba72a1",
-        "topology": "7e90b511a112161dc02f30f8a9645f03"
-      },
-      "line": {
-        "id": "unifi-protect",
-        "name": "UniFi Protect"
-      },
-      "product": {
-        "abbrev": "SuperLink Gateway",
-        "name": "SuperLink Gateway"
-      },
-      "shortnames": [
-        "UP-SuperLink-US",
-        "UP SuperLink US",
-        "UPSLUS"
-      ],
-      "sku": "UP-SuperLink-US",
-      "sysid": "ae90",
-      "sysids": [
-        "ae90"
-      ],
-      "triplets": [
-        {
-          "k1": "UP SuperLink US"
-        }
-      ],
-      "unifi": {
-        "adoptability": "adoptable"
-      },
-      "videos": {}
-    },
-    {
       "btle": {
         "factoryDefault": "6538df89-c757-4f9f-b09a-0585b8c03b91",
         "userConfigured": "76a8d2d0-585b-46ad-969b-abd0e0ef70b5"
@@ -47598,12 +47386,10 @@
             ],
             "meta": {
               "01": {
-                "marginLeft": "0px",
                 "rotation": "-90deg",
                 "tooltipPlacement": "top"
               },
               "05": {
-                "marginLeft": "0px",
                 "rotation": "-90deg",
                 "tooltipPlacement": "bottom"
               },
@@ -47758,12 +47544,10 @@
             ],
             "meta": {
               "01": {
-                "marginLeft": "0px",
                 "rotation": "180deg",
                 "tooltipPlacement": "top"
               },
               "05": {
-                "marginLeft": "0px",
                 "tooltipPlacement": "bottom"
               },
               "11": {
@@ -51102,6 +50886,220 @@
         {
           "k1": "ST50H",
           "k3": "USL-Environmental-US"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "fcc": "SWX-UPSL",
+        "ic": "6545A-UPSL",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UP-SuperLink",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
+      "deviceType": "gateway",
+      "guids": [
+        "2f98eb2d-7292-b5e4-abf3-427379d01cc5"
+      ],
+      "icon": {
+        "id": "d0bedfa6-2b88-1e44-380b-7b9c1280db0e",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "56bb6ccf-3507-5c94-f3a3-4d79b483e314",
+      "images": {
+        "default": "e72a3c5a54b547fc5c8c4ab29043e94e",
+        "nopadding": "8e6030bfa89c1dfa9f6831ca09d1128b",
+        "topology": "bea536d186cfaf72895ec86de6268499"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "SuperLink Gateway",
+        "name": "SuperLink Gateway"
+      },
+      "shortnames": [
+        "UP-SuperLink-EU",
+        "UP SuperLink EU",
+        "UPSLEU"
+      ],
+      "sku": "USL-Gateway-EU",
+      "sysid": "ae91",
+      "sysids": [
+        "ae91"
+      ],
+      "triplets": [
+        {
+          "k1": "UP SuperLink EU"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "fcc": "SWX-UPSL",
+        "ic": "6545A-UPSL",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UP-SuperLink",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
+      "deviceType": "gateway",
+      "guids": [
+        "67817410-83d7-9fb4-40a3-b17ba899dda9"
+      ],
+      "icon": {
+        "id": "7216ecd9-f528-4b44-9ac3-d1234140254a",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "3a954d4c-c447-c184-30eb-ed5c0450c022",
+      "images": {
+        "default": "e72a3c5a54b547fc5c8c4ab29043e94e",
+        "nopadding": "2ebc1024e87e04351eff47b7ffba72a1",
+        "topology": "7e90b511a112161dc02f30f8a9645f03"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "SuperLink Gateway",
+        "name": "SuperLink Gateway"
+      },
+      "shortnames": [
+        "UP-SuperLink-US",
+        "UP SuperLink US",
+        "UPSLUS"
+      ],
+      "sku": "USL-Gateway-US",
+      "sysid": "ae90",
+      "sysids": [
+        "ae90"
+      ],
+      "triplets": [
+        {
+          "k1": "UP SuperLink US"
         }
       ],
       "unifi": {
@@ -70344,5 +70342,5 @@
       "videos": {}
     }
   ],
-  "version": "96af94ccae3b163666cbfe3c70185622208f667b"
+  "version": "c29ebe84ddc96666543462a6278cbb85cd3596c9"
 }
