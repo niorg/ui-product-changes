@@ -13751,7 +13751,7 @@
       "id": "08e81ebb-9cee-45f9-a0b5-a219160f523f",
       "images": {
         "default": "54ff428303c6a18109428d83e1698bde",
-        "nopadding": "86365757278fb869568f9365e12bc86c",
+        "nopadding": "fcf4a234dc55d1ffbb31da2a1414f3ed",
         "topology": "d2731e89a9297dfed182337d7c1a8e2b"
       },
       "line": {
@@ -22246,7 +22246,7 @@
       "id": "94584a8c-d5c9-4f61-8019-c7457e262803",
       "images": {
         "default": "80ff7b60652a1261f8c32e4a868274ce",
-        "nopadding": "d4dda2af9aed1904a7785d2dbffe8776",
+        "nopadding": "40ddb6de52446cb5d78597532ddc1b64",
         "topology": "bd88f2d1f257e7b3dd17b14a8c60c361"
       },
       "line": {
@@ -31470,7 +31470,7 @@
       "id": "13ddabd6-7a68-4f23-8edd-1e83db8dbbb4",
       "images": {
         "default": "565af4c085308f85b401c65c50ba16c4",
-        "nopadding": "58794a0d37718d4f501394fcc69fb6be",
+        "nopadding": "3f917a11a2e6f32110847dac1a0cad8e",
         "topology": "af19ce9773a9197a3af544a582a8854c"
       },
       "line": {
@@ -36715,6 +36715,7 @@
             "HAS_CLIENTS",
             "SSL_INSPECTION",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
+            "SD_WAN_HUB",
             "UPS_PAIRING"
           ],
           "diagram": [
@@ -38308,9 +38309,9 @@
             "HAS_TEMPERATURE_SENSOR",
             "ACCESS_POINT_SWITCH",
             "ELEMENT_WITH_UPLINK_PRIORITY",
-            "AUTOLINK_ELEMENT",
             "BRIDGE",
-            "HAS_CLIENTS"
+            "HAS_CLIENTS",
+            "AUTOLINK_ELEMENT"
           ],
           "diagram": [
             "01"
@@ -38457,10 +38458,19 @@
             "HAS_GLOBAL_POE_MODE_CONTROL",
             "HAS_CLIENTS"
           ],
+          "diagram": [
+            "01 02"
+          ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
           "minimumFirmwareRequired": "0.0.0",
           "model": "UDB",
           "numberOfPorts": 1,
+          "ports": {
+            "standard": [
+              0,
+              1
+            ]
+          },
           "radios": {
             "na": {
               "maxSpeedMegabitsPerSecond": 867
@@ -53925,7 +53935,31 @@
       ],
       "triplets": [],
       "unifi": {
-        "adoptability": "adoptable"
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "l",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "features": {
+            "poe": true
+          },
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USWED08",
+          "numberOfPorts": 26,
+          "ports": {
+            "sfp": [
+              25,
+              26
+            ],
+            "standard": 24
+          },
+          "radios": {},
+          "systemIdHexadecimal": "ed08",
+          "type": "usw"
+        }
       },
       "videos": {}
     },
@@ -56203,7 +56237,27 @@
       ],
       "triplets": [],
       "unifi": {
-        "adoptability": "adoptable"
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "l",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "features": {
+            "poe": true
+          },
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USWED06",
+          "numberOfPorts": 16,
+          "ports": {
+            "standard": 16
+          },
+          "radios": {},
+          "systemIdHexadecimal": "ed06",
+          "type": "usw"
+        }
       },
       "videos": {}
     },
@@ -61371,7 +61425,7 @@
       "id": "f6fd0136-fffa-462c-bd96-7ccd72c65939",
       "images": {
         "default": "c64056b9d273f924bacec508120baa8d",
-        "nopadding": "f6ef2d4876aeaa71f9b56c024e7ffe69",
+        "nopadding": "1bddef170e0676b4e799adca9c4fec09",
         "topology": "23433403f620902930c37fe6b252699a"
       },
       "line": {
@@ -61404,7 +61458,8 @@
     {
       "deviceType": "camera",
       "guids": [
-        "4d5aacf1-50b2-4a9e-ae5c-22817408ea63"
+        "4d5aacf1-50b2-4a9e-ae5c-22817408ea63",
+        "4d5aacf1-50b2-4a9e-aedc-22817408ea63"
       ],
       "icon": {
         "id": "d9cd1665-49e0-4fd6-8d32-4d13e08577d9",
@@ -61458,7 +61513,7 @@
       "id": "c8b57f7d-52cb-49e2-9cb4-1a97cbe25bae",
       "images": {
         "default": "aafd58cef677035949cf9c89e266b4a1",
-        "nopadding": "2bafcbf85e113c81b9bec4a94ae68185",
+        "nopadding": "8d388f9185b2bf6ba8850f4fd1b3db5c",
         "topology": "dfc99bf59a7db452ed69dc0ae21fed62"
       },
       "line": {
@@ -65751,7 +65806,7 @@
       "id": "8410ed38-8178-4dca-9c8e-22f6ad5b5b30",
       "images": {
         "default": "ca92bae9373977f15ada63ec87b534c2",
-        "nopadding": "aebdf33a288ca28b94b4588c6d7236f8",
+        "nopadding": "0ca858668c92a04e9a7926c3980a0a8a",
         "topology": "358e5590fca04635db42e8118622f56b"
       },
       "jrf": [],
@@ -65834,7 +65889,7 @@
       "id": "bc28bf57-61da-77a4-6c13-ebcb31954126",
       "images": {
         "default": "011cc064f9bbafbcf98a1f235d09cddd",
-        "nopadding": "8f1dff363ea84d7bebab9760405e7021",
+        "nopadding": "436d748f71ae439c96ba680f621ab032",
         "topology": "626cfffcdb84ca2afa8584a555334377"
       },
       "jrf": [],
@@ -70342,5 +70397,5 @@
       "videos": {}
     }
   ],
-  "version": "c29ebe84ddc96666543462a6278cbb85cd3596c9"
+  "version": "c3c2495f1ec3782ccda7e905263d0a8c6abdb9dd"
 }
