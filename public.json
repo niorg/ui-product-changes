@@ -38306,12 +38306,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "HAS_TEMPERATURE_SENSOR",
-            "ACCESS_POINT_SWITCH",
-            "ELEMENT_WITH_UPLINK_PRIORITY",
             "BRIDGE",
+            "ELEMENT_WITH_UPLINK_PRIORITY",
             "HAS_CLIENTS",
-            "AUTOLINK_ELEMENT"
+            "AUTOLINK_ELEMENT",
+            "ACCESS_POINT_SWITCH",
+            "HAS_TEMPERATURE_SENSOR"
           ],
           "diagram": [
             "01"
@@ -47404,6 +47404,7 @@
                 "tooltipPlacement": "bottom"
               },
               "11": {
+                "marginLeft": "0px",
                 "portIdx": 1,
                 "tooltipPlacement": "top"
               },
@@ -47721,6 +47722,7 @@
                 "vertical": true
               },
               "11": {
+                "marginLeft": "0px",
                 "portIdx": 1,
                 "tooltipPlacement": "top"
               },
@@ -47888,6 +47890,7 @@
                 "vertical": true
               },
               "11": {
+                "marginLeft": "0px",
                 "portIdx": 1,
                 "tooltipPlacement": "top"
               },
@@ -70397,5 +70400,5 @@
       "videos": {}
     }
   ],
-  "version": "c3c2495f1ec3782ccda7e905263d0a8c6abdb9dd"
+  "version": "fc74b8847673fd8aaaceabb5108b45fd30c8884e"
 }
