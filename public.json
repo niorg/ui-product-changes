@@ -38306,9 +38306,9 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "BRIDGE",
             "ELEMENT_WITH_UPLINK_PRIORITY",
             "HAS_CLIENTS",
+            "BRIDGE",
             "AUTOLINK_ELEMENT",
             "ACCESS_POINT_SWITCH",
             "HAS_TEMPERATURE_SENSOR"
@@ -47377,6 +47377,7 @@
           "deviceCapabilities": [
             "SMART_POWER",
             "SWITCH",
+            "BUZZER",
             "SMART_OUTLET",
             "BATTERY_MANAGEMENT"
           ],
@@ -47536,6 +47537,7 @@
           "deviceCapabilities": [
             "SMART_POWER",
             "SWITCH",
+            "BUZZER",
             "SMART_OUTLET",
             "BATTERY_MANAGEMENT"
           ],
@@ -47694,6 +47696,7 @@
           "deviceCapabilities": [
             "SMART_POWER",
             "SWITCH",
+            "BUZZER",
             "SMART_OUTLET",
             "BATTERY_MANAGEMENT"
           ],
@@ -47860,6 +47863,7 @@
           "deviceCapabilities": [
             "SMART_POWER",
             "SWITCH",
+            "BUZZER",
             "SMART_OUTLET",
             "BATTERY_MANAGEMENT"
           ],
@@ -70400,5 +70404,5 @@
       "videos": {}
     }
   ],
-  "version": "fc74b8847673fd8aaaceabb5108b45fd30c8884e"
+  "version": "a474c20bcd4d2e80553e570852786060b68c706e"
 }
