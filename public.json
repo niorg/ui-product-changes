@@ -39039,7 +39039,8 @@
           ],
           "deviceCapabilities": [
             "CLOUD_KEY",
-            "NETWORK_APPLICATION"
+            "NETWORK_APPLICATION",
+            "PROTECT_APPLICATION"
           ],
           "model": "UCKP",
           "radios": {},
@@ -39409,10 +39410,10 @@
             "WIRELESS_SWITCH",
             "ELEMENT_WITH_UPLINK_PRIORITY",
             "AUTOLINK_ELEMENT",
+            "BRIDGE",
             "HAS_CLIENTS",
-            "ACCESS_POINT_SWITCH",
             "HAS_TEMPERATURE_SENSOR",
-            "BRIDGE"
+            "ACCESS_POINT_SWITCH"
           ],
           "diagram": [
             "01"
@@ -40584,7 +40585,8 @@
       "shortnames": [
         "UDM-PRO",
         "UDM-Pro",
-        "UDMPRO"
+        "UDMPRO",
+        "UDMP"
       ],
       "sku": "UDM-Pro",
       "sysid": "ea15",
@@ -42272,6 +42274,7 @@
             "SWITCH",
             "ACCESS_POINT",
             "NETWORK_APPLICATION",
+            "PROTECT_APPLICATION",
             "CONTROLLER",
             "APPLICATION_MODE",
             "HAS_CLIENTS",
@@ -72335,5 +72338,5 @@
       "videos": {}
     }
   ],
-  "version": "4db4eeac066dad891f3e8219ee6334cbf56a29b9"
+  "version": "53326fa9eb25d8773ec9b03cdbb8547e7a81717d"
 }
