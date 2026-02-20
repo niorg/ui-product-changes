@@ -24157,7 +24157,8 @@
         "5G-Link",
         "U5G-Link",
         "U5G-Max",
-        "U5GLINK"
+        "U5GLINK",
+        "U5GMAX"
       ],
       "sku": "U5G-Max",
       "sysid": "e630",
@@ -37942,6 +37943,179 @@
         "mobile-setup-wizard-plugin": "8a2d4a0b6bcd298efd12a10de1451acc",
         "mobile-setup-wizard-testing-connection": "bb0f115ab17b213e1ee3b577d5807327"
       }
+    },
+    {
+      "btle": {
+        "factoryDefault": "351a9633-e8e9-45d2-9d4a-c3d43dfe70c2",
+        "userConfigured": "e716f54d-2345-4912-aded-dad64fa8dea9"
+      },
+      "compliance": {
+        "fcc": "SWX-UCGT",
+        "ic": "6545A-UCGT",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UCG-Industrial",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
+      "deviceType": "console",
+      "deviceTypes": [
+        "console"
+      ],
+      "guids": [
+        "ae6e0f23-cf30-4f8d-99ec-c66e628e5ee5",
+        "9d26d9b2-b294-46fb-ba85-db524ec53f84",
+        "351a9633-e8e9-45d2-9d4a-c3d43dfe70c2",
+        "e716f54d-2345-4912-aded-dad64fa8dea9"
+      ],
+      "icon": {
+        "id": "bf78f146-27df-4c4b-9cd9-d2d51212ba91",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "02ac6569-dd8d-468b-89eb-ae916a8236a1",
+      "images": {
+        "default": "b13286810b93b2ec3af7716a5e427dcb",
+        "nopadding": "5528f6a2b57a462d87006fba82200c80",
+        "topology": "d661fb6a86211a58d3ab3a43e0e69556"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "UCG Industrial",
+        "name": "Cloud Gateway Industrial"
+      },
+      "shortnames": [
+        "UCG-Industrial",
+        "UCGA6AD"
+      ],
+      "sku": "UCG-Industrial",
+      "sysid": "a6ad",
+      "sysids": [
+        "a6ad"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "standalone",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "e716f54d-2345-4912-aded-dad64fa8dea9",
+              "default": "351a9633-e8e9-45d2-9d4a-c3d43dfe70c2"
+            }
+          ],
+          "chipset": "j",
+          "deviceCapabilities": [
+            "GATEWAY",
+            "ACCESS_POINT",
+            "SWITCH",
+            "CONTROLLER",
+            "APPLICATION_MODE",
+            "HAS_CLIENTS",
+            "QCA_WIFI_FULL_APPLY_PLATFORM",
+            "SD_WAN_HUB",
+            "REMOTE_SIM",
+            "UPS_PAIRING"
+          ],
+          "diagram": [
+            "01 02 03 04 05 06"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "ipsLimits": {
+            "etOptionsLimits": {
+              "open": {
+                "hard": 20,
+                "soft": 10
+              },
+              "performance": {
+                "hard": 20,
+                "soft": 10
+              }
+            },
+            "memoryWarningPercentage": 77
+          },
+          "mdnsLimits": {
+            "hard": 50,
+            "soft": 20
+          },
+          "minimumFirmwareRequired": "0.9.0",
+          "model": "UDMA6AD",
+          "numberOfPorts": 6,
+          "radios": {
+            "na": {
+              "maxSpeedMegabitsPerSecond": 4324
+            },
+            "ng": {
+              "maxSpeedMegabitsPerSecond": 688
+            }
+          },
+          "subtypes": [
+            "ugw",
+            "uap",
+            "usw"
+          ],
+          "systemIdHexadecimal": "a6ad",
+          "type": "udm"
+        }
+      },
+      "videos": {}
     },
     {
       "btle": {
@@ -72338,5 +72512,5 @@
       "videos": {}
     }
   ],
-  "version": "53326fa9eb25d8773ec9b03cdbb8547e7a81717d"
+  "version": "db56dd3191053f5ccac9f252d682d3aad7c818cb"
 }
