@@ -27611,6 +27611,124 @@
       "videos": {}
     },
     {
+      "deviceType": "access-point",
+      "deviceTypes": [
+        "access-point"
+      ],
+      "guids": [
+        "5d001e01-5182-4b47-9378-cf60fec5faff"
+      ],
+      "icon": {
+        "id": "97e0a01b-f88d-47e5-a631-e4512786b777",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "cef90428-d0e4-42b9-a880-6295af157a3b",
+      "images": {
+        "default": "8b75af8d42c1289cc0484dffe567e6ea",
+        "nopadding": "4d4a59325578a8301fd1e3a4640c0201",
+        "topology": "14f754967e1e0f4e9d82241c6b60923b"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "U7 Mesh",
+        "name": "Access Point U7 Mesh"
+      },
+      "shortnames": [
+        "U7-Mesh"
+      ],
+      "sku": "U7-Mesh",
+      "sysid": "a69e",
+      "sysids": [
+        "a69e"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "r",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 2500,
+          "features": {
+            "atfDisabled": true,
+            "ax": true,
+            "bandsteer": true,
+            "gen": 2,
+            "outdoorModeSupport": true
+          },
+          "minimumFirmwareRequired": "7.0.64",
+          "model": "UAPA69E",
+          "numberOfPorts": 1,
+          "radios": {
+            "na": {
+              "gain": 4,
+              "maxPower": 24,
+              "maxSpeedMegabitsPerSecond": 2162
+            },
+            "ng": {
+              "gain": 5,
+              "maxPower": 23,
+              "maxSpeedMegabitsPerSecond": 688
+            }
+          },
+          "systemIdHexadecimal": "a69e",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "anatel": "08999-24-08356",
         "fcc": "SWX-UKPRO",
@@ -39582,12 +39700,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "ELEMENT_WITH_UPLINK_PRIORITY",
             "AUTOLINK_ELEMENT",
-            "BRIDGE",
-            "HAS_CLIENTS",
             "HAS_TEMPERATURE_SENSOR",
-            "ACCESS_POINT_SWITCH"
+            "HAS_CLIENTS",
+            "ACCESS_POINT_SWITCH",
+            "BRIDGE",
+            "ELEMENT_WITH_UPLINK_PRIORITY"
           ],
           "diagram": [
             "01"
@@ -41882,7 +42000,8 @@
         "name": "Dream Router 5G Max"
       },
       "shortnames": [
-        "UDR-5G-Max"
+        "UDR-5G-Max",
+        "UDR5G"
       ],
       "sku": "UDR-5G-Max",
       "sysid": "a6b9",
@@ -59118,6 +59237,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "power": {
+        "baseConsumption": 60
+      },
       "product": {
         "abbrev": "USW Pro HD 24",
         "name": "Switch Pro HD 24"
@@ -59248,6 +59370,9 @@
       },
       "minAdoptVersion": {
         "net": "8.4.59"
+      },
+      "power": {
+        "baseConsumption": 60
       },
       "product": {
         "abbrev": "USW Pro HD 24 PoE",
@@ -59382,6 +59507,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "power": {
+        "baseConsumption": 25
+      },
       "product": {
         "abbrev": "USW Pro Max 16",
         "name": "Switch Pro Max 16"
@@ -59509,6 +59637,9 @@
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
+      },
+      "power": {
+        "baseConsumption": 25
       },
       "product": {
         "abbrev": "USW Pro Max 16 PoE",
@@ -59643,6 +59774,9 @@
       "minAdoptVersion": {
         "net": "8.0.8"
       },
+      "power": {
+        "baseConsumption": 50
+      },
       "product": {
         "abbrev": "USW Pro Max 24",
         "name": "Switch Pro Max 24"
@@ -59771,6 +59905,9 @@
       },
       "minAdoptVersion": {
         "net": "8.0.8"
+      },
+      "power": {
+        "baseConsumption": 50
       },
       "product": {
         "abbrev": "USW Pro Max 24 PoE",
@@ -59905,6 +60042,9 @@
       "minAdoptVersion": {
         "net": "8.0.8"
       },
+      "power": {
+        "baseConsumption": 100
+      },
       "product": {
         "abbrev": "USW Pro Max 48",
         "name": "Switch Pro Max 48"
@@ -60033,6 +60173,9 @@
       "minAdoptVersion": {
         "net": "8.0.8"
       },
+      "power": {
+        "baseConsumption": 100
+      },
       "product": {
         "abbrev": "USW Pro Max 48 PoE",
         "name": "Switch Pro Max 48 PoE"
@@ -60155,6 +60298,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "power": {
+        "baseConsumption": 65
+      },
       "product": {
         "abbrev": "USW Pro XG 10 PoE",
         "name": "Switch Pro XG 10 PoE"
@@ -60269,6 +60415,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "power": {
+        "baseConsumption": 150
+      },
       "product": {
         "abbrev": "USW Pro XG 24",
         "name": "Switch Pro XG 24"
@@ -60379,6 +60528,9 @@
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
+      },
+      "power": {
+        "baseConsumption": 150
       },
       "product": {
         "abbrev": "USW Pro XG 24 PoE",
@@ -60494,6 +60646,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "power": {
+        "baseConsumption": 250
+      },
       "product": {
         "abbrev": "USW Pro XG 48",
         "name": "Switch Pro XG 48"
@@ -60602,6 +60757,9 @@
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
+      },
+      "power": {
+        "baseConsumption": 200
       },
       "product": {
         "abbrev": "USW Pro XG 48 PoE",
@@ -72512,5 +72670,5 @@
       "videos": {}
     }
   ],
-  "version": "db56dd3191053f5ccac9f252d682d3aad7c818cb"
+  "version": "c497e2db6d15d7dd6a12c1ca97695c301af68123"
 }
