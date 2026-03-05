@@ -8102,17 +8102,17 @@
     },
     {
       "compliance": {
+        "anatel": "06181-25-08356",
+        "fcc": "SWX-UCGF",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "ECS-24-PoE",
         "rcm": true,
-        "rfCmFcc": 20,
-        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC"
           ],
           "US": [
-            "FCC_A"
+            "FCC_B"
           ]
         }
       },
@@ -38618,7 +38618,6 @@
             "GATEWAY",
             "SWITCH",
             "NETWORK_APPLICATION",
-            "PROTECT_APPLICATION",
             "CONTROLLER",
             "APPLICATION_MODE",
             "HAS_CLIENTS",
@@ -39700,12 +39699,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "AUTOLINK_ELEMENT",
-            "HAS_TEMPERATURE_SENSOR",
-            "HAS_CLIENTS",
             "ACCESS_POINT_SWITCH",
-            "BRIDGE",
-            "ELEMENT_WITH_UPLINK_PRIORITY"
+            "HAS_CLIENTS",
+            "HAS_TEMPERATURE_SENSOR",
+            "AUTOLINK_ELEMENT",
+            "ELEMENT_WITH_UPLINK_PRIORITY",
+            "BRIDGE"
           ],
           "diagram": [
             "01"
@@ -72670,5 +72669,5 @@
       "videos": {}
     }
   ],
-  "version": "c497e2db6d15d7dd6a12c1ca97695c301af68123"
+  "version": "8765a5e9196af1bb64e539fa8aac51bfb4661b56"
 }
