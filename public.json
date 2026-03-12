@@ -6872,6 +6872,9 @@
             "CLOUD_KEY",
             "NETWORK_APPLICATION"
           ],
+          "formFactor": [
+            "RACK_1U"
+          ],
           "model": "UCKENT",
           "radios": {},
           "type": "uck"
@@ -8211,6 +8214,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USWF067",
           "numberOfPorts": 26,
@@ -8324,6 +8330,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USWF004",
           "numberOfPorts": 31,
@@ -8341,17 +8350,16 @@
     },
     {
       "compliance": {
+        "anatel": "06181-25-08356",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "ECS-48-PoE",
         "rcm": true,
-        "rfCmFcc": 20,
-        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC"
           ],
           "US": [
-            "FCC_A"
+            "FCC_B"
           ]
         }
       },
@@ -8450,6 +8458,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USWF069",
           "numberOfPorts": 52,
@@ -8560,6 +8571,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USWF006",
           "numberOfPorts": 55,
@@ -8687,6 +8701,9 @@
           "features": {
             "poe": false
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "0.1.7",
           "model": "USWF066",
           "numberOfPorts": 54,
@@ -8860,6 +8877,9 @@
             "02 04 06"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 25000,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "ipsLimits": {
             "etOptionsLimits": {
               "full": {
@@ -24630,6 +24650,10 @@
             "bandsteer": true,
             "gen": 2
           },
+          "formFactor": [
+            "CEILING",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "5.55.12",
           "model": "U6ENT",
           "numberOfPorts": 1,
@@ -24803,6 +24827,9 @@
             "bandsteer": false,
             "gen": 2
           },
+          "formFactor": [
+            "WALL"
+          ],
           "hybrid": "uap+usw",
           "minimumFirmwareRequired": "5.76.0",
           "model": "U6ENTIW",
@@ -25130,6 +25157,9 @@
             "bandsteer": true,
             "gen": 2
           },
+          "formFactor": [
+            "WALL"
+          ],
           "minimumFirmwareRequired": "5.67.0",
           "model": "U6EXT",
           "numberOfPorts": 1,
@@ -25300,6 +25330,9 @@
             "bandsteer": true,
             "gen": 2
           },
+          "formFactor": [
+            "WALL"
+          ],
           "hybrid": "uap+usw",
           "minimumFirmwareRequired": "5.29.0",
           "model": "UAIW6",
@@ -25815,6 +25848,10 @@
             "gen": 2,
             "outdoorModeSupport": true
           },
+          "formFactor": [
+            "CEILING",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "5.42.0",
           "model": "UALR6v2",
           "numberOfPorts": 1,
@@ -26153,6 +26190,10 @@
             "bandsteer": true,
             "gen": 2
           },
+          "formFactor": [
+            "CEILING",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "5.29.0",
           "model": "UAL6",
           "numberOfPorts": 1,
@@ -26314,6 +26355,11 @@
             "bandsteer": true,
             "gen": 2
           },
+          "formFactor": [
+            "WALL",
+            "POLE",
+            "TABLE"
+          ],
           "minimumFirmwareRequired": "5.29.0",
           "model": "UAM6",
           "numberOfPorts": 1,
@@ -26642,6 +26688,10 @@
             "gen": 2,
             "outdoorModeSupport": true
           },
+          "formFactor": [
+            "WALL",
+            "POLE"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "U6MP",
           "numberOfPorts": 2,
@@ -26783,6 +26833,10 @@
             "gen": 2,
             "outdoorModeSupport": false
           },
+          "formFactor": [
+            "CEILING",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "6.4.4",
           "model": "UALRPL6",
           "numberOfPorts": 1,
@@ -26958,6 +27012,10 @@
             "gen": 2,
             "outdoorModeSupport": true
           },
+          "formFactor": [
+            "CEILING",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "5.44.1",
           "model": "UAP6MP",
           "numberOfPorts": 1,
@@ -28027,6 +28085,10 @@
             "be": true,
             "gen": 2
           },
+          "formFactor": [
+            "CEILING",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "7.0.0",
           "model": "U7PRO",
           "numberOfPorts": 1,
@@ -28342,6 +28404,10 @@
             "be": true,
             "gen": 2
           },
+          "formFactor": [
+            "CEILING",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "7.0.0",
           "model": "U7PROMAX",
           "numberOfPorts": 1,
@@ -28773,6 +28839,9 @@
             "be": true,
             "gen": 2
           },
+          "formFactor": [
+            "WALL"
+          ],
           "minimumFirmwareRequired": "7.0.0",
           "model": "U7PIW",
           "numberOfPorts": 1,
@@ -32447,6 +32516,10 @@
             "ac": true,
             "brcm": true
           },
+          "formFactor": [
+            "CEILING",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "U7Ev2",
           "numberOfPorts": 2,
@@ -32723,6 +32796,10 @@
             "gen": 2,
             "outdoorModeSupport": true
           },
+          "formFactor": [
+            "CEILING",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "U7HD",
           "numberOfPorts": 1,
@@ -32874,6 +32951,9 @@
             "bandsteer": true,
             "gen": 2
           },
+          "formFactor": [
+            "WALL"
+          ],
           "hybrid": "uap+usw",
           "minimumFirmwareRequired": "4.0.6",
           "model": "U7IW",
@@ -33006,6 +33086,9 @@
             "bandsteer": true,
             "gen": 2
           },
+          "formFactor": [
+            "WALL"
+          ],
           "hybrid": "uap+usw",
           "minimumFirmwareRequired": "4.0.6",
           "model": "U7IWP",
@@ -33158,6 +33241,10 @@
             "bandsteer": true,
             "gen": 2
           },
+          "formFactor": [
+            "CEILING",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "U7LT",
           "numberOfPorts": 1,
@@ -33284,6 +33371,10 @@
             "bandsteer": true,
             "gen": 2
           },
+          "formFactor": [
+            "CEILING",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "U7LR",
           "numberOfPorts": 1,
@@ -33433,6 +33524,10 @@
             "gen": 2,
             "outdoorModeSupport": true
           },
+          "formFactor": [
+            "WALL",
+            "POLE"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "U7MSH",
           "numberOfPorts": 1,
@@ -33583,6 +33678,10 @@
             "gen": 2,
             "outdoorModeSupport": true
           },
+          "formFactor": [
+            "WALL",
+            "POLE"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "U7MP",
           "numberOfPorts": 1,
@@ -33705,6 +33804,10 @@
             "brcm": true,
             "outdoorModeSupport": true
           },
+          "formFactor": [
+            "WALL",
+            "POLE"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "U7O",
           "numberOfPorts": 2,
@@ -33869,6 +33972,10 @@
             "gen": 2,
             "outdoorModeSupport": true
           },
+          "formFactor": [
+            "CEILING",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "U7PG2",
           "numberOfPorts": 1,
@@ -34023,6 +34130,10 @@
             "gen": 2,
             "outdoorModeSupport": true
           },
+          "formFactor": [
+            "CEILING",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "U7SHD",
           "numberOfPorts": 1,
@@ -34152,6 +34263,9 @@
             "bandsteer": true,
             "gen": 2
           },
+          "formFactor": [
+            "WALL"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "UDMB",
           "numberOfPorts": 1,
@@ -34313,6 +34427,11 @@
             "gen": 2,
             "outdoorModeSupport": true
           },
+          "formFactor": [
+            "WALL",
+            "POLE",
+            "TABLE"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "UFLHD",
           "numberOfPorts": 1,
@@ -34597,6 +34716,9 @@
             "bandsteer": true,
             "gen": 2
           },
+          "formFactor": [
+            "WALL"
+          ],
           "hybrid": "uap+usw",
           "minimumFirmwareRequired": "4.0.6",
           "model": "UHDIW",
@@ -35349,6 +35471,10 @@
             "dfs": true,
             "zh": true
           },
+          "formFactor": [
+            "CEILING",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "U7P",
           "numberOfPorts": 2,
@@ -35476,6 +35602,10 @@
             "gen": 2,
             "outdoorModeSupport": true
           },
+          "formFactor": [
+            "WALL",
+            "POLE"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "UCXG",
           "numberOfPorts": 1,
@@ -35632,6 +35762,10 @@
             "bandsteer": true,
             "gen": 2
           },
+          "formFactor": [
+            "CEILING",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "U7NHD",
           "numberOfPorts": 1,
@@ -35876,6 +36010,10 @@
             "SERVER",
             "NETWORK_APPLICATION"
           ],
+          "formFactor": [
+            "CEILING",
+            "WALL"
+          ],
           "model": "UASXG",
           "radios": {},
           "type": "uas"
@@ -36011,6 +36149,10 @@
             "SUPPORT_PAIRED_DEVICE"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "WALL",
+            "POLE"
+          ],
           "minimumFirmwareRequired": "1.0.5",
           "model": "UBB",
           "numberOfPorts": 1,
@@ -36161,6 +36303,10 @@
             "SUPPORT_PAIRED_DEVICE"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "WALL",
+            "POLE"
+          ],
           "minimumFirmwareRequired": "0.9.12",
           "model": "UBBXG",
           "numberOfPorts": 1,
@@ -38196,6 +38342,9 @@
             "01 02 03 04 05 06"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "formFactor": [
+            "DESKTOP"
+          ],
           "ipsLimits": {
             "etOptionsLimits": {
               "open": {
@@ -38388,6 +38537,9 @@
             "05 04 03 02 01"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 2500,
+          "formFactor": [
+            "DESKTOP"
+          ],
           "ipsLimits": {
             "etOptionsLimits": {
               "open": {
@@ -38627,6 +38779,9 @@
             "01 02 03 04 __ 05"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "DESKTOP"
+          ],
           "ipsLimits": {
             "etOptionsLimits": {
               "open": {
@@ -39699,12 +39854,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "ACCESS_POINT_SWITCH",
-            "HAS_CLIENTS",
             "HAS_TEMPERATURE_SENSOR",
             "AUTOLINK_ELEMENT",
             "ELEMENT_WITH_UPLINK_PRIORITY",
-            "BRIDGE"
+            "BRIDGE",
+            "ACCESS_POINT_SWITCH",
+            "HAS_CLIENTS"
           ],
           "diagram": [
             "01"
@@ -39858,6 +40013,10 @@
             "01 02"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "WALL",
+            "TABLE"
+          ],
           "minimumFirmwareRequired": "0.0.0",
           "model": "UDB",
           "numberOfPorts": 1,
@@ -40119,6 +40278,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP"
+          ],
           "minimumFirmwareRequired": "0.0.0",
           "model": "UDBA69F",
           "numberOfPorts": 8,
@@ -40928,6 +41090,9 @@
             "02 04 06 08 __ 09 11"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "ipsLimits": {
             "etOptionsLimits": {
               "open": {
@@ -41213,6 +41378,9 @@
             "02 04 06 08 __ 09 11"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "ipsLimits": {
             "etOptionsLimits": {
               "open": {
@@ -41519,6 +41687,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "ipsLimits": {
             "etOptionsLimits": {
               "open": {
@@ -41815,6 +41986,9 @@
             "gen": 2,
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP"
+          ],
           "ipsLimits": {
             "etOptionsLimits": {
               "open": {
@@ -42034,6 +42208,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP"
+          ],
           "ipsLimits": {
             "etOptionsLimits": {
               "open": {
@@ -42583,6 +42760,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "WALL"
+          ],
           "ipsLimits": {
             "etOptionsLimits": {
               "open": {
@@ -45053,6 +45233,12 @@
             "gen": 2,
             "outdoorModeSupport": true
           },
+          "formFactor": [
+            "CEILING",
+            "WALL",
+            "POLE",
+            "TABLE"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "U7UKU",
           "numberOfPorts": 1,
@@ -45886,7 +46072,7 @@
     {
       "btle": {
         "factoryDefault": "79863701-0592-4354-abf9-775e2fc2ca39",
-        "userConfigured": "3b57c478-fde5-4ba5-9205-39c62035e5f"
+        "userConfigured": "3b57c478-fde5-4ba5-9205-39c62035e5ff"
       },
       "compliance": {
         "anatel": "06840-25-08356",
@@ -45918,7 +46104,7 @@
       "guids": [
         "f6eb58fb-bd37-4c2f-80ad-6ce5e20295b9",
         "79863701-0592-4354-abf9-775e2fc2ca39",
-        "3b57c478-fde5-4ba5-9205-39c62035e5f"
+        "3b57c478-fde5-4ba5-9205-39c62035e5ff"
       ],
       "icon": {
         "id": "2a322638-af22-487b-ac34-02eecd643048",
@@ -46550,6 +46736,7 @@
         "userConfigured": "8294f0d8-1256-46f6-bdb8-ea4cdc29327b"
       },
       "compliance": {
+        "anatel": "07573-25-08356",
         "fcc": "SWX-UNASP4",
         "ic": "6545A-UNASP4",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -49004,6 +49191,9 @@
           ],
           "diagram": [],
           "ethernetMaxSpeedMegabitsPerSecond": 100,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "knownUnsupportedFeatures": [
             "SWITCH_CAP_DOT1X",
             "SWITCH_CAP_STP",
@@ -49167,6 +49357,9 @@
           ],
           "diagram": [],
           "ethernetMaxSpeedMegabitsPerSecond": 100,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "knownUnsupportedFeatures": [
             "SWITCH_CAP_DOT1X",
             "SWITCH_CAP_STP",
@@ -49329,6 +49522,9 @@
           ],
           "diagram": [],
           "ethernetMaxSpeedMegabitsPerSecond": 100,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "knownUnsupportedFeatures": [
             "SWITCH_CAP_DOT1X",
             "SWITCH_CAP_STP",
@@ -49763,6 +49959,9 @@
             "fan": "simple",
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "US16P150",
           "numberOfPorts": 18,
@@ -49888,6 +50087,9 @@
             "02 04 06 08 10 12 __ 13 14 15 16"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USXG",
           "numberOfPorts": 16,
@@ -50028,6 +50230,9 @@
             "fan": "alwayson",
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "US24P250",
           "numberOfPorts": 26,
@@ -50266,6 +50471,9 @@
           "features": {
             "fan": "simple"
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "US24",
           "numberOfPorts": 26,
@@ -50406,6 +50614,9 @@
             "fan": "alwayson",
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "US48P500",
           "numberOfPorts": 52,
@@ -50537,6 +50748,9 @@
             "fan": "alwayson",
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "US48P750",
           "numberOfPorts": 52,
@@ -50657,6 +50871,9 @@
           "features": {
             "fan": "simple"
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "US48",
           "numberOfPorts": 52,
@@ -50776,6 +50993,10 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "US8",
           "numberOfPorts": 8,
@@ -50889,6 +51110,12 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP",
+            "WALL",
+            "MAGNETIC",
+            "DIN"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USC8",
           "numberOfPorts": 8,
@@ -51532,6 +51759,10 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "US6XG150",
           "numberOfPorts": 6,
@@ -53467,6 +53698,10 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USL16LPB",
           "numberOfPorts": 16,
@@ -53576,6 +53811,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USL16PB",
           "numberOfPorts": 18,
@@ -53686,6 +53924,9 @@
             "HAS_CLIENTS"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USL24B",
           "numberOfPorts": 26,
@@ -53799,6 +54040,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USL24PB",
           "numberOfPorts": 26,
@@ -53909,6 +54153,9 @@
             "HAS_CLIENTS"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USL48B",
           "numberOfPorts": 52,
@@ -54024,6 +54271,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USL48PB",
           "numberOfPorts": 52,
@@ -54138,6 +54388,10 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USL8LPB",
           "numberOfPorts": 8,
@@ -54239,6 +54493,9 @@
             "HAS_CLIENTS"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "DESKTOP"
+          ],
           "minimumFirmwareRequired": "1.2.1",
           "model": "USMINI2",
           "numberOfPorts": 5,
@@ -54943,10 +55200,16 @@
             "REDUNDANT_POWER",
             "SWITCH"
           ],
+          "diagram": [
+            "1"
+          ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
           "minimumFirmwareRequired": "4.0.6",
           "model": "USPRPS",
           "numberOfPorts": 1,
+          "ports": {
+            "standard": 1
+          },
           "radios": {},
           "rps": {
             "diagram": [
@@ -55339,6 +55602,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USL16P",
           "numberOfPorts": 18,
@@ -55472,6 +55738,9 @@
             "HAS_CLIENTS"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USL24",
           "numberOfPorts": 26,
@@ -55609,6 +55878,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USL24P",
           "numberOfPorts": 26,
@@ -55735,6 +56007,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USWED08",
           "numberOfPorts": 26,
@@ -55868,6 +56143,9 @@
             "HAS_CLIENTS"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USL48",
           "numberOfPorts": 52,
@@ -56007,6 +56285,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USL48P",
           "numberOfPorts": 52,
@@ -56147,6 +56428,9 @@
             "02 04 06 08"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USL8A",
           "numberOfPorts": 8,
@@ -56281,6 +56565,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "US624P",
           "numberOfPorts": 26,
@@ -56421,6 +56708,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "US648P",
           "numberOfPorts": 52,
@@ -56520,6 +56810,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "power": {
+        "baseConsumption": 30
+      },
       "product": {
         "abbrev": "USW Enterprise 8 PoE",
         "name": "Switch Enterprise 8 PoE"
@@ -56551,6 +56844,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "US68P",
           "numberOfPorts": 10,
@@ -56685,6 +56981,9 @@
             "01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 __ 25 26"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USXG24",
           "numberOfPorts": 26,
@@ -56782,6 +57081,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "power": {
+        "baseConsumption": 5
+      },
       "product": {
         "abbrev": "USW Flex",
         "name": "Switch Flex"
@@ -56821,6 +57123,12 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP",
+            "WALL",
+            "MAGNETIC",
+            "POLE"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USF5P",
           "numberOfPorts": 5,
@@ -56920,6 +57228,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "power": {
+        "baseConsumption": 5
+      },
       "product": {
         "abbrev": "USW Flex 2.5G 5",
         "name": "Switch Flex 2.5G 5"
@@ -56943,6 +57254,9 @@
             "HAS_CLIENTS"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 2500,
+          "formFactor": [
+            "DESKTOP"
+          ],
           "minimumFirmwareRequired": "1.1.0",
           "model": "USWED35",
           "numberOfPorts": 5,
@@ -57038,6 +57352,9 @@
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
+      },
+      "power": {
+        "baseConsumption": 14
       },
       "product": {
         "abbrev": "USW Flex 2.5G 8",
@@ -57161,6 +57478,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "power": {
+        "baseConsumption": 14
+      },
       "product": {
         "abbrev": "USW Flex 2.5G 8 PoE",
         "name": "Switch Flex 2.5G 8 PoE"
@@ -57190,6 +57510,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP"
+          ],
           "minimumFirmwareRequired": "1.1.0",
           "model": "USWED37",
           "numberOfPorts": 10,
@@ -57294,6 +57617,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "power": {
+        "baseConsumption": 2.5
+      },
       "product": {
         "abbrev": "USW Flex Mini",
         "name": "Switch Flex Mini"
@@ -57324,6 +57650,9 @@
             "HAS_CLIENTS"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "DESKTOP"
+          ],
           "minimumFirmwareRequired": "1.2.1",
           "model": "USMINI",
           "numberOfPorts": 5,
@@ -57418,6 +57747,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "power": {
+        "baseConsumption": 25
+      },
       "product": {
         "abbrev": "USW Flex XG",
         "name": "Switch Flex XG"
@@ -57449,6 +57781,10 @@
             "01 __ 02 03 04 05"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "DESKTOP",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USFXG",
           "numberOfPorts": 5,
@@ -57583,6 +57919,12 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP",
+            "WALL",
+            "MAGNETIC",
+            "DIN"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USC8P450",
           "numberOfPorts": 10,
@@ -57710,6 +58052,10 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USWED05",
           "numberOfPorts": 10,
@@ -57936,6 +58282,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "power": {
+        "baseConsumption": 15
+      },
       "product": {
         "abbrev": "USW Lite 16 PoE",
         "name": "Switch Lite 16 PoE"
@@ -57970,6 +58319,10 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USL16LP",
           "numberOfPorts": 16,
@@ -58066,6 +58419,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "power": {
+        "baseConsumption": 15
+      },
       "product": {
         "abbrev": "USW Lite 16 PoE",
         "name": "Switch Lite 16 PoE"
@@ -58091,6 +58447,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USWED06",
           "numberOfPorts": 16,
@@ -58187,6 +58546,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "power": {
+        "baseConsumption": 8
+      },
       "product": {
         "abbrev": "USW Lite 8 PoE",
         "name": "Switch Lite 8 PoE"
@@ -58222,6 +58584,10 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USL8LP",
           "numberOfPorts": 8,
@@ -58363,6 +58729,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USL8MP",
           "numberOfPorts": 9,
@@ -58498,6 +58867,9 @@
             "HAS_CLIENTS"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "US24PRO2",
           "numberOfPorts": 26,
@@ -58625,6 +58997,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USLP24P",
           "numberOfPorts": 26,
@@ -58760,6 +59135,9 @@
             "HAS_CLIENTS"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "US48PRO2",
           "numberOfPorts": 52,
@@ -58884,6 +59262,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USLP48P",
           "numberOfPorts": 52,
@@ -58966,6 +59347,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "power": {
+        "baseConsumption": 30
+      },
       "product": {
         "abbrev": "USW Pro 8 PoE",
         "name": "Switch Pro 8 PoE"
@@ -59000,6 +59384,10 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USLP8P",
           "numberOfPorts": 10,
@@ -59138,6 +59526,9 @@
             "02 04 06 08 10 12 14 16 18 20 22 24 26 28 __ 30 32"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USAGGPRO",
           "numberOfPorts": 32,
@@ -59265,6 +59656,9 @@
             "01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 __ 26 28"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USWED73",
           "numberOfPorts": 28,
@@ -59402,6 +59796,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USWED72",
           "numberOfPorts": 28,
@@ -59535,6 +59932,11 @@
             "01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 __ 17 18"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 2500,
+          "formFactor": [
+            "DESKTOP",
+            "WALL",
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USPM16",
           "numberOfPorts": 18,
@@ -59669,6 +60071,11 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP",
+            "WALL",
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USPM16P",
           "numberOfPorts": 18,
@@ -59802,6 +60209,9 @@
             "01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 __ 25 26"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USPM24",
           "numberOfPorts": 26,
@@ -59937,6 +60347,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USPM24P",
           "numberOfPorts": 26,
@@ -60070,6 +60483,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USPM48",
           "numberOfPorts": 52,
@@ -60201,6 +60617,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USPM48P",
           "numberOfPorts": 52,
@@ -60328,6 +60747,10 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USWED77",
           "numberOfPorts": 12,
@@ -60346,6 +60769,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "06464-25-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "USW-Pro-XG-24",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_A"
+          ]
+        }
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -60442,6 +60881,9 @@
             "01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 __ 25 26"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 25000,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USWED45",
           "numberOfPorts": 26,
@@ -60559,6 +61001,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USWED44",
           "numberOfPorts": 26,
@@ -60577,6 +61022,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "06464-25-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "USW-Pro-XG-48",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_A"
+          ]
+        }
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -60674,6 +61135,9 @@
             "02 04 06 08 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 __ 50 52"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 25000,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USWED43",
           "numberOfPorts": 52,
@@ -60789,6 +61253,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USWED42",
           "numberOfPorts": 52,
@@ -60871,6 +61338,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "power": {
+        "baseConsumption": 61
+      },
       "product": {
         "abbrev": "USW Pro XG 8 PoE",
         "name": "Switch Pro XG 8 PoE"
@@ -60899,6 +61369,10 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP",
+            "WALL"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USWED76",
           "numberOfPorts": 10,
@@ -61015,6 +61489,9 @@
           "features": {
             "poe": false
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USWF003",
           "numberOfPorts": 32,
@@ -61114,6 +61591,9 @@
       "minAdoptVersion": {
         "net": "8.0.7"
       },
+      "power": {
+        "baseConsumption": 9
+      },
       "product": {
         "abbrev": "USW Ultra",
         "name": "Switch Ultra"
@@ -61141,6 +61621,12 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP",
+            "WALL",
+            "MAGNETIC",
+            "DIN"
+          ],
           "minimumFirmwareRequired": "1.1.0",
           "model": "USM8P",
           "numberOfPorts": 8,
@@ -61246,6 +61732,9 @@
       "minAdoptVersion": {
         "net": "8.0.7"
       },
+      "power": {
+        "baseConsumption": 9
+      },
       "product": {
         "abbrev": "USW Ultra 210W",
         "name": "Switch Ultra 210W"
@@ -61273,6 +61762,12 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP",
+            "WALL",
+            "MAGNETIC",
+            "DIN"
+          ],
           "minimumFirmwareRequired": "1.1.0",
           "model": "USM8P210",
           "numberOfPorts": 8,
@@ -61378,6 +61873,9 @@
       "minAdoptVersion": {
         "net": "8.0.7"
       },
+      "power": {
+        "baseConsumption": 9
+      },
       "product": {
         "abbrev": "USW Ultra 60W",
         "name": "Switch Ultra 60W"
@@ -61405,6 +61903,12 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP",
+            "WALL",
+            "MAGNETIC",
+            "DIN"
+          ],
           "minimumFirmwareRequired": "1.1.0",
           "model": "USM8P60",
           "numberOfPorts": 8,
@@ -61523,6 +62027,9 @@
             "poe": false,
             "uplinkPort": 3
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USWED74",
           "numberOfPorts": 4,
@@ -61645,6 +62152,9 @@
             "poe": false,
             "uplinkPort": 3
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USWED75",
           "numberOfPorts": 4,
@@ -70032,6 +70542,9 @@
             "gen": 2,
             "outdoorModeSupport": true
           },
+          "formFactor": [
+            "DESKTOP"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "UXSDM",
           "numberOfPorts": 1,
@@ -70149,6 +70662,9 @@
             "bandsteer": true,
             "gen": 2
           },
+          "formFactor": [
+            "DESKTOP"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "UXBSDM",
           "numberOfPorts": 1,
@@ -70333,6 +70849,9 @@
             "gen": 2,
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP"
+          ],
           "knownUnsupportedFeatures": [
             "SWITCH_CAP_DOT1X",
             "SWITCH_CAP_PORT_ISOLATION",
@@ -70791,6 +71310,9 @@
             "02 04 06"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "ipsLimits": {
             "etOptionsLimits": {
               "full": {
@@ -71053,6 +71575,9 @@
             "01 02 03 04 05 06 07"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "formFactor": [
+            "DESKTOP"
+          ],
           "ipsLimits": {
             "etOptionsLimits": {
               "open": {
@@ -71349,6 +71874,9 @@
             "01 02"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "DESKTOP"
+          ],
           "linkNegotiation": {
             "eth1": {
               "portIdx": 2,
@@ -71530,6 +72058,9 @@
             "01 02 03 04 05"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "DESKTOP"
+          ],
           "ipsLimits": {
             "etOptionsLimits": {
               "open": {
@@ -71763,6 +72294,9 @@
             "02 04"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "ipsLimits": {
             "etOptionsLimits": {
               "open": {
@@ -72669,5 +73203,5 @@
       "videos": {}
     }
   ],
-  "version": "faf09067f5758cb207026d0aed511e802cdbf224"
+  "version": "93c28a094cef5a0cd711fbf5e8e075f5c5b4d33d"
 }
