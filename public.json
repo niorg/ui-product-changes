@@ -9139,6 +9139,133 @@
       "videos": {}
     },
     {
+      "btle": {
+        "factoryDefault": "ce733c87-f530-4a1b-9fff-ff9499af0e44",
+        "userConfigured": "a75c7478-c204-4613-9936-1c3fd4c05f92"
+      },
+      "deviceType": "console",
+      "deviceTypes": [
+        "console"
+      ],
+      "guids": [
+        "2533db6c-be76-490d-8fb3-02dbfb37b212",
+        "ce733c87-f530-4a1b-9fff-ff9499af0e44",
+        "a75c7478-c204-4613-9936-1c3fd4c05f92"
+      ],
+      "icon": {
+        "id": "79ad903e-d68b-4af7-9e94-9e49a32aa735",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "85a45409-3154-4bd2-931c-49bf4da0117c",
+      "images": {
+        "default": "993dd2f27fb0e2f86b64bafa756f7d58",
+        "nopadding": "a9f8c1f8592c0994a0f1c97dc5bbdb56",
+        "rack": "ccb86b28b55b9697a2ad281053a916b3",
+        "topology": "a7132d6af03210012290b4c97da75541"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "ENVR Core",
+        "name": "Enterprise Network Video Recorder Core"
+      },
+      "shortnames": [
+        "ENVR-Core",
+        "ENVRCORE"
+      ],
+      "sku": "ENVR-Core",
+      "sysid": "da28",
+      "sysids": [
+        "da28"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "standalone",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "a75c7478-c204-4613-9936-1c3fd4c05f92",
+              "default": "ce733c87-f530-4a1b-9fff-ff9499af0e44",
+              "features": {
+                "ucore": true
+              }
+            }
+          ],
+          "deviceCapabilities": [
+            "PROTECT_APPLICATION",
+            "STORAGE"
+          ],
+          "diagram": [
+            "01 02 03 04 05"
+          ],
+          "model": "ENVR-Core",
+          "ports": {
+            "rj45": [
+              1
+            ],
+            "sfp": [
+              4,
+              5
+            ],
+            "sfp28": [
+              2,
+              3
+            ]
+          },
+          "radios": {},
+          "type": "unvr"
+        }
+      },
+      "videos": {}
+    },
+    {
       "deviceType": "power-supply",
       "deviceTypes": [
         "power-supply"
@@ -33978,7 +34105,7 @@
           ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "U7PG2",
-          "numberOfPorts": 1,
+          "numberOfPorts": 2,
           "radios": {
             "na": {
               "gain": 3,
@@ -38058,6 +38185,9 @@
             "01 02 03 04 05 06 07"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "formFactor": [
+            "DESKTOP"
+          ],
           "ipsLimits": {
             "etOptionsLimits": {
               "open": {
@@ -38973,6 +39103,9 @@
             "01"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "0.0.0",
           "model": "UCI",
           "numberOfPorts": 1,
@@ -39095,6 +39228,9 @@
           "deviceCapabilities": [
             "CLOUD_KEY",
             "NETWORK_APPLICATION"
+          ],
+          "formFactor": [
+            "DESKTOP"
           ],
           "model": "UCK-v3",
           "radios": {},
@@ -39249,6 +39385,9 @@
           "deviceCapabilities": [
             "CLOUD_KEY",
             "NETWORK_APPLICATION"
+          ],
+          "formFactor": [
+            "DESKTOP"
           ],
           "model": "UCKG2",
           "radios": {},
@@ -39487,6 +39626,9 @@
             "CLOUD_KEY",
             "NETWORK_APPLICATION",
             "PROTECT_APPLICATION"
+          ],
+          "formFactor": [
+            "DESKTOP"
           ],
           "model": "UCKP",
           "radios": {},
@@ -39854,12 +39996,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "HAS_TEMPERATURE_SENSOR",
-            "AUTOLINK_ELEMENT",
             "ELEMENT_WITH_UPLINK_PRIORITY",
-            "BRIDGE",
+            "HAS_TEMPERATURE_SENSOR",
+            "HAS_CLIENTS",
             "ACCESS_POINT_SWITCH",
-            "HAS_CLIENTS"
+            "AUTOLINK_ELEMENT",
+            "BRIDGE"
           ],
           "diagram": [
             "01"
@@ -46185,7 +46327,7 @@
         "network": {
           "bleServices": [
             {
-              "configured": "3b57c478-fde5-4ba5-9205-39c62035e5f",
+              "configured": "3b57c478-fde5-4ba5-9205-39c62035e5ff",
               "default": "79863701-0592-4354-abf9-775e2fc2ca39",
               "features": {
                 "ucore": true
@@ -48110,6 +48252,105 @@
       ],
       "sku": "UP-AI-Port",
       "sysids": [],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UP-AlarmHub",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_A"
+          ]
+        }
+      },
+      "deviceType": "sensor",
+      "deviceTypes": [
+        "sensor"
+      ],
+      "guids": [
+        "b711ac95-3591-4a44-8c47-1412fa798d77"
+      ],
+      "icon": {
+        "id": "11c3834b-87be-4451-923a-3cb61cb617fe",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "bc81e5aa-2f15-4cd5-9eb7-4054b840a4f9",
+      "images": {
+        "default": "f5f4341f34a257d0257f903305670232",
+        "nopadding": "c63606e18a617ece673b3f835e2c08cf",
+        "topology": "beda7996eddd68513869a5fcc01adf08"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "AlarmHub Kit",
+        "name": "Protect AlarmHub Kit"
+      },
+      "shortnames": [
+        "UP-AlarmHub",
+        "UP-AlarmHub-Kit"
+      ],
+      "sku": "UP-AlarmHub-Kit",
+      "sysid": "aea5",
+      "sysids": [
+        "aea5"
+      ],
       "triplets": [],
       "unifi": {
         "adoptability": "adoptable"
@@ -50355,6 +50596,9 @@
             "fan": "alwayson",
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "US24P500",
           "numberOfPorts": 26,
@@ -51254,6 +51498,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USC8P150",
           "numberOfPorts": 10,
@@ -51391,6 +51638,9 @@
           "features": {
             "poe": true
           },
+          "formFactor": [
+            "DESKTOP"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USC8P60",
           "numberOfPorts": 8,
@@ -51511,6 +51761,9 @@
             "fan": "alwayson",
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "US24PL2",
           "numberOfPorts": 26,
@@ -51632,6 +51885,9 @@
             "fan": "alwayson",
             "poe": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "US48PL2",
           "numberOfPorts": 52,
@@ -51986,6 +52242,9 @@
           "features": {
             "legacyPortRemap": true
           },
+          "formFactor": [
+            "RACK_1U"
+          ],
           "linkNegotiation": {
             "eth0": {
               "portIdx": 1,
@@ -52144,6 +52403,9 @@
             "01 02 03 04"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "linkNegotiation": {
             "eth0": {
               "portIdx": 1,
@@ -57382,6 +57644,9 @@
             "01 02 03 04 05 06 07 08 __ 09 10"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 10000,
+          "formFactor": [
+            "DESKTOP"
+          ],
           "minimumFirmwareRequired": "1.1.0",
           "model": "USWED36",
           "numberOfPorts": 10,
@@ -58180,6 +58445,9 @@
             "02 04 06 08 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 52 54"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "RACK_1U"
+          ],
           "knownUnsupportedFeatures": [
             "SWITCH_CAP_DOT1X",
             "SWITCH_CAP_LLDP_MED",
@@ -71079,6 +71347,9 @@
             "bandsteer": true,
             "gen": 2
           },
+          "formFactor": [
+            "DESKTOP"
+          ],
           "ipsLimits": {
             "etOptionsLimits": {
               "open": {
@@ -73203,5 +73474,5 @@
       "videos": {}
     }
   ],
-  "version": "93c28a094cef5a0cd711fbf5e8e075f5c5b4d33d"
+  "version": "c49a4efe1dbb923d2c5fdfc8563639b75455b303"
 }
