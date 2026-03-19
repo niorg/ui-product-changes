@@ -23691,6 +23691,132 @@
       "videos": {}
     },
     {
+      "btle": {
+        "factoryDefault": "49d0a405-85ee-4b83-b5ea-5ec1bdea23ac",
+        "userConfigured": "faaa5241-03f7-4a5e-bce0-c3a7affb2a7d"
+      },
+      "deviceType": "radio",
+      "deviceTypes": [
+        "radio"
+      ],
+      "guids": [
+        "eec05274-57dd-43e6-8112-306fdf8c360e",
+        "49d0a405-85ee-4b83-b5ea-5ec1bdea23ac",
+        "faaa5241-03f7-4a5e-bce0-c3a7affb2a7d"
+      ],
+      "icon": {
+        "id": "c8eec2dd-87b6-47e9-8b07-8a5ae3e17b45",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "f5fb6c74-9a9d-4a64-9168-344171310029",
+      "images": {
+        "default": "26c347386bbb78386e622a027203b002",
+        "nopadding": "29fa837404929cfb45d8d874fc141dbd",
+        "topology": "af89006f84e0150a09c1faba06ad2ad5"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "AirWire",
+        "name": "AirWire"
+      },
+      "shortnames": [
+        "U-AirWire",
+        "UAW",
+        "UAPEA07"
+      ],
+      "sku": "U-AirWire",
+      "sysid": "ea07",
+      "sysids": [
+        "ea07"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "r",
+          "deviceCapabilities": [
+            "ACCESS_POINT_SWITCH",
+            "HAS_CLIENTS",
+            "VPORT"
+          ],
+          "diagram": [
+            "01"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 5000,
+          "minimumFirmwareRequired": "7.0.0",
+          "model": "UAPEA07",
+          "numberOfPorts": 1,
+          "ports": {
+            "meta": {
+              "01": {
+                "ethUsbTypeC": true
+              }
+            },
+            "standard": 1
+          },
+          "radios": {
+            "6e": {
+              "maxSpeedMegabitsPerSecond": 5765
+            },
+            "na": {
+              "maxSpeedMegabitsPerSecond": 4324
+            }
+          },
+          "systemIdHexadecimal": "ea07",
+          "type": "uacc"
+        }
+      },
+      "videos": {}
+    },
+    {
       "deviceType": "tool",
       "deviceTypes": [
         "tool"
@@ -73474,5 +73600,5 @@
       "videos": {}
     }
   ],
-  "version": "c49a4efe1dbb923d2c5fdfc8563639b75455b303"
+  "version": "3e649b801893da57f74c5ba43a762d78c432808d"
 }
