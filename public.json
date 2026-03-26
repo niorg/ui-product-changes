@@ -23795,12 +23795,9 @@
           "model": "UAPEA07",
           "numberOfPorts": 1,
           "ports": {
-            "meta": {
-              "01": {
-                "ethUsbTypeC": true
-              }
-            },
-            "standard": 1
+            "usbc": [
+              1
+            ]
           },
           "radios": {
             "6e": {
@@ -40123,11 +40120,11 @@
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
             "ELEMENT_WITH_UPLINK_PRIORITY",
-            "HAS_TEMPERATURE_SENSOR",
-            "HAS_CLIENTS",
-            "ACCESS_POINT_SWITCH",
             "AUTOLINK_ELEMENT",
-            "BRIDGE"
+            "ACCESS_POINT_SWITCH",
+            "BRIDGE",
+            "HAS_CLIENTS",
+            "HAS_TEMPERATURE_SENSOR"
           ],
           "diagram": [
             "01"
@@ -40271,6 +40268,7 @@
           "chipset": "e",
           "deviceCapabilities": [
             "BUILDING_BRIDGE",
+            "ACCESS_POINT_SWITCH",
             "BRIDGE",
             "BRIDGE_PTMP",
             "HAS_TEMPERATURE_SENSOR",
@@ -40287,7 +40285,7 @@
           ],
           "minimumFirmwareRequired": "0.0.0",
           "model": "UDB",
-          "numberOfPorts": 1,
+          "numberOfPorts": 2,
           "ports": {
             "standard": [
               0,
@@ -73600,5 +73598,5 @@
       "videos": {}
     }
   ],
-  "version": "32c6631a79384f6b106dfbfec544b3c55d282e51"
+  "version": "7116a5559663cc6b65f1073b64dc6a7620414c13"
 }
