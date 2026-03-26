@@ -40119,12 +40119,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "ELEMENT_WITH_UPLINK_PRIORITY",
             "AUTOLINK_ELEMENT",
-            "ACCESS_POINT_SWITCH",
-            "BRIDGE",
+            "ELEMENT_WITH_UPLINK_PRIORITY",
+            "HAS_TEMPERATURE_SENSOR",
             "HAS_CLIENTS",
-            "HAS_TEMPERATURE_SENSOR"
+            "BRIDGE",
+            "ACCESS_POINT_SWITCH"
           ],
           "diagram": [
             "01"
@@ -40272,7 +40272,6 @@
             "BRIDGE",
             "BRIDGE_PTMP",
             "HAS_TEMPERATURE_SENSOR",
-            "HAS_GLOBAL_POE_MODE_CONTROL",
             "HAS_CLIENTS"
           ],
           "diagram": [
@@ -73598,5 +73597,5 @@
       "videos": {}
     }
   ],
-  "version": "7116a5559663cc6b65f1073b64dc6a7620414c13"
+  "version": "f0604bdbc9ce0bcf8403871d3b49e4e76752f43c"
 }
