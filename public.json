@@ -40120,11 +40120,11 @@
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
             "AUTOLINK_ELEMENT",
-            "ELEMENT_WITH_UPLINK_PRIORITY",
-            "HAS_TEMPERATURE_SENSOR",
-            "HAS_CLIENTS",
+            "ACCESS_POINT_SWITCH",
             "BRIDGE",
-            "ACCESS_POINT_SWITCH"
+            "HAS_CLIENTS",
+            "HAS_TEMPERATURE_SENSOR",
+            "ELEMENT_WITH_UPLINK_PRIORITY"
           ],
           "diagram": [
             "01"
@@ -46348,6 +46348,7 @@
           "020-250369"
         ],
         "modelName": "UNAS-2-B",
+        "ncc": "CCAH26LP2240T7",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
@@ -73597,5 +73598,5 @@
       "videos": {}
     }
   ],
-  "version": "f0604bdbc9ce0bcf8403871d3b49e4e76752f43c"
+  "version": "f954fd98b45d359b73009f4cb07598485085d88d"
 }
