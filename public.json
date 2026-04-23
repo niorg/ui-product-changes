@@ -9585,6 +9585,9 @@
         "id": "unifi-protect",
         "name": "UniFi Protect"
       },
+      "minAdoptVersion": {
+        "protect": "7.0.104"
+      },
       "product": {
         "abbrev": "ENVR Core",
         "name": "Enterprise Network Video Recorder Core"
@@ -38928,6 +38931,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "minAdoptVersion": {
+        "protect": "6.2.88"
+      },
       "product": {
         "abbrev": "UCG Industrial",
         "name": "Cloud Gateway Industrial"
@@ -40496,12 +40502,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
+            "AUTOLINK_ELEMENT",
+            "ELEMENT_WITH_UPLINK_PRIORITY",
+            "ACCESS_POINT_SWITCH",
             "BRIDGE",
             "HAS_CLIENTS",
-            "HAS_TEMPERATURE_SENSOR",
-            "ELEMENT_WITH_UPLINK_PRIORITY",
-            "AUTOLINK_ELEMENT",
-            "ACCESS_POINT_SWITCH"
+            "HAS_TEMPERATURE_SENSOR"
           ],
           "diagram": [
             "01"
@@ -48841,6 +48847,9 @@
         "id": "unifi-protect",
         "name": "UniFi Protect"
       },
+      "minAdoptVersion": {
+        "protect": "7.0.104"
+      },
       "product": {
         "abbrev": "AlarmHub Kit",
         "name": "Protect AlarmHub Kit"
@@ -53895,6 +53904,9 @@
         "id": "unifi-protect",
         "name": "UniFi Protect"
       },
+      "minAdoptVersion": {
+        "protect": "7.0.104"
+      },
       "product": {
         "abbrev": "USL GlassBreak",
         "name": "SuperLink GlassBreak Sensor"
@@ -53984,6 +53996,9 @@
       "line": {
         "id": "unifi-protect",
         "name": "UniFi Protect"
+      },
+      "minAdoptVersion": {
+        "protect": "7.0.104"
       },
       "product": {
         "abbrev": "USL GlassBreak",
@@ -54255,6 +54270,9 @@
         "id": "unifi-protect",
         "name": "UniFi Protect"
       },
+      "minAdoptVersion": {
+        "protect": "6.2.88"
+      },
       "product": {
         "abbrev": "USL Siren",
         "name": "SuperLink Siren"
@@ -54344,6 +54362,9 @@
       "line": {
         "id": "unifi-protect",
         "name": "UniFi Protect"
+      },
+      "minAdoptVersion": {
+        "protect": "6.2.88"
       },
       "product": {
         "abbrev": "USL Siren",
@@ -64733,6 +64754,9 @@
         "id": "unifi-protect",
         "name": "UniFi Protect"
       },
+      "minAdoptVersion": {
+        "protect": "6.2.88"
+      },
       "product": {
         "abbrev": "AI MS 4",
         "name": "Camera AI MS 4"
@@ -64823,6 +64847,9 @@
       "line": {
         "id": "unifi-protect",
         "name": "UniFi Protect"
+      },
+      "minAdoptVersion": {
+        "protect": "6.2.88"
       },
       "product": {
         "abbrev": "AI MS 4",
@@ -68989,6 +69016,9 @@
         "id": "unifi-protect",
         "name": "UniFi Protect"
       },
+      "minAdoptVersion": {
+        "protect": "7.0.104"
+      },
       "product": {
         "abbrev": "G6 180",
         "name": "Camera G6 180"
@@ -70257,6 +70287,9 @@
       "line": {
         "id": "unifi-protect",
         "name": "UniFi Protect"
+      },
+      "minAdoptVersion": {
+        "protect": "6.2.88"
       },
       "product": {
         "abbrev": "G6 Pro Entry",
@@ -73977,5 +74010,5 @@
       "videos": {}
     }
   ],
-  "version": "1ecca695c77c9e4267a4b6f63700f720d71704c2"
+  "version": "0ed5fa0838e1db010f5dd981f971603d7121a202"
 }
