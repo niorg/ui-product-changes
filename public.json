@@ -9239,7 +9239,6 @@
             "CONTROLLER",
             "APPLICATION_MODE",
             "HAS_CLIENTS",
-            "SSL_INSPECTION",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
             "SD_WAN_HUB",
             "ENTERPRISE_GATEWAY",
@@ -38675,7 +38674,6 @@
             "CONTROLLER",
             "APPLICATION_MODE",
             "HAS_CLIENTS",
-            "SSL_INSPECTION",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
             "SD_WAN_HUB",
             "UPS_PAIRING"
@@ -39165,7 +39163,6 @@
             "CONTROLLER",
             "APPLICATION_MODE",
             "HAS_CLIENTS",
-            "SSL_INSPECTION",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
             "UPS_PAIRING"
           ],
@@ -40502,12 +40499,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "AUTOLINK_ELEMENT",
             "ELEMENT_WITH_UPLINK_PRIORITY",
             "ACCESS_POINT_SWITCH",
             "BRIDGE",
             "HAS_CLIENTS",
-            "HAS_TEMPERATURE_SENSOR"
+            "HAS_TEMPERATURE_SENSOR",
+            "AUTOLINK_ELEMENT"
           ],
           "diagram": [
             "01"
@@ -41565,6 +41562,166 @@
     },
     {
       "btle": {
+        "factoryDefault": "696e5c3c-9923-49b6-b01d-4e5a32766407",
+        "userConfigured": "a4a6a5e3-2d5e-44cc-b9ea-ec6b9f919848"
+      },
+      "compliance": {
+        "fcc": "SWX-UDMBT",
+        "ic": "6545A-UDMBT",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UDM-Beast",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
+      "deviceType": "console",
+      "deviceTypes": [
+        "console"
+      ],
+      "guids": [
+        "276326a6-5d42-4df8-ab1e-d53f33b8c3c6",
+        "696e5c3c-9923-49b6-b01d-4e5a32766407",
+        "a4a6a5e3-2d5e-44cc-b9ea-ec6b9f919848"
+      ],
+      "icon": {
+        "id": "163f314b-3f90-4eb5-81ad-0ccfb8636be2",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "28263ecb-d479-4054-968e-03f2dd698047",
+      "images": {
+        "blueprint": "aa2023d6a35e3e19d1f9b18b84c70a9f",
+        "blueprint-dark": "b966cad99f938b21514e743374a68255",
+        "default": "9f15ff3a8a0a413ab5147a56ccb4ac35",
+        "nopadding": "a64776fdb1d90ba200b8fff7b50883d7",
+        "rack": "a9ae6807e78d5c8c9370278580bde1aa",
+        "topology": "d7a85d3d587abef137606dff8be78c9e"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "UDM Beast",
+        "name": "Dream Machine Beast"
+      },
+      "shortnames": [
+        "UDM-Beast"
+      ],
+      "sku": "UDM-Beast",
+      "sysid": "ea4c",
+      "sysids": [
+        "ea4c"
+      ],
+      "triplets": [
+        {
+          "k3": "UDM-Beast"
+        }
+      ],
+      "unifi": {
+        "adoptability": "standalone",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "a4a6a5e3-2d5e-44cc-b9ea-ec6b9f919848",
+              "default": "696e5c3c-9923-49b6-b01d-4e5a32766407"
+            }
+          ],
+          "chipset": "j",
+          "deviceCapabilities": [
+            "GATEWAY",
+            "SWITCH",
+            "NETWORK_APPLICATION",
+            "PROTECT_APPLICATION",
+            "CONTROLLER",
+            "APPLICATION_MODE",
+            "HAS_CLIENTS",
+            "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
+            "SD_WAN_HUB",
+            "UPS_PAIRING"
+          ],
+          "diagram": [
+            "01 03 05 07 09 __ 11 13",
+            "02 04 06 08 10 __ 12 14"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 25000,
+          "formFactor": [
+            "RACK_1U"
+          ],
+          "minimumFirmwareRequired": "0.9.0",
+          "model": "UDMEA4C",
+          "numberOfPorts": 14,
+          "radios": {},
+          "shadowMode": {
+            "interconnectPortInterface": "eth1",
+            "interconnectPortNumber": 2
+          },
+          "subtypes": [
+            "ugw",
+            "usw"
+          ],
+          "systemIdHexadecimal": "ea4c",
+          "type": "udm"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "btle": {
         "factoryDefault": "afcad778-a44c-48d2-9b50-dbbaeff1e77a",
         "userConfigured": "26816cf6-334b-4580-bc3f-f1b72ef5d93e"
       },
@@ -41730,7 +41887,6 @@
             "CONTROLLER",
             "APPLICATION_MODE",
             "HAS_CLIENTS",
-            "SSL_INSPECTION",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
             "SD_WAN_HUB",
             "UPS_PAIRING"
@@ -42018,7 +42174,6 @@
             "CONTROLLER",
             "APPLICATION_MODE",
             "HAS_CLIENTS",
-            "SSL_INSPECTION",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
             "SD_WAN_HUB",
             "UPS_PAIRING"
@@ -42324,7 +42479,6 @@
             "CONTROLLER",
             "APPLICATION_MODE",
             "HAS_CLIENTS",
-            "SSL_INSPECTION",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
             "SD_WAN_HUB",
             "UPS_PAIRING"
@@ -43397,7 +43551,6 @@
             "CONTROLLER",
             "APPLICATION_MODE",
             "HAS_CLIENTS",
-            "SSL_INSPECTION",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
             "SD_WAN_HUB",
             "UPS_PAIRING"
@@ -54204,6 +54357,192 @@
       "videos": {}
     },
     {
+      "deviceType": "control",
+      "deviceTypes": [
+        "control"
+      ],
+      "guids": [
+        "0e23b98d-d003-4922-a1f6-884f7701091e"
+      ],
+      "icon": {
+        "id": "78834be7-f785-4ef5-9086-afd916e0e909",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "1d92ad27-1b88-4198-a452-9f86bc5db182",
+      "images": {
+        "default": "e14889d334aed1f925e60303ec0cddd6",
+        "nopadding": "47dbf2a2162ad0b60db215803d6e7d31",
+        "topology": "beaad3e015e9fcaae8a07966c2ee8f0d"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "minAdoptVersion": {
+        "protect": "7.0.104"
+      },
+      "product": {
+        "abbrev": "USL Relay",
+        "name": "SuperLink Relay"
+      },
+      "shortnames": [
+        "USL-Relay-EU"
+      ],
+      "sku": "USL-Relay-EU",
+      "sysid": "ae99",
+      "sysids": [
+        "ae99"
+      ],
+      "triplets": [
+        {
+          "k1": "ST50H",
+          "k3": "USL-Relay-EU"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "control",
+      "deviceTypes": [
+        "control"
+      ],
+      "guids": [
+        "c46b8da5-bc38-41d9-9799-4abf9da2da8d"
+      ],
+      "icon": {
+        "id": "40387470-d9a8-461f-b1e6-c8468bb10f53",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "dd7bafb1-bff0-49f3-ae60-110d6b17bbc4",
+      "images": {
+        "default": "e14889d334aed1f925e60303ec0cddd6",
+        "nopadding": "47dbf2a2162ad0b60db215803d6e7d31",
+        "topology": "beaad3e015e9fcaae8a07966c2ee8f0d"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "minAdoptVersion": {
+        "protect": "7.0.104"
+      },
+      "product": {
+        "abbrev": "USL Relay",
+        "name": "SuperLink Relay"
+      },
+      "shortnames": [
+        "USL-Relay-US"
+      ],
+      "sku": "USL-Relay-US",
+      "sysid": "ae98",
+      "sysids": [
+        "ae98"
+      ],
+      "triplets": [
+        {
+          "k1": "ST50H",
+          "k3": "USL-Relay-US"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
       "deviceType": "alarm",
       "deviceTypes": [
         "alarm"
@@ -63901,6 +64240,25 @@
         "factoryDefault": "69b6a9f0-b7fa-4f67-b188-1d001bd30123",
         "userConfigured": "f1d3710a-cc01-43ee-b433-340d79b8effb"
       },
+      "compliance": {
+        "fcc": "SWX-UTR",
+        "ic": "6545A-UTR",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UTR",
+        "ncc": "CCAH26LP2440T2",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "WIFI_5"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "deviceType": "router",
       "deviceTypes": [
         "router"
@@ -72106,7 +72464,6 @@
             "GATEWAY",
             "APPLICATION_GATEWAY",
             "HAS_CLIENTS",
-            "SSL_INSPECTION",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
             "MANAGED_SHADOW_GATEWAY",
             "SD_WAN_HUB",
@@ -74010,5 +74367,5 @@
       "videos": {}
     }
   ],
-  "version": "4f01aca8ec2ca3f009accb3bf1ecde52c49bad98"
+  "version": "d9619b589c8202f25fd008384feb3e00bb5e097e"
 }
