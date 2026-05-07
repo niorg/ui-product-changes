@@ -28365,7 +28365,8 @@
         "name": "Access Point U7 Mesh"
       },
       "shortnames": [
-        "U7-Mesh"
+        "U7-Mesh",
+        "U7M"
       ],
       "sku": "U7-Mesh",
       "sysid": "a69e",
@@ -32788,6 +32789,170 @@
       "sku": "UACC-AI-Pro-Enhancer",
       "sysids": [],
       "triplets": [],
+      "videos": {}
+    },
+    {
+      "deviceType": "audio",
+      "deviceTypes": [
+        "audio"
+      ],
+      "guids": [
+        "eb8cd393-1add-4cd4-a62b-8eeeb911f881"
+      ],
+      "icon": {
+        "id": "1bd09e20-282d-4929-becc-b0560f5e6643",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "869556c8-e4a1-4986-9485-209a6ce21a6c",
+      "images": {
+        "default": "c1b868ef89f736c1a74fbcbf8fcd808d",
+        "nopadding": "84ce483a3d82a6c66a8f9f525e8a031e",
+        "topology": "b3703ac2de070eeaa8681f30a86f5511"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "In Ceiling Speaker",
+        "name": "In Ceiling Speaker"
+      },
+      "shortnames": [
+        "UACC-In-Ceiling-Speaker"
+      ],
+      "sku": "UACC-In-Ceiling-Speaker",
+      "sysids": [],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "audio",
+      "deviceTypes": [
+        "audio"
+      ],
+      "guids": [
+        "00945e8b-7915-435a-9170-3fad85cebb47"
+      ],
+      "icon": {
+        "id": "895deff4-8a96-4073-b7d8-92ddeaabfca7",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "518ab581-fc08-4dc7-8de5-d68bd1c5a95a",
+      "images": {
+        "default": "4ed0eeaee7e14ba2c558c360e8dfb2e3",
+        "nopadding": "e25edaf8c8a7870d490da3fb25d5337e",
+        "topology": "1b128e104cc4cb2c2cdd02aec12f0ecb"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "In Wall Speaker",
+        "name": "In Wall Speaker"
+      },
+      "shortnames": [
+        "UACC-In-Wall-Speaker"
+      ],
+      "sku": "UACC-In-Wall-Speaker",
+      "sysids": [],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
       "videos": {}
     },
     {
@@ -40499,12 +40664,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "ELEMENT_WITH_UPLINK_PRIORITY",
-            "ACCESS_POINT_SWITCH",
-            "BRIDGE",
             "HAS_CLIENTS",
             "HAS_TEMPERATURE_SENSOR",
-            "AUTOLINK_ELEMENT"
+            "AUTOLINK_ELEMENT",
+            "ELEMENT_WITH_UPLINK_PRIORITY",
+            "ACCESS_POINT_SWITCH",
+            "BRIDGE"
           ],
           "diagram": [
             "01"
@@ -41647,6 +41812,8 @@
         "blueprint": "aa2023d6a35e3e19d1f9b18b84c70a9f",
         "blueprint-dark": "b966cad99f938b21514e743374a68255",
         "default": "9f15ff3a8a0a413ab5147a56ccb4ac35",
+        "mobile-internet-connected": "b84b8f6b45e6ac9ab0e9801651e045d8",
+        "mobile-no-internet": "3ed983f8bd90241187455a76f053132d",
         "nopadding": "a64776fdb1d90ba200b8fff7b50883d7",
         "rack": "a9ae6807e78d5c8c9370278580bde1aa",
         "topology": "d7a85d3d587abef137606dff8be78c9e"
@@ -41702,6 +41869,22 @@
           "formFactor": [
             "RACK_1U"
           ],
+          "ipsLimits": {
+            "etOptionsLimits": {
+              "full": {
+                "hard": 25,
+                "soft": 20
+              },
+              "open": {
+                "hard": 25,
+                "soft": 20
+              },
+              "performance": {
+                "hard": 25,
+                "soft": 20
+              }
+            }
+          },
           "minimumFirmwareRequired": "0.9.0",
           "model": "UDMEA4C",
           "numberOfPorts": 14,
@@ -41718,7 +41901,11 @@
           "type": "udm"
         }
       },
-      "videos": {}
+      "videos": {
+        "mobile-intro": "ec8af221b6b908307f466e0108ab0c5e",
+        "mobile-setup-wizard-plugin": "065020fb547197fad5b9e3c20d9a4d2a",
+        "mobile-setup-wizard-testing-connection": "31c360438b67044b00374db91f76d2ae"
+      }
     },
     {
       "btle": {
@@ -43095,12 +43282,18 @@
           },
           "radios": {
             "6e": {
+              "gain": 8,
+              "maxPower": 22,
               "maxSpeedMegabitsPerSecond": 5765
             },
             "na": {
+              "gain": 5,
+              "maxPower": 26,
               "maxSpeedMegabitsPerSecond": 4324
             },
             "ng": {
+              "gain": 4,
+              "maxPower": 23,
               "maxSpeedMegabitsPerSecond": 688
             }
           },
@@ -48922,9 +49115,12 @@
     },
     {
       "compliance": {
+        "fcc": "SWX-UXGM",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "UP-AlarmHub",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC"
@@ -65305,6 +65501,7 @@
         "name": "Camera AI PTZ Industrial"
       },
       "shortnames": [
+        "UVC AI PTZ Industrial",
         "G6-PTZ-Industrial",
         "UVC-G6-PTZ-Industrial",
         "UVC-AI-PTZ",
@@ -65481,7 +65678,8 @@
         "name": "Camera AI PTZ Precision"
       },
       "shortnames": [
-        "UVC-AI-PTZ-Precision-B"
+        "UVC-AI-PTZ-Precision-B",
+        "UVC AI PTZ Precision B"
       ],
       "sku": "UVC-AI-PTZ-Precision-B",
       "sysid": "a067",
@@ -65567,7 +65765,8 @@
         "name": "Camera AI PTZ Precision"
       },
       "shortnames": [
-        "UVC-AI-PTZ-Precision-W"
+        "UVC-AI-PTZ-Precision-W",
+        "UVC AI PTZ Precision W"
       ],
       "sku": "UVC-AI-PTZ-Precision-W",
       "sysid": "a066",
@@ -74367,5 +74566,5 @@
       "videos": {}
     }
   ],
-  "version": "d9619b589c8202f25fd008384feb3e00bb5e097e"
+  "version": "03b0fed142f5b011ea618cb60f770c9bdd5d266b"
 }
