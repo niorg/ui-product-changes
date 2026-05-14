@@ -9241,8 +9241,7 @@
             "HAS_CLIENTS",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
             "SD_WAN_HUB",
-            "ENTERPRISE_GATEWAY",
-            "UPS_PAIRING"
+            "ENTERPRISE_GATEWAY"
           ],
           "diagram": [
             "01 03 05",
@@ -38840,8 +38839,7 @@
             "APPLICATION_MODE",
             "HAS_CLIENTS",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
-            "SD_WAN_HUB",
-            "UPS_PAIRING"
+            "SD_WAN_HUB"
           ],
           "diagram": [
             "01 02 03 04 05 06 07"
@@ -39130,8 +39128,7 @@
             "HAS_CLIENTS",
             "QCA_WIFI_FULL_APPLY_PLATFORM",
             "SD_WAN_HUB",
-            "REMOTE_SIM",
-            "UPS_PAIRING"
+            "REMOTE_SIM"
           ],
           "diagram": [
             "01 02 03 04 05 06"
@@ -39328,8 +39325,7 @@
             "CONTROLLER",
             "APPLICATION_MODE",
             "HAS_CLIENTS",
-            "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
-            "UPS_PAIRING"
+            "TRAFFIC_FLOWS_ALLOWED_TRAFFIC"
           ],
           "diagram": [
             "05 04 03 02 01"
@@ -39570,8 +39566,7 @@
             "NETWORK_APPLICATION",
             "CONTROLLER",
             "APPLICATION_MODE",
-            "HAS_CLIENTS",
-            "UPS_PAIRING"
+            "HAS_CLIENTS"
           ],
           "diagram": [
             "01 02 03 04 __ 05"
@@ -40664,8 +40659,8 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "HAS_CLIENTS",
             "HAS_TEMPERATURE_SENSOR",
+            "HAS_CLIENTS",
             "AUTOLINK_ELEMENT",
             "ELEMENT_WITH_UPLINK_PRIORITY",
             "ACCESS_POINT_SWITCH",
@@ -41632,8 +41627,7 @@
             "NETWORK_APPLICATION",
             "CONTROLLER",
             "APPLICATION_MODE",
-            "HAS_CLIENTS",
-            "UPS_PAIRING"
+            "HAS_CLIENTS"
           ],
           "diagram": [
             "01 02 03 04 __ 05"
@@ -41858,8 +41852,7 @@
             "APPLICATION_MODE",
             "HAS_CLIENTS",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
-            "SD_WAN_HUB",
-            "UPS_PAIRING"
+            "SD_WAN_HUB"
           ],
           "diagram": [
             "01 03 05 07 09 __ 11 13",
@@ -42075,8 +42068,7 @@
             "APPLICATION_MODE",
             "HAS_CLIENTS",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
-            "SD_WAN_HUB",
-            "UPS_PAIRING"
+            "SD_WAN_HUB"
           ],
           "diagram": [
             "01 03 05 07 __ __ 10",
@@ -42362,8 +42354,7 @@
             "APPLICATION_MODE",
             "HAS_CLIENTS",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
-            "SD_WAN_HUB",
-            "UPS_PAIRING"
+            "SD_WAN_HUB"
           ],
           "diagram": [
             "01 03 05 07 __ __ 10",
@@ -42667,8 +42658,7 @@
             "APPLICATION_MODE",
             "HAS_CLIENTS",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
-            "SD_WAN_HUB",
-            "UPS_PAIRING"
+            "SD_WAN_HUB"
           ],
           "diagram": [
             "01 03 05 07 __ __ 10",
@@ -42963,8 +42953,7 @@
             "PROTECT_APPLICATION",
             "CONTROLLER",
             "APPLICATION_MODE",
-            "HAS_CLIENTS",
-            "UPS_PAIRING"
+            "HAS_CLIENTS"
           ],
           "diagram": [
             "01 02 03 04 __ 05"
@@ -43189,8 +43178,7 @@
             "MBB_ESIM",
             "HAS_CLIENTS",
             "QCA_WIFI_FULL_APPLY_PLATFORM",
-            "MOBILE_BROADBAND_GATEWAY",
-            "UPS_PAIRING"
+            "MOBILE_BROADBAND_GATEWAY"
           ],
           "diagram": [
             "01 02 03 04 05"
@@ -43460,8 +43448,7 @@
             "CONTROLLER",
             "APPLICATION_MODE",
             "HAS_CLIENTS",
-            "QCA_WIFI_FULL_APPLY_PLATFORM",
-            "UPS_PAIRING"
+            "QCA_WIFI_FULL_APPLY_PLATFORM"
           ],
           "diagram": [
             "01 02 03 04 05"
@@ -43745,8 +43732,7 @@
             "APPLICATION_MODE",
             "HAS_CLIENTS",
             "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
-            "SD_WAN_HUB",
-            "UPS_PAIRING"
+            "SD_WAN_HUB"
           ],
           "diagram": [
             "01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17",
@@ -72196,8 +72182,7 @@
             "HAS_CLIENTS",
             "MESH",
             "UX_SERIES",
-            "QCA_WIFI_FULL_APPLY_PLATFORM",
-            "UPS_PAIRING"
+            "QCA_WIFI_FULL_APPLY_PLATFORM"
           ],
           "diagram": [
             "01 02"
@@ -72427,8 +72412,7 @@
             "HAS_CLIENTS",
             "MESH",
             "UX_SERIES",
-            "QCA_WIFI_FULL_APPLY_PLATFORM",
-            "UPS_PAIRING"
+            "QCA_WIFI_FULL_APPLY_PLATFORM"
           ],
           "diagram": [
             "01 02"
@@ -72932,7 +72916,8 @@
             "SWITCH",
             "APPLICATION_GATEWAY",
             "HAS_CLIENTS",
-            "TRAFFIC_FLOWS_ALLOWED_TRAFFIC"
+            "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
+            "SD_WAN_HUB"
           ],
           "diagram": [
             "01 02 03 04 05 06 07"
@@ -74566,5 +74551,5 @@
       "videos": {}
     }
   ],
-  "version": "03b0fed142f5b011ea618cb60f770c9bdd5d266b"
+  "version": "f03e27790d039efd1d0f9162108805615c54b6bf"
 }
