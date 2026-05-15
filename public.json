@@ -54271,9 +54271,9 @@
       },
       "id": "be1b5d7d-98a2-4c4a-a4ce-4c9df00f49cf",
       "images": {
-        "default": "967b6b4e7f5dc3781624a5f8c91ef52b",
-        "nopadding": "8885b19b980c4336462926702656fb27",
-        "topology": "ab3207d1a49c51fedb74f8dc7f7d0510"
+        "default": "12ba167becdedd1a0ed9f779982e0e17",
+        "nopadding": "804b082a8232298c838e7bb1f0510515",
+        "topology": "dc32f29ed6f518c024a760ef51612fa5"
       },
       "line": {
         "id": "unifi-protect",
@@ -54361,9 +54361,9 @@
       },
       "id": "4a3b2962-d018-43f8-8efa-5851775434a1",
       "images": {
-        "default": "967b6b4e7f5dc3781624a5f8c91ef52b",
-        "nopadding": "8885b19b980c4336462926702656fb27",
-        "topology": "ab3207d1a49c51fedb74f8dc7f7d0510"
+        "default": "12ba167becdedd1a0ed9f779982e0e17",
+        "nopadding": "804b082a8232298c838e7bb1f0510515",
+        "topology": "dc32f29ed6f518c024a760ef51612fa5"
       },
       "line": {
         "id": "unifi-protect",
@@ -75324,5 +75324,5 @@
       "videos": {}
     }
   ],
-  "version": "0736aa6caec0b472f08b459d88c395d535958c31"
+  "version": "eb4a5fb554f0314fcf77137a1875c32f916c7ef1"
 }
