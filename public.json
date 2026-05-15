@@ -48372,6 +48372,266 @@
     },
     {
       "btle": {
+        "factoryDefault": "9b6b3a01-4f4c-4eae-b182-fb4406775bd6",
+        "userConfigured": "96d24685-0423-4480-b096-7e11fcf54294"
+      },
+      "compliance": {
+        "fcc": "SWX-UNVRG2",
+        "ic": "6545A-UNVRG2",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UNVR-G2",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
+      "deviceType": "console",
+      "deviceTypes": [
+        "console"
+      ],
+      "guids": [
+        "910dbd74-1180-47f3-8d66-a044ffb5fdb1",
+        "9b6b3a01-4f4c-4eae-b182-fb4406775bd6",
+        "96d24685-0423-4480-b096-7e11fcf54294"
+      ],
+      "icon": {
+        "id": "57e427b3-352c-47ff-aea6-67fdc8e8e038",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "dc389978-4c49-4e30-ba22-802b3f4844cb",
+      "images": {
+        "default": "6ff0372decf062fb393d4b5ee7d41218",
+        "nopadding": "d4e347ff272321d08ddae57388f5b11c",
+        "rack": "707edf2b701c502ff6a3e48e7c3d2904",
+        "topology": "242228c60a404635fe13e07d70ef613d"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "UNVR Gen 2",
+        "name": "Network Video Recorder Gen 2"
+      },
+      "shortnames": [
+        "UNVR-AI-4",
+        "UNVR-G2",
+        "UNVRAI4"
+      ],
+      "sku": "UNVR-G2",
+      "sysid": "ea68",
+      "sysids": [
+        "ea68"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "standalone",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "96d24685-0423-4480-b096-7e11fcf54294",
+              "default": "9b6b3a01-4f4c-4eae-b182-fb4406775bd6",
+              "features": {
+                "ucore": true
+              }
+            }
+          ],
+          "deviceCapabilities": [
+            "PROTECT_APPLICATION",
+            "STORAGE"
+          ],
+          "model": "UNVREA68",
+          "radios": {},
+          "type": "unvr"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "btle": {
+        "factoryDefault": "cbbb0052-9f13-4774-b226-68d2ca969776",
+        "userConfigured": "3f4accd1-a99b-4a57-b77f-ede7b3e87096"
+      },
+      "compliance": {
+        "fcc": "SWX-UNVRG2P",
+        "ic": "6545A-UNVRG2P",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UNVR-G2-Pro",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
+      "deviceType": "console",
+      "deviceTypes": [
+        "console"
+      ],
+      "guids": [
+        "b3168826-225b-4f4a-b5b3-cc16996e5eec",
+        "cbbb0052-9f13-4774-b226-68d2ca969776",
+        "3f4accd1-a99b-4a57-b77f-ede7b3e87096"
+      ],
+      "icon": {
+        "id": "5fde2b6b-6c31-40ab-9cab-a09bb83d3c06",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "0c9f9d04-9fd0-4062-8758-ef7c74e3d73e",
+      "images": {
+        "default": "91c75370433ba1d4129e45e7b25d3b84",
+        "nopadding": "39bcff25723604d4292b0f0084439672",
+        "rack": "d2169100dc5945770b4c8e178630893e",
+        "topology": "54d53a87cb68d0e020937357b2bcfc14"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "UNVR Gen 2 Pro",
+        "name": "Network Video Recorder Gen 2 Pro"
+      },
+      "shortnames": [
+        "UNVR-AI-8",
+        "UNVR-G2-Pro",
+        "UNVRAI8"
+      ],
+      "sku": "UNVR-G2-Pro",
+      "sysid": "ea69",
+      "sysids": [
+        "ea69"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "standalone",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "3f4accd1-a99b-4a57-b77f-ede7b3e87096",
+              "default": "cbbb0052-9f13-4774-b226-68d2ca969776",
+              "features": {
+                "ucore": true
+              }
+            }
+          ],
+          "deviceCapabilities": [
+            "PROTECT_APPLICATION",
+            "STORAGE"
+          ],
+          "model": "UNVREA69",
+          "radios": {},
+          "type": "unvr"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "btle": {
         "factoryDefault": "d068e53a-bd4d-4339-b474-b2b863bd6a7d",
         "userConfigured": "1a1ac5e5-1188-4a64-b162-9be2da2af869"
       },
@@ -53945,6 +54205,186 @@
         {
           "k1": "ST50H",
           "k3": "USL-Environmental-US"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "sensor",
+      "deviceTypes": [
+        "sensor"
+      ],
+      "guids": [
+        "1b1bfffc-2027-4707-b136-b5ca4eb17e59"
+      ],
+      "icon": {
+        "id": "417a24f4-88e7-4eb8-b460-000e47341b7e",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "be1b5d7d-98a2-4c4a-a4ce-4c9df00f49cf",
+      "images": {
+        "default": "967b6b4e7f5dc3781624a5f8c91ef52b",
+        "nopadding": "8885b19b980c4336462926702656fb27",
+        "topology": "ab3207d1a49c51fedb74f8dc7f7d0510"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "USL FOB",
+        "name": "SuperLink FOB"
+      },
+      "shortnames": [
+        "USL-FOB-EU"
+      ],
+      "sku": "USL-FOB-EU",
+      "sysid": "aea2",
+      "sysids": [
+        "aea2"
+      ],
+      "triplets": [
+        {
+          "k1": "ST50H",
+          "k3": "USL-FOB-EU"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "sensor",
+      "deviceTypes": [
+        "sensor"
+      ],
+      "guids": [
+        "1fbcf8cc-e0b9-46e9-9066-f7757992ed18"
+      ],
+      "icon": {
+        "id": "4862dc39-4fda-46f5-91d2-6604f7877e5d",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "4a3b2962-d018-43f8-8efa-5851775434a1",
+      "images": {
+        "default": "967b6b4e7f5dc3781624a5f8c91ef52b",
+        "nopadding": "8885b19b980c4336462926702656fb27",
+        "topology": "ab3207d1a49c51fedb74f8dc7f7d0510"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "USL FOB",
+        "name": "SuperLink FOB"
+      },
+      "shortnames": [
+        "USL-FOB-US"
+      ],
+      "sku": "USL-FOB-US",
+      "sysid": "aea1",
+      "sysids": [
+        "aea1"
+      ],
+      "triplets": [
+        {
+          "k1": "ST50H",
+          "k3": "USL-FOB-US"
         }
       ],
       "unifi": {
@@ -69933,6 +70373,339 @@
       "videos": {}
     },
     {
+      "btle": {
+        "factoryDefault": "00d64152-98db-4eb9-80cf-19c1544ad12c",
+        "userConfigured": "78c86cb2-e1d5-4fe9-baa8-f9164f6638d9"
+      },
+      "deviceType": "camera",
+      "deviceTypes": [
+        "camera"
+      ],
+      "guids": [
+        "2314ad36-0a68-4ec7-900c-4f31cdafc603",
+        "00d64152-98db-4eb9-80cf-19c1544ad12c",
+        "78c86cb2-e1d5-4fe9-baa8-f9164f6638d9"
+      ],
+      "icon": {
+        "id": "59fe69c6-a55b-47f7-8a3f-e8d7c59c3d08",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "5006fb4f-78b4-4c63-932c-55ba441443a0",
+      "images": {
+        "default": "0bcbe8f3a114774ac23eee998203185c",
+        "nopadding": "e26766f89d7586ce96e280a2c56df97b",
+        "topology": "f06c2ecf9a7f572432f614b871492c19"
+      },
+      "jrf": [],
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "G6 Edge Bullet",
+        "name": "Camera G6 Edge Bullet"
+      },
+      "shortnames": [
+        "UVC-G6-Edge-Bullet",
+        "UVC-G6-Edge-Bullet-W",
+        "G6EDGEBULLET"
+      ],
+      "sku": "UVC-G6-Edge-Bullet",
+      "sysid": "b014",
+      "sysids": [
+        "b014"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "78c86cb2-e1d5-4fe9-baa8-f9164f6638d9",
+              "default": "00d64152-98db-4eb9-80cf-19c1544ad12c",
+              "features": {
+                "ucore": true
+              }
+            }
+          ],
+          "deviceCapabilities": [
+            "PROTECT_APPLICATION"
+          ],
+          "model": "G6EDGEBULLET",
+          "radios": {},
+          "type": "unvr"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "btle": {
+        "factoryDefault": "06c6d797-ba6c-43fa-a3c3-066ebdfc408e",
+        "userConfigured": "7a9ff0bb-fe27-49f6-97a1-78f6434655ae"
+      },
+      "deviceType": "camera",
+      "deviceTypes": [
+        "camera"
+      ],
+      "guids": [
+        "ec430e5c-ca57-4157-b186-f7db4d189822",
+        "06c6d797-ba6c-43fa-a3c3-066ebdfc408e",
+        "7a9ff0bb-fe27-49f6-97a1-78f6434655ae"
+      ],
+      "icon": {
+        "id": "035fd517-32ba-407a-81cf-443f1a2d3bf7",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "3cabd907-3329-477b-900a-53c6e6c6f60a",
+      "images": {
+        "default": "f28c098a6e7ef0e3bc84757ae9b536cd",
+        "nopadding": "8fa18ba336758f80143606ba28eea45f",
+        "topology": "85299e3fbbfb34bd1b51990164c0a8eb"
+      },
+      "jrf": [],
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "G6 Edge Dome",
+        "name": "Camera G6 Edge Dome"
+      },
+      "shortnames": [
+        "UVC-G6-Edge-Dome",
+        "UVC-G6-Edge-Dome-W",
+        "G6EDGEDOME"
+      ],
+      "sku": "UVC-G6-Edge-Dome",
+      "sysid": "b010",
+      "sysids": [
+        "b010"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "7a9ff0bb-fe27-49f6-97a1-78f6434655ae",
+              "default": "06c6d797-ba6c-43fa-a3c3-066ebdfc408e",
+              "features": {
+                "ucore": true
+              }
+            }
+          ],
+          "deviceCapabilities": [
+            "PROTECT_APPLICATION"
+          ],
+          "model": "G6EDGEDOME",
+          "radios": {},
+          "type": "unvr"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "btle": {
+        "factoryDefault": "0623905d-5428-46e4-b237-cb6926cc4592",
+        "userConfigured": "799db750-3ae5-45b4-a635-6c948c854fb6"
+      },
+      "deviceType": "camera",
+      "deviceTypes": [
+        "camera"
+      ],
+      "guids": [
+        "7b012c86-1d4c-4fdb-ab8f-cd1977398924",
+        "0623905d-5428-46e4-b237-cb6926cc4592",
+        "799db750-3ae5-45b4-a635-6c948c854fb6"
+      ],
+      "icon": {
+        "id": "b4583278-dc2a-4241-962b-672a36924693",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "483295b7-2dbd-4cb5-a000-c8e5e5a50763",
+      "images": {
+        "default": "a3cb80fef9d664c61e83997bff114feb",
+        "nopadding": "7b6838a4b8a42e5f8200838b1fc25f1a",
+        "topology": "e51a2403ef4ef3bd975d0120775e3137"
+      },
+      "jrf": [],
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "G6 Edge Turret",
+        "name": "Camera G6 Edge Turret"
+      },
+      "shortnames": [
+        "UVC-G6-Edge-Turret",
+        "UVC-G6-Edge-Turret-W",
+        "G6EDGETURRET"
+      ],
+      "sku": "UVC-G6-Edge-Turret",
+      "sysid": "b012",
+      "sysids": [
+        "b012"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "799db750-3ae5-45b4-a635-6c948c854fb6",
+              "default": "0623905d-5428-46e4-b237-cb6926cc4592",
+              "features": {
+                "ucore": true
+              }
+            }
+          ],
+          "deviceCapabilities": [
+            "PROTECT_APPLICATION"
+          ],
+          "model": "G6EDGETURRET",
+          "radios": {},
+          "type": "unvr"
+        }
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "fcc": "SWX-UVCG6PE",
         "ic": "6545A-UVCG6E",
@@ -74551,5 +75324,5 @@
       "videos": {}
     }
   ],
-  "version": "f03e27790d039efd1d0f9162108805615c54b6bf"
+  "version": "0736aa6caec0b472f08b459d88c395d535958c31"
 }
