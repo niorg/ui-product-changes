@@ -8668,6 +8668,7 @@
       "images": {
         "default": "7c44792cb23391c1725e2c6e0550854d",
         "nopadding": "43d3307a30b4449b4fb200845e53907d",
+        "rack": "1aab8882b71a7efb043cb8c5de42d699",
         "topology": "a07bf97fd78329d0762c8d1ed290604b"
       },
       "line": {
@@ -8796,6 +8797,7 @@
       "images": {
         "default": "fa70d9534851a50f8c8a253a936e9064",
         "nopadding": "c28577b6a7d88ba2e5446d50d0e7f35f",
+        "rack": "5d67c275ebe00d01ed0100d152d61c1e",
         "topology": "bf363b2418a37e150617a0d2c6100e5f"
       },
       "line": {
@@ -8909,6 +8911,7 @@
       "images": {
         "default": "fba3fb47a9497d0279fdaf5e8964bd20",
         "nopadding": "b542d4327e3154adc1145d5b85baba25",
+        "rack": "82d1d1749256b167b165e5c7b3c72939",
         "topology": "be0552d3326e6f73131fde0223438759"
       },
       "line": {
@@ -24704,6 +24707,106 @@
       "videos": {}
     },
     {
+      "deviceType": "antenna",
+      "deviceTypes": [
+        "antenna"
+      ],
+      "guids": [
+        "363e840f-9faf-46da-9e37-985a0671ba45"
+      ],
+      "icon": {
+        "id": "8fef53fb-6483-4332-bcb0-12ea80056ef4",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "64935368-65ae-4d35-b0a3-038b7919b030",
+      "images": {
+        "default": "e8b7f8aa05139e032536d6b6001e5ae8",
+        "nopadding": "7283d0b469ca78fc7584da8e3c6caca8",
+        "topology": "9adb6b0d42b0e0fdfdf30e76c868a929"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "U5G Backup",
+        "name": "U5G Backup"
+      },
+      "shortnames": [
+        "U5G-Antenna-EU",
+        "U5G-Backup-EU",
+        "U5G-EU"
+      ],
+      "sku": "U5G-EU",
+      "sysid": "e634",
+      "sysids": [
+        "e634"
+      ],
+      "triplets": [],
+      "unifi": {
+        "network": {
+          "chipset": "u",
+          "deviceCapabilities": [
+            "MBB_ESIM",
+            "INTERNET_PROVIDER"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "minimumFirmwareRequired": "0.0.8",
+          "model": "UMBBE634",
+          "numberOfPorts": 1,
+          "radios": {},
+          "systemIdHexadecimal": "e634",
+          "type": "umbb"
+        }
+      },
+      "videos": {}
+    },
+    {
       "btle": {
         "factoryDefault": "ea100aa3-d9d6-40d9-825b-79c481af6e56",
         "userConfigured": "ca201216-99e5-45c6-bbc3-c9b719741acc"
@@ -24962,6 +25065,108 @@
           "numberOfPorts": 1,
           "radios": {},
           "systemIdHexadecimal": "e631",
+          "type": "umbb"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "antenna",
+      "deviceTypes": [
+        "antenna"
+      ],
+      "guids": [
+        "ed9b4247-d7e9-437f-a83e-eafbf4b83a90"
+      ],
+      "icon": {
+        "id": "9b337794-165a-43ac-ae9c-61db8fcccdac",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "e6e7188e-9a52-493e-b1c7-e6482074ccbb",
+      "images": {
+        "default": "e8b7f8aa05139e032536d6b6001e5ae8",
+        "nopadding": "7283d0b469ca78fc7584da8e3c6caca8",
+        "topology": "9adb6b0d42b0e0fdfdf30e76c868a929"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "U5G Backup",
+        "name": "U5G Backup"
+      },
+      "shortnames": [
+        "U5G-Antenna-US",
+        "U5G-Backup-US",
+        "U5G-US"
+      ],
+      "sku": "U5G-US",
+      "sysid": "e633",
+      "sysids": [
+        "e633"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "u",
+          "deviceCapabilities": [
+            "ULTE",
+            "MBB_ESIM",
+            "INTERNET_PROVIDER"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "minimumFirmwareRequired": "0.0.8",
+          "model": "UMBBE633",
+          "numberOfPorts": 1,
+          "radios": {},
+          "systemIdHexadecimal": "e633",
           "type": "umbb"
         }
       },
@@ -40659,12 +40864,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "HAS_TEMPERATURE_SENSOR",
-            "HAS_CLIENTS",
-            "AUTOLINK_ELEMENT",
-            "ELEMENT_WITH_UPLINK_PRIORITY",
+            "BRIDGE",
             "ACCESS_POINT_SWITCH",
-            "BRIDGE"
+            "ELEMENT_WITH_UPLINK_PRIORITY",
+            "AUTOLINK_ELEMENT",
+            "HAS_CLIENTS",
+            "HAS_TEMPERATURE_SENSOR"
           ],
           "diagram": [
             "01"
@@ -50595,8 +50800,8 @@
             ]
           },
           "outletsDiagram": [
-            "11 __ 01-02-03-04 __ 12",
-            "__ __ 05-06-07-08 __ 13"
+            "01-02-03-04 __ 12 13",
+            "05-06-07-08 __ __ 11"
           ],
           "ports": {
             "standard": 1
@@ -75324,5 +75529,5 @@
       "videos": {}
     }
   ],
-  "version": "eb4a5fb554f0314fcf77137a1875c32f916c7ef1"
+  "version": "836f126117c3bf934ad33fbce21eeb0343bcb3a0"
 }
