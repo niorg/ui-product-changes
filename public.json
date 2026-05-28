@@ -9395,6 +9395,7 @@
         "ic": "6545A-ENVR",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "ENVR",
+        "ncc": "CCAH25LPB300T4",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
@@ -9516,6 +9517,22 @@
       "btle": {
         "factoryDefault": "ce733c87-f530-4a1b-9fff-ff9499af0e44",
         "userConfigured": "a75c7478-c204-4613-9936-1c3fd4c05f92"
+      },
+      "compliance": {
+        "fcc": "SWX-ENVRC",
+        "ic": "6545A-ENVRC",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "ENVR-Core",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
       },
       "deviceType": "console",
       "deviceTypes": [
@@ -28498,6 +28515,32 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "01786-26-08356",
+        "fcc": "SWX-U7MESH",
+        "ic": "6545A-U7MESH",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jrf": [
+          "020-260157"
+        ],
+        "modelName": "U7-Mesh",
+        "ncc": "CCAH26LP3560T4",
+        "rcm": true,
+        "rfCmFcc": 25,
+        "rfCmIc": 25,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        },
+        "wifi": "5e"
+      },
       "deviceType": "access-point",
       "deviceTypes": [
         "access-point"
@@ -40864,12 +40907,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "BRIDGE",
             "ACCESS_POINT_SWITCH",
             "ELEMENT_WITH_UPLINK_PRIORITY",
-            "AUTOLINK_ELEMENT",
+            "HAS_TEMPERATURE_SENSOR",
+            "BRIDGE",
             "HAS_CLIENTS",
-            "HAS_TEMPERATURE_SENSOR"
+            "AUTOLINK_ELEMENT"
           ],
           "diagram": [
             "01"
@@ -49658,7 +49701,7 @@
         "UP-AlarmHub",
         "UP-AlarmHub-Kit"
       ],
-      "sku": "UP-AlarmHub-Kit",
+      "sku": "UP-AlarmHub",
       "sysid": "aea5",
       "sysids": [
         "aea5"
@@ -75529,5 +75572,5 @@
       "videos": {}
     }
   ],
-  "version": "88ec35575e56fa7365938082fe163a81e590d4bd"
+  "version": "c940bb6a9ea6e61d9c7971e71f8442160657695f"
 }
