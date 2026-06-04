@@ -38712,9 +38712,9 @@
       },
       "id": "35bc2f41-37c2-2b94-9cc3-58ec72505f80",
       "images": {
-        "default": "74c3ff6c2fdaed88703ad9fe6b7c25b4",
-        "nopadding": "614a7e22f87f5b29c8b78555deb30bfe",
-        "topology": "11964e78a4fc184502eb1c2ef3ae4824"
+        "default": "c888dbc6140c5723522611165d60ffa3",
+        "nopadding": "928321f22106ec6a71157f611a0a9c64",
+        "topology": "c8cb068887b5394ce7d822b378814316"
       },
       "line": {
         "id": "unifi-connect",
@@ -40907,12 +40907,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "ACCESS_POINT_SWITCH",
-            "ELEMENT_WITH_UPLINK_PRIORITY",
-            "HAS_TEMPERATURE_SENSOR",
             "BRIDGE",
+            "AUTOLINK_ELEMENT",
             "HAS_CLIENTS",
-            "AUTOLINK_ELEMENT"
+            "ELEMENT_WITH_UPLINK_PRIORITY",
+            "ACCESS_POINT_SWITCH",
+            "HAS_TEMPERATURE_SENSOR"
           ],
           "diagram": [
             "01"
@@ -49701,7 +49701,7 @@
         "UP-AlarmHub",
         "UP-AlarmHub-Kit"
       ],
-      "sku": "UP-AlarmHub",
+      "sku": "UP-AlarmHub-Kit",
       "sysid": "aea5",
       "sysids": [
         "aea5"
@@ -75572,5 +75572,5 @@
       "videos": {}
     }
   ],
-  "version": "6805505c42615b277cb64b007c50612f243d1381"
+  "version": "b9348ea0bd9d0f511bcf1762a4ac0dabae67ee9d"
 }
