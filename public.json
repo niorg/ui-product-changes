@@ -49608,6 +49608,94 @@
       "videos": {}
     },
     {
+      "deviceType": "sensor",
+      "deviceTypes": [
+        "sensor"
+      ],
+      "guids": [
+        "e1f8ba7e-08aa-4f71-b9bf-cc9bf5e56e8b"
+      ],
+      "icon": {
+        "id": "fcb0491d-5f45-4d10-9780-4d6a4c17ab2c",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "f9c0fe01-4180-4c64-9826-a83985a829b6",
+      "images": {
+        "default": "fcb28bb82c3b24cfcccf82bb052923bb",
+        "nopadding": "ca1d86578ead62fae92931ab6335d494",
+        "topology": "02e102e001ad48a5e1ae8f1284435406"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "minAdoptVersion": {
+        "protect": "7.0.104"
+      },
+      "product": {
+        "abbrev": "Air Quality",
+        "name": "Protect Air Quality"
+      },
+      "shortnames": [
+        "UP-AirQuality"
+      ],
+      "sku": "UP-AirQuality",
+      "sysid": "aea6",
+      "sysids": [
+        "aea6"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "fcc": "SWX-UXGM",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
@@ -55591,6 +55679,186 @@
         {
           "k1": "ST50H",
           "k3": "USL-Siren-US"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "sensor",
+      "deviceTypes": [
+        "sensor"
+      ],
+      "guids": [
+        "0f5055dd-f478-4f0a-90d5-ee91486e4595"
+      ],
+      "icon": {
+        "id": "dbfc390d-924b-4222-a89b-7cbc94ebaf40",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "e024c436-24e7-4828-95b5-98cc4f6dc8c6",
+      "images": {
+        "default": "fc75ec1271abd1d2b2dbc6bdfd2d5207",
+        "nopadding": "b294139462f8c7cd3074ddeecec71a32",
+        "topology": "2bd6d2a1c178b3ae2b5903f7db7d499c"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "USL Smoke",
+        "name": "SuperLink Smoke Sensor"
+      },
+      "shortnames": [
+        "USL-Smoke-EU"
+      ],
+      "sku": "USL-Smoke-EU",
+      "sysid": "ae97",
+      "sysids": [
+        "ae97"
+      ],
+      "triplets": [
+        {
+          "k1": "ST50H",
+          "k3": "USL-Smoke-EU"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "sensor",
+      "deviceTypes": [
+        "sensor"
+      ],
+      "guids": [
+        "d1ecaea9-0ea5-4c77-8e87-6a98b7537728"
+      ],
+      "icon": {
+        "id": "3ba8b255-bcb9-4f3d-8ac0-def825eef56d",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "29257ced-051f-410d-9518-e075697f057d",
+      "images": {
+        "default": "fc75ec1271abd1d2b2dbc6bdfd2d5207",
+        "nopadding": "b294139462f8c7cd3074ddeecec71a32",
+        "topology": "2bd6d2a1c178b3ae2b5903f7db7d499c"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "USL Smoke",
+        "name": "SuperLink Smoke Sensor"
+      },
+      "shortnames": [
+        "USL-Smoke-US"
+      ],
+      "sku": "USL-Smoke-US",
+      "sysid": "ae96",
+      "sysids": [
+        "ae96"
+      ],
+      "triplets": [
+        {
+          "k1": "ST50H",
+          "k3": "USL-Smoke-US"
         }
       ],
       "unifi": {
@@ -75572,5 +75840,5 @@
       "videos": {}
     }
   ],
-  "version": "2cb7c4e55da34d9d3e10f81235b4341fb3ce234c"
+  "version": "4900c9d21498b887744dd50069be37bfd888cb0a"
 }
