@@ -9096,6 +9096,178 @@
     },
     {
       "btle": {
+        "factoryDefault": "f76372d2-3b1c-4a01-8faa-94c57ecdfa77",
+        "userConfigured": "be4be4da-24cd-4d5f-ba65-ef8cbec31d01"
+      },
+      "compliance": {
+        "fcc": "SWX-USLB",
+        "ic": "6545A-EFGC",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "EF-C,core",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
+      "deviceType": "console",
+      "deviceTypes": [
+        "console"
+      ],
+      "guids": [
+        "d43cba3e-b907-4bff-a0a5-8c24276fee24",
+        "f76372d2-3b1c-4a01-8faa-94c57ecdfa77",
+        "be4be4da-24cd-4d5f-ba65-ef8cbec31d01"
+      ],
+      "icon": {
+        "id": "b2e92a52-84a4-4f4f-a1c1-97df8a646d5f",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "49ac41a0-ba78-430b-9e58-4a5bb5ee7345",
+      "images": {
+        "blueprint": "ad143aec711a6b6f971bc6b1772cd47c",
+        "blueprint-dark": "c0c357b40348b955f475f622e25d2e18",
+        "default": "53507e6ea66370c465aab0e0e5c63820",
+        "nopadding": "6b4a8ba7ab3a7288c113a56f7693f19e",
+        "rack": "73d8ff2ff30c7a6dde0d0d935d0a6c70",
+        "topology": "3b68534ed1247cc17e60ca6c9fb42efe"
+      },
+      "isARSupported": true,
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "EF Core",
+        "name": "Enterprise Firewall Core"
+      },
+      "shortnames": [
+        "EFG-Core",
+        "EFGCORE",
+        "EF-Core",
+        "EFCORE"
+      ],
+      "sku": "EF-Core",
+      "sysid": "ea4b",
+      "sysids": [
+        "ea4b"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "standalone",
+        "network": {
+          "chipset": "j",
+          "deviceCapabilities": [
+            "GATEWAY",
+            "NETWORK_APPLICATION",
+            "PROTECT_APPLICATION",
+            "SWITCH",
+            "CONTROLLER",
+            "APPLICATION_MODE",
+            "HAS_CLIENTS",
+            "TRAFFIC_FLOWS_ALLOWED_TRAFFIC",
+            "SD_WAN_HUB",
+            "ENTERPRISE_GATEWAY"
+          ],
+          "diagram": [
+            "01 03 05 07 09 11 13 __ 15 23 __ 31",
+            "02 04 06 08 10 12 14 __ 19 27 __ __"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 100000,
+          "formFactor": [
+            "RACK_1U"
+          ],
+          "ipsLimits": {
+            "etOptionsLimits": {
+              "full": {
+                "hard": 64,
+                "soft": 20
+              },
+              "open": {
+                "hard": 64,
+                "soft": 20
+              },
+              "performance": {
+                "hard": 64,
+                "soft": 20
+              }
+            }
+          },
+          "mdnsLimits": {
+            "hard": 60,
+            "soft": 25
+          },
+          "minimumFirmwareRequired": "0.9.0",
+          "model": "UDMEA4B",
+          "numberOfPorts": 31,
+          "radios": {},
+          "shadowMode": {
+            "interconnectPortInterface": "eth1",
+            "interconnectPortNumber": 2
+          },
+          "subtypes": [
+            "ugw",
+            "usw"
+          ],
+          "systemIdHexadecimal": "ea4b",
+          "type": "udm"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "btle": {
         "factoryDefault": "7538c680-8441-47b4-ab44-2eb926fe11bd",
         "userConfigured": "158a3b2d-0bab-45c0-97f1-1625955f2031"
       },
@@ -40907,12 +41079,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "BRIDGE",
-            "AUTOLINK_ELEMENT",
             "HAS_CLIENTS",
-            "ELEMENT_WITH_UPLINK_PRIORITY",
+            "AUTOLINK_ELEMENT",
             "ACCESS_POINT_SWITCH",
-            "HAS_TEMPERATURE_SENSOR"
+            "BRIDGE",
+            "HAS_TEMPERATURE_SENSOR",
+            "ELEMENT_WITH_UPLINK_PRIORITY"
           ],
           "diagram": [
             "01"
@@ -59652,6 +59824,14 @@
           "model": "USWED36",
           "numberOfPorts": 10,
           "ports": {
+            "meta": {
+              "09": {
+                "combo": [
+                  "09",
+                  "10"
+                ]
+              }
+            },
             "standard": 10
           },
           "radios": {},
@@ -75840,5 +76020,5 @@
       "videos": {}
     }
   ],
-  "version": "7602a053802fd0bba7e7e717a0fcbcdd1a51a494"
+  "version": "e28638428fbe71f86b5b8f97f268ade97ff3638a"
 }
