@@ -9103,7 +9103,7 @@
         "fcc": "SWX-USLB",
         "ic": "6545A-EFGC",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
-        "modelName": "EF-C,core",
+        "modelName": "EF-Core",
         "rcm": true,
         "text": {
           "CA": [
@@ -9560,6 +9560,114 @@
         "mobile-setup-wizard-plugin": "3c495cd05bb66320539600e167d81d1f",
         "mobile-setup-wizard-testing-connection": "5cfcd8f6d952c7d17d264e4fcc6eab10"
       }
+    },
+    {
+      "btle": {
+        "factoryDefault": "cc478cb2-3e9c-4b04-bf9b-998ac32e89ad",
+        "userConfigured": "82b9ac8b-973f-4fcb-a7d4-34ec3842969b"
+      },
+      "deviceType": "nas",
+      "deviceTypes": [
+        "nas"
+      ],
+      "guids": [
+        "884bccb6-0533-4840-9c06-81e0d16af2a1",
+        "cc478cb2-3e9c-4b04-bf9b-998ac32e89ad",
+        "82b9ac8b-973f-4fcb-a7d4-34ec3842969b"
+      ],
+      "icon": {
+        "id": "6141f2b3-aa79-4bcc-9f79-821232b6b4c0",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "84a8ef25-a11f-46b2-a9fb-a8b97d061808",
+      "images": {
+        "default": "9e99c82010929d993b870cde5683ad8e",
+        "nopadding": "02246dbee4a24557dce8e6220fdd8d9e",
+        "topology": "da479f23803fc59f72a5109473fc739f"
+      },
+      "line": {
+        "id": "unifi-drive",
+        "name": "UniFi Drive"
+      },
+      "product": {
+        "abbrev": "ENAS",
+        "name": "Enterprise Network Attached Storage"
+      },
+      "shortnames": [
+        "ENAS"
+      ],
+      "sku": "ENAS",
+      "sysid": "ea64",
+      "sysids": [
+        "ea64"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "standalone",
+        "network": {
+          "bleServices": [
+            {
+              "configured": "82b9ac8b-973f-4fcb-a7d4-34ec3842969b",
+              "default": "cc478cb2-3e9c-4b04-bf9b-998ac32e89ad",
+              "features": {
+                "ucore": true
+              }
+            }
+          ],
+          "deviceCapabilities": [
+            "STORAGE"
+          ],
+          "model": "UNASEA64",
+          "radios": {},
+          "type": "unas"
+        }
+      },
+      "videos": {}
     },
     {
       "compliance": {
@@ -41080,11 +41188,11 @@
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
             "HAS_CLIENTS",
-            "AUTOLINK_ELEMENT",
             "ACCESS_POINT_SWITCH",
-            "BRIDGE",
+            "ELEMENT_WITH_UPLINK_PRIORITY",
             "HAS_TEMPERATURE_SENSOR",
-            "ELEMENT_WITH_UPLINK_PRIORITY"
+            "AUTOLINK_ELEMENT",
+            "BRIDGE"
           ],
           "diagram": [
             "01"
@@ -42241,7 +42349,8 @@
         "name": "Dream Machine Beast"
       },
       "shortnames": [
-        "UDM-Beast"
+        "UDM-Beast",
+        "UDMEA4C"
       ],
       "sku": "UDM-Beast",
       "sysid": "ea4c",
@@ -49780,6 +49889,94 @@
       "videos": {}
     },
     {
+      "deviceType": "audio",
+      "deviceTypes": [
+        "audio"
+      ],
+      "guids": [
+        "3e890b51-a6e5-4708-aee7-090400c828c0"
+      ],
+      "icon": {
+        "id": "30dd678e-f064-4876-a19c-275dbbe94a69",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "67e38e75-9ed7-4d0e-9b52-30b51efc83db",
+      "images": {
+        "default": "a3f734c9936fecb1fbf158d69722a66c",
+        "nopadding": "0f7662d4773ae345cac1b3e6632d0733",
+        "topology": "c310d08129f2912ec8ca1b6b3018c2ed"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "minAdoptVersion": {
+        "protect": "7.0.104"
+      },
+      "product": {
+        "abbrev": "AI Speaker",
+        "name": "Protect AI Speaker"
+      },
+      "shortnames": [
+        "UP-AI-Speaker"
+      ],
+      "sku": "UP-AI-Speaker",
+      "sysid": "da32",
+      "sysids": [
+        "da32"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
       "deviceType": "sensor",
       "deviceTypes": [
         "sensor"
@@ -51011,10 +51208,10 @@
       },
       "id": "b5c0849b-0157-43db-9fc9-625c4485f81d",
       "images": {
-        "default": "bb1dffe175173745f3b07fa8f3d730f3",
-        "nopadding": "4c551c43f0f6f887ac4e4224ef44a447",
-        "rack": "dd90fdaa9b6e84518c26ed61d26ad562",
-        "topology": "574ca25b340736b3d5e428cf3a688249"
+        "default": "a0e82e4b5d82c007b4d1ca30253c3bba",
+        "nopadding": "08d3a7f83fdf1381153cf1394caf60fa",
+        "rack": "8bf7a43860fbaca823b7d3aaa281c526",
+        "topology": "abb75346a53fd8085e8f91f9c854f6ab"
       },
       "line": {
         "id": "unifi-network",
@@ -51177,10 +51374,10 @@
       },
       "id": "8c892836-041f-42b6-ad12-65ad2ebfc187",
       "images": {
-        "default": "a7277782214aafecc3bcc70f3a59fd0e",
-        "nopadding": "ea65a76fc8fe14acd912835d3cf8e6ce",
-        "rack": "3562fa7604d24b28ddb9094804433390",
-        "topology": "64ff72640423e389006d4b1d8b856be7"
+        "default": "a0e82e4b5d82c007b4d1ca30253c3bba",
+        "nopadding": "08d3a7f83fdf1381153cf1394caf60fa",
+        "rack": "8bf7a43860fbaca823b7d3aaa281c526",
+        "topology": "abb75346a53fd8085e8f91f9c854f6ab"
       },
       "line": {
         "id": "unifi-network",
@@ -54901,6 +55098,192 @@
       "videos": {}
     },
     {
+      "deviceType": "gateway",
+      "deviceTypes": [
+        "gateway"
+      ],
+      "guids": [
+        "1196d569-698b-46c0-9e73-04aa656f75e4"
+      ],
+      "icon": {
+        "id": "4642c813-d89a-4edd-ab0b-c81feb060250",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "4b5f5711-266b-4d0b-b279-410d043f16f8",
+      "images": {
+        "default": "2aca7555bec7a25ce9613aff8f4292e9",
+        "nopadding": "6f8d54049a6c825a997dfc790ef929e9",
+        "topology": "e3de39383af95a97156e396ea8d92987"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "minAdoptVersion": {
+        "protect": "6.2.88"
+      },
+      "product": {
+        "abbrev": "SuperLink G2 Gateway HA",
+        "name": "SuperLink G2 Gateway HA"
+      },
+      "shortnames": [
+        "USL-G2-Gateway-HA-EU"
+      ],
+      "sku": "USL-G2-Gateway-HA-EU",
+      "sysid": "ae9e",
+      "sysids": [
+        "ae9e"
+      ],
+      "triplets": [
+        {
+          "k1": "SAV530Q",
+          "k3": "USL-G2-Gateway-HA-EU"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "gateway",
+      "deviceTypes": [
+        "gateway"
+      ],
+      "guids": [
+        "dc502b49-bfef-43d5-8970-b4246dd97366"
+      ],
+      "icon": {
+        "id": "9a0440b7-6bcb-49bd-95a2-357355673250",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "5adb434c-e098-45b5-9fee-79af0cd639fa",
+      "images": {
+        "default": "2aca7555bec7a25ce9613aff8f4292e9",
+        "nopadding": "6f8d54049a6c825a997dfc790ef929e9",
+        "topology": "e3de39383af95a97156e396ea8d92987"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "minAdoptVersion": {
+        "protect": "6.2.88"
+      },
+      "product": {
+        "abbrev": "SuperLink G2 Gateway HA",
+        "name": "SuperLink G2 Gateway HA"
+      },
+      "shortnames": [
+        "USL-G2-Gateway-HA-US"
+      ],
+      "sku": "USL-G2-Gateway-HA-US",
+      "sysid": "ae9d",
+      "sysids": [
+        "ae9d"
+      ],
+      "triplets": [
+        {
+          "k1": "SAV530Q",
+          "k3": "USL-G2-Gateway-HA-US"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "fcc": "SWX-UPSL",
         "ic": "6545A-UPSL",
@@ -57422,6 +57805,267 @@
           "systemIdHexadecimal": "ed12",
           "type": "usw"
         }
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "power-supply",
+      "deviceTypes": [
+        "power-supply"
+      ],
+      "guids": [
+        "c5c598ee-3d14-4b54-9e40-6431c74d0aba"
+      ],
+      "icon": {
+        "id": "3ec7f3dd-f604-42f2-8cd6-a532706eb52f",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "07702a76-b38c-4d57-89f1-0d1ddccdd9c8",
+      "images": {
+        "default": "86e9816fc6acb8e0a3128c7c566abefc",
+        "nopadding": "78c45936b4c178a82c4045ea954a714e",
+        "topology": "6baee8fe14be795c3b72682df67ec305"
+      },
+      "isARSupported": true,
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USP PDU Pro",
+        "name": "Power Distribution Pro"
+      },
+      "shortnames": [
+        "USP-PDU-Pro-AU",
+        "USPPDUPAU"
+      ],
+      "sku": "USP-PDU-Pro-AU",
+      "sysid": "ed47",
+      "sysids": [
+        "ed47"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "power-supply",
+      "deviceTypes": [
+        "power-supply"
+      ],
+      "guids": [
+        "8a544e56-ab0e-4a37-a7c1-d9dcbd819c0d"
+      ],
+      "icon": {
+        "id": "a7a83db7-c4c3-44c2-a2f0-002579606526",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "8b97efdb-b74a-45b3-b090-27e83c4b8bbb",
+      "images": {
+        "default": "86e9816fc6acb8e0a3128c7c566abefc",
+        "nopadding": "78c45936b4c178a82c4045ea954a714e",
+        "topology": "6baee8fe14be795c3b72682df67ec305"
+      },
+      "isARSupported": true,
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USP PDU Pro",
+        "name": "Power Distribution Pro"
+      },
+      "shortnames": [
+        "USP-PDU-Pro-EU",
+        "USPPDUPEU"
+      ],
+      "sku": "USP-PDU-Pro-EU",
+      "sysid": "ed18",
+      "sysids": [
+        "ed18"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "power-supply",
+      "deviceTypes": [
+        "power-supply"
+      ],
+      "guids": [
+        "87e04ab2-8128-4c01-9319-59d65eba0341"
+      ],
+      "icon": {
+        "id": "a3aba74e-38f0-46cc-8038-c0c1e745b599",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "6abb33dc-4d7b-4777-8659-7ad24c99e5be",
+      "images": {
+        "default": "86e9816fc6acb8e0a3128c7c566abefc",
+        "nopadding": "78c45936b4c178a82c4045ea954a714e",
+        "topology": "6baee8fe14be795c3b72682df67ec305"
+      },
+      "isARSupported": true,
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USP PDU Pro",
+        "name": "Power Distribution Pro"
+      },
+      "shortnames": [
+        "USP-PDU-Pro-UK",
+        "USPPDUPUK"
+      ],
+      "sku": "USP-PDU-Pro-UK",
+      "sysid": "ed46",
+      "sysids": [
+        "ed46"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
       },
       "videos": {}
     },
@@ -71606,6 +72250,185 @@
         "camera"
       ],
       "guids": [
+        "1416dca9-6748-404f-b0a6-b73eca087138"
+      ],
+      "icon": {
+        "id": "52ac49ff-2726-45a7-9eba-e1c7d040da82",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "3b2fbba8-a550-4749-bbcb-f800f9b950d5",
+      "images": {
+        "default": "060b8825e074bcdfd406e623feaed0ab",
+        "nopadding": "75d63fb8a1ae0944f89c7bbcc15d16b0",
+        "topology": "bb46732ef35e4a78d155a3d1441dec6f"
+      },
+      "jrf": [],
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "minAdoptVersion": {
+        "protect": "7.0.104"
+      },
+      "product": {
+        "abbrev": "G6 Mini Dome",
+        "name": "Camera G6 Mini Dome"
+      },
+      "shortnames": [
+        "UVC-G6-Mini-Dome-B"
+      ],
+      "sku": "UVC-G6-Mini-Dome-B",
+      "sysid": "a06f",
+      "sysids": [
+        "a06f"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "camera",
+      "deviceTypes": [
+        "camera"
+      ],
+      "guids": [
+        "f2aac600-2cee-44be-a353-2036d0640329"
+      ],
+      "icon": {
+        "id": "86a160d5-52c8-47a5-a506-9a8f2c54915a",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "2648305a-7a24-4352-8c51-d22f4b039fa3",
+      "images": {
+        "default": "fb7351147eb8419ee6c3d1a6a943cf0b",
+        "nopadding": "8a2099fbf129b7071b29636a48d61166",
+        "topology": "0fad1aeb5440c34a5f00cbb99ef5ae8f"
+      },
+      "jrf": [],
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "minAdoptVersion": {
+        "protect": "7.0.104"
+      },
+      "product": {
+        "abbrev": "G6 Mini Dome",
+        "name": "Camera G6 Mini Dome"
+      },
+      "shortnames": [
+        "UVC-G6-Mini-Dome",
+        "UVC-G6-Mini-Dome-W"
+      ],
+      "sku": "UVC-G6-Mini-Dome-W",
+      "sysid": "a06e",
+      "sysids": [
+        "a06e"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "camera",
+      "deviceTypes": [
+        "camera"
+      ],
+      "guids": [
         "004430f2-785d-459d-b85f-06075991d34f"
       ],
       "icon": {
@@ -76020,5 +76843,5 @@
       "videos": {}
     }
   ],
-  "version": "e28638428fbe71f86b5b8f97f268ade97ff3638a"
+  "version": "7eab9bd75ad339af7e79d068460c0d1288f00e78"
 }
