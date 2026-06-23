@@ -7154,7 +7154,7 @@
         "name": "UniFi"
       },
       "minAdoptVersion": {
-        "net": "8.4.59"
+        "net": "9.2.87"
       },
       "product": {
         "abbrev": "E7",
@@ -7280,6 +7280,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "minAdoptVersion": {
+        "net": "9.2.87"
+      },
       "product": {
         "abbrev": "E7 Audience",
         "name": "Access Point E7 Audience"
@@ -7399,6 +7402,9 @@
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "9.2.87"
       },
       "product": {
         "abbrev": "E7 Audience",
@@ -7541,6 +7547,9 @@
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "10.0.162"
       },
       "product": {
         "abbrev": "E7 Audience Indoor",
@@ -7687,7 +7696,7 @@
         "name": "UniFi"
       },
       "minAdoptVersion": {
-        "net": "8.4.59"
+        "net": "9.0.114"
       },
       "product": {
         "abbrev": "E7 Campus",
@@ -7815,6 +7824,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "minAdoptVersion": {
+        "net": "9.0.114"
+      },
       "product": {
         "abbrev": "E7 Campus",
         "name": "Access Point E7 Campus"
@@ -7936,6 +7948,9 @@
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "10.0.162"
       },
       "product": {
         "abbrev": "E7 Campus Indoor",
@@ -9565,6 +9580,25 @@
       "btle": {
         "factoryDefault": "cc478cb2-3e9c-4b04-bf9b-998ac32e89ad",
         "userConfigured": "82b9ac8b-973f-4fcb-a7d4-34ec3842969b"
+      },
+      "compliance": {
+        "fcc": "SWX-ENAS",
+        "ic": "6545A-ENAS",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ENAS",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
       },
       "deviceType": "nas",
       "deviceTypes": [
@@ -24437,6 +24471,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "minAdoptVersion": {
+        "net": "10.2.93"
+      },
       "product": {
         "abbrev": "AirWire",
         "name": "AirWire"
@@ -25737,6 +25774,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "minAdoptVersion": {
+        "net": "6.3.25"
+      },
       "product": {
         "abbrev": "U6 Enterprise",
         "name": "Access Point U6 Enterprise"
@@ -25906,6 +25946,9 @@
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "7.1.35"
       },
       "product": {
         "abbrev": "U6 Enterprise IW",
@@ -26083,6 +26126,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "minAdoptVersion": {
+        "net": "6.3.49"
+      },
       "product": {
         "abbrev": "U6 Extender",
         "name": "Access Point U6 Extender"
@@ -26245,6 +26291,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "minAdoptVersion": {
+        "net": "6.3.49"
+      },
       "product": {
         "abbrev": "U6 Extender",
         "name": "Access Point U6 Extender"
@@ -26406,6 +26455,9 @@
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "6.3.47"
       },
       "product": {
         "abbrev": "U6 IW",
@@ -26585,6 +26637,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "minAdoptVersion": {
+        "net": "6.3.47"
+      },
       "product": {
         "abbrev": "U6 IW",
         "name": "Access Point U6 In-Wall"
@@ -26760,7 +26815,7 @@
         "name": "UniFi"
       },
       "minAdoptVersion": {
-        "net": "7.3.76"
+        "net": "6.0.45"
       },
       "product": {
         "abbrev": "U6 LR",
@@ -26926,7 +26981,7 @@
         "name": "UniFi"
       },
       "minAdoptVersion": {
-        "net": "7.3.76"
+        "net": "6.0.45"
       },
       "product": {
         "abbrev": "U6 LR",
@@ -27270,6 +27325,9 @@
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "6.0.45"
       },
       "product": {
         "abbrev": "U6 Lite",
@@ -27772,6 +27830,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "minAdoptVersion": {
+        "net": "8.1.127"
+      },
       "product": {
         "abbrev": "U6 Mesh Pro",
         "name": "Access Point U6 Mesh Pro"
@@ -28088,6 +28149,9 @@
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "6.1.52"
       },
       "product": {
         "abbrev": "U6 Pro",
@@ -28444,6 +28508,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "minAdoptVersion": {
+        "net": "9.0.114"
+      },
       "product": {
         "abbrev": "U7 In-Wall",
         "name": "Access Point U7 In Wall"
@@ -28592,6 +28659,9 @@
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "9.1.120"
       },
       "product": {
         "abbrev": "U7 Long-Range",
@@ -28742,6 +28812,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "minAdoptVersion": {
+        "net": "9.0.114"
+      },
       "product": {
         "abbrev": "U7 Lite",
         "name": "Access Point U7 Lite"
@@ -28886,6 +28959,9 @@
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "10.1.85"
       },
       "product": {
         "abbrev": "U7 Mesh",
@@ -29200,7 +29276,7 @@
         "name": "UniFi"
       },
       "minAdoptVersion": {
-        "net": "8.0.7"
+        "net": "8.0.28"
       },
       "product": {
         "abbrev": "U7 Pro",
@@ -29359,6 +29435,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "minAdoptVersion": {
+        "net": "8.2.93"
+      },
       "product": {
         "abbrev": "U7 Pro Max",
         "name": "Access Point U7 Pro Max"
@@ -29516,6 +29595,9 @@
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "8.2.93"
       },
       "product": {
         "abbrev": "U7 Pro Max",
@@ -29680,6 +29762,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "minAdoptVersion": {
+        "net": "9.0.114"
+      },
       "product": {
         "abbrev": "U7 Pro Outdoor",
         "name": "Access Point U7 Pro Outdoor"
@@ -29802,6 +29887,9 @@
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "9.0.114"
       },
       "product": {
         "abbrev": "U7 Pro Outdoor",
@@ -29953,6 +30041,9 @@
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "8.1.113"
       },
       "product": {
         "abbrev": "U7 Pro Wall",
@@ -30116,6 +30207,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "minAdoptVersion": {
+        "net": "9.0.114"
+      },
       "product": {
         "abbrev": "U7 Pro XG",
         "name": "Access Point U7 Pro XG"
@@ -30239,6 +30333,9 @@
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "9.1.120"
       },
       "product": {
         "abbrev": "U7 Pro XG",
@@ -30378,6 +30475,9 @@
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "10.0.0"
       },
       "product": {
         "abbrev": "U7 Pro XG Wall",
@@ -30533,6 +30633,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "minAdoptVersion": {
+        "net": "9.0.114"
+      },
       "product": {
         "abbrev": "U7 Pro XGS",
         "name": "Access Point U7 Pro XGS"
@@ -30679,6 +30782,9 @@
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "9.1.120"
       },
       "product": {
         "abbrev": "U7 Pro XGS",
@@ -35537,6 +35643,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "minAdoptVersion": {
+        "net": "8.2.61"
+      },
       "product": {
         "abbrev": "Beacon HD",
         "name": "Access Point BeaconHD"
@@ -35699,6 +35808,9 @@
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "6.0.45"
       },
       "product": {
         "abbrev": "FlexHD",
@@ -35992,6 +36104,9 @@
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "6.0.45"
       },
       "product": {
         "abbrev": "IW HD",
@@ -37039,6 +37154,9 @@
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "6.0.45"
       },
       "product": {
         "abbrev": "Nano HD",
@@ -41573,6 +41691,9 @@
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "10.0.156"
       },
       "product": {
         "abbrev": "UDB Switch",
@@ -76843,5 +76964,5 @@
       "videos": {}
     }
   ],
-  "version": "9ff17f52610da2ab10681b8b4b3797106d3e4cb4"
+  "version": "6b6cfee640cd40b07fd4b2548acb9287c490b1c4"
 }
