@@ -8709,7 +8709,8 @@
           "chipset": "p",
           "deviceCapabilities": [
             "SWITCH",
-            "HAS_CLIENTS"
+            "HAS_CLIENTS",
+            "STACKING"
           ],
           "diagram": [
             "__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ 25 27 __ 29 __ 31",
@@ -8952,7 +8953,8 @@
           "chipset": "p",
           "deviceCapabilities": [
             "SWITCH",
-            "HAS_CLIENTS"
+            "HAS_CLIENTS",
+            "STACKING"
           ],
           "diagram": [
             "01 03 05 07 09 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 __ 49 51 __ 53 __ 55",
@@ -41305,12 +41307,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "HAS_CLIENTS",
-            "ACCESS_POINT_SWITCH",
+            "BRIDGE",
             "ELEMENT_WITH_UPLINK_PRIORITY",
-            "HAS_TEMPERATURE_SENSOR",
+            "ACCESS_POINT_SWITCH",
             "AUTOLINK_ELEMENT",
-            "BRIDGE"
+            "HAS_TEMPERATURE_SENSOR",
+            "HAS_CLIENTS"
           ],
           "diagram": [
             "01"
@@ -47503,8 +47505,7 @@
         "name": "Mobile Router"
       },
       "shortnames": [
-        "UMR",
-        "openwrt"
+        "UMR"
       ],
       "sku": "UMR",
       "sysid": "39f0",
@@ -50276,7 +50277,6 @@
         "name": "Protect AlarmHub Kit"
       },
       "shortnames": [
-        "UP-AlarmHub",
         "UP-AlarmHub-Kit"
       ],
       "sku": "UP-AlarmHub-Kit",
@@ -58099,7 +58099,20 @@
       ],
       "triplets": [],
       "unifi": {
-        "adoptability": "adoptable"
+        "network": {
+          "chipset": "c",
+          "deviceCapabilities": [
+            "SMART_OUTLET",
+            "OUTLET_MONITOR"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USPED18",
+          "numberOfPorts": 1,
+          "radios": {},
+          "systemIdHexadecimal": "ed18",
+          "type": "usp"
+        }
       },
       "videos": {}
     },
@@ -76964,5 +76977,5 @@
       "videos": {}
     }
   ],
-  "version": "6b6cfee640cd40b07fd4b2548acb9287c490b1c4"
+  "version": "7bc0311667ea18ba11051bff983b9d06dff5347b"
 }
