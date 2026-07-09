@@ -30479,7 +30479,7 @@
         "name": "UniFi"
       },
       "minAdoptVersion": {
-        "net": "10.0.0"
+        "net": "10.0.162"
       },
       "product": {
         "abbrev": "U7 Pro XG Wall",
@@ -76977,5 +76977,5 @@
       "videos": {}
     }
   ],
-  "version": "2aa36a3cdcaf7efce7b79189d0a0f93fec8bfe07"
+  "version": "494df31bd11275b41fe55b766c3f16ae92e55ec7"
 }
