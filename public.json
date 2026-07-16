@@ -41307,12 +41307,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "BRIDGE",
+            "HAS_CLIENTS",
             "ELEMENT_WITH_UPLINK_PRIORITY",
             "ACCESS_POINT_SWITCH",
+            "BRIDGE",
             "AUTOLINK_ELEMENT",
-            "HAS_TEMPERATURE_SENSOR",
-            "HAS_CLIENTS"
+            "HAS_TEMPERATURE_SENSOR"
           ],
           "diagram": [
             "01"
@@ -41340,7 +41340,11 @@
         "fcc": "SWX-UDBP",
         "ic": "6545A-UDBP",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "jrf": [
+          "020-260225"
+        ],
         "modelName": "UDB-Pro",
+        "ncc": "CCAH25LP1290T9",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
@@ -42376,10 +42380,19 @@
         "userConfigured": "a4a6a5e3-2d5e-44cc-b9ea-ec6b9f919848"
       },
       "compliance": {
+        "anatel": "03611-26-08356",
         "fcc": "SWX-UDMBT",
         "ic": "6545A-UDMBT",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "jpa": [
+          "P26-0066001",
+          "L26-0014"
+        ],
+        "jrf": [
+          " 020-260206"
+        ],
         "modelName": "UDM-Beast",
+        "ncc": "CCAH26LP5630T9",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
@@ -58099,16 +58112,118 @@
       ],
       "triplets": [],
       "unifi": {
+        "adoptability": "adoptable",
         "network": {
           "chipset": "c",
           "deviceCapabilities": [
+            "SMART_POWER",
             "SMART_OUTLET",
             "OUTLET_MONITOR"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "knownUnsupportedFeatures": [
+            "SWITCH_CAP_DOT1X",
+            "SWITCH_CAP_STP",
+            "SWITCH_CAP_LLDP_MED"
+          ],
           "minimumFirmwareRequired": "4.0.6",
           "model": "USPED18",
           "numberOfPorts": 1,
+          "outlets": {
+            "lan": [
+              21
+            ],
+            "meta": {
+              "01": {
+                "rotation": "-90deg"
+              },
+              "02": {
+                "rotation": "-90deg"
+              },
+              "03": {
+                "rotation": "-90deg"
+              },
+              "04": {
+                "rotation": "-90deg"
+              },
+              "05": {
+                "region": "eu",
+                "rotation": "180deg"
+              },
+              "06": {
+                "region": "eu",
+                "rotation": "180deg"
+              },
+              "07": {
+                "region": "eu",
+                "rotation": "180deg"
+              },
+              "08": {
+                "region": "eu",
+                "rotation": "180deg"
+              },
+              "09": {
+                "region": "eu",
+                "rotation": "180deg"
+              },
+              "10": {
+                "region": "eu",
+                "rotation": "180deg"
+              },
+              "11": {
+                "region": "eu",
+                "rotation": "180deg"
+              },
+              "12": {
+                "region": "eu",
+                "rotation": "180deg"
+              },
+              "13": {
+                "region": "eu",
+                "rotation": "180deg"
+              },
+              "14": {
+                "region": "eu",
+                "rotation": "180deg"
+              },
+              "15": {
+                "region": "eu",
+                "rotation": "180deg"
+              },
+              "16": {
+                "region": "eu",
+                "rotation": "180deg"
+              },
+              "17": {
+                "region": "eu",
+                "rotation": "180deg"
+              },
+              "18": {
+                "region": "eu",
+                "rotation": "180deg"
+              },
+              "19": {
+                "region": "eu",
+                "rotation": "180deg"
+              },
+              "20": {
+                "region": "eu",
+                "rotation": "180deg"
+              },
+              "21": {
+                "portIdx": 1
+              }
+            },
+            "standard": "5-20",
+            "usb": "1-4"
+          },
+          "outletsDiagram": [
+            "01 03 __ 05 06 07 08 09 10 11 12 __ __",
+            "02 04 __ 13 14 15 16 17 18 19 20 __ 21"
+          ],
+          "ports": {
+            "standard": 1
+          },
           "radios": {},
           "systemIdHexadecimal": "ed18",
           "type": "usp"
@@ -76977,5 +77092,5 @@
       "videos": {}
     }
   ],
-  "version": "494df31bd11275b41fe55b766c3f16ae92e55ec7"
+  "version": "d294875c94695022ce8023e228eac0564e52695d"
 }
