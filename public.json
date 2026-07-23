@@ -41307,12 +41307,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "HAS_CLIENTS",
-            "ELEMENT_WITH_UPLINK_PRIORITY",
-            "ACCESS_POINT_SWITCH",
-            "BRIDGE",
+            "HAS_TEMPERATURE_SENSOR",
             "AUTOLINK_ELEMENT",
-            "HAS_TEMPERATURE_SENSOR"
+            "BRIDGE",
+            "ACCESS_POINT_SWITCH",
+            "ELEMENT_WITH_UPLINK_PRIORITY",
+            "HAS_CLIENTS"
           ],
           "diagram": [
             "01"
@@ -49942,6 +49942,19 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UP-AI-Port",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "deviceType": "tool",
       "deviceTypes": [
         "tool"
@@ -64495,6 +64508,21 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "USW-Pro-XG-48-PoE",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_A"
+          ]
+        }
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -65396,6 +65424,16 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "Need EMI info",
+        "modelName": "USW-WAN-RJ45",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC"
+          ]
+        }
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -77092,5 +77130,5 @@
       "videos": {}
     }
   ],
-  "version": "d294875c94695022ce8023e228eac0564e52695d"
+  "version": "607ade8ab213a5ad826f49dacbbdc713cf37c6d7"
 }
