@@ -54753,6 +54753,186 @@
       "videos": {}
     },
     {
+      "deviceType": "sensor",
+      "deviceTypes": [
+        "sensor"
+      ],
+      "guids": [
+        "710ee468-b436-4d60-b6a5-159b5ab19c07"
+      ],
+      "icon": {
+        "id": "9a79ad6d-f418-4e86-86b8-c3194b9df67d",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "4b9b7df7-60ce-44b3-9080-61d8363c5d14",
+      "images": {
+        "default": "9618a7eb96b18533aa77dd55637e6943",
+        "nopadding": "0b0355cc0dfa7c799a0678428bf356b0",
+        "topology": "3d29a86b62c6c987b98c9dd67931752b"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "USL Entry Recessed",
+        "name": "SuperLink Entry Recessed"
+      },
+      "shortnames": [
+        "USL-Entry-R-EU"
+      ],
+      "sku": "USL-Entry-R-EU",
+      "sysid": "aeb2",
+      "sysids": [
+        "aeb2"
+      ],
+      "triplets": [
+        {
+          "k1": "STM32WLE5JCI6TR",
+          "k3": "USL-Entry-R-EU"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "sensor",
+      "deviceTypes": [
+        "sensor"
+      ],
+      "guids": [
+        "7d01a4ba-bb1c-4c0a-b978-4d051b37621a"
+      ],
+      "icon": {
+        "id": "75335114-380d-425d-a296-d741e2ebaf18",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "e04c32ee-4455-4f7f-9299-059e2bc93482",
+      "images": {
+        "default": "9618a7eb96b18533aa77dd55637e6943",
+        "nopadding": "0b0355cc0dfa7c799a0678428bf356b0",
+        "topology": "3d29a86b62c6c987b98c9dd67931752b"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "USL Entry Recessed",
+        "name": "SuperLink Entry Recessed"
+      },
+      "shortnames": [
+        "USL-Entry-R-US"
+      ],
+      "sku": "USL-Entry-R-US",
+      "sysid": "aeb1",
+      "sysids": [
+        "aeb1"
+      ],
+      "triplets": [
+        {
+          "k1": "STM32WLE5JCI6TR",
+          "k3": "USL-Entry-R-US"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
       "compliance": {
         "fcc": "SWX-USLET",
         "ic": "6545A-USLET",
@@ -77130,5 +77310,5 @@
       "videos": {}
     }
   ],
-  "version": "607ade8ab213a5ad826f49dacbbdc713cf37c6d7"
+  "version": "55db135438a1e357105883daea6c43ab1895f006"
 }
