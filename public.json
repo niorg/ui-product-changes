@@ -41307,12 +41307,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "HAS_TEMPERATURE_SENSOR",
-            "AUTOLINK_ELEMENT",
-            "BRIDGE",
             "ACCESS_POINT_SWITCH",
             "ELEMENT_WITH_UPLINK_PRIORITY",
-            "HAS_CLIENTS"
+            "HAS_CLIENTS",
+            "HAS_TEMPERATURE_SENSOR",
+            "AUTOLINK_ELEMENT",
+            "BRIDGE"
           ],
           "diagram": [
             "01"
@@ -49300,9 +49300,14 @@
         "userConfigured": "1a1ac5e5-1188-4a64-b162-9be2da2af869"
       },
       "compliance": {
+        "anatel": "06781-25-08356",
+        "cn": "25J99U16K002",
         "fcc": "SWX-UNVRI",
         "ic": "6545A-UNVRI",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jrf": [
+          "020-250379"
+        ],
         "modelName": "UNVR-Instant",
         "rcm": true,
         "rfCmFcc": 20,
@@ -50856,6 +50861,19 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UP-Siren-PoE",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "deviceType": "alarm",
       "deviceTypes": [
         "alarm"
@@ -64821,6 +64839,19 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "Can ICES-003(B)/NMB-003(B)",
+        "modelName": "USW-Pro-XG-8-PoE",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_A"
+          ]
+        }
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -77310,5 +77341,5 @@
       "videos": {}
     }
   ],
-  "version": "55db135438a1e357105883daea6c43ab1895f006"
+  "version": "74a5a602b0dc6d40fa56d55dced4f90d22979970"
 }
