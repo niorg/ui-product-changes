@@ -51481,6 +51481,404 @@
       "videos": {}
     },
     {
+      "btle": {
+        "factoryDefault": "88ac8b1a-07d0-48d6-9295-474305aadc41",
+        "userConfigured": "1cf9075b-020f-4b52-ab3e-0a02e1a131f4"
+      },
+      "deviceType": "power-supply",
+      "deviceTypes": [
+        "power-supply"
+      ],
+      "guids": [
+        "e7d7a5ca-e209-4199-88bc-46be06557400",
+        "88ac8b1a-07d0-48d6-9295-474305aadc41",
+        "1cf9075b-020f-4b52-ab3e-0a02e1a131f4"
+      ],
+      "icon": {
+        "id": "fbb8edd9-46b9-44c7-a015-2c3e9ce0c664",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "c65cf5e1-c884-475c-91d4-d49af72f4cc5",
+      "images": {
+        "default": "49a0bf654148fbac5acbda283a06d0f4",
+        "nopadding": "4c456e89b6025524e3b1c131520067f0",
+        "rack": "fd781544a7fad4b3e19c13749c9ab71c",
+        "topology": "afe41d1881195e349ffcf226b1d5355c"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "UPS 2U Pro",
+        "name": "UPS 2U Pro"
+      },
+      "shortnames": [
+        "UPS-2U-Pro-EU"
+      ],
+      "sku": "UPS-2U-Pro-EU",
+      "sysid": "da2c",
+      "sysids": [
+        "da2c"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "o",
+          "deviceCapabilities": [
+            "SMART_POWER",
+            "BUZZER",
+            "SMART_OUTLET",
+            "OUTLET_MONITOR",
+            "BATTERY_MANAGEMENT",
+            "PURE_SINE_WAVE"
+          ],
+          "diagram": [
+            "1"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 100,
+          "knownUnsupportedFeatures": [
+            "SWITCH_CAP_DOT1X",
+            "SWITCH_CAP_STP",
+            "SWITCH_CAP_LLDP_MED"
+          ],
+          "minimumFirmwareRequired": "0.0.0",
+          "model": "USPDA2C",
+          "numberOfPorts": 1,
+          "outlets": {
+            "lan": [
+              10
+            ],
+            "meta": {
+              "01": {
+                "tooltipPlacement": "bottom"
+              },
+              "02": {
+                "rotation": "90deg"
+              },
+              "03": {
+                "rotation": "90deg"
+              },
+              "04": {
+                "rotation": "90deg"
+              },
+              "05": {
+                "rotation": "90deg"
+              },
+              "06": {
+                "rotation": "90deg"
+              },
+              "07": {
+                "rotation": "90deg"
+              },
+              "08": {
+                "rotation": "90deg"
+              },
+              "09": {
+                "rotation": "90deg"
+              },
+              "10": {
+                "nonClickable": true,
+                "portIdx": 1,
+                "tooltipPlacement": "bottom"
+              },
+              "11": {
+                "surgeType": "in",
+                "tooltipPlacement": "top"
+              },
+              "12": {
+                "surgeType": "out",
+                "tooltipPlacement": "bottom"
+              }
+            },
+            "rj45": "11-12",
+            "standard": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "surge": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ]
+          },
+          "outletsDiagram": [
+            "__ __ 02 03 04 05 __ 11 12",
+            "01 __ 06 07 08 09 __ 10 __"
+          ],
+          "ports": {
+            "standard": 1
+          },
+          "primaryOutletGroupCount": 32,
+          "primaryPortGroupCount": 32,
+          "radios": {},
+          "systemIdHexadecimal": "da2c",
+          "type": "usp"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "btle": {
+        "factoryDefault": "ff6c803e-5853-403a-9076-118c9f80a090",
+        "userConfigured": "bba0dc13-8498-40b8-bc2c-e2ce4fe904e3"
+      },
+      "deviceType": "power-supply",
+      "deviceTypes": [
+        "power-supply"
+      ],
+      "guids": [
+        "9dd18041-a0ab-4e04-a935-aee394904223",
+        "ff6c803e-5853-403a-9076-118c9f80a090",
+        "bba0dc13-8498-40b8-bc2c-e2ce4fe904e3"
+      ],
+      "icon": {
+        "id": "d3d72222-f692-4fec-87f4-2dfd4095db4b",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "0d4330d4-78b0-488f-b7a2-6ca718640043",
+      "images": {
+        "default": "49a0bf654148fbac5acbda283a06d0f4",
+        "nopadding": "4c456e89b6025524e3b1c131520067f0",
+        "rack": "fd781544a7fad4b3e19c13749c9ab71c",
+        "topology": "afe41d1881195e349ffcf226b1d5355c"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "UPS 2U Pro",
+        "name": "UPS 2U Pro"
+      },
+      "shortnames": [
+        "UPS-2U-Pro-US"
+      ],
+      "sku": "UPS-2U-Pro-US",
+      "sysid": "da2b",
+      "sysids": [
+        "da2b"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "o",
+          "deviceCapabilities": [
+            "SMART_POWER",
+            "BUZZER",
+            "SMART_OUTLET",
+            "OUTLET_MONITOR",
+            "BATTERY_MANAGEMENT",
+            "PURE_SINE_WAVE"
+          ],
+          "diagram": [
+            "1"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 100,
+          "knownUnsupportedFeatures": [
+            "SWITCH_CAP_DOT1X",
+            "SWITCH_CAP_STP",
+            "SWITCH_CAP_LLDP_MED"
+          ],
+          "minimumFirmwareRequired": "0.0.0",
+          "model": "USPDA2B",
+          "numberOfPorts": 1,
+          "outlets": {
+            "lan": [
+              9
+            ],
+            "meta": {
+              "01": {
+                "rotation": "180deg",
+                "tooltipPlacement": "top"
+              },
+              "02": {
+                "rotation": "180deg",
+                "tooltipPlacement": "top"
+              },
+              "03": {
+                "rotation": "180deg",
+                "tooltipPlacement": "top"
+              },
+              "04": {
+                "rotation": "180deg",
+                "tooltipPlacement": "top"
+              },
+              "05": {
+                "tooltipPlacement": "bottom"
+              },
+              "06": {
+                "tooltipPlacement": "bottom"
+              },
+              "07": {
+                "tooltipPlacement": "bottom"
+              },
+              "08": {
+                "tooltipPlacement": "bottom"
+              },
+              "09": {
+                "nonClickable": true,
+                "portIdx": 1,
+                "tooltipPlacement": "bottom"
+              },
+              "10": {
+                "surgeType": "in",
+                "tooltipPlacement": "top"
+              },
+              "11": {
+                "surgeType": "out",
+                "tooltipPlacement": "bottom"
+              }
+            },
+            "rj45": [
+              10,
+              11
+            ],
+            "standard": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "surge": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          "outletsDiagram": [
+            "01 02 03 __ 04 __ 10 11",
+            "05 06 07 __ 08 __ 09 __"
+          ],
+          "ports": {
+            "standard": [
+              1
+            ]
+          },
+          "primaryOutletGroupCount": 32,
+          "primaryPortGroupCount": 32,
+          "radios": {},
+          "systemIdHexadecimal": "da2b",
+          "type": "usp"
+        }
+      },
+      "videos": {}
+    },
+    {
       "deviceType": "power-supply",
       "deviceTypes": [
         "power-supply"
@@ -77341,5 +77739,5 @@
       "videos": {}
     }
   ],
-  "version": "34395fc8a6f4695df69db5ba2431e55c1d1d0f08"
+  "version": "e1a92e5e4f7f734b05b0146d85e761028f28509c"
 }
