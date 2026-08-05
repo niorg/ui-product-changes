@@ -73677,6 +73677,92 @@
         "camera"
       ],
       "guids": [
+        "c4a8f43b-8616-4064-bd38-d901a41de8bf"
+      ],
+      "icon": {
+        "id": "c777415f-83d7-4532-b6cc-8940e883b457",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "c527f72b-4036-4762-bae4-29ed17fe0f33",
+      "images": {
+        "default": "7dfbbfc9709b6a71891778d43d2106db",
+        "nopadding": "116749c80ea431382362326597102c7c",
+        "topology": "5bb978835ca7a8fec4261bcf33726392"
+      },
+      "jrf": [],
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "G6 Pro Bullet",
+        "name": "Camera G6 Pro Bullet"
+      },
+      "shortnames": [
+        "UVC-G6-Pro-Bullet-B"
+      ],
+      "sku": "UVC-G6-Pro-Bullet-B",
+      "sysid": "a608",
+      "sysids": [
+        "a608"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "camera",
+      "deviceTypes": [
+        "camera"
+      ],
+      "guids": [
         "0079d5da-4540-4ee4-b88c-cc0833522ad9"
       ],
       "icon": {
@@ -77739,5 +77825,5 @@
       "videos": {}
     }
   ],
-  "version": "e1a92e5e4f7f734b05b0146d85e761028f28509c"
+  "version": "aff68eaea311cc9c03264422bd8d577d95cc6ef9"
 }
