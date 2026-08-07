@@ -8690,6 +8690,9 @@
         "id": "unifi-network",
         "name": "UniFi"
       },
+      "minAdoptVersion": {
+        "net": "10.6.88"
+      },
       "product": {
         "abbrev": "ECS 24S PoE",
         "name": "Switch Enterprise Campus 24S PoE"
@@ -8933,6 +8936,9 @@
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "10.6.88"
       },
       "product": {
         "abbrev": "ECS 48S PoE",
@@ -9195,10 +9201,10 @@
       "images": {
         "blueprint": "ad143aec711a6b6f971bc6b1772cd47c",
         "blueprint-dark": "c0c357b40348b955f475f622e25d2e18",
-        "default": "53507e6ea66370c465aab0e0e5c63820",
-        "nopadding": "6b4a8ba7ab3a7288c113a56f7693f19e",
+        "default": "6688b2411de9aa5c1c26b6836b44eae2",
+        "nopadding": "448a79888c32affab3d59db4d729e8c1",
         "rack": "73d8ff2ff30c7a6dde0d0d935d0a6c70",
-        "topology": "3b68534ed1247cc17e60ca6c9fb42efe"
+        "topology": "45b47a19905b3acc59eab2ed040cdc5f"
       },
       "isARSupported": true,
       "line": {
@@ -41307,12 +41313,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "ACCESS_POINT_SWITCH",
-            "ELEMENT_WITH_UPLINK_PRIORITY",
-            "HAS_CLIENTS",
             "HAS_TEMPERATURE_SENSOR",
             "AUTOLINK_ELEMENT",
-            "BRIDGE"
+            "BRIDGE",
+            "ACCESS_POINT_SWITCH",
+            "ELEMENT_WITH_UPLINK_PRIORITY",
+            "HAS_CLIENTS"
           ],
           "diagram": [
             "01"
@@ -51405,6 +51411,7 @@
             "SWITCH",
             "BUZZER",
             "SMART_OUTLET",
+            "POWER_ONLY",
             "BATTERY_MANAGEMENT"
           ],
           "diagram": [],
@@ -51969,6 +51976,7 @@
             "SWITCH",
             "BUZZER",
             "SMART_OUTLET",
+            "POWER_ONLY",
             "BATTERY_MANAGEMENT"
           ],
           "diagram": [],
@@ -52134,6 +52142,7 @@
             "SWITCH",
             "BUZZER",
             "SMART_OUTLET",
+            "POWER_ONLY",
             "BATTERY_MANAGEMENT"
           ],
           "diagram": [],
@@ -52307,6 +52316,7 @@
             "SWITCH",
             "BUZZER",
             "SMART_OUTLET",
+            "POWER_ONLY",
             "BATTERY_MANAGEMENT"
           ],
           "diagram": [],
@@ -58172,7 +58182,8 @@
             "SMART_POWER",
             "SWITCH",
             "SMART_OUTLET",
-            "OUTLET_MONITOR"
+            "OUTLET_MONITOR",
+            "POWER_ONLY"
           ],
           "diagram": [
             "__",
@@ -58466,7 +58477,8 @@
             "SMART_POWER",
             "SWITCH",
             "SMART_OUTLET",
-            "OUTLET_MONITOR"
+            "OUTLET_MONITOR",
+            "POWER_ONLY"
           ],
           "diagram": [
             "__",
@@ -59135,7 +59147,8 @@
           "chipset": "c",
           "deviceCapabilities": [
             "REDUNDANT_POWER",
-            "SWITCH"
+            "SWITCH",
+            "POWER_ONLY"
           ],
           "diagram": [
             "1"
@@ -59263,6 +59276,7 @@
             "REDUNDANT_POWER",
             "SMART_POWER",
             "SWITCH",
+            "POWER_ONLY",
             "BATTERY_MANAGEMENT"
           ],
           "diagram": [
@@ -72613,6 +72627,25 @@
         "factoryDefault": "00d64152-98db-4eb9-80cf-19c1544ad12c",
         "userConfigured": "78c86cb2-e1d5-4fe9-baa8-f9164f6638d9"
       },
+      "compliance": {
+        "fcc": "SWX-UVCG6EB",
+        "ic": "6545A-UVCG6EB",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UVC-G6-Edge-Bullet",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -77825,5 +77858,5 @@
       "videos": {}
     }
   ],
-  "version": "aff68eaea311cc9c03264422bd8d577d95cc6ef9"
+  "version": "e762221143f46ed58bab82c82f72ad96cf64c9da"
 }
