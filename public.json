@@ -41313,12 +41313,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "HAS_TEMPERATURE_SENSOR",
-            "AUTOLINK_ELEMENT",
-            "BRIDGE",
             "ACCESS_POINT_SWITCH",
             "ELEMENT_WITH_UPLINK_PRIORITY",
-            "HAS_CLIENTS"
+            "HAS_CLIENTS",
+            "HAS_TEMPERATURE_SENSOR",
+            "AUTOLINK_ELEMENT",
+            "BRIDGE"
           ],
           "diagram": [
             "01"
@@ -51412,6 +51412,7 @@
             "BUZZER",
             "SMART_OUTLET",
             "POWER_ONLY",
+            "MCU_BASED",
             "BATTERY_MANAGEMENT"
           ],
           "diagram": [],
@@ -51583,6 +51584,7 @@
             "BUZZER",
             "SMART_OUTLET",
             "OUTLET_MONITOR",
+            "MCU_BASED",
             "BATTERY_MANAGEMENT",
             "PURE_SINE_WAVE"
           ],
@@ -51780,6 +51782,7 @@
             "BUZZER",
             "SMART_OUTLET",
             "OUTLET_MONITOR",
+            "MCU_BASED",
             "BATTERY_MANAGEMENT",
             "PURE_SINE_WAVE"
           ],
@@ -51977,6 +51980,7 @@
             "BUZZER",
             "SMART_OUTLET",
             "POWER_ONLY",
+            "MCU_BASED",
             "BATTERY_MANAGEMENT"
           ],
           "diagram": [],
@@ -52143,6 +52147,7 @@
             "BUZZER",
             "SMART_OUTLET",
             "POWER_ONLY",
+            "MCU_BASED",
             "BATTERY_MANAGEMENT"
           ],
           "diagram": [],
@@ -52317,6 +52322,7 @@
             "BUZZER",
             "SMART_OUTLET",
             "POWER_ONLY",
+            "MCU_BASED",
             "BATTERY_MANAGEMENT"
           ],
           "diagram": [],
@@ -58060,7 +58066,7 @@
           "chipset": "o",
           "deviceCapabilities": [
             "SWITCH",
-            "HAS_LOW_RESOURCES",
+            "MCU_BASED",
             "HAS_CLIENTS"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
@@ -59026,7 +59032,7 @@
             "SMART_POWER",
             "ACCESS_POINT",
             "SMART_OUTLET",
-            "HAS_LOW_RESOURCES",
+            "MCU_BASED",
             "AUTOLINK_ELEMENT"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
@@ -59402,7 +59408,7 @@
             "SMART_POWER",
             "ACCESS_POINT",
             "SMART_OUTLET",
-            "HAS_LOW_RESOURCES",
+            "MCU_BASED",
             "AUTOLINK_ELEMENT"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
@@ -61201,7 +61207,7 @@
           "chipset": "o",
           "deviceCapabilities": [
             "SWITCH",
-            "HAS_LOW_RESOURCES",
+            "MCU_BASED",
             "HAS_CLIENTS"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 2500,
@@ -61326,7 +61332,7 @@
           "chipset": "o",
           "deviceCapabilities": [
             "SWITCH",
-            "HAS_LOW_RESOURCES",
+            "MCU_BASED",
             "HAS_CLIENTS"
           ],
           "diagram": [
@@ -61462,7 +61468,7 @@
           "chipset": "o",
           "deviceCapabilities": [
             "SWITCH",
-            "HAS_LOW_RESOURCES",
+            "MCU_BASED",
             "HAS_CLIENTS"
           ],
           "diagram": [
@@ -61608,7 +61614,7 @@
           "chipset": "n",
           "deviceCapabilities": [
             "SWITCH",
-            "HAS_LOW_RESOURCES",
+            "MCU_BASED",
             "HAS_CLIENTS"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
@@ -65607,7 +65613,7 @@
           "chipset": "o",
           "deviceCapabilities": [
             "SWITCH",
-            "HAS_LOW_RESOURCES",
+            "MCU_BASED",
             "HAS_CLIENTS"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
@@ -65748,7 +65754,7 @@
           "chipset": "o",
           "deviceCapabilities": [
             "SWITCH",
-            "HAS_LOW_RESOURCES",
+            "MCU_BASED",
             "HAS_CLIENTS"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
@@ -65889,7 +65895,7 @@
           "chipset": "o",
           "deviceCapabilities": [
             "SWITCH",
-            "HAS_LOW_RESOURCES",
+            "MCU_BASED",
             "HAS_CLIENTS"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
@@ -72366,6 +72372,92 @@
         "camera"
       ],
       "guids": [
+        "292d432f-3c27-4b7f-9518-2bd77cc52a97"
+      ],
+      "icon": {
+        "id": "853902ce-b94f-4ed7-bb9e-b6f36c83c056",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "e8604c0a-09d8-4c6b-92a7-b842f0d9c439",
+      "images": {
+        "default": "5bda41d22c3c52138fd61cedb19c21f7",
+        "nopadding": "c649315d8de9ce0c33acf15701662e1d",
+        "topology": "82e02726760fe50a06c1938cfcec26a3"
+      },
+      "jrf": [],
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "G6 Bullet",
+        "name": "Camera G6 Bullet"
+      },
+      "shortnames": [
+        "UVC-G6-Bullet-B"
+      ],
+      "sku": "UVC-G6-Bullet-B",
+      "sysid": "a06a",
+      "sysids": [
+        "a06a"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "camera",
+      "deviceTypes": [
+        "camera"
+      ],
+      "guids": [
         "1f82be9f-e393-7d64-632b-98bd2d4ad552"
       ],
       "icon": {
@@ -77858,5 +77950,5 @@
       "videos": {}
     }
   ],
-  "version": "a4ee5f8a6939a7a50e7a62f18163d28acf718f97"
+  "version": "1a70cde36042a909b52ec0b37b56a0217f0e82a7"
 }
