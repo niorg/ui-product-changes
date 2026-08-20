@@ -41314,11 +41314,11 @@
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
             "ACCESS_POINT_SWITCH",
+            "BRIDGE",
+            "HAS_TEMPERATURE_SENSOR",
             "ELEMENT_WITH_UPLINK_PRIORITY",
             "HAS_CLIENTS",
-            "HAS_TEMPERATURE_SENSOR",
-            "AUTOLINK_ELEMENT",
-            "BRIDGE"
+            "AUTOLINK_ELEMENT"
           ],
           "diagram": [
             "01"
@@ -50136,6 +50136,21 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UP-AirQuality",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "deviceType": "sensor",
       "deviceTypes": [
         "sensor"
@@ -77950,5 +77965,5 @@
       "videos": {}
     }
   ],
-  "version": "58b6eaf3c9efee135652033e6570204b03f61392"
+  "version": "217a067de1afe3d5748e813e8a4918c6767886e0"
 }
