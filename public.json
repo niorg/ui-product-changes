@@ -8628,6 +8628,125 @@
         "switch"
       ],
       "guids": [
+        "6f41a581-f5b1-4a69-9528-18c961fd2801"
+      ],
+      "icon": {
+        "id": "afcd3584-3a92-4a5f-8313-75f1b0a28ce8",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "eadbaa84-16be-43e4-96ed-e981d14005a4",
+      "images": {
+        "default": "32a764b52634122e1b9d94803968002a",
+        "nopadding": "7138bc75d1fd96f45ce194251415c489",
+        "rack": "c1f9fe5de0f56616b525a2207257d33f",
+        "topology": "ea9d85b10c6415b6ddefcb8bf48a90de"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "10.6.88"
+      },
+      "product": {
+        "abbrev": "ECS 24S",
+        "name": "Switch Enterprise Campus 24S"
+      },
+      "shortnames": [
+        "EAS24S"
+      ],
+      "sku": "ECS-24S",
+      "sysid": "f005",
+      "sysids": [
+        "f005"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "p",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS",
+            "STACKING"
+          ],
+          "diagram": [
+            "__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ 25 27 __ 29 __ 31",
+            "01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 __ 26 28 __ 30 __ __"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 100000,
+          "features": {
+            "poe": false
+          },
+          "formFactor": [
+            "RACK_1U"
+          ],
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USWF005",
+          "numberOfPorts": 31,
+          "ports": {
+            "plus": "1-24",
+            "qsfp28": "29-30",
+            "sfp28": "25-28"
+          },
+          "radios": {},
+          "systemIdHexadecimal": "f005",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "switch",
+      "deviceTypes": [
+        "switch"
+      ],
+      "guids": [
         "5a0dc35e-bdf8-48ad-886a-e6c4c0b9b166"
       ],
       "icon": {
@@ -8864,6 +8983,125 @@
           },
           "radios": {},
           "systemIdHexadecimal": "f069",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "switch",
+      "deviceTypes": [
+        "switch"
+      ],
+      "guids": [
+        "9a0ec970-9901-4811-8faa-d219c7a4c368"
+      ],
+      "icon": {
+        "id": "23e49716-5cfd-4be6-80de-d2fdd7fd94a3",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "5c2416a9-0170-46c5-8d6c-699c5a0211f0",
+      "images": {
+        "default": "4be7d54acaceb55b9c9f4716c054e55b",
+        "nopadding": "7c4f96816ff354c1b735eabddbf46c07",
+        "rack": "7b373a93219d0b255bb82ed6293c531d",
+        "topology": "9b1bd8872d844cfc8932e67be91a7542"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "10.6.88"
+      },
+      "product": {
+        "abbrev": "ECS 48S",
+        "name": "Switch Enterprise Campus 48S"
+      },
+      "shortnames": [
+        "EAS48S"
+      ],
+      "sku": "ECS-48S",
+      "sysid": "f007",
+      "sysids": [
+        "f007"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "p",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS",
+            "STACKING"
+          ],
+          "diagram": [
+            "01 03 05 07 09 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 __ 49 51 __ 53 __ 55",
+            "02 04 06 08 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 __ 50 52 __ 54 __ __"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 100000,
+          "features": {
+            "poe": false
+          },
+          "formFactor": [
+            "RACK_1U"
+          ],
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USWF007",
+          "numberOfPorts": 55,
+          "ports": {
+            "qsfp28": "53-54",
+            "sfp28": "49-52",
+            "standard": 48
+          },
+          "radios": {},
+          "systemIdHexadecimal": "f007",
           "type": "usw"
         }
       },
@@ -77965,5 +78203,5 @@
       "videos": {}
     }
   ],
-  "version": "217a067de1afe3d5748e813e8a4918c6767886e0"
+  "version": "fba7b75bf94332238f985c8b5f6c278ce6b935ad"
 }
