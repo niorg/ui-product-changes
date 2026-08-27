@@ -41552,11 +41552,11 @@
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
             "ACCESS_POINT_SWITCH",
-            "BRIDGE",
-            "HAS_TEMPERATURE_SENSOR",
-            "ELEMENT_WITH_UPLINK_PRIORITY",
+            "AUTOLINK_ELEMENT",
             "HAS_CLIENTS",
-            "AUTOLINK_ELEMENT"
+            "ELEMENT_WITH_UPLINK_PRIORITY",
+            "HAS_TEMPERATURE_SENSOR",
+            "BRIDGE"
           ],
           "diagram": [
             "01"
@@ -78203,5 +78203,5 @@
       "videos": {}
     }
   ],
-  "version": "fba7b75bf94332238f985c8b5f6c278ce6b935ad"
+  "version": "19552b9c2060eb9b44f5c5c32ec27695a9840ed6"
 }
