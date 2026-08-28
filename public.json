@@ -8579,7 +8579,8 @@
         "name": "Switch Enterprise Campus 24 PoE"
       },
       "shortnames": [
-        "EAS24P"
+        "EAS24P",
+        "ECS24P"
       ],
       "sku": "ECS-24-PoE",
       "sysid": "f067",
@@ -8698,7 +8699,8 @@
         "name": "Switch Enterprise Campus 24S"
       },
       "shortnames": [
-        "EAS24S"
+        "EAS24S",
+        "ECS24S"
       ],
       "sku": "ECS-24S",
       "sysid": "f005",
@@ -8817,7 +8819,8 @@
         "name": "Switch Enterprise Campus 24S PoE"
       },
       "shortnames": [
-        "EAS24SP"
+        "EAS24SP",
+        "ECS24SP"
       ],
       "sku": "ECS-24S-PoE",
       "sysid": "f004",
@@ -8947,7 +8950,8 @@
         "name": "Switch Enterprise Campus 48 PoE"
       },
       "shortnames": [
-        "EAS48P"
+        "EAS48P",
+        "ECS48P"
       ],
       "sku": "ECS-48-PoE",
       "sysid": "f069",
@@ -9064,7 +9068,8 @@
         "name": "Switch Enterprise Campus 48S"
       },
       "shortnames": [
-        "EAS48S"
+        "EAS48S",
+        "ECS48S"
       ],
       "sku": "ECS-48S",
       "sysid": "f007",
@@ -9183,7 +9188,8 @@
         "name": "Switch Enterprise Campus 48S PoE"
       },
       "shortnames": [
-        "EAS48SP"
+        "EAS48SP",
+        "ECS48SP"
       ],
       "sku": "ECS-48S-PoE",
       "sysid": "f006",
@@ -25618,7 +25624,8 @@
       "shortnames": [
         "5G-Link-Outdoor",
         "U5G-Link-Outdoor",
-        "U5G-Max-Outdoor"
+        "U5G-Max-Outdoor",
+        "U5GMAXO"
       ],
       "sku": "U5G-Max-Outdoor",
       "sysid": "e631",
@@ -51820,7 +51827,8 @@
         "name": "UPS 2U Pro"
       },
       "shortnames": [
-        "UPS-2U-Pro-EU"
+        "UPS-2U-Pro-EU",
+        "UPSPROEU"
       ],
       "sku": "UPS-2U-Pro-EU",
       "sysid": "da2c",
@@ -52018,7 +52026,8 @@
         "name": "UPS 2U Pro"
       },
       "shortnames": [
-        "UPS-2U-Pro-US"
+        "UPS-2U-Pro-US",
+        "UPSPROUS"
       ],
       "sku": "UPS-2U-Pro-US",
       "sysid": "da2b",
@@ -57434,913 +57443,6 @@
       "videos": {}
     },
     {
-      "deviceType": "switch",
-      "deviceTypes": [
-        "switch"
-      ],
-      "guids": [],
-      "icon": {
-        "id": "ea06a05c-0434-4dc1-b423-cff51ff5a017",
-        "resolutions": [
-          [
-            25,
-            25
-          ],
-          [
-            32,
-            32
-          ],
-          [
-            51,
-            51
-          ],
-          [
-            64,
-            64
-          ],
-          [
-            101,
-            101
-          ],
-          [
-            128,
-            128
-          ],
-          [
-            129,
-            129
-          ],
-          [
-            256,
-            256
-          ],
-          [
-            257,
-            257
-          ],
-          [
-            512,
-            512
-          ],
-          [
-            1000,
-            1000
-          ]
-        ]
-      },
-      "id": "33606a89-370f-4930-b7b5-05376950f90b",
-      "images": {
-        "default": "7ab4da709aff50bae187555a6d084f90",
-        "nopadding": "c1e76f81b46a31d8da6ba7de56cb33cf",
-        "topology": "51983b94e9b75075f12c836f7be994ef"
-      },
-      "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
-      },
-      "product": {
-        "abbrev": "USW Lite 16 PoE",
-        "name": "Switch Lite 16 PoE"
-      },
-      "shortnames": [
-        "USL16LPB"
-      ],
-      "sku": "USL16LPB",
-      "sysid": "ed54",
-      "sysids": [
-        "ed54"
-      ],
-      "triplets": [
-        {
-          "k1": "USL16LPB",
-          "k3": "USL16LPB"
-        }
-      ],
-      "unifi": {
-        "adoptability": "adoptable",
-        "network": {
-          "chipset": "l",
-          "deviceCapabilities": [
-            "SWITCH",
-            "HAS_CLIENTS"
-          ],
-          "ethernetMaxSpeedMegabitsPerSecond": 1000,
-          "features": {
-            "poe": true
-          },
-          "formFactor": [
-            "DESKTOP",
-            "WALL"
-          ],
-          "minimumFirmwareRequired": "4.0.6",
-          "model": "USL16LPB",
-          "numberOfPorts": 16,
-          "ports": {
-            "standard": 16
-          },
-          "radios": {},
-          "systemIdHexadecimal": "ed54",
-          "type": "usw"
-        }
-      },
-      "videos": {}
-    },
-    {
-      "deviceType": "switch",
-      "deviceTypes": [
-        "switch"
-      ],
-      "guids": [],
-      "icon": {
-        "id": "c70814d7-8070-4237-8a9a-353f2f32484e",
-        "resolutions": [
-          [
-            25,
-            25
-          ],
-          [
-            32,
-            32
-          ],
-          [
-            51,
-            51
-          ],
-          [
-            64,
-            64
-          ],
-          [
-            101,
-            101
-          ],
-          [
-            128,
-            128
-          ],
-          [
-            129,
-            129
-          ],
-          [
-            256,
-            256
-          ],
-          [
-            257,
-            257
-          ],
-          [
-            512,
-            512
-          ],
-          [
-            1000,
-            1000
-          ]
-        ]
-      },
-      "id": "04b22422-15d0-4288-9c47-1cfe232af98e",
-      "images": {
-        "default": "5ec8a16d681ceb7078592d27fc297455",
-        "nopadding": "554beb7be9d783e9bc4a45c40c43c890",
-        "topology": "11fef68ceb5541db0f5549e8c1416dc0"
-      },
-      "isARSupported": true,
-      "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
-      },
-      "product": {
-        "abbrev": "USW 16 PoE",
-        "name": "Switch 16 PoE"
-      },
-      "shortnames": [
-        "USL16PB"
-      ],
-      "sku": "USL16PB",
-      "sysid": "ed2e",
-      "sysids": [
-        "ed2e"
-      ],
-      "triplets": [
-        {
-          "k1": "USL16PB",
-          "k3": "USL16PB"
-        }
-      ],
-      "unifi": {
-        "adoptability": "adoptable",
-        "network": {
-          "chipset": "l",
-          "deviceCapabilities": [
-            "SWITCH",
-            "HAS_CLIENTS"
-          ],
-          "ethernetMaxSpeedMegabitsPerSecond": 1000,
-          "features": {
-            "poe": true
-          },
-          "formFactor": [
-            "RACK_1U"
-          ],
-          "minimumFirmwareRequired": "4.0.6",
-          "model": "USL16PB",
-          "numberOfPorts": 18,
-          "ports": {
-            "sfp": [
-              17,
-              18
-            ],
-            "standard": 16
-          },
-          "radios": {},
-          "systemIdHexadecimal": "ed2e",
-          "type": "usw"
-        }
-      },
-      "videos": {}
-    },
-    {
-      "deviceType": "switch",
-      "deviceTypes": [
-        "switch"
-      ],
-      "guids": [],
-      "icon": {
-        "id": "de10c0fe-f20e-43b7-9cb2-6c7e988aa0e2",
-        "resolutions": [
-          [
-            25,
-            25
-          ],
-          [
-            32,
-            32
-          ],
-          [
-            51,
-            51
-          ],
-          [
-            64,
-            64
-          ],
-          [
-            101,
-            101
-          ],
-          [
-            128,
-            128
-          ],
-          [
-            129,
-            129
-          ],
-          [
-            256,
-            256
-          ],
-          [
-            257,
-            257
-          ],
-          [
-            512,
-            512
-          ],
-          [
-            1000,
-            1000
-          ]
-        ]
-      },
-      "id": "2444596d-37ea-4399-88b6-500464bcb987",
-      "images": {
-        "default": "63ceca38e4449e6c1a468364626312f6",
-        "nopadding": "d511b11dbe76eb93b32c379d47c1f73f",
-        "topology": "46f34d662832ca8b9299bbcb735e1d47"
-      },
-      "isARSupported": true,
-      "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
-      },
-      "product": {
-        "abbrev": "USW 24",
-        "name": "Switch 24"
-      },
-      "shortnames": [
-        "USL24B"
-      ],
-      "sku": "USL24B",
-      "sysid": "ed51",
-      "sysids": [
-        "ed51"
-      ],
-      "triplets": [
-        {
-          "k1": "USL24B",
-          "k3": "USL24B"
-        }
-      ],
-      "unifi": {
-        "adoptability": "adoptable",
-        "network": {
-          "chipset": "l",
-          "deviceCapabilities": [
-            "SWITCH",
-            "HAS_CLIENTS"
-          ],
-          "ethernetMaxSpeedMegabitsPerSecond": 1000,
-          "formFactor": [
-            "RACK_1U"
-          ],
-          "minimumFirmwareRequired": "4.0.6",
-          "model": "USL24B",
-          "numberOfPorts": 26,
-          "ports": {
-            "sfp": [
-              25,
-              26
-            ],
-            "standard": 24
-          },
-          "radios": {},
-          "systemIdHexadecimal": "ed51",
-          "type": "usw"
-        }
-      },
-      "videos": {}
-    },
-    {
-      "deviceType": "switch",
-      "deviceTypes": [
-        "switch"
-      ],
-      "guids": [],
-      "icon": {
-        "id": "45ab1100-1a8a-4b7d-990d-444bbe7deac5",
-        "resolutions": [
-          [
-            25,
-            25
-          ],
-          [
-            32,
-            32
-          ],
-          [
-            51,
-            51
-          ],
-          [
-            64,
-            64
-          ],
-          [
-            101,
-            101
-          ],
-          [
-            128,
-            128
-          ],
-          [
-            129,
-            129
-          ],
-          [
-            256,
-            256
-          ],
-          [
-            257,
-            257
-          ],
-          [
-            512,
-            512
-          ],
-          [
-            1000,
-            1000
-          ]
-        ]
-      },
-      "id": "981eeb6e-08dd-4fe2-916b-7b0cdd8583c0",
-      "images": {
-        "default": "7c6641b1e09bd6060bbc563e98a6714c",
-        "nopadding": "6bb4e055070b4f99c116a9a8c03c3587",
-        "topology": "136e2ec22f0fb3dc9defe09c680239d1"
-      },
-      "isARSupported": true,
-      "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
-      },
-      "product": {
-        "abbrev": "USW 24 PoE",
-        "name": "Switch 24 PoE"
-      },
-      "shortnames": [
-        "USL24PB"
-      ],
-      "sku": "USL24PB",
-      "sysid": "ed50",
-      "sysids": [
-        "ed50"
-      ],
-      "triplets": [
-        {
-          "k1": "USL24PB",
-          "k3": "USL24PB"
-        }
-      ],
-      "unifi": {
-        "adoptability": "adoptable",
-        "network": {
-          "chipset": "l",
-          "deviceCapabilities": [
-            "SWITCH",
-            "HAS_CLIENTS"
-          ],
-          "ethernetMaxSpeedMegabitsPerSecond": 1000,
-          "features": {
-            "poe": true
-          },
-          "formFactor": [
-            "RACK_1U"
-          ],
-          "minimumFirmwareRequired": "4.0.6",
-          "model": "USL24PB",
-          "numberOfPorts": 26,
-          "ports": {
-            "sfp": [
-              25,
-              26
-            ],
-            "standard": 24
-          },
-          "radios": {},
-          "systemIdHexadecimal": "ed50",
-          "type": "usw"
-        }
-      },
-      "videos": {}
-    },
-    {
-      "deviceType": "switch",
-      "deviceTypes": [
-        "switch"
-      ],
-      "guids": [],
-      "icon": {
-        "id": "cbad0f50-58c8-45a6-b58c-72fdb4d18ac4",
-        "resolutions": [
-          [
-            25,
-            25
-          ],
-          [
-            32,
-            32
-          ],
-          [
-            51,
-            51
-          ],
-          [
-            64,
-            64
-          ],
-          [
-            101,
-            101
-          ],
-          [
-            128,
-            128
-          ],
-          [
-            129,
-            129
-          ],
-          [
-            256,
-            256
-          ],
-          [
-            257,
-            257
-          ],
-          [
-            512,
-            512
-          ],
-          [
-            1000,
-            1000
-          ]
-        ]
-      },
-      "id": "304ff3f6-a5c0-46ba-be07-aaf9a537dee1",
-      "images": {
-        "default": "ed60a74a9956d1ab8ae9afbac2eaadbc",
-        "nopadding": "321b8899bd359601b6d3cfa07e41717d",
-        "topology": "49c49f8872df0f8b17434451ad7b6477"
-      },
-      "isARSupported": true,
-      "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
-      },
-      "product": {
-        "abbrev": "USW 48",
-        "name": "Switch 48"
-      },
-      "shortnames": [
-        "USL48B"
-      ],
-      "sku": "USL48B",
-      "sysid": "ed53",
-      "sysids": [
-        "ed53"
-      ],
-      "triplets": [
-        {
-          "k1": "USL48B",
-          "k3": "USL48B"
-        }
-      ],
-      "unifi": {
-        "adoptability": "adoptable",
-        "network": {
-          "chipset": "l",
-          "deviceCapabilities": [
-            "SWITCH",
-            "HAS_CLIENTS"
-          ],
-          "ethernetMaxSpeedMegabitsPerSecond": 1000,
-          "formFactor": [
-            "RACK_1U"
-          ],
-          "minimumFirmwareRequired": "4.0.6",
-          "model": "USL48B",
-          "numberOfPorts": 52,
-          "ports": {
-            "sfp": [
-              49,
-              50,
-              51,
-              52
-            ],
-            "standard": 48
-          },
-          "radios": {},
-          "systemIdHexadecimal": "ed53",
-          "type": "usw"
-        }
-      },
-      "videos": {}
-    },
-    {
-      "deviceType": "switch",
-      "deviceTypes": [
-        "switch"
-      ],
-      "guids": [],
-      "icon": {
-        "id": "896e056e-41cd-4484-88d5-9b34621d4c32",
-        "resolutions": [
-          [
-            25,
-            25
-          ],
-          [
-            32,
-            32
-          ],
-          [
-            51,
-            51
-          ],
-          [
-            64,
-            64
-          ],
-          [
-            101,
-            101
-          ],
-          [
-            128,
-            128
-          ],
-          [
-            129,
-            129
-          ],
-          [
-            256,
-            256
-          ],
-          [
-            257,
-            257
-          ],
-          [
-            512,
-            512
-          ],
-          [
-            1000,
-            1000
-          ]
-        ]
-      },
-      "id": "51bc007d-c9a0-48d2-87a9-9f36336cc023",
-      "images": {
-        "default": "deb28fbb37e5d674831948800b248990",
-        "nopadding": "30f5d24404cca9e1c87d6fe3143ea3bb",
-        "topology": "deb28fbb37e5d674831948800b248990"
-      },
-      "isARSupported": true,
-      "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
-      },
-      "product": {
-        "abbrev": "USW 48 PoE",
-        "name": "Switch 48 PoE"
-      },
-      "shortnames": [
-        "USL48PB"
-      ],
-      "sku": "USL48PB",
-      "sysid": "ed52",
-      "sysids": [
-        "ed52"
-      ],
-      "triplets": [
-        {
-          "k1": "USL48PB",
-          "k3": "USL48PB"
-        }
-      ],
-      "unifi": {
-        "adoptability": "adoptable",
-        "network": {
-          "chipset": "l",
-          "deviceCapabilities": [
-            "SWITCH",
-            "HAS_CLIENTS"
-          ],
-          "ethernetMaxSpeedMegabitsPerSecond": 1000,
-          "features": {
-            "poe": true
-          },
-          "formFactor": [
-            "RACK_1U"
-          ],
-          "minimumFirmwareRequired": "4.0.6",
-          "model": "USL48PB",
-          "numberOfPorts": 52,
-          "ports": {
-            "sfp": [
-              49,
-              50,
-              51,
-              52
-            ],
-            "standard": 48
-          },
-          "radios": {},
-          "systemIdHexadecimal": "ed52",
-          "type": "usw"
-        }
-      },
-      "videos": {}
-    },
-    {
-      "deviceType": "switch",
-      "deviceTypes": [
-        "switch"
-      ],
-      "guids": [],
-      "icon": {
-        "id": "89ee387a-8871-4d62-9bcd-1f557ee1c97f",
-        "resolutions": [
-          [
-            25,
-            25
-          ],
-          [
-            32,
-            32
-          ],
-          [
-            51,
-            51
-          ],
-          [
-            64,
-            64
-          ],
-          [
-            101,
-            101
-          ],
-          [
-            128,
-            128
-          ],
-          [
-            129,
-            129
-          ],
-          [
-            256,
-            256
-          ],
-          [
-            257,
-            257
-          ],
-          [
-            512,
-            512
-          ],
-          [
-            1000,
-            1000
-          ]
-        ]
-      },
-      "id": "7a776f5a-b03b-4530-ad49-688f8c19342a",
-      "images": {
-        "default": "1ed05326d26c963560c53bcd6fb1b2ae",
-        "nopadding": "e949b1092dc5ef48507eeadf2cbf54f9",
-        "topology": "46351a4e28941c0f17caf96515e94921"
-      },
-      "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
-      },
-      "product": {
-        "abbrev": "USW Lite 8 PoE",
-        "name": "Switch Lite 8 PoE"
-      },
-      "shortnames": [
-        "USL8LPB"
-      ],
-      "sku": "USL8LPB",
-      "sysid": "ed55",
-      "sysids": [
-        "ed55"
-      ],
-      "triplets": [
-        {
-          "k1": "USL8LPB",
-          "k3": "USL8LPB"
-        }
-      ],
-      "unifi": {
-        "adoptability": "adoptable",
-        "network": {
-          "chipset": "l",
-          "deviceCapabilities": [
-            "SWITCH",
-            "HAS_CLIENTS"
-          ],
-          "ethernetMaxSpeedMegabitsPerSecond": 1000,
-          "features": {
-            "poe": true
-          },
-          "formFactor": [
-            "DESKTOP",
-            "WALL"
-          ],
-          "minimumFirmwareRequired": "4.0.6",
-          "model": "USL8LPB",
-          "numberOfPorts": 8,
-          "ports": {
-            "standard": 8
-          },
-          "radios": {},
-          "systemIdHexadecimal": "ed55",
-          "type": "usw"
-        }
-      },
-      "videos": {}
-    },
-    {
-      "deviceType": "switch",
-      "deviceTypes": [
-        "switch"
-      ],
-      "guids": [],
-      "icon": {
-        "id": "7a060fbb-8a8b-471c-9f57-da477ff3e04e",
-        "resolutions": [
-          [
-            25,
-            25
-          ],
-          [
-            32,
-            32
-          ],
-          [
-            51,
-            51
-          ],
-          [
-            64,
-            64
-          ],
-          [
-            101,
-            101
-          ],
-          [
-            128,
-            128
-          ],
-          [
-            129,
-            129
-          ],
-          [
-            256,
-            256
-          ],
-          [
-            257,
-            257
-          ],
-          [
-            512,
-            512
-          ],
-          [
-            1000,
-            1000
-          ]
-        ]
-      },
-      "id": "e52b69d3-9477-4f57-a373-b8795550cf8f",
-      "images": {
-        "default": "e3fbf220c145f4301929576039d52d19",
-        "nopadding": "4608b98cfbc13adfb538490b117db81a",
-        "topology": "96c7cd1cb0ba8f00200d7a771136d05f"
-      },
-      "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
-      },
-      "product": {
-        "abbrev": "USW Flex Mini",
-        "name": "Switch Flex Mini"
-      },
-      "shortnames": [
-        "USMINI2"
-      ],
-      "sku": "USMINI2",
-      "sysid": "ed31",
-      "sysids": [
-        "ed31"
-      ],
-      "triplets": [],
-      "unifi": {
-        "adoptability": "adoptable",
-        "network": {
-          "chipset": "o",
-          "deviceCapabilities": [
-            "SWITCH",
-            "MCU_BASED",
-            "HAS_CLIENTS"
-          ],
-          "ethernetMaxSpeedMegabitsPerSecond": 1000,
-          "formFactor": [
-            "DESKTOP"
-          ],
-          "minimumFirmwareRequired": "1.2.1",
-          "model": "USMINI2",
-          "numberOfPorts": 5,
-          "ports": {
-            "standard": 5
-          },
-          "primaryPortGroupCount": 5,
-          "radios": {},
-          "systemIdHexadecimal": "ed31",
-          "type": "usw"
-        }
-      },
-      "videos": {}
-    },
-    {
       "deviceType": "power-supply",
       "deviceTypes": [
         "power-supply"
@@ -58896,7 +57998,8 @@
       },
       "shortnames": [
         "USP-PDU-Pro-AU",
-        "USPPDUPAU"
+        "USPPDUPAU",
+        "USPPDUP-AU"
       ],
       "sku": "USP-PDU-Pro-AU",
       "sysid": "ed47",
@@ -58983,7 +58086,8 @@
       },
       "shortnames": [
         "USP-PDU-Pro-EU",
-        "USPPDUPEU"
+        "USPPDUPEU",
+        "USPPDUP-EU"
       ],
       "sku": "USP-PDU-Pro-EU",
       "sysid": "ed18",
@@ -59185,7 +58289,8 @@
       },
       "shortnames": [
         "USP-PDU-Pro-UK",
-        "USPPDUPUK"
+        "USPPDUPUK",
+        "USPPDUP-UK"
       ],
       "sku": "USP-PDU-Pro-UK",
       "sysid": "ed46",
@@ -59714,6 +58819,138 @@
       "deviceTypes": [
         "switch"
       ],
+      "guids": [],
+      "icon": {
+        "id": "c70814d7-8070-4237-8a9a-353f2f32484e",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "04b22422-15d0-4288-9c47-1cfe232af98e",
+      "images": {
+        "default": "5ec8a16d681ceb7078592d27fc297455",
+        "nopadding": "554beb7be9d783e9bc4a45c40c43c890",
+        "topology": "11fef68ceb5541db0f5549e8c1416dc0"
+      },
+      "isARSupported": true,
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USW 16 PoE",
+        "name": "Switch 16 PoE"
+      },
+      "shortnames": [
+        "USL16PB"
+      ],
+      "sku": "USW-16-PoE",
+      "sysid": "ed2e",
+      "sysids": [
+        "ed2e"
+      ],
+      "triplets": [
+        {
+          "k1": "USL16PB",
+          "k3": "USL16PB"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "l",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "features": {
+            "poe": true
+          },
+          "formFactor": [
+            "RACK_1U"
+          ],
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USL16PB",
+          "numberOfPorts": 18,
+          "ports": {
+            "sfp": [
+              17,
+              18
+            ],
+            "standard": 16
+          },
+          "radios": {},
+          "systemIdHexadecimal": "ed2e",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "anatel": "00593-21-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USW-16-PoE",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
+      "deviceType": "switch",
+      "deviceTypes": [
+        "switch"
+      ],
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -59827,6 +59064,135 @@
           },
           "radios": {},
           "systemIdHexadecimal": "ed20",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "anatel": "17193-20-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": " USW-24",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
+      "deviceType": "switch",
+      "deviceTypes": [
+        "switch"
+      ],
+      "guids": [],
+      "icon": {
+        "id": "de10c0fe-f20e-43b7-9cb2-6c7e988aa0e2",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "2444596d-37ea-4399-88b6-500464bcb987",
+      "images": {
+        "default": "63ceca38e4449e6c1a468364626312f6",
+        "nopadding": "d511b11dbe76eb93b32c379d47c1f73f",
+        "topology": "46f34d662832ca8b9299bbcb735e1d47"
+      },
+      "isARSupported": true,
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USW 24",
+        "name": "Switch 24"
+      },
+      "shortnames": [
+        "USL24B"
+      ],
+      "sku": "USW-24",
+      "sysid": "ed51",
+      "sysids": [
+        "ed51"
+      ],
+      "triplets": [
+        {
+          "k1": "USL24B",
+          "k3": "USL24B"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "l",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "RACK_1U"
+          ],
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USL24B",
+          "numberOfPorts": 26,
+          "ports": {
+            "sfp": [
+              25,
+              26
+            ],
+            "standard": 24
+          },
+          "radios": {},
+          "systemIdHexadecimal": "ed51",
           "type": "usw"
         }
       },
@@ -60129,6 +59495,138 @@
       "deviceTypes": [
         "switch"
       ],
+      "guids": [],
+      "icon": {
+        "id": "45ab1100-1a8a-4b7d-990d-444bbe7deac5",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "981eeb6e-08dd-4fe2-916b-7b0cdd8583c0",
+      "images": {
+        "default": "7c6641b1e09bd6060bbc563e98a6714c",
+        "nopadding": "6bb4e055070b4f99c116a9a8c03c3587",
+        "topology": "136e2ec22f0fb3dc9defe09c680239d1"
+      },
+      "isARSupported": true,
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USW 24 PoE",
+        "name": "Switch 24 PoE"
+      },
+      "shortnames": [
+        "USL24PB"
+      ],
+      "sku": "USW-24-PoE",
+      "sysid": "ed50",
+      "sysids": [
+        "ed50"
+      ],
+      "triplets": [
+        {
+          "k1": "USL24PB",
+          "k3": "USL24PB"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "l",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "features": {
+            "poe": true
+          },
+          "formFactor": [
+            "RACK_1U"
+          ],
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USL24PB",
+          "numberOfPorts": 26,
+          "ports": {
+            "sfp": [
+              25,
+              26
+            ],
+            "standard": 24
+          },
+          "radios": {},
+          "systemIdHexadecimal": "ed50",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "anatel": "00593-21-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USW-24-PoE",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
+      "deviceType": "switch",
+      "deviceTypes": [
+        "switch"
+      ],
       "guids": [
         "9134487e-5690-4f19-b173-2167a57af64e"
       ],
@@ -60377,6 +59875,137 @@
     },
     {
       "compliance": {
+        "anatel": "17193-20-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USW-48",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
+      "deviceType": "switch",
+      "deviceTypes": [
+        "switch"
+      ],
+      "guids": [],
+      "icon": {
+        "id": "cbad0f50-58c8-45a6-b58c-72fdb4d18ac4",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "304ff3f6-a5c0-46ba-be07-aaf9a537dee1",
+      "images": {
+        "default": "ed60a74a9956d1ab8ae9afbac2eaadbc",
+        "nopadding": "321b8899bd359601b6d3cfa07e41717d",
+        "topology": "49c49f8872df0f8b17434451ad7b6477"
+      },
+      "isARSupported": true,
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USW 48",
+        "name": "Switch 48"
+      },
+      "shortnames": [
+        "USL48B"
+      ],
+      "sku": "USW-48",
+      "sysid": "ed53",
+      "sysids": [
+        "ed53"
+      ],
+      "triplets": [
+        {
+          "k1": "USL48B",
+          "k3": "USL48B"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "l",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "RACK_1U"
+          ],
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USL48B",
+          "numberOfPorts": 52,
+          "ports": {
+            "sfp": [
+              49,
+              50,
+              51,
+              52
+            ],
+            "standard": 48
+          },
+          "radios": {},
+          "systemIdHexadecimal": "ed53",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
         "anatel": "00593-21-08356",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "USW-48-PoE",
@@ -60512,6 +60141,140 @@
           },
           "radios": {},
           "systemIdHexadecimal": "ed22",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "anatel": "00593-21-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "USW-48-PoE",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_A"
+          ]
+        }
+      },
+      "deviceType": "switch",
+      "deviceTypes": [
+        "switch"
+      ],
+      "guids": [],
+      "icon": {
+        "id": "896e056e-41cd-4484-88d5-9b34621d4c32",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "51bc007d-c9a0-48d2-87a9-9f36336cc023",
+      "images": {
+        "default": "deb28fbb37e5d674831948800b248990",
+        "nopadding": "30f5d24404cca9e1c87d6fe3143ea3bb",
+        "topology": "deb28fbb37e5d674831948800b248990"
+      },
+      "isARSupported": true,
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USW 48 PoE",
+        "name": "Switch 48 PoE"
+      },
+      "shortnames": [
+        "USL48PB"
+      ],
+      "sku": "USW-48-PoE",
+      "sysid": "ed52",
+      "sysids": [
+        "ed52"
+      ],
+      "triplets": [
+        {
+          "k1": "USL48PB",
+          "k3": "USL48PB"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "l",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "features": {
+            "poe": true
+          },
+          "formFactor": [
+            "RACK_1U"
+          ],
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USL48PB",
+          "numberOfPorts": 52,
+          "ports": {
+            "sfp": [
+              49,
+              50,
+              51,
+              52
+            ],
+            "standard": 48
+          },
+          "radios": {},
+          "systemIdHexadecimal": "ed52",
           "type": "usw"
         }
       },
@@ -61890,6 +61653,127 @@
     },
     {
       "compliance": {
+        "anatel": "14501-20-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USW-Flex-Mini",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
+      "deviceType": "switch",
+      "deviceTypes": [
+        "switch"
+      ],
+      "guids": [],
+      "icon": {
+        "id": "7a060fbb-8a8b-471c-9f57-da477ff3e04e",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "e52b69d3-9477-4f57-a373-b8795550cf8f",
+      "images": {
+        "default": "e3fbf220c145f4301929576039d52d19",
+        "nopadding": "4608b98cfbc13adfb538490b117db81a",
+        "topology": "96c7cd1cb0ba8f00200d7a771136d05f"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USW Flex Mini",
+        "name": "Switch Flex Mini"
+      },
+      "shortnames": [
+        "USMINI2"
+      ],
+      "sku": "USW-Flex-Mini",
+      "sysid": "ed31",
+      "sysids": [
+        "ed31"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "o",
+          "deviceCapabilities": [
+            "SWITCH",
+            "MCU_BASED",
+            "HAS_CLIENTS"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "DESKTOP"
+          ],
+          "minimumFirmwareRequired": "1.2.1",
+          "model": "USMINI2",
+          "numberOfPorts": 5,
+          "ports": {
+            "standard": 5
+          },
+          "primaryPortGroupCount": 5,
+          "radios": {},
+          "systemIdHexadecimal": "ed31",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "USW-Flex-XG",
         "rcm": true,
@@ -62444,6 +62328,134 @@
       "deviceTypes": [
         "switch"
       ],
+      "guids": [],
+      "icon": {
+        "id": "ea06a05c-0434-4dc1-b423-cff51ff5a017",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "33606a89-370f-4930-b7b5-05376950f90b",
+      "images": {
+        "default": "7ab4da709aff50bae187555a6d084f90",
+        "nopadding": "c1e76f81b46a31d8da6ba7de56cb33cf",
+        "topology": "51983b94e9b75075f12c836f7be994ef"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USW Lite 16 PoE",
+        "name": "Switch Lite 16 PoE"
+      },
+      "shortnames": [
+        "USL16LPB"
+      ],
+      "sku": "USW-Lite-16-PoE",
+      "sysid": "ed54",
+      "sysids": [
+        "ed54"
+      ],
+      "triplets": [
+        {
+          "k1": "USL16LPB",
+          "k3": "USL16LPB"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "l",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "features": {
+            "poe": true
+          },
+          "formFactor": [
+            "DESKTOP",
+            "WALL"
+          ],
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USL16LPB",
+          "numberOfPorts": 16,
+          "ports": {
+            "standard": 16
+          },
+          "radios": {},
+          "systemIdHexadecimal": "ed54",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "anatel": "04479-21-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USW-Lite-16-PoE",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
+      "deviceType": "switch",
+      "deviceTypes": [
+        "switch"
+      ],
       "fcc": "Compliant",
       "guids": [],
       "ic": "Compliant",
@@ -62682,6 +62694,134 @@
           },
           "radios": {},
           "systemIdHexadecimal": "ed06",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "anatel": "04479-21-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USW-Lite-8-PoE",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
+      "deviceType": "switch",
+      "deviceTypes": [
+        "switch"
+      ],
+      "guids": [],
+      "icon": {
+        "id": "89ee387a-8871-4d62-9bcd-1f557ee1c97f",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "7a776f5a-b03b-4530-ad49-688f8c19342a",
+      "images": {
+        "default": "1ed05326d26c963560c53bcd6fb1b2ae",
+        "nopadding": "e949b1092dc5ef48507eeadf2cbf54f9",
+        "topology": "46351a4e28941c0f17caf96515e94921"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USW Lite 8 PoE",
+        "name": "Switch Lite 8 PoE"
+      },
+      "shortnames": [
+        "USL8LPB"
+      ],
+      "sku": "USW-Lite-8-PoE",
+      "sysid": "ed55",
+      "sysids": [
+        "ed55"
+      ],
+      "triplets": [
+        {
+          "k1": "USL8LPB",
+          "k3": "USL8LPB"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "l",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "features": {
+            "poe": true
+          },
+          "formFactor": [
+            "DESKTOP",
+            "WALL"
+          ],
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USL8LPB",
+          "numberOfPorts": 8,
+          "ports": {
+            "standard": 8
+          },
+          "radios": {},
+          "systemIdHexadecimal": "ed55",
           "type": "usw"
         }
       },
@@ -65717,7 +65857,8 @@
         "name": "Switch Pro XG Aggregation"
       },
       "shortnames": [
-        "USW-Pro-XG-Aggregation"
+        "USW-Pro-XG-Aggregation",
+        "USWPXGAGG"
       ],
       "sku": "USW-Pro-XG-Aggregation",
       "sysid": "f003",
@@ -78203,5 +78344,5 @@
       "videos": {}
     }
   ],
-  "version": "19552b9c2060eb9b44f5c5c32ec27695a9840ed6"
+  "version": "c5faca36d6ea1c9d4dfb326c9811c5c1c46419b4"
 }
