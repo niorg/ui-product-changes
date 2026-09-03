@@ -42792,7 +42792,8 @@
                 "hard": 25,
                 "soft": 20
               }
-            }
+            },
+            "memoryWarningPercentage": 95
           },
           "minimumFirmwareRequired": "0.9.0",
           "model": "UDMEA4C",
@@ -78468,5 +78469,5 @@
       "videos": {}
     }
   ],
-  "version": "6385f65febfd455a3898c1959fcc002bdc126c4c"
+  "version": "e286ed5bc83bb0b6f52f5608e298b6d6a2a5acce"
 }
