@@ -9362,6 +9362,120 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
+      "deviceTypes": [
+        "switch"
+      ],
+      "guids": [
+        "48050fad-e0f6-45bf-be3c-f05bbd90dfa6"
+      ],
+      "icon": {
+        "id": "9e556d4f-b7c2-45f3-b0d5-c73cacd39c7d",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "406ace50-e2ab-4582-8f9a-7bff770ceed3",
+      "images": {
+        "default": "82c4b25d3faf7e0941671db0cc3e31f6",
+        "nopadding": "2f941b0d7357759eb1a270ed7e1ddb29",
+        "rack": "d401849241838c1c42aff3f1ce5126be",
+        "topology": "443e927d47cbdf308caad09af1748e78"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "ECS Core",
+        "name": "Switch Enterprise Campus Core"
+      },
+      "shortnames": [
+        "ECSCORE",
+        "ECS-Core"
+      ],
+      "sku": "ECS-Core",
+      "sysid": "f07d",
+      "sysids": [
+        "f07d"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "s",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "diagram": [
+            "01 03 __ 05 07 __ 09 11 __ 13 15 __ 17 19 __ 21 23 __ 25 27 __ 29 31 __ 33",
+            "02 04 __ 06 08 __ 10 12 __ 14 16 __ 18 20 __ 22 24 __ 26 28 __ 30 32 __ __"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 100000,
+          "features": {
+            "poe": false
+          },
+          "formFactor": [
+            "RACK_1U"
+          ],
+          "minimumFirmwareRequired": "0.1.7",
+          "model": "USWF07D",
+          "numberOfPorts": 33,
+          "ports": {
+            "qsfp28": 32
+          },
+          "radios": {},
+          "systemIdHexadecimal": "f07d",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
       "btle": {
         "factoryDefault": "f76372d2-3b1c-4a01-8faa-94c57ecdfa77",
         "userConfigured": "be4be4da-24cd-4d5f-ba65-ef8cbec31d01"
@@ -78469,5 +78583,5 @@
       "videos": {}
     }
   ],
-  "version": "e286ed5bc83bb0b6f52f5608e298b6d6a2a5acce"
+  "version": "cc19e0dd750018614a5ba7637f4fde2c8f9af406"
 }
