@@ -41672,12 +41672,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
+            "HAS_TEMPERATURE_SENSOR",
+            "BRIDGE",
             "ACCESS_POINT_SWITCH",
             "AUTOLINK_ELEMENT",
             "HAS_CLIENTS",
-            "ELEMENT_WITH_UPLINK_PRIORITY",
-            "HAS_TEMPERATURE_SENSOR",
-            "BRIDGE"
+            "ELEMENT_WITH_UPLINK_PRIORITY"
           ],
           "diagram": [
             "01"
@@ -68562,6 +68562,96 @@
         "camera"
       ],
       "guids": [
+        "b297d109-894d-4a5b-9c66-a70871f49b0b"
+      ],
+      "icon": {
+        "id": "6b7939f7-a2cb-43da-af68-36d2db58b9ff",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "c3929f8e-6563-40af-b464-89a4dd77787d",
+      "images": {
+        "default": "17cde9a839c7879b8e3111774daf1680",
+        "nopadding": "3370d0ea790e835eca142dab6269dc16",
+        "topology": "02b8fa8866e594aa9391b84af4a25b7a"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "AI MS 2",
+        "name": "Camera AI MS 2"
+      },
+      "shortnames": [
+        "UVC-AI-MS-2-W"
+      ],
+      "sku": "UVC-AI-MS-2-W",
+      "sysid": "b016",
+      "sysids": [
+        "b016"
+      ],
+      "triplets": [
+        {
+          "k1": "UVC-AI-MS-2-W",
+          "k3": "UVC-AI-MS-2-W"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "camera",
+      "deviceTypes": [
+        "camera"
+      ],
+      "guids": [
         "732b9123-3664-48e8-a015-dc40830a717a"
       ],
       "icon": {
@@ -78583,5 +78673,5 @@
       "videos": {}
     }
   ],
-  "version": "cc19e0dd750018614a5ba7637f4fde2c8f9af406"
+  "version": "a1e3009dae9edda755d538c0c629625192415102"
 }
