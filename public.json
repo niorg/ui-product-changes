@@ -6513,7 +6513,7 @@
         "name": "airMAX"
       },
       "product": {
-        "abbrev": "BS5-HP",
+        "abbrev": "BS5 HP",
         "name": "Bullet M5 HP"
       },
       "shortnames": [
@@ -9758,7 +9758,7 @@
       },
       "product": {
         "abbrev": "EFG",
-        "name": "Enterprise Fortress Gateway"
+        "name": "Enterprise Firewall"
       },
       "shortnames": [
         "EFG",
@@ -44180,7 +44180,7 @@
         "name": "UniFi"
       },
       "product": {
-        "abbrev": "UDR-5G-Max",
+        "abbrev": "UDR 5G Max",
         "name": "Dream Router 5G Max"
       },
       "shortnames": [
@@ -78673,5 +78673,5 @@
       "videos": {}
     }
   ],
-  "version": "a1e3009dae9edda755d538c0c629625192415102"
+  "version": "f80a3eea283f620dfb74ab3360cb62fe4fd79038"
 }
