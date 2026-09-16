@@ -1,6 +1,25 @@
 {
   "devices": [
     {
+      "compliance": {
+        "fcc": "SWX-ACBAC",
+        "ic": "6545A-ACBAC",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "ACB-AC",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "access-point",
       "deviceTypes": [
         "access-point"
@@ -102,6 +121,25 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-ACBISP",
+        "ic": "6545A-ACBISP",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "ACB-ISP",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "access-point",
       "deviceTypes": [
         "access-point"
@@ -200,6 +238,18 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "AF-11FX",
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -367,6 +417,25 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-AF24",
+        "ic": "6545A-AF24",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "AF-24",
+        "rcm": true,
+        "rfCmFcc": 110.0,
+        "rfCmIc": 110.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -456,6 +525,25 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-AF24",
+        "ic": "6545A-AF24",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "AF-24HD",
+        "rcm": true,
+        "rfCmFcc": 110.0,
+        "rfCmIc": 110.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -621,6 +709,25 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-AF2X",
+        "ic": "6545A-AF2X",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "AF-2X",
+        "rcm": true,
+        "rfCmFcc": 71.0,
+        "rfCmIc": 71.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -786,6 +893,25 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-AF4X",
+        "ic": "6545A-AF4X",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "AF-4X",
+        "rcm": true,
+        "rfCmFcc": 180.0,
+        "rfCmIc": 180.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -873,6 +999,27 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "00989-15-08356",
+        "cn": "2015AJ2259",
+        "fcc": "SWX-AF5",
+        "ic": "6545A-AF5",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "AF-5",
+        "rcm": true,
+        "rfCmFcc": 126.0,
+        "rfCmIc": 126.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -960,6 +1107,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "03750-17-08356",
+        "modelName": "AF-5G23-S45"
+      },
       "deviceType": "antenna",
       "deviceTypes": [
         "antenna"
@@ -1038,6 +1189,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "03750-17-08356",
+        "modelName": "AF-5G30-S45"
+      },
       "deviceType": "antenna",
       "deviceTypes": [
         "antenna"
@@ -1116,6 +1271,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "03750-17-08356",
+        "modelName": "AF-5G34-S45"
+      },
       "deviceType": "antenna",
       "deviceTypes": [
         "antenna"
@@ -1194,6 +1353,27 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "00994-15-08356",
+        "cn": "Expired",
+        "fcc": "SWX-AF5U",
+        "ic": "6545A-AF5U",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "AF-5U",
+        "rcm": true,
+        "rfCmFcc": 125.0,
+        "rfCmIc": 125.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -1285,6 +1465,26 @@
       "btle": {
         "factoryDefault": "5f4587c3-4819-4979-974a-e19a1557b70e",
         "userConfigured": "ac3e0973-cfee-4d5b-935a-ffca96959296"
+      },
+      "compliance": {
+        "anatel": "06274-18-08356",
+        "fcc": "SWX-AF5XHD",
+        "ic": "6545A-AF5XHD",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "AF-5XHD",
+        "rcm": true,
+        "rfCmFcc": 108.0,
+        "rfCmIc": 265.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
       },
       "deviceType": "radio",
       "deviceTypes": [
@@ -1757,6 +1957,25 @@
         "factoryDefault": "0a81c6c1-f6cf-4295-8163-cdf62d8bee99",
         "userConfigured": "b663fde6-36e5-47f9-a4fe-1ea3a3d5098f"
       },
+      "compliance": {
+        "fcc": "SWX-AF60",
+        "ic": "6545A-AF60",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "AF60",
+        "rcm": true,
+        "rfCmFcc": 45.0,
+        "rfCmIc": 45.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -1868,6 +2087,25 @@
       "btle": {
         "factoryDefault": "0ef741b7-5b45-4b43-86c4-fee51b70da9f",
         "userConfigured": "c9432429-0645-43ff-ae12-12a8d9c9c6d0"
+      },
+      "compliance": {
+        "fcc": "SWX-AF60HD",
+        "ic": "6545A-AF60HD",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "AF60-HD",
+        "rcm": true,
+        "rfCmFcc": 60.0,
+        "rfCmIc": 60.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
       },
       "deviceType": "radio",
       "deviceTypes": [
@@ -1984,6 +2222,29 @@
         "factoryDefault": "1de27764-5338-4fe5-b856-c2b2cc33d821",
         "userConfigured": "716dc54e-cce4-4e1d-9b40-39e2d4e50ad4"
       },
+      "compliance": {
+        "fcc": "SWX-AF60LR",
+        "ic": "6545A-AF60LR",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jrf": [
+          "217-230945"
+        ],
+        "modelName": "AF60-LR",
+        "ncc": "CCAI22LP0420T3",
+        "rcm": true,
+        "rfCmFcc": 110.0,
+        "rfCmIc": 106.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -2094,6 +2355,25 @@
       "btle": {
         "factoryDefault": "9984640a-4f18-4d70-81a0-214c548ff299",
         "userConfigured": "f3d8c841-7ffc-4b08-b283-ee32c493afd2"
+      },
+      "compliance": {
+        "fcc": "SWX-AF60XG",
+        "ic": "6545A-AF60XG",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "AF60-XG",
+        "rcm": true,
+        "rfCmFcc": 195.0,
+        "rfCmIc": 195.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
       },
       "deviceType": "radio",
       "deviceTypes": [
@@ -2215,6 +2495,26 @@
         "factoryDefault": "25b7f024-ee1e-42c5-a7d3-7571ed4b0942",
         "userConfigured": "73c6970a-4de4-4d7b-a69e-b9e5ab846bcc"
       },
+      "compliance": {
+        "fcc": "SWX-AF60XR (old)",
+        "ic": "6545A-AF60XR (old)",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "AF60-XR",
+        "ncc": "CCAH23LP3900T4",
+        "rcm": true,
+        "rfCmFcc": 1000.0,
+        "rfCmIc": 1000.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -2327,6 +2627,29 @@
         "factoryDefault": "97bf044a-ae79-4662-9556-86be477b4048",
         "userConfigured": "db26a9c5-38f6-469f-b25a-3a0835e8d858"
       },
+      "compliance": {
+        "fcc": "SWX-AFAP",
+        "ic": "6545A-AFAP",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jrf": [
+          "217-220516"
+        ],
+        "modelName": "AFi-ALN-P",
+        "ncc": "CCAH22LP2730T5",
+        "rcm": true,
+        "rfCmFcc": 27.0,
+        "rfCmIc": 27.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "mesh-point",
       "deviceTypes": [
         "mesh-point"
@@ -2422,6 +2745,32 @@
         "factoryDefault": "f650001a-c7bc-48b8-b4d6-2094df0f9e96",
         "userConfigured": "1de8dfb6-798a-4c85-ae3a-d1383f6489d0"
       },
+      "compliance": {
+        "fcc": "SWX-AFAR",
+        "ic": "6545A-AFAR",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jpa": [
+          "D22-0064001"
+        ],
+        "jrf": [
+          "217-220513"
+        ],
+        "modelName": "AFi-ALN-R",
+        "ncc": "CCAH20LP0190T2",
+        "rcm": true,
+        "rfCmFcc": 27.0,
+        "rfCmIc": 27.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "router",
       "deviceTypes": [
         "router"
@@ -2516,6 +2865,27 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "cn": "2019AJ0378",
+        "fcc": "SWX-AFIP",
+        "ic": "6545A-AFIP",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "AFi-INS-P",
+        "ncc": "CCAH19LP0660T8",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "mesh-point",
       "deviceTypes": [
         "mesh-point"
@@ -2604,6 +2974,33 @@
       "btle": {
         "factoryDefault": "8e2ac264-c025-404b-8542-4279bb20c9db",
         "userConfigured": "29715f63-3ee8-4eb5-8083-57f2c3cc2290"
+      },
+      "compliance": {
+        "cn": "Expired 2019AJ0377",
+        "fcc": "SWX-AFIR",
+        "ic": "6545A-AFIR",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jpa": [
+          "D 18 0218 201"
+        ],
+        "jrf": [
+          "201-190071"
+        ],
+        "modelName": "AFi-INS-R",
+        "ncc": "CCAH19LP0650T5",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
       },
       "deviceType": "router",
       "deviceTypes": [
@@ -2947,6 +3344,26 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-AFPHD SWX-AFPHDP (PA)",
+        "ic": "6545A-AFPHD 6545A-AFPHDP (PA)",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "AFi-P-G",
+        "ncc": "CCAF17LP210AT0",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "mesh-point",
       "deviceTypes": [
         "mesh-point"
@@ -3035,6 +3452,30 @@
       "btle": {
         "factoryDefault": "a1186430-e306-4a21-a7fc-2a8c036f177b",
         "userConfigured": "524d7208-e7c3-4e49-bca0-5520a7ea1252"
+      },
+      "compliance": {
+        "cn": "2016AJ9144",
+        "fcc": "SWX-AFPHD SWX-AFPHDP (PA)",
+        "ic": "6545A-AFPHD 6545A-AFPHDP (PA)",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jrf": [
+          "201-200458"
+        ],
+        "modelName": "AFi-P-HD",
+        "ncc": "CCAF17LP2010T8",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
       },
       "deviceType": "mesh-point",
       "deviceTypes": [
@@ -3316,6 +3757,33 @@
         "factoryDefault": "44ac45ab-9bb7-4f18-81fd-315753713b0d",
         "userConfigured": "c1962abe-9ec0-4c94-bb82-d0df81d0f37d"
       },
+      "compliance": {
+        "cn": "2016AJ9085",
+        "fcc": "SWX-AFR",
+        "ic": "6545A-AFR",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jpa": [
+          "D 18 0219 201"
+        ],
+        "jrf": [
+          "201-190072"
+        ],
+        "modelName": "AFi-R",
+        "ncc": "CCAH18LP0290T6",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "router",
       "deviceTypes": [
         "router"
@@ -3505,6 +3973,26 @@
       "btle": {
         "factoryDefault": "5296cda4-b87d-4aea-b1bb-daa00b11bb47",
         "userConfigured": "685bfcb6-69ec-4412-9726-ea680836054e"
+      },
+      "compliance": {
+        "fcc": "SWX-AFR SWX-AFRP (PA)",
+        "ic": "6545A-AFR 6545A-AFRP (PA)",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "AFi-R-G",
+        "ncc": "CCAH18LP0291T8",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
       },
       "deviceType": "router",
       "deviceTypes": [
@@ -3778,6 +4266,19 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-AFSP",
+        "ic": "6545A-AFSP",
+        "modelName": "AFi-SP",
+        "text": {
+          "CA": [
+            "RF"
+          ],
+          "US": [
+            "RF"
+          ]
+        }
+      },
       "deviceType": "power-supply",
       "deviceTypes": [
         "power-supply"
@@ -3866,6 +4367,19 @@
       "btle": {
         "factoryDefault": "765d3900-cb20-4b0a-9da6-2debfd0893bd",
         "userConfigured": "71bcef36-8c0f-4c16-98f8-6331512817df"
+      },
+      "compliance": {
+        "fcc": "SWX-AFT",
+        "ic": "6545A-AFT",
+        "modelName": "AFi-T",
+        "text": {
+          "CA": [
+            "RF"
+          ],
+          "US": [
+            "RF"
+          ]
+        }
       },
       "deviceType": "radio",
       "deviceTypes": [
@@ -4145,6 +4659,18 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "AG-HP-5G23",
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_A"
+          ]
+        }
+      },
       "deviceType": "antenna",
       "deviceTypes": [
         "antenna"
@@ -6069,6 +6595,25 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-BDBAC",
+        "ic": "6545A-BDBAC",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "B-DB-AC",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -6539,6 +7084,25 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-BDBAC",
+        "ic": "6545A-BDBAC",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "BulletAC-IP67",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -6637,6 +7201,29 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "13848-22-08356",
+        "fcc": "SWX-M2BW",
+        "ic": "6545A-M2BW",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "jrf": [
+          "006-000231"
+        ],
+        "modelName": "BulletM2-HP",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -7214,6 +7801,20 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "06412-25-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "E7-Audience",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_A"
+          ]
+        }
+      },
       "deviceType": "access-point",
       "deviceTypes": [
         "access-point"
@@ -7882,6 +8483,19 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-E7CPI",
+        "ic": "6545A-E7CPI",
+        "modelName": "E7-Campus-Indoor",
+        "text": {
+          "CA": [
+            "RF"
+          ],
+          "US": [
+            "RF"
+          ]
+        }
+      },
       "deviceType": "access-point",
       "deviceTypes": [
         "access-point"
@@ -8119,6 +8733,13 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "05213-26-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "EAV-Fiber",
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -8234,6 +8855,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "EAV-XG-24-PoE",
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -8624,6 +9251,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "05077-26-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ECS-24S"
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -8744,6 +9376,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "07216-25-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ECS-24S-PoE"
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -8993,6 +9630,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "05077-26-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ECS-48S"
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -9113,6 +9755,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "07216-25-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ECS-48S-PoE"
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -9362,6 +10009,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "07780-25-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "ECS-Core"
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -10340,6 +10992,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "EP-24V-72W"
+      },
       "deviceType": "power-supply",
       "deviceTypes": [
         "power-supply"
@@ -10438,6 +11094,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "EP-54V-150W"
+      },
       "deviceType": "power-supply",
       "deviceTypes": [
         "power-supply"
@@ -10538,6 +11198,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "EP-54V-72W"
+      },
       "deviceType": "power-supply",
       "deviceTypes": [
         "power-supply"
@@ -10711,6 +11375,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "06157-18-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "EP-R6",
+        "rcm": true
+      },
       "deviceType": "router",
       "deviceTypes": [
         "router"
@@ -10808,6 +11478,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "EP-R8"
+      },
       "deviceType": "router",
       "deviceTypes": [
         "router"
@@ -10905,6 +11579,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "07229-18-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "EP-S16",
+        "rcm": true
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -11084,6 +11764,11 @@
         "factoryDefault": "0b3db31c-db2b-4811-bc2d-8c960f0319fd",
         "userConfigured": "e6c39d85-3145-41e3-8c35-265bdc213981"
       },
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ER-10X",
+        "rcm": true
+      },
       "deviceType": "router",
       "deviceTypes": [
         "router"
@@ -11190,6 +11875,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "04564-19-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ER-12",
+        "rcm": true
+      },
       "deviceType": "router",
       "deviceTypes": [
         "router"
@@ -11286,6 +11977,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ER-12P",
+        "rcm": true
+      },
       "deviceType": "router",
       "deviceTypes": [
         "router"
@@ -11382,6 +12078,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-ERBTD",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ER-4",
+        "rcm": true
+      },
       "deviceType": "router",
       "deviceTypes": [
         "router"
@@ -11477,6 +12179,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-ERBTD",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ER-6P",
+        "rcm": true
+      },
       "deviceType": "router",
       "deviceTypes": [
         "router"
@@ -11572,6 +12280,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "00843-15-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "ER-8"
+      },
       "deviceType": "router",
       "deviceTypes": [
         "router"
@@ -11671,6 +12384,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "ER-8-XG",
+        "rcm": true
+      },
       "deviceType": "router",
       "deviceTypes": [
         "router"
@@ -11767,6 +12485,15 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "02577-16-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "jpa": [
+          "D23-0074001"
+        ],
+        "modelName": "ER-X",
+        "rcm": true
+      },
       "deviceType": "router",
       "deviceTypes": [
         "router"
@@ -11866,6 +12593,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "02579-16-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "ER-X-SFP",
+        "rcm": true
+      },
       "deviceType": "router",
       "deviceTypes": [
         "router"
@@ -11965,6 +12698,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "00888-15-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ERLite-3"
+      },
       "deviceType": "router",
       "deviceTypes": [
         "router"
@@ -12062,6 +12800,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ERPoe-5"
+      },
       "deviceType": "router",
       "deviceTypes": [
         "router"
@@ -12160,6 +12902,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "00843-15-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "ERPro-8"
+      },
       "deviceType": "router",
       "deviceTypes": [
         "router"
@@ -12259,6 +13006,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ES-10X",
+        "rcm": true
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -12356,6 +13108,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ES-10XP",
+        "rcm": true
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -12452,6 +13209,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ES-12F",
+        "rcm": true
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -12555,6 +13317,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "07259-18-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ES-16-150W",
+        "rcm": true
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -12660,6 +13428,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "00820-20-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ES-16-XG",
+        "rcm": true
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -12763,6 +13537,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ES-16XP"
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -12851,6 +13629,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ES-18X",
+        "rcm": true
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -12951,6 +13734,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "01245-15-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "ES-24-250W",
+        "rcm": true
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -13056,6 +13845,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "02418-16-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "ES-24-500W",
+        "rcm": true
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -13161,6 +13956,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "00974-19-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "ES-24-Lite",
+        "rcm": true
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -13267,6 +14068,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "02678-15-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "ES-48-500W",
+        "rcm": true
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -13372,6 +14179,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "02419-16-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "ES-48-750W",
+        "rcm": true
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -13474,6 +14287,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "00161-19-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ES-48-Lite",
+        "rcm": true
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -13580,6 +14399,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "00837-15-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ES-5XP",
+        "rcm": true
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -13683,6 +14508,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "07833-18-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ES-8-150W",
+        "rcm": true
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -13788,6 +14619,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "ETH-SP-G2",
+        "rcm": true
+      },
       "deviceType": "tool",
       "deviceTypes": [
         "tool"
@@ -13884,6 +14720,25 @@
       "btle": {
         "factoryDefault": "95287a83-ee8d-4266-9e91-708ddde272b4",
         "userConfigured": "6796f4de-8a0d-4955-aa21-f8a7534f027a"
+      },
+      "compliance": {
+        "fcc": "SWX-GBE",
+        "ic": "6545A-GBE",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "GBE",
+        "rcm": true,
+        "rfCmFcc": 85.0,
+        "rfCmIc": 85.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
       },
       "deviceType": "radio",
       "deviceTypes": [
@@ -14006,6 +14861,25 @@
         "factoryDefault": "fc3d726b-f843-4be1-a8b6-8594ca887c5a",
         "userConfigured": "bff5764b-51ac-47f8-b4d0-0b43766420dd"
       },
+      "compliance": {
+        "fcc": "SWX-GBELR",
+        "ic": "6545A-GBELR",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "GBE-LR",
+        "rcm": true,
+        "rfCmFcc": 110.0,
+        "rfCmIc": 110.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -14117,6 +14991,29 @@
       "btle": {
         "factoryDefault": "cda15717-383b-42ef-8f1e-7513ff5e4129",
         "userConfigured": "7669789e-738f-44da-8c46-3513553720a5"
+      },
+      "compliance": {
+        "fcc": "SWX-GBEPLUS",
+        "ic": "6545A-GBEPLUS",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "jrf": [
+          "217-231109"
+        ],
+        "modelName": "GBE-Plus",
+        "ncc": "CCAJ21LP0C70T3",
+        "rcm": true,
+        "rfCmFcc": 85.0,
+        "rfCmIc": 85.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
       },
       "deviceType": "radio",
       "deviceTypes": [
@@ -14534,6 +15431,26 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "cn": "Expired",
+        "fcc": "SWX-IS5AC",
+        "ic": "6545A-IS5AC",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "IS-5AC",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "bridge",
       "deviceTypes": [
         "bridge"
@@ -14633,6 +15550,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-ISM5",
+        "ic": "6545A-ISM5",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "IS-M5",
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "bridge",
       "deviceTypes": [
         "bridge"
@@ -15067,6 +16000,26 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "cn": "2020AJ12780",
+        "fcc": "SWX-LBE5AC120-U",
+        "ic": "6545A-LBE5AC120U",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "LAP-120",
+        "rcm": true,
+        "rfCmFcc": 34.0,
+        "rfCmIc": 34.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "access-point",
       "deviceTypes": [
         "access-point"
@@ -15169,6 +16122,26 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "06555-19-08356",
+        "fcc": "SWX-LAPGPS",
+        "ic": "6545A-LAPGPS",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "LAP-GPS",
+        "rcm": true,
+        "rfCmFcc": 43.0,
+        "rfCmIc": 43.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "access-point",
       "deviceTypes": [
         "access-point"
@@ -15459,6 +16432,23 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "01497-17-08356",
+        "fcc": "SWX-NBEM5AC (DTS) SWX-LBE5AC (UNII)",
+        "ic": "6545A-NBEM5AC 6545A-LBE5AC",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "LBE-5AC-23",
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -15558,6 +16548,26 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "09760-19-08356",
+        "fcc": "SWX-LBE5ACLR",
+        "ic": "6545A-LBE5ACLR",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "LBE-5AC-LR",
+        "rcm": true,
+        "rfCmFcc": 103.0,
+        "rfCmIc": 103.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -15657,6 +16667,25 @@
       "btle": {
         "factoryDefault": "15d91100-482c-4c29-b5ba-1458a1026188",
         "userConfigured": "598b0277-2a7c-47e9-a3af-04068b5c7a35"
+      },
+      "compliance": {
+        "fcc": "SWX-LBE5ACXR",
+        "ic": "6545A-LBE5ACXR",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "LBE-5AC-XR",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
       },
       "deviceType": "radio",
       "deviceTypes": [
@@ -15774,6 +16803,25 @@
         "factoryDefault": "955da4b9-dce8-4372-b7c8-7e663f153296",
         "userConfigured": "582ccb91-54df-4e82-a411-ac988cad5332"
       },
+      "compliance": {
+        "fcc": "SWX-LBEAX",
+        "ic": "6545A-LBEAX",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "LBE-AX",
+        "rcm": true,
+        "rfCmFcc": 89.0,
+        "rfCmIc": 89.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -15882,6 +16930,26 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "00723-16-08356",
+        "fcc": "SWX-LBE5M",
+        "ic": "6545A-LBE5M",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "LBE-M5-23",
+        "rcm": true,
+        "rfCmFcc": 30.2,
+        "rfCmIc": 30.2,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -16095,6 +17163,27 @@
         "factoryDefault": "05ffeb2d-191a-4207-b9f0-75b3ae31f1d9",
         "userConfigured": "8df8e1d4-b4f1-43c2-9556-4deb6675aa36"
       },
+      "compliance": {
+        "anatel": "15658-20-08356",
+        "fcc": "SWX-LTULRR",
+        "ic": "6545A-LTULRR",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "LTU-LR",
+        "ncc": "CCAJ21LP07C0T7",
+        "rcm": true,
+        "rfCmFcc": 86.0,
+        "rfCmIc": 86.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -16204,6 +17293,11 @@
       "btle": {
         "factoryDefault": "4ad53301-6364-40e8-be30-b50cddeda108",
         "userConfigured": "c8fdaea6-e13d-4a21-a14d-59a816097cae"
+      },
+      "compliance": {
+        "anatel": "11924-20-08356",
+        "modelName": "LTU-Lite",
+        "ncc": "CCAJ20LP356T2"
       },
       "deviceType": "radio",
       "deviceTypes": [
@@ -16571,6 +17665,25 @@
         "factoryDefault": "a637ed63-a0c5-4b06-9c71-32d2fd71628c",
         "userConfigured": "5ba5d1e5-68a9-4adf-ba50-52391376fc9c"
       },
+      "compliance": {
+        "fcc": "SWX-LTUXR",
+        "ic": "6545A-LTUXR",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "LTU-XR",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -16777,6 +17890,26 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "cn": "Expired",
+        "fcc": "SWX-M2LW",
+        "ic": "6545A-M2LW",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "LocoM2",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -16885,6 +18018,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "00132-18-08356",
+        "cn": "Expired",
+        "modelName": "LocoM5"
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -17162,6 +18300,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "N-SW",
+        "rcm": true
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -17896,6 +19039,25 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-NBE2AC13 (2.4G) SWX-NBE2ACN (2.4G&5G)",
+        "ic": "6545A-NBE2AC13 (2.4G) 6545A-NBE2ACN (2.4G&5G)",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "NBE-2AC-13",
+        "rcm": true,
+        "rfCmFcc": 22.0,
+        "rfCmIc": 22.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "antenna",
       "deviceTypes": [
         "antenna"
@@ -18197,6 +19359,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "cn": "2014AJ5720",
+        "modelName": "NBE-5AC-19"
+      },
       "deviceType": "antenna",
       "deviceTypes": [
         "antenna"
@@ -18291,6 +19457,27 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "02895-15-08356",
+        "cn": "Expired",
+        "fcc": "SWX-NBM5 (DTS) => different PCBA with NanoBeam M5,HP SWX-NBE5M16 (UNII  full band)",
+        "ic": "6545A-NBM5 (DTS) => different PCBA with NanoBeam M5,HP 6545A-NBE5M16 (UNII  full band)",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "NBE-M5-16",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "antenna",
       "deviceTypes": [
         "antenna"
@@ -18576,6 +19763,27 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "09603-19-08356",
+        "fcc": "SWX-NS5AC",
+        "ic": "6545A-NS5AC",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "NS-5AC",
+        "ncc": "CCAF19LP2450T0",
+        "rcm": true,
+        "rfCmFcc": 33.0,
+        "rfCmIc": 33.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -18765,6 +19973,29 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "cn": "Expired",
+        "fcc": "SWX-M2N",
+        "ic": "6545A-M2N",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jrf": [
+          "003WWA11253"
+        ],
+        "modelName": "NSM2",
+        "rcm": true,
+        "rfCmFcc": 28.0,
+        "rfCmIc": 28.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -19914,6 +21145,25 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-PBE2ACN",
+        "ic": "6545A-PBE2ACN",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "PBE-2AC-400",
+        "rcm": true,
+        "rfCmFcc": 28.0,
+        "rfCmIc": 28.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "antenna",
       "deviceTypes": [
         "antenna"
@@ -20310,6 +21560,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "cn": "Expired",
+        "modelName": "PBE-5AC-400"
+      },
       "deviceType": "antenna",
       "deviceTypes": [
         "antenna"
@@ -20402,6 +21656,25 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-NBEM5AC (DTS) SWX-PBE5AC (UNII)",
+        "ic": "6545A-NBEM5AC 6545A-PBE5AC",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "PBE-5AC-400-ISO",
+        "rcm": true,
+        "rfCmFcc": 125.0,
+        "rfCmIc": 125.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "antenna",
       "deviceTypes": [
         "antenna"
@@ -20493,6 +21766,26 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "cn": "Expired",
+        "fcc": "SWX-NBEM5AC (DTS) SWX-PBE5AC (UNII)",
+        "ic": "6545A-NBEM5AC 6545A-PBE5AC",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "PBE-5AC-500",
+        "rcm": true,
+        "rfCmFcc": 125.0,
+        "rfCmIc": 125.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "antenna",
       "deviceTypes": [
         "antenna"
@@ -20589,6 +21882,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-NBEM5AC (DTS) SWX-PBE5AC (UNII)",
+        "ic": "6545A-NBEM5AC 6545A-PBE5AC",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "PBE-5AC-500-ISO",
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "antenna",
       "deviceTypes": [
         "antenna"
@@ -20762,6 +22071,26 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "cn": "Expired",
+        "fcc": "SWX-NBEM5AC (DTS) SWX-PBE5AC (UNII)",
+        "ic": "6545A-NBEM5AC (DTS) 6545A-PBE5AC (UNII)",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "PBE-5AC-620",
+        "rcm": true,
+        "rfCmFcc": 125.0,
+        "rfCmIc": 125.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "antenna",
       "deviceTypes": [
         "antenna"
@@ -20964,6 +22293,25 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-NBM2HP",
+        "ic": "6545A-NBM2HP",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "PBE-M2-400",
+        "rcm": true,
+        "rfCmFcc": 113.0,
+        "rfCmIc": 113.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "antenna",
       "deviceTypes": [
         "antenna"
@@ -21064,6 +22412,13 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "01107-15-08356",
+        "modelName": "PBE-M5-300",
+        "rcm": true,
+        "rfCmFcc": 113.0,
+        "rfCmIc": 113.0
+      },
       "deviceType": "antenna",
       "deviceTypes": [
         "antenna"
@@ -21165,6 +22520,20 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "HW is same as PBE-M5-300. Share same ID with PBE-M5-300",
+        "ic": "HW is same as PBE-M5-300. Share same IC number with PBE-M5-300",
+        "modelName": "PBE-M5-300-ISO",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "RF"
+          ],
+          "US": [
+            "RF"
+          ]
+        }
+      },
       "deviceType": "antenna",
       "deviceTypes": [
         "antenna"
@@ -21257,6 +22626,23 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "01692-15-08356",
+        "cn": "Expired",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "PBE-M5-400",
+        "rcm": true,
+        "rfCmFcc": 113.0,
+        "rfCmIc": 113.0,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_A"
+          ]
+        }
+      },
       "deviceType": "antenna",
       "deviceTypes": [
         "antenna"
@@ -21354,6 +22740,20 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "HW is same as PBE-M5-400. Share same ID with PBE-M5-400",
+        "ic": "HW is same as PBE-M5-400. Share same IC number with PBE-M5-400",
+        "modelName": "PBE-M5-400-ISO",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "RF"
+          ],
+          "US": [
+            "RF"
+          ]
+        }
+      },
       "deviceType": "antenna",
       "deviceTypes": [
         "antenna"
@@ -21647,6 +23047,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "Refer to GP Spec",
+        "ic": "Refer to GP Spec",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "POE-24-AF5X"
+      },
       "deviceType": "power-supply",
       "deviceTypes": [
         "power-supply"
@@ -21734,6 +23140,26 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "05157-18-08356",
+        "fcc": "SWX-PS5AC",
+        "ic": "6545A-PS5AC",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "PS-5AC",
+        "rcm": true,
+        "rfCmFcc": 23.0,
+        "rfCmIc": 23.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -21833,6 +23259,25 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-R2ACN",
+        "ic": "6545A-R2ACN",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "R2AC-PRISM",
+        "rcm": true,
+        "rfCmFcc": 29.0,
+        "rfCmIc": 29.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -22214,6 +23659,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "02861-15-08356",
+        "modelName": "R5AC-LITE"
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -22407,6 +23856,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "cn": "2014AJ571",
+        "modelName": "R5AC-PTMP"
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -22504,6 +23957,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "cn": "2014AJ5721",
+        "modelName": "R5AC-PTP"
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -23226,6 +24683,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "03198-16-05966",
+        "modelName": "RD-5G30"
+      },
       "deviceType": "accessory",
       "deviceTypes": [
         "accessory"
@@ -23305,6 +24766,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "03274-15-08356",
+        "modelName": "RD-5G30-LW"
+      },
       "deviceType": "accessory",
       "deviceTypes": [
         "accessory"
@@ -23462,6 +24927,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "03198-16-05966",
+        "modelName": "RD-5G34"
+      },
       "deviceType": "accessory",
       "deviceTypes": [
         "accessory"
@@ -24017,6 +25486,28 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-RM2WP",
+        "ic": "6545A-RM2WP",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jrf": [
+          "003WWA11252"
+        ],
+        "modelName": "RocketM2",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -24203,6 +25694,25 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-SMSPW",
+        "ic": "6545A-SMSPW",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "SM-SP-40",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "control",
       "deviceTypes": [
         "control"
@@ -24300,6 +25810,25 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-SMSPW",
+        "ic": "6545A-SMSPW",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "SM-SW-40",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "control",
       "deviceTypes": [
         "control"
@@ -24769,6 +26298,23 @@
         "factoryDefault": "49d0a405-85ee-4b83-b5ea-5ec1bdea23ac",
         "userConfigured": "faaa5241-03f7-4a5e-bce0-c3a7affb2a7d"
       },
+      "compliance": {
+        "anatel": "03825-26-08356",
+        "fcc": "SWX-UAW",
+        "ic": "6545A-UAW",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "U-AirWire",
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "radio",
       "deviceTypes": [
         "radio"
@@ -24891,6 +26437,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-UINS",
+        "ic": "6545A-UINS",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "U-Installer",
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "tool",
       "deviceTypes": [
         "tool"
@@ -25407,6 +26969,18 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "U5G-EU",
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "deviceType": "antenna",
       "deviceTypes": [
         "antenna"
@@ -25772,6 +27346,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "Contains FCC ID: GKRCXCN3",
+        "ic": "Contains IC: 2533B-CXCN3",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "U5G-US",
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "antenna",
       "deviceTypes": [
         "antenna"
@@ -30635,6 +32225,30 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-U7PROX",
+        "ic": "6545A-U7PROX",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "indoorOnly": true,
+        "jrf": [
+          "201-250578"
+        ],
+        "modelName": "U7-Pro-XG-B",
+        "ncc": "CCAH25LP9631T0",
+        "rcm": true,
+        "rfCmFcc": 25.0,
+        "rfCmIc": 25.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "access-point",
       "deviceTypes": [
         "access-point"
@@ -31211,6 +32825,19 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UA-Card",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_A"
+          ]
+        }
+      },
       "deviceType": "tool",
       "deviceTypes": [
         "tool"
@@ -31383,6 +33010,28 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "on-going",
+        "cn": "24J99U16D001",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jnfc": "第AC-23036号",
+        "jrf": [
+          "020-230121"
+        ],
+        "modelName": "UA-G2",
+        "ncc": "CCAH23LP3361T0",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "deviceType": "card-reader",
       "deviceTypes": [
         "card-reader"
@@ -32223,6 +33872,30 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-UAINT",
+        "ic": "6545A-UAINT",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jnfc": "第AC-25098号",
+        "jrf": [
+          "020-250212"
+        ],
+        "modelName": "UA-G3-Intercom",
+        "ncc": "CCAH25LPD660T5",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "card-reader",
       "deviceTypes": [
         "card-reader"
@@ -32520,6 +34193,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UA-Hub"
+      },
       "deviceType": "control",
       "deviceTypes": [
         "control"
@@ -32613,6 +34290,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UA-Hub-Door",
+        "rcm": true
+      },
       "deviceType": "control",
       "deviceTypes": [
         "control"
@@ -32799,6 +34481,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UA-Hub-Gate",
+        "rcm": true
+      },
       "deviceType": "control",
       "deviceTypes": [
         "control"
@@ -33792,6 +35479,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UACC-In-Ceiling-Speaker"
+      },
       "deviceType": "audio",
       "deviceTypes": [
         "audio"
@@ -33874,6 +35565,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UACC-In-Wall-Speaker"
+      },
       "deviceType": "audio",
       "deviceTypes": [
         "audio"
@@ -33959,6 +35654,23 @@
       "btle": {
         "factoryDefault": "8e60f02e-f699-4865-b83f-f40501752184",
         "userConfigured": "0b9676ee-8352-440a-bf80-61541d578fcf"
+      },
+      "compliance": {
+        "anatel": "01420-26-08356",
+        "fcc": "SWX-USW",
+        "ic": "6545A-USW",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UACC-SFP-Wizard",
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
       },
       "deviceType": "tool",
       "deviceTypes": [
@@ -34061,6 +35773,20 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "03472-15-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UAP",
+        "ncc": "CCAG13LP0100T3",
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_A"
+          ]
+        }
+      },
       "deviceType": "access-point",
       "deviceTypes": [
         "access-point"
@@ -34332,6 +36058,23 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "01943-16-08356",
+        "fcc": "(use same ID with UAP-AC-PRO, SWX-UAPACPRO)",
+        "ic": "(use same ID with UAP-AC-PRO, 6545A-UAPACPRO)",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UAP-AC-EDU",
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "access-point",
       "deviceTypes": [
         "access-point"
@@ -35057,6 +36800,28 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "01409-16-08356",
+        "cn": "2015AJ6730",
+        "fcc": "SWX-UAPACLR",
+        "ic": "6545A-UAPACLR",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UAP-AC-LR",
+        "ncc": "CCAK15LP2530T3",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "access-point",
       "deviceTypes": [
         "access-point"
@@ -35946,6 +37711,26 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-UDMB",
+        "ic": "6545A-UDMB",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UAP-BeaconHD",
+        "ncc": "CCAF19LP2680T4",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "access-point",
       "deviceTypes": [
         "access-point"
@@ -36250,6 +38035,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-UAPIW",
+        "ic": "6545A-UAPIW",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UAP-IW",
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "access-point",
       "deviceTypes": [
         "access-point"
@@ -36544,6 +38345,19 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "02427-15-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UAP-LR",
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_A"
+          ]
+        }
+      },
       "deviceType": "access-point",
       "deviceTypes": [
         "access-point"
@@ -36791,6 +38605,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "modelName": "UAP-Outdoor",
+        "ncc": "CCAG13LP0080T0"
+      },
       "deviceType": "access-point",
       "deviceTypes": [
         "access-point"
@@ -36916,6 +38734,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-UAPOUTDOOR",
+        "ic": "6545A-UAPOUTDOOR",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UAP-Outdoor+",
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "access-point",
       "deviceTypes": [
         "access-point"
@@ -37296,6 +39130,28 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "00569-19-08356",
+        "cn": "2019AJ8560",
+        "fcc": "SWX-M442G",
+        "ic": "6545A-UAPXG Contains IC: 6545A-M442G Contains IC: 6545A-M445GL Contains IC: 6545A-M445GH Contains IC: 6545A-M11DB",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UAP-XG",
+        "ncc": "CCAF19LP2230T2 CCAF20LP0540T6",
+        "rcm": true,
+        "rfCmFcc": 29.0,
+        "rfCmIc": 28.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "access-point",
       "deviceTypes": [
         "access-point"
@@ -37717,6 +39573,22 @@
         "factoryDefault": "6868ac9f-fb18-4f2c-9b01-50ab0743907d",
         "userConfigured": "8eeb0dea-f4cd-4c8a-8e6e-5e385ca18dae"
       },
+      "compliance": {
+        "fcc": "SWX-UASPRO",
+        "ic": "6545A-UASPRO",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UAS-XG",
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "console",
       "deviceTypes": [
         "console"
@@ -38120,6 +39992,29 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-UCCK",
+        "ic": "6545A-UCCK",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jrf": [
+          "201-180678"
+        ],
+        "modelName": "UC-CK",
+        "ncc": "CCAF19LP1390T3",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "network-server-host",
       "deviceTypes": [
         "network-server-host"
@@ -38883,6 +40778,19 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-UCD13",
+        "ic": "6545A-UCD13",
+        "modelName": "UC-Display13",
+        "text": {
+          "CA": [
+            "RF"
+          ],
+          "US": [
+            "RF"
+          ]
+        }
+      },
       "deviceType": "viewer",
       "deviceTypes": [
         "viewer"
@@ -39057,6 +40965,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "modelName": "UC-Display27",
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0
+      },
       "deviceType": "viewer",
       "deviceTypes": [
         "viewer"
@@ -39144,6 +41057,19 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-UCD7",
+        "ic": "6545A-UCD7",
+        "modelName": "UC-Display7",
+        "text": {
+          "CA": [
+            "RF"
+          ],
+          "US": [
+            "RF"
+          ]
+        }
+      },
       "deviceType": "viewer",
       "deviceTypes": [
         "viewer"
@@ -39234,6 +41160,19 @@
       "btle": {
         "factoryDefault": "6c812d03-c075-4f53-a446-83401f371d29",
         "userConfigured": "c53fae91-55f4-4eb1-a088-5bffbad2c35e"
+      },
+      "compliance": {
+        "fcc": "SWX-UCEVS",
+        "ic": "6545A-UCEVS",
+        "modelName": "UC-EV-Station",
+        "text": {
+          "CA": [
+            "RF"
+          ],
+          "US": [
+            "RF"
+          ]
+        }
       },
       "deviceType": "power-supply",
       "deviceTypes": [
@@ -39326,6 +41265,20 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UC-EV-Station-Lite",
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "deviceType": "power-supply",
       "deviceTypes": [
         "power-supply"
@@ -40684,6 +42637,21 @@
         "factoryDefault": "f9ccf87c-696a-4754-a204-ed868907be8b",
         "userConfigured": "581ee129-ab38-4cbb-902d-b4cea7ce6696"
       },
+      "compliance": {
+        "fcc": "SWX-UCI",
+        "ic": "6545A-UCI",
+        "modelName": "UCI",
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "RF"
+          ],
+          "US": [
+            "RF"
+          ]
+        }
+      },
       "deviceType": "modem",
       "deviceTypes": [
         "modem"
@@ -41586,6 +43554,25 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "01421-26-08356",
+        "fcc": "SWX-UDBI",
+        "ic": "6545A-UDBI",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UDB-IoT",
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "bridge",
       "deviceTypes": [
         "bridge"
@@ -41862,6 +43849,25 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "05978-25-08356",
+        "fcc": "SWX-UDBPS",
+        "ic": "6545A-UDBPS",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UDB-Pro-Sector",
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "bridge",
       "deviceTypes": [
         "bridge"
@@ -42133,6 +44139,25 @@
         "factoryDefault": "e87455ae-b373-4c9b-aa3f-2a19ec0489a1",
         "userConfigured": "52eb5387-28af-4aa5-acff-ddaa8f015c49"
       },
+      "compliance": {
+        "fcc": "SWX-UDIMAC",
+        "ic": "6545A-UDIMAC",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UDIM-AC",
+        "ncc": "CCAF19LP0300T0",
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "control",
       "deviceTypes": [
         "control"
@@ -42316,6 +44341,21 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UDIM-AT",
+        "ncc": "CCAF19LP0290T7",
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "deviceType": "control",
       "deviceTypes": [
         "control"
@@ -44945,6 +46985,12 @@
       }
     },
     {
+      "compliance": {
+        "anatel": "05163-19-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UF-AE",
+        "rcm": true
+      },
       "deviceType": "tool",
       "deviceTypes": [
         "tool"
@@ -45033,6 +47079,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UF-Instant",
+        "rcm": true
+      },
       "deviceType": "tool",
       "deviceTypes": [
         "tool"
@@ -45124,6 +47175,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "04649-18-08356",
+        "modelName": "UF-LOCO",
+        "ncc": "CCAA21O10030T2",
+        "rcm": true
+      },
       "deviceType": "modem",
       "deviceTypes": [
         "modem"
@@ -45218,6 +47275,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "03960-18-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UF-Nano",
+        "rcm": true
+      },
       "deviceType": "modem",
       "deviceTypes": [
         "modem"
@@ -45311,6 +47374,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "02573-18-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UF-OLT",
+        "rcm": true
+      },
       "deviceType": "tool",
       "deviceTypes": [
         "tool"
@@ -45411,6 +47480,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "03639-19-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UF-OLT-4",
+        "rcm": true
+      },
       "deviceType": "tool",
       "deviceTypes": [
         "tool"
@@ -45830,6 +47905,21 @@
         "factoryDefault": "8f30f895-c8e7-463e-9c5c-91b29b3f139e",
         "userConfigured": "405a3564-cb33-448a-badb-b96fe05a8de0"
       },
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UISP-Console",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_A"
+          ]
+        }
+      },
       "deviceType": "console",
       "deviceTypes": [
         "console"
@@ -45937,6 +48027,25 @@
         "factoryDefault": "54be8418-9930-4af7-aad4-44957c869716",
         "userConfigured": "699f2281-5b70-42b6-b798-481e5fee2f54"
       },
+      "compliance": {
+        "fcc": "SWX-UISPFOX",
+        "ic": "6545A-UISPFOX",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UISP-FIBER-OLT-XGS",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "olt",
       "deviceTypes": [
         "olt"
@@ -46040,6 +48149,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UISP-FIBER-XG",
+        "rcm": true
+      },
       "deviceType": "olt",
       "deviceTypes": [
         "olt"
@@ -46131,6 +48245,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UISP-FIBER-XGS",
+        "rcm": true
+      },
       "deviceType": "olt",
       "deviceTypes": [
         "olt"
@@ -46225,6 +48344,24 @@
       "btle": {
         "factoryDefault": "24cfc582-2598-451b-87a8-75faa06ce004",
         "userConfigured": "755fc123-590b-4f73-95a3-5246795717ac"
+      },
+      "compliance": {
+        "fcc": "SWX-RC7611",
+        "ic": "6545A-UISPLTE Contains IC: 6545A-RC7611",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UISP-LTE",
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
       },
       "deviceType": "modem",
       "deviceTypes": [
@@ -46340,6 +48477,25 @@
         "factoryDefault": "e481242f-6f2c-4019-aadf-b1fae07e549f",
         "userConfigured": "bea546b6-b7a4-4f0e-b4b3-a9a5f01b3255"
       },
+      "compliance": {
+        "fcc": "SWX-UISPP",
+        "ic": "6545A-UISPP",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UISP-P",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "power-supply",
       "deviceTypes": [
         "power-supply"
@@ -46450,6 +48606,25 @@
         "factoryDefault": "5942299f-235e-49a1-b961-834a75a73671",
         "userConfigured": "8e615d89-ad4b-426f-92db-a36ec576ce0b"
       },
+      "compliance": {
+        "fcc": "SWX-UISPPP",
+        "ic": "6545A-UISPPP",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UISP-P-Pro",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "power-supply",
       "deviceTypes": [
         "power-supply"
@@ -46555,6 +48730,25 @@
       "btle": {
         "factoryDefault": "2a35b1b9-2856-43ab-a0f6-945a8c6bea59",
         "userConfigured": "64850447-626d-4385-8b09-0c77a3e26f7f"
+      },
+      "compliance": {
+        "fcc": "SWX-UISPR",
+        "ic": "6545A-UISPR",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UISP-R",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
       },
       "deviceType": "router",
       "deviceTypes": [
@@ -46673,6 +48867,23 @@
         "factoryDefault": "fbfc5eda-440a-4efd-a022-ef7646f8aef5",
         "userConfigured": "dba08c38-0447-4e15-a897-d406e20a3e32"
       },
+      "compliance": {
+        "fcc": "SWX-UISPRL",
+        "ic": "6545A-UISPRL",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UISP-R-Lite",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "router",
       "deviceTypes": [
         "router"
@@ -46787,6 +48998,25 @@
         "factoryDefault": "3bd4507d-9014-441a-90f4-42879aecc2e9",
         "userConfigured": "73df9595-308f-4261-9887-13bb25b95e2b"
       },
+      "compliance": {
+        "fcc": "SWX-UISPRPRO SWX-UISPRPXG",
+        "ic": "6545A-UISPRPRO 6545A-UISPRPXG",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UISP-R-Pro",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "router",
       "deviceTypes": [
         "router"
@@ -46896,6 +49126,25 @@
       "btle": {
         "factoryDefault": "9220676d-2c22-40cb-aed8-7aad9b1da9ec",
         "userConfigured": "2139c5cd-4ad4-4ff9-9225-d1721d2e3db9"
+      },
+      "compliance": {
+        "fcc": "SWX-UISPS",
+        "ic": "6545A-UISPS",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UISP-S",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
       },
       "deviceType": "switch",
       "deviceTypes": [
@@ -47009,6 +49258,25 @@
       "btle": {
         "factoryDefault": "7aaef447-0467-478d-9be8-fdf73282bab7",
         "userConfigured": "40236e8d-b84f-43bb-830f-b900d175ca9f"
+      },
+      "compliance": {
+        "fcc": "SWX-UISPSP",
+        "ic": "6545A-UISPSP",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UISP-S-Pro",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
       },
       "deviceType": "switch",
       "deviceTypes": [
@@ -47278,6 +49546,25 @@
         "factoryDefault": "dda645e3-69e7-470f-a515-170ea3a81508",
         "userConfigured": "362c81d4-7038-4702-805c-0f1308ca0e08"
       },
+      "compliance": {
+        "fcc": "SWX-ULEDAC",
+        "ic": "6545A-ULEDAC",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "ULED-AC",
+        "ncc": "CCAF19LP0270T1",
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "light",
       "deviceTypes": [
         "light"
@@ -47465,6 +49752,25 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-ULEDAT",
+        "ic": "6545A-ULEDAT",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "ULED-AT",
+        "ncc": "CCAF19LP0280T4",
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "light",
       "deviceTypes": [
         "light"
@@ -47993,6 +50299,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "04867-25-08356",
+        "fcc": "SWX-RC7611",
+        "ic": "6545A-UMRU Contains IC: 6545A-RC7611",
+        "modelName": "UMR-Ultra",
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "RF"
+          ],
+          "US": [
+            "RF"
+          ]
+        }
+      },
       "deviceType": "router",
       "deviceTypes": [
         "router"
@@ -50123,6 +52445,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UP-AI-Horn-Speaker-B"
+      },
       "deviceType": "audio",
       "deviceTypes": [
         "audio"
@@ -50408,6 +52734,18 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UP-AI-Speaker",
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "deviceType": "audio",
       "deviceTypes": [
         "audio"
@@ -50825,6 +53163,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UP-Chime-PoE",
+        "rcm": true
+      },
       "deviceType": "chime",
       "deviceTypes": [
         "chime"
@@ -50922,6 +53265,25 @@
       "btle": {
         "factoryDefault": "086c4441-b0e1-4f4f-a31d-138f58174fe6",
         "userConfigured": "1e98e827-dafa-426d-8f25-bfc0ed9b24a7"
+      },
+      "compliance": {
+        "fcc": "SWX-UFPLOCK",
+        "ic": "6545A-UFPLOCK",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UP-DoorLock",
+        "ncc": "CCAJ21LP2880T0",
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
       },
       "deviceType": "doorlock",
       "deviceTypes": [
@@ -51348,6 +53710,26 @@
         "factoryDefault": "6538df89-c757-4f9f-b09a-0585b8c03b91",
         "userConfigured": "76a8d2d0-585b-46ad-969b-abd0e0ef70b5"
       },
+      "compliance": {
+        "anatel": "00828-25-08356",
+        "fcc": "SWX-UPLA",
+        "ic": "6545A-UPLA",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UPL-Amp-B",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "audio",
       "deviceTypes": [
         "audio"
@@ -51442,6 +53824,26 @@
         "factoryDefault": "9bb757f2-662f-43e9-bec4-b1b5f2ce7504",
         "userConfigured": "0db74e6d-6c67-4229-af43-2f798bd0ebd6"
       },
+      "compliance": {
+        "anatel": "00828-25-08356",
+        "fcc": "SWX-UPLA",
+        "ic": "6545A-UPLA",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UPL-Amp-W",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "audio",
       "deviceTypes": [
         "audio"
@@ -51532,6 +53934,26 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "07624-25-08356",
+        "fcc": "SWX-UPLP",
+        "ic": "6545A-UPLP",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UPL-Port-B",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "audio",
       "deviceTypes": [
         "audio"
@@ -51614,6 +54036,26 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "07624-25-08356",
+        "fcc": "SWX-UPLP",
+        "ic": "6545A-UPLP",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UPL-Port-W",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "audio",
       "deviceTypes": [
         "audio"
@@ -51696,6 +54138,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UPS-2U-EU"
+      },
       "deviceType": "power-supply",
       "deviceTypes": [
         "power-supply"
@@ -51867,6 +54313,12 @@
       "btle": {
         "factoryDefault": "88ac8b1a-07d0-48d6-9295-474305aadc41",
         "userConfigured": "1cf9075b-020f-4b52-ab3e-0a02e1a131f4"
+      },
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UPS-2U-Pro-EU",
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0
       },
       "deviceType": "power-supply",
       "deviceTypes": [
@@ -52067,6 +54519,14 @@
         "factoryDefault": "ff6c803e-5853-403a-9076-118c9f80a090",
         "userConfigured": "bba0dc13-8498-40b8-bc2c-e2ce4fe904e3"
       },
+      "compliance": {
+        "fcc": "SWX-UPS2UP",
+        "ic": "6545A-UPS2UP",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UPS-2U-Pro-US",
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0
+      },
       "deviceType": "power-supply",
       "deviceTypes": [
         "power-supply"
@@ -52266,6 +54726,18 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UPS-2U-US",
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "deviceType": "power-supply",
       "deviceTypes": [
         "power-supply"
@@ -52434,6 +54906,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UPS-Tower-EU"
+      },
       "deviceType": "power-supply",
       "deviceTypes": [
         "power-supply"
@@ -52609,6 +55085,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UPS-Tower-US"
+      },
       "deviceType": "power-supply",
       "deviceTypes": [
         "power-supply"
@@ -52863,6 +55343,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "07259-18-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "US-16-150W",
+        "rcm": true
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -52992,6 +55478,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "01954-19-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "US-16-XG",
+        "rcm": true
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -53263,6 +55755,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "02418-16-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "US-24-500W"
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -53654,6 +56151,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "02419-16-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "US-48-750W"
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -53908,6 +56410,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "US-8",
+        "rcm": true
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -54026,6 +56533,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "US-8",
+        "rcm": true
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -54678,6 +57190,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "US-XG-6PoE",
+        "rcm": true
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -54802,6 +57319,15 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "05156-18-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "jpa": [
+          "D 20-0094001"
+        ],
+        "modelName": "USG",
+        "rcm": true
+      },
       "deviceType": "gateway",
       "deviceTypes": [
         "gateway"
@@ -55066,6 +57592,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "05224-18-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "USG-PRO-4",
+        "rcm": true
+      },
       "deviceType": "gateway",
       "deviceTypes": [
         "gateway"
@@ -55258,6 +57790,19 @@
       "btle": {
         "factoryDefault": "60dbfe9e-6b5d-11e8-adc0-fa7ae01bbebc",
         "userConfigured": "8e760c3c-6b5d-11e8-adc0-fa7ae01bbebc"
+      },
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "USG-XG-8",
+        "ncc": "CCAF17LP2030T1",
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_A"
+          ]
+        }
       },
       "deviceType": "gateway",
       "deviceTypes": [
@@ -55472,6 +58017,18 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USL-Entry-EU",
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "deviceType": "sensor",
       "deviceTypes": [
         "sensor"
@@ -55853,6 +58410,18 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USL-Environmental-EU",
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "deviceType": "sensor",
       "deviceTypes": [
         "sensor"
@@ -56054,6 +58623,18 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USL-FOB-EU",
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "deviceType": "sensor",
       "deviceTypes": [
         "sensor"
@@ -56144,6 +58725,27 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "04245-26-08356",
+        "fcc": "SWX-USLF",
+        "ic": "6545A-USLF",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jrf": [
+          "020-260281"
+        ],
+        "modelName": "USL-FOB-US",
+        "ncc": "CCAH26LP7060T4",
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "sensor",
       "deviceTypes": [
         "sensor"
@@ -56733,6 +59335,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "00489-26-08356",
+        "modelName": "USL-GlassBreak-US"
+      },
       "deviceType": "sensor",
       "deviceTypes": [
         "sensor"
@@ -56826,6 +59432,18 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USL-Motion-EU",
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "deviceType": "sensor",
       "deviceTypes": [
         "sensor"
@@ -56916,6 +59534,26 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "00495-26-08356",
+        "fcc": "SWX-USLM",
+        "ic": "6545A-USLM",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USL-Motion-US",
+        "ncc": "CCAH25LPD030T1",
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "sensor",
       "deviceTypes": [
         "sensor"
@@ -57006,6 +59644,18 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USL-Relay-EU",
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "deviceType": "control",
       "deviceTypes": [
         "control"
@@ -57099,6 +59749,26 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-USLR",
+        "ic": "6545A-USLR",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jrf": [
+          "020-260282"
+        ],
+        "modelName": "USL-Relay-US",
+        "ncc": "CCAH26LP5880T6",
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "control",
       "deviceTypes": [
         "control"
@@ -57192,6 +59862,18 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USL-Siren-EU",
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "deviceType": "alarm",
       "deviceTypes": [
         "alarm"
@@ -57285,6 +59967,28 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "00199-26-08356",
+        "fcc": "SWX-USLS",
+        "ic": "6545A-USLS",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jrf": [
+          "020-260233"
+        ],
+        "modelName": "USL-Siren-US",
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "alarm",
       "deviceTypes": [
         "alarm"
@@ -57378,6 +60082,18 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USL-Smoke-EU",
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "deviceType": "sensor",
       "deviceTypes": [
         "sensor"
@@ -57468,6 +60184,24 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-USLSM",
+        "ic": "6545A-USLSM",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USL-Smoke-US",
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "sensor",
       "deviceTypes": [
         "sensor"
@@ -57852,6 +60586,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "USP-PDU-Pro"
+      },
       "deviceType": "power-supply",
       "deviceTypes": [
         "power-supply"
@@ -58419,6 +61157,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-USP1",
+        "ic": "6545A-USP1",
+        "modelName": "USP-Plug",
+        "ncc": "CCAH20LP5600T4",
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "RF"
+          ],
+          "US": [
+            "RF"
+          ]
+        }
+      },
       "deviceType": "power-supply",
       "deviceTypes": [
         "power-supply"
@@ -58531,6 +61285,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "USP-RPS",
+        "rcm": true
+      },
       "deviceType": "power-supply",
       "deviceTypes": [
         "power-supply"
@@ -58654,6 +61413,24 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-USPRP",
+        "ic": "6545A-USPRP",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "USP-RPS-Pro",
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "power-supply",
       "deviceTypes": [
         "power-supply"
@@ -58795,6 +61572,22 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-USPS",
+        "ic": "6545A-USPS",
+        "modelName": "USP-Strip",
+        "ncc": "CCAH22LP2770T4",
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "RF"
+          ],
+          "US": [
+            "RF"
+          ]
+        }
+      },
       "deviceType": "power-supply",
       "deviceTypes": [
         "power-supply"
@@ -62297,6 +65090,19 @@
         "factoryDefault": "f04efea7-faf0-4637-afd5-bee983444005",
         "userConfigured": "f5f0fc99-0867-427c-a231-6a028a104efd"
       },
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USW-Leaf",
+        "ncc": "CCAH20LP1030T8",
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -63759,6 +66565,12 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "05214-24-08356",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "USW-Pro-8-PoE",
+        "rcm": true
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -65381,6 +68193,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "04322-25-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "USW-Pro-XG-24-PoE"
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -65898,6 +68715,13 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "05977-25-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "USW-Pro-XG-Aggregation",
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -66437,6 +69261,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "03715-25-08356",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "USW-WAN"
+      },
       "deviceType": "switch",
       "deviceTypes": [
         "switch"
@@ -66803,6 +69632,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UTP-Flex"
+      },
       "deviceType": "phone",
       "deviceTypes": [
         "phone"
@@ -67336,6 +70169,21 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UTP-Touch-White",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "deviceType": "phone",
       "deviceTypes": [
         "phone"
@@ -67538,6 +70386,21 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UTP-TouchMax-White",
+        "rcm": true,
+        "rfCmFcc": 20.0,
+        "rfCmIc": 20.0,
+        "text": {
+          "CA": [
+            "IC"
+          ],
+          "US": [
+            "FCC_B"
+          ]
+        }
+      },
       "deviceType": "phone",
       "deviceTypes": [
         "phone"
@@ -68647,6 +71510,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UVC-AI-MS-4-B"
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -68740,6 +71607,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UVC-AI-MS-4-W"
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -69011,6 +71882,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UVC-AI-PTZ-Precision-B"
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -69098,6 +71973,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UVC-AI-PTZ-Precision-W"
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -69291,6 +72170,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UVC-AI-Pro-White",
+        "rcm": true
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -69834,6 +72718,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UVC-Doorbell-Lite-W"
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -70010,6 +72898,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UVC-G3-AF"
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -70722,6 +73614,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UVC-G3-PRO",
+        "rcm": true
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -72237,6 +75134,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UVC-G5-Dome-Ultra-B",
+        "rcm": true
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -72824,6 +75726,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UVC-G5-Turret-Ultra-B",
+        "rcm": true
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -73003,6 +75910,10 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UVC-G6-180-B"
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -73090,6 +76001,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UVC-G6-Bullet-B",
+        "rcm": true
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -73176,6 +76092,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UVC-G6-Bullet-W",
+        "rcm": true
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -73264,6 +76185,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UVC-G6-Dome-B",
+        "rcm": true
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -73350,6 +76276,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UVC-G6-Dome-W",
+        "rcm": true
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -73572,6 +76503,19 @@
         "factoryDefault": "06c6d797-ba6c-43fa-a3c3-066ebdfc408e",
         "userConfigured": "7a9ff0bb-fe27-49f6-97a1-78f6434655ae"
       },
+      "compliance": {
+        "fcc": "SWX-UVCG6ED",
+        "ic": "6545A-UVCG6ED",
+        "modelName": "UVC-G6-Edge-Dome",
+        "text": {
+          "CA": [
+            "RF"
+          ],
+          "US": [
+            "RF"
+          ]
+        }
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -73682,6 +76626,19 @@
       "btle": {
         "factoryDefault": "0623905d-5428-46e4-b237-cb6926cc4592",
         "userConfigured": "799db750-3ae5-45b4-a635-6c948c854fb6"
+      },
+      "compliance": {
+        "fcc": "SWX-UVCG6ET",
+        "ic": "6545A-UVCG6ET",
+        "modelName": "UVC-G6-Edge-Turret",
+        "text": {
+          "CA": [
+            "RF"
+          ],
+          "US": [
+            "RF"
+          ]
+        }
       },
       "deviceType": "camera",
       "deviceTypes": [
@@ -73901,6 +76858,26 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "anatel": "08090-25-08356",
+        "cn": "25J99U16F002",
+        "fcc": "SWX-UVCG6I",
+        "ic": "6545A-UVCG6I",
+        "jrf": [
+          "020-250101"
+        ],
+        "modelName": "UVC-G6-INS-W",
+        "ncc": "CCAH25LP2900T2",
+        "rcm": true,
+        "text": {
+          "CA": [
+            "RF"
+          ],
+          "US": [
+            "RF"
+          ]
+        }
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -73989,6 +76966,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UVC-G6-Mini-Dome-B",
+        "rcm": true
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -74078,6 +77060,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UVC-G6-Mini-Dome-W",
+        "rcm": true
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -74256,6 +77243,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UVC-G6-PTZ-B",
+        "rcm": true
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -74344,6 +77336,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UVC-G6-Pro-360-B",
+        "rcm": true
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -74431,6 +77428,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UVC-G6-Pro-360-W",
+        "rcm": true
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -74520,6 +77522,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UVC-G6-Pro-Bullet-B",
+        "rcm": true
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -74606,6 +77613,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UVC-G6-Pro-Bullet-W",
+        "rcm": true
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -74693,6 +77705,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UVC-G6-Pro-Dome-B",
+        "rcm": true
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -74779,6 +77796,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UVC-G6-Pro-Dome-W",
+        "rcm": true
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -74977,6 +77999,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UVC-G6-Pro-Turret-B",
+        "rcm": true
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -75063,6 +78090,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "UVC-G6-Pro-Turret-W",
+        "rcm": true
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -75150,6 +78182,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UVC-G6-Turret-B",
+        "rcm": true
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -75236,6 +78273,11 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UVC-G6-Turret-W",
+        "rcm": true
+      },
       "deviceType": "camera",
       "deviceTypes": [
         "camera"
@@ -75595,6 +78637,19 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-UVPEXT",
+        "ic": "6545A-UVPEXT",
+        "modelName": "UVP-Executive",
+        "text": {
+          "CA": [
+            "RF"
+          ],
+          "US": [
+            "RF"
+          ]
+        }
+      },
       "deviceType": "phone",
       "deviceTypes": [
         "phone"
@@ -75691,6 +78746,19 @@
       "videos": {}
     },
     {
+      "compliance": {
+        "fcc": "SWX-UVPPRO",
+        "ic": "6545A-UVPPRO",
+        "modelName": "UVP-Pro",
+        "text": {
+          "CA": [
+            "RF"
+          ],
+          "US": [
+            "RF"
+          ]
+        }
+      },
       "deviceType": "phone",
       "deviceTypes": [
         "phone"
@@ -77981,6 +81049,24 @@
         "factoryDefault": "4b06ab8b-64ce-469e-862c-b64370180587",
         "userConfigured": "c86b8dd1-8c91-4ecc-8a85-6f32c54d50c3"
       },
+      "compliance": {
+        "fcc": "SWX-WAVEAP",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "Wave-AP",
+        "rcm": true,
+        "rfCmFcc": 45.0,
+        "rfCmIc": 45.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
       "deviceType": "access-point",
       "deviceTypes": [
         "access-point"
@@ -78107,6 +81193,19 @@
         "factoryDefault": "f623d494-4c84-4ab3-ada1-bf3d08cdbb70",
         "userConfigured": "b8aa7cde-79ac-4997-984e-c0df65664f71"
       },
+      "compliance": {
+        "fcc": "SWX-WAVEAPG2",
+        "ic": "6545A-WAVEAPG2",
+        "modelName": "Wave-AP-Gen2",
+        "text": {
+          "CA": [
+            "RF"
+          ],
+          "US": [
+            "RF"
+          ]
+        }
+      },
       "deviceType": "access-point",
       "deviceTypes": [
         "access-point"
@@ -78212,6 +81311,25 @@
       "btle": {
         "factoryDefault": "dd71d062-2c19-4a26-a43b-d99c7cc12483",
         "userConfigured": "73b08668-52df-4626-a3e3-7638815b781a"
+      },
+      "compliance": {
+        "fcc": "SWX-WAVEAM",
+        "ic": "6545A-WAVEAM",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "Wave-AP-Micro",
+        "rcm": true,
+        "rfCmFcc": 50.0,
+        "rfCmIc": 50.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
       },
       "deviceType": "access-point",
       "deviceTypes": [
@@ -78321,6 +81439,28 @@
       "btle": {
         "factoryDefault": "afedc9c7-1744-4d0d-9900-4fbe3b460617",
         "userConfigured": "b4bd9342-c02f-411a-9be5-8b6537d44a1f"
+      },
+      "compliance": {
+        "fcc": "SWX-WAVEPRO",
+        "ic": "6545A-WAVEPRO",
+        "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "modelName": "Wave-Pro",
+        "rcm": true,
+        "rfCmFcc": 400.0,
+        "rfCmIc": 400.0,
+        "text": {
+          "CA": [
+            "IC",
+            "RF",
+            "WIFI_5"
+          ],
+          "US": [
+            "FCC_A",
+            "RF",
+            "WIFI_5"
+          ]
+        },
+        "wifi": "5e"
       },
       "deviceType": "access-point",
       "deviceTypes": [
@@ -78673,5 +81813,5 @@
       "videos": {}
     }
   ],
-  "version": "76561c4eefb7af838bc4d9fd50204faad4a28069"
+  "version": "46571d36951aca0b30fa59412770228cfd685b05"
 }
