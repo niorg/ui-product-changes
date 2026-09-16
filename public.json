@@ -7,8 +7,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "ACB-AC",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -127,8 +127,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "ACB-ISP",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -423,8 +423,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "AF-24",
         "rcm": true,
-        "rfCmFcc": 110.0,
-        "rfCmIc": 110.0,
+        "rfCmFcc": 110,
+        "rfCmIc": 110,
         "text": {
           "CA": [
             "IC",
@@ -531,8 +531,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "AF-24HD",
         "rcm": true,
-        "rfCmFcc": 110.0,
-        "rfCmIc": 110.0,
+        "rfCmFcc": 110,
+        "rfCmIc": 110,
         "text": {
           "CA": [
             "IC",
@@ -715,8 +715,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "AF-2X",
         "rcm": true,
-        "rfCmFcc": 71.0,
-        "rfCmIc": 71.0,
+        "rfCmFcc": 71,
+        "rfCmIc": 71,
         "text": {
           "CA": [
             "IC",
@@ -899,8 +899,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "AF-4X",
         "rcm": true,
-        "rfCmFcc": 180.0,
-        "rfCmIc": 180.0,
+        "rfCmFcc": 180,
+        "rfCmIc": 180,
         "text": {
           "CA": [
             "IC",
@@ -1007,8 +1007,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "AF-5",
         "rcm": true,
-        "rfCmFcc": 126.0,
-        "rfCmIc": 126.0,
+        "rfCmFcc": 126,
+        "rfCmIc": 126,
         "text": {
           "CA": [
             "IC",
@@ -1361,8 +1361,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "AF-5U",
         "rcm": true,
-        "rfCmFcc": 125.0,
-        "rfCmIc": 125.0,
+        "rfCmFcc": 125,
+        "rfCmIc": 125,
         "text": {
           "CA": [
             "IC",
@@ -1473,8 +1473,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "AF-5XHD",
         "rcm": true,
-        "rfCmFcc": 108.0,
-        "rfCmIc": 265.0,
+        "rfCmFcc": 108,
+        "rfCmIc": 265,
         "text": {
           "CA": [
             "IC",
@@ -1963,8 +1963,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "AF60",
         "rcm": true,
-        "rfCmFcc": 45.0,
-        "rfCmIc": 45.0,
+        "rfCmFcc": 45,
+        "rfCmIc": 45,
         "text": {
           "CA": [
             "IC",
@@ -2094,8 +2094,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "AF60-HD",
         "rcm": true,
-        "rfCmFcc": 60.0,
-        "rfCmIc": 60.0,
+        "rfCmFcc": 60,
+        "rfCmIc": 60,
         "text": {
           "CA": [
             "IC",
@@ -2232,8 +2232,8 @@
         "modelName": "AF60-LR",
         "ncc": "CCAI22LP0420T3",
         "rcm": true,
-        "rfCmFcc": 110.0,
-        "rfCmIc": 106.0,
+        "rfCmFcc": 110,
+        "rfCmIc": 106,
         "text": {
           "CA": [
             "IC",
@@ -2362,8 +2362,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "AF60-XG",
         "rcm": true,
-        "rfCmFcc": 195.0,
-        "rfCmIc": 195.0,
+        "rfCmFcc": 195,
+        "rfCmIc": 195,
         "text": {
           "CA": [
             "IC",
@@ -2502,8 +2502,8 @@
         "modelName": "AF60-XR",
         "ncc": "CCAH23LP3900T4",
         "rcm": true,
-        "rfCmFcc": 1000.0,
-        "rfCmIc": 1000.0,
+        "rfCmFcc": 1000,
+        "rfCmIc": 1000,
         "text": {
           "CA": [
             "IC",
@@ -2637,8 +2637,8 @@
         "modelName": "AFi-ALN-P",
         "ncc": "CCAH22LP2730T5",
         "rcm": true,
-        "rfCmFcc": 27.0,
-        "rfCmIc": 27.0,
+        "rfCmFcc": 27,
+        "rfCmIc": 27,
         "text": {
           "CA": [
             "IC",
@@ -2758,8 +2758,8 @@
         "modelName": "AFi-ALN-R",
         "ncc": "CCAH20LP0190T2",
         "rcm": true,
-        "rfCmFcc": 27.0,
-        "rfCmIc": 27.0,
+        "rfCmFcc": 27,
+        "rfCmIc": 27,
         "text": {
           "CA": [
             "IC",
@@ -2873,8 +2873,8 @@
         "modelName": "AFi-INS-P",
         "ncc": "CCAH19LP0660T8",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -2989,8 +2989,8 @@
         "modelName": "AFi-INS-R",
         "ncc": "CCAH19LP0650T5",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -3351,8 +3351,8 @@
         "modelName": "AFi-P-G",
         "ncc": "CCAF17LP210AT0",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -3464,8 +3464,8 @@
         "modelName": "AFi-P-HD",
         "ncc": "CCAF17LP2010T8",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -3771,8 +3771,8 @@
         "modelName": "AFi-R",
         "ncc": "CCAH18LP0290T6",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -3981,8 +3981,8 @@
         "modelName": "AFi-R-G",
         "ncc": "CCAH18LP0291T8",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -6601,8 +6601,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "B-DB-AC",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -7090,8 +7090,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "BulletAC-IP67",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -7211,8 +7211,8 @@
         ],
         "modelName": "BulletM2-HP",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -8737,8 +8737,8 @@
         "anatel": "05213-26-08356",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "EAV-Fiber",
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0
+        "rfCmFcc": 20,
+        "rfCmIc": 20
       },
       "deviceType": "switch",
       "deviceTypes": [
@@ -8858,8 +8858,8 @@
       "compliance": {
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "EAV-XG-24-PoE",
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0
+        "rfCmFcc": 20,
+        "rfCmIc": 20
       },
       "deviceType": "switch",
       "deviceTypes": [
@@ -14727,8 +14727,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "GBE",
         "rcm": true,
-        "rfCmFcc": 85.0,
-        "rfCmIc": 85.0,
+        "rfCmFcc": 85,
+        "rfCmIc": 85,
         "text": {
           "CA": [
             "IC",
@@ -14867,8 +14867,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "GBE-LR",
         "rcm": true,
-        "rfCmFcc": 110.0,
-        "rfCmIc": 110.0,
+        "rfCmFcc": 110,
+        "rfCmIc": 110,
         "text": {
           "CA": [
             "IC",
@@ -15002,8 +15002,8 @@
         "modelName": "GBE-Plus",
         "ncc": "CCAJ21LP0C70T3",
         "rcm": true,
-        "rfCmFcc": 85.0,
-        "rfCmIc": 85.0,
+        "rfCmFcc": 85,
+        "rfCmIc": 85,
         "text": {
           "CA": [
             "IC",
@@ -15438,8 +15438,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "IS-5AC",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -16007,8 +16007,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "LAP-120",
         "rcm": true,
-        "rfCmFcc": 34.0,
-        "rfCmIc": 34.0,
+        "rfCmFcc": 34,
+        "rfCmIc": 34,
         "text": {
           "CA": [
             "IC",
@@ -16129,8 +16129,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "LAP-GPS",
         "rcm": true,
-        "rfCmFcc": 43.0,
-        "rfCmIc": 43.0,
+        "rfCmFcc": 43,
+        "rfCmIc": 43,
         "text": {
           "CA": [
             "IC",
@@ -16555,8 +16555,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "LBE-5AC-LR",
         "rcm": true,
-        "rfCmFcc": 103.0,
-        "rfCmIc": 103.0,
+        "rfCmFcc": 103,
+        "rfCmIc": 103,
         "text": {
           "CA": [
             "IC",
@@ -16674,8 +16674,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "LBE-5AC-XR",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -16809,8 +16809,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "LBE-AX",
         "rcm": true,
-        "rfCmFcc": 89.0,
-        "rfCmIc": 89.0,
+        "rfCmFcc": 89,
+        "rfCmIc": 89,
         "text": {
           "CA": [
             "IC",
@@ -16937,8 +16937,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "LBE-M5-23",
         "rcm": true,
-        "rfCmFcc": 30.2,
-        "rfCmIc": 30.2,
+        "rfCmFcc": 30,
+        "rfCmIc": 30,
         "text": {
           "CA": [
             "IC",
@@ -17171,8 +17171,8 @@
         "modelName": "LTU-LR",
         "ncc": "CCAJ21LP07C0T7",
         "rcm": true,
-        "rfCmFcc": 86.0,
-        "rfCmIc": 86.0,
+        "rfCmFcc": 86,
+        "rfCmIc": 86,
         "text": {
           "CA": [
             "IC",
@@ -17671,8 +17671,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "LTU-XR",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -17897,8 +17897,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "LocoM2",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -19045,8 +19045,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "NBE-2AC-13",
         "rcm": true,
-        "rfCmFcc": 22.0,
-        "rfCmIc": 22.0,
+        "rfCmFcc": 22,
+        "rfCmIc": 22,
         "text": {
           "CA": [
             "IC",
@@ -19465,8 +19465,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "NBE-M5-16",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -19771,8 +19771,8 @@
         "modelName": "NS-5AC",
         "ncc": "CCAF19LP2450T0",
         "rcm": true,
-        "rfCmFcc": 33.0,
-        "rfCmIc": 33.0,
+        "rfCmFcc": 33,
+        "rfCmIc": 33,
         "text": {
           "CA": [
             "IC",
@@ -19983,8 +19983,8 @@
         ],
         "modelName": "NSM2",
         "rcm": true,
-        "rfCmFcc": 28.0,
-        "rfCmIc": 28.0,
+        "rfCmFcc": 28,
+        "rfCmIc": 28,
         "text": {
           "CA": [
             "IC",
@@ -21151,8 +21151,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "PBE-2AC-400",
         "rcm": true,
-        "rfCmFcc": 28.0,
-        "rfCmIc": 28.0,
+        "rfCmFcc": 28,
+        "rfCmIc": 28,
         "text": {
           "CA": [
             "IC",
@@ -21662,8 +21662,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "PBE-5AC-400-ISO",
         "rcm": true,
-        "rfCmFcc": 125.0,
-        "rfCmIc": 125.0,
+        "rfCmFcc": 125,
+        "rfCmIc": 125,
         "text": {
           "CA": [
             "IC",
@@ -21773,8 +21773,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "PBE-5AC-500",
         "rcm": true,
-        "rfCmFcc": 125.0,
-        "rfCmIc": 125.0,
+        "rfCmFcc": 125,
+        "rfCmIc": 125,
         "text": {
           "CA": [
             "IC",
@@ -22078,8 +22078,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "PBE-5AC-620",
         "rcm": true,
-        "rfCmFcc": 125.0,
-        "rfCmIc": 125.0,
+        "rfCmFcc": 125,
+        "rfCmIc": 125,
         "text": {
           "CA": [
             "IC",
@@ -22299,8 +22299,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "PBE-M2-400",
         "rcm": true,
-        "rfCmFcc": 113.0,
-        "rfCmIc": 113.0,
+        "rfCmFcc": 113,
+        "rfCmIc": 113,
         "text": {
           "CA": [
             "IC",
@@ -22416,8 +22416,8 @@
         "anatel": "01107-15-08356",
         "modelName": "PBE-M5-300",
         "rcm": true,
-        "rfCmFcc": 113.0,
-        "rfCmIc": 113.0
+        "rfCmFcc": 113,
+        "rfCmIc": 113
       },
       "deviceType": "antenna",
       "deviceTypes": [
@@ -22632,8 +22632,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "PBE-M5-400",
         "rcm": true,
-        "rfCmFcc": 113.0,
-        "rfCmIc": 113.0,
+        "rfCmFcc": 113,
+        "rfCmIc": 113,
         "text": {
           "CA": [
             "IC"
@@ -23147,8 +23147,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "PS-5AC",
         "rcm": true,
-        "rfCmFcc": 23.0,
-        "rfCmIc": 23.0,
+        "rfCmFcc": 23,
+        "rfCmIc": 23,
         "text": {
           "CA": [
             "IC",
@@ -23265,8 +23265,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "R2AC-PRISM",
         "rcm": true,
-        "rfCmFcc": 29.0,
-        "rfCmIc": 29.0,
+        "rfCmFcc": 29,
+        "rfCmIc": 29,
         "text": {
           "CA": [
             "IC",
@@ -25495,8 +25495,8 @@
         ],
         "modelName": "RocketM2",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -25700,8 +25700,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "SM-SP-40",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -25816,8 +25816,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "SM-SW-40",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -32236,8 +32236,8 @@
         "modelName": "U7-Pro-XG-B",
         "ncc": "CCAH25LP9631T0",
         "rcm": true,
-        "rfCmFcc": 25.0,
-        "rfCmIc": 25.0,
+        "rfCmFcc": 25,
+        "rfCmIc": 25,
         "text": {
           "CA": [
             "IC",
@@ -33021,8 +33021,8 @@
         "modelName": "UA-G2",
         "ncc": "CCAH23LP3361T0",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC"
@@ -33883,8 +33883,8 @@
         "modelName": "UA-G3-Intercom",
         "ncc": "CCAH25LPD660T5",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -36809,8 +36809,8 @@
         "modelName": "UAP-AC-LR",
         "ncc": "CCAK15LP2530T3",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -37718,8 +37718,8 @@
         "modelName": "UAP-BeaconHD",
         "ncc": "CCAF19LP2680T4",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -39139,8 +39139,8 @@
         "modelName": "UAP-XG",
         "ncc": "CCAF19LP2230T2 CCAF20LP0540T6",
         "rcm": true,
-        "rfCmFcc": 29.0,
-        "rfCmIc": 28.0,
+        "rfCmFcc": 29,
+        "rfCmIc": 28,
         "text": {
           "CA": [
             "IC",
@@ -40002,8 +40002,8 @@
         "modelName": "UC-CK",
         "ncc": "CCAF19LP1390T3",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -40967,8 +40967,8 @@
     {
       "compliance": {
         "modelName": "UC-Display27",
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0
+        "rfCmFcc": 20,
+        "rfCmIc": 20
       },
       "deviceType": "viewer",
       "deviceTypes": [
@@ -41268,8 +41268,8 @@
       "compliance": {
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "UC-EV-Station-Lite",
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC"
@@ -42641,8 +42641,8 @@
         "fcc": "SWX-UCI",
         "ic": "6545A-UCI",
         "modelName": "UCI",
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "RF"
@@ -43560,8 +43560,8 @@
         "ic": "6545A-UDBI",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "UDB-IoT",
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -43855,8 +43855,8 @@
         "ic": "6545A-UDBPS",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "UDB-Pro-Sector",
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -44145,8 +44145,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "UDIM-AC",
         "ncc": "CCAF19LP0300T0",
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -44345,8 +44345,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "UDIM-AT",
         "ncc": "CCAF19LP0290T7",
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC"
@@ -47909,8 +47909,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "UISP-Console",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC"
@@ -48033,8 +48033,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "UISP-FIBER-OLT-XGS",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -48350,8 +48350,8 @@
         "ic": "6545A-UISPLTE Contains IC: 6545A-RC7611",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "UISP-LTE",
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -48483,8 +48483,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "UISP-P",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -48612,8 +48612,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "UISP-P-Pro",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -48737,8 +48737,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "UISP-R",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -49004,8 +49004,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "UISP-R-Pro",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -49133,8 +49133,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "UISP-S",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -49265,8 +49265,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "UISP-S-Pro",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -49552,8 +49552,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "ULED-AC",
         "ncc": "CCAF19LP0270T1",
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -49758,8 +49758,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "ULED-AT",
         "ncc": "CCAF19LP0280T4",
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -50304,8 +50304,8 @@
         "fcc": "SWX-RC7611",
         "ic": "6545A-UMRU Contains IC: 6545A-RC7611",
         "modelName": "UMR-Ultra",
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "RF"
@@ -53272,8 +53272,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "UP-DoorLock",
         "ncc": "CCAJ21LP2880T0",
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -53717,8 +53717,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "UPL-Amp-B",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -53831,8 +53831,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "UPL-Amp-W",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -53941,8 +53941,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "UPL-Port-B",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -54043,8 +54043,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "UPL-Port-W",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -54317,8 +54317,8 @@
       "compliance": {
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "UPS-2U-Pro-EU",
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0
+        "rfCmFcc": 20,
+        "rfCmIc": 20
       },
       "deviceType": "power-supply",
       "deviceTypes": [
@@ -54524,8 +54524,8 @@
         "ic": "6545A-UPS2UP",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "UPS-2U-Pro-US",
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0
+        "rfCmFcc": 20,
+        "rfCmIc": 20
       },
       "deviceType": "power-supply",
       "deviceTypes": [
@@ -59541,8 +59541,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "USL-Motion-US",
         "ncc": "CCAH25LPD030T1",
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -59976,8 +59976,8 @@
           "020-260233"
         ],
         "modelName": "USL-Siren-US",
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -60189,8 +60189,8 @@
         "ic": "6545A-USLSM",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "USL-Smoke-US",
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -61162,8 +61162,8 @@
         "ic": "6545A-USP1",
         "modelName": "USP-Plug",
         "ncc": "CCAH20LP5600T4",
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "RF"
@@ -61418,8 +61418,8 @@
         "ic": "6545A-USPRP",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "USP-RPS-Pro",
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -61577,8 +61577,8 @@
         "ic": "6545A-USPS",
         "modelName": "USP-Strip",
         "ncc": "CCAH22LP2770T4",
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "RF"
@@ -68719,8 +68719,8 @@
         "anatel": "05977-25-08356",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "USW-Pro-XG-Aggregation",
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0
+        "rfCmFcc": 20,
+        "rfCmIc": 20
       },
       "deviceType": "switch",
       "deviceTypes": [
@@ -70173,8 +70173,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "UTP-Touch-White",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC"
@@ -70390,8 +70390,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "UTP-TouchMax-White",
         "rcm": true,
-        "rfCmFcc": 20.0,
-        "rfCmIc": 20.0,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC"
@@ -81054,8 +81054,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "Wave-AP",
         "rcm": true,
-        "rfCmFcc": 45.0,
-        "rfCmIc": 45.0,
+        "rfCmFcc": 45,
+        "rfCmIc": 45,
         "text": {
           "CA": [
             "IC",
@@ -81318,8 +81318,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "Wave-AP-Micro",
         "rcm": true,
-        "rfCmFcc": 50.0,
-        "rfCmIc": 50.0,
+        "rfCmFcc": 50,
+        "rfCmIc": 50,
         "text": {
           "CA": [
             "IC",
@@ -81446,8 +81446,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "Wave-Pro",
         "rcm": true,
-        "rfCmFcc": 400.0,
-        "rfCmIc": 400.0,
+        "rfCmFcc": 400,
+        "rfCmIc": 400,
         "text": {
           "CA": [
             "IC",
@@ -81813,5 +81813,5 @@
       "videos": {}
     }
   ],
-  "version": "46571d36951aca0b30fa59412770228cfd685b05"
+  "version": "aec62dea6978e08053789ef7ca0e99823b57a121"
 }
