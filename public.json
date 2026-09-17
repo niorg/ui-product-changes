@@ -31331,165 +31331,6 @@
         "access-point"
       ],
       "guids": [
-        "7f81fb78-30c2-4f70-9c08-d14b28cf94ed"
-      ],
-      "icon": {
-        "id": "85d9787f-8149-4cfb-b9ff-fa88cb7a4bc8",
-        "resolutions": [
-          [
-            25,
-            25
-          ],
-          [
-            32,
-            32
-          ],
-          [
-            51,
-            51
-          ],
-          [
-            64,
-            64
-          ],
-          [
-            101,
-            101
-          ],
-          [
-            128,
-            128
-          ],
-          [
-            129,
-            129
-          ],
-          [
-            256,
-            256
-          ],
-          [
-            257,
-            257
-          ],
-          [
-            512,
-            512
-          ],
-          [
-            1000,
-            1000
-          ]
-        ]
-      },
-      "id": "0aa86774-37e9-411a-83a8-f260dc52453b",
-      "images": {
-        "default": "3f57bf7a93feead4ef1a1241c5cbc9d0",
-        "nopadding": "27aadf0b859cec10725643b1b4fbba62",
-        "topology": "82c87b6d101d91926bb88b4aab2cb8af"
-      },
-      "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
-      },
-      "minAdoptVersion": {
-        "net": "8.2.93"
-      },
-      "product": {
-        "abbrev": "U7 Pro Max",
-        "name": "Access Point U7 Pro Max"
-      },
-      "shortnames": [
-        "U7ENT"
-      ],
-      "sku": "U7-Pro-Max",
-      "sysid": "a681",
-      "sysids": [
-        "a681"
-      ],
-      "triplets": [
-        {
-          "k1": "U7ENT",
-          "k2": "U7-Enterprise"
-        }
-      ],
-      "unifi": {
-        "adoptability": "adoptable",
-        "network": {
-          "chipset": "r",
-          "deviceCapabilities": [
-            "ACCESS_POINT",
-            "HAS_CLIENTS",
-            "VPORT"
-          ],
-          "ethernetMaxSpeedMegabitsPerSecond": 2500,
-          "features": {
-            "atfDisabled": true,
-            "ax": true,
-            "bandsteer": true,
-            "be": true,
-            "gen": 2
-          },
-          "minimumFirmwareRequired": "7.0.0",
-          "model": "U7ENT",
-          "numberOfPorts": 1,
-          "radios": {
-            "6e": {
-              "gain": 6,
-              "maxPower": 26,
-              "maxSpeedMegabitsPerSecond": 5765
-            },
-            "na": {
-              "gain": 3,
-              "maxPower": 26,
-              "maxSpeedMegabitsPerSecond": 4324
-            },
-            "ng": {
-              "gain": 5,
-              "maxPower": 22,
-              "maxSpeedMegabitsPerSecond": 688
-            },
-            "swift": {
-              "gain": 3,
-              "maxPower": 0
-            }
-          },
-          "systemIdHexadecimal": "a681",
-          "type": "uap"
-        }
-      },
-      "videos": {}
-    },
-    {
-      "compliance": {
-        "anatel": "08959-24-08356",
-        "fcc": "SWX-U7PROM",
-        "ic": "6545A-U7PROM",
-        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
-        "indoorOnly": true,
-        "modelName": "U7-Pro-Max",
-        "rcm": true,
-        "rfCmFcc": 25,
-        "rfCmIc": 25,
-        "text": {
-          "CA": [
-            "IC",
-            "RF",
-            "WIFI_5",
-            "WIFI_6"
-          ],
-          "US": [
-            "FCC_B",
-            "RF",
-            "WIFI_6"
-          ]
-        }
-      },
-      "deviceType": "access-point",
-      "deviceTypes": [
-        "access-point"
-      ],
-      "guids": [
         "1cd5b2f7-02c9-49bb-85c8-388b9f68ddfc",
         "27066b1b-53a9-46a2-9b6f-7b87d18eb148",
         "22a8b035-2f3e-4db5-82a5-d25adfa67395"
@@ -35266,6 +35107,228 @@
       "sysid": "ec8c",
       "sysids": [
         "ec8c"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "fcc": "SWX-UARR",
+        "ic": "6545A-UARR",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jpa": [
+          "AC-25158"
+        ],
+        "jrf": [
+          "020-250385"
+        ],
+        "modelName": "UA-Retrofit-Reader-B",
+        "ncc": "CCAH25LPC471T0",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_A",
+            "RF"
+          ]
+        }
+      },
+      "deviceType": "control",
+      "deviceTypes": [
+        "control"
+      ],
+      "guids": [
+        "e676d4e0-df05-4828-b300-368395e7e25b"
+      ],
+      "icon": {
+        "id": "90b5f628-858e-4657-9fea-798ba8950ef1",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "eda94e95-3cbd-4438-9bc6-d469542950b3",
+      "images": {
+        "default": "60d4d28cf50f87683eaa8ec4b77fcb8d",
+        "nopadding": "58e227d62ff0ec12744ec419742f2b6b",
+        "topology": "216de83e5565ccb176f877c93857dde8"
+      },
+      "line": {
+        "id": "unifi-access",
+        "name": "UniFi Access"
+      },
+      "product": {
+        "abbrev": "UA Retrofit Reader B",
+        "name": "Retrofit Reader"
+      },
+      "shortnames": [
+        "UA-Reader-Retrofit-B",
+        "UA-Retrofit-Reader-B"
+      ],
+      "sku": "UA-Retrofit-Reader-B",
+      "sysid": "ec8e",
+      "sysids": [
+        "ec8e"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "fcc": "SWX-UARR",
+        "ic": "6545A-UARR",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jnfc": "AC-25157",
+        "jrf": [
+          "020-250385"
+        ],
+        "modelName": "UA-Retrofit-Reader-W",
+        "ncc": "CCAH25LPC470T8",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
+      "deviceType": "control",
+      "deviceTypes": [
+        "control"
+      ],
+      "guids": [
+        "90ac1ce6-41ec-47b6-a9a5-95e3775ba187"
+      ],
+      "icon": {
+        "id": "8c01f99c-a47a-4d3c-81cb-cf9610e7f78b",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "d314239c-c638-46d7-b7fa-16e3175e862b",
+      "images": {
+        "default": "401646c8fd6dc5b25b33687273a9fc58",
+        "nopadding": "d868d53ff7b397049082d403013c5f04",
+        "topology": "1384f25cf426ef492397ad52724a5d9a"
+      },
+      "line": {
+        "id": "unifi-access",
+        "name": "UniFi Access"
+      },
+      "product": {
+        "abbrev": "UA Retrofit Reader W",
+        "name": "Retrofit Reader"
+      },
+      "shortnames": [
+        "UA-Retrofit-Reader",
+        "UA-Retrofit-Reader-W"
+      ],
+      "sku": "UA-Retrofit-Reader-W",
+      "sysid": "ec8d",
+      "sysids": [
+        "ec8d"
       ],
       "triplets": [],
       "unifi": {
@@ -81813,5 +81876,5 @@
       "videos": {}
     }
   ],
-  "version": "84ff98e83e9a250bdee75a1a7ab17401d208e8c6"
+  "version": "6e4bd9cd3b743614bd66dd6dd4cc15c00b6eae12"
 }
