@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   update-product-json:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     outputs: 
       file_changed: ${{ steps.file_changed.outputs.file_changed }}
     steps:
@@ -43,7 +43,7 @@ jobs:
         path: public.json
 
   generate-rss-feed:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     needs: update-product-json
     if: ${{ needs.update-product-json.outputs.file_changed == 'true' }}
     steps:
@@ -73,7 +73,7 @@ jobs:
         git push
 
   generate-static-content:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     needs: [update-product-json, generate-rss-feed]
     if: ${{ needs.update-product-json.outputs.file_changed == 'true' }}
     steps:
