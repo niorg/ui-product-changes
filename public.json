@@ -7209,6 +7209,7 @@
         "jrf": [
           "006-000231"
         ],
+        "kc": "R-C-U8I-BulletM2-HP",
         "modelName": "BulletM2-HP",
         "rcm": true,
         "rfCmFcc": 20,
@@ -7340,6 +7341,7 @@
         "ic": "6545A-CKEP",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "CK-Enterprise",
+        "ncc": "CCAH24LP4490T1",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
@@ -8211,6 +8213,7 @@
         "ic": "6545A-E7CP",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "E7-Campus",
+        "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
         "text": {
@@ -9881,6 +9884,7 @@
     },
     {
       "compliance": {
+        "anatel": "01327-25-08356",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "ECS-Aggregation",
         "rcm": true,
@@ -10138,6 +10142,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "EF-Core",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -10306,6 +10312,7 @@
       },
       "compliance": {
         "anatel": "06375-24-08356",
+        "cn": "25J99U16K003",
         "fcc": "SWX-EFG",
         "ic": "6545A-EFG",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
@@ -10726,6 +10733,9 @@
         "fcc": "SWX-ENVR",
         "ic": "6545A-ENVR",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "jrf": [
+          "020-260189"
+        ],
         "modelName": "ENVR",
         "ncc": "CCAH25LPB300T4",
         "rcm": true,
@@ -10851,11 +10861,14 @@
         "userConfigured": "a75c7478-c204-4613-9936-1c3fd4c05f92"
       },
       "compliance": {
+        "anatel": "06206-26-08356",
         "fcc": "SWX-ENVRC",
         "ic": "6545A-ENVRC",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "ENVR-Core",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC"
@@ -12081,6 +12094,7 @@
       "compliance": {
         "fcc": "SWX-ERBTD",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "kc": "R-REI-buf-ER-4",
         "modelName": "ER-4",
         "rcm": true
       },
@@ -12701,6 +12715,7 @@
       "compliance": {
         "anatel": "00888-15-08356",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "kc": "MSIP-REI-buf-ERLite-3",
         "modelName": "ERLite-3"
       },
       "deviceType": "router",
@@ -12905,6 +12920,7 @@
       "compliance": {
         "anatel": "00843-15-08356",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "kc": "MSIP-REI-buf-ERPro-8",
         "modelName": "ERPro-8"
       },
       "deviceType": "router",
@@ -13431,6 +13447,7 @@
       "compliance": {
         "anatel": "00820-20-08356",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "kc": "MSIP-REI-buf-ES-16-XG",
         "modelName": "ES-16-XG",
         "rcm": true
       },
@@ -13737,6 +13754,7 @@
       "compliance": {
         "anatel": "01245-15-08356",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "kc": "R-REI-buf-US-24-250W",
         "modelName": "ES-24-250W",
         "rcm": true
       },
@@ -13959,6 +13977,7 @@
       "compliance": {
         "anatel": "00974-19-08356",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "kc": "MSIP-REI-buf-ES-24-LITE",
         "modelName": "ES-24-Lite",
         "rcm": true
       },
@@ -14071,6 +14090,7 @@
       "compliance": {
         "anatel": "02678-15-08356",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "kc": "R-REI-buf-US-48-500W",
         "modelName": "ES-48-500W",
         "rcm": true
       },
@@ -14290,6 +14310,7 @@
       "compliance": {
         "anatel": "00161-19-08356",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "kc": "MSIP-REI-buf-ES-48-LITE",
         "modelName": "ES-48-Lite",
         "rcm": true
       },
@@ -27087,6 +27108,8 @@
       },
       "compliance": {
         "anatel": "07608-25-08356",
+        "fcc": "SWX-U5GM",
+        "ic": "6545A-U5GM",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "U5G-Max",
         "rcm": true,
@@ -27220,6 +27243,7 @@
         "userConfigured": "187e7fb5-76f2-4a81-b38f-47830dbc9d40"
       },
       "compliance": {
+        "anatel": "03586-26-08356",
         "fcc": "SWX-U5GMO",
         "ic": "6545A-U5GMO",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -27473,6 +27497,7 @@
         "jrf": [
           "201-230529"
         ],
+        "kc": "R-R-U8I-U6P",
         "modelName": "U6+",
         "ncc": "CCAH23LP4630T6",
         "rcm": true,
@@ -30373,6 +30398,7 @@
     },
     {
       "compliance": {
+        "anatel": "03909-25-08356",
         "cn": "25JJ99U16F003",
         "fcc": "SWX-U7IW",
         "ic": "6545A-U7IW",
@@ -30527,6 +30553,7 @@
     {
       "compliance": {
         "anatel": "04071-25-08356",
+        "cn": "25J99U16G001",
         "fcc": "SWX-U7LR",
         "ic": "6545A-U7LR",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -30678,6 +30705,7 @@
     },
     {
       "compliance": {
+        "anatel": "02143-25-08356",
         "cn": "25J99U16E001",
         "fcc": "SWX-U7LITE",
         "ic": "6545A-U7LITE",
@@ -30827,6 +30855,7 @@
     {
       "compliance": {
         "anatel": "01786-26-08356",
+        "cn": "26J99U16D001",
         "fcc": "SWX-U7MESH",
         "ic": "6545A-U7MESH",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -31309,6 +31338,7 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "indoorOnly": true,
         "modelName": "U7-Pro-Max",
+        "ncc": "CCAH24LPD620T1",
         "rcm": true,
         "rfCmFcc": 25,
         "rfCmIc": 25,
@@ -31912,6 +31942,7 @@
     },
     {
       "compliance": {
+        "anatel": "06630-25-08356",
         "fcc": "SWX-U7PROX",
         "ic": "6545A-U7PROX",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -32218,11 +32249,19 @@
     },
     {
       "compliance": {
+        "anatel": "08697-25-08356",
         "fcc": "SWX-U7PROXW",
         "ic": "6545A-U7PROXW",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "indoorOnly": true,
         "modelName": "U7-Pro-XG-Wall",
         "rcm": true,
+        "rfCmFcc": 25,
+        "rfCmIc": 25,
         "text": {
+          "BR": [
+            "WIFI_6E"
+          ],
           "CA": [
             "WIFI_5",
             "WIFI_6"
@@ -32230,7 +32269,8 @@
           "US": [
             "WIFI_6"
           ]
-        }
+        },
+        "wifi": "6e"
       },
       "deviceType": "access-point",
       "deviceTypes": [
@@ -32520,6 +32560,10 @@
         "fcc": "SWX-U7PROXS",
         "ic": "6545A-U7PROXS",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "indoorOnly": true,
+        "jrf": [
+          "201-250579"
+        ],
         "modelName": "U7-Pro-XGS-B",
         "ncc": "CCAH25LP9641T0",
         "rcm": true,
@@ -33192,6 +33236,7 @@
         ],
         "modelName": "UA-G2-Pro-Black",
         "ncc": "CCAH23LP3311T1",
+        "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
         "text": {
@@ -33400,6 +33445,7 @@
         "fcc": "SWX-UAG3",
         "ic": "6545A-UAG3",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jnfc": "AC-25100",
         "jpa": [
           "AC-25100"
         ],
@@ -33407,6 +33453,7 @@
           "020-250216"
         ],
         "modelName": "UA-G3-B",
+        "ncc": "CCAH25LPD521T4",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
@@ -33615,6 +33662,10 @@
         "fcc": "SWX-UAG3F",
         "ic": "6545A-UAG3F",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jnfc": "AC-25102",
+        "jrf": [
+          "020-250211"
+        ],
         "modelName": "UA-G3-Flex-B",
         "ncc": "CCAH25LP1801T8",
         "rcm": true,
@@ -35116,9 +35167,11 @@
     },
     {
       "compliance": {
+        "anatel": "02414-26-08356",
         "fcc": "SWX-UARR",
         "ic": "6545A-UARR",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jnfc": "AC-25158",
         "jpa": [
           "AC-25158"
         ],
@@ -35228,6 +35281,7 @@
     },
     {
       "compliance": {
+        "anatel": "02414-26-08356",
         "fcc": "SWX-UARR",
         "ic": "6545A-UARR",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -35452,6 +35506,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "UACC-AI-Pro-Enhancer",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -36266,6 +36322,7 @@
     {
       "compliance": {
         "anatel": "01768-18-08356",
+        "cn": "2019AJ7948",
         "fcc": "SWX-UAPACHD",
         "ic": "6545A-UAPACHD",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -36273,6 +36330,8 @@
         "modelName": "UAP-AC-HD",
         "ncc": "CCAF19LP2190T0",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -36713,6 +36772,7 @@
     {
       "compliance": {
         "anatel": "01405-16-08356",
+        "cn": "2015AJ6731",
         "fcc": "SWX-UAPACL",
         "ic": "6545A-UAPACL",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -36720,6 +36780,8 @@
         "modelName": "UAP-AC-LITE",
         "ncc": "CCAK15LP2510T0",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -37017,6 +37079,7 @@
     {
       "compliance": {
         "anatel": "01769-18-08356",
+        "cn": "2017AJ0493",
         "fcc": "SWX-UAPACM",
         "ic": "6545A-UAPACM",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -37170,6 +37233,7 @@
     {
       "compliance": {
         "anatel": "01653-18-08356",
+        "cn": "2017AJ0492",
         "fcc": "SWX-UAPACMPRO",
         "ic": "6545A-UAPACMPRO",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -37617,12 +37681,15 @@
     },
     {
       "compliance": {
+        "cn": "2017AJ2141",
         "fcc": "SWX-UAPACSHD\nContains FCC ID: SWX-M11DB",
         "ic": "6545A-UAPACSHD\nContains IC: 6545A-M11DB",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "UAP-AC-SHD",
         "ncc": "CCAF19LP2180T0",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -37931,6 +37998,7 @@
     {
       "compliance": {
         "anatel": "05383-20-08356",
+        "cn": "2020AJ2278",
         "fcc": "SWX-UAPFLEXHD",
         "ic": "6545A-UAPFLEXHD",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -37941,6 +38009,8 @@
         "modelName": "UAP-FlexHD",
         "ncc": "CCAF19LP2620T2",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -38243,6 +38313,7 @@
     },
     {
       "compliance": {
+        "cn": "2019AJ8413",
         "fcc": "SWX-UAPIWHD",
         "ic": "6545A-UAPIWHD",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -38253,6 +38324,8 @@
         "modelName": "UAP-IW-HD",
         "ncc": "CCAF19LP0400T1",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -39348,6 +39421,7 @@
     {
       "compliance": {
         "anatel": "06168-18-08356",
+        "cn": "2019AJ12310",
         "fcc": "SWX-UAPHDNANO",
         "ic": "6545A-UAPHDNANO",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -39358,6 +39432,8 @@
         "modelName": "UAP-nanoHD",
         "ncc": "CCAF18LP0960T5",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -39640,6 +39716,7 @@
         "fcc": "SWX-UASPRO",
         "ic": "6545A-UASPRO",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "kc": "R-C-U8I-UAS-XG",
         "modelName": "UAS-XG",
         "text": {
           "CA": [
@@ -40062,6 +40139,7 @@
         "jrf": [
           "201-180678"
         ],
+        "kc": "R-REI-buf-UC-CK",
         "modelName": "UC-CK",
         "ncc": "CCAF19LP1390T3",
         "rcm": true,
@@ -40384,6 +40462,7 @@
     },
     {
       "compliance": {
+        "anatel": "06981-25-08356",
         "fcc": "SWX-UCCASTP",
         "ic": "6545A-UCCASTP",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -42033,6 +42112,7 @@
         "userConfigured": "e716f54d-2345-4912-aded-dad64fa8dea9"
       },
       "compliance": {
+        "anatel": "01534-26-08356",
         "fcc": "SWX-UCGT",
         "ic": "6545A-UCGT",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -42229,6 +42309,8 @@
         "modelName": "UCG-Max",
         "ncc": "CCAH24LPD130T7",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -43349,6 +43431,7 @@
     {
       "compliance": {
         "anatel": "07458-19-08356",
+        "cn": "24J99U16M003",
         "fcc": "SWX-UCKG2P",
         "ic": "6545A-UCKG2P",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -43465,12 +43548,15 @@
         "userConfigured": "4dd748ce-d16d-49e3-9e6d-f1642423b77b"
       },
       "compliance": {
+        "anatel": "03885-25-08356",
         "fcc": "SWX-UDB",
         "ic": "6545A-UDB",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "UDB",
         "ncc": "CCAH25LP1280T6",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -43752,6 +43838,7 @@
     },
     {
       "compliance": {
+        "anatel": "06862-26-08356",
         "fcc": "SWX-UDBP",
         "ic": "6545A-UDBP",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
@@ -44045,6 +44132,7 @@
         "fcc": "SWX-UDBS",
         "ic": "6545A-UDBS",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "indoorOnly": true,
         "modelName": "UDB-Switch",
         "rcm": true,
         "rfCmFcc": 20,
@@ -44603,6 +44691,7 @@
         "userConfigured": "d83b80e3-e81f-4f66-879b-779be5f6a693"
       },
       "compliance": {
+        "cn": "2020AJ2919",
         "fcc": "SWX-UDM",
         "ic": "6545A-UDM",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -44616,6 +44705,8 @@
         "modelName": "UDM",
         "ncc": "CCAF19LP1980T1",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -45361,6 +45452,8 @@
         "modelName": "UDM-Pro-Max",
         "ncc": "CCAH24LP3680T1",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -45942,6 +46035,7 @@
         "userConfigured": "fe33e6b5-25c7-4bba-a6d2-41761765a961"
       },
       "compliance": {
+        "anatel": "09650-22-08356",
         "cn": "2022AJ8089",
         "fcc": "SWX-UDR",
         "ic": "6545A-UDR",
@@ -46193,9 +46287,11 @@
         "userConfigured": "59fc2d05-bad4-45b1-a67e-065f8abc08d9"
       },
       "compliance": {
+        "anatel": "01489-26-08356",
         "fcc": "SWX-UDR5GM",
         "ic": "6545A-UDR5GM",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "indoorOnly": true,
         "modelName": "UDR-5G-Max",
         "rcm": true,
         "rfCmFcc": 20,
@@ -46454,6 +46550,7 @@
         "jrf": [
           "020-250102"
         ],
+        "kc": "R-R-IO7-UDR7",
         "modelName": "UDR7",
         "ncc": "CCAH25LP2880T9",
         "rcm": true,
@@ -49468,7 +49565,8 @@
             "FCC_B",
             "RF"
           ]
-        }
+        },
+        "wifi": "5e"
       },
       "deviceType": "gateway",
       "deviceTypes": [
@@ -50614,6 +50712,7 @@
           "020-250369"
         ],
         "modelName": "UNAS-2-W",
+        "ncc": "CCAH26LP2241T9",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
@@ -50739,6 +50838,7 @@
         "userConfigured": "c181f5c2-1745-4683-b94a-efd68cc90a53"
       },
       "compliance": {
+        "anatel": "00155-26-08356",
         "fcc": "SWX-UNAS4",
         "ic": "6545A-UNAS4",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -50868,9 +50968,11 @@
         "userConfigured": "fb4828bc-f304-4a43-a5ef-3706e88a5c42"
       },
       "compliance": {
+        "anatel": "00155-26-08356",
         "fcc": "SWX-UNAS4",
         "ic": "6545A-UNAS4",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "kc": "R-R-IO7-UNAS-4-B",
         "modelName": "UNAS-4-W",
         "rcm": true,
         "rfCmFcc": 20,
@@ -50997,6 +51099,7 @@
         "userConfigured": "edb1f0b7-bdcc-4b06-a326-17ff99997c5b"
       },
       "compliance": {
+        "anatel": "01886-25-08356",
         "fcc": "SWX-UNASP",
         "ic": "6545A-UNASP",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -51791,11 +51894,18 @@
         "userConfigured": "96d24685-0423-4480-b096-7e11fcf54294"
       },
       "compliance": {
+        "anatel": "05582-26-08356",
         "fcc": "SWX-UNVRG2",
         "ic": "6545A-UNVRG2",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jrf": [
+          "020-260258"
+        ],
         "modelName": "UNVR-G2",
+        "ncc": "CCAH26LP6610T8",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -51920,10 +52030,15 @@
         "userConfigured": "3f4accd1-a99b-4a57-b77f-ede7b3e87096"
       },
       "compliance": {
+        "anatel": "05765-26-08356",
         "fcc": "SWX-UNVRG2P",
         "ic": "6545A-UNVRG2P",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jrf": [
+          "020-260277"
+        ],
         "modelName": "UNVR-G2-Pro",
+        "ncc": "CCAH26LP7150T5",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
@@ -52060,6 +52175,7 @@
           "020-250379"
         ],
         "modelName": "UNVR-Instant",
+        "ncc": "CCAH25LPC110T4",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
@@ -55544,6 +55660,7 @@
       "compliance": {
         "anatel": "01954-19-08356",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "kc": "MSIP-REI-buf-ES-16-XG",
         "modelName": "US-16-XG",
         "rcm": true
       },
@@ -55672,6 +55789,7 @@
       "compliance": {
         "anatel": "01245-15-08356",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "kc": "R-REI-buf-US-24-250W",
         "modelName": "US-24-250W",
         "rcm": true,
         "rfCmFcc": 20,
@@ -56067,6 +56185,7 @@
       "compliance": {
         "anatel": "02678-15-08356",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "kc": "R-REI-buf-US-48-500W",
         "modelName": "US-48-500W",
         "rcm": true,
         "rfCmFcc": 20,
@@ -57388,6 +57507,7 @@
         "jpa": [
           "D 20-0094001"
         ],
+        "kc": "R-REI-buf-USG",
         "modelName": "USG",
         "rcm": true
       },
@@ -57658,6 +57778,7 @@
       "compliance": {
         "anatel": "05224-18-08356",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "kc": "R-REI-buf-USG-PRO-4",
         "modelName": "USG-PRO-4",
         "rcm": true
       },
@@ -58363,10 +58484,12 @@
     },
     {
       "compliance": {
+        "anatel": "00763-26-08356",
         "fcc": "SWX-USLET",
         "ic": "6545A-USLET",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "USL-Entry-US",
+        "ncc": "CCAH26LP6480T8",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
@@ -58576,6 +58699,7 @@
     },
     {
       "compliance": {
+        "anatel": "00516-26-08356",
         "fcc": "SWX-USLE",
         "ic": "6545A-USLE",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -59196,10 +59320,15 @@
     },
     {
       "compliance": {
+        "anatel": "08474-25-08356",
         "fcc": "SWX-UPSL",
         "ic": "6545A-UPSL",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jrf": [
+          "020-260192"
+        ],
         "modelName": "UP-SuperLink",
+        "ncc": "CCAH25LPD870T3",
         "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
@@ -61350,6 +61479,7 @@
     {
       "compliance": {
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
+        "kc": "R-R-U8I-USP-RPS",
         "modelName": "USP-RPS",
         "rcm": true
       },
@@ -63810,6 +63940,7 @@
     },
     {
       "compliance": {
+        "anatel": "06007-24-08356",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "USW-EnterpriseXG-24",
         "rcm": true,
@@ -64745,6 +64876,7 @@
     },
     {
       "compliance": {
+        "anatel": "06606-25-08356",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "USW-Flex-XG",
         "rcm": true,
@@ -65951,6 +66083,7 @@
     },
     {
       "compliance": {
+        "anatel": "06679-25-08356",
         "fcc": "SWX-USWMC\nContains FCC ID: SWX-HL7800",
         "ic": "6545A-USWMC\nContains IC: 6545A-HL7800",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
@@ -66900,6 +67033,7 @@
     },
     {
       "compliance": {
+        "anatel": "03853-25-08356",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "USW-Pro-HD-24",
         "rcm": true,
@@ -67034,6 +67168,7 @@
     },
     {
       "compliance": {
+        "anatel": "03853-25-08356",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "USW-Pro-HD-24-PoE",
         "rcm": true,
@@ -67449,6 +67584,7 @@
     },
     {
       "compliance": {
+        "anatel": "06374-24-08356",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "USW-Pro-Max-24",
         "rcm": true,
@@ -67723,6 +67859,7 @@
     },
     {
       "compliance": {
+        "anatel": "06373-24-08356",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "USW-Pro-Max-48",
         "rcm": true,
@@ -67990,6 +68127,7 @@
     },
     {
       "compliance": {
+        "anatel": "05660-25-08356",
         "icEmi": "Can ICES-003(A)/NMB-003(A)",
         "modelName": "USW-Pro-XG-10-PoE",
         "rcm": true,
@@ -68513,6 +68651,7 @@
     },
     {
       "compliance": {
+        "anatel": "04322-25-08356",
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "USW-Pro-XG-48-PoE",
         "rcm": true,
@@ -68646,6 +68785,7 @@
     },
     {
       "compliance": {
+        "anatel": "04322-25-08356",
         "icEmi": "Can ICES-003(B)/NMB-003(B)",
         "modelName": "USW-Pro-XG-8-PoE",
         "rcm": true,
@@ -68904,6 +69044,7 @@
       "compliance": {
         "anatel": "06367-24-08356",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "kc": "R-R-U8I-USW-Ultra",
         "modelName": "USW-Ultra",
         "rcm": true,
         "rfCmFcc": 20,
@@ -69045,6 +69186,7 @@
       "compliance": {
         "anatel": "06367-24-08356",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "kc": "R-R-U8I-USW-Ultra",
         "modelName": "USW-Ultra-210W",
         "rcm": true,
         "rfCmFcc": 20,
@@ -69186,6 +69328,7 @@
       "compliance": {
         "anatel": "06367-24-08356",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "kc": "R-R-U8I-USW-Ultra",
         "modelName": "USW-Ultra-60W",
         "rcm": true,
         "rfCmFcc": 20,
@@ -69455,6 +69598,7 @@
     },
     {
       "compliance": {
+        "anatel": "04273-25-08356",
         "icEmi": "Need EMI info",
         "modelName": "USW-WAN-RJ45",
         "rcm": true,
@@ -69791,6 +69935,8 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "UTP-G3-Touch-Enterprise",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -69897,11 +70043,14 @@
     },
     {
       "compliance": {
+        "anatel": "06740-25-08356",
         "fcc": "SWX-UG3TP",
         "ic": "6545A-UG3TP",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "UTP-G3-Touch-Pro",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -70128,6 +70277,7 @@
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "UTP-Touch",
         "ncc": "CCAF19LP2930T1",
+        "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
         "text": {
@@ -70344,6 +70494,7 @@
         "ic": "6545A-UTPTM",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
         "modelName": "UTP-TouchMax",
+        "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
         "text": {
@@ -70570,7 +70721,8 @@
           "US": [
             "FCC_B"
           ]
-        }
+        },
+        "wifi": "5e"
       },
       "deviceType": "router",
       "deviceTypes": [
@@ -73374,6 +73526,7 @@
         ],
         "modelName": "UVC-G3-INS",
         "ncc": "CCAH20LPB300T3",
+        "rcm": true,
         "rfCmFcc": 20,
         "rfCmIc": 20,
         "text": {
@@ -73782,6 +73935,7 @@
         "fcc": "SWX-UVCG4DP",
         "ic": "6545A-UVCG4DP",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "jnfc": "AC-23088",
         "jrf": [
           "201-220245"
         ],
@@ -74891,6 +75045,7 @@
     {
       "compliance": {
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "kc": "R-R-U8I-UVC-G5-Bullet",
         "modelName": "UVC-G5-Bullet",
         "rcm": true,
         "rfCmFcc": 20,
@@ -76811,6 +76966,7 @@
     },
     {
       "compliance": {
+        "anatel": "02285-26-08356",
         "fcc": "SWX-UVCG6PE",
         "ic": "6545A-UVCG6E",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -79298,6 +79454,7 @@
         "jrf": [
           "201-230758"
         ],
+        "kc": "R-R-U8I-UX",
         "modelName": "UX",
         "ncc": "CCAH23LPC420T3",
         "rcm": true,
@@ -79523,6 +79680,7 @@
         "userConfigured": "84edc8a6-a5a1-4d09-8cf9-21fd6cdcd20c"
       },
       "compliance": {
+        "anatel": "06656-25-08356",
         "fcc": "SWX-UX7",
         "ic": "6545A-UX7",
         "icEmi": "CAN ICES-003(B)/NMB-003(B)",
@@ -79777,6 +79935,8 @@
         "icEmi": "CAN ICES-003(A)/NMB-003(A)",
         "modelName": "UXG-Enterprise",
         "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
         "text": {
           "CA": [
             "IC",
@@ -81876,5 +82036,5 @@
       "videos": {}
     }
   ],
-  "version": "6e4bd9cd3b743614bd66dd6dd4cc15c00b6eae12"
+  "version": "1e066555b0e761af60ea68ae4763d7fe3d18faf9"
 }
