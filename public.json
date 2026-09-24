@@ -43808,12 +43808,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
+            "HAS_TEMPERATURE_SENSOR",
+            "BRIDGE",
             "ACCESS_POINT_SWITCH",
-            "AUTOLINK_ELEMENT",
             "HAS_CLIENTS",
             "ELEMENT_WITH_UPLINK_PRIORITY",
-            "HAS_TEMPERATURE_SENSOR",
-            "BRIDGE"
+            "AUTOLINK_ELEMENT"
           ],
           "diagram": [
             "01"
@@ -82036,5 +82036,5 @@
       "videos": {}
     }
   ],
-  "version": "1e066555b0e761af60ea68ae4763d7fe3d18faf9"
+  "version": "b17a8a167dd758f318c26a404f201f333e2e25c3"
 }
