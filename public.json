@@ -33551,6 +33551,206 @@
     },
     {
       "compliance": {
+        "fcc": "SWX-UAG3FP",
+        "ic": "6545A-UAG3FP",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UA-G3-Fingerprint-B",
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
+      "deviceType": "card-reader",
+      "deviceTypes": [
+        "card-reader"
+      ],
+      "guids": [
+        "fdf80ee0-739a-41f7-aaa7-8509d33f6c7b"
+      ],
+      "icon": {
+        "id": "ba045f06-b5bf-4967-9d26-22847d174cc3",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "6b1383a8-7588-444d-862a-315b65e5d6a4",
+      "images": {
+        "default": "7c5dcaa05abba6691eff21d609dff177",
+        "nopadding": "4f912bb1b379cd28c36c7f4a80655b07",
+        "topology": "8698b34b77b29d77ec15cdf13a8f2ace"
+      },
+      "line": {
+        "id": "unifi-access",
+        "name": "UniFi Access"
+      },
+      "product": {
+        "abbrev": "UA G3 Fingerprint",
+        "name": "G3 Fingerprint"
+      },
+      "shortnames": [
+        "UA-G3-Fingerprint-B"
+      ],
+      "sku": "UA-G3-Fingerprint-B",
+      "sysid": "ec92",
+      "sysids": [
+        "ec92"
+      ],
+      "triplets": [],
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "fcc": "SWX-UAG3FP",
+        "ic": "6545A-UAG3FP",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UA-G3-Fingerprint-W",
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
+      "deviceType": "card-reader",
+      "deviceTypes": [
+        "card-reader"
+      ],
+      "guids": [
+        "aa3ea9cf-a7eb-485d-ada8-6aa2c86a409a"
+      ],
+      "icon": {
+        "id": "261e7041-14f7-4345-8fae-9e01de7c00f6",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "ca9a3d45-85ee-4c17-b18e-e6787cfb2190",
+      "images": {
+        "default": "b8613a786d81a9b7922efd2fe9499aa6",
+        "nopadding": "a8ba5d031b7b197fcb85cec05ceee090",
+        "topology": "b3423cd2d435ae6e577958c710cefe94"
+      },
+      "line": {
+        "id": "unifi-access",
+        "name": "UniFi Access"
+      },
+      "product": {
+        "abbrev": "UA G3 Fingerprint",
+        "name": "G3 Fingerprint"
+      },
+      "shortnames": [
+        "UA-G3-Fingerprint-W"
+      ],
+      "sku": "UA-G3-Fingerprint-W",
+      "sysid": "ec91",
+      "sysids": [
+        "ec91"
+      ],
+      "triplets": [],
+      "videos": {}
+    },
+    {
+      "compliance": {
         "anatel": "CCAH25LP1800T6",
         "fcc": "SWX-UAG3F",
         "ic": "6545A-UAG3F",
@@ -35274,6 +35474,226 @@
         "ec8e"
       ],
       "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "anatel": "08131-26-08356",
+        "fcc": "SWX-UARRF",
+        "ic": "6545A-UARRF",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UA-Retrofit-Reader Fingerprint-B",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
+      "deviceType": "card-reader",
+      "deviceTypes": [
+        "card-reader"
+      ],
+      "guids": [
+        "6f272da1-4092-4b37-ab92-9af999374a68"
+      ],
+      "icon": {
+        "id": "0a0a4f74-81aa-4b37-9002-66f9d050c4b8",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "39319998-46ec-4838-8881-d20172d91351",
+      "images": {
+        "default": "9495cb83882b8e761ef342b711921402",
+        "nopadding": "330c6c577fe0b2b17ac0054bdedd0bae",
+        "topology": "2711fc32f3bc5a1cec1ba9fd92f97af4"
+      },
+      "line": {
+        "id": "unifi-access",
+        "name": "UniFi Access"
+      },
+      "product": {
+        "abbrev": "UA Retrofit Reader Fingerprint B",
+        "name": "Retrofit Reader Fingerprint"
+      },
+      "shortnames": [
+        "UA-Retrofit-Reader-Fingerprint-B"
+      ],
+      "sku": "UA-Retrofit-Reader-Fingerprint-B",
+      "sysid": "ec94",
+      "sysids": [
+        "ec94"
+      ],
+      "triplets": [
+        {
+          "k1": "UA-Retrofit-Reader-Fingerprint-B",
+          "k3": "UA-Retrofit-Reader-Fingerprint-B"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
+        "anatel": "08131-26-08356",
+        "fcc": "SWX-UARRF",
+        "ic": "6545A-UARRF",
+        "icEmi": "CAN ICES-003(B)/NMB-003(B)",
+        "modelName": "UA-Retrofit-Reader Fingerprint-W",
+        "rcm": true,
+        "rfCmFcc": 20,
+        "rfCmIc": 20,
+        "text": {
+          "CA": [
+            "IC",
+            "RF"
+          ],
+          "US": [
+            "FCC_B",
+            "RF"
+          ]
+        }
+      },
+      "deviceType": "control",
+      "deviceTypes": [
+        "control"
+      ],
+      "guids": [
+        "1ca06a22-7146-46e4-aebc-9e0260331ce8"
+      ],
+      "icon": {
+        "id": "7c7bbd40-23f7-4f71-b8e8-e7a391195a91",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "26485ca1-2976-476a-9658-3b93fb92602a",
+      "images": {
+        "default": "033774d3581806e5a76d838d13aaeb66",
+        "nopadding": "78836612d50e61f57e60a9b9fbc92c08",
+        "topology": "3121d5a67546cca9265c489e0bc5de87"
+      },
+      "line": {
+        "id": "unifi-access",
+        "name": "UniFi Access"
+      },
+      "product": {
+        "abbrev": "UA Retrofit Reader Fingerprint W",
+        "name": "Retrofit Reader Fingerprint"
+      },
+      "shortnames": [
+        "UA-Retrofit-Reader-Fingerprint-W"
+      ],
+      "sku": "UA-Retrofit-Reader-Fingerprint-W",
+      "sysid": "ec93",
+      "sysids": [
+        "ec93"
+      ],
+      "triplets": [
+        {
+          "k1": "UA-Retrofit-Reader-Fingerprint-W",
+          "k3": "UA-Retrofit-Reader-Fingerprint-W"
+        }
+      ],
       "unifi": {
         "adoptability": "adoptable"
       },
@@ -82036,5 +82456,5 @@
       "videos": {}
     }
   ],
-  "version": "b17a8a167dd758f318c26a404f201f333e2e25c3"
+  "version": "e5ce4c8bbe3c041fb393da9c5d20511ff646eb1b"
 }
