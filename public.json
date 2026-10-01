@@ -9068,7 +9068,7 @@
             "PROAV"
           ],
           "diagram": [
-            "01 02 03 04 __ 05 06 __ 07"
+            "01 02 03 04 __ 05 06 08 __ 07"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
           "minimumFirmwareRequired": null,
@@ -9078,6 +9078,9 @@
             "hdmi": [
               5,
               6
+            ],
+            "ir": [
+              8
             ],
             "meta": {
               "01": {
@@ -44228,12 +44231,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "HAS_TEMPERATURE_SENSOR",
             "BRIDGE",
-            "ACCESS_POINT_SWITCH",
-            "HAS_CLIENTS",
+            "HAS_TEMPERATURE_SENSOR",
             "ELEMENT_WITH_UPLINK_PRIORITY",
-            "AUTOLINK_ELEMENT"
+            "AUTOLINK_ELEMENT",
+            "HAS_CLIENTS",
+            "ACCESS_POINT_SWITCH"
           ],
           "diagram": [
             "01"
@@ -82456,5 +82459,5 @@
       "videos": {}
     }
   ],
-  "version": "e5ce4c8bbe3c041fb393da9c5d20511ff646eb1b"
+  "version": "ead6c1635a0f4f78a729a4b72e58c8c24c628063"
 }
