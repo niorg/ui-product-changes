@@ -7766,7 +7766,8 @@
             "ACCESS_POINT",
             "HAS_CLIENTS",
             "VPORT",
-            "E7_SERIES"
+            "E7_SERIES",
+            "REDUNDANT_ETHERNET_PORT"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 10000,
           "features": {
@@ -7908,7 +7909,8 @@
             "ACCESS_POINT",
             "HAS_CLIENTS",
             "VPORT",
-            "E7_SERIES"
+            "E7_SERIES",
+            "REDUNDANT_ETHERNET_PORT"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 10000,
           "features": {
@@ -8031,7 +8033,8 @@
             "ACCESS_POINT",
             "HAS_CLIENTS",
             "VPORT",
-            "E7_SERIES"
+            "E7_SERIES",
+            "REDUNDANT_ETHERNET_PORT"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 10000,
           "features": {
@@ -8176,7 +8179,8 @@
             "ACCESS_POINT",
             "HAS_CLIENTS",
             "VPORT",
-            "E7_SERIES"
+            "E7_SERIES",
+            "REDUNDANT_ETHERNET_PORT"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 10000,
           "features": {
@@ -8324,7 +8328,8 @@
             "ACCESS_POINT",
             "HAS_CLIENTS",
             "VPORT",
-            "E7_SERIES"
+            "E7_SERIES",
+            "REDUNDANT_ETHERNET_PORT"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 10000,
           "features": {
@@ -8453,7 +8458,8 @@
             "ACCESS_POINT",
             "HAS_CLIENTS",
             "VPORT",
-            "E7_SERIES"
+            "E7_SERIES",
+            "REDUNDANT_ETHERNET_PORT"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 10000,
           "features": {
@@ -8591,7 +8597,8 @@
             "ACCESS_POINT",
             "HAS_CLIENTS",
             "VPORT",
-            "E7_SERIES"
+            "E7_SERIES",
+            "REDUNDANT_ETHERNET_PORT"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 10000,
           "features": {
@@ -9068,7 +9075,7 @@
             "PROAV"
           ],
           "diagram": [
-            "01 02 03 04 __ 05 06 08 __ 07"
+            "01 02 03 04 __ 05 06 09 08 __ 07"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
           "minimumFirmwareRequired": null,
@@ -9105,10 +9112,17 @@
               },
               "07": {
                 "uplinkPort": true
+              },
+              "09": {
+                "direction": "input",
+                "rotation": "90deg"
               }
             },
             "standard": [
               7
+            ],
+            "usbc": [
+              9
             ],
             "xlr": [
               1,
@@ -44231,12 +44245,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "BRIDGE",
             "HAS_TEMPERATURE_SENSOR",
-            "ELEMENT_WITH_UPLINK_PRIORITY",
-            "AUTOLINK_ELEMENT",
+            "BRIDGE",
             "HAS_CLIENTS",
-            "ACCESS_POINT_SWITCH"
+            "ACCESS_POINT_SWITCH",
+            "ELEMENT_WITH_UPLINK_PRIORITY",
+            "AUTOLINK_ELEMENT"
           ],
           "diagram": [
             "01"
@@ -72777,7 +72791,10 @@
       "images": {
         "default": "26532f3eaaec9a055d6306b255f4fb17",
         "nopadding": "344a79faaee23eea423e449f927bd5de",
-        "topology": "a5b7d4de5b523b143dc452742fbf2660"
+        "topology": "a5b7d4de5b523b143dc452742fbf2660",
+        "with-enhancer-default": "bfefb694ff1dec8e2a539112f8d1463d",
+        "with-enhancer-nopadding": "19fd3637c489eb0893dd08a3380da885",
+        "with-enhancer-topology": "07141ccb37745462a67bb806b26e20e2"
       },
       "line": {
         "id": "unifi-protect",
@@ -72873,7 +72890,10 @@
       "images": {
         "default": "96097ebc52c216556acfacc298101e69",
         "nopadding": "b928cfb6de452732bce7a5753f68fbae",
-        "topology": "2ea6ed248176e525880d577f10ea8f41"
+        "topology": "2ea6ed248176e525880d577f10ea8f41",
+        "with-enhancer-default": "98cba7d4ce981f596ade8858c1bbab6b",
+        "with-enhancer-nopadding": "44924864747b7baf36217dff4c41fcb3",
+        "with-enhancer-topology": "797be93750fdeb9c18c60eab33a8d06c"
       },
       "line": {
         "id": "unifi-protect",
@@ -76236,7 +76256,10 @@
       "images": {
         "default": "5c204d5db6ea1ac770b8cf51d4f1d862",
         "nopadding": "55c6c9b365b9a49e9d33917405a3090b",
-        "topology": "b4b3f031939b44f21c175bb316a7bd52"
+        "topology": "b4b3f031939b44f21c175bb316a7bd52",
+        "with-enhancer-default": "82644a389ee94aeb8ba88f151b89d285",
+        "with-enhancer-nopadding": "9251235325f4c15be4ef1e0cf298f033",
+        "with-enhancer-topology": "364d983b0ac7b42984b35bd32f043323"
       },
       "line": {
         "id": "unifi-protect",
@@ -76519,7 +76542,10 @@
       "images": {
         "default": "dd4c412c00494406e73290711e58749f",
         "nopadding": "63959bc7472b341de3fdebf9d9e64633",
-        "topology": "0e9450a484f0ea12dbc3c7fa140fe142"
+        "topology": "0e9450a484f0ea12dbc3c7fa140fe142",
+        "with-enhancer-default": "1d37671b39f7697eb2077022de3a78a6",
+        "with-enhancer-nopadding": "1b7974697b7365b83f98e66970208946",
+        "with-enhancer-topology": "7507fd4be47fb7f1a741e2590e9ca291"
       },
       "jrf": [],
       "line": {
@@ -76615,7 +76641,10 @@
       "images": {
         "default": "1bf72978e63e7e880dd245ae52b51425",
         "nopadding": "4c152d7f4f6e2b02c7d0e19477d516e1",
-        "topology": "3418ffef49d18b0e1c433add7779dad0"
+        "topology": "3418ffef49d18b0e1c433add7779dad0",
+        "with-enhancer-default": "b2bf6c361b6e463049cd1cde3025deec",
+        "with-enhancer-nopadding": "b210e8fe74f09ea846c4c20cf3ae3595",
+        "with-enhancer-topology": "128e7f5274170eafa552fb95f00825a1"
       },
       "jrf": [],
       "line": {
@@ -78229,7 +78258,10 @@
       "images": {
         "default": "7dfbbfc9709b6a71891778d43d2106db",
         "nopadding": "116749c80ea431382362326597102c7c",
-        "topology": "5bb978835ca7a8fec4261bcf33726392"
+        "topology": "5bb978835ca7a8fec4261bcf33726392",
+        "with-enhancer-default": "11fbed007465265404df55a66c44f355",
+        "with-enhancer-nopadding": "dd65619a601542da2cd5f54987a1150b",
+        "with-enhancer-topology": "6dceda44ed5cbcef95e5986ee700a00a"
       },
       "jrf": [],
       "line": {
@@ -78320,7 +78352,10 @@
       "images": {
         "default": "3d09bbe074cefe125244337a4fe1165c",
         "nopadding": "4fe1ae0d010a5e6ec5964cee9661b240",
-        "topology": "25f9dbc273b42c4933e40a0b3a411c8d"
+        "topology": "25f9dbc273b42c4933e40a0b3a411c8d",
+        "with-enhancer-default": "2d280d558016892317d38a90f005decd",
+        "with-enhancer-nopadding": "4e8693d39213cae23d99dbdae44cf2ca",
+        "with-enhancer-topology": "3ed7ad4b25d27127a5927f0c176ac812"
       },
       "jrf": [],
       "line": {
@@ -82459,5 +82494,5 @@
       "videos": {}
     }
   ],
-  "version": "4184314fe8a30ef12b9ed0c83cff85e7d21260ed"
+  "version": "21d48a3b5cd0157fcba62e8fb4e10b5e43bcd978"
 }
