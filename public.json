@@ -30569,6 +30569,142 @@
     },
     {
       "compliance": {
+        "fcc": "SWX-U7ID",
+        "ic": "6545A-U7ID",
+        "modelName": "U7-Industrial",
+        "text": {
+          "CA": [
+            "RF"
+          ],
+          "US": [
+            "RF"
+          ]
+        }
+      },
+      "deviceType": "access-point",
+      "deviceTypes": [
+        "access-point"
+      ],
+      "guids": [
+        "993f1b42-c080-490c-90b3-940e162e3b2a"
+      ],
+      "icon": {
+        "id": "2690b042-3868-4644-8775-a356006d0010",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "5c631750-12f1-40dd-8622-16269a86610d",
+      "images": {
+        "default": "9a60655c15b4d83fd390c51af2311fe7",
+        "nopadding": "25fae5b7e2db59e9df81ba9c8aeb29f4",
+        "topology": "78fae42ad2aa39cb21ce0a2643d8692f"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "minAdoptVersion": {
+        "net": "10.5.0"
+      },
+      "product": {
+        "abbrev": "U7 Industrial",
+        "name": "Access Point U7 Industrial"
+      },
+      "shortnames": [
+        "U7-Industrial",
+        "U7I"
+      ],
+      "sku": "U7-Industrial",
+      "sysid": "a6be",
+      "sysids": [
+        "a6be"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "r",
+          "deviceCapabilities": [
+            "ACCESS_POINT",
+            "HAS_CLIENTS",
+            "VPORT"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 2500,
+          "features": {
+            "atfDisabled": true,
+            "ax": true,
+            "bandsteer": true,
+            "be": true,
+            "gen": 2,
+            "outdoorModeSupport": true
+          },
+          "minimumFirmwareRequired": "7.0.0",
+          "model": "UAPA6BE",
+          "numberOfPorts": 1,
+          "radios": {
+            "na": {
+              "gain": 5,
+              "maxPower": 24,
+              "maxSpeedMegabitsPerSecond": 4324
+            },
+            "ng": {
+              "gain": 4,
+              "maxPower": 23,
+              "maxSpeedMegabitsPerSecond": 688
+            }
+          },
+          "systemIdHexadecimal": "a6be",
+          "type": "uap"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "compliance": {
         "anatel": "04071-25-08356",
         "cn": "25J99U16G001",
         "fcc": "SWX-U7LR",
@@ -65718,6 +65854,320 @@
       "videos": {}
     },
     {
+      "deviceType": "switch",
+      "deviceTypes": [
+        "switch"
+      ],
+      "guids": [
+        "c58a39ed-c6fc-4967-9497-0360e1bd2e47"
+      ],
+      "icon": {
+        "id": "740ed868-2eb6-4b40-8cba-0ef837c44486",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "5653a6df-c3fb-4169-a0a3-01529e1b9dca",
+      "images": {
+        "default": "b118baeb382e55efa3c20b2c476f00dc",
+        "nopadding": "23c458dbe73e356aad80a2c1d645e950",
+        "topology": "60fd7ab4e5eef7c693f418d04d92b4fb"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USW Industrial DIN 2.5G 8 PoE",
+        "name": "Switch Industrial DIN 2.5G 8 PoE"
+      },
+      "shortnames": [
+        "USID2P5G8P"
+      ],
+      "sku": "USW-Industrial-DIN-2.5G-8-PoE",
+      "sysid": "ed9b",
+      "sysids": [
+        "ed9b"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "switch",
+      "deviceTypes": [
+        "switch"
+      ],
+      "guids": [
+        "3e5b227e-8131-47ab-9d1f-d4a920803072"
+      ],
+      "icon": {
+        "id": "18226b9d-d1ad-4a3c-8797-d0fed2a150a2",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "ff14e8be-61af-4e1e-8c9e-f2b8b49ff0ec",
+      "images": {
+        "default": "a917464c35687caf909668f82109187b",
+        "nopadding": "7354c608d23f64b3165ae9cadac979ff",
+        "topology": "982b0d1b7792d9019f0004ddae2e8e34"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USW Industrial DIN 8",
+        "name": "Switch Industrial DIN 8"
+      },
+      "shortnames": [
+        "USID8"
+      ],
+      "sku": "USW-Industrial-DIN-8",
+      "sysid": "ed98",
+      "sysids": [
+        "ed98"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "l",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "diagram": [
+            "02 04 06 08 __ __ __",
+            "01 03 05 07 __ 09 10"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "formFactor": [
+            "DIN"
+          ],
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USWED98",
+          "numberOfPorts": 10,
+          "ports": {
+            "sfp": [
+              9,
+              10
+            ],
+            "standard": 8
+          },
+          "radios": {},
+          "systemIdHexadecimal": "ed98",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "switch",
+      "deviceTypes": [
+        "switch"
+      ],
+      "guids": [
+        "30a10335-60a4-4862-a30f-07efa4eb0a1e"
+      ],
+      "icon": {
+        "id": "b7ce45cf-539e-48aa-bca4-26cea3784114",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "4371a111-5405-47fd-ab4b-a07627e18d43",
+      "images": {
+        "default": "a917464c35687caf909668f82109187b",
+        "nopadding": "1cf7d3ac63e92e1e9e0eae0e4d11370f",
+        "topology": "77227c6e9ee5221685b8b3e4e4ecaf78"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USW Industrial DIN 8 PoE",
+        "name": "Switch Industrial DIN 8 PoE"
+      },
+      "shortnames": [
+        "USID8P"
+      ],
+      "sku": "USW-Industrial-DIN-8-PoE",
+      "sysid": "ed97",
+      "sysids": [
+        "ed97"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "l",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "diagram": [
+            "02 04 06 08 __ __ __",
+            "01 03 05 07 __ 09 10"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "features": {
+            "poe": true
+          },
+          "formFactor": [
+            "DIN"
+          ],
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USWED97",
+          "numberOfPorts": 10,
+          "ports": {
+            "sfp": [
+              9,
+              10
+            ],
+            "standard": 8
+          },
+          "radios": {},
+          "systemIdHexadecimal": "ed97",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
       "btle": {
         "factoryDefault": "f04efea7-faf0-4637-afd5-bee983444005",
         "userConfigured": "f5f0fc99-0867-427c-a231-6a028a104efd"
@@ -82494,5 +82944,5 @@
       "videos": {}
     }
   ],
-  "version": "21d48a3b5cd0157fcba62e8fb4e10b5e43bcd978"
+  "version": "11c5e1a05a1aa3b7ae4de46cec890e87189c9008"
 }
