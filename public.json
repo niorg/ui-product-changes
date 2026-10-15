@@ -44382,11 +44382,11 @@
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
             "HAS_TEMPERATURE_SENSOR",
-            "BRIDGE",
-            "HAS_CLIENTS",
-            "ACCESS_POINT_SWITCH",
+            "AUTOLINK_ELEMENT",
             "ELEMENT_WITH_UPLINK_PRIORITY",
-            "AUTOLINK_ELEMENT"
+            "ACCESS_POINT_SWITCH",
+            "HAS_CLIENTS",
+            "BRIDGE"
           ],
           "diagram": [
             "01"
@@ -46817,6 +46817,22 @@
             "eth4": "WAN"
           },
           "numberOfPorts": 5,
+          "portFeatureFallbacks": {
+            "egressRateLimit": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "isolation": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
           "ports": {
             "eth0": "LAN",
             "eth1": "LAN",
@@ -47061,6 +47077,20 @@
             "eth4": "WAN2"
           },
           "numberOfPorts": 5,
+          "portFeatureFallbacks": {
+            "egressRateLimit": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "isolation": [
+              1,
+              2,
+              3,
+              4
+            ]
+          },
           "ports": {
             "eth0": "LAN",
             "eth1": "LAN",
@@ -47329,6 +47359,20 @@
             "eth4": "WAN2"
           },
           "numberOfPorts": 5,
+          "portFeatureFallbacks": {
+            "egressRateLimit": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "isolation": [
+              1,
+              2,
+              3,
+              4
+            ]
+          },
           "ports": {
             "eth0": "LAN",
             "eth1": "LAN",
@@ -82944,5 +82988,5 @@
       "videos": {}
     }
   ],
-  "version": "11c5e1a05a1aa3b7ae4de46cec890e87189c9008"
+  "version": "ff4e56c5856d96e3b801dbf379cf026b1099f786"
 }
