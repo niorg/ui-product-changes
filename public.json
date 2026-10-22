@@ -44381,12 +44381,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "HAS_TEMPERATURE_SENSOR",
-            "AUTOLINK_ELEMENT",
-            "ELEMENT_WITH_UPLINK_PRIORITY",
+            "BRIDGE",
             "ACCESS_POINT_SWITCH",
+            "HAS_TEMPERATURE_SENSOR",
             "HAS_CLIENTS",
-            "BRIDGE"
+            "ELEMENT_WITH_UPLINK_PRIORITY",
+            "AUTOLINK_ELEMENT"
           ],
           "diagram": [
             "01"
@@ -58814,6 +58814,186 @@
           ],
           "type": "ugw"
         }
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "control",
+      "deviceTypes": [
+        "control"
+      ],
+      "guids": [
+        "947acbcf-dc52-49e0-9102-7e88683f3851"
+      ],
+      "icon": {
+        "id": "fa990ea2-3138-4bd2-b68b-ac9b109911eb",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "e68a4739-7aa8-4d09-b0e9-552f67449601",
+      "images": {
+        "default": "dde80c277fc0947588186afe4fe708f4",
+        "nopadding": "6dfe57078092db531a4cbe4bb526a0a0",
+        "topology": "21314a73976a0993852cfb55d62f0e84"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "USL Button",
+        "name": "SuperLink Button"
+      },
+      "shortnames": [
+        "USL-Button-EU"
+      ],
+      "sku": "USL-Button-EU",
+      "sysid": "aea0",
+      "sysids": [
+        "aea0"
+      ],
+      "triplets": [
+        {
+          "k1": "ST50H",
+          "k3": "USL-Button-EU"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "control",
+      "deviceTypes": [
+        "control"
+      ],
+      "guids": [
+        "90f3f345-2280-49ff-9ce3-6eca27622bcc"
+      ],
+      "icon": {
+        "id": "b87b1f9c-51fd-493c-99d8-f423200fcdc0",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "8f9b6d7f-7281-4de5-b0c2-584c0cb87585",
+      "images": {
+        "default": "dde80c277fc0947588186afe4fe708f4",
+        "nopadding": "6dfe57078092db531a4cbe4bb526a0a0",
+        "topology": "21314a73976a0993852cfb55d62f0e84"
+      },
+      "line": {
+        "id": "unifi-protect",
+        "name": "UniFi Protect"
+      },
+      "product": {
+        "abbrev": "USL Button",
+        "name": "SuperLink Button"
+      },
+      "shortnames": [
+        "USL-Button-US"
+      ],
+      "sku": "USL-Button-US",
+      "sysid": "ae9f",
+      "sysids": [
+        "ae9f"
+      ],
+      "triplets": [
+        {
+          "k1": "ST50H",
+          "k3": "USL-Button-US"
+        }
+      ],
+      "unifi": {
+        "adoptability": "adoptable"
       },
       "videos": {}
     },
@@ -82988,5 +83168,5 @@
       "videos": {}
     }
   ],
-  "version": "ff4e56c5856d96e3b801dbf379cf026b1099f786"
+  "version": "0c809c933397273db5b8297cbc3e872008606023"
 }
