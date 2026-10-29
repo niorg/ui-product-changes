@@ -44381,11 +44381,11 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "BRIDGE",
-            "ACCESS_POINT_SWITCH",
-            "HAS_TEMPERATURE_SENSOR",
-            "HAS_CLIENTS",
             "ELEMENT_WITH_UPLINK_PRIORITY",
+            "HAS_CLIENTS",
+            "HAS_TEMPERATURE_SENSOR",
+            "ACCESS_POINT_SWITCH",
+            "BRIDGE",
             "AUTOLINK_ELEMENT"
           ],
           "diagram": [
@@ -52604,7 +52604,7 @@
         "name": "UniFi Protect"
       },
       "product": {
-        "abbrev": "UNVR Gen 2",
+        "abbrev": "UNVR G2",
         "name": "Network Video Recorder Gen 2"
       },
       "shortnames": [
@@ -52740,7 +52740,7 @@
         "name": "UniFi Protect"
       },
       "product": {
-        "abbrev": "UNVR Gen 2 Pro",
+        "abbrev": "UNVR G2 Pro",
         "name": "Network Video Recorder Gen 2 Pro"
       },
       "shortnames": [
@@ -66158,7 +66158,38 @@
       ],
       "triplets": [],
       "unifi": {
-        "adoptability": "adoptable"
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "l",
+          "deviceCapabilities": [
+            "SWITCH",
+            "HAS_CLIENTS"
+          ],
+          "diagram": [
+            "02 04 06 08 __ 10",
+            "01 03 05 07 __ 09"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 2500,
+          "features": {
+            "poe": true
+          },
+          "formFactor": [
+            "DIN"
+          ],
+          "minimumFirmwareRequired": "4.0.6",
+          "model": "USWED9B",
+          "numberOfPorts": 10,
+          "ports": {
+            "sfp": [
+              9,
+              10
+            ],
+            "standard": 8
+          },
+          "radios": {},
+          "systemIdHexadecimal": "ed9b",
+          "type": "usw"
+        }
       },
       "videos": {}
     },
@@ -66386,6 +66417,128 @@
           },
           "radios": {},
           "systemIdHexadecimal": "ed97",
+          "type": "usw"
+        }
+      },
+      "videos": {}
+    },
+    {
+      "deviceType": "switch",
+      "deviceTypes": [
+        "switch"
+      ],
+      "guids": [
+        "74cdad28-75f4-4524-b2a5-ef484579655a"
+      ],
+      "icon": {
+        "id": "d8abde49-adbf-4839-b0d6-64b3589acc5a",
+        "resolutions": [
+          [
+            25,
+            25
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            256,
+            256
+          ],
+          [
+            257,
+            257
+          ],
+          [
+            512,
+            512
+          ],
+          [
+            1000,
+            1000
+          ]
+        ]
+      },
+      "id": "510a5b8b-550f-45bd-95b0-ff3150e77c3c",
+      "images": {
+        "default": "2ede94bd1a7eaaac37f85fe04debc3d4",
+        "nopadding": "d3726a4c76ad1efbe0e4386fc26ee9a9",
+        "rack": "da258f0bfeb38373793bfdf863617be7",
+        "topology": "fd11c5c3c3ed662a020d50728be31a1e"
+      },
+      "line": {
+        "id": "unifi-network",
+        "name": "UniFi"
+      },
+      "product": {
+        "abbrev": "USW LR 8 PoE",
+        "name": "Switch LR 8 PoE"
+      },
+      "shortnames": [
+        "USMLR8P",
+        "USW-LR-Switch-8-PoE"
+      ],
+      "sku": "USW-LR-Switch-8-PoE",
+      "sysid": "ed99",
+      "sysids": [
+        "ed99"
+      ],
+      "triplets": [],
+      "unifi": {
+        "adoptability": "adoptable",
+        "network": {
+          "chipset": "o",
+          "deviceCapabilities": [
+            "SWITCH",
+            "MCU_BASED",
+            "HAS_CLIENTS"
+          ],
+          "diagram": [
+            "01 02 03 04 05 06 07 08 09 10"
+          ],
+          "ethernetMaxSpeedMegabitsPerSecond": 1000,
+          "features": {
+            "poe": true
+          },
+          "formFactor": [
+            "RACK_1U"
+          ],
+          "minimumFirmwareRequired": "1.1.0",
+          "model": "USWED99",
+          "numberOfPorts": 10,
+          "ports": {
+            "meta": {
+              "09": {
+                "combo": [
+                  "09",
+                  "10"
+                ]
+              }
+            },
+            "standard": 10
+          },
+          "radios": {},
+          "systemIdHexadecimal": "ed99",
           "type": "usw"
         }
       },
@@ -83168,5 +83321,5 @@
       "videos": {}
     }
   ],
-  "version": "0c809c933397273db5b8297cbc3e872008606023"
+  "version": "d4c6e9558123821fc64e9854d59a4820b075b2c4"
 }
