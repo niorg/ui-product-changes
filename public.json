@@ -26446,7 +26446,8 @@
           "deviceCapabilities": [
             "ACCESS_POINT_SWITCH",
             "HAS_CLIENTS",
-            "VPORT"
+            "VPORT",
+            "WIRELESS_UPLINK_ONLY"
           ],
           "diagram": [
             "01"
@@ -27101,9 +27102,11 @@
       ],
       "triplets": [],
       "unifi": {
+        "adoptability": "adoptable",
         "network": {
           "chipset": "u",
           "deviceCapabilities": [
+            "ULTE",
             "MBB_ESIM",
             "INTERNET_PROVIDER"
           ],
@@ -28167,7 +28170,8 @@
           "deviceCapabilities": [
             "ACCESS_POINT",
             "HAS_CLIENTS",
-            "VPORT"
+            "VPORT",
+            "WIRELESS_UPLINK_ONLY"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
           "features": {
@@ -28322,7 +28326,8 @@
           "deviceCapabilities": [
             "ACCESS_POINT",
             "HAS_CLIENTS",
-            "VPORT"
+            "VPORT",
+            "WIRELESS_UPLINK_ONLY"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
           "features": {
@@ -38535,7 +38540,8 @@
           "deviceCapabilities": [
             "ACCESS_POINT",
             "HAS_CLIENTS",
-            "VPORT"
+            "VPORT",
+            "WIRELESS_UPLINK_ONLY"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
           "features": {
@@ -44382,11 +44388,11 @@
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
             "ELEMENT_WITH_UPLINK_PRIORITY",
-            "HAS_CLIENTS",
             "HAS_TEMPERATURE_SENSOR",
+            "HAS_CLIENTS",
             "ACCESS_POINT_SWITCH",
-            "BRIDGE",
-            "AUTOLINK_ELEMENT"
+            "AUTOLINK_ELEMENT",
+            "BRIDGE"
           ],
           "diagram": [
             "01"
@@ -68375,6 +68381,7 @@
         "rack": "e39e39e6d24a014a2f73300559ba5b8b",
         "topology": "bef1733fb9f6bd41aaa84bdd1b0ac3b6"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -68510,6 +68517,7 @@
         "rack": "f26ebafec3195ea8b2acccd2f3420690",
         "topology": "ce880e29b049efcaba1c4688ff6ab847"
       },
+      "isARSupported": true,
       "line": {
         "id": "unifi-network",
         "name": "UniFi"
@@ -83321,5 +83329,5 @@
       "videos": {}
     }
   ],
-  "version": "d4c6e9558123821fc64e9854d59a4820b075b2c4"
+  "version": "45ad87f6ce239c643d42ff0ffa0aa680d98b76c0"
 }
