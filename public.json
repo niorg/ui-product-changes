@@ -8709,9 +8709,9 @@
       },
       "id": "25c5e4f8-c354-4c2b-8866-ab6e87b40cc4",
       "images": {
-        "default": "36b00339ae42e9c79f114afbae0857ff",
-        "nopadding": "c02c33803066d34b9516e5f5994b0c88",
-        "topology": "ee6ddb2c0766c16cf6e4017e7e4e2f9c"
+        "default": "c56b224d19a7af117554b78aa09c0c40",
+        "nopadding": "2b22ca787891a3d45fa49a5bcb55a4b0",
+        "topology": "9c5e2fb398c3f7b368237daedef781ba"
       },
       "line": {
         "id": "unifi-access",
@@ -44387,11 +44387,11 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "ELEMENT_WITH_UPLINK_PRIORITY",
-            "HAS_TEMPERATURE_SENSOR",
-            "HAS_CLIENTS",
-            "ACCESS_POINT_SWITCH",
             "AUTOLINK_ELEMENT",
+            "ACCESS_POINT_SWITCH",
+            "HAS_CLIENTS",
+            "HAS_TEMPERATURE_SENSOR",
+            "ELEMENT_WITH_UPLINK_PRIORITY",
             "BRIDGE"
           ],
           "diagram": [
@@ -48767,8 +48767,8 @@
         "topology": "66c0d1a657425fadaee513b972372d02"
       },
       "line": {
-        "id": "uisp",
-        "name": "UISP"
+        "id": "unifi-network",
+        "name": "UniFi"
       },
       "product": {
         "abbrev": "UISP Console",
@@ -55216,7 +55216,8 @@
             "OUTLET_MONITOR",
             "MCU_BASED",
             "BATTERY_MANAGEMENT",
-            "PURE_SINE_WAVE"
+            "PURE_SINE_WAVE",
+            "PER_OUTLET_POWER_CYCLE_DELAY"
           ],
           "diagram": [
             "1"
@@ -55423,7 +55424,8 @@
             "OUTLET_MONITOR",
             "MCU_BASED",
             "BATTERY_MANAGEMENT",
-            "PURE_SINE_WAVE"
+            "PURE_SINE_WAVE",
+            "PER_OUTLET_POWER_CYCLE_DELAY"
           ],
           "diagram": [
             "1"
@@ -69243,9 +69245,6 @@
             "HAS_CLIENTS"
           ],
           "ethernetMaxSpeedMegabitsPerSecond": 1000,
-          "features": {
-            "poe": true
-          },
           "formFactor": [
             "RACK_1U"
           ],
@@ -83329,5 +83328,5 @@
       "videos": {}
     }
   ],
-  "version": "4de17b54b8c2b9cf64afd7f5bb84f1a0cc6495a0"
+  "version": "24d668e940638250655176f9b7245c19634e5c73"
 }
