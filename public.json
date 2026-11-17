@@ -89,7 +89,13 @@
         "name": "airCube AC"
       },
       "shortnames": [
-        "ACB-AC"
+        "ACB-AC",
+        "ACB-AC-AR",
+        "ACB-AC-AU",
+        "ACB-AC-BR",
+        "ACB-AC-EU",
+        "ACB-AC-U",
+        "ACB-AC-US"
       ],
       "sku": "ACB-AC",
       "sysid": "e8f8",
@@ -209,7 +215,8 @@
         "name": "airCube ISP"
       },
       "shortnames": [
-        "ACB-ISP"
+        "ACB-ISP",
+        "ACB-ISP-US"
       ],
       "sku": "ACB-ISP",
       "sysid": "e8f7",
@@ -320,7 +327,21 @@
       },
       "shortnames": [
         "AF-11FX",
-        "AF11FX"
+        "AF11FX",
+        "AF-11FX-AR",
+        "AF-11FX-BR",
+        "AF-11FX-EU",
+        "AF-11FX-H",
+        "AF-11FX-H-AR",
+        "AF-11FX-H-BR",
+        "AF-11FX-H-EU",
+        "AF-11FX-H-U",
+        "AF-11FX-L",
+        "AF-11FX-L-AR",
+        "AF-11FX-L-BR",
+        "AF-11FX-L-EU",
+        "AF-11FX-L-U",
+        "AF-11FX-U"
       ],
       "sku": "AF-11FX",
       "sysids": [],
@@ -506,7 +527,15 @@
       },
       "shortnames": [
         "AF-24",
-        "AF24"
+        "AF24",
+        "AF-24(EU)",
+        "AF-24(EU)-R",
+        "AF-24(US)",
+        "AF-24-AR",
+        "AF-24-AU",
+        "AF-24-BR",
+        "AF-24-R",
+        "AF-24-U"
       ],
       "sku": "AF-24",
       "sysids": [],
@@ -614,7 +643,14 @@
       },
       "shortnames": [
         "AF-24HD",
-        "AF24HD"
+        "AF24HD",
+        "AF-24HD-AR",
+        "AF-24HD-AU",
+        "AF-24HD-BR",
+        "AF-24HD-EU",
+        "AF-24HD-R",
+        "AF-24HD-U",
+        "AF-24HD-US"
       ],
       "sku": "AF-24HD",
       "sysids": [],
@@ -798,7 +834,12 @@
       },
       "shortnames": [
         "AF-2X",
-        "AF2X"
+        "AF2X",
+        "AF-2X-AR",
+        "AF-2X-BR",
+        "AF-2X-EU",
+        "AF-2X-U",
+        "AF-2X-US"
       ],
       "sku": "AF-2X",
       "sysids": [],
@@ -982,7 +1023,12 @@
       },
       "shortnames": [
         "AF-4X",
-        "AF4X"
+        "AF4X",
+        "AF-4X-AR",
+        "AF-4X-BR",
+        "AF-4X-EU",
+        "AF-4X-U",
+        "AF-4X-US"
       ],
       "sku": "AF-4X",
       "sysids": [],
@@ -1090,7 +1136,17 @@
       },
       "shortnames": [
         "AF-5",
-        "AF5"
+        "AF5",
+        "AF-5 AR",
+        "AF-5 AR-R",
+        "AF-5 BR",
+        "AF-5 BR-R",
+        "AF-5 EU",
+        "AF-5 EU-R",
+        "AF-5 U",
+        "AF-5 US",
+        "AF-5-AU",
+        "AF-5-R"
       ],
       "sku": "AF-5",
       "sysids": [],
@@ -1445,7 +1501,14 @@
       "shortnames": [
         "AF-5U",
         "AF5U",
-        "AirFiber 5U"
+        "AirFiber 5U",
+        "AF-5U AR",
+        "AF-5U BR",
+        "AF-5U EU",
+        "AF-5U EU-R",
+        "AF-5U U",
+        "AF-5U US",
+        "AF-5U-R"
       ],
       "sku": "AF-5U",
       "sysids": [],
@@ -1560,7 +1623,13 @@
         "name": "airFiber 5XHD"
       },
       "shortnames": [
-        "AF-5XHD"
+        "AF-5XHD",
+        "AF-5XHD-AR",
+        "AF-5XHD-AU",
+        "AF-5XHD-BR",
+        "AF-5XHD-EU",
+        "AF-5XHD-U",
+        "AF-5XHD-US"
       ],
       "sku": "AF-5XHD",
       "sysid": "ae03",
@@ -1936,7 +2005,13 @@
         "name": "airFiber 3X"
       },
       "shortnames": [
-        "AF3X"
+        "AF3X",
+        "AF-3X",
+        "AF-3X-AR",
+        "AF-3X-BR",
+        "AF-3X-EU",
+        "AF-3X-U",
+        "AF-3X-US"
       ],
       "sku": "AF3X",
       "sysids": [],
@@ -2048,7 +2123,11 @@
         "name": "airFiber 60"
       },
       "shortnames": [
-        "AF60"
+        "AF60",
+        "AF60-BR",
+        "AF60-EU",
+        "AF60-U",
+        "AF60-US"
       ],
       "sku": "AF60",
       "sysid": "dc9b",
@@ -2180,7 +2259,12 @@
       },
       "shortnames": [
         "AF60-HD",
-        "AF60HD"
+        "AF60HD",
+        "AF60-HD-EA",
+        "AF60-HD-EU",
+        "AF60-HD-EU-BETA",
+        "AF60-HD-US",
+        "AF60-HD-US-BETA"
       ],
       "sku": "AF60-HD",
       "sysid": "dd13",
@@ -2317,7 +2401,10 @@
         "name": "airFiber 60 Long-Range"
       },
       "shortnames": [
-        "AF60-LR"
+        "AF60-LR",
+        "AF60-LR-AR",
+        "AF60-LR-EU",
+        "AF60-LR-US"
       ],
       "sku": "AF60-LR",
       "sysid": "dc9e",
@@ -2449,7 +2536,10 @@
       "shortnames": [
         "AF60-XG",
         "AF60XG",
-        "AirFiber 60 XG"
+        "AirFiber 60 XG",
+        "AF60-XG-EA",
+        "AF60-XG-EU",
+        "AF60-XG-US"
       ],
       "sku": "AF60-XG",
       "sysid": "dd11",
@@ -2587,7 +2677,12 @@
         "name": "airFiber 60 Xtreme-Range"
       },
       "shortnames": [
-        "AF60-XR"
+        "AF60-XR",
+        "AF60-XR-EA",
+        "AF60-XR-EU",
+        "AF60-XR-EU-EA",
+        "AF60-XR-US",
+        "AF60-XR-US-EA"
       ],
       "sku": "AF60-XR",
       "sysid": "ac11",
@@ -2849,7 +2944,13 @@
         "name": "AmpliFi Alien Router"
       },
       "shortnames": [
-        "AFi-ALN-R"
+        "AFi-ALN-R",
+        "AFi-ALN-EU",
+        "AFi-ALN-R-EU",
+        "AFi-ALN-R-US",
+        "AFi-ALN-UK",
+        "AFi-ALN-US",
+        "Afi-ALN-R-UK-R"
       ],
       "sku": "AFi-ALN-R",
       "sysid": "da11",
@@ -3080,7 +3181,12 @@
         "name": "AmpliFi Instant Router"
       },
       "shortnames": [
-        "AFi-INS-R"
+        "AFi-INS-R",
+        "AFi-INS",
+        "AFi-INS-CN",
+        "AFi-INS-EU",
+        "AFi-INS-R-CN",
+        "AFi-INS-UK"
       ],
       "sku": "AFi-INS-R",
       "sysid": "e8f9",
@@ -3166,7 +3272,15 @@
       },
       "shortnames": [
         "AFi-Mesh",
-        "AmpliFi Mesh WiFi System"
+        "AmpliFi Mesh WiFi System",
+        "AFi-HD",
+        "AFi-HD-AR",
+        "AFi-HD-AU",
+        "AFi-HD-BR",
+        "AFi-HD-CA",
+        "AFi-HD-EU",
+        "AFi-HD-UK",
+        "AFi-HD-US"
       ],
       "sku": "AFi-Mesh",
       "sysids": [],
@@ -3244,7 +3358,10 @@
       },
       "shortnames": [
         "AFi-Mesh-G",
-        "AmpliFi Mesh Wi-Fi System Gamer's Edition"
+        "AmpliFi Mesh Wi-Fi System Gamer's Edition",
+        "AFi-G",
+        "AFi-G-EU",
+        "AFi-G-UK"
       ],
       "sku": "AFi-Mesh-G",
       "sysids": [],
@@ -3552,7 +3669,15 @@
         "name": "AmpliFi HD Mesh Point"
       },
       "shortnames": [
-        "AFi-P-HD"
+        "AFi-P-HD",
+        "AFi-P-HD-AR",
+        "AFi-P-HD-AU",
+        "AFi-P-HD-BR",
+        "AFi-P-HD-CA",
+        "AFi-P-HD-CN",
+        "AFi-P-HD-EU",
+        "AFi-P-HD-UK",
+        "AFi-P-HD-US"
       ],
       "sku": "AFi-P-HD",
       "sysid": "ea24",
@@ -3862,7 +3987,16 @@
         "name": "AmpliFi HD Router"
       },
       "shortnames": [
-        "AFi-R"
+        "AFi-R",
+        "AFi-R-AR",
+        "AFi-R-AU",
+        "AFi-R-BR",
+        "AFi-R-CA",
+        "AFi-R-CN",
+        "AFi-R-EU",
+        "AFi-R-JP",
+        "AFi-R-UK",
+        "AFi-R-US"
       ],
       "sku": "AFi-R",
       "sysid": "ea33",
@@ -4250,7 +4384,8 @@
         "name": "AmpliFi HD Router"
       },
       "shortnames": [
-        "AFi-R-LR"
+        "AFi-R-LR",
+        "AFi-LR"
       ],
       "sku": "AFi-R-LR",
       "sysid": "ea35",
@@ -4348,7 +4483,8 @@
         "name": "AmpliFi SmartPlug"
       },
       "shortnames": [
-        "AFi-SP"
+        "AFi-SP",
+        "AFi-SP-US"
       ],
       "sku": "AFi-SP",
       "sysid": "ee71",
@@ -4538,7 +4674,19 @@
         "name": "airGrid M2 HP 2G16"
       },
       "shortnames": [
-        "AG-HP-2G16"
+        "AG-HP-2G16",
+        "AG-HP-2G16 AR",
+        "AG-HP-2G16 BR",
+        "AG-HP-2G16 EU",
+        "AG-HP-2G16 U",
+        "AG-HP-2G16 US",
+        "AGM2-HP-1114",
+        "AGM2-HP-1114(EU)",
+        "AGM2-HP-1114(US)",
+        "AGM2-HP-1114+",
+        "AGM2-HP-1114+ EU",
+        "AGM2-HP-1114+ US",
+        "AGM2-HP-1114-U"
       ],
       "sku": "AG-HP-2G16",
       "sysid": "e242",
@@ -4634,7 +4782,19 @@
         "name": "airGrid M2 HP 2G20"
       },
       "shortnames": [
-        "AG-HP-2G20"
+        "AG-HP-2G20",
+        "AG-HP-2G20 AR",
+        "AG-HP-2G20 BR",
+        "AG-HP-2G20 EU",
+        "AG-HP-2G20 U",
+        "AG-HP-2G20 US",
+        "AGM2-HP-1724",
+        "AGM2-HP-1724(EU)",
+        "AGM2-HP-1724(US)",
+        "AGM2-HP-1724+",
+        "AGM2-HP-1724+ AR",
+        "AGM2-HP-1724+ EU",
+        "AGM2-HP-1724+ US"
       ],
       "sku": "AG-HP-2G20",
       "sysid": "e252",
@@ -4740,7 +4900,26 @@
         "name": "airGrid M5 HP"
       },
       "shortnames": [
-        "AG-HP-5G23"
+        "AG-HP-5G23",
+        "AG-HP-5G23 AR",
+        "AG-HP-5G23 BR",
+        "AG-HP-5G23 EU",
+        "AG-HP-5G23 U",
+        "AG-HP-5G23 US",
+        "AGM5-HP-1114",
+        "AGM5-HP-1114(EU)",
+        "AGM5-HP-1114(US)",
+        "AGM5-HP-1114+",
+        "AGM5-HP-1114+ AR",
+        "AGM5-HP-1114+ BR",
+        "AGM5-HP-1114+ EU",
+        "AGM5-HP-1114+ NP",
+        "AGM5-HP-1114+ US",
+        "AGM5-HP-1114+FEED",
+        "AGM5-HP-1114-AR",
+        "AGM5-HP-1114-BR",
+        "AGM5-HP-1114-Feed",
+        "AGM5-HP-1114-NP"
       ],
       "sku": "AG-HP-5G23",
       "sysid": "e245",
@@ -4834,7 +5013,21 @@
         "name": "airGrid M5 HP"
       },
       "shortnames": [
-        "AG-HP-5G27"
+        "AG-HP-5G27",
+        "AG-HP-5G27 AR",
+        "AG-HP-5G27 BR",
+        "AG-HP-5G27 EU",
+        "AG-HP-5G27 U",
+        "AG-HP-5G27 US",
+        "AGM5-HP-1724",
+        "AGM5-HP-1724(EU)",
+        "AGM5-HP-1724(US)",
+        "AGM5-HP-1724+",
+        "AGM5-HP-1724+ EU",
+        "AGM5-HP-1724+ NP",
+        "AGM5-HP-1724-AR",
+        "AGM5-HP-1724-BR",
+        "AGM5-HP-1724-U"
       ],
       "sku": "AG-HP-5G27",
       "sysid": "e255",
@@ -5020,7 +5213,8 @@
         "name": "airGateway"
       },
       "shortnames": [
-        "AGW"
+        "AGW",
+        "AirGateway"
       ],
       "sku": "AGW",
       "sysid": "e4c2",
@@ -5118,7 +5312,8 @@
         "name": "airGateway Pro Installer"
       },
       "shortnames": [
-        "AGW-Installer"
+        "AGW-Installer",
+        "AG-PRO-INS"
       ],
       "sku": "AGW-Installer",
       "sysid": "e4d7",
@@ -5213,7 +5408,8 @@
         "name": "airGateway LR"
       },
       "shortnames": [
-        "AGW-LR"
+        "AGW-LR",
+        "AirGateway-LR"
       ],
       "sku": "AGW-LR",
       "sysid": "e4d2",
@@ -6587,7 +6783,8 @@
       },
       "shortnames": [
         "AirCam-Mini",
-        "Ubiquiti AirCam Mini"
+        "Ubiquiti AirCam Mini",
+        "AirCam-Mini(EU)"
       ],
       "sku": "AirCam-Mini",
       "sysids": [],
@@ -6683,7 +6880,8 @@
         "name": "Bullet AC"
       },
       "shortnames": [
-        "B-DB-AC"
+        "B-DB-AC",
+        "B-DB-AC-US"
       ],
       "sku": "B-DB-AC",
       "sysid": "e2c5",
@@ -6782,7 +6980,13 @@
         "name": "Bullet M2 Titanium"
       },
       "shortnames": [
-        "B2T"
+        "B2T",
+        "BM2-Ti",
+        "BM2-Ti(EU)",
+        "BM2-Ti(US)",
+        "BM2-Ti-AR",
+        "BM2-Ti-BR",
+        "BM2-Ti-U"
       ],
       "sku": "B2T",
       "sysid": "e2d2",
@@ -6873,7 +7077,9 @@
         "name": "Bullet M5 HP"
       },
       "shortnames": [
-        "B5N"
+        "B5N",
+        "BulletM5-HP",
+        "BulletM5-HP(US)"
       ],
       "sku": "B5N",
       "sysid": "e205",
@@ -6971,7 +7177,13 @@
         "name": "Bullet M5 Titanium"
       },
       "shortnames": [
-        "B5T"
+        "B5T",
+        "BM5-Ti",
+        "BM5-Ti(EU)",
+        "BM5-Ti(US)",
+        "BM5-Ti-AR",
+        "BM5-Ti-BR",
+        "BM5-Ti-U"
       ],
       "sku": "B5T",
       "sysid": "e2d5",
@@ -7172,7 +7384,8 @@
         "name": "Bullet AC-IP67"
       },
       "shortnames": [
-        "BulletAC-IP67"
+        "BulletAC-IP67",
+        "BulletAC-IP67-US"
       ],
       "sku": "BulletAC-IP67",
       "sysid": "e2c7",
@@ -7298,7 +7511,8 @@
       },
       "shortnames": [
         "B2N",
-        "BulletM2-HP"
+        "BulletM2-HP",
+        "BulletM2-HP(US)"
       ],
       "sku": "BulletM2-HP",
       "sysid": "e2c3",
@@ -7433,7 +7647,9 @@
       },
       "shortnames": [
         "CK-Enterprise",
-        "UCKENT"
+        "UCKENT",
+        "CK-Enterprise-EU",
+        "CK-Enterprise-R"
       ],
       "sku": "CK-Enterprise",
       "sysid": "e990",
@@ -7750,7 +7966,9 @@
         "name": "Access Point E7"
       },
       "shortnames": [
-        "E7"
+        "E7",
+        "E7-R",
+        "E7-US"
       ],
       "sku": "E7",
       "sysid": "a697",
@@ -7893,7 +8111,9 @@
       },
       "shortnames": [
         "E7-Audience",
-        "E7A"
+        "E7A",
+        "E7-Audience-R",
+        "E7-Audience-US"
       ],
       "sku": "E7-Audience",
       "sysid": "a699",
@@ -8163,7 +8383,8 @@
       },
       "shortnames": [
         "E7-Audience-Indoor",
-        "E7AI"
+        "E7AI",
+        "E7-Audience-Indoor-US"
       ],
       "sku": "E7-Audience-Indoor",
       "sysid": "a6af",
@@ -8312,7 +8533,8 @@
       },
       "shortnames": [
         "E7-Campus",
-        "E7C"
+        "E7C",
+        "E7-Campus-US"
       ],
       "sku": "E7-Campus",
       "sysid": "a698",
@@ -8581,7 +8803,8 @@
       },
       "shortnames": [
         "E7-Campus-Indoor",
-        "E7CI"
+        "E7CI",
+        "E7-Campus-Indoor-US"
       ],
       "sku": "E7-Campus-Indoor",
       "sysid": "a6bc",
@@ -8724,7 +8947,10 @@
       "shortnames": [
         "EAH-8",
         "UA-Enterprise",
-        "UA-Hub-Enterprise"
+        "UA-Hub-Enterprise",
+        "EAH-8-BR",
+        "EAH-8-EU",
+        "EAH-8-US"
       ],
       "sku": "EAH-8",
       "sysid": "ec55",
@@ -8824,7 +9050,9 @@
       },
       "shortnames": [
         "EAVAGG",
-        "EAV-Fiber"
+        "EAV-Fiber",
+        "EAV-Fiber-EU",
+        "EAV-Fiber-UK"
       ],
       "sku": "EAV-Fiber",
       "sysid": "f002",
@@ -8946,7 +9174,10 @@
       "shortnames": [
         "EAV-24-PoE",
         "EAV24P",
-        "EAV-XG-24-PoE"
+        "EAV-XG-24-PoE",
+        "EAV-24-PoE-EU",
+        "EAV-24-PoE-UK",
+        "EAV-XG-24-PoE-EU"
       ],
       "sku": "EAV-XG-24-PoE",
       "sysid": "f001",
@@ -9059,7 +9290,8 @@
         "name": "EAV Bridge"
       },
       "shortnames": [
-        "EAVBRIDGE"
+        "EAVBRIDGE",
+        "EAV-Bridge"
       ],
       "sku": "EAVBRIDGE",
       "sysid": "aa06",
@@ -9227,7 +9459,12 @@
       },
       "shortnames": [
         "EAS24P",
-        "ECS24P"
+        "ECS24P",
+        "ECS-24-PoE-AR",
+        "ECS-24-PoE-AU",
+        "ECS-24-PoE-BR",
+        "ECS-24-PoE-EU",
+        "ECS-24-PoE-UK"
       ],
       "sku": "ECS-24-PoE",
       "sysid": "f067",
@@ -9352,7 +9589,9 @@
       },
       "shortnames": [
         "EAS24S",
-        "ECS24S"
+        "ECS24S",
+        "ECS-24S-EU",
+        "ECS-24S-UK"
       ],
       "sku": "ECS-24S",
       "sysid": "f005",
@@ -9477,7 +9716,10 @@
       },
       "shortnames": [
         "EAS24SP",
-        "ECS24SP"
+        "ECS24SP",
+        "ECS-24S-PoE-AU",
+        "ECS-24S-PoE-EU",
+        "ECS-24S-PoE-UK"
       ],
       "sku": "ECS-24S-PoE",
       "sysid": "f004",
@@ -9608,7 +9850,12 @@
       },
       "shortnames": [
         "EAS48P",
-        "ECS48P"
+        "ECS48P",
+        "ECS-48-PoE-AR",
+        "ECS-48-PoE-BR",
+        "ECS-48-PoE-EU",
+        "ECS-48-PoE-U",
+        "ECS-48-PoE-UK"
       ],
       "sku": "ECS-48-PoE",
       "sysid": "f069",
@@ -9731,7 +9978,9 @@
       },
       "shortnames": [
         "EAS48S",
-        "ECS48S"
+        "ECS48S",
+        "ECS-48S-EU",
+        "ECS-48S-UK"
       ],
       "sku": "ECS-48S",
       "sysid": "f007",
@@ -9856,7 +10105,11 @@
       },
       "shortnames": [
         "EAS48SP",
-        "ECS48SP"
+        "ECS48SP",
+        "ECS-48S-PoE-AU",
+        "ECS-48S-PoE-BR",
+        "ECS-48S-PoE-EU",
+        "ECS-48S-PoE-UK"
       ],
       "sku": "ECS-48S-PoE",
       "sysid": "f006",
@@ -9988,7 +10241,13 @@
         "name": "Switch Enterprise Campus Aggregation"
       },
       "shortnames": [
-        "ECSAGG"
+        "ECSAGG",
+        "ECS-Aggregation-AR",
+        "ECS-Aggregation-AU",
+        "ECS-Aggregation-BR",
+        "ECS-Aggregation-EU",
+        "ECS-Aggregation-U",
+        "ECS-Aggregation-UK"
       ],
       "sku": "ECS-Aggregation",
       "sysid": "f066",
@@ -10108,7 +10367,13 @@
       },
       "shortnames": [
         "ECSCORE",
-        "ECS-Core"
+        "ECS-Core",
+        "ECS-Core-AR",
+        "ECS-Core-AU",
+        "ECS-Core-BR",
+        "ECS-Core-EU",
+        "ECS-Core-U",
+        "ECS-Core-UK"
       ],
       "sku": "ECS-Core",
       "sysid": "f07d",
@@ -10252,7 +10517,11 @@
         "EFG-Core",
         "EFGCORE",
         "EF-Core",
-        "EFCORE"
+        "EFCORE",
+        "EF-Core-AU",
+        "EF-Core-EU",
+        "EFG-Core-EU",
+        "EFG-Core-UK"
       ],
       "sku": "EF-Core",
       "sysid": "ea4b",
@@ -10438,7 +10707,13 @@
       },
       "shortnames": [
         "EFG",
-        "UDMENT"
+        "UDMENT",
+        "EFG-AR",
+        "EFG-AU",
+        "EFG-BR",
+        "EFG-EU",
+        "EFG-R",
+        "EFG-UK"
       ],
       "sku": "EFG",
       "sysid": "ea3d",
@@ -10715,7 +10990,8 @@
         "name": "Enterprise NAS"
       },
       "shortnames": [
-        "ENAS"
+        "ENAS",
+        "ENAS-EU"
       ],
       "sku": "ENAS",
       "sysid": "ea64",
@@ -10841,7 +11117,13 @@
         "name": "Enterprise Network Video Recorder"
       },
       "shortnames": [
-        "ENVR"
+        "ENVR",
+        "ENVR-AR",
+        "ENVR-AU",
+        "ENVR-BR",
+        "ENVR-EU",
+        "ENVR-R",
+        "ENVR-UK"
       ],
       "sku": "ENVR",
       "sysid": "ea3f",
@@ -10974,7 +11256,10 @@
       },
       "shortnames": [
         "ENVR-Core",
-        "ENVRCORE"
+        "ENVRCORE",
+        "ENVR-Core-AU",
+        "ENVR-Core-EU",
+        "ENVR-Core-UK"
       ],
       "sku": "ENVR-Core",
       "sysid": "da28",
@@ -11095,7 +11380,10 @@
         "name": "EdgePower 24V 72W"
       },
       "shortnames": [
-        "EP-24V-72W"
+        "EP-24V-72W",
+        "EP-24V-72W-AR",
+        "EP-24V-72W-BR",
+        "EP-24V-72W-EU"
       ],
       "sku": "EP-24V-72W",
       "sysid": "eef2",
@@ -11197,7 +11485,15 @@
         "name": "EdgePower 54V 150W"
       },
       "shortnames": [
-        "EP-54V-150W"
+        "EP-54V-150W",
+        "EP-54V-150W-AC",
+        "EP-54V-150W-AC-AR",
+        "EP-54V-150W-AC-AU",
+        "EP-54V-150W-AC-EU",
+        "EP-54V-150W-AR",
+        "EP-54V-150W-BR",
+        "EP-54V-150W-DC",
+        "EP-54V-150W-EU"
       ],
       "sku": "EP-54V-150W",
       "sysid": "eef1",
@@ -11301,7 +11597,8 @@
         "name": "EdgePower 54V 72W"
       },
       "shortnames": [
-        "EP-54V-72W"
+        "EP-54V-72W",
+        "EP-54V-72W-EU"
       ],
       "sku": "EP-54V-72W",
       "sysid": "eef3",
@@ -11480,7 +11777,11 @@
         "name": "EdgePoint R6"
       },
       "shortnames": [
-        "EP-R6"
+        "EP-R6",
+        "EP-R6-AR",
+        "EP-R6-BR",
+        "EP-R6-EU",
+        "EP-R6-U"
       ],
       "sku": "EP-R6",
       "sysid": "ee43",
@@ -11581,7 +11882,11 @@
         "name": "EdgePoint R8"
       },
       "shortnames": [
-        "EP-R8"
+        "EP-R8",
+        "EP-R8-AR",
+        "EP-R8-BR",
+        "EP-R8-EU",
+        "EP-R8-U"
       ],
       "sku": "EP-R8",
       "sysid": "ee13",
@@ -11684,7 +11989,11 @@
         "name": "EdgePoint S16"
       },
       "shortnames": [
-        "EP-S16"
+        "EP-S16",
+        "EP-S16-AR",
+        "EP-S16-BR",
+        "EP-S16-EU",
+        "EP-S16-U"
       ],
       "sku": "EP-S16",
       "sysid": "eea9",
@@ -11872,7 +12181,8 @@
       },
       "shortnames": [
         "ER-10-X",
-        "ER-10X"
+        "ER-10X",
+        "ER-10X-EU"
       ],
       "sku": "ER-10X",
       "sysid": "ee46",
@@ -11981,7 +12291,10 @@
         "name": "EdgeRouter 12"
       },
       "shortnames": [
-        "ER-12"
+        "ER-12",
+        "ER-12-AR",
+        "ER-12-BR",
+        "ER-12-EU"
       ],
       "sku": "ER-12",
       "sysid": "ee62",
@@ -12082,7 +12395,10 @@
         "name": "EdgeRouter 12P"
       },
       "shortnames": [
-        "ER-12P"
+        "ER-12P",
+        "ER-12P-AU",
+        "ER-12P-BETA",
+        "ER-12P-EU"
       ],
       "sku": "ER-12P",
       "sysid": "ee63",
@@ -12184,7 +12500,11 @@
         "name": "EdgeRouter 4"
       },
       "shortnames": [
-        "ER-4"
+        "ER-4",
+        "ER-4-AR",
+        "ER-4-BR",
+        "ER-4-EU",
+        "ER-4-U"
       ],
       "sku": "ER-4",
       "sysid": "ee60",
@@ -12285,7 +12605,11 @@
         "name": "EdgeRouter 6P"
       },
       "shortnames": [
-        "ER-6P"
+        "ER-6P",
+        "ER-6P-AR",
+        "ER-6P-BR",
+        "ER-6P-EU",
+        "ER-6P-U"
       ],
       "sku": "ER-6P",
       "sysid": "ee61",
@@ -12387,7 +12711,12 @@
       },
       "shortnames": [
         "ER-8",
-        "EdgeMAX EdgeRouter 8"
+        "EdgeMAX EdgeRouter 8",
+        "ER-8(EU)",
+        "ER-8-AR",
+        "ER-8-AU",
+        "ER-8-BR",
+        "ER-8-U"
       ],
       "sku": "ER-8",
       "sysid": "ee12",
@@ -12490,7 +12819,11 @@
         "name": "EdgeRouter Infinity"
       },
       "shortnames": [
-        "ER-8-XG"
+        "ER-8-XG",
+        "ER-8-XG-AR",
+        "ER-8-XG-BR",
+        "ER-8-XG-EU",
+        "ER-8-XG-U"
       ],
       "sku": "ER-8-XG",
       "sysid": "ee51",
@@ -12594,7 +12927,12 @@
         "name": "EdgeRouter X"
       },
       "shortnames": [
-        "ER-X"
+        "ER-X",
+        "ER-X-AR",
+        "ER-X-AU",
+        "ER-X-BR",
+        "ER-X-EU",
+        "ER-X-U"
       ],
       "sku": "ER-X",
       "sysid": "ee41",
@@ -12699,7 +13037,12 @@
         "name": "EdgeRouter X SFP"
       },
       "shortnames": [
-        "ER-X-SFP"
+        "ER-X-SFP",
+        "ER-X-SFP-AR",
+        "ER-X-SFP-AU",
+        "ER-X-SFP-BR",
+        "ER-X-SFP-EU",
+        "ER-X-SFP-U"
       ],
       "sku": "ER-X-SFP",
       "sysid": "ee42",
@@ -12804,7 +13147,12 @@
         "name": "EdgeRouter Lite"
       },
       "shortnames": [
-        "ERLite-3"
+        "ERLite-3",
+        "ERLite-3(EU)",
+        "ERLite-3-AR",
+        "ERLite-3-AU",
+        "ERLite-3-BR",
+        "ERLite-3-U"
       ],
       "sku": "ERLite-3",
       "sysid": "ee01",
@@ -12905,7 +13253,13 @@
         "name": "EdgeRouter 5 PoE"
       },
       "shortnames": [
-        "ERPoe-5"
+        "ERPoe-5",
+        "ERPOE-5",
+        "ERPoe-5(EU)",
+        "ERPoe-5-AR",
+        "ERPoe-5-AU",
+        "ERPoe-5-BR",
+        "ERpoe-5-U"
       ],
       "sku": "ERPoe-5",
       "sysid": "ee02",
@@ -13010,7 +13364,12 @@
         "name": "EdgeRouter 8 Pro"
       },
       "shortnames": [
-        "ERPro-8"
+        "ERPro-8",
+        "ERPro-8(EU)",
+        "ERPro-8-AR",
+        "ERPro-8-AU",
+        "ERPro-8-BR",
+        "ERPro-8-U"
       ],
       "sku": "ERPro-8",
       "sysid": "ee11",
@@ -13114,7 +13473,8 @@
       },
       "shortnames": [
         "ES-10X",
-        "EdgeSwitch 10X"
+        "EdgeSwitch 10X",
+        "ES-10X-EU"
       ],
       "sku": "ES-10X",
       "sysid": "eeb6",
@@ -13215,7 +13575,9 @@
         "name": "EdgeSwitch 10XP"
       },
       "shortnames": [
-        "ES-10XP"
+        "ES-10XP",
+        "ES-10XP-3",
+        "ES-10XP-EU"
       ],
       "sku": "ES-10XP",
       "sysid": "eeb5",
@@ -13316,7 +13678,12 @@
         "name": "EdgeSwitch 12 Fiber"
       },
       "shortnames": [
-        "ES-12F"
+        "ES-12F",
+        "ES-12F-AR",
+        "ES-12F-AU",
+        "ES-12F-BR",
+        "ES-12F-EU",
+        "ES-12F-U"
       ],
       "sku": "ES-12F",
       "sysid": "eea8",
@@ -13425,7 +13792,13 @@
         "name": "EdgeSwitch 16 150W"
       },
       "shortnames": [
-        "ES-16-150W"
+        "ES-16-150W",
+        "ES-16-150W-AR",
+        "ES-16-150W-AU",
+        "ES-16-150W-BR",
+        "ES-16-150W-EU",
+        "ES-16-150W-R",
+        "ES-16-150W-U"
       ],
       "sku": "ES-16-150W",
       "sysid": "eea7",
@@ -13538,7 +13911,12 @@
         "name": "EdgeSwitch 16 XG"
       },
       "shortnames": [
-        "ES-16-XG"
+        "ES-16-XG",
+        "ES-16-XG-AR",
+        "ES-16-XG-AU",
+        "ES-16-XG-BR",
+        "ES-16-XG-EU",
+        "ES-16-XG-U"
       ],
       "sku": "ES-16-XG",
       "sysid": "eeaa",
@@ -13644,7 +14022,9 @@
         "name": "EdgeSwitch 16XP"
       },
       "shortnames": [
-        "ES-16XP"
+        "ES-16XP",
+        "ES-16XP-EU",
+        "ES-16XP-U"
       ],
       "sku": "ES-16XP",
       "sysids": [],
@@ -13737,7 +14117,8 @@
         "name": "EdgeSwitch 18X"
       },
       "shortnames": [
-        "ES-18X"
+        "ES-18X",
+        "ES-18X-EU"
       ],
       "sku": "ES-18X",
       "sysid": "eeb7",
@@ -13844,7 +14225,13 @@
         "name": "EdgeSwitch 24 250W"
       },
       "shortnames": [
-        "ES-24-250W"
+        "ES-24-250W",
+        "ES-24-250W AR",
+        "ES-24-250W BR",
+        "ES-24-250W EU",
+        "ES-24-250W U",
+        "ES-24-250W-AU",
+        "ES-24-250W-R"
       ],
       "sku": "ES-24-250W",
       "sysid": "eea3",
@@ -13955,7 +14342,13 @@
         "name": "EdgeSwitch 24 500W"
       },
       "shortnames": [
-        "ES-24-500W"
+        "ES-24-500W",
+        "ES-24-500W AR",
+        "ES-24-500W BR",
+        "ES-24-500W EU",
+        "ES-24-500W U",
+        "ES-24-500W-AU",
+        "ES-24-500W-R"
       ],
       "sku": "ES-24-500W",
       "sysid": "eea1",
@@ -14067,7 +14460,12 @@
         "name": "EdgeSwitch 24 Lite"
       },
       "shortnames": [
-        "ES-24-Lite"
+        "ES-24-Lite",
+        "ES-24-Lite-AR",
+        "ES-24-Lite-AU",
+        "ES-24-Lite-BR",
+        "ES-24-Lite-EU",
+        "ES-24-Lite-U"
       ],
       "sku": "ES-24-Lite",
       "sysid": "eea5",
@@ -14180,7 +14578,13 @@
         "name": "EdgeSwitch 48 500W"
       },
       "shortnames": [
-        "ES-48-500W"
+        "ES-48-500W",
+        "ES-48-500W AR",
+        "ES-48-500W BR",
+        "ES-48-500W EU",
+        "ES-48-500W U",
+        "ES-48-500W-AU",
+        "ES-48-500W-R"
       ],
       "sku": "ES-48-500W",
       "sysid": "eea4",
@@ -14291,7 +14695,12 @@
         "name": "EdgeSwitch 48 750W"
       },
       "shortnames": [
-        "ES-48-750W"
+        "ES-48-750W",
+        "ES-48-750W AR",
+        "ES-48-750W BR",
+        "ES-48-750W EU",
+        "ES-48-750W U",
+        "ES-48-750W-AU"
       ],
       "sku": "ES-48-750W",
       "sysid": "eea2",
@@ -14400,7 +14809,12 @@
         "name": "EdgeSwitch 48 Lite"
       },
       "shortnames": [
-        "ES-48-Lite"
+        "ES-48-Lite",
+        "ES-48-Lite-AR",
+        "ES-48-Lite-AU",
+        "ES-48-Lite-BR",
+        "ES-48-Lite-EU",
+        "ES-48-Lite-U"
       ],
       "sku": "ES-48-Lite",
       "sysid": "eea6",
@@ -14514,7 +14928,12 @@
       "shortnames": [
         "ES-5XP",
         "TSW-5-POE",
-        "TSW-PoE"
+        "TSW-PoE",
+        "ES-5XP-AR",
+        "ES-5XP-AU",
+        "ES-5XP-BR",
+        "ES-5XP-EU",
+        "ES-5XP-U"
       ],
       "sku": "ES-5XP",
       "sysid": "e700",
@@ -14621,7 +15040,12 @@
         "name": "EdgeSwitch 8 150W"
       },
       "shortnames": [
-        "ES-8-150W"
+        "ES-8-150W",
+        "ES-8-150W-AR",
+        "ES-8-150W-AU",
+        "ES-8-150W-BR",
+        "ES-8-150W-EU",
+        "ES-8-150W-U"
       ],
       "sku": "ES-8-150W",
       "sysid": "eeab",
@@ -14732,7 +15156,8 @@
       },
       "shortnames": [
         "ETH-SP-G2",
-        "UBI"
+        "UBI",
+        "ETH-SP"
       ],
       "sku": "ETH-SP-G2",
       "sysids": [],
@@ -14852,7 +15277,12 @@
       "shortnames": [
         "GBE",
         "GigaBeam",
-        "GigaBeam AP"
+        "GigaBeam AP",
+        "GBE-AR",
+        "GBE-AU",
+        "GBE-EU",
+        "GBE-US",
+        "GBE-US-BETA"
       ],
       "sku": "GBE",
       "sysid": "dc9a",
@@ -14991,7 +15421,12 @@
       },
       "shortnames": [
         "GBE-LR",
-        "GigaBeam LR"
+        "GigaBeam LR",
+        "GBE-LR-AR",
+        "GBE-LR-AU",
+        "GBE-LR-EU",
+        "GBE-LR-US",
+        "GBE-LR-US-Beta"
       ],
       "sku": "GBE-LR",
       "sysid": "dc99",
@@ -15126,7 +15561,10 @@
       },
       "shortnames": [
         "GBE-Plus",
-        "GigaBeam Plus"
+        "GigaBeam Plus",
+        "GBE-Plus-AU",
+        "GBE-Plus-EU",
+        "GBE-Plus-US"
       ],
       "sku": "GBE-Plus",
       "sysids": [],
@@ -15558,7 +15996,12 @@
         "name": "ISO Station 5AC"
       },
       "shortnames": [
-        "IS-5AC"
+        "IS-5AC",
+        "IS-5AC-AR",
+        "IS-5AC-BR",
+        "IS-5AC-EU",
+        "IS-5AC-U",
+        "IS-5AC-US"
       ],
       "sku": "IS-5AC",
       "sysid": "e7f7",
@@ -15673,7 +16116,12 @@
         "name": "ISO Station M5"
       },
       "shortnames": [
-        "IS-M5"
+        "IS-M5",
+        "IS-M5-AR",
+        "IS-M5-BR",
+        "IS-M5-EU",
+        "IS-M5-U",
+        "IS-M5-US"
       ],
       "sku": "IS-M5",
       "sysid": "e7f8",
@@ -15848,7 +16296,13 @@
       },
       "shortnames": [
         "ISO-BEAM-620",
-        "P5B-620"
+        "P5B-620",
+        "PBE-M5-620",
+        "PBE-M5-620-BR",
+        "PBE-M5-620-EU",
+        "PBE-M5-620-FEED-US",
+        "PBE-M5-620-U",
+        "PBE-M5-620-US"
       ],
       "sku": "ISO-BEAM-620",
       "sysid": "e885",
@@ -16016,7 +16470,11 @@
         "name": "airRouter"
       },
       "shortnames": [
-        "LAP"
+        "LAP",
+        "AirRouter",
+        "AirRouter(EU)",
+        "AirRouter(US)",
+        "AirRouter-U"
       ],
       "sku": "LAP",
       "sysid": "e4a2",
@@ -16127,7 +16585,13 @@
         "name": "LAP-120"
       },
       "shortnames": [
-        "LAP-120"
+        "LAP-120",
+        "LAP-120-AR",
+        "LAP-120-AU",
+        "LAP-120-BR",
+        "LAP-120-EU",
+        "LAP-120-U",
+        "LAP-120-US"
       ],
       "sku": "LAP-120",
       "sysid": "e8e5",
@@ -16249,7 +16713,13 @@
         "name": "LiteAP GPS"
       },
       "shortnames": [
-        "LAP-GPS"
+        "LAP-GPS",
+        "LAP-GPS-AR",
+        "LAP-GPS-AU",
+        "LAP-GPS-BR",
+        "LAP-GPS-EU",
+        "LAP-GPS-U",
+        "LAP-GPS-US"
       ],
       "sku": "LAP-GPS",
       "sysids": [],
@@ -16342,7 +16812,13 @@
         "name": "airRouter HP"
       },
       "shortnames": [
-        "LAP-HP"
+        "LAP-HP",
+        "AirRouter-HP",
+        "AirRouter-HP(EU)",
+        "AirRouter-HP(US)",
+        "AirRouter-HP-AR",
+        "AirRouter-HP-BR",
+        "AirRouter-HP-U"
       ],
       "sku": "LAP-HP",
       "sysid": "e4b2",
@@ -16434,7 +16910,16 @@
       },
       "shortnames": [
         "LBE-5AC",
-        "LBE-5AC-Gen2"
+        "LBE-5AC-Gen2",
+        "LBE-5AC-Gen2-5",
+        "LBE-5AC-Gen2-5-EU",
+        "LBE-5AC-Gen2-5-US",
+        "LBE-5AC-Gen2-AR",
+        "LBE-5AC-Gen2-AU",
+        "LBE-5AC-Gen2-BR",
+        "LBE-5AC-Gen2-EU",
+        "LBE-5AC-Gen2-U",
+        "LBE-5AC-Gen2-US"
       ],
       "sku": "LBE-5AC",
       "sysid": "e7f9",
@@ -16556,7 +17041,12 @@
         "name": "LiteBeam 5AC 23"
       },
       "shortnames": [
-        "LBE-5AC-23"
+        "LBE-5AC-23",
+        "LBE-5AC-23-AR",
+        "LBE-5AC-23-BR",
+        "LBE-5AC-23-EU",
+        "LBE-5AC-23-U",
+        "LBE-5AC-23-US"
       ],
       "sku": "LBE-5AC-23",
       "sysid": "e8f5",
@@ -16675,7 +17165,16 @@
         "name": "LiteBeam 5AC LR"
       },
       "shortnames": [
-        "LBE-5AC-LR"
+        "LBE-5AC-LR",
+        "LBE-5AC-LR-5",
+        "LBE-5AC-LR-5-US",
+        "LBE-5AC-LR-AR",
+        "LBE-5AC-LR-AU",
+        "LBE-5AC-LR-BR",
+        "LBE-5AC-LR-EU",
+        "LBE-5AC-LR-U",
+        "LBE-5AC-LR-US",
+        "LBE-5AC-LR-US-BETA"
       ],
       "sku": "LBE-5AC-LR",
       "sysid": "e7fe",
@@ -16797,7 +17296,12 @@
         "name": "LiteBeam AC XR"
       },
       "shortnames": [
-        "LBE-5AC-XR"
+        "LBE-5AC-XR",
+        "LBE-5AC-XR-EA",
+        "LBE-5AC-XR-EU",
+        "LBE-5AC-XR-EU-EA",
+        "LBE-5AC-XR-US",
+        "LBE-5AC-XR-US-EA"
       ],
       "sku": "LBE-5AC-XR",
       "sysid": "e7ff",
@@ -16932,7 +17436,9 @@
         "name": "LiteBeam AX"
       },
       "shortnames": [
-        "LBE-AX"
+        "LBE-AX",
+        "LBE-AX-EU-EA",
+        "LBE-AX-US-EA"
       ],
       "sku": "LBE-AX",
       "sysid": "a669",
@@ -17058,7 +17564,13 @@
       },
       "shortnames": [
         "LB5",
-        "LBE-M5-23"
+        "LBE-M5-23",
+        "LBE-M5-23-AR",
+        "LBE-M5-23-BR",
+        "LBE-M5-23-EU",
+        "LBE-M5-23-FEED",
+        "LBE-M5-23-U",
+        "LBE-M5-23-US"
       ],
       "sku": "LBE-M5-23",
       "sysid": "e865",
@@ -17161,7 +17673,9 @@
         "name": "LTU Instant"
       },
       "shortnames": [
-        "LTU-Instant"
+        "LTU-Instant",
+        "LTU-Instant-5",
+        "LTU-Instant-5-US"
       ],
       "sku": "LTU-Instant",
       "sysid": "ae10",
@@ -17294,7 +17808,14 @@
         "name": "LTU LR"
       },
       "shortnames": [
-        "LTU-LR"
+        "LTU-LR",
+        "LTU-LR-AR",
+        "LTU-LR-AU",
+        "LTU-LR-BR",
+        "LTU-LR-EU",
+        "LTU-LR-U",
+        "LTU-LR-US",
+        "LTU-LR-US-BETA"
       ],
       "sku": "LTU-LR",
       "sysid": "ae0b",
@@ -17410,7 +17931,12 @@
       },
       "shortnames": [
         "LTU-LITE",
-        "LTU-Lite"
+        "LTU-Lite",
+        "LTU-Lite-AR",
+        "LTU-Lite-AU",
+        "LTU-Lite-BR",
+        "LTU-Lite-EU",
+        "LTU-Lite-U"
       ],
       "sku": "LTU-Lite",
       "sysid": "ae08",
@@ -17525,7 +18051,13 @@
       },
       "shortnames": [
         "LTU-PRO",
-        "LTU-Pro"
+        "LTU-Pro",
+        "LTU-Pro-AR",
+        "LTU-Pro-AU",
+        "LTU-Pro-BR",
+        "LTU-Pro-EU",
+        "LTU-Pro-U",
+        "LTU-Pro-US"
       ],
       "sku": "LTU-PRO",
       "sysid": "ae06",
@@ -17663,7 +18195,14 @@
       },
       "shortnames": [
         "LTU-ROCKET",
-        "LTU-Rocket"
+        "LTU-Rocket",
+        "LTU-Rocket-AR",
+        "LTU-Rocket-AU",
+        "LTU-Rocket-BR",
+        "LTU-Rocket-EU",
+        "LTU-Rocket-U",
+        "LTU-Rocket-US",
+        "LTU-Rocket-US-BETA"
       ],
       "sku": "LTU-Rocket",
       "sysid": "ae05",
@@ -17794,7 +18333,12 @@
         "name": "LTU XR"
       },
       "shortnames": [
-        "LTU-XR"
+        "LTU-XR",
+        "LTU-XR-EA",
+        "LTU-XR-EU",
+        "LTU-XR-EU-EA",
+        "LTU-XR-US",
+        "LTU-XR-US-EA"
       ],
       "sku": "LTU-XR",
       "sysid": "ae11",
@@ -17898,7 +18442,13 @@
       },
       "shortnames": [
         "Loco5AC",
-        "Loco5AC-5"
+        "Loco5AC-5",
+        "Loco5AC-5-US",
+        "Loco5AC-US",
+        "NS-5ACL",
+        "NS-5ACL-5",
+        "NS-5ACL-5-US",
+        "NS-5ACL-US"
       ],
       "sku": "Loco5AC-5",
       "sysid": "e7fa",
@@ -18018,7 +18568,14 @@
       },
       "shortnames": [
         "LM2",
-        "LocoM2"
+        "LocoM2",
+        "LocoM2(EU)",
+        "LocoM2(US)",
+        "LocoM2-AR",
+        "LocoM2-AU",
+        "LocoM2-BR",
+        "LocoM2-Bulk",
+        "LocoM2-U"
       ],
       "sku": "LocoM2",
       "sysid": "e0a2",
@@ -18131,7 +18688,14 @@
       },
       "shortnames": [
         "LM5",
-        "LocoM5"
+        "LocoM5",
+        "LocoM5(EU)",
+        "LocoM5(US)",
+        "LocoM5-AR",
+        "LocoM5-AU",
+        "LocoM5-BR",
+        "LocoM5-Bulk",
+        "LocoM5-U"
       ],
       "sku": "LocoM5",
       "sysid": "e0a5",
@@ -18239,7 +18803,11 @@
         "name": "mPort"
       },
       "shortnames": [
-        "M2M"
+        "M2M",
+        "mPort",
+        "mPort(EU)",
+        "mPort-BR",
+        "mPort-U"
       ],
       "sku": "M2M",
       "sysid": "e622",
@@ -18327,7 +18895,11 @@
         "name": "mPort Serial"
       },
       "shortnames": [
-        "M2S"
+        "M2S",
+        "mPort-S",
+        "mPort-S(EU)",
+        "mPort-S-BR",
+        "mPort-S-U"
       ],
       "sku": "M2S",
       "sysid": "e632",
@@ -18490,7 +19062,13 @@
         "name": "NanoBeam M2 13"
       },
       "shortnames": [
-        "N2B-13"
+        "N2B-13",
+        "NBE-M2-13",
+        "NBE-M2-13-AR",
+        "NBE-M2-13-BR",
+        "NBE-M2-13-EU",
+        "NBE-M2-13-U",
+        "NBE-M2-13-US"
       ],
       "sku": "N2B-13",
       "sysid": "e812",
@@ -18581,7 +19159,14 @@
         "name": "NanoBeam M5 19"
       },
       "shortnames": [
-        "N5B-19"
+        "N5B-19",
+        "NBE-M5-19",
+        "NBE-M5-19 AR",
+        "NBE-M5-19 BR",
+        "NBE-M5-19 EU",
+        "NBE-M5-19 U",
+        "NBE-M5-19 US",
+        "NBE-M5-19-RDO"
       ],
       "sku": "N5B-19",
       "sysid": "e825",
@@ -18682,7 +19267,16 @@
         "name": "NanoStation M5"
       },
       "shortnames": [
-        "N5N"
+        "N5N",
+        "NSM5",
+        "NSM5(EU)",
+        "NSM5(RU)",
+        "NSM5(US)",
+        "NSM5-AR",
+        "NSM5-AU",
+        "NSM5-BR",
+        "NSM5-Bulk",
+        "NSM5-U"
       ],
       "sku": "N5N",
       "sysid": "e005",
@@ -18775,7 +19369,12 @@
         "name": "NanoStation loco M900"
       },
       "shortnames": [
-        "N9N"
+        "N9N",
+        "LocoM9",
+        "LocoM9(EU)",
+        "LocoM9-AR",
+        "LocoM9-BR",
+        "LocoM9-U"
       ],
       "sku": "N9N",
       "sysid": "e009",
@@ -18873,7 +19472,10 @@
         "name": "NanoBridge M2"
       },
       "shortnames": [
-        "NB2"
+        "NB2",
+        "NB-2G18",
+        "NB-2G18(EU)",
+        "NB-2G18(US)"
       ],
       "sku": "NB2",
       "sysid": "e232",
@@ -18964,7 +19566,12 @@
         "name": "NanoBridge M3"
       },
       "shortnames": [
-        "NB3"
+        "NB3",
+        "NBM3",
+        "NBM3(EU)",
+        "NBM3-AR",
+        "NBM3-BR",
+        "NBM3-U"
       ],
       "sku": "NB3",
       "sysid": "e243",
@@ -19055,7 +19662,12 @@
         "name": "NanoBridge M900"
       },
       "shortnames": [
-        "NB9"
+        "NB9",
+        "NBM9",
+        "NBM9(EU)",
+        "NBM9-AR",
+        "NBM9-BR",
+        "NBM9-U"
       ],
       "sku": "NB9",
       "sysid": "e239",
@@ -19165,7 +19777,11 @@
         "name": "NanoBeam 2AC 13"
       },
       "shortnames": [
-        "NBE-2AC-13"
+        "NBE-2AC-13",
+        "NBE-2AC-13-BR",
+        "NBE-2AC-13-EU",
+        "NBE-2AC-13-U",
+        "NBE-2AC-13-US"
       ],
       "sku": "NBE-2AC-13",
       "sysid": "e4f2",
@@ -19265,7 +19881,13 @@
       },
       "shortnames": [
         "NBE-5AC",
-        "NBE-5AC-Gen2"
+        "NBE-5AC-Gen2",
+        "NBE-5AC-Gen2-AR",
+        "NBE-5AC-Gen2-AU",
+        "NBE-5AC-Gen2-BR",
+        "NBE-5AC-Gen2-EU",
+        "NBE-5AC-Gen2-U",
+        "NBE-5AC-Gen2-US"
       ],
       "sku": "NBE-5AC",
       "sysid": "e3d7",
@@ -19372,7 +19994,12 @@
         "name": "NanoBeam 5AC 16"
       },
       "shortnames": [
-        "NBE-5AC-16"
+        "NBE-5AC-16",
+        "NBE-5AC-16-AR",
+        "NBE-5AC-16-BR",
+        "NBE-5AC-16-EU",
+        "NBE-5AC-16-U",
+        "NBE-5AC-16-US"
       ],
       "sku": "NBE-5AC-16",
       "sysid": "e9f5",
@@ -19470,7 +20097,12 @@
         "name": "NanoBeam 5AC 19"
       },
       "shortnames": [
-        "NBE-5AC-19"
+        "NBE-5AC-19",
+        "NBE-5AC-19-AR",
+        "NBE-5AC-19-BR",
+        "NBE-5AC-19-EU",
+        "NBE-5AC-19-U",
+        "NBE-5AC-19-US"
       ],
       "sku": "NBE-5AC-19",
       "sysid": "e4f5",
@@ -19587,7 +20219,13 @@
       "shortnames": [
         "N5B",
         "NBE-M5-16",
-        "N5B-16"
+        "N5B-16",
+        "NBE-M5-16 AR",
+        "NBE-M5-16 BR",
+        "NBE-M5-16 EU",
+        "NBE-M5-16 U",
+        "NBE-M5-16 US",
+        "NBE-M5-16-RDO"
       ],
       "sku": "NBE-M5-16",
       "sysid": "e815",
@@ -19687,7 +20325,10 @@
       "shortnames": [
         "AirMAX NanoBridge M",
         "NBM365",
-        "B36"
+        "B36",
+        "NBM365(EU)",
+        "NBM365-BR",
+        "NBM365-U"
       ],
       "sku": "NBM365",
       "sysid": "e233",
@@ -19778,7 +20419,24 @@
         "name": "NanoBridge M5"
       },
       "shortnames": [
-        "NBM5"
+        "NBM5",
+        "NB-5G22",
+        "NB-5G22(EU)",
+        "NB-5G22(US)",
+        "NB-5G22-AR",
+        "NB-5G22-BR",
+        "NB-5G22-Bulk",
+        "NB-5G22-Bulk-BR",
+        "NB-5G22-U",
+        "NB-5G25",
+        "NB-5G25(EU)",
+        "NB-5G25(US)",
+        "NB-5G25-AR",
+        "NB-5G25-BR",
+        "NB-5G25-U",
+        "NBM5-Feed",
+        "NBM5-Feed(US)",
+        "NBM5-Feed-BR"
       ],
       "sku": "NBM5",
       "sysid": "e235",
@@ -19891,7 +20549,13 @@
         "name": "NanoStation 5AC"
       },
       "shortnames": [
-        "NS-5AC"
+        "NS-5AC",
+        "NS-5AC-AR",
+        "NS-5AC-AU",
+        "NS-5AC-BR",
+        "NS-5AC-EU",
+        "NS-5AC-U",
+        "NS-5AC-US"
       ],
       "sku": "NS-5AC",
       "sysid": "e7fb",
@@ -19989,7 +20653,12 @@
         "name": "NanoStation M3"
       },
       "shortnames": [
-        "NS3"
+        "NS3",
+        "NSM3",
+        "NSM3(EU)",
+        "NSM3-AR",
+        "NSM3-BR",
+        "NSM3-U"
       ],
       "sku": "NS3",
       "sysid": "c003",
@@ -20107,7 +20776,14 @@
       },
       "shortnames": [
         "N2N",
-        "NSM2"
+        "NSM2",
+        "NSM2(EU)",
+        "NSM2(RU)",
+        "NSM2(US)",
+        "NSM2-AR",
+        "NSM2-AU",
+        "NSM2-BR",
+        "NSM2-U"
       ],
       "sku": "NSM2",
       "sysid": "e012",
@@ -20208,7 +20884,10 @@
       },
       "shortnames": [
         "N36",
-        "NSM365"
+        "NSM365",
+        "NSM365(EU)",
+        "NSM365-BR",
+        "NSM365-U"
       ],
       "sku": "NSM365",
       "sysid": "e003",
@@ -20304,7 +20983,18 @@
         "name": "Network Video Recorder"
       },
       "shortnames": [
-        "NVR"
+        "NVR",
+        "UVC-NVR",
+        "UVC-NVR-2TB",
+        "UVC-NVR-2TB-AR",
+        "UVC-NVR-2TB-AU",
+        "UVC-NVR-2TB-BR",
+        "UVC-NVR-2TB-EU",
+        "UVC-NVR-2TB-U",
+        "UVC-NVR-AR",
+        "UVC-NVR-BR",
+        "UVC-NVR-EU",
+        "UVC-NVR-U"
       ],
       "sku": "NVR",
       "sysid": "ea1a",
@@ -20395,7 +21085,8 @@
         "name": "mPower mini"
       },
       "shortnames": [
-        "P1E"
+        "P1E",
+        "mPower-Mini(EU)"
       ],
       "sku": "P1E",
       "sysid": "e651",
@@ -20475,7 +21166,8 @@
         "name": "mPower mini"
       },
       "shortnames": [
-        "P1U"
+        "P1U",
+        "mPower-Mini"
       ],
       "sku": "P1U",
       "sysid": "e641",
@@ -20555,7 +21247,10 @@
         "name": "PowerBridge M365"
       },
       "shortnames": [
-        "P36"
+        "P36",
+        "PBM365",
+        "PBM365(EU)",
+        "PBM365-U"
       ],
       "sku": "P36",
       "sysid": "e1a3",
@@ -20646,7 +21341,8 @@
         "name": "mPower"
       },
       "shortnames": [
-        "P3E"
+        "P3E",
+        "mPower(EU)"
       ],
       "sku": "P3E",
       "sysid": "e653",
@@ -20726,7 +21422,8 @@
         "name": "mPower"
       },
       "shortnames": [
-        "P3U"
+        "P3U",
+        "mPower"
       ],
       "sku": "P3U",
       "sysid": "e643",
@@ -20897,7 +21594,8 @@
         "name": "mPower Pro"
       },
       "shortnames": [
-        "P6E"
+        "P6E",
+        "mPower-Pro(EU)"
       ],
       "sku": "P6E",
       "sysids": [],
@@ -20982,7 +21680,8 @@
         "name": "mPower Pro"
       },
       "shortnames": [
-        "P8U"
+        "P8U",
+        "mPower-Pro"
       ],
       "sku": "P8U",
       "sysid": "e648",
@@ -21070,7 +21769,11 @@
         "name": "PowerBridge M3"
       },
       "shortnames": [
-        "PB3"
+        "PB3",
+        "PBM3",
+        "PBM3(EU)",
+        "PBM3-AR",
+        "PBM3-U"
       ],
       "sku": "PB3",
       "sysid": "e2a3",
@@ -21161,7 +21864,13 @@
         "name": "PowerBridge M5"
       },
       "shortnames": [
-        "PB5"
+        "PB5",
+        "PBM5",
+        "PBM5(EU)",
+        "PBM5(US)",
+        "PBM5-AR",
+        "PBM5-BR",
+        "PBM5-U"
       ],
       "sku": "PB5",
       "sysid": "e1a5",
@@ -21271,7 +21980,12 @@
         "name": "PowerBeam 2AC 400"
       },
       "shortnames": [
-        "PBE-2AC-400"
+        "PBE-2AC-400",
+        "PBE-2AC-400-AR",
+        "PBE-2AC-400-BR",
+        "PBE-2AC-400-EU",
+        "PBE-2AC-400-U",
+        "PBE-2AC-400-US"
       ],
       "sku": "PBE-2AC-400",
       "sysid": "e3f2",
@@ -21371,7 +22085,21 @@
       },
       "shortnames": [
         "PBE-5AC",
-        "PBE-5AC-Gen2"
+        "PBE-5AC-Gen2",
+        "PBE-5AC-GEN2-AU",
+        "PBE-5AC-Gen2-5",
+        "PBE-5AC-Gen2-5-AR",
+        "PBE-5AC-Gen2-5-AU",
+        "PBE-5AC-Gen2-5-BR",
+        "PBE-5AC-Gen2-5-EU",
+        "PBE-5AC-Gen2-5-U",
+        "PBE-5AC-Gen2-5-US",
+        "PBE-5AC-Gen2-AR",
+        "PBE-5AC-Gen2-BR",
+        "PBE-5AC-Gen2-EU",
+        "PBE-5AC-Gen2-FEED-US",
+        "PBE-5AC-Gen2-U",
+        "PBE-5AC-Gen2-US"
       ],
       "sku": "PBE-5AC",
       "sysid": "e3d6",
@@ -21477,7 +22205,14 @@
       },
       "shortnames": [
         "AirMAX PowerBeam 5AC 300",
-        "PBE-5AC-300"
+        "PBE-5AC-300",
+        "PBE-5AC-300-AR",
+        "PBE-5AC-300-BR",
+        "PBE-5AC-300-EU",
+        "PBE-5AC-300-FEED",
+        "PBE-5AC-300-FEED-US",
+        "PBE-5AC-300-U",
+        "PBE-5AC-300-US"
       ],
       "sku": "PBE-5AC-300",
       "sysid": "e3da",
@@ -21576,7 +22311,12 @@
         "name": "PowerBeam 5AC 300 ISO"
       },
       "shortnames": [
-        "PBE-5AC-300-ISO"
+        "PBE-5AC-300-ISO",
+        "PBE-5AC-300-ISO-AR",
+        "PBE-5AC-300-ISO-BR",
+        "PBE-5AC-300-ISO-EU",
+        "PBE-5AC-300-ISO-U",
+        "PBE-5AC-300-ISO-US"
       ],
       "sku": "PBE-5AC-300-ISO",
       "sysids": [],
@@ -21672,7 +22412,14 @@
       },
       "shortnames": [
         "AirMAX PowerBeam 5AC 400",
-        "PBE-5AC-400"
+        "PBE-5AC-400",
+        "PBE-5AC-400-AR",
+        "PBE-5AC-400-BR",
+        "PBE-5AC-400-EU",
+        "PBE-5AC-400-FEED",
+        "PBE-5AC-400-FEED-US",
+        "PBE-5AC-400-U",
+        "PBE-5AC-400-US"
       ],
       "sku": "PBE-5AC-400",
       "sysids": [],
@@ -21782,7 +22529,12 @@
         "name": "PowerBeam 5AC 400 ISO"
       },
       "shortnames": [
-        "PBE-5AC-400-ISO"
+        "PBE-5AC-400-ISO",
+        "PBE-5AC-400-ISO-AR",
+        "PBE-5AC-400-ISO-BR",
+        "PBE-5AC-400-ISO-EU",
+        "PBE-5AC-400-ISO-U",
+        "PBE-5AC-400-ISO-US"
       ],
       "sku": "PBE-5AC-400-ISO",
       "sysids": [],
@@ -21893,7 +22645,14 @@
         "name": "PowerBeam 5AC 500"
       },
       "shortnames": [
-        "PBE-5AC-500"
+        "PBE-5AC-500",
+        "PBE-5AC-500-AR",
+        "PBE-5AC-500-AU",
+        "PBE-5AC-500-BR",
+        "PBE-5AC-500-EU",
+        "PBE-5AC-500-FEED-US",
+        "PBE-5AC-500-U",
+        "PBE-5AC-500-US"
       ],
       "sku": "PBE-5AC-500",
       "sysids": [],
@@ -22006,7 +22765,14 @@
       },
       "shortnames": [
         "AirMAX PowerBeam 5AC 500 ISO",
-        "PBE-5AC-500-ISO"
+        "PBE-5AC-500-ISO",
+        "PBE-5AC-500-ISO-AR",
+        "PBE-5AC-500-ISO-AU",
+        "PBE-5AC-500-ISO-BR",
+        "PBE-5AC-500-ISO-EU",
+        "PBE-5AC-500-ISO-FEED-US",
+        "PBE-5AC-500-ISO-U",
+        "PBE-5AC-500-ISO-US"
       ],
       "sku": "PBE-5AC-500-ISO",
       "sysid": "e3d5",
@@ -22198,7 +22964,13 @@
         "name": "PowerBeam 5AC 620"
       },
       "shortnames": [
-        "PBE-5AC-620"
+        "PBE-5AC-620",
+        "PBE-5AC-620-AR",
+        "PBE-5AC-620-BR",
+        "PBE-5AC-620-EU",
+        "PBE-5AC-620-FEED-US",
+        "PBE-5AC-620-U",
+        "PBE-5AC-620-US"
       ],
       "sku": "PBE-5AC-620",
       "sysid": "e5f5",
@@ -22298,7 +23070,12 @@
       },
       "shortnames": [
         "PBE-5AC-ISO",
-        "PBE-5AC-ISO-Gen2"
+        "PBE-5AC-ISO-Gen2",
+        "PBE-5AC-ISO-Gen2-AR",
+        "PBE-5AC-ISO-Gen2-BR",
+        "PBE-5AC-ISO-Gen2-EU",
+        "PBE-5AC-ISO-Gen2-U",
+        "PBE-5AC-ISO-Gen2-US"
       ],
       "sku": "PBE-5AC-ISO",
       "sysids": [],
@@ -22420,7 +23197,14 @@
       },
       "shortnames": [
         "P2B-400",
-        "PBE-M2-400"
+        "PBE-M2-400",
+        "PBE-M2-400-AR",
+        "PBE-M2-400-AU",
+        "PBE-M2-400-BR",
+        "PBE-M2-400-EU",
+        "PBE-M2-400-FEED-US",
+        "PBE-M2-400-U",
+        "PBE-M2-400-US"
       ],
       "sku": "PBE-M2-400",
       "sysids": [],
@@ -22528,7 +23312,21 @@
       "shortnames": [
         "AirMAX PowerBeam M5 300",
         "PBE-M5-300",
-        "P5B-300"
+        "P5B-300",
+        "NBE-M5-300",
+        "NBE-M5-300(EU)",
+        "NBE-M5-300(US)",
+        "NBE-M5-300-AR",
+        "NBE-M5-300-BR",
+        "NBE-M5-300-FEED",
+        "NBE-M5-300-U",
+        "PBE-M5-300-AR",
+        "PBE-M5-300-BR",
+        "PBE-M5-300-EU",
+        "PBE-M5-300-FEED",
+        "PBE-M5-300-FEED-US",
+        "PBE-M5-300-U",
+        "PBE-M5-300-US"
       ],
       "sku": "PBE-M5-300",
       "sysid": "e6f5",
@@ -22642,7 +23440,13 @@
       },
       "shortnames": [
         "P5B-300-ISO",
-        "PBE-M5-300-ISO"
+        "PBE-M5-300-ISO",
+        "PBE-M5-300-ISO-AR",
+        "PBE-M5-300-ISO-BR",
+        "PBE-M5-300-ISO-EU",
+        "PBE-M5-300-ISO-FEED-US",
+        "PBE-M5-300-ISO-U",
+        "PBE-M5-300-ISO-US"
       ],
       "sku": "PBE-M5-300-ISO",
       "sysid": "e5e5",
@@ -22751,7 +23555,22 @@
       },
       "shortnames": [
         "P5B-400",
-        "PBE-M5-400"
+        "PBE-M5-400",
+        "NBE-M5-400",
+        "NBE-M5-400(EU)",
+        "NBE-M5-400(US)",
+        "NBE-M5-400-AR",
+        "NBE-M5-400-BR",
+        "NBE-M5-400-FEED",
+        "NBE-M5-400-U",
+        "PBE-M5-400-AR",
+        "PBE-M5-400-AU",
+        "PBE-M5-400-BR",
+        "PBE-M5-400-EU",
+        "PBE-M5-400-FEED",
+        "PBE-M5-400-FEED-US",
+        "PBE-M5-400-U",
+        "PBE-M5-400-US"
       ],
       "sku": "PBE-M5-400",
       "sysid": "e7f5",
@@ -22862,7 +23681,13 @@
       },
       "shortnames": [
         "AirMAX PowerBeam M5 400-ISO",
-        "PBE-M5-400-ISO"
+        "PBE-M5-400-ISO",
+        "PBE-M5-400-ISO-AR",
+        "PBE-M5-400-ISO-BR",
+        "PBE-M5-400-ISO-EU",
+        "PBE-M5-400-ISO-FEED-US",
+        "PBE-M5-400-ISO-U",
+        "PBE-M5-400-ISO-US"
       ],
       "sku": "PBE-M5-400-ISO",
       "sysids": [],
@@ -22939,7 +23764,11 @@
         "name": "PowerBridge M10"
       },
       "shortnames": [
-        "PBM10"
+        "PBM10",
+        "PBM10(EU)",
+        "PBM10-AR",
+        "PBM10-BR",
+        "PBM10-U"
       ],
       "sku": "PBM10",
       "sysid": "e110",
@@ -23034,7 +23863,13 @@
       "shortnames": [
         "P2N",
         "PICOM2HP",
-        "p2N"
+        "p2N",
+        "PicoM2-H",
+        "PicoM2-H(EU)",
+        "PicoM2-H(US)",
+        "PicoM2-H-AR",
+        "PicoM2-H-BR",
+        "PicoM2-H-U"
       ],
       "sku": "PICOM2HP",
       "sysid": "e302",
@@ -23161,7 +23996,17 @@
       },
       "shortnames": [
         "AF5X",
-        "POE-24-AF5X"
+        "POE-24-AF5X",
+        "AF-5X",
+        "AF-5X-AR",
+        "AF-5X-BR",
+        "AF-5X-EU",
+        "AF-5X-U",
+        "AF-5X-U-R",
+        "AF-5X-US",
+        "POE-24-AF5X-AR",
+        "POE-24-AF5X-BR",
+        "POE-24-AF5X-EU"
       ],
       "sku": "POE-24-AF5X",
       "sysids": [],
@@ -23267,7 +24112,18 @@
         "name": "PrismStation 5AC"
       },
       "shortnames": [
-        "PS-5AC"
+        "PS-5AC",
+        "PS-5AC-45",
+        "PS-5AC-45-AR",
+        "PS-5AC-45-BR",
+        "PS-5AC-45-EU",
+        "PS-5AC-45-U",
+        "PS-5AC-45-US",
+        "PS-5AC-AR",
+        "PS-5AC-BR",
+        "PS-5AC-EU",
+        "PS-5AC-U",
+        "PS-5AC-US"
       ],
       "sku": "PS-5AC",
       "sysid": "dc35",
@@ -23387,7 +24243,16 @@
       "shortnames": [
         "AirMAX R2AC-US Rocket AC",
         "R2AC-PRISM",
-        "R2AC"
+        "R2AC",
+        "R2AC-AR",
+        "R2AC-BR",
+        "R2AC-EU",
+        "R2AC-Gen2",
+        "R2AC-PRISM-EU",
+        "R2AC-PRISM-U",
+        "R2AC-PRISM-US",
+        "R2AC-U",
+        "R2AC-US"
       ],
       "sku": "R2AC-PRISM",
       "sysid": "e2f3",
@@ -23582,7 +24447,11 @@
         "name": "Rocket M365"
       },
       "shortnames": [
-        "R36"
+        "R36",
+        "RocketM365",
+        "RocketM365(EU)",
+        "RocketM365-BR",
+        "RocketM365-U"
       ],
       "sku": "R36",
       "sysid": "e1b3",
@@ -23771,7 +24640,17 @@
       },
       "shortnames": [
         "R5AC-LITE",
-        "R5AC-Lite"
+        "R5AC-Lite",
+        "R5AC-LITE-US",
+        "R5AC-Lite-AR",
+        "R5AC-Lite-BR",
+        "R5AC-Lite-EU",
+        "R5AC-Lite-U",
+        "RM5-AC-PTP-Lite",
+        "RM5-AC-PTP-Lite BR",
+        "RM5-AC-PTP-Lite EU",
+        "RM5-AC-PTP-Lite U",
+        "RM5-AC-PTP-Lite US"
       ],
       "sku": "R5AC-LITE",
       "sysid": "e1f5",
@@ -23968,7 +24847,11 @@
       },
       "shortnames": [
         "AirMAX Rocket 5AC PTMP",
-        "R5AC-PTMP"
+        "R5AC-PTMP",
+        "R5AC-PTMP-AR",
+        "R5AC-PTMP-EU",
+        "R5AC-PTMP-U",
+        "R5AC-PTMP-US"
       ],
       "sku": "R5AC-PTMP",
       "sysids": [],
@@ -24069,7 +24952,12 @@
       },
       "shortnames": [
         "AirMAX Rocket 5AC PTP",
-        "R5AC-PTP"
+        "R5AC-PTP",
+        "R5AC-PTP-AR",
+        "R5AC-PTP-BR",
+        "R5AC-PTP-EU",
+        "R5AC-PTP-U",
+        "R5AC-PTP-US"
       ],
       "sku": "R5AC-PTP",
       "sysids": [],
@@ -24160,7 +25048,10 @@
         "name": "Rocket M5"
       },
       "shortnames": [
-        "R5N-GPS"
+        "R5N-GPS",
+        "RM5-GPS",
+        "RM5-GPS(EU)",
+        "RM5-GPS(US)"
       ],
       "sku": "R5N-GPS",
       "sysid": "e1c5",
@@ -24254,7 +25145,13 @@
         "name": "Rocket M5 Titanium"
       },
       "shortnames": [
-        "R5T-GPS"
+        "R5T-GPS",
+        "RM5-Ti",
+        "RM5-Ti(EU)",
+        "RM5-Ti(US)",
+        "RM5-Ti-AR",
+        "RM5-Ti-BR",
+        "RM5-Ti-U"
       ],
       "sku": "R5T-GPS",
       "sysid": "e1d5",
@@ -24349,7 +25246,8 @@
         "name": "Rocket M6"
       },
       "shortnames": [
-        "R6N"
+        "R6N",
+        "RocketM6(RU)"
       ],
       "sku": "R6N",
       "sysid": "e1b6",
@@ -24440,7 +25338,12 @@
         "name": "Rocket M900"
       },
       "shortnames": [
-        "R9N"
+        "R9N",
+        "RocketM9",
+        "RocketM9(EU)",
+        "RocketM9-AR",
+        "RocketM9-BR",
+        "RocketM9-U"
       ],
       "sku": "R9N",
       "sysid": "e1b9",
@@ -25118,7 +26021,11 @@
       },
       "shortnames": [
         "AirMAX Rocket M2 Titanium",
-        "RM2-Ti"
+        "RM2-Ti",
+        "RM2-Ti(EU)",
+        "RM2-Ti(US)",
+        "RM2-Ti-AR",
+        "RM2-Ti-U"
       ],
       "sku": "RM2-Ti",
       "sysids": [],
@@ -25195,7 +26102,12 @@
         "name": "Rocket M3"
       },
       "shortnames": [
-        "RM3"
+        "RM3",
+        "RocketM3",
+        "RocketM3(EU)",
+        "RocketM3-AR",
+        "RocketM3-BR",
+        "RocketM3-U"
       ],
       "sku": "RM3",
       "sysid": "e1c3",
@@ -25380,7 +26292,14 @@
       },
       "shortnames": [
         "R5N",
-        "ROCKETM5"
+        "ROCKETM5",
+        "RocketM5",
+        "RocketM5(EU)",
+        "RocketM5(US)",
+        "RocketM5-AR",
+        "RocketM5-BR",
+        "RocketM5-NP",
+        "RocketM5-U"
       ],
       "sku": "ROCKETM5",
       "sysid": "e105",
@@ -25483,7 +26402,17 @@
         "AirMAX Rocket 5AC Prism",
         "RP-5AC",
         "R5AC-PRISM",
-        "RP-5AC-Gen2"
+        "RP-5AC-Gen2",
+        "R5AC-PRISM-AR",
+        "R5AC-PRISM-BR",
+        "R5AC-PRISM-EU",
+        "R5AC-PRISM-U",
+        "R5AC-Prism-US",
+        "RP-5AC-Gen2-AR",
+        "RP-5AC-Gen2-BR",
+        "RP-5AC-Gen2-EU",
+        "RP-5AC-Gen2-U",
+        "RP-5AC-Gen2-US"
       ],
       "sku": "RP-5AC",
       "sysid": "e7e7",
@@ -25618,7 +26547,12 @@
         "AirMAX Rocket M2",
         "RocketM2",
         "R2N",
-        "R2N-GPS"
+        "R2N-GPS",
+        "RocketM2(EU)",
+        "RocketM2(US)",
+        "RocketM2-AR",
+        "RocketM2-BR",
+        "RocketM2-U"
       ],
       "sku": "RocketM2",
       "sysid": "e1b2",
@@ -26039,7 +26973,12 @@
       },
       "shortnames": [
         "TS-16-CARRIER",
-        "Ubiquiti ToughSwitch 16"
+        "Ubiquiti ToughSwitch 16",
+        "TS-16-Carrier",
+        "TS-16-Carrier(EU)",
+        "TS-16-Carrier-AR",
+        "TS-16-Carrier-BR",
+        "TS-16-Carrier-U"
       ],
       "sku": "TS-16-CARRIER",
       "sysids": [],
@@ -26209,7 +27148,13 @@
         "name": "EdgeSwitch 8XP"
       },
       "shortnames": [
-        "TSW-8-POE"
+        "TSW-8-POE",
+        "ES-8XP",
+        "ES-8XP-AR",
+        "ES-8XP-AU",
+        "ES-8XP-BR",
+        "ES-8XP-EU",
+        "ES-8XP-U"
       ],
       "sku": "TSW-8-POE",
       "sysid": "e702",
@@ -26302,7 +27247,13 @@
         "name": "EdgeSwitch 8XP"
       },
       "shortnames": [
-        "TSW-PoE PRO"
+        "TSW-PoE PRO",
+        "TS-8-PRO",
+        "TS-8-PRO(EU)",
+        "TS-8-PRO-AR",
+        "TS-8-PRO-AU",
+        "TS-8-PRO-BR",
+        "TS-8-PRO-U"
       ],
       "sku": "TSW-PoE-PRO",
       "sysids": [],
@@ -26431,7 +27382,10 @@
       "shortnames": [
         "U-AirWire",
         "UAW",
-        "UAPEA07"
+        "UAPEA07",
+        "AirWire",
+        "AirWire(EU)",
+        "U-AirWire-US"
       ],
       "sku": "U-AirWire",
       "sysid": "ea07",
@@ -26659,7 +27613,8 @@
       "shortnames": [
         "U-LTE",
         "U-LTE-US",
-        "ULTE"
+        "ULTE",
+        "U-LTE-US-BETA"
       ],
       "sku": "U-LTE",
       "sysid": "e611",
@@ -26807,7 +27762,10 @@
       },
       "shortnames": [
         "U-LTE-Pro-US",
-        "ULTEPUS"
+        "ULTEPUS",
+        "U-LTE-Backup Pro-US",
+        "U-LTE-Backup Pro-US-EA",
+        "U-LTE-Pro"
       ],
       "sku": "U-LTE-Backup Pro",
       "sysid": "e613",
@@ -26951,7 +27909,8 @@
       },
       "shortnames": [
         "U-LTE-Pro-EU",
-        "ULTEPEU"
+        "ULTEPEU",
+        "U-LTE-Backup Pro-EU"
       ],
       "sku": "U-LTE-Backup Pro",
       "sysid": "e612",
@@ -27222,7 +28181,8 @@
         "U5G-Link",
         "U5G-Max",
         "U5GLINK",
-        "U5GMAX"
+        "U5GMAX",
+        "U5G-Max-R"
       ],
       "sku": "U5G-Max",
       "sysid": "e630",
@@ -27479,7 +28439,8 @@
       "shortnames": [
         "U5G-Antenna-US",
         "U5G-Backup-US",
-        "U5G-US"
+        "U5G-US",
+        "U5G-Antenna"
       ],
       "sku": "U5G-US",
       "sysid": "e633",
@@ -27616,7 +28577,12 @@
       },
       "shortnames": [
         "U6+",
-        "UAPL6"
+        "UAPL6",
+        "U6+-EA",
+        "U6+-R",
+        "U6+-US",
+        "U6+-US-EA",
+        "U6+-US-R"
       ],
       "sku": "U6+",
       "sysid": "a642",
@@ -27785,7 +28751,12 @@
       },
       "shortnames": [
         "U6-Enterprise",
-        "U6ENT"
+        "U6ENT",
+        "U6-Enterprise-EA",
+        "U6-Enterprise-R",
+        "U6-Enterprise-US",
+        "U6-Enterprise-US-EA",
+        "U6-Enterprise-US-R"
       ],
       "sku": "U6-Enterprise",
       "sysid": "a654",
@@ -27958,7 +28929,11 @@
       },
       "shortnames": [
         "U6-Enterprise-IW",
-        "U6ENTIW"
+        "U6ENTIW",
+        "U6-Enterprise-IW-EA",
+        "U6-Enterprise-IW-R",
+        "U6-Enterprise-IW-US",
+        "U6-Enterprise-IW-US-EA"
       ],
       "sku": "U6-Enterprise-IW",
       "sysid": "a656",
@@ -28136,7 +29111,9 @@
         "name": "Access Point U6 Extender"
       },
       "shortnames": [
-        "UAE6"
+        "UAE6",
+        "U6-Extender-EU-EA",
+        "U6-Extender-US-EA"
       ],
       "sku": "U6-Extender",
       "sysid": "a613",
@@ -28302,7 +29279,11 @@
         "name": "Access Point U6 Extender"
       },
       "shortnames": [
-        "U6EXT"
+        "U6EXT",
+        "U6-Extender-EU",
+        "U6-Extender-R",
+        "U6-Extender-US",
+        "U6-Extender-US-R"
       ],
       "sku": "U6-Extender",
       "sysid": "a653",
@@ -28468,7 +29449,9 @@
         "name": "Access Point U6 In-Wall"
       },
       "shortnames": [
-        "UAIW6"
+        "UAIW6",
+        "U6-IW-EA",
+        "U6-IW-US-EA"
       ],
       "sku": "U6-IW",
       "sysid": "a610",
@@ -28649,7 +29632,10 @@
         "name": "Access Point U6 In-Wall"
       },
       "shortnames": [
-        "U6IW"
+        "U6IW",
+        "U6-IW-R",
+        "U6-IW-US",
+        "U6-IW-US-R"
       ],
       "sku": "U6-IW",
       "sysid": "a652",
@@ -28828,7 +29814,10 @@
       "shortnames": [
         "U6-LR",
         "UALR6V3",
-        "UALR6v3"
+        "UALR6v3",
+        "U6-LR-R",
+        "U6-LR-US",
+        "U6-LR-US-R"
       ],
       "sku": "U6-LR",
       "sysid": "a638",
@@ -29339,7 +30328,11 @@
       },
       "shortnames": [
         "U6-Lite",
-        "UAL6"
+        "UAL6",
+        "U6-Lite-R",
+        "U6-Lite-US",
+        "U6-Lite-US-BETA",
+        "U6-Lite-US-R"
       ],
       "sku": "U6-Lite",
       "sysid": "a612",
@@ -29506,7 +30499,9 @@
       },
       "shortnames": [
         "U6-Mesh",
-        "UAM6"
+        "UAM6",
+        "U6-Mesh-EU-EA",
+        "U6-Mesh-US-EA"
       ],
       "sku": "U6-Mesh",
       "sysid": "a611",
@@ -29678,7 +30673,15 @@
         "name": "Access Point U6 Mesh"
       },
       "shortnames": [
-        "U6M"
+        "U6M",
+        "U6-Mesh-AR",
+        "U6-Mesh-AU",
+        "U6-Mesh-BR",
+        "U6-Mesh-EU",
+        "U6-Mesh-R",
+        "U6-Mesh-UK",
+        "U6-Mesh-US",
+        "U6-Mesh-US-R"
       ],
       "sku": "U6-Mesh",
       "sysid": "a651",
@@ -29844,7 +30847,14 @@
       "shortnames": [
         "U6 Mesh Pro",
         "U6-Mesh-Pro",
-        "U6MP"
+        "U6MP",
+        "U6-Mesh-Pro-AR",
+        "U6-Mesh-Pro-AU",
+        "U6-Mesh-Pro-BR",
+        "U6-Mesh-Pro-EU",
+        "U6-Mesh-Pro-R",
+        "U6-Mesh-Pro-UK",
+        "U6-Mesh-Pro-US"
       ],
       "sku": "U6-Mesh-Pro",
       "sysid": "a6a1",
@@ -29999,7 +31009,10 @@
       },
       "shortnames": [
         "U6-PLUS-LR",
-        "UALRPL6"
+        "UALRPL6",
+        "U6+LR-EA",
+        "U6+LR-US-EA",
+        "U6-LR+"
       ],
       "sku": "U6-PLUS-LR",
       "sysid": "a643",
@@ -30163,7 +31176,12 @@
       },
       "shortnames": [
         "U6-Pro",
-        "UAP6MP"
+        "UAP6MP",
+        "U6-Pro-BETA",
+        "U6-Pro-R",
+        "U6-Pro-US",
+        "U6-Pro-US-BETA",
+        "U6-Pro-US-R"
       ],
       "sku": "U6-Pro",
       "sysid": "a650",
@@ -30523,7 +31541,9 @@
       "shortnames": [
         "G7IW",
         "U7-In-Wall",
-        "U7-IW"
+        "U7-IW",
+        "U7-IW-R",
+        "U7-IW-US"
       ],
       "sku": "U7-IW",
       "sysid": "a6a5",
@@ -30661,7 +31681,8 @@
       },
       "shortnames": [
         "U7-Industrial",
-        "U7I"
+        "U7I",
+        "U7-Industrial-US"
       ],
       "sku": "U7-Industrial",
       "sysid": "a6be",
@@ -30810,7 +31831,9 @@
         "name": "Access Point U7 Long-Range"
       },
       "shortnames": [
-        "G7LRv2"
+        "G7LRv2",
+        "U7-LR-R",
+        "U7-LR-US"
       ],
       "sku": "U7-LR",
       "sysid": "a6b3",
@@ -30964,7 +31987,9 @@
       },
       "shortnames": [
         "G7LT",
-        "U7-Lite"
+        "U7-Lite",
+        "U7-Lite-R",
+        "U7-Lite-US"
       ],
       "sku": "U7-Lite",
       "sysid": "a693",
@@ -31113,7 +32138,13 @@
       },
       "shortnames": [
         "U7-Mesh",
-        "U7M"
+        "U7M",
+        "U7-Mesh-AR",
+        "U7-Mesh-AU",
+        "U7-Mesh-BR",
+        "U7-Mesh-EU",
+        "U7-Mesh-UK",
+        "U7-Mesh-US"
       ],
       "sku": "U7-Mesh",
       "sysid": "a69e",
@@ -31263,7 +32294,10 @@
       "shortnames": [
         "UK-Pro",
         "UKPW",
-        "U7-Outdoor"
+        "U7-Outdoor",
+        "U7-Outdoor-R",
+        "U7-Outdoor-US",
+        "U7-Outdoor-US-R"
       ],
       "sku": "U7-Outdoor",
       "sysid": "a688",
@@ -31428,7 +32462,11 @@
       },
       "shortnames": [
         "U7-Pro",
-        "U7PRO"
+        "U7PRO",
+        "U7-Pro-5",
+        "U7-Pro-R",
+        "U7-Pro-US",
+        "U7-Pro-US-R"
       ],
       "sku": "U7-Pro",
       "sysid": "a682",
@@ -31591,7 +32629,10 @@
       },
       "shortnames": [
         "U7-Pro-Max",
-        "U7PROMAX"
+        "U7PROMAX",
+        "U7-Pro-Max-R",
+        "U7-Pro-Max-US",
+        "U7-Pro-Max-US-R"
       ],
       "sku": "U7-Pro-Max",
       "sysid": "a696",
@@ -31758,7 +32799,9 @@
       "shortnames": [
         "U7-Pro-Outdoor",
         "U7 Pro Outdoor",
-        "U7PO"
+        "U7PO",
+        "U7-Pro-Outdoor-R",
+        "U7-Pro-Outdoor-US"
       ],
       "sku": "U7-Pro-Outdoor",
       "sysid": "a6a6",
@@ -32039,7 +33082,10 @@
         "U7-Pro-IW",
         "U7PIW",
         "U7-Pro-W",
-        "U7-Pro-Wall"
+        "U7-Pro-Wall",
+        "U7-Pro-Wall-R",
+        "U7-Pro-Wall-US",
+        "U7-Pro-Wall-US-R"
       ],
       "sku": "U7-Pro-Wall",
       "sysid": "a686",
@@ -32203,7 +33249,9 @@
       },
       "shortnames": [
         "U7PROXG",
-        "U7-Pro-XG"
+        "U7-Pro-XG",
+        "U7-Pro-XG-R",
+        "U7-Pro-XG-US"
       ],
       "sku": "U7-Pro-XG",
       "sysid": "a6a9",
@@ -32354,7 +33402,8 @@
       },
       "shortnames": [
         "U7PROXGB",
-        "U7-Pro-XG-B"
+        "U7-Pro-XG-B",
+        "U7-Pro-XG-B-US"
       ],
       "sku": "U7-Pro-XG-B",
       "sysid": "a6ae",
@@ -32505,7 +33554,9 @@
       },
       "shortnames": [
         "U7-Pro-XG-Wall",
-        "U7PROXGW"
+        "U7PROXGW",
+        "U7-Pro-XG-Wall-R",
+        "U7-Pro-XG-Wall-US"
       ],
       "sku": "U7-Pro-XG-Wall",
       "sysid": "a6ba",
@@ -32662,7 +33713,9 @@
       },
       "shortnames": [
         "U7PROXGS",
-        "U7-Pro-XGS"
+        "U7-Pro-XGS",
+        "U7-Pro-XGS-R",
+        "U7-Pro-XGS-US"
       ],
       "sku": "U7-Pro-XGS",
       "sysid": "a6a4",
@@ -32816,7 +33869,8 @@
       },
       "shortnames": [
         "U7PROXGSB",
-        "U7-Pro-XGS-B"
+        "U7-Pro-XGS-B",
+        "U7-Pro-XGS-B-US"
       ],
       "sku": "U7-Pro-XGS-B",
       "sysid": "a6ac",
@@ -33034,7 +34088,8 @@
         "name": "Elevator Hub"
       },
       "shortnames": [
-        "UA-Elevator"
+        "UA-Elevator",
+        "UA-SK-Elevator"
       ],
       "sku": "UA-Elevator",
       "sysid": "ec3b",
@@ -33148,7 +34203,9 @@
       "shortnames": [
         "G2-MINI",
         "UA-G2",
-        "UA-G2-Mini"
+        "UA-G2-Mini",
+        "UA-G2-Mini-EA",
+        "UA-G2-R"
       ],
       "sku": "UA-G2",
       "sysid": "ec4d",
@@ -33260,7 +34317,8 @@
         "name": "G2 Reader"
       },
       "shortnames": [
-        "UA-G2-Black"
+        "UA-G2-Black",
+        "UA-G2-Black-R"
       ],
       "sku": "UA-G2-Black",
       "sysid": "ec4d",
@@ -33368,7 +34426,11 @@
       },
       "shortnames": [
         "UA-G2-PRO",
-        "UA-G2-Pro"
+        "UA-G2-Pro",
+        "UA-G2-Pro-EA",
+        "UA-G2-Pro-R",
+        "UA-G2-SK-Pro",
+        "UA-G2-SK-Pro-R"
       ],
       "sku": "UA-G2-Pro",
       "sysid": "ec5e",
@@ -33479,7 +34541,8 @@
         "name": "G2 Reader Pro"
       },
       "shortnames": [
-        "UA-G2-Pro-Black"
+        "UA-G2-Pro-Black",
+        "UA-G2-Pro-Black-R"
       ],
       "sku": "UA-G2-Pro-Black",
       "sysid": "ec5e",
@@ -33587,7 +34650,9 @@
         "name": "G3 Reader"
       },
       "shortnames": [
-        "UA-G3"
+        "UA-G3",
+        "UA-G3-SK",
+        "UA-G3-W"
       ],
       "sku": "UA-G3",
       "sysid": "ec8a",
@@ -34004,7 +35069,8 @@
         "name": "G3 Reader Flex"
       },
       "shortnames": [
-        "UA-G3-Flex"
+        "UA-G3-Flex",
+        "UA-G3-Flex-W"
       ],
       "sku": "UA-G3-Flex",
       "sysid": "ec8b",
@@ -34217,7 +35283,8 @@
         "name": "G3 Intercom"
       },
       "shortnames": [
-        "UA-G3-Intercom"
+        "UA-G3-Intercom",
+        "UA-G3-Intercom-R"
       ],
       "sku": "UA-G3-Intercom",
       "sysid": "ec68",
@@ -34325,7 +35392,10 @@
         "name": "G3 Reader Pro"
       },
       "shortnames": [
-        "UA-G3-Pro"
+        "UA-G3-Pro",
+        "UA-G3-Pro-W",
+        "UA-G3-SK-Pro",
+        "UA-G3-SK-Pro-R"
       ],
       "sku": "UA-G3-Pro",
       "sysid": "ec66",
@@ -34521,7 +35591,10 @@
         "UA-HUB",
         "UA-Hub",
         "UAH",
-        "UDA-HUB"
+        "UDA-HUB",
+        "UA-Hub-EU",
+        "UA-Hub-R",
+        "UA-Hub-US"
       ],
       "sku": "UA-Hub",
       "sysid": "ec36",
@@ -34807,7 +35880,9 @@
         "name": "Gate Hub"
       },
       "shortnames": [
-        "UA-Hub-Gate"
+        "UA-Hub-Gate",
+        "UA-SK-Gate",
+        "UA-SK-Gate-EU"
       ],
       "sku": "UA-Hub-Gate",
       "sysid": "ec46",
@@ -34909,7 +35984,8 @@
         "name": "Intercom"
       },
       "shortnames": [
-        "UA-Intercom"
+        "UA-Intercom",
+        "UA-Intercom-R"
       ],
       "sku": "UA-Intercom",
       "sysid": "ec64",
@@ -35006,7 +36082,9 @@
         "name": "Intercom Viewer"
       },
       "shortnames": [
-        "UA-Intercom-Viewer"
+        "UA-Intercom-Viewer",
+        "UA-Intercom-Viewer-3",
+        "UA-Intercom-Viewer-R"
       ],
       "sku": "UA-Intercom-Viewer",
       "sysid": "ec65",
@@ -35282,7 +36360,8 @@
         "UA-PRO",
         "UA-Pro",
         "UDA",
-        "UDA-PRO"
+        "UDA-PRO",
+        "UA-Pro-US"
       ],
       "sku": "UA-Pro",
       "sysid": "ec5f",
@@ -35405,7 +36484,12 @@
       "shortnames": [
         "UA-LITE",
         "UA-Reader-Lite",
-        "UDA-LITE"
+        "UDA-LITE",
+        "UA-Lite",
+        "UA-Lite-EU",
+        "UA-Lite-US",
+        "UA-Reader Lite",
+        "UDA-Lite"
       ],
       "sku": "UA-Reader-Lite",
       "sysid": "ec31",
@@ -36067,7 +37151,8 @@
       },
       "shortnames": [
         "UA-Ultra",
-        "UA-ULTRA"
+        "UA-ULTRA",
+        "UA-Ultra-R"
       ],
       "sku": "UA-Ultra",
       "sysid": "ec84",
@@ -36557,7 +37642,22 @@
       "shortnames": [
         "BZ2",
         "UAP",
-        "U2S48"
+        "U2S48",
+        "UAP CN",
+        "UAP(EU)",
+        "UAP(US)",
+        "UAP-3",
+        "UAP-3 CN",
+        "UAP-3(EU)",
+        "UAP-3(US)",
+        "UAP-3-AR",
+        "UAP-3-BR",
+        "UAP-3-U",
+        "UAP-AR",
+        "UAP-BR",
+        "UAP-Bulk",
+        "UAP-NP",
+        "UAP-U"
       ],
       "sku": "UAP",
       "sysid": "e542",
@@ -36683,7 +37783,20 @@
         "UAP-AC",
         "U7EV2",
         "U7Ev2",
-        "U7ev2"
+        "U7ev2",
+        "UAP-AC CN",
+        "UAP-AC(EU)",
+        "UAP-AC(US)",
+        "UAP-AC-3",
+        "UAP-AC-3 CN",
+        "UAP-AC-3(EU)",
+        "UAP-AC-3(US)",
+        "UAP-AC-3-AR",
+        "UAP-AC-3-BR",
+        "UAP-AC-3-U",
+        "UAP-AC-AR",
+        "UAP-AC-BR",
+        "UAP-AC-U"
       ],
       "sku": "UAP-AC",
       "sysid": "e920",
@@ -36844,7 +37957,15 @@
       },
       "shortnames": [
         "U7EDU",
-        "UAP-AC-EDU"
+        "UAP-AC-EDU",
+        "UAP-AC-EDU-4",
+        "UAP-AC-EDU-4-EU",
+        "UAP-AC-EDU-4-US",
+        "UAP-AC-EDU-AR",
+        "UAP-AC-EDU-BR",
+        "UAP-AC-EDU-EU",
+        "UAP-AC-EDU-U",
+        "UAP-AC-EDU-US"
       ],
       "sku": "UAP-AC-EDU",
       "sysid": "e547",
@@ -36996,7 +38117,15 @@
       "shortnames": [
         "U7HD",
         "UAP-AC-HD",
-        "UniFi AC HD"
+        "UniFi AC HD",
+        "UAP-AC-HD-5",
+        "UAP-AC-HD-5-US",
+        "UAP-AC-HD-AR",
+        "UAP-AC-HD-AU",
+        "UAP-AC-HD-BR",
+        "UAP-AC-HD-EU",
+        "UAP-AC-HD-U",
+        "UAP-AC-HD-US"
       ],
       "sku": "UAP-AC-HD",
       "sysid": "e530",
@@ -37151,7 +38280,10 @@
       "shortnames": [
         "U7IW",
         "UAP-AC-IW",
-        "UniFi AC In Wall"
+        "UniFi AC In Wall",
+        "UAP-AC-IW-5",
+        "UAP-AC-IW-5-US",
+        "UAP-AC-IW-US"
       ],
       "sku": "UAP-AC-IW",
       "sysid": "e587",
@@ -37286,7 +38418,11 @@
       "shortnames": [
         "U7IWP",
         "UAP-AC-IW-Pro",
-        "UniFi AC In Wall AP Pro"
+        "UniFi AC In Wall AP Pro",
+        "UAP-AC-IW-PRO",
+        "UAP-AC-IW-PRO-5",
+        "UAP-AC-IW-PRO-5-US",
+        "UAP-AC-IW-PRO-US"
       ],
       "sku": "UAP-AC-IW-Pro",
       "sysid": "e597",
@@ -37445,7 +38581,16 @@
       },
       "shortnames": [
         "U7LT",
-        "UAP-AC-LITE"
+        "UAP-AC-LITE",
+        "UAP-AC-LITE-5",
+        "UAP-AC-LITE-5-EU",
+        "UAP-AC-LITE-5-US",
+        "UAP-AC-LITE-AR",
+        "UAP-AC-LITE-AU",
+        "UAP-AC-LITE-BR",
+        "UAP-AC-LITE-EU",
+        "UAP-AC-LITE-U",
+        "UAP-AC-LITE-US"
       ],
       "sku": "UAP-AC-LITE",
       "sysid": "e517",
@@ -37597,7 +38742,16 @@
       },
       "shortnames": [
         "U7LR",
-        "UAP-AC-LR"
+        "UAP-AC-LR",
+        "UAP-AC-LR-5",
+        "UAP-AC-LR-5-EU",
+        "UAP-AC-LR-5-US",
+        "UAP-AC-LR-AR",
+        "UAP-AC-LR-AU",
+        "UAP-AC-LR-BR",
+        "UAP-AC-LR-EU",
+        "UAP-AC-LR-U",
+        "UAP-AC-LR-US"
       ],
       "sku": "UAP-AC-LR",
       "sysid": "e527",
@@ -37750,7 +38904,16 @@
       },
       "shortnames": [
         "U7MSH",
-        "UAP-AC-M"
+        "UAP-AC-M",
+        "UAP-AC-M-5",
+        "UAP-AC-M-5-US",
+        "UAP-AC-M-AR",
+        "UAP-AC-M-AU",
+        "UAP-AC-M-BR",
+        "UAP-AC-M-EU",
+        "UAP-AC-M-R",
+        "UAP-AC-M-U",
+        "UAP-AC-M-US"
       ],
       "sku": "UAP-AC-M",
       "sysid": "e557",
@@ -37904,7 +39067,15 @@
       },
       "shortnames": [
         "U7MP",
-        "UAP-AC-M-PRO"
+        "UAP-AC-M-PRO",
+        "UAP-AC-M-PRO-5",
+        "UAP-AC-M-PRO-5-US",
+        "UAP-AC-M-PRO-AR",
+        "UAP-AC-M-PRO-AU",
+        "UAP-AC-M-PRO-BR",
+        "UAP-AC-M-PRO-EU",
+        "UAP-AC-M-PRO-U",
+        "UAP-AC-M-PRO-US"
       ],
       "sku": "UAP-AC-M-PRO",
       "sysid": "e567",
@@ -38036,7 +39207,14 @@
       },
       "shortnames": [
         "U7O",
-        "UAP-AC-Outdoor"
+        "UAP-AC-Outdoor",
+        "UAP-AC Outdoor",
+        "UAP-AC Outdoor CN",
+        "UAP-AC Outdoor(EU)",
+        "UAP-AC Outdoor(US)",
+        "UAP-AC Outdoor-AR",
+        "UAP-AC Outdoor-BR",
+        "UAP-AC Outdoor-U"
       ],
       "sku": "UAP-AC-Outdoor",
       "sysid": "e910",
@@ -38199,7 +39377,22 @@
       "shortnames": [
         "U7PG2",
         "UAP-AC-Pro",
-        "UniFi AC PRO"
+        "UniFi AC PRO",
+        "UAP-AC-PRO",
+        "UAP-AC-PRO-3",
+        "UAP-AC-PRO-3-US",
+        "UAP-AC-PRO-5",
+        "UAP-AC-PRO-5-EU",
+        "UAP-AC-PRO-5-US",
+        "UAP-AC-PRO-AR",
+        "UAP-AC-PRO-AU",
+        "UAP-AC-PRO-BR",
+        "UAP-AC-PRO-E",
+        "UAP-AC-PRO-E-US",
+        "UAP-AC-PRO-EU",
+        "UAP-AC-PRO-JP",
+        "UAP-AC-PRO-U",
+        "UAP-AC-PRO-US"
       ],
       "sku": "UAP-AC-Pro",
       "sysid": "e537",
@@ -38354,7 +39547,13 @@
       "shortnames": [
         "U7SHD",
         "UAP-AC-SHD",
-        "U7SHDv2"
+        "U7SHDv2",
+        "UAP-AC-SHD-5",
+        "UAP-AC-SHD-5-US",
+        "UAP-AC-SHD-AR",
+        "UAP-AC-SHD-BR",
+        "UAP-AC-SHD-EU",
+        "UAP-AC-SHD-US"
       ],
       "sku": "UAP-AC-SHD",
       "sysid": "e540",
@@ -38512,7 +39711,9 @@
       },
       "shortnames": [
         "UAP-BeaconHD",
-        "UDMB"
+        "UDMB",
+        "UAP-BeaconHD-US",
+        "UDM-B"
       ],
       "sku": "UAP-BeaconHD",
       "sysid": "ec25",
@@ -38682,7 +39883,13 @@
       },
       "shortnames": [
         "UAP-FlexHD",
-        "UFLHD"
+        "UFLHD",
+        "UAP-FlexHD-AR",
+        "UAP-FlexHD-AU",
+        "UAP-FlexHD-BR",
+        "UAP-FlexHD-EU",
+        "UAP-FlexHD-US",
+        "UAP-FlexHD-US-BETA"
       ],
       "sku": "UAP-FlexHD",
       "sysid": "ec26",
@@ -38836,7 +40043,10 @@
       "shortnames": [
         "U2IW",
         "UAP-IW",
-        "UniFi AP In Wall"
+        "UniFi AP In Wall",
+        "UAP-IW-5",
+        "UAP-IW-5-US",
+        "UAP-IW-US"
       ],
       "sku": "UAP-IW",
       "sysid": "e592",
@@ -38997,7 +40207,8 @@
       },
       "shortnames": [
         "UAP-IW-HD",
-        "UHDIW"
+        "UHDIW",
+        "UAP-IW-HD-US"
       ],
       "sku": "UAP-IW-HD",
       "sysid": "ec22",
@@ -39146,7 +40357,21 @@
       "shortnames": [
         "BZ2LR",
         "UAP-LR",
-        "U2L48"
+        "U2L48",
+        "UAP-LR CN",
+        "UAP-LR(EU)",
+        "UAP-LR(US)",
+        "UAP-LR-3",
+        "UAP-LR-3 CN",
+        "UAP-LR-3(EU)",
+        "UAP-LR-3(US)",
+        "UAP-LR-3-AR",
+        "UAP-LR-3-BR",
+        "UAP-LR-3-U",
+        "UAP-LR-AR",
+        "UAP-LR-BR",
+        "UAP-LR-Bulk",
+        "UAP-LR-U"
       ],
       "sku": "UAP-LR",
       "sysid": "e552",
@@ -39398,7 +40623,12 @@
         "U2O",
         "UAP-Outdoor",
         "UniFi AP Outdoor",
-        "UniFi Mesh Outdoor"
+        "UniFi Mesh Outdoor",
+        "UAP-Outdoor(EU)",
+        "UAP-Outdoor(US)",
+        "UAP-Outdoor-AR",
+        "UAP-Outdoor-BR",
+        "UAP-Outdoor-U"
       ],
       "sku": "UAP-Outdoor",
       "sysid": "e532",
@@ -39537,7 +40767,13 @@
       },
       "shortnames": [
         "U2HSR",
-        "UAP-Outdoor+"
+        "UAP-Outdoor+",
+        "UAP-Outdoor+ AR",
+        "UAP-Outdoor+ BR",
+        "UAP-Outdoor+ CN",
+        "UAP-Outdoor+ EU",
+        "UAP-Outdoor+ U",
+        "UAP-Outdoor+ US"
       ],
       "sku": "UAP-Outdoor+",
       "sysid": "e562",
@@ -39663,7 +40899,13 @@
       },
       "shortnames": [
         "U5O",
-        "UAP-Outdoor-5"
+        "UAP-Outdoor-5",
+        "UAP-Outdoor-5 CN",
+        "UAP-Outdoor-5(EU)",
+        "UAP-Outdoor-5(US)",
+        "UAP-Outdoor-5-AR",
+        "UAP-Outdoor-5-BR",
+        "UAP-Outdoor-5-U"
       ],
       "sku": "UAP-Outdoor-5",
       "sysid": "e515",
@@ -39784,7 +41026,20 @@
       },
       "shortnames": [
         "U7P",
-        "UAP-Pro"
+        "UAP-Pro",
+        "UAP-Pro CN",
+        "UAP-Pro(EU)",
+        "UAP-Pro(US)",
+        "UAP-Pro-3",
+        "UAP-Pro-3 CN",
+        "UAP-Pro-3(EU)",
+        "UAP-Pro-3(US)",
+        "UAP-Pro-3-AR",
+        "UAP-Pro-3-BR",
+        "UAP-Pro-3-U",
+        "UAP-Pro-AR",
+        "UAP-Pro-BR",
+        "UAP-Pro-U"
       ],
       "sku": "UAP-Pro",
       "sysid": "e507",
@@ -39939,7 +41194,12 @@
       },
       "shortnames": [
         "UAP-XG",
-        "UCXG"
+        "UCXG",
+        "UAP-XG-AR",
+        "UAP-XG-AU",
+        "UAP-XG-BR",
+        "UAP-XG-EU",
+        "UAP-XG-US"
       ],
       "sku": "UAP-XG",
       "sysid": "e560",
@@ -40105,7 +41365,18 @@
       },
       "shortnames": [
         "U7NHD",
-        "UAP-nanoHD"
+        "UAP-nanoHD",
+        "UAP-nanoHD-3",
+        "UAP-nanoHD-3-US",
+        "UAP-nanoHD-5",
+        "UAP-nanoHD-5-US",
+        "UAP-nanoHD-AR",
+        "UAP-nanoHD-AU",
+        "UAP-nanoHD-BR",
+        "UAP-nanoHD-EU",
+        "UAP-nanoHD-JP",
+        "UAP-nanoHD-R",
+        "UAP-nanoHD-US"
       ],
       "sku": "UAP-nanoHD",
       "sysid": "ec20",
@@ -40385,7 +41656,11 @@
       "shortnames": [
         "UAS",
         "UAS-XG",
-        "UASXG"
+        "UASXG",
+        "UAS-XG-AR",
+        "UAS-XG-BR",
+        "UAS-XG-EU",
+        "UAS-XG-U"
       ],
       "sku": "UAS-XG",
       "sysids": [],
@@ -40515,7 +41790,12 @@
         "name": "Building Bridge"
       },
       "shortnames": [
-        "UBB"
+        "UBB",
+        "UBB-AU",
+        "UBB-BR",
+        "UBB-EU",
+        "UBB-R",
+        "UBB-US"
       ],
       "sku": "UBB",
       "sysid": "dc98",
@@ -40666,7 +41946,11 @@
       },
       "shortnames": [
         "UBB-XG",
-        "UBBXG"
+        "UBBXG",
+        "UBB-XG-EA",
+        "UBB-XG-EU",
+        "UBB-XG-US",
+        "UBB-XG-US-EA"
       ],
       "sku": "UBB-XG",
       "sysid": "dd12",
@@ -40920,7 +42204,11 @@
         "name": "Display Cast"
       },
       "shortnames": [
-        "UC-Cast"
+        "UC-Cast",
+        "UC-Cast-EA",
+        "UC-Cast-EU",
+        "UC-Cast-US",
+        "UC-Cast-US-EA"
       ],
       "sku": "UC-Cast",
       "sysid": "ef90",
@@ -41029,7 +42317,9 @@
         "name": "Display Cast Lite"
       },
       "shortnames": [
-        "UC-Cast-Lite"
+        "UC-Cast-Lite",
+        "UC-Cast-Lite-EU",
+        "UC-Cast-Lite-US"
       ],
       "sku": "UC-Cast-Lite",
       "sysids": [],
@@ -41584,7 +42874,8 @@
       },
       "shortnames": [
         "UC-Display-13",
-        "UC-Display13"
+        "UC-Display13",
+        "UC-Display13-EA"
       ],
       "sku": "UC-Display13",
       "sysids": [],
@@ -41671,7 +42962,9 @@
       },
       "shortnames": [
         "UC-Display-21",
-        "UC-Display21"
+        "UC-Display21",
+        "UC-Display21-EA",
+        "UC-Display21-R"
       ],
       "sku": "UC-Display21",
       "sysids": [],
@@ -41763,7 +43056,8 @@
       },
       "shortnames": [
         "UC-Display-27",
-        "UC-Display27"
+        "UC-Display27",
+        "UC-Display27-EA"
       ],
       "sku": "UC-Display27",
       "sysids": [],
@@ -41863,7 +43157,8 @@
       },
       "shortnames": [
         "UC-Display-7",
-        "UC-Display7"
+        "UC-Display7",
+        "UC-Display7-EA"
       ],
       "sku": "UC-Display7",
       "sysids": [],
@@ -41968,7 +43263,8 @@
         "name": "EV Station"
       },
       "shortnames": [
-        "UC-EV-Station"
+        "UC-EV-Station",
+        "UC-EV-Station-EA"
       ],
       "sku": "UC-EV-Station",
       "sysid": "efa0",
@@ -42073,7 +43369,8 @@
       "shortnames": [
         "EVS-Ultra",
         "UC-EV-Station-Ultra",
-        "EVS-Lite"
+        "EVS-Lite",
+        "UC-EV-Station-Lite-US"
       ],
       "sku": "UC-EV-Station-Lite",
       "sysid": "a6a0",
@@ -42274,7 +43571,8 @@
         "name": "EV Station Pro"
       },
       "shortnames": [
-        "UC-EV-Station-Pro"
+        "UC-EV-Station-Pro",
+        "UC-EV-Station-Pro-US"
       ],
       "sku": "UC-EV-Station-Pro",
       "sysid": "efa2",
@@ -42499,7 +43797,13 @@
       "shortnames": [
         "UCG-Fiber",
         "UCGF",
-        "UCGFIBER"
+        "UCGFIBER",
+        "UCG-Fiber-AR",
+        "UCG-Fiber-AU",
+        "UCG-Fiber-BR",
+        "UCG-Fiber-EU",
+        "UCG-Fiber-R",
+        "UCG-Fiber-UK"
       ],
       "sku": "UCG-Fiber",
       "sysid": "a6a8",
@@ -42789,7 +44093,14 @@
       },
       "shortnames": [
         "UCG-Industrial",
-        "UCGA6AD"
+        "UCGA6AD",
+        "UCG-Industrial-AR",
+        "UCG-Industrial-AU",
+        "UCG-Industrial-BR",
+        "UCG-Industrial-EU",
+        "UCG-Industrial-U",
+        "UCG-Industrial-UK",
+        "UCG-Industrial-US"
       ],
       "sku": "UCG-Industrial",
       "sysid": "a6ad",
@@ -42980,7 +44291,15 @@
       },
       "shortnames": [
         "UCG-Max",
-        "UCGMAX"
+        "UCGMAX",
+        "UCG-Max-AR",
+        "UCG-Max-AU",
+        "UCG-Max-BR",
+        "UCG-Max-EU",
+        "UCG-Max-NS",
+        "UCG-Max-NS-R",
+        "UCG-Max-R",
+        "UCG-Max-UK"
       ],
       "sku": "UCG-Max",
       "sysid": "a69a",
@@ -43232,7 +44551,13 @@
         "UCG-Ultra",
         "UDR-Pro",
         "UDR-Ultra",
-        "UDRULT"
+        "UDRULT",
+        "UCG-Ultra-AR",
+        "UCG-Ultra-AU",
+        "UCG-Ultra-BR",
+        "UCG-Ultra-EU",
+        "UCG-Ultra-R",
+        "UCG-Ultra-UK"
       ],
       "sku": "UCG-Ultra",
       "sysid": "a678",
@@ -43954,7 +45279,8 @@
       },
       "shortnames": [
         "UCK-G2-PLUS",
-        "UCKP"
+        "UCKP",
+        "UCK-G2-PLUS-R"
       ],
       "sku": "UCK-G2-PLUS",
       "sysid": "e970",
@@ -44373,7 +45699,8 @@
       },
       "shortnames": [
         "UDBIOT",
-        "UDB-IoT"
+        "UDB-IoT",
+        "UDB-IoT-US"
       ],
       "sku": "UDB-IoT",
       "sysid": "ea03",
@@ -44518,7 +45845,19 @@
       },
       "shortnames": [
         "UDB",
-        "UDB-Pro"
+        "UDB-Pro",
+        "UDB-AR",
+        "UDB-AU",
+        "UDB-BR",
+        "UDB-EU",
+        "UDB-Pro-AR",
+        "UDB-Pro-AU",
+        "UDB-Pro-BR",
+        "UDB-Pro-EU",
+        "UDB-Pro-UK",
+        "UDB-Pro-US",
+        "UDB-UK",
+        "UDB-US"
       ],
       "sku": "UDB-Pro",
       "sysid": "e801",
@@ -44671,7 +46010,8 @@
         "UDB-Sector",
         "UDBSECTOR",
         "UDB-Pro-Sector",
-        "UDBPROSECTOR"
+        "UDBPROSECTOR",
+        "UDB-Pro-Sector-US"
       ],
       "sku": "UDB-Pro-Sector",
       "sysid": "e802",
@@ -44808,7 +46148,14 @@
       },
       "shortnames": [
         "UDB-Switch",
-        "UDBSW"
+        "UDBSW",
+        "UDB-Switch-AR",
+        "UDB-Switch-AU",
+        "UDB-Switch-BR",
+        "UDB-Switch-EU",
+        "UDB-Switch-U",
+        "UDB-Switch-UK",
+        "UDB-Switch-US"
       ],
       "sku": "UDB-Switch",
       "sysid": "a69f",
@@ -44961,7 +46308,8 @@
       },
       "shortnames": [
         "UDIM-AC",
-        "ULD3AC"
+        "ULD3AC",
+        "UDIM-AC-3"
       ],
       "sku": "UDIM-AC",
       "sysid": "ec08",
@@ -45156,7 +46504,10 @@
       },
       "shortnames": [
         "UDIM-AT",
-        "ULD3PE"
+        "ULD3PE",
+        "UDIM-AT-5",
+        "UDIM-AT-5-US",
+        "UDIM-AT-US"
       ],
       "sku": "UDIM-AT",
       "sysid": "ec06",
@@ -45383,7 +46734,12 @@
         "name": "Dream Machine"
       },
       "shortnames": [
-        "UDM"
+        "UDM",
+        "UDM-AU",
+        "UDM-EU",
+        "UDM-R",
+        "UDM-UK",
+        "UDM-US"
       ],
       "sku": "UDM",
       "sysid": "ea11",
@@ -45624,7 +46980,11 @@
       },
       "shortnames": [
         "UDM-Beast",
-        "UDMEA4C"
+        "UDMEA4C",
+        "UDM-Beast-AR",
+        "UDM-Beast-AU",
+        "UDM-Beast-EU",
+        "UDM-Beast-UK"
       ],
       "sku": "UDM-Beast",
       "sysid": "ea4c",
@@ -45830,7 +47190,14 @@
         "UDM-PRO",
         "UDM-Pro",
         "UDMPRO",
-        "UDMP"
+        "UDMP",
+        "UDM-Pro-AR",
+        "UDM-Pro-AU",
+        "UDM-Pro-BR",
+        "UDM-Pro-EU",
+        "UDM-Pro-R",
+        "UDM-Pro-U",
+        "UDM-Pro-UK"
       ],
       "sku": "UDM-Pro",
       "sysid": "ea15",
@@ -46125,7 +47492,14 @@
       },
       "shortnames": [
         "UDM-Pro-Max",
-        "UDMPROMAX"
+        "UDMPROMAX",
+        "UDM-Pro-Max-AR",
+        "UDM-Pro-Max-AU",
+        "UDM-Pro-Max-BR",
+        "UDM-Pro-Max-EU",
+        "UDM-Pro-Max-R",
+        "UDM-Pro-Max-U",
+        "UDM-Pro-Max-UK"
       ],
       "sku": "UDM-Pro-Max",
       "sysid": "ea32",
@@ -46426,7 +47800,16 @@
         "UDM-PRO-SE",
         "UDM-SE",
         "UDMPROSE",
-        "UDMSE"
+        "UDMSE",
+        "UDM-Pro-SE-EA",
+        "UDM-Pro-SE-EU-EA",
+        "UDM-SE-AR",
+        "UDM-SE-AU",
+        "UDM-SE-BR",
+        "UDM-SE-EU",
+        "UDM-SE-R",
+        "UDM-SE-U",
+        "UDM-SE-UK"
       ],
       "sku": "UDM-SE",
       "sysid": "ea2c",
@@ -46726,7 +48109,13 @@
         "name": "Dream Router"
       },
       "shortnames": [
-        "UDR"
+        "UDR",
+        "UDR-EU",
+        "UDR-R",
+        "UDR-TW",
+        "UDR-UK",
+        "UDR-US",
+        "UDR-US-EA"
       ],
       "sku": "UDR",
       "sysid": "eccc",
@@ -46979,7 +48368,14 @@
       },
       "shortnames": [
         "UDR-5G-Max",
-        "UDR5G"
+        "UDR5G",
+        "UDR-5G-Max-AR",
+        "UDR-5G-Max-AU",
+        "UDR-5G-Max-BR",
+        "UDR-5G-Max-EU",
+        "UDR-5G-Max-R",
+        "UDR-5G-Max-UK",
+        "UDR-5G-Max-US"
       ],
       "sku": "UDR-5G-Max",
       "sysid": "a6b9",
@@ -47257,7 +48653,14 @@
         "name": "Dream Router 7"
       },
       "shortnames": [
-        "UDR7"
+        "UDR7",
+        "UDR7-AR",
+        "UDR7-AU",
+        "UDR7-BR",
+        "UDR7-EU",
+        "UDR7-R",
+        "UDR7-UK",
+        "UDR7-US"
       ],
       "sku": "UDR7",
       "sysid": "a67a",
@@ -47547,7 +48950,13 @@
         "name": "Dream Wall"
       },
       "shortnames": [
-        "UDW"
+        "UDW",
+        "UDW-BR",
+        "UDW-EU",
+        "UDW-EU-EA",
+        "UDW-R",
+        "UDW-US",
+        "UDW-US-EA"
       ],
       "sku": "UDW",
       "sysid": "ea2a",
@@ -47936,7 +49345,8 @@
         "name": "Fiber Instant"
       },
       "shortnames": [
-        "UF-Instant"
+        "UF-Instant",
+        "UF-Instant-BETA"
       ],
       "sku": "UF-Instant",
       "sysid": "eec6",
@@ -48033,7 +49443,13 @@
         "name": "Fiber Loco"
       },
       "shortnames": [
-        "UF-LOCO"
+        "UF-LOCO",
+        "UF-LOCO-20",
+        "UF-LOCO-5",
+        "UF-LOCO-AR",
+        "UF-LOCO-BR",
+        "UF-LOCO-EU",
+        "UF-LOCO-U"
       ],
       "sku": "UF-LOCO",
       "sysids": [],
@@ -48133,7 +49549,11 @@
         "name": "Fiber Nano"
       },
       "shortnames": [
-        "UF-Nano"
+        "UF-Nano",
+        "UF-Nano-AR",
+        "UF-Nano-BR",
+        "UF-Nano-EU",
+        "UF-Nano-U"
       ],
       "sku": "UF-Nano",
       "sysids": [],
@@ -48232,7 +49652,11 @@
         "name": "Fiber OLT"
       },
       "shortnames": [
-        "UF-OLT"
+        "UF-OLT",
+        "UF-OLT-AR",
+        "UF-OLT-BR",
+        "UF-OLT-EU",
+        "UF-OLT-U"
       ],
       "sku": "UF-OLT",
       "sysid": "eeaf",
@@ -48339,7 +49763,9 @@
       },
       "shortnames": [
         "UF-OLT-4",
-        "UF-OLT4"
+        "UF-OLT4",
+        "UF-OLT-4-BR",
+        "UF-OLT-4-EU"
       ],
       "sku": "UF-OLT-4",
       "sysid": "eec0",
@@ -48439,7 +49865,14 @@
       },
       "shortnames": [
         "UF-WIFI",
-        "UF-WiFi"
+        "UF-WiFi",
+        "UF-WIFI-BETA",
+        "UF-WIFI-US",
+        "UF-WiFi-AR",
+        "UF-WiFi-AU",
+        "UF-WiFi-BR",
+        "UF-WiFi-EU",
+        "UF-WiFi-U"
       ],
       "sku": "UF-WiFi",
       "sysid": "eec4",
@@ -48567,7 +50000,8 @@
       "shortnames": [
         "UFP Viewport",
         "UFP-VIEWPORT",
-        "UP Viewport"
+        "UP Viewport",
+        "UFP-VIEWPORT-R"
       ],
       "sku": "UFP-VIEWPORT",
       "sysid": "e980",
@@ -48775,7 +50209,11 @@
         "name": "UISP Console"
       },
       "shortnames": [
-        "UISP-Console"
+        "UISP-Console",
+        "UISP-Console-EA",
+        "UISP-Console-EU",
+        "UISP-Console-EU-EA",
+        "UISP-Console-R"
       ],
       "sku": "UISP-Console",
       "sysid": "ee6a",
@@ -48903,7 +50341,8 @@
         "name": "Fiber OLT XGS"
       },
       "shortnames": [
-        "UISP-FIBER-OLT-XGS"
+        "UISP-FIBER-OLT-XGS",
+        "UISP-FIBER-OLT-XGS-EU"
       ],
       "sku": "UISP-FIBER-OLT-XGS",
       "sysid": "eec7",
@@ -49008,7 +50447,8 @@
         "name": "Fiber XG"
       },
       "shortnames": [
-        "UISP-FIBER-XG"
+        "UISP-FIBER-XG",
+        "UISP-FIBER-XG-EU"
       ],
       "sku": "UISP-FIBER-XG",
       "sysid": "eec8",
@@ -49104,7 +50544,8 @@
         "name": "Fiber XGS"
       },
       "shortnames": [
-        "UISP-FIBER-XGS"
+        "UISP-FIBER-XGS",
+        "UISP-FIBER-XGS-EU"
       ],
       "sku": "UISP-FIBER-XGS",
       "sysid": "eec9",
@@ -49218,7 +50659,10 @@
         "name": "UISP LTE"
       },
       "shortnames": [
-        "UISP-LTE"
+        "UISP-LTE",
+        "UISP-LTE-EU-BETA",
+        "UISP-LTE-US-BETA",
+        "UISP-LTE-US-EA"
       ],
       "sku": "UISP-LTE",
       "sysid": "dca2",
@@ -49351,7 +50795,8 @@
         "name": "UISP Power"
       },
       "shortnames": [
-        "UISP-P"
+        "UISP-P",
+        "UISP-P-EA"
       ],
       "sku": "UISP-P",
       "sysid": "ee5a",
@@ -49481,7 +50926,10 @@
         "name": "UISP Power Pro"
       },
       "shortnames": [
-        "UISP-P-Pro"
+        "UISP-P-Pro",
+        "UISP-P-PRO-EA",
+        "UISP-P-PRO-EU-EA",
+        "UISP-P-Pro-EU"
       ],
       "sku": "UISP-P-Pro",
       "sysid": "ee5b",
@@ -49605,7 +51053,11 @@
         "name": "UISP Router"
       },
       "shortnames": [
-        "UISP-R"
+        "UISP-R",
+        "UISP-R-AU",
+        "UISP-R-EA",
+        "UISP-R-EU",
+        "UISP-R-EU-EA"
       ],
       "sku": "UISP-R",
       "sysid": "ee6e",
@@ -49739,7 +51191,8 @@
         "name": "UISP Router Lite"
       },
       "shortnames": [
-        "UISP-R-Lite"
+        "UISP-R-Lite",
+        "UNMS-R-Lite"
       ],
       "sku": "UISP-R-Lite",
       "sysid": "ee6b",
@@ -49873,7 +51326,11 @@
         "name": "UISP Router Pro"
       },
       "shortnames": [
-        "UISP-R-Pro"
+        "UISP-R-Pro",
+        "UISP-R-Pro-EA",
+        "UISP-R-Pro-EU",
+        "UISP-R-Pro-EU-EA",
+        "UNMS-R-Pro"
       ],
       "sku": "UISP-R-Pro",
       "sysid": "ee6d",
@@ -50001,7 +51458,10 @@
         "name": "UISP Switch"
       },
       "shortnames": [
-        "UISP-S"
+        "UISP-S",
+        "UISP-S-EA",
+        "UISP-S-EU",
+        "UISP-S-EU-EA"
       ],
       "sku": "UISP-S",
       "sysid": "ee6f",
@@ -50134,7 +51594,11 @@
         "name": "UISP Switch Pro"
       },
       "shortnames": [
-        "UISP-S-Pro"
+        "UISP-S-Pro",
+        "UISP-S-Pro-EA",
+        "UISP-S-Pro-EU",
+        "UISP-S-Pro-EU-EA",
+        "UNMS-S-Pro"
       ],
       "sku": "UISP-S-Pro",
       "sysid": "eed1",
@@ -50266,7 +51730,9 @@
       },
       "shortnames": [
         "U7UKU",
-        "UK-Ultra"
+        "UK-Ultra",
+        "UK-Ultra-R",
+        "UK-Ultra-US"
       ],
       "sku": "UK-Ultra",
       "sysid": "dca8",
@@ -50422,7 +51888,8 @@
       },
       "shortnames": [
         "ULED-AC",
-        "ULP3AC"
+        "ULP3AC",
+        "ULED-AC-2"
       ],
       "sku": "ULED-AC",
       "sysid": "ec0c",
@@ -50625,7 +52092,9 @@
       },
       "shortnames": [
         "ULED-AT",
-        "ULP3PE"
+        "ULP3PE",
+        "ULED-AT-2",
+        "ULED-AT-US"
       ],
       "sku": "ULED-AT",
       "sysid": "ec05",
@@ -50974,7 +52443,11 @@
         "name": "Mobile Router"
       },
       "shortnames": [
-        "UMR"
+        "UMR",
+        "UMR-EU",
+        "UMR-UK",
+        "UMR-US",
+        "UMR-US-EA"
       ],
       "sku": "UMR",
       "sysid": "39f0",
@@ -51067,7 +52540,8 @@
       "shortnames": [
         "UMR-Industrial",
         "UMR-Industrial-EU",
-        "UMR-Industrial-US"
+        "UMR-Industrial-US",
+        "UMR-Industrial-UK"
       ],
       "sku": "UMR-Industrial",
       "sysid": "7a1f",
@@ -51172,7 +52646,8 @@
       "shortnames": [
         "UMR-Ultra",
         "UMR-Ultra-US",
-        "UMR-Ultra-ROW"
+        "UMR-Ultra-ROW",
+        "UMR-Ultra-EU"
       ],
       "sku": "UMR-Ultra",
       "sysid": "43c6",
@@ -51291,7 +52766,13 @@
       "shortnames": [
         "UNAS-2-B",
         "UNAS2-B",
-        "UNAS2B"
+        "UNAS2B",
+        "UNAS-2-B-AR",
+        "UNAS-2-B-AU",
+        "UNAS-2-B-BR",
+        "UNAS-2-B-EU",
+        "UNAS-2-B-R",
+        "UNAS-2-B-UK"
       ],
       "sku": "UNAS-2-B",
       "sysid": "ea72",
@@ -51425,7 +52906,13 @@
       "shortnames": [
         "UNAS-2-W",
         "UNAS2-W",
-        "UNAS2W"
+        "UNAS2W",
+        "UNAS-2-W-AR",
+        "UNAS-2-W-AU",
+        "UNAS-2-W-BR",
+        "UNAS-2-W-EU",
+        "UNAS-2-W-R",
+        "UNAS-2-W-UK"
       ],
       "sku": "UNAS-2-W",
       "sysid": "ea62",
@@ -51555,7 +53042,10 @@
       "shortnames": [
         "UNAS-4-B",
         "UNAS4-B",
-        "UNAS4B"
+        "UNAS4B",
+        "UNAS-4-B-AU",
+        "UNAS-4-B-EU",
+        "UNAS-4-BETA"
       ],
       "sku": "UNAS-4-B",
       "sysid": "ea66",
@@ -51686,7 +53176,11 @@
       "shortnames": [
         "UNAS-4-W",
         "UNAS4-W",
-        "UNAS4W"
+        "UNAS4W",
+        "UNAS-4-W-AR",
+        "UNAS-4-W-AU",
+        "UNAS-4-W-EU",
+        "UNAS-4-W-UK"
       ],
       "sku": "UNAS-4-W",
       "sysid": "ea65",
@@ -51820,7 +53314,14 @@
       },
       "shortnames": [
         "UNAS-Pro",
-        "UNASPRO"
+        "UNASPRO",
+        "UNAS-Pro-AR",
+        "UNAS-Pro-AU",
+        "UNAS-Pro-BR",
+        "UNAS-Pro-EU",
+        "UNAS-Pro-R",
+        "UNAS-Pro-UK",
+        "UNAS-Pro-US"
       ],
       "sku": "UNAS-Pro",
       "sysid": "ea51",
@@ -51954,7 +53455,13 @@
       },
       "shortnames": [
         "UNAS-Pro-4",
-        "UNASPRO4"
+        "UNASPRO4",
+        "UNAS-Pro-4-AR",
+        "UNAS-Pro-4-AU",
+        "UNAS-Pro-4-BR",
+        "UNAS-Pro-4-EU",
+        "UNAS-Pro-4-U",
+        "UNAS-Pro-4-UK"
       ],
       "sku": "UNAS-Pro-4",
       "sysid": "ea67",
@@ -52094,7 +53601,12 @@
       },
       "shortnames": [
         "UNAS-Pro-8",
-        "UNASPRO8"
+        "UNASPRO8",
+        "UNAS-Pro-8-AR",
+        "UNAS-Pro-8-AU",
+        "UNAS-Pro-8-BR",
+        "UNAS-Pro-8-EU",
+        "UNAS-Pro-8-UK"
       ],
       "sku": "UNAS-Pro-8",
       "sysid": "ea63",
@@ -52470,7 +53982,12 @@
         "UNVR-4",
         "UNVR4",
         "UniFi Video NVR",
-        "UniFi Video NVR 2TB"
+        "UniFi Video NVR 2TB",
+        "UNVR-AR",
+        "UNVR-AU",
+        "UNVR-BR",
+        "UNVR-EU",
+        "UNVR-R"
       ],
       "sku": "UNVR",
       "sysid": "ea16",
@@ -52616,7 +54133,13 @@
       "shortnames": [
         "UNVR-AI-4",
         "UNVR-G2",
-        "UNVRAI4"
+        "UNVRAI4",
+        "UNVR-AI",
+        "UNVR-G2-AR",
+        "UNVR-G2-AU",
+        "UNVR-G2-BR",
+        "UNVR-G2-EU",
+        "UNVR-G2-UK"
       ],
       "sku": "UNVR-G2",
       "sysid": "ea68",
@@ -52752,7 +54275,12 @@
       "shortnames": [
         "UNVR-AI-8",
         "UNVR-G2-Pro",
-        "UNVRAI8"
+        "UNVRAI8",
+        "UNVR-G2-Pro-AR",
+        "UNVR-G2-Pro-AU",
+        "UNVR-G2-Pro-BR",
+        "UNVR-G2-Pro-EU",
+        "UNVR-G2-Pro-UK"
       ],
       "sku": "UNVR-G2-Pro",
       "sysid": "ea69",
@@ -52888,7 +54416,13 @@
       "shortnames": [
         "UNVR-Instant",
         "UNVRINS",
-        "UNVRINSTANT"
+        "UNVRINSTANT",
+        "UNVR-Instant-AR",
+        "UNVR-Instant-AU",
+        "UNVR-Instant-BR",
+        "UNVR-Instant-EU",
+        "UNVR-Instant-UK",
+        "UNVR-Instant-US"
       ],
       "sku": "UNVR-Instant",
       "sysid": "ea61",
@@ -53030,7 +54564,13 @@
       "shortnames": [
         "UNVR-PRO",
         "UNVR-Pro",
-        "UNVRPRO"
+        "UNVRPRO",
+        "UNVR-Pro-AR",
+        "UNVR-Pro-AU",
+        "UNVR-Pro-BR",
+        "UNVR-Pro-EU",
+        "UNVR-Pro-R",
+        "UNVR-Pro-U"
       ],
       "sku": "UNVR-Pro",
       "sysid": "ea20",
@@ -53233,7 +54773,8 @@
         "UP-Horn-Speaker",
         "UP Horn Speaker",
         "UP-AI-Horn-Speaker",
-        "UP AI Horn Speaker"
+        "UP AI Horn Speaker",
+        "UP-AI-Horn-Speaker-W"
       ],
       "sku": "UP-AI-Horn-Speaker",
       "sysid": "da22",
@@ -53427,7 +54968,10 @@
       "shortnames": [
         "UP-AI-SG",
         "UP-AI-Key",
-        "UP-AI-KEY"
+        "UP-AI-KEY",
+        "AI-Key",
+        "AI-Key-R",
+        "AI-Key-US"
       ],
       "sku": "UP-AI-Key",
       "sysid": "a5f0",
@@ -53525,7 +55069,8 @@
         "name": "AI Port"
       },
       "shortnames": [
-        "UP-AI-Port"
+        "UP-AI-Port",
+        "UP-AI-Port-R"
       ],
       "sku": "UP-AI-Port",
       "sysids": [],
@@ -53947,7 +55492,11 @@
       },
       "shortnames": [
         "UP Chime",
-        "UP-Chime"
+        "UP-Chime",
+        "UP-Chime-EU",
+        "UP-Chime-EU-EA",
+        "UP-Chime-US",
+        "UP-Chime-US-EA"
       ],
       "sku": "UP-Chime",
       "sysid": "ab12",
@@ -54042,7 +55591,8 @@
       },
       "shortnames": [
         "UP Chime PoE",
-        "UP-Chime-PoE"
+        "UP-Chime-PoE",
+        "UACC-Chime-PoE"
       ],
       "sku": "UP-Chime-PoE",
       "sysid": "ab14",
@@ -54271,7 +55821,8 @@
       "shortnames": [
         "UFP-SFL",
         "UP-FloodLight",
-        "UP FloodLight"
+        "UP FloodLight",
+        "UP-FloodLight-R"
       ],
       "sku": "UP-FloodLight",
       "sysids": [],
@@ -54392,7 +55943,9 @@
       "shortnames": [
         "UFP-SENSE",
         "UP-Sense",
-        "UP-SENSE"
+        "UP-SENSE",
+        "UP-Sense-3",
+        "UP-Sense-R"
       ],
       "sku": "UP-Sense",
       "sysid": "a912",
@@ -54605,7 +56158,13 @@
         "name": "PowerAmp"
       },
       "shortnames": [
-        "UPL-Amp-B"
+        "UPL-Amp-B",
+        "UPL-Amp-B-AU",
+        "UPL-Amp-B-BR",
+        "UPL-Amp-B-EU",
+        "UPL-Amp-B-R",
+        "UPL-Amp-B-UK",
+        "UPL-Amp-B-US"
       ],
       "sku": "UPL-Amp-B",
       "sysid": "aa03",
@@ -54719,7 +56278,11 @@
         "name": "PowerAmp"
       },
       "shortnames": [
-        "UPL-Amp-W"
+        "UPL-Amp-W",
+        "UPL-Amp-W-AU",
+        "UPL-Amp-W-EU",
+        "UPL-Amp-W-UK",
+        "UPL-Amp-W-US"
       ],
       "sku": "UPL-Amp-W",
       "sysid": "aa03",
@@ -54827,7 +56390,11 @@
         "name": "Play Audio Port"
       },
       "shortnames": [
-        "UPL-Port-B"
+        "UPL-Port-B",
+        "UPL-Port-B-AU",
+        "UPL-Port-B-EU",
+        "UPL-Port-B-UK",
+        "UPL-Port-B-US"
       ],
       "sku": "UPL-Port-B",
       "sysid": "aa04",
@@ -54929,7 +56496,11 @@
         "name": "Play Audio Port"
       },
       "shortnames": [
-        "UPL-Port-W"
+        "UPL-Port-W",
+        "UPL-Port-W-AU",
+        "UPL-Port-W-EU",
+        "UPL-Port-W-UK",
+        "UPL-Port-W-US"
       ],
       "sku": "UPL-Port-W",
       "sysid": "aa05",
@@ -56139,7 +57710,8 @@
       },
       "shortnames": [
         "US-16",
-        "UniFi Switch 16"
+        "UniFi Switch 16",
+        "USW-16"
       ],
       "sku": "US-16",
       "sysids": [],
@@ -56226,7 +57798,13 @@
       "shortnames": [
         "S216150",
         "US-16-150W",
-        "US16P150"
+        "US16P150",
+        "US-16-150W-AR",
+        "US-16-150W-AU",
+        "US-16-150W-BR",
+        "US-16-150W-EU",
+        "US-16-150W-R",
+        "US-16-150W-U"
       ],
       "sku": "US-16-150W",
       "sysid": "eb21",
@@ -56362,7 +57940,12 @@
       },
       "shortnames": [
         "US-16-XG",
-        "USXG"
+        "USXG",
+        "US-16-XG-AR",
+        "US-16-XG-AU",
+        "US-16-XG-BR",
+        "US-16-XG-EU",
+        "US-16-XG-U"
       ],
       "sku": "US-16-XG",
       "sysid": "eb20",
@@ -56502,7 +58085,13 @@
         "S224250",
         "US-24-250W",
         "US24P250",
-        "UniFi Switch AT 24 250W"
+        "UniFi Switch AT 24 250W",
+        "US-24-250W-AR",
+        "US-24-250W-AU",
+        "US-24-250W-BR",
+        "US-24-250W-EU",
+        "US-24-250W-R",
+        "US-24-250W-U"
       ],
       "sku": "US-24-250W",
       "sysid": "eb31",
@@ -56639,7 +58228,13 @@
       "shortnames": [
         "S224500",
         "US-24-500W",
-        "US24P500"
+        "US24P500",
+        "US-24-500W-AR",
+        "US-24-500W-AU",
+        "US-24-500W-BR",
+        "US-24-500W-EU",
+        "US-24-500W-R",
+        "US-24-500W-U"
       ],
       "sku": "US-24-500W",
       "sysid": "eb32",
@@ -56765,7 +58360,12 @@
         "US-24",
         "US-24-G1",
         "US24",
-        "UniFi Switch 24"
+        "UniFi Switch 24",
+        "US-24-AR",
+        "US-24-AU",
+        "US-24-BR",
+        "US-24-EU",
+        "US-24-U"
       ],
       "sku": "US-24-G1",
       "sysid": "eb30",
@@ -56898,7 +58498,13 @@
         "S248500",
         "US-48-500W",
         "US48P500",
-        "UniFi Switch 48 AT 500W"
+        "UniFi Switch 48 AT 500W",
+        "US-48-500W-AR",
+        "US-48-500W-AU",
+        "US-48-500W-BR",
+        "US-48-500W-EU",
+        "US-48-500W-R",
+        "US-48-500W-U"
       ],
       "sku": "US-48-500W",
       "sysid": "eb62",
@@ -57037,7 +58643,12 @@
         "S248750",
         "US-48-750W",
         "US48P750",
-        "UniFi Switch 48 AT 750W"
+        "UniFi Switch 48 AT 750W",
+        "US-48-750W-AR",
+        "US-48-750W-AU",
+        "US-48-750W-BR",
+        "US-48-750W-EU",
+        "US-48-750W-U"
       ],
       "sku": "US-48-750W",
       "sysid": "eb63",
@@ -57171,7 +58782,12 @@
         "US-48",
         "US-48-G1",
         "US48",
-        "UniFi Switch 48"
+        "UniFi Switch 48",
+        "US-48-AR",
+        "US-48-AU",
+        "US-48-BR",
+        "US-48-EU",
+        "US-48-U"
       ],
       "sku": "US-48-G1",
       "sysid": "eb60",
@@ -57416,7 +59032,13 @@
         "name": "Switch 8"
       },
       "shortnames": [
-        "USC8"
+        "USC8",
+        "US-8-5",
+        "US-8-AR",
+        "US-8-AU",
+        "US-8-BR",
+        "US-8-EU",
+        "US-8-U"
       ],
       "sku": "US-8",
       "sysid": "ed01",
@@ -57554,7 +59176,13 @@
         "S28150",
         "US-8-150W",
         "US8P150",
-        "USC8P150"
+        "USC8P150",
+        "US-8-150W-AR",
+        "US-8-150W-AU",
+        "US-8-150W-BR",
+        "US-8-150W-EU",
+        "US-8-150W-R",
+        "US-8-150W-U"
       ],
       "sku": "US-8-150W",
       "sysid": "ed03",
@@ -57699,7 +59327,17 @@
       "shortnames": [
         "US-8-60W",
         "US8P60",
-        "USC8P60"
+        "USC8P60",
+        "US-8-60W-5",
+        "US-8-60W-5-AU",
+        "US-8-60W-5-BR",
+        "US-8-60W-5-EU",
+        "US-8-60W-AR",
+        "US-8-60W-AU",
+        "US-8-60W-BR",
+        "US-8-60W-EU",
+        "US-8-60W-R",
+        "US-8-60W-U"
       ],
       "sku": "US-8-60W",
       "sysid": "ed02",
@@ -57817,7 +59455,9 @@
       },
       "shortnames": [
         "US-L2-24-PoE",
-        "US24PL2"
+        "US24PL2",
+        "US-L2-24-POE",
+        "US-L2-24-POE-BETA"
       ],
       "sku": "US-L2-24-PoE",
       "sysid": "eb33",
@@ -57941,7 +59581,9 @@
       },
       "shortnames": [
         "US-L2-48-PoE",
-        "US48PL2"
+        "US48PL2",
+        "US-L2-48-POE",
+        "US-L2-48-POE-BETA"
       ],
       "sku": "US-L2-48-PoE",
       "sysid": "eb66",
@@ -58074,7 +59716,13 @@
       },
       "shortnames": [
         "US-XG-6PoE",
-        "US6XG150"
+        "US6XG150",
+        "US-6-XG-POE",
+        "US-XG-6POE",
+        "US-XG-6POE-AR",
+        "US-XG-6POE-AU",
+        "US-XG-6POE-BR",
+        "US-XG-6POE-EU"
       ],
       "sku": "US-XG-6PoE",
       "sysid": "eb23",
@@ -58209,7 +59857,13 @@
       },
       "shortnames": [
         "UGWHD4",
-        "USG"
+        "USG",
+        "USG-AR",
+        "USG-AU",
+        "USG-BR",
+        "USG-EU",
+        "USG-HD-4",
+        "USG-U"
       ],
       "sku": "USG",
       "sysids": [],
@@ -58481,7 +60135,12 @@
       "shortnames": [
         "UGW4",
         "USG-PRO-4",
-        "USG PRO 4"
+        "USG PRO 4",
+        "USG-PRO-4-AR",
+        "USG-PRO-4-AU",
+        "USG-PRO-4-BR",
+        "USG-PRO-4-EU",
+        "USG-PRO-4-U"
       ],
       "sku": "USG-PRO-4",
       "sysid": "ee32",
@@ -58689,7 +60348,10 @@
       },
       "shortnames": [
         "UGWXG",
-        "USG-XG-8"
+        "USG-XG-8",
+        "USG-XG-8-AR",
+        "USG-XG-8-BR",
+        "USG-XG-8-EU"
       ],
       "sku": "USG-XG-8",
       "sysid": "ee33",
@@ -61364,7 +63026,8 @@
       },
       "shortnames": [
         "USP-PDU-HD",
-        "USPPDUHD"
+        "USPPDUHD",
+        "USP-PDU-HD-EA"
       ],
       "sku": "USP-PDU-HD",
       "sysid": "ed15",
@@ -61659,7 +63322,8 @@
       },
       "shortnames": [
         "USP-PDU-Pro",
-        "USPPDUP"
+        "USPPDUP",
+        "USP-Pro-PDU-EA"
       ],
       "sku": "USP-PDU-Pro",
       "sysid": "ed12",
@@ -62240,7 +63904,8 @@
       },
       "shortnames": [
         "UP1",
-        "USP-Plug"
+        "USP-Plug",
+        "USP-Plug-US"
       ],
       "sku": "USP-Plug",
       "sysid": "ee73",
@@ -62360,7 +64025,13 @@
       },
       "shortnames": [
         "USP-RPS",
-        "USPRPS"
+        "USPRPS",
+        "USP-RPS-AR",
+        "USP-RPS-AU",
+        "USP-RPS-BR",
+        "USP-RPS-EU",
+        "USP-RPS-R",
+        "USP-RPS-U"
       ],
       "sku": "USP-RPS",
       "sysid": "ed11",
@@ -62656,7 +64327,8 @@
       },
       "shortnames": [
         "UP6",
-        "USP-Strip"
+        "USP-Strip",
+        "USP-Strip-US"
       ],
       "sku": "USP-Strip",
       "sysid": "ee74",
@@ -62926,7 +64598,15 @@
       },
       "shortnames": [
         "USL16P",
-        "USW-16-PoE"
+        "USW-16-PoE",
+        "USW-16-POE",
+        "USW-16-POE-AR",
+        "USW-16-POE-AU",
+        "USW-16-POE-BETA",
+        "USW-16-POE-BR",
+        "USW-16-POE-EU",
+        "USW-16-PoE-R",
+        "USW-16-PoE-U"
       ],
       "sku": "USW-16-PoE",
       "sysid": "ed20",
@@ -63194,7 +64874,13 @@
       },
       "shortnames": [
         "USL24",
-        "USW-24"
+        "USW-24",
+        "USW-24-AR",
+        "USW-24-AU",
+        "USW-24-BR",
+        "USW-24-EU",
+        "USW-24-R",
+        "USW-24-U"
       ],
       "sku": "USW-24",
       "sysid": "ed24",
@@ -63331,7 +65017,8 @@
       "shortnames": [
         "USL24P",
         "USW-24-PoE",
-        "UniFi Switch PoE 24"
+        "UniFi Switch PoE 24",
+        "USW-24-POE-BETA"
       ],
       "sku": "USW-24-PoE",
       "sysid": "ed21",
@@ -63601,7 +65288,14 @@
         "name": "Switch 24 PoE"
       },
       "shortnames": [
-        "USW-24-PoE-gen2"
+        "USW-24-PoE-gen2",
+        "USW-24-POE",
+        "USW-24-POE-AR",
+        "USW-24-POE-AU",
+        "USW-24-POE-BR",
+        "USW-24-POE-EU",
+        "USW-24-POE-R",
+        "USW-24-PoE-U"
       ],
       "sku": "USW-24-PoE",
       "sysid": "ed08",
@@ -63731,7 +65425,13 @@
       },
       "shortnames": [
         "USL48",
-        "USW-48"
+        "USW-48",
+        "USW-48-AR",
+        "USW-48-AU",
+        "USW-48-BR",
+        "USW-48-EU",
+        "USW-48-R",
+        "USW-48-U"
       ],
       "sku": "USW-48",
       "sysid": "ed25",
@@ -64001,7 +65701,14 @@
       "shortnames": [
         "USL48P",
         "USW-48-PoE",
-        "UniFi Switch PoE 48"
+        "UniFi Switch PoE 48",
+        "USW-48-POE",
+        "USW-48-POE-AR",
+        "USW-48-POE-AU",
+        "USW-48-POE-BR",
+        "USW-48-POE-EU",
+        "USW-48-POE-R",
+        "USW-48-PoE-U"
       ],
       "sku": "USW-48-PoE",
       "sysid": "ed22",
@@ -64277,7 +65984,14 @@
       },
       "shortnames": [
         "USL8A",
-        "USW-Aggregation"
+        "USW-Aggregation",
+        "USW-Aggregation-AR",
+        "USW-Aggregation-AU",
+        "USW-Aggregation-BR",
+        "USW-Aggregation-EU",
+        "USW-Aggregation-R",
+        "USW-Aggregation-U",
+        "USW-Aggregation-UK"
       ],
       "sku": "USW-Aggregation",
       "sysid": "ed2d",
@@ -64412,7 +66126,14 @@
       },
       "shortnames": [
         "US624P",
-        "USW-Enterprise-24-PoE"
+        "USW-Enterprise-24-PoE",
+        "USW-Enterprise-24-PoE-AR",
+        "USW-Enterprise-24-PoE-AU",
+        "USW-Enterprise-24-PoE-BR",
+        "USW-Enterprise-24-PoE-EU",
+        "USW-Enterprise-24-PoE-R",
+        "USW-Enterprise-24-PoE-U",
+        "USW-Enterprise-24-PoE-UK"
       ],
       "sku": "USW-Enterprise-24-PoE",
       "sysid": "eb38",
@@ -64554,7 +66275,14 @@
       "shortnames": [
         "US648P",
         "USW-Enterprise-48-PoE",
-        "UniFi Enterprise Switch 48 PoE"
+        "UniFi Enterprise Switch 48 PoE",
+        "USW-Enterprise-48-PoE-AR",
+        "USW-Enterprise-48-PoE-AU",
+        "USW-Enterprise-48-PoE-BR",
+        "USW-Enterprise-48-PoE-EU",
+        "USW-Enterprise-48-PoE-R",
+        "USW-Enterprise-48-PoE-U",
+        "USW-Enterprise-48-PoE-UK"
       ],
       "sku": "USW-Enterprise-48-PoE",
       "sysid": "eb28",
@@ -64698,7 +66426,15 @@
       },
       "shortnames": [
         "US68P",
-        "USW-Enterprise-8-PoE"
+        "USW-Enterprise-8-PoE",
+        "USW-Enterprise-8-PoE-AR",
+        "USW-Enterprise-8-PoE-AU",
+        "USW-Enterprise-8-PoE-BR",
+        "USW-Enterprise-8-PoE-EU",
+        "USW-Enterprise-8-PoE-EU-BETA",
+        "USW-Enterprise-8-PoE-R",
+        "USW-Enterprise-8-PoE-U",
+        "USW-Enterprise-8-PoE-UK"
       ],
       "sku": "USW-Enterprise-8-PoE",
       "sysid": "ed41",
@@ -64836,7 +66572,14 @@
         "US-24-XG",
         "USW-EnterpriseXG-24",
         "USXG24",
-        "UniFi Enterprise Switch XG 24"
+        "UniFi Enterprise Switch XG 24",
+        "USW-EnterpriseXG-24-AR",
+        "USW-EnterpriseXG-24-AU",
+        "USW-EnterpriseXG-24-BR",
+        "USW-EnterpriseXG-24-EU",
+        "USW-EnterpriseXG-24-R",
+        "USW-EnterpriseXG-24-U",
+        "USW-EnterpriseXG-24-UK"
       ],
       "sku": "USW-EnterpriseXG-24",
       "sysid": "eb29",
@@ -64970,7 +66713,10 @@
       },
       "shortnames": [
         "USF5P",
-        "USW-Flex"
+        "USW-Flex",
+        "USW-Flex-3",
+        "USW-Flex-BETA",
+        "USW-Flex-R"
       ],
       "sku": "USW-Flex",
       "sysid": "ed10",
@@ -65116,7 +66862,14 @@
         "name": "Switch Flex 2.5G 5"
       },
       "shortnames": [
-        "USM25G5"
+        "USM25G5",
+        "USW-Flex-2.5G-5-AR",
+        "USW-Flex-2.5G-5-AU",
+        "USW-Flex-2.5G-5-BR",
+        "USW-Flex-2.5G-5-EU",
+        "USW-Flex-2.5G-5-R",
+        "USW-Flex-2.5G-5-U",
+        "USW-Flex-2.5G-5-UK"
       ],
       "sku": "USW-Flex-2.5G-5",
       "sysid": "ed35",
@@ -65241,7 +66994,13 @@
         "name": "Switch Flex 2.5G 8"
       },
       "shortnames": [
-        "USM25G8"
+        "USM25G8",
+        "USW-Flex-2.5G-8-AR",
+        "USW-Flex-2.5G-8-AU",
+        "USW-Flex-2.5G-8-BR",
+        "USW-Flex-2.5G-8-EU",
+        "USW-Flex-2.5G-8-R",
+        "USW-Flex-2.5G-8-UK"
       ],
       "sku": "USW-Flex-2.5G-8",
       "sysid": "ed36",
@@ -65377,7 +67136,9 @@
         "name": "Switch Flex 2.5G 8 PoE"
       },
       "shortnames": [
-        "USM25G8P"
+        "USM25G8P",
+        "USW-Flex-2.5G-8-PoE",
+        "USW-Flex-2.5G-8-PoE-R"
       ],
       "sku": "USW-Flex-2.5G-8-POE",
       "sysid": "ed37",
@@ -65518,7 +67279,18 @@
       "shortnames": [
         "USMINI",
         "USW-Flex-Mini",
-        "USW-Mini"
+        "USW-Mini",
+        "USW-Flex-Mini-3",
+        "USW-Flex-Mini-3-R",
+        "USW-Flex-Mini-5",
+        "USW-Flex-Mini-AR",
+        "USW-Flex-Mini-AU",
+        "USW-Flex-Mini-BR",
+        "USW-Flex-Mini-EU",
+        "USW-Flex-Mini-R",
+        "USW-Flex-Mini-U",
+        "USW-Flex-Mini-UK",
+        "USW-Mini-Beta"
       ],
       "sku": "USW-Flex-Mini",
       "sysid": "ed30",
@@ -65769,7 +67541,14 @@
       },
       "shortnames": [
         "USFXG",
-        "USW-Flex-XG"
+        "USW-Flex-XG",
+        "USW-Flex-XG-AR",
+        "USW-Flex-XG-AU",
+        "USW-Flex-XG-BR",
+        "USW-Flex-XG-EU",
+        "USW-Flex-XG-R",
+        "USW-Flex-XG-U",
+        "USW-Flex-XG-UK"
       ],
       "sku": "USW-Flex-XG",
       "sysid": "ed40",
@@ -65899,7 +67678,8 @@
       },
       "shortnames": [
         "USC8P450",
-        "USW-Industrial"
+        "USW-Industrial",
+        "USW-Industrial-EU"
       ],
       "sku": "USW-Industrial",
       "sysid": "ed04",
@@ -66644,7 +68424,8 @@
       },
       "shortnames": [
         "UDC48X6",
-        "USW-Leaf"
+        "USW-Leaf",
+        "USW-Leaf-BETA"
       ],
       "sku": "USW-Leaf",
       "sysid": "f060",
@@ -66914,7 +68695,16 @@
         "name": "Switch Lite 16 PoE"
       },
       "shortnames": [
-        "USL16LP"
+        "USL16LP",
+        "USW-Lite-16-POE",
+        "USW-Lite-16-POE-AR",
+        "USW-Lite-16-POE-AU",
+        "USW-Lite-16-POE-BR",
+        "USW-Lite-16-POE-EU",
+        "USW-Lite-16-POE-R",
+        "USW-Lite-16-POE-U",
+        "USW-Lite-16-PoE-BETA",
+        "USW-Lite-16-PoE-UK"
       ],
       "sku": "USW-Lite-16-PoE",
       "sysid": "ed26",
@@ -67307,7 +69097,16 @@
       },
       "shortnames": [
         "USL8LP",
-        "USW-Lite-8-PoE"
+        "USW-Lite-8-PoE",
+        "USW-Lite-8-POE",
+        "USW-Lite-8-POE-AR",
+        "USW-Lite-8-POE-AU",
+        "USW-Lite-8-POE-BR",
+        "USW-Lite-8-POE-EU",
+        "USW-Lite-8-POE-R",
+        "USW-Lite-8-POE-UK",
+        "USW-Lite-8-PoE-BETA",
+        "USW-Lite-8-PoE-U"
       ],
       "sku": "USW-Lite-8-PoE",
       "sysid": "ed2a",
@@ -67446,7 +69245,10 @@
       },
       "shortnames": [
         "USL8MP",
-        "USW-Mission-Critical"
+        "USW-Mission-Critical",
+        "USW-Mission-Critical-BR",
+        "USW-Mission-Critical-EU",
+        "USW-Mission-Critical-US"
       ],
       "sku": "USW-Mission-Critical",
       "sysid": "ed2c",
@@ -67593,7 +69395,15 @@
       },
       "shortnames": [
         "US24PRO2",
-        "USW-Pro-24"
+        "USW-Pro-24",
+        "USW-Pro-24-AR",
+        "USW-Pro-24-AU",
+        "USW-Pro-24-BETA",
+        "USW-Pro-24-BR",
+        "USW-Pro-24-EU",
+        "USW-Pro-24-R",
+        "USW-Pro-24-U",
+        "USW-Pro-24-UK"
       ],
       "sku": "USW-Pro-24",
       "sysid": "eb37",
@@ -67716,7 +69526,15 @@
       "shortnames": [
         "US24PRO",
         "USW-Pro-24-PoE",
-        "USLP24P"
+        "USLP24P",
+        "USW-Pro-24-POE",
+        "USW-Pro-24-POE-AR",
+        "USW-Pro-24-POE-AU",
+        "USW-Pro-24-POE-BR",
+        "USW-Pro-24-POE-EU",
+        "USW-Pro-24-POE-R",
+        "USW-Pro-24-PoE-U",
+        "USW-Pro-24-PoE-UK"
       ],
       "sku": "USW-Pro-24-PoE",
       "sysid": "ed56",
@@ -67861,7 +69679,14 @@
       },
       "shortnames": [
         "US48PRO2",
-        "USW-Pro-48"
+        "USW-Pro-48",
+        "USW-PRO-48-AU",
+        "USW-PRO-48-R",
+        "USW-Pro-48-AR",
+        "USW-Pro-48-BR",
+        "USW-Pro-48-EU",
+        "USW-Pro-48-U",
+        "USW-Pro-48-UK"
       ],
       "sku": "USW-Pro-48",
       "sysid": "eb68",
@@ -67981,7 +69806,15 @@
       "shortnames": [
         "US48PRO",
         "USW-Pro-48-PoE",
-        "USLP48P"
+        "USLP48P",
+        "USW-Pro-48-POE",
+        "USW-Pro-48-POE-AR",
+        "USW-Pro-48-POE-AU",
+        "USW-Pro-48-POE-BR",
+        "USW-Pro-48-POE-EU",
+        "USW-Pro-48-PoE-R",
+        "USW-Pro-48-PoE-U",
+        "USW-Pro-48-PoE-UK"
       ],
       "sku": "USW-Pro-48-PoE",
       "sysid": "ed58",
@@ -68115,7 +69948,14 @@
       },
       "shortnames": [
         "USLP8P",
-        "USW-Pro-8-PoE"
+        "USW-Pro-8-PoE",
+        "USW-Pro-8-PoE-AR",
+        "USW-Pro-8-PoE-AU",
+        "USW-Pro-8-PoE-BR",
+        "USW-Pro-8-PoE-EU",
+        "USW-Pro-8-PoE-R",
+        "USW-Pro-8-PoE-U",
+        "USW-Pro-8-PoE-UK"
       ],
       "sku": "USW-Pro-8-PoE",
       "sysid": "ed5a",
@@ -68255,7 +70095,15 @@
       },
       "shortnames": [
         "USAGGPRO",
-        "USW-Pro-Aggregation"
+        "USW-Pro-Aggregation",
+        "USW-Aggregation-Pro",
+        "USW-Aggregation-Pro-EU",
+        "USW-Pro-Aggregation-AR",
+        "USW-Pro-Aggregation-AU",
+        "USW-Pro-Aggregation-BR",
+        "USW-Pro-Aggregation-EU",
+        "USW-Pro-Aggregation-R",
+        "USW-Pro-Aggregation-U"
       ],
       "sku": "USW-Pro-Aggregation",
       "sysid": "eb27",
@@ -68396,7 +70244,14 @@
         "name": "Switch Pro HD 24"
       },
       "shortnames": [
-        "USPH24"
+        "USPH24",
+        "USW-Pro-HD-24-AR",
+        "USW-Pro-HD-24-AU",
+        "USW-Pro-HD-24-BR",
+        "USW-Pro-HD-24-EU",
+        "USW-Pro-HD-24-R",
+        "USW-Pro-HD-24-U",
+        "USW-Pro-HD-24-UK"
       ],
       "sku": "USW-Pro-HD-24",
       "sysid": "ed73",
@@ -68535,7 +70390,14 @@
         "name": "Switch Pro HD 24 PoE"
       },
       "shortnames": [
-        "USPH24P"
+        "USPH24P",
+        "USW-Pro-HD-24-PoE-AR",
+        "USW-Pro-HD-24-PoE-AU",
+        "USW-Pro-HD-24-PoE-BR",
+        "USW-Pro-HD-24-PoE-EU",
+        "USW-Pro-HD-24-PoE-R",
+        "USW-Pro-HD-24-PoE-U",
+        "USW-Pro-HD-24-PoE-UK"
       ],
       "sku": "USW-Pro-HD-24-PoE",
       "sysid": "ed72",
@@ -68675,7 +70537,14 @@
       },
       "shortnames": [
         "USPM16",
-        "USW-Pro-Max-16"
+        "USW-Pro-Max-16",
+        "USW-Pro-Max-16-AR",
+        "USW-Pro-Max-16-AU",
+        "USW-Pro-Max-16-BR",
+        "USW-Pro-Max-16-EU",
+        "USW-Pro-Max-16-R",
+        "USW-Pro-Max-16-U",
+        "USW-Pro-Max-16-UK"
       ],
       "sku": "USW-Pro-Max-16",
       "sysid": "ed71",
@@ -68811,7 +70680,14 @@
       },
       "shortnames": [
         "USPM16P",
-        "USW-Pro-Max-16-PoE"
+        "USW-Pro-Max-16-PoE",
+        "USW-Pro-Max-16-PoE-AR",
+        "USW-Pro-Max-16-PoE-AU",
+        "USW-Pro-Max-16-PoE-BR",
+        "USW-Pro-Max-16-PoE-EU",
+        "USW-Pro-Max-16-PoE-R",
+        "USW-Pro-Max-16-PoE-U",
+        "USW-Pro-Max-16-PoE-UK"
       ],
       "sku": "USW-Pro-Max-16-PoE",
       "sysid": "ed70",
@@ -68953,7 +70829,14 @@
       },
       "shortnames": [
         "USPM24",
-        "USW-Pro-Max-24"
+        "USW-Pro-Max-24",
+        "USW-Pro-Max-24-AR",
+        "USW-Pro-Max-24-AU",
+        "USW-Pro-Max-24-BR",
+        "USW-Pro-Max-24-EU",
+        "USW-Pro-Max-24-R",
+        "USW-Pro-Max-24-U",
+        "USW-Pro-Max-24-UK"
       ],
       "sku": "USW-Pro-Max-24",
       "sysid": "ed5c",
@@ -69088,7 +70971,12 @@
       },
       "shortnames": [
         "USPM24P",
-        "USW-Pro-Max-24-PoE"
+        "USW-Pro-Max-24-PoE",
+        "USW-Pro-Max-24-PoE-AR",
+        "USW-Pro-Max-24-PoE-BR",
+        "USW-Pro-Max-24-PoE-EU",
+        "USW-Pro-Max-24-PoE-R",
+        "USW-Pro-Max-24-PoE-UK"
       ],
       "sku": "USW-Pro-Max-24-PoE",
       "sysid": "ed5b",
@@ -69228,7 +71116,12 @@
       },
       "shortnames": [
         "USPM48",
-        "USW-Pro-Max-48"
+        "USW-Pro-Max-48",
+        "USW-Pro-Max-48-AR",
+        "USW-Pro-Max-48-BR",
+        "USW-Pro-Max-48-EU",
+        "USW-Pro-Max-48-R",
+        "USW-Pro-Max-48-UK"
       ],
       "sku": "USW-Pro-Max-48",
       "sysid": "ed5e",
@@ -69359,7 +71252,13 @@
       },
       "shortnames": [
         "USPM48P",
-        "USW-Pro-Max-48-PoE"
+        "USW-Pro-Max-48-PoE",
+        "USW-Pro-Max-48-PoE-AR",
+        "USW-Pro-Max-48-PoE-AU",
+        "USW-Pro-Max-48-PoE-BR",
+        "USW-Pro-Max-48-PoE-EU",
+        "USW-Pro-Max-48-PoE-R",
+        "USW-Pro-Max-48-PoE-UK"
       ],
       "sku": "USW-Pro-Max-48-PoE",
       "sysid": "ed5d",
@@ -69487,7 +71386,14 @@
         "name": "Switch Pro XG 10 PoE"
       },
       "shortnames": [
-        "USPXG10P"
+        "USPXG10P",
+        "USW-Pro-XG-10-PoE-AR",
+        "USW-Pro-XG-10-PoE-AU",
+        "USW-Pro-XG-10-PoE-BR",
+        "USW-Pro-XG-10-PoE-EU",
+        "USW-Pro-XG-10-PoE-R",
+        "USW-Pro-XG-10-PoE-U",
+        "USW-Pro-XG-10-PoE-UK"
       ],
       "sku": "USW-Pro-XG-10-PoE",
       "sysid": "ed77",
@@ -69624,7 +71530,13 @@
         "name": "Switch Pro XG 24"
       },
       "shortnames": [
-        "USWPXG24"
+        "USWPXG24",
+        "USW-Pro-XG-24-AR",
+        "USW-Pro-XG-24-AU",
+        "USW-Pro-XG-24-BR",
+        "USW-Pro-XG-24-EU",
+        "USW-Pro-XG-24-R",
+        "USW-Pro-XG-24-UK"
       ],
       "sku": "USW-Pro-XG-24",
       "sysid": "ed45",
@@ -69746,7 +71658,14 @@
         "name": "Switch Pro XG 24 PoE"
       },
       "shortnames": [
-        "USWPXG24P"
+        "USWPXG24P",
+        "USW-Pro-XG-24-PoE-AR",
+        "USW-Pro-XG-24-PoE-AU",
+        "USW-Pro-XG-24-PoE-BR",
+        "USW-Pro-XG-24-PoE-EU",
+        "USW-Pro-XG-24-PoE-R",
+        "USW-Pro-XG-24-PoE-U",
+        "USW-Pro-XG-24-PoE-UK"
       ],
       "sku": "USW-Pro-XG-24-PoE",
       "sysid": "ed44",
@@ -69882,7 +71801,13 @@
         "name": "Switch Pro XG 48"
       },
       "shortnames": [
-        "USWPXG48"
+        "USWPXG48",
+        "USW-Pro-XG-48-AR",
+        "USW-Pro-XG-48-AU",
+        "USW-Pro-XG-48-BR",
+        "USW-Pro-XG-48-EU",
+        "USW-Pro-XG-48-R",
+        "USW-Pro-XG-48-UK"
       ],
       "sku": "USW-Pro-XG-48",
       "sysid": "ed43",
@@ -70013,7 +71938,14 @@
         "name": "Switch Pro XG 48 PoE"
       },
       "shortnames": [
-        "USWPXG48P"
+        "USWPXG48P",
+        "USW-Pro-XG-48-PoE-AR",
+        "USW-Pro-XG-48-PoE-AU",
+        "USW-Pro-XG-48-PoE-BR",
+        "USW-Pro-XG-48-PoE-EU",
+        "USW-Pro-XG-48-PoE-R",
+        "USW-Pro-XG-48-PoE-U",
+        "USW-Pro-XG-48-PoE-UK"
       ],
       "sku": "USW-Pro-XG-48-PoE",
       "sysid": "ed42",
@@ -70144,7 +72076,14 @@
         "name": "Switch Pro XG 8 PoE"
       },
       "shortnames": [
-        "USPXG8P"
+        "USPXG8P",
+        "USW-Pro-XG-8-PoE-AR",
+        "USW-Pro-XG-8-PoE-AU",
+        "USW-Pro-XG-8-PoE-BR",
+        "USW-Pro-XG-8-PoE-EU",
+        "USW-Pro-XG-8-PoE-R",
+        "USW-Pro-XG-8-PoE-U",
+        "USW-Pro-XG-8-PoE-UK"
       ],
       "sku": "USW-Pro-XG-8-PoE",
       "sysid": "ed76",
@@ -70271,7 +72210,13 @@
       },
       "shortnames": [
         "USW-Pro-XG-Aggregation",
-        "USWPXGAGG"
+        "USWPXGAGG",
+        "USW-Pro-XG-Aggregation-AR",
+        "USW-Pro-XG-Aggregation-AU",
+        "USW-Pro-XG-Aggregation-BR",
+        "USW-Pro-XG-Aggregation-EU",
+        "USW-Pro-XG-Aggregation-U",
+        "USW-Pro-XG-Aggregation-UK"
       ],
       "sku": "USW-Pro-XG-Aggregation",
       "sysid": "f003",
@@ -70407,7 +72352,8 @@
       },
       "shortnames": [
         "USM8P",
-        "USW-Ultra"
+        "USW-Ultra",
+        "USW-Ultra-R"
       ],
       "sku": "USW-Ultra",
       "sysid": "ed32",
@@ -70549,7 +72495,13 @@
       },
       "shortnames": [
         "USM8P210",
-        "USW-Ultra-210W"
+        "USW-Ultra-210W",
+        "USW-Ultra-210W-AR",
+        "USW-Ultra-210W-AU",
+        "USW-Ultra-210W-BR",
+        "USW-Ultra-210W-EU",
+        "USW-Ultra-210W-R",
+        "USW-Ultra-210W-UK"
       ],
       "sku": "USW-Ultra-210W",
       "sysid": "ed34",
@@ -70691,7 +72643,13 @@
       },
       "shortnames": [
         "USM8P60",
-        "USW-Ultra-60W"
+        "USW-Ultra-60W",
+        "USW-Ultra-60W-AR",
+        "USW-Ultra-60W-AU",
+        "USW-Ultra-60W-BR",
+        "USW-Ultra-60W-EU",
+        "USW-Ultra-60W-R",
+        "USW-Ultra-60W-UK"
       ],
       "sku": "USW-Ultra-60W",
       "sysid": "ed33",
@@ -70816,7 +72774,12 @@
       },
       "shortnames": [
         "WRS3F",
-        "USW-WAN"
+        "USW-WAN",
+        "USW-WAN-AR",
+        "USW-WAN-AU",
+        "USW-WAN-BR",
+        "USW-WAN-EU",
+        "USW-WAN-UK"
       ],
       "sku": "USW-WAN",
       "sysid": "ed74",
@@ -70952,7 +72915,13 @@
       },
       "shortnames": [
         "WRS3",
-        "USW-WAN-RJ45"
+        "USW-WAN-RJ45",
+        "USW-WAN-RJ45-AR",
+        "USW-WAN-RJ45-AU",
+        "USW-WAN-RJ45-BR",
+        "USW-WAN-RJ45-EU",
+        "USW-WAN-RJ45-U",
+        "USW-WAN-RJ45-UK"
       ],
       "sku": "USW-WAN-RJ45",
       "sysid": "ed75",
@@ -71094,7 +73063,9 @@
         "name": "Talk Telephone Adapter"
       },
       "shortnames": [
-        "UT-ATA"
+        "UT-ATA",
+        "UT-ATA-US",
+        "UT-ATA-US-EA"
       ],
       "sku": "UT-ATA",
       "sysids": [],
@@ -71184,7 +73155,9 @@
       },
       "shortnames": [
         "UTP-Flex",
-        "UVP-FLEX"
+        "UVP-FLEX",
+        "UT-Phone-Flex",
+        "UVP-Flex"
       ],
       "sku": "UTP-Flex",
       "sysids": [],
@@ -71407,7 +73380,8 @@
       "shortnames": [
         "UTP-G3-PRO",
         "UTP-G3-Touch-Pro",
-        "UTP-G3-TOUCH-PRO"
+        "UTP-G3-TOUCH-PRO",
+        "UTP-G3-Touch-Pro-R"
       ],
       "sku": "UTP-G3-Touch-Pro",
       "sysid": "efbb",
@@ -71634,7 +73608,11 @@
       "shortnames": [
         "UTP-Touch",
         "UVP-TOUCH",
-        "UVP-Touch"
+        "UVP-Touch",
+        "UT-Phone-Touch",
+        "UTP-Touch-U",
+        "UVP-Touch-L",
+        "UVP-Touch-L-EA"
       ],
       "sku": "UTP-Touch",
       "sysid": "ef82",
@@ -71740,7 +73718,10 @@
         "UTP-Touch-W",
         "UVP-TOUCH-W",
         "UVP-Touch-W",
-        "UTP-Touch-White"
+        "UTP-Touch-White",
+        "UT-Phone-Touch-W",
+        "UTP-Touch-White-L",
+        "UTP-Touch-White-U"
       ],
       "sku": "UTP-Touch-White",
       "sysid": "ef13",
@@ -71852,7 +73833,12 @@
         "UTP-Touch-Max",
         "UTP-TouchMax",
         "UVP-TOUCH-MAX",
-        "UVP-TouchMax"
+        "UVP-TouchMax",
+        "UT-Phone-TouchMax",
+        "UTP-TouchMax-L",
+        "UTP-TouchMax-U",
+        "UVP-TouchMax-L",
+        "UVP-TouchMax-L-EA"
       ],
       "sku": "UTP-TouchMax",
       "sysid": "ef0e",
@@ -71957,7 +73943,9 @@
       "shortnames": [
         "UTP-TouchMax-W",
         "UVP-TouchMax-W",
-        "UTP-TouchMax-White"
+        "UTP-TouchMax-White",
+        "UTP-TouchMax-White-L",
+        "UTP-TouchMax-White-U"
       ],
       "sku": "UTP-TouchMax-White",
       "sysid": "ef14",
@@ -72068,7 +74056,9 @@
         "name": "Travel Router"
       },
       "shortnames": [
-        "UTR"
+        "UTR",
+        "UTR-R",
+        "UTR-US"
       ],
       "sku": "UTR",
       "sysid": "ea06",
@@ -72192,7 +74182,8 @@
         "name": "Travel Router Long-Range"
       },
       "shortnames": [
-        "UTR-LR"
+        "UTR-LR",
+        "UTR-LR-US"
       ],
       "sku": "UTR-LR",
       "sysid": "ea08",
@@ -72306,7 +74297,8 @@
       "shortnames": [
         "UVC AI 360",
         "UVC-AI-360",
-        "UVC G4 AI360"
+        "UVC G4 AI360",
+        "UVC-AI-360-R"
       ],
       "sku": "UVC-AI-360",
       "sysid": "a5a0",
@@ -72404,7 +74396,9 @@
       },
       "shortnames": [
         "UVC AI 360 White",
-        "UVC-AI-360-White"
+        "UVC-AI-360-White",
+        "UVC-AI-360-W",
+        "UVC-AI-360-W-R"
       ],
       "sku": "UVC-AI-360-White",
       "sysid": "a5a0",
@@ -72509,7 +74503,9 @@
       },
       "shortnames": [
         "UVC AI Bullet",
-        "UVC-AI-Bullet"
+        "UVC-AI-Bullet",
+        "UVC-AI-Bullet-EA",
+        "UVC-AI-Bullet-R"
       ],
       "sku": "UVC-AI-Bullet",
       "sysid": "a5a2",
@@ -72619,7 +74615,10 @@
         "UVC AI DSLR",
         "UVC-AI-DSLR",
         "UVC DSLR BULLET",
-        "UVC-DSLR-Bullet"
+        "UVC-DSLR-Bullet",
+        "UVC-AI-DSLR-LD",
+        "UVC-AI-DSLR-LD-R",
+        "UVC-AI-DSLR-R"
       ],
       "sku": "UVC-AI-DSLR",
       "sysid": "a5b0",
@@ -72716,7 +74715,8 @@
       "shortnames": [
         "UVC-AI-Dome",
         "UVC-AI-Pro-Dome",
-        "UVC AI Dome"
+        "UVC AI Dome",
+        "UVC-AI-Dome-W"
       ],
       "sku": "UVC-AI-Dome",
       "sysid": "a5a5",
@@ -72804,7 +74804,8 @@
       "shortnames": [
         "UVC-AI-Dome-Black",
         "UVC-AI-Pro-Dome-Black",
-        "UVC AI Dome Black"
+        "UVC AI Dome Black",
+        "UVC-AI-Dome-B"
       ],
       "sku": "UVC-AI-Dome-Black",
       "sysid": "a5a5",
@@ -72892,7 +74893,8 @@
         "UVC-AI-Pro-LPR",
         "UVC AI Pro LPR",
         "UVC-AI-LPR",
-        "UVC AI LPR"
+        "UVC AI LPR",
+        "UVC-AI-LPR-B"
       ],
       "sku": "UVC-AI-LPR",
       "sysid": "a5a7",
@@ -73267,7 +75269,8 @@
         "G6-PTZ-Industrial",
         "UVC-G6-PTZ-Industrial",
         "UVC-AI-PTZ",
-        "UVC AI PTZ"
+        "UVC AI PTZ",
+        "UVC-AI-PTZ-W"
       ],
       "sku": "UVC-AI-PTZ",
       "sysid": "a065",
@@ -73354,7 +75357,8 @@
       },
       "shortnames": [
         "UVC-AI-PTZ-Black",
-        "UVC AI PTZ Black"
+        "UVC AI PTZ Black",
+        "UVC-AI-PTZ-B"
       ],
       "sku": "UVC-AI-PTZ-Black",
       "sysid": "a604",
@@ -73641,7 +75645,8 @@
       "shortnames": [
         "UVC AI PRO",
         "UVC AI Pro",
-        "UVC-AI-Pro"
+        "UVC-AI-Pro",
+        "UVC-AI-Pro-R"
       ],
       "sku": "UVC-AI-Pro",
       "sysid": "a5a4",
@@ -73739,7 +75744,8 @@
       },
       "shortnames": [
         "UVC-AI-Pro-White",
-        "UVC AI Pro White"
+        "UVC AI Pro White",
+        "UVC-AI-Pro-White-R"
       ],
       "sku": "UVC-AI-Pro-White",
       "sysids": [],
@@ -73838,7 +75844,9 @@
       "shortnames": [
         "UVC AI THETA",
         "UVC AI Theta",
-        "UVC-AI-Theta"
+        "UVC-AI-Theta",
+        "UVC-AI-Theta-EA",
+        "UVC-AI-Theta-R"
       ],
       "sku": "UVC-AI-Theta",
       "sysid": "a5a3",
@@ -73932,7 +75940,9 @@
       "shortnames": [
         "UVC-AI-Turret",
         "UVC-AI-Pro-Turret",
-        "UVC AI Turret"
+        "UVC AI Turret",
+        "UVC-AI-Turret-W",
+        "UVC-AI-Turret-W-R"
       ],
       "sku": "UVC-AI-Turret",
       "sysid": "a5a6",
@@ -74020,7 +76030,9 @@
       "shortnames": [
         "UVC-AI-Turret-Black",
         "UVC-AI-Pro-Turret-Black",
-        "UVC AI Turret Black"
+        "UVC AI Turret Black",
+        "UVC-AI-Turret-B",
+        "UVC-AI-Turret-B-R"
       ],
       "sku": "UVC-AI-Turret-Black",
       "sysid": "a5a6",
@@ -74104,7 +76116,16 @@
       },
       "shortnames": [
         "UVC Dome",
-        "UVC-Dome"
+        "UVC-Dome",
+        "UVC-Dome AR",
+        "UVC-Dome BR",
+        "UVC-Dome EU",
+        "UVC-Dome U",
+        "UVC-Dome-3",
+        "UVC-Dome-3 AR",
+        "UVC-Dome-3 BR",
+        "UVC-Dome-3 EU",
+        "UVC-Dome-3 U"
       ],
       "sku": "UVC-Dome",
       "sysid": "a525",
@@ -74196,7 +76217,8 @@
       "shortnames": [
         "UVC-G6-Entry-Lite",
         "G6-Entry-Lite",
-        "UVC-Doorbell-Lite"
+        "UVC-Doorbell-Lite",
+        "UVC-Doorbell-Lite-B"
       ],
       "sku": "UVC-Doorbell-Lite",
       "sysid": "a061",
@@ -74376,7 +76398,16 @@
         "UVC",
         "UVC-G2-Bullet",
         "UVC G2 Bullet",
-        "a5s-55"
+        "a5s-55",
+        "UVC AR",
+        "UVC BR",
+        "UVC EU",
+        "UVC U",
+        "UVC-3",
+        "UVC-3 AR",
+        "UVC-3 BR",
+        "UVC-3 EU",
+        "UVC-3 U"
       ],
       "sku": "UVC-G2-Bullet",
       "sysid": "a524",
@@ -74465,7 +76496,8 @@
       "shortnames": [
         "UVC-G3-AF",
         "UniFi Video Camera G3 AF",
-        "UVC G3 AF"
+        "UVC G3 AF",
+        "UVC-G3-AF-5"
       ],
       "sku": "UVC-G3-AF",
       "sysids": [],
@@ -74553,7 +76585,16 @@
         "UVC G3",
         "UniFi Protect G3",
         "UniFi Protect G3 Bullet",
-        "UVC G3 Bullet"
+        "UVC G3 Bullet",
+        "UVC-G3",
+        "UVC-G3-5",
+        "UVC-G3-5-EU",
+        "UVC-G3-AR",
+        "UVC-G3-BR",
+        "UVC-G3-BULLET",
+        "UVC-G3-BULLET-3",
+        "UVC-G3-EU",
+        "UVC-G3-U"
       ],
       "sku": "UVC-G3-Bullet",
       "sysids": [],
@@ -74662,7 +76703,15 @@
       },
       "shortnames": [
         "UVC G3 Dome",
-        "UVC-G3-Dome"
+        "UVC-G3-Dome",
+        "UVC-G3-DOME-3",
+        "UVC-G3-DOME-5-EU",
+        "UVC-G3-DOME-AR",
+        "UVC-G3-DOME-AU",
+        "UVC-G3-DOME-BR",
+        "UVC-G3-DOME-EU",
+        "UVC-G3-DOME-U",
+        "UVC-G3-Dome-5"
       ],
       "sku": "UVC-G3-Dome",
       "sysids": [],
@@ -74766,7 +76815,10 @@
       },
       "shortnames": [
         "UVC G3 Flex",
-        "UVC-G3-FLEX"
+        "UVC-G3-FLEX",
+        "UVC-G3-FLEX-3",
+        "UVC-G3-FLEX-5",
+        "UVC-G3-FLEX-R"
       ],
       "sku": "UVC-G3-FLEX",
       "sysid": "a534",
@@ -74897,7 +76949,12 @@
       },
       "shortnames": [
         "UVC G3 Instant",
-        "UVC-G3-INS"
+        "UVC-G3-INS",
+        "UVC-G3-INS-BR",
+        "UVC-G3-INS-EU",
+        "UVC-G3-INS-R",
+        "UVC-G3-INS-UK",
+        "UVC-G3-INS-US"
       ],
       "sku": "UVC-G3-INS",
       "sysid": "a590",
@@ -74996,7 +77053,15 @@
       },
       "shortnames": [
         "UVC G3 Micro",
-        "UVC-G3-Micro"
+        "UVC-G3-Micro",
+        "UVC-G3-MICRO",
+        "UVC-G3-MICRO-3",
+        "UVC-G3-MICRO-5",
+        "UVC-G3-MICRO-5-EU",
+        "UVC-G3-MICRO-AR",
+        "UVC-G3-MICRO-AU",
+        "UVC-G3-MICRO-BR",
+        "UVC-G3-MICRO-EU"
       ],
       "sku": "UVC-G3-Micro",
       "sysid": "a552",
@@ -75182,7 +77247,8 @@
       },
       "shortnames": [
         "UVC G3 Pro",
-        "UVC-G3-PRO"
+        "UVC-G3-PRO",
+        "UVC-G3-PRO-3"
       ],
       "sku": "UVC-G3-PRO",
       "sysid": "a532",
@@ -75313,7 +77379,11 @@
       "shortnames": [
         "UVC G4 Doorbell Pro",
         "UVC-G4-Doorbell-PRO",
-        "UVC-G4-Doorbell-Pro"
+        "UVC-G4-Doorbell-Pro",
+        "UVC-G4 Doorbell Pro-EU",
+        "UVC-G4 Doorbell Pro-R",
+        "UVC-G4 Doorbell Pro-US",
+        "UVC-G4 Doorbell Pro-US-R"
       ],
       "sku": "UVC-G4 Doorbell Pro",
       "sysid": "a574",
@@ -75423,7 +77493,9 @@
       },
       "shortnames": [
         "UVC-G4-Doorbell-Pro-PoE-White",
-        "UVC G4 Doorbell Pro PoE White"
+        "UVC G4 Doorbell Pro PoE White",
+        "UVC-G4 Doorbell Pro PoE Kit-White",
+        "UVC-G4 Doorbell Pro PoE Kit-White-R"
       ],
       "sku": "UVC-G4 Doorbell Pro PoE",
       "sysids": [],
@@ -75526,7 +77598,9 @@
       },
       "shortnames": [
         "UVC G4 Doorbell Pro PoE",
-        "UVC-G4-Doorbell-Pro-PoE"
+        "UVC-G4-Doorbell-Pro-PoE",
+        "UVC-G4 Doorbell Pro PoE Kit",
+        "UVC-G4 Doorbell Pro PoE Kit-R"
       ],
       "sku": "UVC-G4 Doorbell Pro PoE",
       "sysid": "a575",
@@ -75621,7 +77695,8 @@
       },
       "shortnames": [
         "UVC-G4-Doorbell-Pro-White",
-        "UVC G4 Doorbell Pro White"
+        "UVC G4 Doorbell Pro White",
+        "UVC-G4 Doorbell Pro-White-US-R"
       ],
       "sku": "UVC-G4 Doorbell Pro White",
       "sysids": [],
@@ -75718,7 +77793,9 @@
       "shortnames": [
         "UVC G4 Bullet",
         "UVC-G4-BULLET",
-        "UVC-G4-Bullet"
+        "UVC-G4-Bullet",
+        "UVC-G4-BULLET-R",
+        "UVC-G4-Bullet-3"
       ],
       "sku": "UVC-G4-Bullet",
       "sysid": "a572",
@@ -75826,7 +77903,9 @@
       "shortnames": [
         "UVC G4 Dome",
         "UVC-G4-DOME",
-        "UVC-G4-Dome"
+        "UVC-G4-Dome",
+        "UVC-G4-Dome-3",
+        "UVC-G4-Dome-R"
       ],
       "sku": "UVC-G4-Dome",
       "sysid": "a573",
@@ -75956,7 +78035,9 @@
       "shortnames": [
         "UVC G4 Doorbell",
         "UVC-G4-DoorBell",
-        "UVC-G4-Doorbell"
+        "UVC-G4-Doorbell",
+        "UVC-G4-Doorbell-EU",
+        "UVC-G4-Doorbell-US"
       ],
       "sku": "UVC-G4-Doorbell",
       "sysid": "a571",
@@ -76088,7 +78169,14 @@
       },
       "shortnames": [
         "UVC G4 Instant",
-        "UVC-G4-INS"
+        "UVC-G4-INS",
+        "UVC-G4-INS-BR",
+        "UVC-G4-INS-EU",
+        "UVC-G4-INS-EU-EA",
+        "UVC-G4-INS-R",
+        "UVC-G4-INS-US",
+        "UVC-G4-INS-US-EA",
+        "UVC-G4-INS-US-R"
       ],
       "sku": "UVC-G4-INS",
       "sysid": "a595",
@@ -76191,7 +78279,9 @@
       },
       "shortnames": [
         "UVC G4 Pro",
-        "UVC-G4-PRO"
+        "UVC-G4-PRO",
+        "UVC-G4-PRO-3",
+        "UVC-G4-Pro-R"
       ],
       "sku": "UVC-G4-PRO",
       "sysid": "a563",
@@ -76298,7 +78388,8 @@
       },
       "shortnames": [
         "UVC G4 PTZ",
-        "UVC-G4-PTZ"
+        "UVC-G4-PTZ",
+        "UVC-G4-PTZ-R"
       ],
       "sku": "UVC-G4-PTZ",
       "sysid": "a564",
@@ -76408,7 +78499,10 @@
       },
       "shortnames": [
         "UVC G5 Bullet",
-        "UVC-G5-Bullet"
+        "UVC-G5-Bullet",
+        "UVC-G5-Bullet-3",
+        "UVC-G5-Bullet-EA",
+        "UVC-G5-Bullet-R"
       ],
       "sku": "UVC-G5-Bullet",
       "sysid": "a591",
@@ -76513,7 +78607,10 @@
       },
       "shortnames": [
         "UVC G5 Dome",
-        "UVC-G5-Dome"
+        "UVC-G5-Dome",
+        "UVC-G5-Dome-3",
+        "UVC-G5-Dome-EA",
+        "UVC-G5-Dome-R"
       ],
       "sku": "UVC-G5-Dome",
       "sysid": "a592",
@@ -76618,7 +78715,8 @@
       },
       "shortnames": [
         "UVC-G5-Dome-Ultra",
-        "UVC G5 Dome Ultra"
+        "UVC G5 Dome Ultra",
+        "UVC-G5-Dome-Ultra-R"
       ],
       "sku": "UVC-G5-Dome-Ultra",
       "sysids": [],
@@ -76707,7 +78805,8 @@
       "shortnames": [
         "UVC-G5-Dome-Ultra-Black",
         "UVC G5 Dome Ultra Black",
-        "UVC-G5-Dome-Ultra-B"
+        "UVC-G5-Dome-Ultra-B",
+        "UVC-G5-Dome-Ultra-B-R"
       ],
       "sku": "UVC-G5-Dome-Ultra-B",
       "sysid": "a59d",
@@ -76808,7 +78907,9 @@
       },
       "shortnames": [
         "UVC G5 Flex",
-        "UVC-G5-Flex"
+        "UVC-G5-Flex",
+        "UVC-G5-Flex-EA",
+        "UVC-G5-Flex-R"
       ],
       "sku": "UVC-G5-Flex",
       "sysid": "a593",
@@ -76914,7 +79015,8 @@
       "shortnames": [
         "UVC-G5-PTZ",
         "UVC-G5-PTZ-Flex",
-        "UVC G5 PTZ"
+        "UVC G5 PTZ",
+        "UVC-G5-PTZ-R"
       ],
       "sku": "UVC-G5-PTZ",
       "sysids": [],
@@ -77001,7 +79103,8 @@
       },
       "shortnames": [
         "UVC-G5-PTZ-Black",
-        "UVC G5 PTZ Black"
+        "UVC G5 PTZ Black",
+        "UVC-G5-PTZ-B"
       ],
       "sku": "UVC-G5-PTZ-Black",
       "sysid": "a59b",
@@ -77108,7 +79211,9 @@
       },
       "shortnames": [
         "UVC G5 Pro",
-        "UVC-G5-Pro"
+        "UVC-G5-Pro",
+        "UVC-G5-Pro-EA",
+        "UVC-G5-Pro-R"
       ],
       "sku": "UVC-G5-Pro",
       "sysid": "a598",
@@ -77213,7 +79318,8 @@
       },
       "shortnames": [
         "UVC G5 Turret Ultra",
-        "UVC-G5-Turret-Ultra"
+        "UVC-G5-Turret-Ultra",
+        "UVC-G5-Turret-Ultra-R"
       ],
       "sku": "UVC-G5-Turret-Ultra",
       "sysids": [],
@@ -77397,7 +79503,8 @@
         "UVC-G6-180",
         "UVC G6 180",
         "UVC-G6-Pro-180",
-        "UVC G6 Pro 180"
+        "UVC G6 Pro 180",
+        "UVC-G6-180-W"
       ],
       "sku": "UVC-G6-180",
       "sysid": "a60d",
@@ -77675,7 +79782,8 @@
       "shortnames": [
         "UVC-G6-Bullet",
         "G6-Bullet",
-        "UVC G6 Bullet"
+        "UVC G6 Bullet",
+        "UVC-G6-Bullet-W-R"
       ],
       "sku": "UVC-G6-Bullet-W",
       "sysid": "a600",
@@ -78349,7 +80457,8 @@
       },
       "shortnames": [
         "UVC-G6-Entry",
-        "UVC G6 Entry"
+        "UVC G6 Entry",
+        "UVC-G6-Entry-R"
       ],
       "sku": "UVC-G6-Entry",
       "sysid": "a063",
@@ -78457,7 +80566,13 @@
       "shortnames": [
         "UVC-G6-Instant",
         "G6-Instant",
-        "UVC G6 Instant"
+        "UVC G6 Instant",
+        "UVC-G6-INS-W-AU",
+        "UVC-G6-INS-W-EU",
+        "UVC-G6-INS-W-R",
+        "UVC-G6-INS-W-UK",
+        "UVC-G6-INS-W-US",
+        "UVC-G6-INS-W-US-R"
       ],
       "sku": "UVC-G6-INS-W",
       "sysid": "a603",
@@ -78734,7 +80849,8 @@
       "shortnames": [
         "UVC-G6-PTZ",
         "G6-PTZ",
-        "UVC G6 PTZ"
+        "UVC G6 PTZ",
+        "UVC-G6-PTZ-W"
       ],
       "sku": "UVC-G6-PTZ",
       "sysid": "a605",
@@ -79496,7 +81612,8 @@
       "shortnames": [
         "UVC-G6-Entry-Pro",
         "UVC-G6-Pro-Entry",
-        "UVC G6 Pro Entry"
+        "UVC G6 Pro Entry",
+        "UVC-G6-Pro-Entry-R"
       ],
       "sku": "UVC-G6-Pro-Entry",
       "sysid": "a06d",
@@ -79863,7 +81980,8 @@
       "shortnames": [
         "UVC-G6-Turret",
         "G6-Turret",
-        "UVC G6 Turret"
+        "UVC G6 Turret",
+        "UVC-G6-Turret-W-R"
       ],
       "sku": "UVC-G6-Turret-W",
       "sysid": "a601",
@@ -79948,7 +82066,15 @@
       "shortnames": [
         "UVC Micro",
         "UVC-Micro",
-        "UniFi Video Camera Micro"
+        "UniFi Video Camera Micro",
+        "UVC-Micro-3",
+        "UVC-Micro-3-BR",
+        "UVC-Micro-3-EU",
+        "UVC-Micro-3-U",
+        "UVC-Micro-AR",
+        "UVC-Micro-BR",
+        "UVC-Micro-EU",
+        "UVC-Micro-U"
       ],
       "sku": "UVC-Micro",
       "sysid": "a526",
@@ -80036,7 +82162,11 @@
       },
       "shortnames": [
         "UVC Pro",
-        "UVC-Pro"
+        "UVC-Pro",
+        "UVC-Pro AR",
+        "UVC-Pro BR",
+        "UVC-Pro EU",
+        "UVC-Pro U"
       ],
       "sku": "UVC-Pro",
       "sysid": "a521",
@@ -80557,7 +82687,10 @@
       },
       "shortnames": [
         "UWB-XG",
-        "UXSDM"
+        "UXSDM",
+        "UWB-XG-AR",
+        "UWB-XG-EU",
+        "UWB-XG-US"
       ],
       "sku": "UWB-XG",
       "sysid": "e580",
@@ -80851,7 +82984,13 @@
       },
       "shortnames": [
         "UEX",
-        "UX"
+        "UX",
+        "UX-AU",
+        "UX-BR",
+        "UX-EU",
+        "UX-R",
+        "UX-UK",
+        "UX-US"
       ],
       "sku": "UX",
       "sysid": "a667",
@@ -81082,7 +83221,14 @@
       "shortnames": [
         "UX7",
         "UX-Max",
-        "UXMAX"
+        "UXMAX",
+        "UX7-AR",
+        "UX7-AU",
+        "UX7-BR",
+        "UX7-EU",
+        "UX7-R",
+        "UX7-UK",
+        "UX7-US"
       ],
       "sku": "UX7",
       "sysid": "a69b",
@@ -81324,7 +83470,12 @@
       },
       "shortnames": [
         "UXG-Enterprise",
-        "UXGENT"
+        "UXGENT",
+        "UXG-Enterprise-AR",
+        "UXG-Enterprise-AU",
+        "UXG-Enterprise-EU",
+        "UXG-Enterprise-R",
+        "UXG-Enterprise-UK"
       ],
       "sku": "UXG-Enterprise",
       "sysid": "ea3e",
@@ -81598,7 +83749,13 @@
       "shortnames": [
         "UXG-Fiber",
         "UXG-FIBER",
-        "UXGA6AA"
+        "UXGA6AA",
+        "UXG-Fiber-AR",
+        "UXG-Fiber-AU",
+        "UXG-Fiber-BR",
+        "UXG-Fiber-EU",
+        "UXG-Fiber-R",
+        "UXG-Fiber-UK"
       ],
       "sku": "UXG-Fiber",
       "sysid": "a6aa",
@@ -81900,7 +84057,13 @@
       },
       "shortnames": [
         "UXG",
-        "UXG-Lite"
+        "UXG-Lite",
+        "UXG-Lite-AR",
+        "UXG-Lite-AU",
+        "UXG-Lite-BR",
+        "UXG-Lite-EU",
+        "UXG-Lite-R",
+        "UXG-Lite-UK"
       ],
       "sku": "UXG-Lite",
       "sysid": "a677",
@@ -82082,7 +84245,13 @@
         "name": "Gateway Max"
       },
       "shortnames": [
-        "UXGB"
+        "UXGB",
+        "UXG-Max-AR",
+        "UXG-Max-AU",
+        "UXG-Max-BR",
+        "UXG-Max-EU",
+        "UXG-Max-R",
+        "UXG-Max-UK"
       ],
       "sku": "UXG-Max",
       "sysid": "a690",
@@ -82306,7 +84475,11 @@
       "shortnames": [
         "UXG-PRO",
         "UXG-Pro",
-        "UXGPRO"
+        "UXGPRO",
+        "UXG-Pro-EU",
+        "UXG-Pro-R",
+        "UXG-Pro-US",
+        "UXG-Pro-US-R"
       ],
       "sku": "UXG-Pro",
       "sysid": "ea19",
@@ -82537,7 +84710,8 @@
         "name": "WiFiman Wizard"
       },
       "shortnames": [
-        "WM-W"
+        "WM-W",
+        "WM-W-EA"
       ],
       "sku": "WM-W",
       "sysids": [],
@@ -82656,7 +84830,12 @@
       "shortnames": [
         "AirFiber Wave AP",
         "WaveAP",
-        "Wave-AP"
+        "Wave-AP",
+        "Wave-AP-EA",
+        "Wave-AP-EU",
+        "Wave-AP-EU-EA",
+        "Wave-AP-US",
+        "Wave-AP-US-EA"
       ],
       "sku": "Wave-AP",
       "sysid": "ac1b",
@@ -82794,7 +84973,12 @@
         "name": "Wave Access Point"
       },
       "shortnames": [
-        "Wave-AP-Gen2"
+        "Wave-AP-Gen2",
+        "Wave-AP-Gen2-AR",
+        "Wave-AP-Gen2-AU",
+        "Wave-AP-Gen2-EU",
+        "Wave-AP-Gen2-UK",
+        "Wave-AP-Gen2-US"
       ],
       "sku": "Wave-AP-Gen2",
       "sysid": "ac20",
@@ -82919,7 +85103,12 @@
         "name": "Wave Micro"
       },
       "shortnames": [
-        "Wave-AP-Micro"
+        "Wave-AP-Micro",
+        "Wave-AP-Micro-EA",
+        "Wave-AP-Micro-EU",
+        "Wave-AP-Micro-EU-EA",
+        "Wave-AP-Micro-US",
+        "Wave-AP-Micro-US-EA"
       ],
       "sku": "Wave-AP-Micro",
       "sysid": "ac16",
@@ -83050,7 +85239,9 @@
         "name": "Wave Pro"
       },
       "shortnames": [
-        "Wave-Pro"
+        "Wave-Pro",
+        "Wave-Pro-EU",
+        "Wave-Pro-US"
       ],
       "sku": "Wave-Pro",
       "sysid": "ac19",
@@ -83156,7 +85347,9 @@
       "shortnames": [
         "IWD1U",
         "mFI-LD",
-        "IWS1U"
+        "IWS1U",
+        "mFi-LD",
+        "mFi-LD-W"
       ],
       "sku": "mFI-LD",
       "sysids": [],
@@ -83320,7 +85513,8 @@
       },
       "shortnames": [
         "mFI In-Wall Outlet Black",
-        "mFI-MPW-BK"
+        "mFI-MPW-BK",
+        "mFi-MPW"
       ],
       "sku": "mFI-MPW-BK",
       "sysids": [],
@@ -83328,5 +85522,5 @@
       "videos": {}
     }
   ],
-  "version": "24d668e940638250655176f9b7245c19634e5c73"
+  "version": "92e630d855db10fb307f5077c5e028c8b9e92019"
 }
