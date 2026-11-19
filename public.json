@@ -9571,6 +9571,8 @@
       },
       "id": "eadbaa84-16be-43e4-96ed-e981d14005a4",
       "images": {
+        "blueprint": "df428072925b9fff2dbd30fc3b0c6cd2",
+        "blueprint-dark": "98be0a02c56f623cddca7d5cbdbf3e52",
         "default": "32a764b52634122e1b9d94803968002a",
         "nopadding": "7138bc75d1fd96f45ce194251415c489",
         "rack": "c1f9fe5de0f56616b525a2207257d33f",
@@ -9698,6 +9700,8 @@
       },
       "id": "07b17b1d-746f-4597-a957-6a56dbf40e1c",
       "images": {
+        "blueprint": "df428072925b9fff2dbd30fc3b0c6cd2",
+        "blueprint-dark": "98be0a02c56f623cddca7d5cbdbf3e52",
         "default": "7c44792cb23391c1725e2c6e0550854d",
         "nopadding": "43d3307a30b4449b4fb200845e53907d",
         "rack": "1aab8882b71a7efb043cb8c5de42d699",
@@ -9960,6 +9964,8 @@
       },
       "id": "5c2416a9-0170-46c5-8d6c-699c5a0211f0",
       "images": {
+        "blueprint": "1722f9ffa88885cc6165bb5ed93f8003",
+        "blueprint-dark": "bb478b9d30757beafdc06e106463768a",
         "default": "4be7d54acaceb55b9c9f4716c054e55b",
         "nopadding": "7c4f96816ff354c1b735eabddbf46c07",
         "rack": "7b373a93219d0b255bb82ed6293c531d",
@@ -10087,6 +10093,8 @@
       },
       "id": "0d17e9ba-5aee-4cc6-ad9e-f16250e1e615",
       "images": {
+        "blueprint": "1722f9ffa88885cc6165bb5ed93f8003",
+        "blueprint-dark": "bb478b9d30757beafdc06e106463768a",
         "default": "fba3fb47a9497d0279fdaf5e8964bd20",
         "nopadding": "b542d4327e3154adc1145d5b85baba25",
         "rack": "82d1d1749256b167b165e5c7b3c72939",
@@ -45714,12 +45722,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "AUTOLINK_ELEMENT",
-            "ACCESS_POINT_SWITCH",
-            "HAS_CLIENTS",
             "HAS_TEMPERATURE_SENSOR",
-            "ELEMENT_WITH_UPLINK_PRIORITY",
-            "BRIDGE"
+            "HAS_CLIENTS",
+            "ACCESS_POINT_SWITCH",
+            "AUTOLINK_ELEMENT",
+            "BRIDGE",
+            "ELEMENT_WITH_UPLINK_PRIORITY"
           ],
           "diagram": [
             "01"
@@ -85522,5 +85530,5 @@
       "videos": {}
     }
   ],
-  "version": "92e630d855db10fb307f5077c5e028c8b9e92019"
+  "version": "552e7eb834fd9950769087dbae89e970d36fa2c1"
 }
