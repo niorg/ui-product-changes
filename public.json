@@ -45722,12 +45722,12 @@
           "chipset": "b",
           "deviceCapabilities": [
             "WIRELESS_SWITCH",
-            "HAS_TEMPERATURE_SENSOR",
             "HAS_CLIENTS",
             "ACCESS_POINT_SWITCH",
             "AUTOLINK_ELEMENT",
             "BRIDGE",
-            "ELEMENT_WITH_UPLINK_PRIORITY"
+            "ELEMENT_WITH_UPLINK_PRIORITY",
+            "HAS_TEMPERATURE_SENSOR"
           ],
           "diagram": [
             "01"
@@ -50209,8 +50209,8 @@
         "topology": "66c0d1a657425fadaee513b972372d02"
       },
       "line": {
-        "id": "unifi-network",
-        "name": "UniFi"
+        "id": "uisp",
+        "name": "UISP"
       },
       "product": {
         "abbrev": "UISP Console",
@@ -85530,5 +85530,5 @@
       "videos": {}
     }
   ],
-  "version": "552e7eb834fd9950769087dbae89e970d36fa2c1"
+  "version": "8f35c6d915f720ef562c9a221e989df8ef1e22d6"
 }
